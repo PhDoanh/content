@@ -1,3 +1,3 @@
 # Doanhanma Blog
 
-Welcome to my Blog!
+Hello! My name is Doanh, see you later!
