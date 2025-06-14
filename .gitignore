@@ -1,0 +1,4 @@
+draft.md
+.obsidian/*
+!.obsidian/snippets/
+!.obsidian/snippets/**
