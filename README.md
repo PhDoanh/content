@@ -1,3 +1,3 @@
 # Doanhanma Blog
 
-Welcome to my World!
+Welcome to my Blog!
