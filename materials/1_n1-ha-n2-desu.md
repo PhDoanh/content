@@ -46,7 +46,7 @@ cssclasses: img
 </figure>
 
 # ✨ Ứng dụng
-## Giới thiệu bản thân và người khác 🙋‍♂️
+## Giới thiệu bản thân và người khác
 **Dùng để tự giới thiệu hoặc giới thiệu về danh tính, nghề nghiệp, vị trí** của bản thân và người khác trong các cuộc hội thoại thông thường hoặc trang trọng.
 
 > [!content]- <ruby>私<rt>わたし</rt></ruby> **は** <ruby>学生<rt>がくせい</rt></ruby> **です**。

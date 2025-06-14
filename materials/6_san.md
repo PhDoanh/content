@@ -46,7 +46,7 @@ cssclasses: img
 </figure>
 
 # ✨ Ứng dụng
-## Xưng hô với người khác 🙋‍♂️
+## Xưng hô với người khác
 **「さん」** là cách xưng hô lịch sự và phổ biến nhất trong tiếng Nhật, thường được dùng để thể hiện sự tôn trọng với người đối diện hoặc người được nhắc đến.
 
 > [!content]- <ruby>山田<rt>やまだ</rt></ruby>**さん**は<ruby>優<rt>やさ</rt></ruby>しい<ruby>人<rt>ひと</rt></ruby>です。

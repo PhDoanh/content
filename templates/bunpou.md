@@ -2,7 +2,7 @@
 date: <% tp.file.creation_date("YYYY-MM-DD") %>
 draft: true
 status: Not started
-title: "<% tp.file.title.split("_")[0] %>. <% tp.file.cursor(1) %>"
+title: '<% tp.file.title.split("_")[0] %>. <% tp.file.cursor(1) %>'
 description: "<% tp.file.cursor(2) %>"
 author: PhDoanh
 authorlink: https://github.com/PhDoanh

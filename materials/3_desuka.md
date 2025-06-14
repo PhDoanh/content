@@ -46,7 +46,7 @@ cssclasses: img
 </figure>
 
 # ✨ Ứng dụng
-## Hỏi về danh tính/nghề nghiệp 👨‍💼
+## Hỏi về danh tính/nghề nghiệp
 Dùng để **hỏi xác nhận** về danh tính hoặc nghề nghiệp của ai đó. Đây là cách hỏi **lịch sự** và **phổ biến** trong giao tiếp hàng ngày.
 
 > [!content]- <ruby>田中<rt>たなか</rt></ruby>さんは**先生ですか**？
