@@ -1,3 +1,3 @@
 # Doanhanma Blog
 
-Welcome to my Blog Pages!
+Welcome to my Blog!
