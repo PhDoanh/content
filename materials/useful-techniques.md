@@ -2,8 +2,8 @@
 date: 2025-06-01
 draft: true
 status: Not started
-title: 
-description: 
+title:
+description:
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:
