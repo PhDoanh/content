@@ -1,8 +1,5 @@
 ---
-date: 2025-01-22
-title: Welcome to my 🧠
-author: PhDoanh
-authorlink: https://github.com/PhDoanh
+title: Hello World
 enableToc: false
 cssclasses:
   - img
