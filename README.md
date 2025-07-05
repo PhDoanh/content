@@ -1,3 +1,3 @@
 # My Blog Content
 
-This is place that I store my 
+This is place that I store my articles 
