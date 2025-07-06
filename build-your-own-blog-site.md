@@ -1,6 +1,6 @@
 ---
 stage: "Idea"
-title: "Behind this Site: Cách tôi xây dựng nó"
+title: "Behind this Site: Cách tôi tạo ra nó"
 description: "Hướng dẫn cách xây dựng trang blog cá nhân cho mọi đối tượng"
 permalink: ""
 lang: vi
