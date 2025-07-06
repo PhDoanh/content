@@ -15,3 +15,4 @@ cssclasses:
 socialDescription: "OG description (~100 chars)"
 socialImage: "fully qualified URL to preview image"
 ---
+
