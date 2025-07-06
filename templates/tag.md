@@ -1,5 +1,5 @@
 ---
-status: "Not started"
+status: "Idea"
 title: ""
 description: ""
 permalink: ""
