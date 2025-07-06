@@ -14,10 +14,10 @@ cssclasses:
   - img
 ---
 **Tiến trình hiện tại**:
-- [x] [[japanese#Học bảng chữ Kana|Học Hiragana + Katakana]]
-- [ ] [[japanese#Thiết lập các công cụ học|Thiết lập các công cụ học]]  (bạn đang ở đây)
-- [ ] [[japanese#Học từ vựng và ngữ pháp|Học từ vựng + ngữ pháp]]
-- [ ] [[japanese#Áp dụng phương pháp Immersion|Áp dụng Immersion]]
+- [x] [[japanese/index#Học bảng chữ Kana|Học Hiragana + Katakana]]
+- [ ] [[japanese/index#Thiết lập các công cụ học|Thiết lập các công cụ học]]  (bạn đang ở đây)
+- [ ] [[japanese/index#Học từ vựng và ngữ pháp|Học từ vựng + ngữ pháp]]
+- [ ] [[japanese/index#Áp dụng phương pháp Immersion|Áp dụng Immersion]]
 
 > [!info] Lưu ý
 > - Hướng dẫn thiết lập này hoạt động trên **Windows** và chưa được thử nghiệm trên các nền tảng khác
@@ -56,7 +56,7 @@ cssclasses:
 > Bạn có thể xem các từ điển thú vị khác trên trang [này](https://github.com/MarvNC/yomichan-dictionaries)
 
 > [!tip]- Mẹo
-> Bạn đã có thể bắt tay vào [[japanese#Học từ vựng và ngữ pháp|học từ vựng và ngữ pháp]] ngay bây giờ! Sau đó tiếp tục các phần dưới khi đến bước áp dụng Immersion.
+> Bạn đã có thể bắt tay vào [[japanese/index#Học từ vựng và ngữ pháp|học từ vựng và ngữ pháp]] ngay bây giờ! Sau đó tiếp tục các phần dưới khi đến bước áp dụng Immersion.
 
 # Thiết lập công cụ cho Visual Novel
 
