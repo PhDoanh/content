@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Inside my brain"
 description: ""
 lang: vi
 aliases:
@@ -10,6 +10,4 @@ cssclasses:
   - btn
 ---
 
-Welcome to my second brains
-
-
+Tôi là Doanh, trang blog này nói về những gì đã xảy ra trong bộ não của tôi trong suốt hành trình học hỏi.     

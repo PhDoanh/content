@@ -1,5 +1,9 @@
 draft.md
-default-context.md
 .obsidian/*
 !.obsidian/snippets/
 !.obsidian/snippets/**
+default-context.md
+internet-of-things.md
+japanese.md
+misc.md
+online-testing.md

@@ -1,11 +1,22 @@
 ---
-draft: true
-status: Not started
+stage: Idea
 title: Online Testing
-description: Khám phá cách kiếm tiền từ kiểm thử phần mềm online với các cơ hội việc làm và dự án từ xa.
+description: Khám phá cách kiếm thêm thu nhập từ kiểm thử online với các cơ hội việc làm và dự án từ xa.
+permalink: ""
+comments: false
+lang: vi
+draft: false
 tags:
   - explorable
+aliases:
+  - 
+cssclasses:
+  - img
+  - btn
+socialDescription: ""
+socialImage: ""
 ---
+
 # Giới thiệu
 
 # Quy trình học việc và kiếm tiền
@@ -14,4 +25,4 @@ tags:
 
 # Mục tiêu tiếp theo
 
-# Các bài viết gần đây
+# Toàn bộ bài viết liên quan

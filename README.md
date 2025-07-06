@@ -1,4 +1,7 @@
 # My Blog Content
 
-This is place that I store my articles, you can join to contributing this repo by following this instructions 
+Đây là nơi tôi lưu trữ các bài viết của mình, bạn có thể tham gia cộng tác bài viết bằng cách làm theo hướng dẫn ở đây
+
+
+
 

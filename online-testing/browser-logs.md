@@ -11,6 +11,7 @@ tags:
   - windows
   - android
   - tester
+  - explorable
 aliases:
   - browser logs
 cssclasses:

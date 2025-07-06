@@ -1,11 +1,22 @@
 ---
-draft: true
-status: Not started
-title: Japanese
-description: Hành trình học tiếng Nhật từ cơ bản đến nâng cao với các phương pháp hiệu quả và tài liệu hữu ích.
+stage: "Idea"
+title: "Japanese"
+description: "Hành trình học tiếng Nhật từ cơ bản đến nâng cao với các phương pháp hiệu quả và tài liệu hữu ích."
+permalink: ""
+comments: false
+lang: vi
+draft: false
 tags:
   - explorable
+aliases: 
+  - 
+cssclasses:
+  - img
+  - btn
+socialDescription: ""
+socialImage: ""
 ---
+
 # Lời nói đầu
 ![[Pasted image 20240831132314.png|center ws-med]]
 
