@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: Hướng dẫn cộng tác
+title: Hướng dẫn cộng tác bài viết
 description: ""
 permalink: ""
 lang: vi
@@ -15,13 +15,6 @@ socialDescription: ""
 socialImage: ""
 ---
 
-# Cộng tác mã nguồn
+Dù đây là trang blog cá nhân, nhưng mình hoan nghênh sự đóng góp của các bạn để cải thiện chất lượng bài viết lẫn trải nghiệm trang web. Bạn sẽ nhận được quyền lợi tương xứng với mức độ đóng góp của mình
 
-> [!caution]- Nội dung đang hoàn thiện
-> Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[cộng tác bài viết]]
-> 
-> **Rất mong sự thông cảm của các bạn!**
-
-
-# Cộng tác bài viết
 
