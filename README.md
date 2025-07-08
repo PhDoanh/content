@@ -1,3 +1,8 @@
 # My Blog Content
 
-Đây là nơi lưu trữ các bài viết của mình, xoay quanh về lĩnh vực *"IoT trong Nhật Bản"* và những thứ liên quan khác. Bạn có thể tham gia cộng tác bài viết bằng cách làm theo hướng dẫn ở [đây](CONTRIBUTING)
+This is where I store my articles, mainly focused on _"IoT in Japan"_ and other related topics.  
+You’re welcome to contribute by following the instructions [here](CONTRIBUTING).
+
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+This work is licensed under a [Creative Commons Attribution‑NonCommercial‑ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
