@@ -15,6 +15,8 @@ socialDescription: ""
 socialImage: ""
 ---
 
-Dù đây là trang blog cá nhân, nhưng mình hoan nghênh sự đóng góp của các bạn để cải thiện chất lượng bài viết lẫn trải nghiệm trang web. Bạn sẽ nhận được quyền lợi tương xứng với mức độ đóng góp của mình
+Dù đây là trang blog cá nhân, nhưng mình hoan nghênh sự đóng góp của các bạn để cải thiện chất lượng bài viết lẫn trải nghiệm trang web. Bạn sẽ nhận được quyền lợi tương xứng với mức độ đóng góp của mình 
+
+1. 
 
 
