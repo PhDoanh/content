@@ -15,25 +15,25 @@ socialDescription: ""
 socialImage: ""
 ---
 
-Mặc dù đây là trang blog cá nhân, nhưng mình hoan nghênh sự đóng góp của các bạn để cải thiện chất lượng bài viết lẫn trải nghiệm website. Bạn sẽ nhận được quyền lợi tương xứng với mức độ đóng góp của mình. Hãy đọc qua hướng dẫn bên dưới để hiểu cách tham gia hiệu quả.
+Mặc dù đây là trang blog cá nhân, nhưng mình hoan nghênh sự đóng góp của các bạn để cải thiện chất lượng bài viết lẫn trải nghiệm trang blog. Bạn sẽ nhận được quyền lợi tương xứng với mức độ đóng góp của mình.  
 
 > [!info]- Quy tắc ứng xử 
 > Dự án này tuân theo [Code of Conduct](https://github.com/PhDoanh/blog/blob/v4/CODE_OF_CONDUCT.md), mong bạn giữ thái độ tích cực, tôn trọng và hợp tác trong mọi tương tác.
 
-1. Hãy mở [issues](https://github.com/PhDoanh/content/issues/new) để thảo luận nếu bạn định thực hiện thay đổi lớn
-2. Fork repo
-3. Viết commit theo chuẩn **imperative**, 50 ký tự đầu – ví dụ “Fix typo in README”
-4. Tạo PR: mô tả mục đích + issue liên quan + còn cần làm gì.  
-5. Chờ phản hồi từ reviewers. Sau khi được approve, PR sẽ được merge.
+**Điều kiện tiên quyết**:
+- Có tài khoản [Github](https://github.com/)
+- Có kiến thức cơ bản về [Markdown](https://www.markdownguide.org/)
 
+**Hướng dẫn cụ thể**:
+1. Tìm kiếm bài viết bạn muốn cộng tác trên trang blog này 
+2. Nhấn vào biểu tượng <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen-line-icon lucide-pen-line"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></svg> (Edit this page) ở đầu bài viết đó (Lần đầu cộng tác sẽ yêu cầu nhấn nút **"Fork this repository"** để hiển thị trình chỉnh sửa)
+3. Thực hiện các thay đổi của bạn
+4. Nhấn nút **"Commit changes..."** và điền tiêu đề, mô tả chi tiết cho các thay đổi đó
+5. Xác nhận đề xuất thay đổi bằng cách nhấn **"Propose changes"**
+6. Nhấn nút **"Create pull request"** để mở yêu cầu hợp nhất thay đổi vào trang blog
+7. Xem lại thông tin các thay đổi lần cuối và nhấn **"Create pull request"** lần nữa 
+8. Chờ phản hồi từ mình. Nếu được phê duyệt, thay đổi của bạn sẽ xuất hiện trên trang blog. Nếu không, thực hiện lại các bước trên theo phản hồi.
 
-> [!tip]- Mẹo
-> - Biểu tượng <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen-line-icon lucide-pen-line"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></svg> (Edit this page) ở đầu mỗi bài viết sẽ giúp bạn điều hướng nhanh đến trình chỉnh sửa trên Github
-> - Chỉnh sửa trên nhánh mới được tạo từ nhánh `main` sẽ giúp bạn giữ nhánh   
-
-
-# 6. Quy tắc commit & PR
-
-- **Commit message**: present-tense, tối đa 50 ký tự ở dòng đầu, cách dòng trống rồi bổ sung chi tiết nếu cần :contentReference[oaicite:4]{index=4}  
-- **PR nhỏ** ưu tiên; nếu lớn, có thể chia thành nhiều phần dễ review  
-- Trong PR, link tới issue: `Fixes #123` giúp tự động close khi merge
+> [!note]- Mẹo
+> - Nếu bạn không chắc đề xuất thay đổi của mình có cần thiết hay không, hãy tạo [Issues](https://github.com/PhDoanh/content/issues/new) để thảo luận trước khi bấm vào biểu tượng chỉnh sửa
+> - Để dễ thao tác hơn, Bạn có thể copy nội dung bài viết sang một Markdown Editor yêu thích của bạn. Mình đề xuất [StackEdit](https://stackedit.io/)
