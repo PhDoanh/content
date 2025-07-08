@@ -22,7 +22,7 @@ Mặc dù đây là trang blog cá nhân, nhưng mình hoan nghênh sự đóng 
 
 **Điều kiện tiên quyết**:
 - Có tài khoản [Github](https://github.com/)
-- Có kiến thức cơ bản về [Markdown](https://www.markdownguide.org/)
+- Có kiến thức cơ bản về [Markdown](https://www.markdownguide.org/), Github
 
 **Hướng dẫn cụ thể**:
 1. Tìm kiếm bài viết bạn muốn cộng tác trên trang blog này 
@@ -37,3 +37,6 @@ Mặc dù đây là trang blog cá nhân, nhưng mình hoan nghênh sự đóng 
 > [!note]- Mẹo
 > - Nếu bạn không chắc đề xuất thay đổi của mình có cần thiết hay không, hãy tạo [Issues](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) để thảo luận trước khi bấm vào biểu tượng chỉnh sửa
 > - Để dễ thao tác hơn, Bạn có thể copy nội dung bài viết sang một Markdown Editor yêu thích của bạn. Mình đề xuất [StackEdit](https://stackedit.io/)
+
+> [!warning]- Miễn trừ trách nhiệm
+> Thao tác **"Fork this repository"** sẽ tạo một repo là bản sao của repo gốc trên tài khoản Github của bạn và mình không chịu trách nhiệm quản lý repo này!
