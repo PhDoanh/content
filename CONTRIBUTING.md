@@ -20,17 +20,7 @@ Mặc dù đây là trang blog cá nhân, nhưng mình hoan nghênh sự đóng 
 
 # Nội quy cộng đồng
 
-Dự án này tuân theo [Code of Conduct](LINK-TO-CODE-OF-CONDUCT), mong bạn giữ thái độ tích cực, tôn trọng và hợp tác trong mọi tương tác. :contentReference[oaicite:1]{index=1}
-
----
-
-## 3. Cách báo lỗi (Issue)
-
-- Trước khi tạo issue, **search** xem vấn đề đã được báo chưa.
-- Sử dụng **template** có cấu trúc: tiêu đề ngắn + mô tả + bước tái hiện + log + môi trường.
-- Label: `bug` / `enhancement`.
-
----
+Dự án này tuân theo [Code of Conduct](https://github.com/PhDoanh/blog/blob/v4/CODE_OF_CONDUCT.md), mong bạn giữ thái độ tích cực, tôn trọng và hợp tác trong mọi tương tác.
 
 ## 4. Cách đóng góp mã (PR)
 
@@ -70,34 +60,3 @@ Ngoài code, bạn có thể:
 - Viết blog/tutorial
 - Dịch ngôn ngữ
 - Giúp quản lý issue, review code
-
----
-
-## 8. Cảm ơn & Công nhận
-
-Rất cảm ơn mọi đóng góp của bạn 🎉  
-Tên bạn sẽ được thêm vào file [ACKNOWLEDGEMENTS.md] hoặc credits trong bản release.
-
----
-
-## 🛠 Template bắt đầu nhanh
-
-```markdown
-### Mục đích PR
-> Ví dụ: Sửa lỗi hiển thị nút “Submit” trên màn hình mobile
-
-### Mô tả
-- Thay đổi A
-- Thay đổi B
-
-### Issue liên quan
-Closes #456
-
-### Test plan
-Vào view X rồi thử thao tác Y, kết quả như Z
-📞 Nếu bạn cần giúp đỡ
-Mở issue với label help wanted
-
-Tham gia Slack/Discord/Email: LINK
-
-
