@@ -1,6 +1,6 @@
 ---
 date: 2025-02-22
-draft: false
+draft: true
 status: Doing
 title: "31. ～ようです: Phán đoán dựa trên góc nhìn chủ quan"
 description: Khám phá cách sử dụng 「～ようです」 để biểu đạt sự phán đoán dựa trên quan sát chủ quan trong tiếng Nhật. Bài viết cung cấp ví dụ thực tế, ứng dụng cụ thể, mẹo học và lưu ý quan trọng giúp bạn nắm vững ngữ pháp này.

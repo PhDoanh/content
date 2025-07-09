@@ -1,9 +1,9 @@
 ---
 date: 2025-02-11
-draft: false
+draft: true
 status: Done
 title: '16. ～　やすいです／にくいです: Cách diễn đạt "dễ làm" và "khó làm" trong tiếng Nhật'
-description:
+description: 
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:

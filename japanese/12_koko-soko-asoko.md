@@ -1,9 +1,9 @@
 ---
 date: 2025-02-11
-draft: false
+draft: true
 status: Done
 title: "12. ここ・そこ・あそこ: Đại từ chỉ vị trí"
-description:
+description: 
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:

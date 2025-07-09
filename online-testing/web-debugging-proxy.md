@@ -1,21 +1,26 @@
 ---
-date: 2024-08-24
+stage: "Draft"
+title: "Gỡ lỗi web qua proxy chuyên dụng"
+description: ""
+permalink: ""
+lang: vi
 draft: true
-status: Done
-title: Gỡ lỗi web qua proxy chuyên dụng
-description:
-author: PhDoanh
-authorlink: https://github.com/PhDoanh
-tags:
+tags: 
   - tutorials
   - tester
   - windows
   - android
+  - online-testing
+  - utest
 aliases:
-  - web debugging proxy
+  - 
 cssclasses:
   - img
+  - btn
+socialDescription: ""
+socialImage: ""
 ---
+
 # Tổng quan
 **Một proxy cho phép gỡ lỗi web** là một chương trình hoạt động với tư cách là một **máy chủ trung gian**, chuyên phân tích, thu thập và chỉnh sửa lưu lượng **HTTP/HTTPs** giữa các thiết bị người dùng, trang web hoặc ứng dụng với nhau trên không gian mạng
 

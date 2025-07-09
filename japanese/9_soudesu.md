@@ -1,9 +1,9 @@
 ---
 date: 2025-02-11
-draft: false
+draft: true
 status: Done
 title: '9. そうです: Cách trả lời "ĐÚNG VẬY" bằng tiếng Nhật'
-description:
+description: 
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:

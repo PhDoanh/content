@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: Hướng dẫn cộng tác bài viết
+title: Contribution Guide for Blog Posts
 description: ""
 permalink: ""
 lang: vi

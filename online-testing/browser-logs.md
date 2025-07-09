@@ -1,22 +1,25 @@
 ---
-date: 2024-08-23
+stage: "Draft"
+title: "Nhật ký trình duyệt"
+description: ""
+permalink: ""
+lang: vi
 draft: true
-status: Done
-title: Nhật ký trình duyệt
-description:
-author: PhDoanh
-authorlink: https://github.com/PhDoanh
-tags:
+tags: 
+  - 
+aliases:
   - tutorials
   - windows
   - android
-  - tester
-  - explorable
-aliases:
-  - browser logs
+  - online-testing
+  - utest
 cssclasses:
   - img
+  - btn
+socialDescription: ""
+socialImage: ""
 ---
+
 # Tổng quan
 **Nhật ký** là thông tin về các sự kiện, đối tượng được tạo ra bởi các trình duyệt hoặc phần mềm trong khi chạy, nhà phát triển thường sử dụng nó để gỡ lỗi
 

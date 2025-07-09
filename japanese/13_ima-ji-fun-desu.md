@@ -1,9 +1,9 @@
 ---
 date: 2025-02-11
-draft: false
+draft: true
 status: Done
 title: "13. いま ～じ ～ふんです: Hỏi mấy giờ thì trả lời như thế nào?"
-description:
+description: 
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:

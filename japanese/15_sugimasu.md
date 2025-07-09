@@ -1,9 +1,9 @@
 ---
 date: 2025-02-11
-draft: false
+draft: true
 status: Done
 title: "15. ～すぎます: Làm thế nào để nói quá?"
-description:
+description: 
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:

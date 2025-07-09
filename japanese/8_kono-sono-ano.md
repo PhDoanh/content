@@ -1,9 +1,9 @@
 ---
 date: 2025-02-11
-draft: false
+draft: true
 status: Done
 title: "8. この・その・あの: Sức mạnh của từ chỉ thị trong giao tiếp"
-description:
+description: 
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:

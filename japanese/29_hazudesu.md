@@ -1,9 +1,9 @@
 ---
 date: 2025-02-18
-draft: false
+draft: true
 status: Doing
 title: "29. ～はずです: Cách nói phán đoán khi có căn cứ"
-description: "Học ngữ pháp 「～はずです」 để diễn tả sự chắc chắn dựa trên căn cứ logic. Bài viết bao gồm cách dùng, ví dụ, mẹo học và những lưu ý quan trọng giúp bạn sử dụng thành thạo!"
+description: Học ngữ pháp 「～はずです」 để diễn tả sự chắc chắn dựa trên căn cứ logic. Bài viết bao gồm cách dùng, ví dụ, mẹo học và những lưu ý quan trọng giúp bạn sử dụng thành thạo!
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:
@@ -15,7 +15,7 @@ tags:
   - minna-no-nihongo
 aliases:
   - hazudesu
-cssclasses: 
+cssclasses:
   - img
   - btn
 ---

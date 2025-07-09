@@ -1,21 +1,26 @@
 ---
-date: 2024-08-22
+stage: "Draft"
+title: "Video ghi màn hình"
+description: ""
+permalink: ""
+lang: vi
 draft: true
-status: Done
-title: Video ghi màn hình
-description:
-author: PhDoanh
-authorlink: https://github.com/PhDoanh
-tags:
+tags: 
   - tester
   - windows
   - android
   - tutorials
+  - online-testing
+  - utest
 aliases:
-  - screencast
+  - 
 cssclasses:
   - img
+  - btn
+socialDescription: ""
+socialImage: ""
 ---
+
 # Tổng quan
 **Video ghi màn hình** là bản ghi kĩ thuật số biểu thị các hoạt động diễn ra trên màn hình máy tính hoặc thiết bị di động. Nó giúp người xem hiểu và tái tạo được lỗi
 

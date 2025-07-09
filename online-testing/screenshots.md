@@ -1,21 +1,26 @@
 ---
-date: 2024-08-22
+stage: "Draft"
+title: "Ảnh chụp màn hình"
+description: ""
+permalink: ""
+lang: vi
 draft: true
-status: Done
-title: Ảnh chụp màn hình
-description:
-author: PhDoanh
-authorlink: https://github.com/PhDoanh
-tags:
+tags: 
   - tutorials
   - windows
   - tester
   - android
+  - online-testing
+  - utest
 aliases:
-  - screenshots
+  - 
 cssclasses:
   - img
+  - btn
+socialDescription: ""
+socialImage: ""
 ---
+
 # Tổng quan
 **Ảnh chụp màn hình** là hình ảnh về dữ liệu được hiển thị trên màn hình máy tính hoặc thiết bị di động
 

@@ -1,14 +1,14 @@
 ---
-stage: "Idea"
-title: "Japanese"
-description: "Hành trình học tiếng Nhật từ cơ bản đến nâng cao với các phương pháp hiệu quả và tài liệu hữu ích."
+stage: Idea
+title: Japanese
+description: Hành trình học tiếng Nhật từ cơ bản đến nâng cao với các phương pháp hiệu quả và tài liệu hữu ích.
 permalink: ""
 comments: false
 lang: vi
-draft: false
+draft: true
 tags:
   - explorable
-aliases: 
+aliases:
   - 
 cssclasses:
   - img

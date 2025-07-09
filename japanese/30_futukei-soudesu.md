@@ -1,6 +1,6 @@
 ---
 date: 2025-02-22
-draft: false
+draft: true
 status: Doing
 title: "30. Thể thường + そうです: Truyền đạt thông tin từ người khác"
 description: Tìm hiểu cách sử dụng ngữ pháp 「Thể thông thường + そうです」 để diễn đạt thông tin gián tiếp trong tiếng Nhật. Hướng dẫn chi tiết, ví dụ dễ hiểu và mẹo học giúp bạn ghi nhớ nhanh chóng!

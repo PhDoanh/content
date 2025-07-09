@@ -1,9 +1,9 @@
 ---
 date: 2025-02-11
-draft: false
+draft: true
 status: Done
 title: "17. Nを ～く／～に します: Biến đổi trạng thái hoặc tính chất của đối tượng"
-description:
+description: 
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:

@@ -1,11 +1,11 @@
 ---
-draft: false
+draft: true
 status: Done
 title: "Dự án game: Fix Your PC"
 tags:
+  - project
   - cpp
   - sdl2
-  - project
   - typing-skill
   - my-product
   - game

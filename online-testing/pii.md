@@ -1,19 +1,24 @@
 ---
-date: 2024-08-27
+stage: "Draft"
+title: "Thông tin nhận dạng cá nhân"
+description: ""
+permalink: ""
+lang: vi
 draft: true
-status: Done
-title: Thông tin nhận dạng cá nhân
-description:
-author: PhDoanh
-authorlink: https://github.com/PhDoanh
-tags:
+tags: 
   - tutorials
   - tester
+  - online-testing
+  - utest
 aliases:
-  - pii
+  - 
 cssclasses:
   - img
+  - btn
+socialDescription: ""
+socialImage: ""
 ---
+
 # Tổng quan
 **Thông tin nhận dạng cá nhân** là những thông tin duy nhất có ở một người cụ thể, dùng để xác định người đó trong một cộng đồng. Nó thể hiện qua nhiều hình thức như: Họ tên đầy đủ, số điện thoại, địa chỉ, chi tiết về ngân hàng, thông tin về tài khoản, ... 
 

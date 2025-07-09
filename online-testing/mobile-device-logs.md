@@ -1,21 +1,26 @@
 ---
-date: 2024-08-24
+stage: "Draft"
+title: "Nhật ký thiết bị di động"
+description: ""
+permalink: ""
+lang: vi
 draft: true
-status: Done
-title: Nhật ký thiết bị di động
-description:
-author: PhDoanh
-authorlink: https://github.com/PhDoanh
-tags:
+tags: 
   - tutorials
   - tester
   - android
-  - windows
+  - window
+  - online-testing
+  - utest
 aliases:
-  - mobile device logs
+  - 
 cssclasses:
   - img
+  - btn
+socialDescription: ""
+socialImage: ""
 ---
+
 # Nhật ký thiết bị Android
 Bạn có thể thu thập nhật ký android bằng máy tính Windows, MacOS, Linux, hay bất cứ nền tảng nào miễn là sử dụng **adb** hoặc **Android Studio** thay vì các ứng dụng như **Syslog** hoặc **CatLog**. 
 

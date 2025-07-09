@@ -1,13 +1,11 @@
 ---
 stage: "Idea"
-title: "Dự án"
+title: "Dịch vụ"
 description: ""
 permalink: ""
 comments: false
 lang: vi
 draft: true
-tags:
-  -
 aliases:
   - 
 cssclasses:
