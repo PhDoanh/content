@@ -9,7 +9,6 @@ tags:
   - tutorials
   - tester
   - online-testing
-  - utest
 aliases:
   - 
 cssclasses:

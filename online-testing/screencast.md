@@ -11,7 +11,6 @@ tags:
   - android
   - tutorials
   - online-testing
-  - utest
 aliases:
   - 
 cssclasses:

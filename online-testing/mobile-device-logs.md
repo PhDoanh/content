@@ -11,7 +11,6 @@ tags:
   - android
   - window
   - online-testing
-  - utest
 aliases:
   - 
 cssclasses:

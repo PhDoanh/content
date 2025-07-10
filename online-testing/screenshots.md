@@ -11,7 +11,6 @@ tags:
   - tester
   - android
   - online-testing
-  - utest
 aliases:
   - 
 cssclasses:

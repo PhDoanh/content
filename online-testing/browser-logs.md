@@ -12,7 +12,6 @@ aliases:
   - windows
   - android
   - online-testing
-  - utest
 cssclasses:
   - img
   - btn
@@ -105,13 +104,9 @@ Các trình duyệt đều hoạt động giống nhau trên mọi nền tảng 
 - Đóng tất cả các tab không liên quan trong trình duyệt khi bạn thu thập nhật ký HAR
 - Chỉ tải lên nhật ký HAR nếu được yêu cầu bởi **TTL, TE, hoặc TSM** của dự án
 
-> [!note] Thông tin bổ sung
-> Tìm hiểu thêm các thuật ngữ testing tại [[testing terms|đây]]
-
 ## Cách thu thập nhật ký HAR
 ### Google Chrome hoặc trình duyệt dùng Chromium
 ![[joVjoItBmT.gif|center]]
-
 
 1. Nhấn tổ hợp phím **Ctrl+Shift+I (Windows) / Option+Command+I (Mac)** hoặc chọn **biểu tượng 3 chấm > More Tools > Developer Tools**
 2. Mở tab **Network** lên (nếu không thấy, nhấp vào biểu tượng ">>"  hoặc mở rộng cửa sổ Developer Tools)
