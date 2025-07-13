@@ -1,5 +1,5 @@
 ---
-stage: "Draft"
+stage: "Publish"
 title: "Hướng dẫn cộng tác bài viết"
 description: ""
 permalink: ""
