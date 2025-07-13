@@ -20,7 +20,7 @@ Trang blog này là một sản phẩm được tạo ra với sự hỗ trợ c
 Bài viết này sẽ chỉ bạn cách tùy chỉnh thêm các tính năng mà trang web mặc định do Quartz tạo ra không có, để có thể giúp tối ưu những yếu tố mà một trang blog thực thụ phải có (SEO, CTA, UX, ...). Đừng lo lắng nếu bạn không chuyên về công nghệ, vì hướng dẫn này được viết cho cả bạn, còn nếu vướng mắc thì có thể liên hệ với mình để giải quyết!
 
 # Bước đi đầu tiên
-Nếu bạn chưa có bài viết nào của riêng mình, hãy đọc "[[my-own-cms|Cách mình quản lý lượng bài viết khổng lồ bằng Obsidian]]" để biết cách xây dựng hệ thống quản lý nội dung blog CMS. Việc chuẩn bị CMS là một tùy chọn, bạn có thể bắt đầu luôn với việc xây dựng website trước rồi sản xuất nội dung sau cũng được! ^2423b0
+Nếu bạn chưa có bài viết nào của riêng mình, hãy đọc "[[blogger-from-zero|Hành trình ghi lại dấu ấn cá nhân bằng Blog]]" để biết cách đặt bút cho những bài viết đầu tiên của bản thân. Việc chuẩn bị các bài viết là một tùy chọn, bạn có thể bắt đầu luôn với việc xây dựng website trước rồi sản xuất nội dung sau cũng được!
 
 Tài liệu Quartz đã nói rất kỹ các bước tạo rồi, nên mình chỉ nhắc lại và rút gọn một số bước chưa cần thiết đi thôi
 
@@ -117,7 +117,7 @@ Lúc này trang web của bạn đã trực tuyến trên Internet tại địa 
 > Xem tài liệu [Quartz](https://quartz.jzhao.xyz/) để biết cách tùy chỉnh đầy đủ trang web của bạn (bố cục, hành vi, tính năng, ...)
 
 # Mở rộng tính năng
-Mặc định, trang web do Quartz tạo ra thường được dùng với mục đích **"sổ tay cá nhân kỹ thuật số"**. Nó cũng có những tính năng SEO cơ bản, nhưng chưa đủ mạnh nếu bạn hướng tới một thương hiệu cá nhân. Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã và đang được áp dụng cho trang blog của mình!
+Mặc định, trang web do Quartz tạo ra thường được dùng với mục đích **"sổ tay cá nhân kỹ thuật số"**. Nó cũng có những tính năng SEO cơ bản, nhưng chưa đủ mạnh nếu bạn hướng tới một thương hiệu **cá nhân**. Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã và đang được áp dụng cho trang blog của mình!
 
 ## Chia sẻ bài viết
 
@@ -132,11 +132,21 @@ Mặc định, trang web do Quartz tạo ra thường được dùng với mục
 ## Danh sách các cộng tác viên
 
 
-# Kết nối tới hệ thống CMS
-Trước đó mình có nói CMS là một tùy chọn, nhưng khi đã có website rồi thì CMS là một lựa chọn bắt buộc, vì website mà không chứa nội dung gì thì cũng như cái *"nhà hoang không người ở"*, kể cả việc chỉ viết các file Markdown rồi ném chúng vào thư mục [`content`](https://quartz.jzhao.xyz/authoring-content) (thư mục Quartz dùng để nhúng các bài viết vào trang blog) thì cũng rất khó để quản lý khi lượng bài viết tăng lên ngày một nhiều!
+# Kết nối tới Headless CMS
+**CMS** là phần mềm giúp bạn dễ dàng **tạo, quản lý và chỉnh sửa nội dung số** như văn bản, hình ảnh, video thông qua giao diện web mà không cần code nhiều. Nó tích hợp cả backend (nơi lưu trữ nội dung) và frontend (phần hiển thị nội dung) trong cùng một hệ thống. 
 
-Phần này là hướng dẫn kết nối, nên bạn phải có [[#^2423b0|CMS]] của riêng mình trước!
+Trong khi **Headless CMS** chỉ chứa **phần quản lý nội dung (backend)**, **không có phần hiển thị (frontend)**. Nó lưu nội dung rồi cung cấp qua một phương tiện nào đó (thường là API) để frontend khác (web, app, …) tự lấy về mà hiển thị. Đây chính xác là hệ thống chúng ta sẽ làm việc cùng!
 
+> [!question]- Tại sao cần hệ thống quản lý nội dung?
+> Vì rất khó để quản lý lượng bài viết khổng lồ nếu bạn chỉ viết và ném các file Markdown vào thư mục [`content`](https://quartz.jzhao.xyz/authoring-content) (thư mục Quartz dùng để nhúng các bài viết vào trang blog) 
+
+Có nhiều lựa chọn Headless CMS, hướng dẫn này sẽ dựa trên giải pháp mình đã chọn là [Obsidian](https://obsidian.md/). Nó đúng ra là một ứng dụng ghi chú kỹ thuật số như Notion, Apple Note, Evernote, ... Nhưng khả năng tùy biến (mã nguồn mở) cho phép nó vượt xa sự mong đợi của người dùng. Đó là lý do **Obsidian có thể trở thành một Headless CMS**!
+
+Tham khảo "[[my-own-headless-cms|Cách mình quản lý lượng bài viết khổng lồ bằng Obsidian]]" để biết cách xây dựng hệ thống quản lý nội dung blog. Các bước sau đây sẽ chỉ hướng dẫn kết nối Headless CMS tới trang blog của bạn:
+
+1. Tải xuống và cài đặt ứng dụng [Obsidian](https://obsidian.md/download)
+2. Mở ứng dụng lên, chọn **"Open"** để mở một thư mục dưới dạng hầm chứa 
+3. Trong File Explorer, tìm đến thư mục `quartz\content` (thư mục chứa dữ liệu bài viết) và chọn **"Select folder"**
 
 
 # Lời kết
