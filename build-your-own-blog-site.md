@@ -20,7 +20,7 @@ Trang blog này là một sản phẩm được tạo ra với sự hỗ trợ c
 Bài viết này sẽ chỉ bạn cách tùy chỉnh thêm các tính năng mà trang web mặc định do Quartz tạo ra không có, để có thể giúp tối ưu những yếu tố mà một trang blog thực thụ phải có (SEO, CTA, UX, ...). Đừng lo lắng nếu bạn không chuyên về công nghệ, vì hướng dẫn này được viết cho cả bạn, còn nếu vướng mắc thì có thể liên hệ với mình để giải quyết!
 
 # Bước đi đầu tiên
-Nếu bạn chưa có bài viết nào của riêng mình, hãy đọc "[[my-own-cms|Cách mình quản lý lượng bài viết khổng lồ bằng Obsidian]]" để biết cách xây dựng hệ thống quản lý nội dung blog CMS. Việc chuẩn bị CMS là một tùy chọn, bạn có thể bắt đầu luôn với việc xây dựng website trước rồi sản xuất nội dung sau cũng được!
+Nếu bạn chưa có bài viết nào của riêng mình, hãy đọc "[[my-own-cms|Cách mình quản lý lượng bài viết khổng lồ bằng Obsidian]]" để biết cách xây dựng hệ thống quản lý nội dung blog CMS. Việc chuẩn bị CMS là một tùy chọn, bạn có thể bắt đầu luôn với việc xây dựng website trước rồi sản xuất nội dung sau cũng được! ^2423b0
 
 Tài liệu Quartz đã nói rất kỹ các bước tạo rồi, nên mình chỉ nhắc lại và rút gọn một số bước chưa cần thiết đi thôi
 
@@ -109,21 +109,15 @@ jobs:
 ```
 
 8. Nhấn nút **"Commit changes"** để lưu các thay đổi
+9. Thực hiện lại **bước 5** để lấy địa chỉ trang web (Có thể cần chờ một lúc để nhìn thấy địa chỉ)
 
-Lúc này trang web của bạn đã trực tuyến trên Internet tại địa chỉ dạng `https://<user-name>.github.io/<repo-name>/` (Xem cụ thể địa chỉ bằng cách thực hiện lại **bước 5**). Truy cập nó bằng trình duyệt trên máy tính khác, bạn sẽ thấy trang web của mình hiện ra!
+Lúc này trang web của bạn đã trực tuyến trên Internet tại địa chỉ dạng `https://<user-name>.github.io/<repo-name>/`, bạn có thể truy cập nó bằng trình duyệt trên bất kỳ thiết bị nào!
 
 > [!info] Lưu ý
-> Xem tài liệu [Quartz](https://quartz.jzhao.xyz/) để biết cách tùy chỉnh đầy đủ trang web của bạn (bố cục, hành vi, viết nội dung, ...)
+> Xem tài liệu [Quartz](https://quartz.jzhao.xyz/) để biết cách tùy chỉnh đầy đủ trang web của bạn (bố cục, hành vi, tính năng, ...)
 
 # Mở rộng tính năng
-Mặc định 
-
-
-> [!caution]- Nội dung đang hoàn thiện
-> Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[cộng tác bài viết]]
-> 
-> **Rất mong sự thông cảm của các bạn!**
-
+Mặc định, trang web do Quartz tạo ra thường được dùng với mục đích **"sổ tay cá nhân kỹ thuật số"**. Nó cũng có những tính năng SEO cơ bản, nhưng chưa đủ mạnh nếu bạn hướng tới một thương hiệu cá nhân. Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã và đang được áp dụng cho trang blog của mình!
 
 ## Chia sẻ bài viết
 
@@ -139,14 +133,11 @@ Mặc định
 
 
 # Kết nối tới hệ thống CMS
-Trước đó mình có nói CMS là một tùy chọn, nhưng khi đã có website rồi thì CMS là một lựa chọn bắt buộc, vì website mà không chứa nội dung gì thì cũng như cái "nhà hoang không người ở", kể cả nếu bạn chỉ viết các file Markdown rồi ném chúng vào thư mục mà Quartz nhìn vào đó để tạo thì hãy thử nghĩ xem sẽ thế nào nếu nội dung của bạn ngày một lớn (thậm chí là khổng lồ)?
+Trước đó mình có nói CMS là một tùy chọn, nhưng khi đã có website rồi thì CMS là một lựa chọn bắt buộc, vì website mà không chứa nội dung gì thì cũng như cái *"nhà hoang không người ở"*, kể cả việc chỉ viết các file Markdown rồi ném chúng vào thư mục [`content`](https://quartz.jzhao.xyz/authoring-content) (thư mục Quartz dùng để nhúng các bài viết vào trang blog) thì cũng rất khó để quản lý khi lượng bài viết tăng lên ngày một nhiều!
 
-Phần này là hướng dẫn kết nối, nên bạn phải có CMS của riêng mình trước!
+Phần này là hướng dẫn kết nối, nên bạn phải có [[#^2423b0|CMS]] của riêng mình trước!
 
-> [!caution]- Nội dung đang hoàn thiện
-> Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[cộng tác bài viết]]
-> 
-> **Rất mong sự thông cảm của các bạn!**
+
 
 # Lời kết
 

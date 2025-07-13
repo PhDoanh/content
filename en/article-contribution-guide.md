@@ -1,6 +1,6 @@
 ---
-stage: Idea
-title: ""
+stage: Draft
+title: "Contribution Guide for Blog Posts"
 description: ""
 permalink: ""
 lang: vi
