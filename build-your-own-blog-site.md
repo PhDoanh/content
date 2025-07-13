@@ -117,9 +117,13 @@ Lúc này trang web của bạn đã trực tuyến trên Internet tại địa 
 > Xem tài liệu [Quartz](https://quartz.jzhao.xyz/) để biết cách tùy chỉnh đầy đủ trang web của bạn (bố cục, hành vi, tính năng, ...)
 
 # Mở rộng tính năng
-Mặc định, trang web do Quartz tạo ra thường được dùng với mục đích **"sổ tay cá nhân kỹ thuật số"**. Nó cũng có những tính năng SEO cơ bản, nhưng chưa đủ mạnh nếu bạn hướng tới một thương hiệu **cá nhân**. Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã và đang được áp dụng cho trang blog của mình!
+Mặc định, trang web do Quartz tạo ra thường được dùng với mục đích **"sổ tay cá nhân kỹ thuật số"**. Nó cũng có những tính năng SEO cơ bản, nhưng chưa đủ mạnh nếu bạn hướng tới một thương hiệu **cá nhân**. Để đạt được điều đó thì cần rất nhiều yếu tố, phần này sẽ hỗ trợ tối ưu trang blog qua yếu tố trải nghiệm người dùng (UX).
+
+Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã và đang được áp dụng cho trang blog của mình!
 
 ## Chia sẻ bài viết
+
+
 
 ## Chỉnh sửa bài viết
 
@@ -147,11 +151,15 @@ Tham khảo "[[my-own-headless-cms|Cách mình quản lý lượng bài viết k
 1. Tải xuống và cài đặt ứng dụng [Obsidian](https://obsidian.md/download)
 2. Mở ứng dụng lên, chọn **"Open"** để mở một thư mục dưới dạng hầm chứa 
 3. Trong File Explorer, tìm đến thư mục `quartz\content` (thư mục chứa dữ liệu bài viết) và chọn **"Select folder"**
+4. Trong Obsidian, bấm vào biểu tượng <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings-icon lucide-settings"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg> (Cài đặt) ở bên dưới 
+5. Chuyển sang tab **"Community plugins"** và bấm vào nút **"Turn on community plugins"** để sử dụng các tiện ích từ cộng đồng
+6. Bấm vào **"Browse"** để tìm và cài đặt tiện ích **Git** 
+7. Cuối cùng, kích hoạt tiện ích bằng nút **"Enable"** là xong!
 
+> [!info] Tiện ích Obsidian Git
+> Đây là tiện ích giúp bạn dễ dàng hơn trong việc **đồng bộ dữ liệu bài viết từ máy tính cục bộ lên kho chứa Github trên Internet** mà không phải thao tác bằng dòng lệnh! Tìm hiểu thêm tại [đây](https://github.com/Vinzent03/obsidian-git/blob/master/README.md)
 
 # Lời kết
+Toàn bộ bài viết đã gói gọn quá trình mình hiện thực hóa ý tưởng xây dựng trang blog chỉ từ **0 đồng!** Trên thực tế, website cần rất nhiều yếu tố để vận hành. Do đó cũng phát sinh rất nhiều chi phí đi kèm. Mà cái gì miễn phí thì cũng có nhược điểm của riêng nó, nhưng ít nhất nó đủ để đáp ứng yêu cầu của một trang blog cá nhân dùng đến suốt đời! 
 
-> [!caution]- Nội dung đang hoàn thiện
-> Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[cộng tác bài viết]]
-> 
-> **Rất mong sự thông cảm của các bạn!**
+Nếu bạn hứng thú với các nội dung như này, đừng quên để lại tín hiệu **like, share, comment** cho mình và người khác cùng biết nhé!
