@@ -46,11 +46,6 @@ npx quartz create
 
 Sẽ mất một lúc để bạn nhìn thấy dòng `http://localhost:8080/`. Đó chính là địa chỉ trang web của bạn nhưng đang hoạt động trên **mạng cục bộ chứ không phải mạng Internet**. Dán nó vào trình duyệt yêu thích của bạn và xem kết quả
 
-
-> [!info]- Đóng trang web
-> Contents
-
-
 ## Lưu trữ website lên Internet
 Nếu bây giờ bạn mở máy khác ra, truy cập vào địa chỉ `http://localhost:8080/` thì sẽ không thấy trang web của bạn đâu. Đó là lúc bạn cần công khai website lên Internet để ai ai cũng có thể truy cập! Hãy làm theo các bước sau:
 
@@ -59,7 +54,7 @@ Nếu bây giờ bạn mở máy khác ra, truy cập vào địa chỉ `http://
 
 ![[Pasted image 20250712213827.png|center]]
 
-3. Quay trở lại terminal trước đó, gõ lệnh `git remote set-url origin REMOTE-URL` với **REMOTE-URL** là địa chỉ của kho chứa vừa tạo (có thể cần Ctrl+C để trở về dấu nhắc lệnh bình thường) 
+3. Quay trở lại terminal trước đó, gõ lệnh `git remote set-url origin REMOTE-URL` với **REMOTE-URL** là địa chỉ của kho chứa vừa tạo (có thể cần **Ctrl+C** trước để trở về dấu nhắc lệnh bình thường) 
 4. Đẩy trang web của bạn lên kho chứa Github bằng lệnh `npx quartz sync --no-pull` (Bạn có thể cần tải lại trình duyệt để thấy dữ liệu trang web xuất hiện trong kho chứa Github của mình)
 5. Chuyển sang tab **"Settings"** và nhấp vào **"Pages"** trong mục **Code and automation** của thanh menu bên
 6. Ngay dưới mục **Source**, chọn **"Github Actions"**
@@ -115,9 +110,14 @@ jobs:
 
 8. Nhấn nút **"Commit changes"** để lưu các thay đổi
 
-Lúc này trang web của bạn đã trực tuyến trên Internet tại địa chỉ dạng `https://<user-name>.github.io/<repo-name>/`. Xem cụ thể địa chỉ bằng cách thực hiện lại **bước 5**
+Lúc này trang web của bạn đã trực tuyến trên Internet tại địa chỉ dạng `https://<user-name>.github.io/<repo-name>/` (Xem cụ thể địa chỉ bằng cách thực hiện lại **bước 5**). Truy cập nó bằng trình duyệt trên máy tính khác, bạn sẽ thấy trang web của mình hiện ra!
+
+> [!info] Lưu ý
+> Xem tài liệu [Quartz](https://quartz.jzhao.xyz/) để biết cách tùy chỉnh đầy đủ trang web của bạn (bố cục, hành vi, viết nội dung, ...)
 
 # Mở rộng tính năng
+Mặc định 
+
 
 > [!caution]- Nội dung đang hoàn thiện
 > Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[cộng tác bài viết]]
