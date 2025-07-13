@@ -17,7 +17,7 @@ socialImage: ""
 
 Trang blog này là một sản phẩm được tạo ra với sự hỗ trợ của trình tạo trang web tĩnh tên là [Quartz](https://quartz.jzhao.xyz/), nó giúp chuyển đổi nội dung các file Markdown thành các tệp mã nguồn mà trình duyệt hiểu (HTML, CSS, JS, ...). Để từ đó có thể hiển thị trên Internet! 
 
-Bài viết này sẽ chỉ bạn cách tùy chỉnh thêm các tính năng mà trang web mặc định do Quartz tạo ra không có, để có thể giúp tối ưu những yếu tố mà một trang blog thực thụ phải có (SEO, CTA, UX, ...). Đừng lo lắng nếu bạn không chuyên về công nghệ, vì hướng dẫn này được viết cho cả bạn mà, còn nếu vướng mắc thì có thể liên hệ với mình để giải quyết!
+Bài viết này sẽ chỉ bạn cách tùy chỉnh thêm các tính năng mà trang web mặc định do Quartz tạo ra không có, để có thể giúp tối ưu những yếu tố mà một trang blog thực thụ phải có (SEO, CTA, UX, ...). Đừng lo lắng nếu bạn không chuyên về công nghệ, vì hướng dẫn này được viết cho cả bạn, còn nếu vướng mắc thì có thể liên hệ với mình để giải quyết!
 
 # Bước đi đầu tiên
 Nếu bạn chưa có bài viết nào của riêng mình, hãy đọc "[[my-own-cms|Cách mình quản lý lượng bài viết khổng lồ bằng Obsidian]]" để biết cách xây dựng hệ thống quản lý nội dung blog CMS. Việc chuẩn bị CMS là một tùy chọn, bạn có thể bắt đầu luôn với việc xây dựng website trước rồi sản xuất nội dung sau cũng được!
@@ -38,28 +38,84 @@ npm i
 npx quartz create
 ```
 
+> [!info] Lưu ý
+> Bạn sẽ được nhắc cấu hình trang web khi chạy lệnh `npx quartz create`, nhấn **Enter** để áp dụng cấu hình **mặc định** hoặc chọn cấu hình mong muốn nếu bạn hiểu mình đang làm gì!
+
 ## Xây dựng website trên máy cục bộ 
 Đã đến lúc bạn vận hành nhà máy Quartz để sản xuất ra trang web của mình! Tiếp tục ở terminal của bạn, gõ lệnh `npx quartz build --serve` để kích hoạt quá trình xây dựng.
 
-Sẽ mất một lúc để bạn nhìn thấy dòng `http://localhost:8080/`. Đó chính là địa chỉ trang web của bạn nhưng đang hoạt động trên **mạng cục bộ chứ không phải mạng Internet**. Nhấp vào đó để xem kết quả
+Sẽ mất một lúc để bạn nhìn thấy dòng `http://localhost:8080/`. Đó chính là địa chỉ trang web của bạn nhưng đang hoạt động trên **mạng cục bộ chứ không phải mạng Internet**. Dán nó vào trình duyệt yêu thích của bạn và xem kết quả
 
-Kết quả có dạng giống trang tài liệu Quartz đúng không? 
+
+> [!info]- Đóng trang web
+> Contents
+
 
 ## Lưu trữ website lên Internet
-Nếu bây giờ bạn mở máy khác ra, truy cập vào địa chỉ `http://localhost:8080/` thì sẽ không thấy trang web của bạn đâu. Đó là lúc bạn cần công khai website lên Internet để ai ai cũng có thể truy cập!
+Nếu bây giờ bạn mở máy khác ra, truy cập vào địa chỉ `http://localhost:8080/` thì sẽ không thấy trang web của bạn đâu. Đó là lúc bạn cần công khai website lên Internet để ai ai cũng có thể truy cập! Hãy làm theo các bước sau:
 
-Bây giờ mở Github ra, nhấn nút "New" để tạo một kho chứa mới (kho lưu trữ trang web của bạn trên Internet). Điền tên (Repository name) rồi nhấn vào nút "Create repository" ở cuối trang để hoàn tất quá trình tạo. Bạn sẽ được chuyển hướng vào bên trong kho chứa, sao chép địa chỉ của kho chứa này 
+1. Trên Github, nhấn nút **"New"** để tạo một kho chứa mới (kho lưu trữ trang web của bạn trên Internet). 
+2. Điền tên (Repository name) rồi nhấn vào nút **"Create repository"** ở cuối trang để hoàn tất quá trình tạo. Bạn sẽ được chuyển hướng vào bên trong kho chứa, hãy sao chép địa chỉ của kho chứa này 
 
-Quay trở lại terminal trước đó, gõ lệnh `git remote set-url origin REMOTE-URL` với REMOTE-URL là địa chỉ của kho chứa vừa tạo. Tiếp đó, kết nối thư mục hiện tại tới kho chứa trên Internet bằng lệnh `npx quartz sync --no-pull`
+![[Pasted image 20250712213827.png|center]]
 
-Lúc này toàn bộ dữ liệu trang web đã được đồng bộ lên Internet. Nhưng vẫn chưa xong, bạn cần đăng ký nhà mạng để họ quảng bá nó tới tay người dùng
+3. Quay trở lại terminal trước đó, gõ lệnh `git remote set-url origin REMOTE-URL` với **REMOTE-URL** là địa chỉ của kho chứa vừa tạo (có thể cần Ctrl+C để trở về dấu nhắc lệnh bình thường) 
+4. Đẩy trang web của bạn lên kho chứa Github bằng lệnh `npx quartz sync --no-pull` (Bạn có thể cần tải lại trình duyệt để thấy dữ liệu trang web xuất hiện trong kho chứa Github của mình)
+5. Chuyển sang tab **"Settings"** và nhấp vào **"Pages"** trong mục **Code and automation** của thanh menu bên
+6. Ngay dưới mục **Source**, chọn **"Github Actions"**
+7. Chuyển về tab "Code" và nhấn vào **"Add file > Create new file"** để tạo file mới tên `.github/workflows/deploy.yml` với nội dung sau: 
 
-Một trong số những nhà mạng phổ biến và thân thiện là Github Pages 
+```yml
+name: Deploy Quartz site to GitHub Pages
+ 
+on:
+  push:
+    branches:
+      - v4
+ 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+ 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+ 
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for git info
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build Quartz
+        run: npx quartz build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+ 
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
 
-> [!caution]- Nội dung đang hoàn thiện
-> Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[cộng tác bài viết]]
-> 
-> **Rất mong sự thông cảm của các bạn!**
+8. Nhấn nút **"Commit changes"** để lưu các thay đổi
+
+Lúc này trang web của bạn đã trực tuyến trên Internet tại địa chỉ dạng `https://<user-name>.github.io/<repo-name>/`. Xem cụ thể địa chỉ bằng cách thực hiện lại **bước 5**
 
 # Mở rộng tính năng
 
