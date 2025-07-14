@@ -170,7 +170,7 @@ Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ m�
 Đối với hầu hết thiết bị di động, bạn buộc phải cuộn trang bằng cách vuốt lên/xuống màn hình. Điều này đôi khi khiến người dùng khó chịu khi họ muốn cuộn lên đầu trang mà bài viết thì lại dài quá. Giải pháp là sử dụng một nút điều hướng sẵn sàng ngay khi họ có ý định cuộn lên đầu trang.
 
 Để cài đặt tính năng, bạn chỉ cần đặt các file sau vào đúng vị trí của kho chứa Github:
-- [quartz/components/BackToTop.tsx](https://github.com/PhDoanh/blog/blob/dev/quartz/components/BackToTop.tsx)
+- [`quartz/components/BackToTop.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/BackToTop.tsx)
 
 Để sử dụng, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component)
 
