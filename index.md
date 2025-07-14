@@ -1,5 +1,5 @@
 ---
-title: Welcome to my brain
+title: 'Welcome to my brain'
 description: ""
 lang: vi
 aliases:
