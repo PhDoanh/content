@@ -32,7 +32,7 @@ Quartz yêu cầu một số tài nguyên mà nó phụ thuộc vào để hoạ
 
 Mở terminal của bạn ra và nhập từng dòng lệnh sau để hoàn tất quá trình cài đặt:
 ```bash
-git clone https://github.com/jackyzha0/quartz.git git clone https://github.com/jackyzha0/quartz.git git clone https://github.com/jackyzha0/quartz.git git clone https://github.com/jackyzha0/quartz.git
+git clone https://github.com/jackyzha0/quartz.git
 cd quartz
 npm i
 npx quartz create
