@@ -1,5 +1,5 @@
 ---
-stage: "Publish"
+stage: Publish
 title: "Behind this Site: Cách tôi tạo ra nó"
 description: Hướng dẫn cách xây dựng trang blog cá nhân cho mọi đối tượng
 permalink: ""
@@ -129,13 +129,9 @@ Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã
 ## Chia sẻ bài viết - MediaShare
 Sẽ rất bất tiện khi người dùng phải copy link bài viết từ thanh tìm kiếm của trình duyệt. Nên tính năng này cho phép chia sẻ bài viết tới **các nền tảng cụ thể** (Facebook, Reddit, ...) hoặc hỗ trợ nút **Copy thân thiện hơn**. Đặc biệt hiệu quả với những người không chuyên về công nghệ!
 
+%% image here %%
 
-|     |     |
-| --- | --- |
-|     |     |
-
-
-Để cài đặt/tùy chỉnh tính năng này, bạn chỉ cần thêm/sửa các file sau ở đúng vị trí trong kho chứa Github của bạn:
+Để **cài đặt** tính năng này, chỉ cần **thêm** các file sau ở đúng vị trí trong kho chứa Github của bạn:
 
 1. Định nghĩa cấu trúc tính năng: [`quartz/components/MediaShare.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/MediaShare.tsx)
 
@@ -143,11 +139,19 @@ Sẽ rất bất tiện khi người dùng phải copy link bài viết từ tha
 
 3. Xây dựng hành vi tính năng: [`quartz/components/scripts/mediaShare.inline.ts`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/scripts/mediaShare.inline.ts)
 
-Để sử dụng, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component) với các cấu hình 
+Để **sử dụng**, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component) với các cấu hình sau của tính năng:
 
 ```ts
-``` 
-
+interface MediaShareOptions {
+	platforms: {
+		facebook?: boolean // mặc định là true 
+		linkedin?: boolean // mặc định là true
+		reddit?: boolean // mặc định là true
+		twitter?: boolean // mặc định là false
+		instagram?: boolean // mặc định là false
+	}
+}
+```
 
 ## Chỉnh sửa bài viết - EditThisPage
 Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ mình bạn là người có quyền thao tác với mọi bài viết trong blog. Nhưng nếu muốn **blog mở có kiểm soát**, tức là chỉ cho phép cộng tác trên các bài viết của bạn, hoặc ít nhất là được sự đồng ý từ bạn để tạo bài viết mới theo đúng giá trị blog bạn truyền tải. Thì tính năng này là dành cho bạn!
@@ -162,12 +166,7 @@ Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ m�
 
 Để sử dụng, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component)
 
-## Lưu bài viết ngoại tuyến - Bookmark
-
-> [!caution]- Nội dung đang hoàn thiện
-> Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[article-contribution-guide|Hướng dẫn cộng tác bài viết]]
-> 
-> **Rất mong sự thông cảm của các bạn!**
+%% ## Lưu bài viết ngoại tuyến - Bookmark %%
 
 ## Danh sách các cộng tác viên - Contributors
 
@@ -183,6 +182,8 @@ Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ m�
 - [`quartz/components/BackToTop.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/BackToTop.tsx)
 
 Để sử dụng, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component)
+
+%% ## Ngôn ngữ trang Web %%
 
 # Kết nối tới Headless CMS
 **CMS** là phần mềm giúp bạn dễ dàng **tạo, quản lý và chỉnh sửa nội dung số** như văn bản, hình ảnh, video thông qua giao diện web mà không cần code nhiều. Nó tích hợp cả backend (nơi lưu trữ nội dung) và frontend (phần hiển thị nội dung) trong cùng một hệ thống. 
