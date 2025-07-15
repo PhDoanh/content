@@ -129,7 +129,13 @@ Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã
 ## Chia sẻ bài viết - MediaShare
 Sẽ rất bất tiện khi người dùng phải copy link bài viết từ thanh tìm kiếm của trình duyệt. Nên tính năng này cho phép chia sẻ bài viết tới **các nền tảng cụ thể** (Facebook, Reddit, ...) hoặc hỗ trợ nút **Copy thân thiện hơn**. Đặc biệt hiệu quả với những người không chuyên về công nghệ!
 
-Để cài đặt tính năng này, bạn chỉ cần đặt các file sau vào đúng vị trí của kho chứa Github:
+
+|     |     |
+| --- | --- |
+|     |     |
+
+
+Để cài đặt/tùy chỉnh tính năng này, bạn chỉ cần thêm/sửa các file sau ở đúng vị trí trong kho chứa Github của bạn:
 
 1. Định nghĩa cấu trúc tính năng: [`quartz/components/MediaShare.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/MediaShare.tsx)
 
@@ -137,7 +143,11 @@ Sẽ rất bất tiện khi người dùng phải copy link bài viết từ tha
 
 3. Xây dựng hành vi tính năng: [`quartz/components/scripts/mediaShare.inline.ts`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/scripts/mediaShare.inline.ts)
 
-Để sử dụng, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component)
+Để sử dụng, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component) với các cấu hình 
+
+```ts
+``` 
+
 
 ## Chỉnh sửa bài viết - EditThisPage
 Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ mình bạn là người có quyền thao tác với mọi bài viết trong blog. Nhưng nếu muốn **blog mở có kiểm soát**, tức là chỉ cho phép cộng tác trên các bài viết của bạn, hoặc ít nhất là được sự đồng ý từ bạn để tạo bài viết mới theo đúng giá trị blog bạn truyền tải. Thì tính năng này là dành cho bạn!
