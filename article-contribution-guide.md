@@ -32,7 +32,7 @@ Mặc dù đây là trang blog cá nhân, nhưng mình hoan nghênh sự đóng 
 5. Xác nhận đề xuất thay đổi bằng cách nhấn **"Propose changes"**
 6. Nhấn nút **"Create pull request"** để mở yêu cầu hợp nhất thay đổi vào trang blog
 7. Xem lại thông tin các thay đổi lần cuối và nhấn **"Create pull request"** lần nữa 
-8. Chờ phản hồi từ mình. Nếu được phê duyệt, thay đổi của bạn sẽ xuất hiện trên trang blog. Nếu không, thực hiện lại các bước trên theo phản hồi.
+8. Chờ phản hồi từ mình. Nếu được phê duyệt, thay đổi của bạn sẽ xuất hiện trên trang blog sau 24h. Nếu không, thực hiện lại các bước trên theo phản hồi.
 
 > [!note]- Mẹo
 > - Nếu bạn không chắc đề xuất thay đổi của mình có cần thiết hay không, hãy tạo [Issues](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) để thảo luận trước khi bấm vào biểu tượng chỉnh sửa
