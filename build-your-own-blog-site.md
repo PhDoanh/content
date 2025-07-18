@@ -129,8 +129,6 @@ Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã
 ## Chia sẻ bài viết - MediaShare
 Sẽ rất bất tiện khi người dùng phải copy link bài viết từ thanh tìm kiếm của trình duyệt. Nên tính năng này cho phép chia sẻ bài viết tới **các nền tảng cụ thể** (Facebook, Reddit, ...) hoặc hỗ trợ nút **Copy thân thiện hơn**. Đặc biệt hiệu quả với những người không chuyên về công nghệ!
 
-%% image here %%
-
 Để **cài đặt** tính năng này, chỉ cần **thêm** các file sau ở đúng vị trí trong kho chứa Github của bạn:
 
 1. Định nghĩa cấu trúc tính năng: [`quartz/components/MediaShare.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/MediaShare.tsx)
@@ -212,3 +210,5 @@ Tham khảo "[[my-own-headless-cms|Cách mình quản lý lượng bài viết k
 Toàn bộ bài viết đã gói gọn quá trình mình hiện thực hóa ý tưởng xây dựng trang blog chỉ từ **0 đồng!** Trên thực tế, website cần rất nhiều yếu tố để vận hành. Do đó cũng phát sinh rất nhiều chi phí đi kèm. Mà cái gì miễn phí thì cũng có nhược điểm của riêng nó, nhưng ít nhất nó đủ để đáp ứng yêu cầu của một trang blog cá nhân dùng đến suốt đời! 
 
 Nếu bạn hứng thú với các nội dung như này, đừng quên để lại tín hiệu **like, share, comment** cho mình và người khác cùng biết nhé!
+
+Hello World!!!
