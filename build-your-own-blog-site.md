@@ -168,6 +168,8 @@ Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ m�
 
 %% ## Lưu bài viết ngoại tuyến - Bookmark %%
 
+%% ## Ngôn ngữ trang Web %%
+
 ## Danh sách các cộng tác viên - Contributors
 
 > [!caution]- Nội dung đang hoàn thiện
@@ -182,8 +184,6 @@ Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ m�
 - [`quartz/components/BackToTop.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/BackToTop.tsx)
 
 Để sử dụng, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component)
-
-%% ## Ngôn ngữ trang Web %%
 
 # Kết nối tới Headless CMS
 **CMS** là phần mềm giúp bạn dễ dàng **tạo, quản lý và chỉnh sửa nội dung số** như văn bản, hình ảnh, video thông qua giao diện web mà không cần code nhiều. Nó tích hợp cả backend (nơi lưu trữ nội dung) và frontend (phần hiển thị nội dung) trong cùng một hệ thống. 
