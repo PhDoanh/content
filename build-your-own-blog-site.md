@@ -164,10 +164,6 @@ Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ m�
 
 Để sử dụng, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component)
 
-%% ## Lưu bài viết ngoại tuyến - Bookmark %%
-
-%% ## Ngôn ngữ trang Web %%
-
 ## Danh sách các cộng tác viên - Contributors
 
 > [!caution]- Nội dung đang hoàn thiện
