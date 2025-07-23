@@ -127,27 +127,46 @@ Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã
 > - [Các bài viết gần đây](https://quartz.jzhao.xyz/features/recent-notes)
 
 ## Chia sẻ bài viết - MediaShare
-Sẽ rất bất tiện khi người dùng phải copy link bài viết từ thanh tìm kiếm của trình duyệt. Nên tính năng này cho phép chia sẻ bài viết tới **các nền tảng cụ thể** (Facebook, Reddit, ...) hoặc hỗ trợ nút **Copy thân thiện hơn**. Đặc biệt hiệu quả với những người không chuyên về công nghệ!
+Sẽ rất bất tiện khi người dùng phải copy link bài viết từ thanh tìm kiếm của trình duyệt. Nên tính năng này cho phép chia sẻ bài viết tới **các nền tảng cụ thể** (Facebook, Reddit, ...) và hỗ trợ nút **Copy thân thiện hơn**. Đặc biệt hiệu quả với những người không chuyên về công nghệ!
 
 Để **cài đặt** tính năng này, chỉ cần **thêm** các file sau ở đúng vị trí trong kho chứa Github của bạn:
 
-1. Định nghĩa cấu trúc tính năng: [`quartz/components/MediaShare.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/MediaShare.tsx)
+- [`quartz/components/MediaShare.tsx`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/MediaShare.tsx)
+- [`quartz/components/styles/mediaShare.scss`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/styles/mediaShare.scss)
+- [`quartz/components/scripts/mediaShare.inline.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/scripts/mediaShare.inline.ts)
 
-2. Trang trí giao diện tính năng: [`quartz/components/styles/mediaShare.scss`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/styles/mediaShare.scss)
+Để **sử dụng**, thêm 2 dòng sau vào [`quartz/components/index.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/index.ts) 
 
-3. Xây dựng hành vi tính năng: [`quartz/components/scripts/mediaShare.inline.ts`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/scripts/mediaShare.inline.ts)
+```ts {2,6}
+// các import khác
+import MediaShare from "./MediaShare"
 
-Để **sử dụng**, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component) với các cấu hình sau của tính năng:
+export {
+	// các export khác
+	MediaShare,
+}
+```
+
+Cuối cùng, thêm  sau vào [`quartz.layout.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz.layout.ts#L49) với cấu hình tùy chọn mà bạn muốn. Ví dụ:
+
+```ts
+Component.MediaShare({
+	platforms: ["facebook", "instagram", "twiter"],
+	copyButton: true,
+}),
+```
+
+Các nền tảng được hỗ trợ: Facebook, Linkedin, Reddit, Twitter, Instagram
 
 ```ts
 interface MediaShareOptions {
-	platforms: {
-		facebook?: boolean // mặc định là true 
-		linkedin?: boolean // mặc định là true
-		reddit?: boolean // mặc định là true
-		twitter?: boolean // mặc định là false
-		instagram?: boolean // mặc định là false
-	}
+	platforms: string[],
+	copyButton?: boolean,
+}
+
+const defaultOptions: MediaShareOptions = {
+	platforms: ["facebook", "linkedin", "reddit"],
+	copyButton: true,
 }
 ```
 
