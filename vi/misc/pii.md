@@ -4,7 +4,7 @@ title: "Thông tin nhận dạng cá nhân"
 description: ""
 permalink: ""
 lang: vi
-draft: true
+draft: false
 tags: 
   - tutorials
   - tester

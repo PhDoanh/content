@@ -1,11 +1,11 @@
 ---
-stage: Idea
-title: Japanese
-description: Hành trình học tiếng Nhật từ cơ bản đến nâng cao với các phương pháp hiệu quả và tài liệu hữu ích.
+stage: "Idea"
+title: "Tiếng Nhật"
+description: "Hành trình học tiếng Nhật từ cơ bản đến nâng cao với các phương pháp hiệu quả và tài liệu hữu ích"
 permalink: ""
 comments: false
 lang: vi
-draft: true
+draft: false
 tags:
   - explorable
 aliases:
@@ -18,7 +18,7 @@ socialImage: ""
 ---
 
 # Lời nói đầu
-![[Pasted image 20240831132314.png|center ws-med]]
+![[intro.png|center ws-med]]
 
 **Tiếng Nhật** là một trong những ngôn ngữ khó học nhất thế giới bởi hệ thống chữ viết **Kanji** vô cùng phức tạp với hàng ngàn kí tự mang tính tượng hình, trừu tượng. Nó có nguồn gốc từ **Hán tự** của **Trung Quốc**, thông qua giao lưu văn hóa mà du nhập vào.
 
@@ -34,7 +34,7 @@ Những gì mình nói mới chỉ là **phần nổi** trong sự phức tạp 
 >  kể cả những người có kinh nghiệm đầy mình (không phải mình 😅) cũng bối rối và khó hiểu về cách dùng **dù cho họ đang áp dụng nó**! Với cách học truyền thống trước kia, mình còn thấy khó hơn gấp nhiều lần nhưng mình nhận ra bản thân sẽ tiếp thu nhanh hơn nếu mọi thứ xung quanh mình **toàn là tiếng Nhật**! Đó chính là hiệu quả của phương pháp **Immersion** (hòa nhập). Và bài viết này ra đời với mục đích kiểm chứng phương pháp và vạch ra lộ trình học cho mọi người và người đang theo học như mình 😗 
 
 **Tóm tắt lộ trình**:
-![[Pasted image 20240829161131.png|center]]
+![[roadmap.png|center]]
 
 **Bước hòa nhập** sẽ mất nhiều thời gian của bạn nhất nhưng cũng là bước thú vị nhất vì bạn cần va chạm với những nội dung tiếng Nhật trong thực tế bao gồm: **manga, light novel, visual novel (game), anime, ...** Giờ hãy cùng mình khám phá từng bước một 👇
 
@@ -42,7 +42,7 @@ Những gì mình nói mới chỉ là **phần nổi** trong sự phức tạp 
 > Đã có rất nhiều bài viết thảo luận về vấn đề học tiếng Nhật mà bạn có thể tìm thấy ở [[japanese resources#Cách học|đây]] 
 
 # Học bảng chữ Kana
-![[Pasted image 20240831133538.png|center ws-med]]
+![[kana.png|center ws-med]]
 
 Xét về tổng thể, tiếng Nhật có 4 hệ thống chữ viết: **Hiragana - 平仮名, Katakana - 片仮名, Kanji - 漢字** và Romaji - ローマ字 (không chính thức)
 
@@ -58,7 +58,7 @@ Như tiêu đề đã đề cập, trang web [này](https://vedxyz.github.io/kan
 > Bạn có thể tham khảo bài viết của **Tae Kim** từ mục số **6 đến 18** trong bài viết [này](https://djtguide.github.io/grammar/taekim.html#6%20The%20Scripts), nó sẽ giúp bạn hiểu **bản chất** từ đó tiến bộ nhanh hơn trong việc học **(mình khuyên thật)**
 
 # Thiết lập các công cụ học
-![[Pasted image 20240831134210.png|center ws-med]]
+![[study-tools.png|center ws-med]]
 
 Phần này sẽ ngốn đâu đó vài giờ đồng hồ của bạn vì nó liên quan đến các vấn đề về kĩ thuật. 
 Nhưng yên tâm là hướng dẫn thiết lập rất dễ hiểu và nếu có vướng mắc, mình luôn ở đây để <a href="#footer">hỗ trợ</a> bạn!
@@ -68,7 +68,7 @@ Hai công cụ chính mà chúng ta sẽ sử dụng là phần mềm luyện nh
 Bài viết [[japanese setup|này]] sẽ hướng dẫn chi tiết cách thiết lập chúng cùng với những công cụ khác, chúc may mắn🍀
 
 # Học từ vựng và ngữ pháp
-![[Pasted image 20240831134313.png|center ws-med]]
+![[vocab-grammar.png|center ws-med]]
 
 Đây là bước **khá quan trọng** để bạn có thể thành công khai thác được nhiều nội dung tiếng Nhật trong đời thực! Bởi muốn hiểu được kiến thức cao hơn thì phải có nền tảng kiến thức thấp hơn. Việc học ngữ pháp **cơ bản** và từ vựng song song là một lựa chọn khôn ngoan và dưới đây là những đề xuất của mình:
 
@@ -86,7 +86,7 @@ Bài viết [[japanese setup|này]] sẽ hướng dẫn chi tiết cách thiết
 > - Hầu hết các tài liệu ngữ pháp đều có thiếu sót ở một mặt nào đó, vì vậy nếu có điều gì đó không hợp lý, hãy xem các tài liệu ngữ pháp khác để xem cách trình bày quan điểm của chúng.
 
 # Áp dụng phương pháp Immersion
-![[Pasted image 20240831135331.png|center ws-med]]
+![[immersion.png|center ws-med]]
 
 Đây là bước tuyệt vời nhất trong lộ trình làm chủ tiếng Nhật! Hãy tưởng tượng **viên đường nén** là vốn tiếng nhật bạn tích lũy được và tiếng Nhật là **cốc cà phê đắng ngắt**, việc cà phê đắng khó uống là minh chứng cho thấy **tiếng Nhật không hề dễ nuốt**. 🤮
 

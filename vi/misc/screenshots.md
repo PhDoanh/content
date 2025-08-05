@@ -4,7 +4,7 @@ title: "Ảnh chụp màn hình"
 description: ""
 permalink: ""
 lang: vi
-draft: true
+draft: false
 tags: 
   - tutorials
   - windows

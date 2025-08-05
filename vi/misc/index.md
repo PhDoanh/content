@@ -1,6 +1,6 @@
 ---
 stage: "Idea"
-title: "Miscellaneous"
+title: "Danh mục khác"
 description: ""
 permalink: ""
 comments: false

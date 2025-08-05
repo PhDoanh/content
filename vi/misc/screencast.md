@@ -4,7 +4,7 @@ title: "Video ghi màn hình"
 description: ""
 permalink: ""
 lang: vi
-draft: true
+draft: false
 tags: 
   - tester
   - windows

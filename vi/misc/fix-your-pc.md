@@ -1,20 +1,31 @@
 ---
-draft: true
-status: Done
-title: "Dự án game: Fix Your PC"
-tags:
+stage: "Publish"
+title: "Fix Your PC: Tựa game khiến bạn phải nghiêm túc về khả năng đánh máy"
+description: "Một tựa game luyện phản xạ và tốc độ gõ phím bằng cách khiến máy tính của người chơi gặp trục trặc. Chỉ có một cách để cứu lấy chiếc PC, đó là đánh máy! (không phải đánh đập)"
+permalink: ""
+lang: vi
+draft: false
+tags: 
   - project
   - cpp
   - sdl2
   - typing-skill
   - my-product
   - game
+aliases:
+  - 
+cssclasses:
+  - img
+  - btn
+socialDescription: ""
+socialImage: ""
 ---
+
 # Giới thiệu
-**Fix Your PC** là tựa game **một mạng** hay Roguelike Game lấy cảm hứng từ [ZType](https://zty.pe/?text=271e57005672c392), bạn sẽ phải tiêu diệt địch bằng cách gõ **nhanh và chính xác** nhất những từ, câu thậm chí là đoạn văn xuất hiện trên màn chơi. Cố gắng sống sót đến cuối và phá đảo game hoặc chết và không bao giờ tiếp tục lại được nữa! Xem video demo tại [đây](https://youtu.be/q5CiqMmyghU?si=B3q46iarJAa-8bw1)
+**Fix Your PC** là tựa game **một mạng** hay Roguelike Game lấy cảm hứng từ [ZType](https://zty.pe/), bạn sẽ phải tiêu diệt địch bằng cách gõ **nhanh và chính xác** nhất những từ, câu thậm chí là đoạn văn xuất hiện trên màn chơi. Cố gắng sống sót đến cuối và phá đảo game hoặc chết và không bao giờ tiếp tục lại được nữa! Xem video demo tại [đây](https://youtu.be/q5CiqMmyghU?si=B3q46iarJAa-8bw1)
 
 # Các bước tải game
-Tại trang tải xuống [này](https://github.com/PhDoanh/Fix-Your-PC/releases/tag/v0.1.0), bạn có hai lựa chọn:
+Tại trang tải xuống [này](https://github.com/PhDoanh/fix-your-pc/releases/tag/v0.1.0), bạn có hai lựa chọn:
 ## 1. Chạy trực tiếp game
 *Dành cho những ai chỉ muốn trải nghiệm game*
 - **Bước 1**: Tải xuống rồi giải nén file `Fix-Your-PC.zip` (~134MB)
@@ -28,7 +39,7 @@ Tại trang tải xuống [này](https://github.com/PhDoanh/Fix-Your-PC/releases
 	- [GNU Make](https://www.gnu.org/software/make/)
 - **Bước 3**: Mở một trình nhắc lệnh (vd: cmd) trong thư mục chứa Makefile và gõ lệnh `make`
 
-> [!info]- Lưu ý
+> [!info] Lưu ý
 > Sau khi gọi `make`, chương trình sẽ tự biên dịch và chạy **game** (file exe) do nó tạo ra nên bạn không cần phải bật nó một cách thủ công 
 
 # Hướng dẫn chơi
@@ -36,9 +47,9 @@ Tại trang tải xuống [này](https://github.com/PhDoanh/Fix-Your-PC/releases
 
 Khi mới vào game, bạn sẽ cần cung cấp tên của mình để lưu các số liệu thống kê thành tích dưới dạng chuỗi mật khẩu được ẩn đi. Ở phần này bạn cũng có thể tùy chỉnh trước các thiết lập bằng cách nhấn phím **"Esc"**
 
-| ![[Pasted image 20240427000814.png]] | ![[Pasted image 20240427000830.png]] |
-|:------------------------------------:|:------------------------------------:|
-|   Nhập tên người chơi (Game menu)    |  Tùy chỉnh cài đặt (Game settings)   |
+|       ![[game-menu.png]]        |      ![[game-settings.png]]       | 
+|:-------------------------------:|:---------------------------------:|
+| Nhập tên người chơi (Game menu) | Tùy chỉnh cài đặt (Game settings) |
 
 Phần thiết lập game cụ thể như sau:          
 - **Music**: Tinh chỉnh âm lượng nhạc nền game
@@ -53,7 +64,7 @@ Phần thiết lập game cụ thể như sau:
 
 Nhấn giữ phím **"Alt"** kết hợp **W, A, S, D** để di chuyển, nhả **"Alt"** rồi gõ bất cứ từ hay câu nào mà bạn nhìn thấy để hạ địch. Theo thời gian mức độ khó sẽ tăng lên về **số lượng, sức mạnh và thời gian sinh** địch, nhưng nếu gõ đúng một lượng kí tự nhất định, người chơi được phép giải phóng **bí chiêu** bằng cách nhấn **"Enter"** để dễ dàng tiêu diệt địch. Cố gắng không để bị địch **va chạm** vì người chơi chỉ có hữu hạn mạng lên nếu hết, game sẽ kết thúc với màn hình xanh và **tự động tắt game**!
 
-|    ![[Fix Your PC.gif]]    |
+|    ![[Fix-Your-PC.gif]]    |
 |:--------------------------:|
 | Tiêu diệt địch (Game play) |
 
@@ -61,9 +72,9 @@ Nhấn giữ phím **"Alt"** kết hợp **W, A, S, D** để di chuyển, nhả
 - **Chiến thắng** nếu bạn phá đảo toàn bộ màn chơi, màn hình PC ở trạng thái bình thường với các dòng văn bản chúc mừng. Tại đây bạn có thể thoát game hoặc chơi lại từ đầu nếu muốn lập kỉ lục!
 - **Thất bại** nếu bạn bị mất sạch máu do va chạm quá nhiều với kẻ địch, màn hình xanh chết chóc sẽ hiện lên tổng hợp các số liệu thống kê thành tích bạn đã đạt được rồi tự tắt trong 15s
 
-| ![[Pasted image 20240427000703.png]] | ![[Pasted image 20240427000510.png]] |
-|:------------------------------------:|:------------------------------------:|
-|  Phá đảo game (Game over - Victory)  | Mất sạch mạng (Game over - Defeated) |
+|     ![[game-over-victory.png]]     |     ![[game-over-defeated.png]]      | 
+|:----------------------------------:|:------------------------------------:|
+| Phá đảo game (Game over - Victory) | Mất sạch mạng (Game over - Defeated) |
 
 # Tài nguyên game
 ## Hình ảnh
@@ -77,20 +88,20 @@ Nhấn giữ phím **"Alt"** kết hợp **W, A, S, D** để di chuyển, nhả
 
 **Người chơi** *(Các trạng thái con trỏ trong PC)*
 
-| ![[Pasted image 20240428144922.png]] | ![[beam.png]] | ![[link.png]] | ![[move.png]] |
-|:------------------------------------:|:-------------:|:-------------:|:-------------:|
-|                arrow                 |     beam      |     link      |     move      |
+| ![[arrow.png]] | ![[beam.png]] | ![[link.png]] | ![[move.png]] | 
+|:--------------:|:-------------:|:-------------:|:-------------:|
+|     arrow      |     beam      |     link      |     move      |
 
 **Kẻ địch** *(hình ảnh chỉ mang t/c đại diện)*
 - [Tile OS - Part 3: Popular Apps by oviotti on DeviantArt](https://www.deviantart.com/oviotti/art/Tile-OS-Part-3-Popular-Apps-792018928)
 
-| ![[enemy (2).png\|25x25]] | ![[enemy (8).png\|50x50]] | ![[enemy (9).png\|75x75]] | ![[enemy (14).png\|100x100]] | ![[enemy (15).png\|125]] |
-| :-----------------------: | :-----------------------: | :-----------------------: | :--------------------------: | :----------------------: |
-|        trash mobs         |          grunts           |         mini boss         |             boss             |        final boss        |
+| ![[enemy1.png\|25]] | ![[enemy2.png\|50]] | ![[enemy3.png\|75]] | ![[enemy4.png\|100]] | ![[enemy5.png\|125]] | 
+|:-------------------:|:-------------------:|:-------------------:|:--------------------:|:--------------------:|
+|     trash mobs      |       grunts        |      mini boss      |         boss         |      final boss      |
 
 **Các object phụ**
 
-| ![[avatar.png\|100x100]] | ![[bullet.png]] |   ![[emp.png]]   | ![[reticle.png]]  |      ![[smile.png]]      |
+| ![[avatar.png\|100]] | ![[bullet.png]] |   ![[emp.png]]   | ![[reticle.png]]  |      ![[smile.png]]      |
 |:------------------------:|:---------------:|:----------------:|:-----------------:|:------------------------:|
 |      player avatar       |     bullets     | player dead zone | enemy target zone | smile (dead blue screen) |
 

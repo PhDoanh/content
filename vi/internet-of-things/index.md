@@ -1,6 +1,6 @@
 ---
-stage: Idea
-title: Internet Of Things
+stage: "Idea"
+title: "Internet Vạn Vật"
 description: ""
 permalink: ""
 comments: false

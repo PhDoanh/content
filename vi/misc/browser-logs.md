@@ -4,7 +4,7 @@ title: "Nhật ký trình duyệt"
 description: ""
 permalink: ""
 lang: vi
-draft: true
+draft: false
 tags: 
   - 
 aliases:

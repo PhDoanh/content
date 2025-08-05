@@ -1,11 +1,11 @@
 ---
-stage: Idea
-title: Nhật ngữ sâu bên trong
-description: Sổ tay tổng hợp và tóm tắt ngữ pháp của PhDoanh
+stage: "Idea"
+title: "Nhật ngữ sâu bên trong"
+description: "Sổ tay tổng hợp và tóm tắt ngữ pháp của PhDoanh"
 permalink: ""
 comments: false
 lang: vi
-draft: false
+draft: true
 aliases: 
 cssclasses:
   - img

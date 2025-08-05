@@ -4,7 +4,7 @@ title: "Nhật ký thiết bị di động"
 description: ""
 permalink: ""
 lang: vi
-draft: true
+draft: false
 tags: 
   - tutorials
   - tester
