@@ -1,11 +1,12 @@
 ---
-stage: Draft
+stage: Publish
 title: "Contribution Guide for Blog Posts"
 description: ""
-permalink: ""
-lang: vi
+permalink: "en"
+lang: en
 draft: false
 tags:
+  - explorable
 aliases: 
 cssclasses:
   - img

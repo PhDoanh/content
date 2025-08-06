@@ -3,8 +3,6 @@ title: 'Welcome to my brain'
 description: ""
 lang: vi
 aliases:
-  - root
-  - home
 cssclasses:
   - img
   - btn
