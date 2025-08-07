@@ -2,14 +2,13 @@
 stage: "Publish"
 title: "Welcome to my brain"
 description: 
-permalink: "en"
+permalink:
 lang: "en"
 draft: false
 tags: 
 aliases: 
   - "root"
   - "home"
-  - "/"
 cssclasses:
   - img
   - btn
