@@ -4,8 +4,6 @@ title: "Welcome to my brain"
 description: 
 permalink:
 lang: "en"
-draft: false
-tags: 
 aliases: 
   - "root"
   - "home"
