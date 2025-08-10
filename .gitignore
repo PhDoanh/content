@@ -1,8 +1,7 @@
-draft.md
 .obsidian/*
 !.obsidian/snippets/
 !.obsidian/snippets/**
-default-context.md
+private/*
 internet-of-things.md
 japanese.md
 misc.md
