@@ -2,7 +2,7 @@
 stage: Publish
 title: "Contribution Guide for Blog Posts"
 description: ""
-permalink: "en"
+permalink:
 lang: en
 draft: false
 tags:
