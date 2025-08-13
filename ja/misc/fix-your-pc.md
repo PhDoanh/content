@@ -1,7 +1,7 @@
 ---
 stage: Publish
 title: "Fix Your PC: タイピングスキルを真剣に試されるゲーム"
-description: 
+description: "パソコンが不調になることで、反射神経とタイピング速度を鍛えるゲーム。PCを救う方法はただひとつ：タイピングだ！"
 permalink: 
 lang: ja
 draft: false

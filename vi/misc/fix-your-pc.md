@@ -113,7 +113,7 @@ Nhấn giữ phím **"Alt"** kết hợp **W, A, S, D** để di chuyển, nhả
 ## Phông chữ
 [Segoe UI Variable Font : Download Free for Desktop & Webfont (cufonfonts.com)](https://www.cufonfonts.com/font/segoe-ui-variable)
 
-> [!info]- Lưu ý
+> [!info] Lưu ý
 > - Những tài nguyên không có trong nguồn tham khảo đều là **tự thiết kế** và lấy sẵn trên hệ điều hành **windows**
 > - Các tài nguyên tự thiết kế dựa trên các công cụ: [Aseprite](https://www.aseprite.org/), [Audacity](https://www.audacityteam.org/), [Canva](https://www.canva.com/)
 
