@@ -1,6 +1,6 @@
 ---
 stage: "Publish"
-title: "Ringurooma Koe API: REST API cung cấp các dịch vụ giọng nói tiếng Nhật"
+title: "Ringurooma Koe API: cung cấp các dịch vụ giọng nói tiếng Nhật"
 description: ""
 permalink: ""
 lang: vi
@@ -22,7 +22,7 @@ socialDescription: ""
 socialImage: ""
 ---
 
-> Orginal name: リングローマの音声API 
+> Tên nguyên bản: リングローマの音声API 
 
 Kho chứa này là một microservice trung gian, giao tiếp với Azure Speech SDK để xử lý và đánh giá kỹ năng nói tiếng Nhật, được phát triển độc lập bởi dự án [Ringurooma](https://github.com/HuyDang05/Ringurooma). Do đó, bất kỳ ứng dụng hỗ trợ REST API nào đều có thể sử dụng!
 
@@ -354,7 +354,7 @@ node test-api.js --intent        # Intent Recognition
 node test-api.js --realtime      # Real-time Speech Recognition (WebSocket)
 ```
 
-# Tài nguyên
+# Tài nguyên tham khảo
 - [Tài liệu Azure Speech SDK](https://learn.microsoft.com/en-us/javascript/api/microsoft-cognitiveservices-speech-sdk/)
 - [Hướng dẫn Pronunciation Assessment API](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/rest-speech-to-text#pronunciation-assessment-parameters)
 
