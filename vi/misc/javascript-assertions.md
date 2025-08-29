@@ -16,6 +16,7 @@ socialDescription: "OG description (~100 chars)"
 socialImage: "fully qualified URL to preview image"
 ---
 
+# Kiểm thử đơn vị
 ```js
 const chai = require('chai');
 const assert = chai.assert;
@@ -186,3 +187,22 @@ suite('Unit Tests', function () {
   // -----------------------------------------------------------------------------
 });
 ```
+
+# Kiểm thử chức năng
+
+```js
+suite('GET /hello?name=[name] => "hello [name]"', function () {
+  test('?name=John', function (done) {
+    chai
+      .request(server)
+      .keepOpen()
+      .get('/hello?name=John')
+      .end(function (err, res) {
+        assert.equal(res.status, 200, 'Response status should be 200');
+        assert.equal(res.text, 'hello John', 'Response should be "hello John"');
+        done();
+      });
+  });
+});
+```
+
