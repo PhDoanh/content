@@ -190,7 +190,67 @@ suite('Unit Tests', function () {
 
 # Kiểm thử chức năng
 
-
+```js
+suite('Functional Tests', function () {
+  this.timeout(5000);
+  suite('Integration tests with chai-http', function () {
+    // #1
+    test('Test GET /hello with no name', function (done) {
+      chai
+        .request(server)
+        .keepOpen()
+        .get('/hello')
+        .end(function (err, res) {
+          assert.equal(res.status, 200);
+          assert.equal(res.text, 'hello Guest');
+          done();
+        });
+    });
+    // #2
+    test('Test GET /hello with your name', function (done) {
+      chai
+        .request(server)
+        .keepOpen()
+        .get('/hello?name=xy_z')
+        .end(function (err, res) {
+          assert.equal(res.status, 200);
+          assert.equal(res.text, 'hello xy_z');
+          done();
+        });
+    });
+    // #3
+    test('Send {surname: "Colombo"}', function (done) {
+      chai
+        .request(server)
+        .keepOpen()
+        .put('/travellers')
+        .send({surname: "Colombo"})
+        .end(function (err, res) {
+          assert.equal(res.status, 200);
+          assert.equal(res.type, 'application/json');
+          assert.equal(res.body.name, 'Cristoforo');
+          assert.equal(res.body.surname, 'Colombo');
+          done();
+        });
+    });
+    // #4
+    test('Send {surname: "da Verrazzano"}', function (done) {
+      chai
+        .request(server)
+        .keepOpen()
+        .put('/travellers')
+        .send({surname: "da Verrazzano"})
+        .end(function (err, res) {
+          assert.equal(res.status, 200);
+          assert.equal(res.type, 'application/json');
+          assert.equal(res.body.name, 'Giovanni');
+          assert.equal(res.body.surname, 'da Verrazzano');
+          done();
+        })
+    });
+  });
+});
+```
 
 ## Các cách viết kiểm thử
 ### Dùng callback (cách cũ, ít dùng hơn)
@@ -293,4 +353,87 @@ Dòng gây bất đồng bộ chính là:
 5. Trong callback bạn gọi `done()`.
     - Mocha nhận được `done()` ⇒ đánh dấu test đã hoàn thành.
 
+# Mô phỏng thao tác bằng Headless Browser
 
+👉 **Headless browser** là **trình duyệt web không có giao diện đồ họa** – nó vẫn render HTML, CSS, chạy JavaScript… như một trình duyệt thật (Chrome, Firefox), nhưng không hiện cửa sổ UI.
+
+📌 Đặc điểm
+- Chạy ở chế độ nền (background), không hiển thị giao diện.
+- Có thể điều khiển bằng code (API hoặc script).
+- Hữu ích cho tự động hóa (automation).
+
+⚡ Ứng dụng phổ biến
+1. **Web scraping** → lấy dữ liệu từ web động (SPA, AJAX).
+2. **Kiểm thử tự động (test automation)** → giả lập người dùng truy cập, click, nhập form.
+3. **SEO / Render trước (pre-rendering)** → render trang SPA để Google bot đọc được.
+4. **Screenshot / PDF** → chụp trang web, xuất báo cáo.
+
+🔧 Công cụ phổ biến
+- **Puppeteer** (Google Chrome headless).
+- **Playwright** (MS).
+- **Selenium + headless Chrome/Firefox**.
+- **PhantomJS** (giờ ít dùng, đã deprecated).
+
+=> **Zombie.js** là một **headless browser cho Node.js**.
+
+
+## AJAX Request 
+👉 **AJAX request** là một cách để **gửi yêu cầu HTTP bất đồng bộ từ trình duyệt đến server** mà **không cần reload lại toàn bộ trang web**.
+
+📌 Giải thích
+- **AJAX** = **Asynchronous JavaScript and XML** (tên cũ, nhưng giờ không chỉ dùng XML mà còn JSON, HTML, text).
+- Nó cho phép trang web:
+    - Gửi/nhận dữ liệu với server "ngầm" phía sau.
+    - Chỉ cập nhật một phần giao diện (DOM) thay vì tải lại cả trang.
+
+⚡ Ví dụ trực quan: Khi bạn nhập từ khóa vào ô tìm kiếm Google và kết quả gợi ý hiện ra tức thì → đó là AJAX request.
+
+```js
+const Browser = require('zombie');
+Browser.site = 'https://3000-freecodecam-boilerplate-k0byx7gahru.ws-us121.gitpod.io'
+
+suite('Functional Tests with Zombie.js', function () {
+  this.timeout(5000);
+  const browser = new Browser();
+
+  suiteSetup(function(done) {
+    return browser.visit('/', done);
+  });
+
+  suite('Headless browser', function () {
+    test('should have a working "site" property', function() {
+      assert.isNotNull(browser.site);
+    });
+  });
+
+  suite('"Famous Italian Explorers" form', function () {
+    // #5
+    test('Submit the surname "Colombo" in the HTML form', function (done) {
+      browser.fill('surname', 'Colombo').then(() => {
+        browser.pressButton('submit', ()=>{
+          browser.assert.success();
+          browser.assert.text('span#name', 'Cristoforo');
+          browser.assert.text('span#surname', 'Colombo');
+          browser.assert.elements('span#dates', 1);
+          done();
+        })
+      })
+    });
+    // #6
+    test('Submit the surname "Vespucci" in the HTML form', function (done) {
+      browser.fill('surname', 'Vespucci').then(()=>{
+        browser.pressButton('submit', ()=>{
+          browser.assert.success();
+          browser.assert.text('span#name', 'Amerigo');
+          browser.assert.text('span#surname', 'Vespucci');
+          browser.assert.elements('span#dates', 1);
+          done();
+        })
+      })
+
+    });
+  });
+});
+```
+
+# 
