@@ -435,3 +435,97 @@ suite('Functional Tests with Zombie.js', function () {
   });
 });
 ```
+
+# 📌 Template Engine trong Express.js là gì?
+
+- **Template engine** là một công cụ cho phép bạn **tạo ra HTML động** bằng cách nhúng dữ liệu từ backend (Express.js) vào file HTML.
+- Nó giống như “máy in HTML” → bạn thiết kế **template** (mẫu HTML có chỗ trống), rồi Express.js render ra **HTML hoàn chỉnh** bằng cách thay dữ liệu thật vào.
+
+## 🔍 Ví dụ
+Giả sử bạn dùng **EJS (Embedded JavaScript)**:
+**views/index.ejs**
+```html
+<!DOCTYPE html>
+<html>
+  <head><title>Hello</title></head>
+  <body>
+    <h1>Hello <%= name %>!</h1>
+  </body>
+</html>
+```
+
+**server.js**
+```js
+const express = require('express');
+const app = express();
+
+app.set('view engine', 'ejs'); // khai báo template engine
+
+app.get('/', (req, res) => {
+  res.render('index', { name: 'Doanh' }); // truyền data vào template
+});
+
+app.listen(3000);
+```
+
+👉 Khi vào `http://localhost:3000`, bạn sẽ thấy:
+
+```html
+<h1>Hello Doanh!</h1>
+```
+
+⚡ Template engines phổ biến với Express.js
+- **EJS** (dễ học, giống HTML + JS)
+- **Pug** (trước gọi là Jade, syntax ngắn gọn)
+- **Handlebars / Mustache** (logic tối giản, giống Vue/React template)
+- Ngoài ra: Nunjucks, HBS, Liquid,…
+
+**Tóm lại**
+- **Template engine = công cụ render HTML động từ dữ liệu backend**.
+- Trong Express.js, dùng `res.render(view, data)` để render template.
+- Nó phù hợp cho web truyền thống (SSR – server-side rendering).
+- Nhưng với SPA (React, Vue, Angular), thường Express chỉ trả **API JSON**, không cần template engine nữa.
+
+# 🏗️ Hai kiểu xây dựng web với Express.js
+
+## 1. **Web “truyền thống” (Server-Side Rendering – SSR)**
+- Express.js + **template engine** (EJS, Pug, Handlebars, …).
+- Mỗi request từ trình duyệt → server Express sẽ **render luôn HTML hoàn chỉnh** rồi trả về.
+- Người dùng nhận nguyên trang HTML.
+- Kiểu này giống PHP/Laravel, Django, Rails.
+👉 Ở đây **cần template engine** để nhúng dữ liệu động vào HTML.
+
+## 2. **Web hiện đại (SPA – Single Page Application)**
+- Frontend viết bằng **React, Vue, Angular** (chạy trên trình duyệt).
+- Backend (Express.js) chỉ cần **cung cấp API JSON** (REST hoặc GraphQL).
+- Frontend sẽ gọi API bằng fetch/axios, rồi render UI bằng JavaScript ở client.
+- Người dùng nhận “khung HTML + bundle JS” trước, sau đó UI động nhờ JS.
+👉 Ở đây **không cần template engine** trong Express nữa, vì việc render giao diện do React/Vue làm. Express chỉ đóng vai trò **backend API**.
+
+## 🔍 Ví dụ nhanh
+
+### Với **template engine (SSR)**
+```js
+app.set('view engine', 'ejs');
+app.get('/', (req, res) => {
+  res.render('index', { name: 'Doanh' });
+});
+```
+
+→ Trả về HTML: `<h1>Hello Doanh</h1>`
+
+### Với **SPA (API JSON)**
+
+```js
+app.get('/api/user', (req, res) => {
+  res.json({ name: 'Doanh' });
+});
+```
+
+→ Trả về JSON: `{ "name": "Doanh" }`  
+→ React/Vue bên frontend nhận JSON này, rồi render ra `<h1>Hello Doanh</h1>`
+
+📍 Tóm gọn:
+- Nếu làm **web thuần với Express** → dùng template engine.
+- Nếu làm **SPA với React/Vue** → Express chỉ trả **API JSON**, không cần template engine.
+
