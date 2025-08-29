@@ -190,6 +190,60 @@ suite('Unit Tests', function () {
 
 # Kiểm thử chức năng
 
+
+
+## Các cách viết kiểm thử
+### Dùng callback (cách cũ, ít dùng hơn)
+
+Ví dụ với Jest:
+```js
+test('callback async test', (done) => {
+  function fetchData(cb) {
+    setTimeout(() => cb('hello'), 100);
+  }
+
+  fetchData((data) => {
+    expect(data).toBe('hello');
+    done(); // phải gọi done() để báo Jest biết test đã xong
+  });
+});
+```
+
+⚠️ Nếu quên `done()`, test có thể bị treo hoặc fail sai.
+
+### Dùng Promise
+
+Jest/Mocha hiểu Promise nên chỉ cần return:
+
+```js
+test('promise async test', () => {
+  function fetchData() {
+    return Promise.resolve('hello');
+  }
+
+  return fetchData().then(data => {
+    expect(data).toBe('hello');
+  });
+});
+```
+
+### Dùng async/await (thông dụng nhất)
+
+Rõ ràng và dễ đọc:
+```js
+test('async/await async test', async () => {
+  async function fetchData() {
+    return 'hello';
+  }
+
+  const data = await fetchData();
+  expect(data).toBe('hello');
+});
+```
+
+
+## Dòng gây bất đồng bộ
+
 ```js
 suite('GET /hello?name=[name] => "hello [name]"', function () {
   test('?name=John', function (done) {
@@ -205,4 +259,38 @@ suite('GET /hello?name=[name] => "hello [name]"', function () {
   });
 });
 ```
+
+- Có tham số `done` trong `test(...)` ⇒ nghĩa là **Mocha sẽ chờ đến khi `done()` được gọi mới kết thúc test**. Đây là cách viết test bất đồng bộ bằng **callback**.
+- Nếu quên gọi `done()` ⇒ test sẽ bị timeout (fail).
+
+Dòng gây bất đồng bộ chính là:
+
+```js
+.end(function (err, res) {
+  ...
+  done();
+});
+```
+
+- Lý do: `chai.request(...).get(...).end(...)` sẽ **khởi tạo một HTTP request**.
+- HTTP request này không trả về kết quả ngay (phải đi qua network stack, server xử lý, gửi lại response).
+- Do đó, `.end(callback)` chính là nơi bạn đăng ký **callback function** để khi response từ server về, callback này mới được đẩy vào **event queue** và chạy.
+
+## Nguyên lý dịch và chạy trong JavaScript
+
+Đây là chỗ nhiều bạn hay nhầm, mình giải thích flow runtime:
+1. **JS là ngôn ngữ đơn luồng** → chỉ có một _call stack_.
+2. Khi bạn gọi:
+    `chai.request(server).get('/hello?name=John').end(cb)`
+    - `chai-http` sẽ gửi request qua **Node.js libuv + OS networking**.
+    - Thao tác này được đưa sang **thread pool / network I/O của Node**, nên **không block** call stack chính.
+3. Trong lúc chờ server phản hồi:
+    - JS tiếp tục chạy các câu lệnh khác trong test (nếu có).
+    - `test()` function kết thúc, nhưng Mocha chưa kết thúc test vì bạn khai báo `done`.
+4. Khi server gửi response:
+    - **libuv** đẩy sự kiện `"data received"` vào **event loop queue**.
+    - Event loop phát hiện callback `.end(function(err, res){...})` và đưa vào call stack để thực thi.
+5. Trong callback bạn gọi `done()`.
+    - Mocha nhận được `done()` ⇒ đánh dấu test đã hoàn thành.
+
 
