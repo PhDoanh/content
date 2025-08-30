@@ -3,7 +3,7 @@ date: 2025-02-11
 draft: true
 status: Done
 title: "3. ～ですか: Câu hỏi xác nhận cơ bản"
-description: 
+description:
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:

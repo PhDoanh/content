@@ -3,7 +3,7 @@ date: 2025-02-11
 draft: true
 status: Done
 title: "10. ～か、～か: Câu hỏi yêu cầu sự lựa chọn"
-description: 
+description:
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:

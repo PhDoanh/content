@@ -3,7 +3,7 @@ date: 2025-02-11
 draft: true
 status: Done
 title: "7. これ・それ・あれ: Đại từ chỉ thị trong tiếng Nhật"
-description: 
+description:
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:

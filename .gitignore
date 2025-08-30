@@ -2,3 +2,9 @@
 !.obsidian/snippets/
 !.obsidian/snippets/**
 private/*
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env

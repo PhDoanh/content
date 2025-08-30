@@ -3,7 +3,7 @@ date: 2025-02-11
 draft: true
 status: Done
 title: "1. N₁ は N₂ です: Câu khẳng định với trợ từ ở/thì/là"
-description: 
+description:
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
 tags:
