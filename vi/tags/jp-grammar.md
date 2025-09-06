@@ -1,19 +1,18 @@
 ---
-stage: "Idea"
-title: "Nhật ngữ sâu bên trong"
-description: "Sổ tay tổng hợp và tóm tắt ngữ pháp của PhDoanh"
+stage: Idea
+title: Nhật ngữ qua mẩu truyện
+description: Sổ tay tổng hợp và tóm tắt ngữ pháp của PhDoanh
 permalink: ""
 comments: false
 lang: vi
 draft: true
-aliases: 
+aliases:
 cssclasses:
   - img
   - btn
 socialDescription: ""
 socialImage: ""
 ---
-
 # Giới thiệu
 Bản thân mình là một người đang theo học tiếng Nhật và thích nghiên cứu bản chất của những gì được học nên sổ tay "Nhật ngữ sâu bên trong" sẽ được dùng để tổng hợp mọi ngữ pháp tiếng Nhật mà mình tiếp cận được qua nhiều nguồn uy tín khác nhau.
 
