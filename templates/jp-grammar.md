@@ -1,10 +1,11 @@
 ---
 stage: Idea
-title: 1. 〜たら「Một bữa tiệc không hồi kết」N3
+title:
 description: meta description (140‑160 chars)
 permalink: ""
 lang: vi
 draft: true
+comments: true
 tags:
   - japanese
 aliases:
