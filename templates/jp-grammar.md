@@ -16,11 +16,18 @@ socialDescription: OG description (~100 chars)
 socialImage: fully qualified URL to preview image
 ---
 Định dạng tiêu đề bài viết: {stt}. Tên mẩu truyện 
-VD: 1「Xin chào, mình là Doanh」〜たら   
+
+
+VD: [[#Văn bản gạch chân fb0acb <|1「Xin chào, mình là Doanh」〜たら]] ^fb0acb
+
 
 Nguyên tắc:
-- Mẩu truyện ngắn đầu bài viết: chứa các cách dùng ngữ pháp dưới dạng link tới các phần của bài viết, tiêu đề theo kiểu tiếng nhật được căn giữa, có bản dịch, audio
+- Mẩu truyện ngắn đầu bài viết: chứa các cách dùng ngữ pháp dưới dạng link tới các phần của bài viết, tiêu đề theo kiểu tiếng nhật được căn giữa, có bản dịch, audio[^1]
 - 
+
+[^1]: Hello World
+
+# Văn bản gạch chân [[#^fb0acb|]]
 
 
 
