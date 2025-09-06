@@ -15,10 +15,7 @@ tags:
   - elementary
   - minna-no-nihongo
 aliases:
-  - n1 ha n2 desu
-  - N₁ は N₂ です
-  - Câu khẳng định với trợ từ ở/thì/là
-cssclasses: img
+cssclasses:
 ---
 %% ĐỊNH DẠNG TÊN FILE: "stt_tên-furigana-của-ngữ-pháp" | VD: 1_n-no-tameni %%
 
