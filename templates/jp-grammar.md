@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: concise SEO title (50‑60 chars)
+title: 100. 〜たら「Một bữa tiệc không hồi kết」N3
 description: meta description (140‑160 chars)
 permalink: ""
 lang: vi
@@ -15,6 +15,12 @@ cssclasses:
 socialDescription: OG description (~100 chars)
 socialImage: fully qualified URL to preview image
 ---
-mẩu truyện ngắn chứa các cách dùng ngữ pháp dưới dạng link tới các phần của bài viết 
+Định dạng tiêu đề bài viết: {stt}. Tên mẩu truyện 
+VD: 1「Xin chào, mình là Doanh」〜たら   
+
+Nguyên tắc:
+- Mẩu truyện ngắn đầu bài viết: chứa các cách dùng ngữ pháp dưới dạng link tới các phần của bài viết, tiêu đề theo kiểu tiếng nhật được căn giữa, có bản dịch, audio
+- 
+
 
 
