@@ -9,6 +9,7 @@ aliases:
   - home
 cssclasses:
   - img
+  - handwriting
 socialDescription:
 socialImage:
 ---
@@ -25,5 +26,5 @@ In the learning journey, I realized that there are many things that ***"seem unr
 ***Anyway, welcome to my brain!***
 
 ```poetry
-Hello World. Mình có thể nói 日本語 初めまして
+Hello World. Mình có thể nói 日本語 初めまして Hello World
 ```
