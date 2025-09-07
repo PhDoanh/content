@@ -1,6 +1,6 @@
 /* Reading mode */
 .markdown-preview-view.yomogi-font {
-	font-family: "Yomogi", var(--bodyFont) !important;
+	font-family: "Yomogi", var(--font-text) !important;
 }
 
 /* Source / Live preview mode */
@@ -10,5 +10,9 @@
 .markdown-source-view.mod-cm6.yomogi-font .cm-scroller,
 .markdown-source-view.mod-cm6.yomogi-font .cm-content,
 .markdown-source-view.is-live-preview.yomogi-font .cm-line {
-	font-family: "Yomogi", var(--bodyFont) !important;
+	font-family: "Yomogi", var(--font-text) !important;
+}
+	
+article.yomogi-font {
+	font-family: "Yomogi", var(--bodyFont);
 }

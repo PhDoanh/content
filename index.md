@@ -9,7 +9,6 @@ aliases:
   - home
 cssclasses:
   - img
-  - yomogi-font
 socialDescription:
 socialImage:
 ---
@@ -27,6 +26,8 @@ In the learning journey, I realized that there are many things that ***"seem unr
 
 Somethign 
 
-```poetry
-Hello World, It's Suday May I have to say "Xin chào, みんなさん！"
+```css
+article.yomogi-font {
+	font-family: "Yomogi", var(--bodyFont);
+}
 ```
