@@ -14,5 +14,6 @@
 }
 	
 article.yomogi-font {
-	font-family: "Yomogi", var(--bodyFont);
+	font-family: "Yomogi", var(--bodyFont) !important;
+		font-size: large;
 }

@@ -9,6 +9,7 @@ aliases:
   - home
 cssclasses:
   - img
+  - yomogi-font
 socialDescription:
 socialImage:
 ---
