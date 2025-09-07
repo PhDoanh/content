@@ -25,3 +25,4 @@ In the learning journey, I realized that there are many things that ***"seem unr
 
 ***Anyway, welcome to my brain!***
 
+![[Recording 2025-09-07 104200.mp3]]
