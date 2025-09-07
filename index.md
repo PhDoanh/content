@@ -9,7 +9,6 @@ aliases:
   - home
 cssclasses:
   - img
-  - yomogi-font
 socialDescription:
 socialImage:
 ---
@@ -25,10 +24,6 @@ In the learning journey, I realized that there are many things that ***"seem unr
 
 ***Anyway, welcome to my brain!***
 
-Somethign 
-
-```css
-article.yomogi-font {
-	font-family: "Yomogi", var(--bodyFont);
-}
+```poetry
+Hello World. Mình có thể nói 日本語 初めまして
 ```

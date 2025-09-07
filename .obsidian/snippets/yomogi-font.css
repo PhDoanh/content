@@ -12,8 +12,17 @@
 .markdown-source-view.is-live-preview.yomogi-font .cm-line {
 	font-family: "Yomogi", var(--font-text) !important;
 }
-	
+
 article.yomogi-font {
 	font-family: "Yomogi", var(--bodyFont) !important;
-		font-size: large;
+	font-size: large;
+}
+article.yomogi-font h1,
+article.yomogi-font h2,
+article.yomogi-font h3,
+article.yomogi-font h4,
+article.yomogi-font h5,
+article.yomogi-font h6,
+article.yomogi-font thead {
+	font-family: "Yomogi", var(--headerFont) !important;
 }

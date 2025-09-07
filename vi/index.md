@@ -1,11 +1,11 @@
 ---
-title: 'Welcome to my brain'
+title: Welcome to my brain
 description: ""
 lang: vi
 aliases:
 cssclasses:
   - img
-  - btn
+  - yomogi-font
 ---
 
 # Chào bạn đọc 👋
