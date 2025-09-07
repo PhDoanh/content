@@ -10,6 +10,7 @@ aliases:
 cssclasses:
   - img
   - btn
+  - yomogi-font
 socialDescription:
 socialImage:
 ---
