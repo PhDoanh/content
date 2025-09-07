@@ -1,0 +1,26 @@
+.markdown-preview-view.vi-font {
+	font-family: "DFVN Gochi Hand", var(--font-text) !important;
+}
+
+.markdown-source-view.vi-font,
+.markdown-source-view.vi-font .cm-scroller,
+.markdown-source-view.vi-font .cm-content,
+.markdown-source-view.mod-cm6.vi-font .cm-scroller,
+.markdown-source-view.mod-cm6.vi-font .cm-content,
+.markdown-source-view.is-live-preview.vi-font .cm-line {
+	font-family: "DFVN Gochi Hand", var(--font-text) !important;
+}
+
+article.vi-font {
+	font-family: "DFVN Gochi Hand", var(--bodyFont) !important;
+}
+
+article.vi-font h1,
+article.vi-font h2,
+article.vi-font h3,
+article.vi-font h4,
+article.vi-font h5,
+article.vi-font h6,
+article.vi-font thead {
+	font-family: "DFVN Gochi Hand", var(--headerFont) !important;
+}

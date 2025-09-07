@@ -1,0 +1,36 @@
+/* OBSIDIAN COMPATIBILITY */
+
+/* Reading mode */
+.markdown-preview-view.en-font {
+	font-family: "Indie Flower", var(--font-text) !important;
+}
+
+
+
+/* Source / Live preview mode */
+.markdown-source-view.en-font,
+.markdown-source-view.en-font .cm-scroller,
+.markdown-source-view.en-font .cm-content,
+.markdown-source-view.mod-cm6.en-font .cm-scroller,
+.markdown-source-view.mod-cm6.en-font .cm-content,
+.markdown-source-view.is-live-preview.en-font .cm-line {
+	font-family: "Zen Kurenaido", var(--font-text) !important;
+}
+
+
+
+/* QUARTZ COMPATIBILITY */
+
+article.en-font {
+	font-family: "Indie Flower", var(--bodyFont) !important;
+}
+
+article.en-font h1,
+article.en-font h2,
+article.en-font h3,
+article.en-font h4,
+article.en-font h5,
+article.en-font h6,
+article.en-font thead {
+	font-family: "Indie Flower", var(--headerFont) !important;
+}
