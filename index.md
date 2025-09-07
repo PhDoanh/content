@@ -24,3 +24,7 @@ This is a field that I used to think was unrealistic to pursue because it involv
 In the learning journey, I realized that there are many things that ***"seem unrelated but unthinkably related"*** to my career. They indirectly support, motivate and strengthen their belief in the path they have chosen, which is also a lifeline choice when their career encounters difficulties. Therefore, I will also share them with all readers to see that our brains, which are a wonder of the world, can contain and use what we have learned to a terrible extent!
 
 ***Anyway, welcome to my brain!***
+
+```poetry
+Hello World, It's Suday May I have to say "Xin chào, みんなさん！"
+```
