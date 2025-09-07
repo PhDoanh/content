@@ -39,7 +39,6 @@ mô tả ngắn kèm tối thiểu 3 ví dụ
 
 ## Ứng dụng mở rộng 2
 
-# Tại sao quan trọng?
 
 # Lưu ý
 
