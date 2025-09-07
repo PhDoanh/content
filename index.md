@@ -9,7 +9,6 @@ aliases:
   - home
 cssclasses:
   - img
-  - imagegallery
 socialDescription:
 socialImage:
 ---
@@ -25,6 +24,18 @@ In the learning journey, I realized that there are many things that ***"seem unr
 
 ***Anyway, welcome to my brain!***
 
-![[flower.png]] ![[flower.png]] ![[flower.png]]
-![[flower.png]] ![[flower.png]]
+> [!clear]- Bye World
+> hello World 
+
+> [!clear]- Bye World
+> hello World 
+
+> [!clear]- Bye World
+> hello World 
+
+> [!bell] Bell ringing
+> Bruh
+
+
+
 
