@@ -9,6 +9,7 @@ aliases:
   - home
 cssclasses:
   - img
+  - view-content
 socialDescription:
 socialImage:
 ---
@@ -24,3 +25,4 @@ In the learning journey, I realized that there are many things that ***"seem unr
 
 ***Anyway, welcome to my brain!***
 
+![[flower.png|100]]
