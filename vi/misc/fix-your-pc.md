@@ -1,11 +1,11 @@
 ---
-stage: "Publish"
+stage: Publish
 title: "Fix Your PC: Tựa game khiến bạn phải nghiêm túc về khả năng đánh máy"
-description: "Một tựa game luyện phản xạ và tốc độ gõ phím bằng cách khiến máy tính của người chơi gặp trục trặc. Chỉ có một cách để cứu lấy chiếc PC, đó là đánh máy! (không phải đánh đập)"
+description: Một tựa game luyện phản xạ và tốc độ gõ phím bằng cách khiến máy tính của người chơi gặp trục trặc. Chỉ có một cách để cứu lấy chiếc PC, đó là đánh máy! (không phải đánh đập)
 permalink: ""
 lang: vi
 draft: false
-tags: 
+tags:
   - project
   - cpp
   - sdl2

@@ -1,4 +1,14 @@
-.markdown-preview-view.myFontNote,
-.markdown-source-view.myFontNote {
-	font-family: "Yomogi", sans-serif !important;
+/* Reading mode */
+.markdown-preview-view.yomogi-font {
+	font-family: "Yomogi", var(--bodyFont) !important;
+}
+
+/* Source / Live preview mode */
+.markdown-source-view.yomogi-font,
+.markdown-source-view.yomogi-font .cm-scroller,
+.markdown-source-view.yomogi-font .cm-content,
+.markdown-source-view.mod-cm6.yomogi-font .cm-scroller,
+.markdown-source-view.mod-cm6.yomogi-font .cm-content,
+.markdown-source-view.is-live-preview.yomogi-font .cm-line {
+	font-family: "Yomogi", var(--bodyFont) !important;
 }

@@ -10,7 +10,6 @@ aliases:
   - 
 cssclasses:
   - img
-  - btn
 socialDescription: OG description (~100 chars)
 socialImage: fully qualified URL to preview image
 ---
