@@ -24,8 +24,12 @@ In the learning journey, I realized that there are many things that ***"seem unr
 
 ***Anyway, welcome to my brain!***
 
+
 > [!clear]- Bye World
 > hello World 
+> My name is Doanh
+> - Neesu 
+> - Thees
 
 > [!clear]- Bye World
 > hello World 
@@ -35,7 +39,10 @@ In the learning journey, I realized that there are many things that ***"seem unr
 
 > [!bell] Bell ringing
 > Bruh
+> 
+> Con kac
+> My lên lớp rồi!
 
 
 
-
+	
