@@ -16,14 +16,12 @@ cssclasses:
 socialDescription: OG description (~100 chars)
 socialImage: fully qualified URL to preview image
 ---
-Định dạng tiêu đề bài viết: {stt}. Tên mẩu truyện 
-
-
 Nguyên tắc:
 - Tiêu đề bài viết tuân thủ định dạng: {stt}. {{ngữ pháp ngắn gọn}}「tên truyện」
-- Mẩu truyện ngắn đầu bài viết: chứa các cách dùng ngữ pháp dưới dạng internal link tới các phần của bài viết (cho phép link ngược lại từ section -> sentence trong truyện), tiêu đề truyện theo kiểu tiếng nhật được căn giữa, có bản dịch, audio
+- Mẩu truyện ngắn đầu bài viết: chứa các cách dùng ngữ pháp dưới dạng internal link tới các phần của bài viết (cho phép link ngược lại từ section -> sentence trong truyện), tiêu đề truyện theo kiểu tiếng nhật được căn giữa, có bản dịch (dùng callout trong suốt), audio (chứa lời thoại các nhân vật truyện và background music không lời)
 - Mã mermaid ngay sau mẩu truyện thể hiện cấu trúc ngữ pháp của bài viết
 - Trình bày cấu trúc nội dung như phía dưới
+- Truyện được trình bày theo phong cách tin nhắn messenger
 
 # Văn bản gạch chân [[#^fb0acb|↑]]
 
