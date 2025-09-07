@@ -5,7 +5,6 @@ lang: vi
 aliases:
 cssclasses:
   - img
-  - yomogi-font
 ---
 
 # Chào bạn đọc 👋

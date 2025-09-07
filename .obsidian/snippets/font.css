@@ -1,0 +1,64 @@
+/* OBSIDIAN COMPATIBILITY */
+
+/* Reading mode */
+.markdown-preview-view.en-font {
+	font-family: "Indie Flower", var(--font-text) !important;
+}
+.markdown-preview-view.ja-font {
+	font-family: "Zen Kurenaido", var(--font-text) !important;
+}
+.markdown-preview-view.vi-font {
+	font-family: "DFVN Gochi Hand", var(--font-text) !important;
+}
+
+
+/* Source / Live preview mode */
+.markdown-source-view.en-font,
+.markdown-source-view.en-font .cm-scroller,
+.markdown-source-view.en-font .cm-content,
+.markdown-source-view.mod-cm6.en-font .cm-scroller,
+.markdown-source-view.mod-cm6.en-font .cm-content,
+.markdown-source-view.is-live-preview.en-font .cm-line {
+	font-family: "Indie Flower", var(--font-text) !important;
+}
+.markdown-source-view.en-font,
+.markdown-source-view.en-font .cm-scroller,
+.markdown-source-view.en-font .cm-content,
+.markdown-source-view.mod-cm6.en-font .cm-scroller,
+.markdown-source-view.mod-cm6.en-font .cm-content,
+.markdown-source-view.is-live-preview.en-font .cm-line {
+	font-family: "Indie Flower", var(--font-text) !important;
+}
+.markdown-source-view.en-font,
+.markdown-source-view.en-font .cm-scroller,
+.markdown-source-view.en-font .cm-content,
+.markdown-source-view.mod-cm6.en-font .cm-scroller,
+.markdown-source-view.mod-cm6.en-font .cm-content,
+.markdown-source-view.is-live-preview.en-font .cm-line {
+	font-family: "Indie Flower", var(--font-text) !important;
+}
+
+
+/* QUARTZ COMPATIBILITY */
+
+article. pre.poetry {
+	font-size: 1.2rem;
+	font-family: Yomogi;
+	border: none;
+	padding: 0;
+	position: unset;
+}
+
+article.en-font {
+	font-family: "Yomogi", var(--bodyFont) !important;
+	font-size: large;
+}
+article.en-font h1,
+article.en-font h2,
+article.en-font h3,
+article.en-font h4,
+article.en-font h5,
+article.en-font h6,
+article.en-font thead {
+	font-family: "Yomogi", var(--headerFont) !important;
+}
