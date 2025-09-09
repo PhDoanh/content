@@ -24,28 +24,26 @@ socialImage: "{fully qualified URL to preview image}"
 <h1 style="text-align:center;">「{AI: short story name in japanese}」</h1>
 {voice audio in story}
 
-{AI: Use the callout template below to build story content as a multi-person conversation}
+{AI: Use the callout template below to build story content as a multi-person conversation, emphasize sentences using grammar with `[[wikilink]]` to below heading about usage}
 
-> [!clear]- {AI: callout title as `character name: character lines`}
+> [!clear]- {AI: callout title as `character name: character lines` in japanese}
 > {AI: vietnamese version of callout tilte}
-
-
 
 # Cách dùng cơ bản 🗝️
 
-## {AI: usage 1} [[#^{backlink to a story line}|↑]]
-{AI: short description + at least 3 examples + notice (if any)}
+{AI: use the template below to present the grammar usages}
+## {AI: usage name} [[#^{backlink to a story line}|↑]]
+{AI: short description + at least 3 examples based on below callout template + notices (if any)}
 
-## {usage 2} [[#^{backlink to story line}|↑]]
-{short description + at least 3 examples + notice (if any)}
+> [!clear]- {{AI: callout title about example in japanese}}
+> {AI: vietnamese version of callout tilte}
 
 # Cách dùng nâng cao 🔓
 
-## {usage 1} [[#^{backlink to story line}|↑]]
-{short description + at least 3 examples + notice (if any)}
-
-## {usage 2} [[#^{backlink to story line}|↑]]
-{short description + at least 3 examples + notice (if any)}
+> [!caution]- Content in progress
+> This content creation process may take time, but you can help it along by participating in the [[vi/article-contribution-guide|Article Contribution Guide]]
+>
+> **We appreciate your understanding!**
 
 # Bạn học chú ý 👀
 

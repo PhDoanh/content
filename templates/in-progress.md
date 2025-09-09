@@ -1,4 +1,4 @@
-> [!caution]- Nội dung đang hoàn thiện
-> Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[vi/article-contribution-guide|Hướng dẫn cộng tác bài viết]]
-> 
-> **Rất mong sự thông cảm của các bạn!**
+> [!caution]- Content in progress
+> This content creation process may take time, but you can help it along by participating in the [[vi/article-contribution-guide|Article Contribution Guide]]
+>
+> **We appreciate your understanding!**
