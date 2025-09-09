@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: "<% tp.file.cursor %>. {AI: shortened grammar}「{AI: short story name in vietnamese}」"
+title: "{stt}. {AI: shortened grammar}「{AI: short story name in vietnamese}」"
 description: "{AI: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
@@ -15,6 +15,7 @@ cssclasses:
 socialDescription: "{OG description (~100 chars)}"
 socialImage: "{fully qualified URL to preview image}"
 ---
+
 > [!bell]- Dành cho bạn học lần đầu
 > Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
 
@@ -54,7 +55,7 @@ socialImage: "{fully qualified URL to preview image}"
 > {AI: similar grammars with short description and emphasize the difference as bullets}
 
 # Tổng kết và giữ chuỗi 🔥
-Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số <% tp.file.cursor %> đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
+Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số {stt} đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
 
 {AI: content summary}
 
