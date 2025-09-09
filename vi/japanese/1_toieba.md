@@ -20,9 +20,15 @@ socialImage: fully qualified URL to preview image
 > Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
 
 # Cấu trúc ngữ pháp 🔍
-{mermaid diagram}
+```mermaid
+graph TD
+    N[Danh từ N] --> ToIeba[と言えば]
+    ToIeba --> Clause[Mệnh đề / Câu tiếp theo]
+```
 
 N + と言えば ～
+
+Ý nghĩa:
 - Nói về N, ~
 - Nhắc tới N, ~
 - ~ khi nhắc tới N
