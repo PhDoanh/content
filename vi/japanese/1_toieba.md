@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: 1. と言えば「tên truyện」
+title: 1. と言えば「{tên truyện}」
 description: meta description (140‑160 chars)
 permalink: ""
 lang: vi
@@ -21,19 +21,20 @@ socialImage: fully qualified URL to preview image
 
 # Cấu trúc ngữ pháp 🔍
 ```mermaid
-graph TD
-    N[Danh từ N] --> ToIeba[と言えば]
-    ToIeba --> Clause[Mệnh đề / Câu tiếp theo]
+flowchart LR
+    n1["と言えば"] --> n2["Mệnh đề"]
+    n3["Danh từ N"] --> n1
+    n1@{ shape: rounded}
+    n2@{ shape: rounded}
+    n3@{ shape: rounded}
 ```
-
-N + と言えば ～
 
 Ý nghĩa:
 - Nói về N, ~
 - Nhắc tới N, ~
 - ~ khi nhắc tới N
 
-<h1 style="text-align:center;">「tên truyện」</h1>
+<h1 style="text-align:center;">「{tên truyện}」</h1>
 {audio}
 
 {transcript with translation in message format}
@@ -43,28 +44,21 @@ N + と言えば ～
 
 ## Đề cập cái gì đó khi nhắc tới N [[#^{backlink to story line}|↑]]
 
+> [!clear]- スミスさんと<ruby>言<rt>い</rt></ruby>えば、<ruby>彼<rt>かれ</rt></ruby>は<ruby>大阪<rt>おおさか</rt></ruby>にいるはずです。
+> Nhắc đến anh Smith, hình như anh ấy đang ở Osaka.
 
-> [!clear]- Title
-> Contents
+> [!clear]- <ruby>日本<rt>にっぽん</rt></ruby>の<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>と<ruby>言<rt>い</rt></ruby>えば、やっぱり<ruby>寿司<rt>すし</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby>ですね。
+> Nói về đồ ăn Nhật, thì sushi vẫn là nhất nhỉ.
 
-> [!clear]- Title
-> Contents
-
-> [!clear]- Title
-> Contents
-
-
-
-## {usage 2} [[#^{backlink to story line}|↑]]
-{short description + at least 3 examples + notice (if any)}
+> [!clear]- <ruby>夏休<rt>なつやす</rt></ruby>みと<ruby>言<rt>い</rt></ruby>えば、<ruby>今年<rt>ことし</rt></ruby>は<ruby>沖縄<rt>おきなわ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいなあ。
+> Nhắc đến kì nghỉ hè, năm nay tớ muốn đi Okinawa quá.
 
 # Cách dùng nâng cao 🔓
 
-## {usage 1} [[#^{backlink to story line}|↑]]
-{short description + at least 3 examples + notice (if any)}
-
-## {usage 2} [[#^{backlink to story line}|↑]]
-{short description + at least 3 examples + notice (if any)}
+> [!caution]- Nội dung đang hoàn thiện
+> Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[vi/article-contribution-guide|Hướng dẫn cộng tác bài viết]]
+> 
+> **Rất mong sự thông cảm của các bạn!**
 
 # Bạn học chú ý 👀
 

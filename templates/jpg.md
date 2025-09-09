@@ -1,7 +1,7 @@
 ---
 stage: Idea
-title: "{stt}. {ngữ pháp ngắn gọn}「tên truyện」"
-description: meta description (140‑160 chars)
+title: <% tp.file.cursor %>. {short grammar}「{short story name}」
+description: "{meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
 draft: true
@@ -12,8 +12,8 @@ aliases:
   - 
 cssclasses:
   - img
-socialDescription: OG description (~100 chars)
-socialImage: fully qualified URL to preview image
+socialDescription: "{OG description (~100 chars)}"
+socialImage: "{fully qualified URL to preview image}"
 ---
 > [!bell]- Dành cho bạn học lần đầu
 > Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
@@ -52,7 +52,7 @@ socialImage: fully qualified URL to preview image
 > - {grammar}: {short description}
 
 # Tổng kết và giữ chuỗi 🔥
-Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số {stt} đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
+Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số <% tp.file.cursor %> đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
 
 {content summary}
 
