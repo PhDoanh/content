@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: "{stt}. {AI: shortened grammar}「{AI: short story name in vietnamese}」"
+title: "3. ～こと、～ことだ「{AI: short story name in vietnamese}」"
 description: "{AI: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
@@ -10,6 +10,7 @@ tags:
   - japanese
   - JLPT
   - grammar
+  - N3
 aliases:
   - 
 cssclasses:
@@ -22,7 +23,22 @@ socialImage: "{fully qualified URL to preview image}"
 > Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
 
 # Cấu trúc ngữ pháp 🔍
-{AI: mermaid diagram for grammar structure, using flowchart, LR direction, rounded nodes, arrow connections, branching if multiple cases}
+```mermaid
+flowchart LR
+    A["Danh từ"] --> B["は"]
+    B --> n2["Mệnh đề"]
+    n2 --> n3["こと"]
+    n3 --> n4["Mệnh đề"]
+    n4 --> n5["ことだ"]
+    A@{ shape: rounded}
+    B@{ shape: rounded}
+    n2@{ shape: rounded}
+    n3@{ shape: rounded}
+    n4@{ shape: rounded}
+    n5@{ shape: rounded}
+```
+
+**Ý nghĩa**: N là vì ~, ~ (liệt kê một loạt nguyên nhân) 
 
 <h1 style="text-align:center;">「{AI: short story name in japanese}」</h1>
 {voice audio in story}
@@ -35,12 +51,16 @@ socialImage: "{fully qualified URL to preview image}"
 # Cách dùng cơ bản 🗝️
 
 {AI: use the template below to present the grammar usages}
-## {AI: usage name} [[#^{backlink to a story line}|↑]]
-{AI: short description + at least 3 examples based on below callout template + notices (if any)}
+## Liệt kê một loạt lý do, nguyên nhân [[#^{backlink to a story line}|↑]]
 
-> [!clear]- {{AI: callout title about example in japanese}}
-> {AI: vietnamese version of callout tilte}
+> [!clear]- 日本語が上達しないのは、勉強不足であること、練習しないことだ。
+> Lý do tiếng Nhật không tiến bộ là vì thiếu học tập và vì không luyện tập.
 
+> [!clear]- ダイエットに失敗したのは、運動しなかったこと、食べすぎたことだ。
+> Nguyên nhân thất bại trong việc giảm cân là do không tập thể dục và ăn quá nhiều.
+
+> [!clear]- 試験に落ちたのは、準備不足であったこと、緊張しすぎたことだ。
+> Lý do trượt kỳ thi là do chuẩn bị không đủ và do quá căng thẳng.
 # Cách dùng nâng cao 🔓
 
 > [!caution]- Content in progress

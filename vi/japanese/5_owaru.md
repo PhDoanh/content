@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: "{stt}. {AI: shortened grammar}「{AI: short story name in vietnamese}」"
+title: "5. 終る「{AI: short story name in vietnamese}」"
 description: "{AI: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
@@ -10,6 +10,9 @@ tags:
   - japanese
   - JLPT
   - grammar
+  - N4
+  - to-end
+  - to-finish
 aliases:
   - 
 cssclasses:
@@ -22,7 +25,16 @@ socialImage: "{fully qualified URL to preview image}"
 > Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
 
 # Cấu trúc ngữ pháp 🔍
-{AI: mermaid diagram for grammar structure, using flowchart, LR direction, rounded nodes, arrow connections, branching if multiple cases}
+```mermaid
+flowchart LR
+    A["Động từ bỏ ます"] --> n1["終わる"] & n2n2["終わらない"] & n3["..."] & n4["終わった"]
+    A@{ shape: rounded}
+    n1@{ shape: rounded}
+    n3@{ shape: rounded}
+    n4@{ shape: rounded}
+```
+
+**Ý nghĩa**: Hoàn thành một hành động, làm xong một việc gì đó.
 
 <h1 style="text-align:center;">「{AI: short story name in japanese}」</h1>
 {voice audio in story}
@@ -35,11 +47,16 @@ socialImage: "{fully qualified URL to preview image}"
 # Cách dùng cơ bản 🗝️
 
 {AI: use the template below to present the grammar usages}
-## {AI: usage name} [[#^{backlink to a story line}|↑]]
-{AI: short description + at least 3 examples based on below callout template + notices (if any)}
+## Biểu thị sự kết thúc của hành động [[#^{backlink to a story line}|↑]]
 
-> [!clear]- {{AI: callout title about example in japanese}}
-> {AI: vietnamese version of callout tilte}
+> [!clear]- 映画を見終わった後で、みんなで感想を話しました。
+> Sau khi xem xong bộ phim, mọi người cùng nhau nói cảm tưởng.
+
+> [!clear]- 彼は宿題をやり終わってから、ゲームをしました。
+> Cậu ấy chơi game sau khi đã làm xong bài tập.
+
+> [!clear]- 本を読み終わりました
+> Tôi đã đọc xong cuốn sách.
 
 # Cách dùng nâng cao 🔓
 

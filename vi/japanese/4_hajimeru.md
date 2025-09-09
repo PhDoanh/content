@@ -1,6 +1,6 @@
 ---
-stage: Idea
-title: "{stt}. {AI: shortened grammar}「{AI: short story name in vietnamese}」"
+stage: Draft
+title: "4. 始める「{AI: short story name in vietnamese}」"
 description: "{AI: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
@@ -10,6 +10,9 @@ tags:
   - japanese
   - JLPT
   - grammar
+  - N4
+  - to-start
+  - to-begin
 aliases:
   - 
 cssclasses:
@@ -22,7 +25,13 @@ socialImage: "{fully qualified URL to preview image}"
 > Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
 
 # Cấu trúc ngữ pháp 🔍
-{AI: mermaid diagram for grammar structure, using flowchart, LR direction, rounded nodes, arrow connections, branching if multiple cases}
+```mermaid
+flowchart LR
+    A["Động từ bỏ ます"] --> n1["はじめる"] & n2["はじめた"] & n3["はじめている"]
+    A@{ shape: rounded}
+```
+
+**Ý nghĩa**: Bắt đầu thực hiện hành động nào đó
 
 <h1 style="text-align:center;">「{AI: short story name in japanese}」</h1>
 {voice audio in story}
@@ -34,13 +43,16 @@ socialImage: "{fully qualified URL to preview image}"
 
 # Cách dùng cơ bản 🗝️
 
-{AI: use the template below to present the grammar usages}
-## {AI: usage name} [[#^{backlink to a story line}|↑]]
-{AI: short description + at least 3 examples based on below callout template + notices (if any)}
+## Biểu thị sự bắt đầu của hành động [[#^{backlink to a story line}|↑]]
 
-> [!clear]- {{AI: callout title about example in japanese}}
-> {AI: vietnamese version of callout tilte}
+> [!clear]- 彼は新しい仕事を始めている。
+> Anh ấy đã bắt đầu công việc mới và hiện vẫn đang làm.
 
+> [!clear]- 雨が降り始めた。
+> Trời bắt đầu mưa.
+
+> [!clear]- 日本語を学び始める。
+> Tôi bắt đầu học tiếng Nhật.
 # Cách dùng nâng cao 🔓
 
 > [!caution]- Content in progress
@@ -57,7 +69,7 @@ socialImage: "{fully qualified URL to preview image}"
 > {AI: similar grammars with short description and emphasize the difference as bullets}
 
 # Tổng kết và giữ chuỗi 🔥
-Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số {stt} đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
+Nếu bạn đọc được đến đây thì xin chúc mừng, **chuỗi số 4** đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
 
 {AI: content summary}
 
