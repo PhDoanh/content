@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: "{stt}. {ngữ pháp ngắn gọn}「tên truyện」"
+title: 1. と言えば「tên truyện」
 description: meta description (140‑160 chars)
 permalink: ""
 lang: vi
@@ -8,6 +8,7 @@ draft: true
 comments: true
 tags:
   - japanese
+  - N3
 aliases:
   - 
 cssclasses:
@@ -21,6 +22,11 @@ socialImage: fully qualified URL to preview image
 # Cấu trúc ngữ pháp 🔍
 {mermaid diagram}
 
+N + と言えば ～
+- Nói về N, ~
+- Nhắc tới N, ~
+- ~ khi nhắc tới N
+
 <h1 style="text-align:center;">「tên truyện」</h1>
 {audio}
 
@@ -29,8 +35,19 @@ socialImage: fully qualified URL to preview image
 
 # Cách dùng cơ bản 🗝️
 
-## {usage 1} [[#^{backlink to story line}|↑]]
-{short description + at least 3 examples + notice (if any)}
+## Đề cập cái gì đó khi nhắc tới N [[#^{backlink to story line}|↑]]
+
+
+> [!clear]- Title
+> Contents
+
+> [!clear]- Title
+> Contents
+
+> [!clear]- Title
+> Contents
+
+
 
 ## {usage 2} [[#^{backlink to story line}|↑]]
 {short description + at least 3 examples + notice (if any)}
