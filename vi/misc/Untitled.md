@@ -1,9 +1,0 @@
----
-stage:
-draft:
-title:
-description:
-tags:
-socialDescription:
-socialImage:
----

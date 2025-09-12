@@ -1,10 +1,11 @@
 ---
-stage: Draft
-draft: true
-title:
+stage: Publish
+draft: false
+title: Tổng quan về quản lý dự án
 description:
 tags:
   - project-management
+  - overview
 socialDescription:
 socialImage:
 permalink:
@@ -50,7 +51,7 @@ Câu trả lời nằm ở **bộ ba ràng buộc (triple constraint)**:
 
 Nếu một yếu tố thay đổi → hai yếu tố kia sẽ bị ảnh hưởng (ví dụ: thêm tính năng → tốn thêm thời gian và chi phí).
 
-![[PhDoanh Blog - visual selection.webp|center|500]]
+%% mermaid code for image %%
 
 Ngoài ra, ngày nay thành công còn được đo bằng:
 - **Chất lượng sản phẩm** (quality).
@@ -62,6 +63,8 @@ Ngoài ra, ngày nay thành công còn được đo bằng:
 # Khái niệm quản lý dự án 📚
 
 Quản lý dự án (Project Management) = **ứng dụng kiến thức, kỹ năng, công cụ và kỹ thuật** vào hoạt động dự án nhằm đáp ứng yêu cầu đã đề ra.
+
+%% mermaid code for image %%
 
 PMI chia quản lý dự án thành **10 miền tri thức (knowledge areas)**:
 1. **Phạm vi (Scope)**: Xác định và kiểm soát **những gì cần làm** và **không cần làm** trong dự án.
