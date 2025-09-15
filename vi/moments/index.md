@@ -18,7 +18,7 @@ socialDescription:
 socialImage:
 ---
 # Tôi là ai?
-
+Phạm Gia Doanh, đó là cái tên ông ngoại đã đặt cho tôi. Với ý nghĩa mong muốn tôi trở thành một doanh nhân thành đạt (hoặc ít nhất là doanh thu ). May mắn được sinh ra trong giai đoạn Đổi Mới (đất nước Việt Nam đã ổn định sau khủng hoảng 90s), 
 
 # Tại sao tôi viết cái này?
 
