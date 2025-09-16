@@ -28,7 +28,7 @@ Thay vì chỉ tập trung vào công nghệ, ta phải xem dự án dưới **3
 
 - **Công nghệ** 💻: Có khả thi, phù hợp với hạ tầng, nhân sự hiện có không?
 
-Đây gọi là **cách tiếp cận có tính hệ thống** – một phương pháp từ thập niên 1950, giúp nhìn nhận dự án như **một phần của toàn hệ thống tổ chức**.
+Đây gọi là **cách tiếp cận có tính hệ thống** - một phương pháp từ thập niên 1950, giúp nhìn nhận dự án như **một phần của toàn hệ thống tổ chức**.
 
 # Các góc nhìn về tổ chức 🔍
 
@@ -85,12 +85,8 @@ Bên liên quan (stakeholders) là tất cả những người bị ảnh hưở
 
 # Kết luận 🔥
 
-👉 Chìa khoá của chương 2 là:
-- Mọi dự án phải gắn liền với **bối cảnh tổ chức**.
+👉 Chìa khoá cho sự thành công của mọi dự án là:
+- Phải gắn liền với **bối cảnh tổ chức**.
 - Dùng **cách tiếp cận hệ thống** để tích hợp **kinh doanh – tổ chức – công nghệ**.
 - Hiểu rõ **cơ cấu, văn hoá, chính trị và con người** trong tổ chức.
 - Quản lý **stakeholders** khéo léo để tạo sự đồng thuận.
-
-Nếu chương 1 giúp bạn hiểu **quản lý dự án là gì**, thì chương 2 cho bạn thấy **quản lý dự án ở đâu** – chính là trong lòng tổ chức nơi nó sống và phát triển.
-
-👉 Vậy, bạn đã bao giờ trải qua một dự án “chết yểu” chỉ vì không phù hợp với tổ chức chưa? Nếu có, hãy chia sẻ trải nghiệm của bạn ở phần bình luận nhé 💬.
