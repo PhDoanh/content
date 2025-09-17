@@ -1,6 +1,6 @@
 ---
-stage: Draft
-draft: true
+stage: Publish
+draft: false
 title: Biểu đồ lớp và đối tượng
 description:
 tags:
@@ -94,7 +94,25 @@ Các quan hệ thường gặp trong biểu đồ lớp gồm:
 > - `GiaoDienDangKy` **sử dùng** `HeThongDangKy`.
 > - Nếu thay đổi trong `HeThongDangKy` thì `GiaoDienDangKy` có thể phải thay đổi theo.
 
-👉 Phụ thuộc thường xuất hiện khi một lớp **gọi phương thức** hoặc **sử dụng tạm thời** một lớp khác.
+Bảng tổng hợp các loại quan hệ phụ thuộc trong UML:
+
+| Loại phụ thuộc          | Từ khóa UML   | Mô tả                                                                                            |
+| ----------------------- | ------------- | ------------------------------------------------------------------------------------------------ |
+| **Truy cập**            | `access`      | Một lớp truy cập trực tiếp nội dung (thuộc tính/phương thức) của lớp khác.                       |
+| **Ràng buộc khuôn mẫu** | `bind`        | Gán tham số cụ thể vào một khuôn (template) để tạo phần tử mô hình mới.                          |
+| **Gọi phương thức**     | `call`        | Một phương thức của lớp gọi thao tác (operation) của lớp khác.                                   |
+| **Tạo đối tượng**       | `create`      | Một lớp tạo ra thể hiện (instance) của lớp khác.                                                 |
+| **Suy dẫn**             | `derive`      | Một thông tin/đối tượng có thể tính toán hoặc rút ra từ đối tượng khác.                          |
+| **Khởi tạo**            | `instantiate` | Một phương thức chuyên dùng để tạo các đối tượng của lớp khác.                                   |
+| **Cấp quyền**           | `permit`      | Cho phép một phần tử được dùng nội dung của phần tử khác.                                        |
+| **Hiện thực hóa**       | `realize`     | Liên hệ giữa bản đặc tả (ví dụ interface) và bản cài đặt (class).                                |
+| **Tinh chỉnh**          | `refine`      | Đặc tả ở mức khái quát được làm chi tiết hơn thành mô hình cụ thể.                               |
+| **Gửi tín hiệu**        | `send`        | Quan hệ giữa lớp gửi và lớp nhận một tín hiệu.                                                   |
+| **Thay thế**            | `substitute`  | Một lớp có thể thay thế lớp khác nhờ hỗ trợ cùng giao diện.                                      |
+| **Vết vạch (theo dõi)** | `trace`       | Kết nối giữa các phần tử ở mô hình khác nhau để theo dõi (ví dụ: yêu cầu → thiết kế → kiểm thử). |
+| **Sử dụng**             | `use`         | Một lớp cần sự hiện diện của lớp khác để hoạt động đúng.                                         |
+
+👉 Phụ thuộc thường xuất hiện khi rơi vào các trường hợp của bảng trên, nhất là khi lớp **gọi phương thức** hoặc **sử dụng tạm thời** một lớp khác.
 
 ## Quan hệ hiện thực hóa (Realization/Implementation)
 - **Định nghĩa**: Cho biết một **interface** (giao diện) được một hoặc nhiều lớp cụ thể **cài đặt**.
