@@ -1,0 +1,13 @@
+---
+stage:
+draft:
+title:
+description:
+tags:
+socialDescription:
+socialImage:
+permalink:
+lang:
+aliases:
+cssclasses:
+---
