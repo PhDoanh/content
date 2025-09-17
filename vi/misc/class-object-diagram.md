@@ -35,33 +35,84 @@ Biểu đồ lớp (Class Diagram) là **biểu đồ dạng tĩnh** trong UML, 
 # Quan hệ trong khung nhìn tĩnh ⛓️‍💥
 
 Các quan hệ thường gặp trong biểu đồ lớp gồm:
-1. **Quan hệ kết hợp (Association)** 👫
-    - Thể hiện sự **liên kết lô-gic** giữa hai lớp.
-    - Ví dụ: Lớp `SinhVien` **học** `MonHoc`.
 
-2. **Quan hệ kết tập (Aggregation)** ⚪➡️
-    - Là mối quan hệ **toàn thể – bộ phận** nhưng bộ phận vẫn tồn tại độc lập.
-    - Ví dụ: Một `LopHoc` gồm nhiều `SinhVien`, nhưng sinh viên có thể rời lớp này để sang lớp khác.
+## Quan hệ kết hợp (Association)
+- **Định nghĩa**: Là quan hệ cấu trúc cơ bản nhất giữa hai lớp, cho biết **một lớp có liên quan đến lớp khác** trong mô hình.
+- **Ký hiệu**: Đường nối đơn giản giữa hai lớp. Có thể thêm nhãn, vai trò, bội số (multiplicity: 1, 0.., 1..).
 
-3. **Quan hệ hợp thành (Composition)** ⬛➡️
-    - Cũng là toàn thể – bộ phận nhưng bộ phận **không thể tồn tại độc lập** nếu toàn thể bị hủy.
-    - Ví dụ: Một `NgôiNha` có `Phong`, nếu ngôi nhà bị phá, các phòng cũng mất.
+> [!example] Ví dụ
+> %% ảnh về quan hệ kết hợp cho VD %%
+> 
+> - Lớp `SinhVien` **học** `MonHoc`.
+> - Bội số: Một `SinhVien` có thể học _nhiều_ `MonHoc`, một `MonHoc` có thể có _nhiều_ `SinhVien`.
 
-4. **Quan hệ thừa kế (Generalization/Inheritance)** 👪
-    - Thể hiện mối quan hệ cha – con giữa các lớp.
-    - Ví dụ: `GiangVien` và `SinhVien` cùng kế thừa từ lớp `Nguoi`.
+👉 Đây chính là cách ta mô tả "ai liên quan tới ai" trong hệ thống.
 
-5. **Quan hệ phụ thuộc (Dependency)** 📦
-    - Một lớp **phụ thuộc** vào thay đổi của lớp khác.
-    - Ví dụ: `GiaoDienDangKy` phụ thuộc vào `HeThongDangKy`.
+## Quan hệ kết tập (Aggregation)
+- **Định nghĩa**: Là một dạng đặc biệt của kết hợp, biểu diễn **mối quan hệ toàn thể - bộ phận** (whole-part). Điểm khác biệt: **các bộ phận có thể tồn tại độc lập với toàn thể**.
+- **Ký hiệu**: Hình thoi rỗng ở phía "toàn thể".
 
-6. **Quan hệ hiện thực hóa (Realization/Implementation)**
-    - Thường thấy giữa **interface** và lớp thực hiện interface đó.
-    - Ví dụ: Interface `ThanhToan` được lớp `ThanhToanQuaThe` hiện thực.
+> [!example] Ví dụ
+> %% ảnh %%
+> 
+> - `LopHoc` **gồm** `SinhVien`.
+> - Một lớp học có nhiều sinh viên, nhưng sinh viên có thể tồn tại ngay cả khi lớp học bị giải thể.
+
+👉 Hiểu nôm na: kết tập = "sở hữu nhưng không kiểm soát sự sống còn".
+
+## Quan hệ hợp thành (Composition)
+- **Định nghĩa**: Cũng là toàn thể - bộ phận nhưng **bộ phận không thể tồn tại độc lập** nếu toàn thể bị hủy.
+- **Ký hiệu**: Hình thoi đen ở phía "toàn thể".
+
+> [!example] Ví dụ
+> %% ảnh %%
+> 
+> - `NgôiNha` **chứa** `Phong`.
+> - Nếu ngôi nhà bị phá hủy thì các phòng cũng không thể tồn tại độc lập.
+
+👉 Đây là quan hệ “sống chết có nhau”, chặt chẽ hơn kết tập.
+
+## Quan hệ thừa kế (Generalization/Inheritance)
+- **Định nghĩa**: Là quan hệ phân cấp cho thấy một lớp **con kế thừa** thuộc tính và hành vi từ một lớp **cha**.
+- **Ký hiệu**: Mũi tên rỗng, hướng từ lớp con đến lớp cha.
+
+> [!example] Ví dụ
+> %% ảnh %%
+> 
+> - `SinhVien`, `GiangVien` **là** `ConNguoi`
+> - `SinhVien` và `GiangVien` đều có các thuộc tính chung từ `ConNguoi` (tên, tuổi, địa chỉ) và có thể mở rộng thêm hành vi riêng.
+
+👉 Đây là cơ sở cho **tái sử dụng** và **đa hình** trong lập trình hướng đối tượng.
+
+## Quan hệ phụ thuộc (Dependency)
+- **Định nghĩa**: Thể hiện rằng **sự thay đổi của một lớp có thể ảnh hưởng đến lớp khác**, nhưng không phải là mối quan hệ lâu dài (thường là tạm thời, yếu hơn association).
+- **Ký hiệu**: Đường nét đứt với mũi tên chỉ từ lớp "khách" (client) đến lớp "cung cấp" (supplier).
+
+> [!example] Ví dụ
+> %% ảnh %%
+> 
+> - `GiaoDienDangKy` **sử dùng** `HeThongDangKy`.
+> - Nếu thay đổi trong `HeThongDangKy` thì `GiaoDienDangKy` có thể phải thay đổi theo.
+
+👉 Phụ thuộc thường xuất hiện khi một lớp **gọi phương thức** hoặc **sử dụng tạm thời** một lớp khác.
+
+## Quan hệ hiện thực hóa (Realization/Implementation)
+- **Định nghĩa**: Cho biết một **interface** (giao diện) được một hoặc nhiều lớp cụ thể **cài đặt**.
+- **Ký hiệu**: Đường nét đứt với mũi tên rỗng, từ lớp thực hiện đến interface.
+
+> [!example] Ví dụ
+> %% ảnh %%
+> 
+> - Interface `ThanhToan` **được cài đặt bởi** `ThanhToanQuaThe`, `ThanhToanQuaTienMat`.
+> - Cả hai lớp này đều phải **thực hiện (implement)** các phương thức đã được định nghĩa trong interface `ThanhToan`.
+
+👉 Đây là cầu nối quan trọng để thiết kế hệ thống **linh hoạt, dễ thay thế**.
 
 # Biểu đồ đối tượng 
 
 Biểu đồ đối tượng (Object Diagram) là **một ảnh chụp tức thời** của biểu đồ lớp ở một trạng thái cụ thể. Nếu biểu đồ lớp mô tả "cái khung" thì biểu đồ đối tượng chính là "ảnh chụp thực tế" các đối tượng với giá trị cụ thể tại một thời điểm.
+
+%% ảnh ví dụ về 1 biểu đồ đối tượng hoàn chỉnh %%
 
 > [!example] Ví dụ
 > - Biểu đồ lớp có lớp `SinhVien`
