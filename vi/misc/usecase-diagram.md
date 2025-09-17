@@ -1,11 +1,12 @@
 ---
-stage: Draft
+stage: Publish
 draft: false
 title: Biểu đồ ca sử dụng
 description:
 tags:
   - OOAD
   - usecase-diagram
+  - UML
 socialDescription:
 socialImage:
 permalink:
