@@ -153,7 +153,7 @@ PMI có **Code of Ethics & Professional Conduct** với 4 giá trị cốt lõi:
 - **Trung thực (Honesty)**: báo cáo rõ ràng, không che giấu rủi ro hay sai sót.
 
 👉 Thiếu đạo đức = mất niềm tin = dự án sụp đổ nhanh hơn cả lỗi kỹ thuật.
-
+ 
 # Kết luận ✨
 
 Tóm lại, để thành công trong **quản lý dự án phần mềm**, bạn cần:
