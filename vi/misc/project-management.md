@@ -36,7 +36,8 @@ Theo **PMI (Project Management Institute)**, dự án là một **nỗ lực t�
 - **Môi trường biến động, nhiều rủi ro**: không dự án nào đi thẳng một đường, luôn có thay đổi bất ngờ.
 
 > [!important] Điểm mấu chốt
-> **dự án ≠ công việc thường ngày**. Ví dụ, nghiên cứu chế tạo vaccine mới là dự án; còn sản xuất vaccine hàng loạt trong nhà máy là **vận hành**.
+> - **dự án ≠ công việc thường ngày**. Ví dụ, nghiên cứu chế tạo vaccine mới là dự án; còn sản xuất vaccine hàng loạt trong nhà máy là **vận hành**.
+> - **Dự án CNTT ≠ dự án phần mềm**: dự án CNTT bao hàm dự án phần mềm, gồm 5 thành phần (phần cứng, phần mềm, con người, dữ liệu và quy trình)
 
 # Tiêu chí đánh giá sự thành công ✅
 
@@ -54,11 +55,11 @@ Nếu một yếu tố thay đổi → hai yếu tố kia sẽ bị ảnh hưở
 %% mermaid code for image %%
 
 Ngoài ra, ngày nay thành công còn được đo bằng:
-- **Chất lượng sản phẩm** (quality).
+1. **Chất lượng sản phẩm** (quality): thỏa mãn bộ 3 ràng buộc
 
-- **Mức độ hài lòng của khách hàng** 💡.
+2.  **Mức độ hài lòng của khách hàng**💡: bao hàm cả mục 1 (thực tế sử dụng nhiều do có công việc khảo sát sự hài lòng sau đóng gói sản phẩm)
 
-- **Sự đồng thuận của tất cả bên liên quan** (ideal nhưng khó đạt).
+3. **Sự đồng thuận của tất cả bên liên quan**: bao hàm cả mục 1 và 2 (ideal nhưng khó đạt).
 
 # Khái niệm quản lý dự án 📚
 
@@ -83,34 +84,56 @@ PMI chia quản lý dự án thành **10 miền tri thức (knowledge areas)**:
 
 8. **Mua sắm (Procurement)**: Quản lý việc mua hàng hóa, dịch vụ từ bên ngoài (như thuê server, mua phần mềm).
 
-9. **Các bên liên quan (Stakeholder)**: Hiểu nhu cầu, kỳ vọng và quản lý sự tham gia của **chủ đầu tư, khách hàng, người dùng, đối tác**.
+9. **Các bên liên quan (Stakeholder)**: Hiểu nhu cầu, kỳ vọng và quản lý sự tham gia của **chủ đầu tư, khách hàng, đội phát triển, nhà cung cấp, các chuyên gia (nhóm chuyên môn)**.
 
 10. **Tích hợp (Integration)**: Đảm bảo mọi mảng trên **ăn khớp với nhau**, tạo thành một dự án thống nhất.
 
 > [!important] Như bạn thấy...
-> Quản lý dự án không chỉ là “theo dõi tiến độ”, mà còn bao quát gần như **mọi khía cạnh sống còn** của dự án.
+> Quản lý dự án không chỉ là "theo dõi tiến độ", mà còn bao quát gần như **mọi khía cạnh sống còn** của dự án.
 
 # Chương trình và danh mục dự án 🗂️
 
 Hai khái niệm dễ gây nhầm lẫn:
 
-- **Chương trình (Program):** tập hợp nhiều dự án có liên quan, nhằm đạt mục tiêu lớn hơn. Ví dụ: chương trình “Chuyển đổi số đại học” bao gồm dự án phát triển hệ thống e-learning, dự án quản lý sinh viên, dự án cổng thông tin.
+- **Chương trình (Program):** tập hợp nhiều dự án có liên quan, nhằm đạt mục tiêu lớn hơn. Ví dụ: chương trình "Chuyển đổi số đại học" bao gồm dự án phát triển hệ thống e-learning, dự án quản lý sinh viên, dự án cổng thông tin.
 
 - **Danh mục dự án (Portfolio):** tập hợp tất cả các chương trình và dự án của tổ chức, được quản lý ở mức chiến lược. Ví dụ: một trường đại học có danh mục gồm cả dự án CNTT, dự án xây dựng cơ sở vật chất, dự án hợp tác quốc tế.
 
 📌 Điểm khác biệt: **Program = thực thi chiến lược; Portfolio = lựa chọn chiến lược.**
 
+> [!question]- Bạn có biết?
+> Mỗi phần mềm thường được dùng trong doanh nghiệp như: ERP, CRM, Office 365, Kế toán, Bán hàng, Quản lý kho, HR, ... Tương ứng với **một dự án** được triển khai để đưa vào sử dụng trong doanh nghiệp
+
 # Kỹ năng cần có của nhà quản lý dự án 🧑‍🏫
 
-Nhà quản lý dự án (Project Manager – PM) không chỉ là người “giữ deadline” 😅, mà còn là **linh hồn** của dự án.
+Nhà quản lý dự án (Project Manager – PM) không chỉ là người “giữ deadline” 😅, mà còn là **linh hồn** của dự án. Các nhóm kỹ năng chính:
 
-Các nhóm kỹ năng chính:
-1. **Chuyên môn**: am hiểu quy trình, công cụ (Gantt Chart, Agile, Scrum, PMBOK…).
+## 1. Kỹ năng mềm 
+Mô tả những kỹ năng hướng tới con người của nhà quản lý dự án
+1. Chính trực, đạo dức và nhất quán 
+2. Giao tiếp đa chiều (nghe, nói, viết, thuyết trình, ...)
+3. .Xây dựng niềm tin
+4. Quản lý thời gian và ưu tiên công việc
+5. Khả năng thích ứng và linh hoạt tùy bối cảnh
 
-2. **Kỹ năng mềm**: giao tiếp, thương lượng, lãnh đạo, giải quyết xung đột.
+## 2. Chuyên môn
+Mô tả những kỹ năng hướng tới kỹ thuật của nhà quản lý dự án
 
-3. **Tố chất cá nhân**: minh bạch, chính trực, có khả năng phân tích chiến lược, quản lý áp lực.
+1. Am hiểu quy trình, công cụ (Gantt Chart, Agile, Scrum, PMBOK…).
+2. Xây dựng nhóm dự án
+3. Phân tích chiến lược
+4. Quản lý phạm vi, chi phí, tiến độ, chất lượng
+5. Quản lý rủi ro và xây dựng phương án dự phòng
+6. Quản lý nguồn nhân lực (nhân sự, vật tư, tài chính)
 
+## 3. Tố chất cá nhân
+Mô tả những kỹ năng hướng tới tố chất, tiềm năng của nhà quản lý dự án (là một nhánh của kỹ năng mềm)
+
+1. Tư duy phản biện và khả năng giải quyết vấn đề
+2. Quản lý xung đột 
+3. Thương lượng
+4. Hiểu và cân bằng ưu tiên các công việc
+5. Tầm nhìn chiến lược
 
 > [!tip] Mẹo
 > Một PM giỏi thường vừa là **“thủ lĩnh”** dẫn dắt team, vừa là **“người cầu nối”** giữa khách hàng, lãnh đạo và đội phát triển.
