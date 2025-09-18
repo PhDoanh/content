@@ -106,12 +106,13 @@ Hai khái niệm dễ gây nhầm lẫn:
 
 # Kỹ năng cần có của nhà quản lý dự án 🧑‍🏫
 
-Nhà quản lý dự án (Project Manager – PM) không chỉ là người “giữ deadline” 😅, mà còn là **linh hồn** của dự án. Các nhóm kỹ năng chính:
+Nhà quản lý dự án (Project Manager - PM) không chỉ là người "giữ deadline" 😅, mà còn là **linh hồn** của dự án. Các nhóm kỹ năng chính:
 
 ## 1. Kỹ năng mềm 
 Mô tả những kỹ năng hướng tới con người của nhà quản lý dự án
-1. Chính trực, đạo dức và nhất quán 
-2. Giao tiếp đa chiều (nghe, nói, viết, thuyết trình, ...)
+
+1. Giao tiếp đa chiều (nghe, nói, viết, thuyết trình, ...)
+2. Chính trực, đạo dức và nhất quán 
 3. .Xây dựng niềm tin
 4. Quản lý thời gian và ưu tiên công việc
 5. Khả năng thích ứng và linh hoạt tùy bối cảnh
@@ -129,21 +130,21 @@ Mô tả những kỹ năng hướng tới kỹ thuật của nhà quản lý d�
 ## 3. Tố chất cá nhân
 Mô tả những kỹ năng hướng tới tố chất, tiềm năng của nhà quản lý dự án (là một nhánh của kỹ năng mềm)
 
-1. Tư duy phản biện và khả năng giải quyết vấn đề
-2. Quản lý xung đột 
+1. Quản lý xung đột 
+2. Tư duy phản biện và khả năng giải quyết vấn đề
 3. Thương lượng
 4. Hiểu và cân bằng ưu tiên các công việc
 5. Tầm nhìn chiến lược
 
 > [!tip] Mẹo
-> Một PM giỏi thường vừa là **“thủ lĩnh”** dẫn dắt team, vừa là **“người cầu nối”** giữa khách hàng, lãnh đạo và đội phát triển.
+> Một PM giỏi thường vừa là **"thủ lĩnh"** dẫn dắt team, vừa là **"người cầu nối"** giữa khách hàng, lãnh đạo và đội phát triển.
 
 # Vấn đề đạo đức nghề nghiệp ⚖️
 
 Trong quản lý dự án CNTT/phần mềm, **đạo đức nghề nghiệp** giữ vai trò sống còn.
 
 PMI có **Code of Ethics & Professional Conduct** với 4 giá trị cốt lõi:
-- **Trách nhiệm (Responsibility)**: chịu trách nhiệm cho quyết định và hành động của mình.
+- **Trách nhiệm (Responsibility)**: chịu trách nhiệm cho quyết định và hành động của mình (điều mà nhà quản lý dự án khó đạt được nhất)
 
 - **Tôn trọng (Respect)**: với đồng nghiệp, khách hàng, stakeholder.
 
