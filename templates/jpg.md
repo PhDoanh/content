@@ -1,7 +1,7 @@
 ---
 stage: Idea
-title: "{stt}. {AI: shortened grammar}「{AI: short story name in vietnamese}」"
-description: "{AI: meta description (140‑160 chars)}"
+title: "\stt\. {1: shortened grammar}「{2: short story title in vietnamese}」"
+description: "{4: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
 draft: true
@@ -14,17 +14,17 @@ aliases:
   - 
 cssclasses:
   - img
-socialDescription: "{OG description (~100 chars)}"
-socialImage: "{fully qualified URL to preview image}"
+socialDescription: "{5: OG description (~100 chars)}"
+socialImage: "{6: fully qualified URL to preview image}"
 ---
 
 > [!bell]- Dành cho bạn học lần đầu
 > Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
 
 # Cấu trúc ngữ pháp 🔍
-{AI: mermaid diagram for grammar structure, using flowchart, LR direction, rounded nodes, arrow connections, branching if multiple cases}
+{7: grammar pattern }
 
-<h1 style="text-align:center;">「{AI: short story name in japanese}」</h1>
+<h1 style="text-align:center;">「{3: short story title in japanese}」</h1>
 {voice audio in story}
 
 {AI: Use the callout template below to build story content as a multi-person conversation, emphasize sentences using grammar with `[[wikilink]]` to below heading about usage}
