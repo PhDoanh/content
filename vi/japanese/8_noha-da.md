@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: "6. のでしょうか「{AI: short story name in vietnamese}」"
+title: "8. ～のは～だ「{AI: short story name in vietnamese}」"
 description: "{AI: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
@@ -10,6 +10,7 @@ tags:
   - japanese
   - JLPT
   - grammar
+  - N3
 aliases:
   - 
 cssclasses:
@@ -22,8 +23,7 @@ socialImage: "{fully qualified URL to preview image}"
 > Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
 
 # Cấu trúc ngữ pháp 🔍
-```mermaid
-```
+{AI: mermaid diagram for grammar structure, using flowchart, LR direction, rounded nodes, arrow connections, branching if multiple cases}
 
 <h1 style="text-align:center;">「{AI: short story name in japanese}」</h1>
 {voice audio in story}
@@ -35,17 +35,17 @@ socialImage: "{fully qualified URL to preview image}"
 
 # Cách dùng cơ bản 🗝️
 
-## Hỏi một cách lịch sự [[#^{backlink to a story line}|↑]]
-Dùng khi muốn thể hiện sự nghi vấn, sự không chắc chắn, hoặc muốn thể hiện việc suy đoán, hy vọng, hoặc đặt câu hỏi mang tính lịch sự, trang trọng.
+{AI: use the template below to present the grammar usages}
+## Nhấn mạnh điều muốn nói ở vế sau [[#^{backlink to a story line}|↑]]
 
-> [!clear]- 明日は晴れるのでしょうか。
-> Liệu ngày mai trời có nắng không nhỉ?
+> [!clear]- <ruby>勉強<rt>べんきょう</rt></ruby>する**のは**<ruby>大変<rt>たいへん</rt></ruby>な**ことだ**。
+> Việc học thì rất vất vả!
 
-> [!clear]- これは正しい金額なのでしょうか？
-> Có phải đây là số tiền đúng không?
+> [!clear]- <ruby>静<rt>しず</rt></ruby>かな**のは**<ruby>嬉<rt>うれ</rt></ruby>しい**ことだ**。
+> Sự yên tĩnh thật là vui :v
 
-> [!clear]- どうして日本では毎年、地震がたくさん起きるのでしょうか。
-> Tại sao ở Nhật hàng năm lại xảy ra rất nhiều động đất như vậy nhỉ?
+> [!clear]- <ruby>高<rt>たか</rt></ruby>い**のは**<ruby>困<rt>こま</rt></ruby>る**ことだ**。
+> Giá cao thì thật phiền toái.
 
 
 # Cách dùng nâng cao 🔓

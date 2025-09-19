@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: "6. のでしょうか「{AI: short story name in vietnamese}」"
+title: "7. ようとしても「{AI: short story name in vietnamese}」"
 description: "{AI: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
@@ -10,6 +10,9 @@ tags:
   - japanese
   - JLPT
   - grammar
+  - N3
+  - try-to
+  - attempt-to
 aliases:
   - 
 cssclasses:
@@ -22,8 +25,7 @@ socialImage: "{fully qualified URL to preview image}"
 > Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
 
 # Cấu trúc ngữ pháp 🔍
-```mermaid
-```
+{AI: mermaid diagram for grammar structure, using flowchart, LR direction, rounded nodes, arrow connections, branching if multiple cases}
 
 <h1 style="text-align:center;">「{AI: short story name in japanese}」</h1>
 {voice audio in story}
@@ -35,18 +37,17 @@ socialImage: "{fully qualified URL to preview image}"
 
 # Cách dùng cơ bản 🗝️
 
-## Hỏi một cách lịch sự [[#^{backlink to a story line}|↑]]
-Dùng khi muốn thể hiện sự nghi vấn, sự không chắc chắn, hoặc muốn thể hiện việc suy đoán, hy vọng, hoặc đặt câu hỏi mang tính lịch sự, trang trọng.
+## {AI: usage name} [[#^{backlink to a story line}|↑]]
+Cố gắng để thực hiện một hành động và hành động đó đang ở giai đoạn chưa thành hiện thực. Nhấn mạnh sự nỗ lực nhưng chưa đạt
 
-> [!clear]- 明日は晴れるのでしょうか。
-> Liệu ngày mai trời có nắng không nhỉ?
+> [!clear]- <ruby>何<rt>なん</rt></ruby><ruby>度<rt>ど</rt></ruby>**<ruby>読<rt>よ</rt></ruby>もうとしても**、<ruby>意味<rt>いみ</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からない。
+> Dù cố gắng đọc bao nhiêu lần, tôi vẫn không hiểu.
 
-> [!clear]- これは正しい金額なのでしょうか？
-> Có phải đây là số tiền đúng không?
+> [!clear]- <ruby>早<rt>はや</rt></ruby>く**<ruby>寝<rt>ね</rt></ruby>ようとしても**、<ruby>眠<rt>ねむ</rt></ruby>れない。
+> Dù cố gắng đi ngủ sớm, tôi vẫn không ngủ được.
 
-> [!clear]- どうして日本では毎年、地震がたくさん起きるのでしょうか。
-> Tại sao ở Nhật hàng năm lại xảy ra rất nhiều động đất như vậy nhỉ?
-
+> [!clear]- **<ruby>笑<rt>わら</rt></ruby>おうとしても**、<ruby>笑<rt>わら</rt></ruby>えない。
+> Dù tôi cố gắng cười, cũng không thể cười được.
 
 # Cách dùng nâng cao 🔓
 
