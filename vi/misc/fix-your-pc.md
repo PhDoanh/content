@@ -47,8 +47,8 @@ Tại trang tải xuống [này](https://github.com/PhDoanh/fix-your-pc/releases
 
 Khi mới vào game, bạn sẽ cần cung cấp tên của mình để lưu các số liệu thống kê thành tích dưới dạng chuỗi mật khẩu được ẩn đi. Ở phần này bạn cũng có thể tùy chỉnh trước các thiết lập bằng cách nhấn phím **"Esc"**
 
-|       ![[game-menu.png]]        |      ![[game-settings.png]]       | 
-|:-------------------------------:|:---------------------------------:|
+|       ![[game-menu.png]]        |      ![[game-settings.png]]       |
+| :-----------------------------: | :-------------------------------: |
 | Nhập tên người chơi (Game menu) | Tùy chỉnh cài đặt (Game settings) |
 
 Phần thiết lập game cụ thể như sau:          
@@ -72,8 +72,8 @@ Nhấn giữ phím **"Alt"** kết hợp **W, A, S, D** để di chuyển, nhả
 - **Chiến thắng** nếu bạn phá đảo toàn bộ màn chơi, màn hình PC ở trạng thái bình thường với các dòng văn bản chúc mừng. Tại đây bạn có thể thoát game hoặc chơi lại từ đầu nếu muốn lập kỉ lục!
 - **Thất bại** nếu bạn bị mất sạch máu do va chạm quá nhiều với kẻ địch, màn hình xanh chết chóc sẽ hiện lên tổng hợp các số liệu thống kê thành tích bạn đã đạt được rồi tự tắt trong 15s
 
-|     ![[game-over-victory.png]]     |     ![[game-over-defeated.png]]      | 
-|:----------------------------------:|:------------------------------------:|
+|     ![[game-over-victory.png]]     |     ![[game-over-defeated.png]]      |
+| :--------------------------------: | :----------------------------------: |
 | Phá đảo game (Game over - Victory) | Mất sạch mạng (Game over - Defeated) |
 
 # Tài nguyên game
@@ -88,15 +88,15 @@ Nhấn giữ phím **"Alt"** kết hợp **W, A, S, D** để di chuyển, nhả
 
 **Người chơi** *(Các trạng thái con trỏ trong PC)*
 
-| ![[arrow.png]] | ![[beam.png]] | ![[link.png]] | ![[move.png]] | 
-|:--------------:|:-------------:|:-------------:|:-------------:|
+| ![[arrow.png]] | ![[beam.png]] | ![[link.png]] | ![[move.png]] |
+| :------------: | :-----------: | :-----------: | :-----------: |
 |     arrow      |     beam      |     link      |     move      |
 
 **Kẻ địch** *(hình ảnh chỉ mang t/c đại diện)*
 - [Tile OS - Part 3: Popular Apps by oviotti on DeviantArt](https://www.deviantart.com/oviotti/art/Tile-OS-Part-3-Popular-Apps-792018928)
 
-| ![[enemy1.png\|25]] | ![[enemy2.png\|50]] | ![[enemy3.png\|75]] | ![[enemy4.png\|100]] | ![[enemy5.png\|125]] | 
-|:-------------------:|:-------------------:|:-------------------:|:--------------------:|:--------------------:|
+| ![[enemy1.png\|25]] | ![[enemy2.png\|50]] | ![[enemy3.png\|75]] | ![[enemy4.png\|100]] | ![[enemy5.png\|125]] |
+| :-----------------: | :-----------------: | :-----------------: | :------------------: | :------------------: |
 |     trash mobs      |       grunts        |      mini boss      |         boss         |      final boss      |
 
 **Các object phụ**
