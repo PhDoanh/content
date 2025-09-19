@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: "\stt\. {1: shortened grammar}「{2: short story title in vietnamese}」"
+title: "/stt/. {1: shortened grammar}「{2: short story title in vietnamese}」"
 description: "{4: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
@@ -22,10 +22,11 @@ socialImage: "{6: fully qualified URL to preview image}"
 > Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
 
 # Cấu trúc ngữ pháp 🔍
-{7: grammar pattern }
+{7: full grammar pattern as plain text, center aligned}
 
-<h1 style="text-align:center;">「{3: short story title in japanese}」</h1>
-{voice audio in story}
+<h1 style="text-align:center">「{3: short story title in japanese}」</h1>
+
+%% voice audio in story %%
 
 {AI: Use the callout template below to build story content as a multi-person conversation, emphasize sentences using grammar with `[[wikilink]]` to below heading about usage}
 
@@ -34,9 +35,9 @@ socialImage: "{6: fully qualified URL to preview image}"
 
 # Cách dùng cơ bản 🗝️
 
-{AI: use the template below to present the grammar usages}
-## {AI: usage name} [[#^{backlink to a story line}|↑]]
-{AI: short description + at least 3 examples based on below callout template + notices (if any)}
+{: use the template below to present the grammar usages}
+## {: usage name} [[#^{backlink to a story line}|↑]]
+{: short description + at least 3 examples based on below callout template + notices (if any)}
 
 > [!clear]- {{AI: callout title about example in japanese}}
 > {AI: vietnamese version of callout tilte}
