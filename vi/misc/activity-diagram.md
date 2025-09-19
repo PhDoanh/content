@@ -38,6 +38,7 @@ Các thành phần cơ bản:
 2. **Hành động (Action):**
     - Là đơn vị cơ bản nhất của hoạt động, ví dụ: tạo đối tượng, hủy đối tượng, đọc/ghi thuộc tính.
     - Nằm ở phần "lá" của biểu đồ hoạt động, không thể chia thành các action nhỏ hơn!
+    - Lưu ý: Bản thân activity có thể là action, nhưng ngược lại chưa chắc đúng
 3. **Luồng điều khiển (Control Flow):**
     - Mũi tên nối giữa các hoạt động.
     - Cho biết trình tự thực thi.
@@ -60,7 +61,7 @@ Biểu đồ hoạt động không đi sâu chi tiết cách tính toán, mà ch
 - Chuẩn bị cho bước thiết kế hệ thống.
 
 Có hai cách ứng dụng chính:
-## Mô hình hóa luồng công việc
+## Mô hình hóa luồng công việc 
 
 Dùng khi ta muốn biểu diễn **quy trình nghiệp vụ** hoặc **tương tác với tác nhân bên ngoài**. Các bước cơ bản:
 1. **Xác định phạm vi (scope):**
@@ -91,7 +92,7 @@ Dùng khi ta muốn đặc tả chi tiết **cách một hàm/phương thức ch
     - Các thuộc tính lớp và đối tượng liên quan.
 
 2. **Xác định tiền/hậu điều kiện & bất biến:**
-    - Ví dụ: “giỏ hàng không được rỗng trước khi thanh toán”.
+    - Ví dụ: "giỏ hàng không được rỗng trước khi thanh toán".
 
 3. **Vẽ biểu đồ hoạt động cho thao tác:**
     - Bắt đầu từ trạng thái khởi đầu.
