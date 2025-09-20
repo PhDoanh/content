@@ -1,7 +1,7 @@
 ---
 stage: Idea
-title: "/stt/. {1: shortened grammar}「{2: short story title in vietnamese}」"
-description: "{4: meta description (140‑160 chars)}"
+title: "stt. {: shortened grammar}「{: short story title in vietnamese}」"
+description: "{: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
 draft: true
@@ -10,46 +10,49 @@ tags:
   - japanese
   - JLPT
   - grammar
+  - {:related tags}
 aliases:
   - 
 cssclasses:
   - img
-socialDescription: "{5: OG description (~100 chars)}"
-socialImage: "{6: fully qualified URL to preview image}"
+socialDescription: "{: OG description (~100 chars)}"
+socialImage: "{: fully qualified URL to preview image}"
 ---
 
 > [!bell]- Dành cho bạn học lần đầu
 > Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
 
-# Cấu trúc ngữ pháp 🔍
-{7: full grammar pattern as plain text, center aligned}
+## Cấu trúc ngữ pháp 🔍
+{1: full grammar pattern as plain text, center aligned}
 
-<h1 style="text-align:center">「{3: short story title in japanese}」</h1>
+<h1 style="text-align:center">「{: short story title in japanese}」</h1>
 
 %% voice audio in story %%
 
-{AI: Use the callout template below to build story content as a multi-person conversation, emphasize sentences using grammar with `[[wikilink]]` to below heading about usage}
+<!-- use the callout template right below to build story content as a 2/3 person conversation, emphasize sentences using grammar with `[[wikilink]]` that link to below H3 heading about usage. The story must contain all basic usage, be of medium length, and convey a clear meaning -->
+> [!clear]- {: callout title as `character name: character lines` in japanese}
+> {: vietnamese version of callout tilte}
 
-> [!clear]- {AI: callout title as `character name: character lines` in japanese}
-> {AI: vietnamese version of callout tilte}
+## Cách dùng cơ bản 🗝️
 
-# Cách dùng cơ bản 🗝️
+<!-- use the subsection template in H3 heading right below to present the grammar usages -->
+### {2: short H3 heading on usage} [[#^{backlink to a story line}|↑]]
+{3: short description}
 
-{: use the template below to present the grammar usages}
-## {: usage name} [[#^{backlink to a story line}|↑]]
-{: short description + at least 3 examples based on below callout template + notices (if any)}
+<!-- at least 3 examples based on below callout template -->
+> [!clear]- {4: callout title about example in japanese}
+> {4: vietnamese version of callout tilte}
 
-> [!clear]- {{AI: callout title about example in japanese}}
-> {AI: vietnamese version of callout tilte}
+{5: notices (if any)}
 
-# Cách dùng nâng cao 🔓
+## Cách dùng nâng cao 🔓
 
 > [!caution]- Content in progress
 > This content creation process may take time, but you can help it along by participating in the [[vi/article-contribution-guide|Article Contribution Guide]]
 >
 > **We appreciate your understanding!**
 
-# Bạn học chú ý 👀
+## Bạn học chú ý 👀
 
 > [!important] Quan trọng
 > {AI: general notes and tips as bullets}
@@ -57,7 +60,7 @@ socialImage: "{6: fully qualified URL to preview image}"
 > [!info] Ngữ pháp tương tự
 > {AI: similar grammars with short description and emphasize the difference as bullets}
 
-# Tổng kết và giữ chuỗi 🔥
+## Tổng kết và giữ chuỗi 🔥
 Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số {stt} đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
 
 {AI: content summary}
