@@ -10,7 +10,7 @@ tags:
   - japanese
   - JLPT
   - grammar
-  - "{12: related tags}"
+  - "{12: related tags as bullets}"
 aliases:
   - 
 cssclasses:
@@ -28,16 +28,19 @@ socialImage: "fully qualified URL to preview image"
 
 %% voice audio in story %%
 
-<!-- use the callout template right below to build story content as a 2/3 person conversation, emphasize sentences using grammar with `[[wikilink]]` that link to below H3 heading about usage. The story must contain all basic usage, be of medium length, and convey a clear meaning -->
-> [!clear]- {10: callout title as `character name: character lines` in japanese}
-> {10: vietnamese version of callout tilte}
+{:use the template right below to build story content as a 2/3 person conversation, emphasize sentences using grammar with `[[wikilink]]` that link to below H3 heading about usage. The story must contain all basic usage, be of medium length, and convey a clear meaning}
+```template
+> [!clear]- {1: callout title as `character name: character lines` in japanese}
+> {1: vietnamese version of callout tilte}
+```
 
 ## Cấu trúc ngữ pháp 🔍
-{1: full grammar pattern as plain text, center aligned | need to fix}
+{1: full grammar pattern as bullets for each combination (with verb, adjective, noun, ...) using form `- combination: meaning`}
 
 ## Cách dùng cơ bản 🗝️
 
-<!-- use the subsection template in H3 heading right below to present multiple usages of the grammar (each subsection should cover only one specific usage) -->
+{2: use the template right below to present multiple usages of the grammar (each subsection should cover only one specific usage)}
+```template
 ### {2: short H3 heading on usage} [[#^backlink|↑]]
 {3: short description, about 2-3 sentences}
 
@@ -47,6 +50,7 @@ socialImage: "fully qualified URL to preview image"
 
 > [!info] Lưu ý
 > {5: notes on this usage as bullets (if any)}
+```
 
 ## Cách dùng nâng cao 🔓
 
@@ -66,6 +70,6 @@ socialImage: "fully qualified URL to preview image"
 ## Tổng kết và giữ chuỗi 🔥
 Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số <% tp.file.cursor(0) %> đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
 
-{8: content summary}
+{8: summary of content}
 
 Dù sao thì, đừng quên để lại tín hiệu **like, share và comment** nếu thấy truyện hay nhé bạn!
