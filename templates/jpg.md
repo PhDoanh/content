@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: "<% tp.file.cursor(0) %>. {1: shortened grammar}「{9: short story title in vietnamese}」"
+title: "<% tp.file.cursor(0) %>. {14: shortened grammar}「{9: short story title in vietnamese}」"
 description: "{11: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
@@ -24,16 +24,16 @@ socialImage: "fully qualified URL to preview image"
 > - [[vi/tags/jpg-notebook|Giới thiệu sổ tay Nhật ngữ]]: Trình bày cấu trúc, cách dùng, giải thích ký hiệu của sổ tay do mình biên soạn trong quá trình học tiếng Nhật.   
 > - [[vi/japanese/index|Tổng quan về tiếng Nhật và chiến lược học tối ưu]]: Giới thiệu về tiếng Nhật và định hướng chiến lược tự học *"đắm chìm"* cho người mới bắt đầu.
 
-## Cấu trúc ngữ pháp 🔍
-{1: full grammar pattern as plain text, center aligned}
-
-<h1 style="text-align:center">「{9: short story title in japanese}」</h1>
+<h2 style="text-align:center">「{9: short story title in japanese}」</h2>
 
 %% voice audio in story %%
 
 <!-- use the callout template right below to build story content as a 2/3 person conversation, emphasize sentences using grammar with `[[wikilink]]` that link to below H3 heading about usage. The story must contain all basic usage, be of medium length, and convey a clear meaning -->
 > [!clear]- {10: callout title as `character name: character lines` in japanese}
 > {10: vietnamese version of callout tilte}
+
+## Cấu trúc ngữ pháp 🔍
+{1: full grammar pattern as plain text, center aligned | need to fix}
 
 ## Cách dùng cơ bản 🗝️
 
