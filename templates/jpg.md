@@ -20,7 +20,9 @@ socialImage: "{: fully qualified URL to preview image}"
 ---
 
 > [!bell]- Dành cho bạn học lần đầu
-> Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
+> Xem trước các bài viết sau để sử dụng hiệu quả:
+> - [[vi/tags/jpg-notebook|Giới thiệu sổ tay Nhật ngữ]]: Trình bày cấu trúc, cách dùng, giải thích ký hiệu của sổ tay do mình soạn trong quá trình học tiếng Nhật.   
+> - [[vi/japanese/index|Tổng quan về tiếng Nhật và chiến lược học tối ưu]]: Giới thiệu về tiếng Nhật và định hướng chiến lược tự học cho người mới bắt đầu.    
 
 ## Cấu trúc ngữ pháp 🔍
 {1: full grammar pattern as plain text, center aligned}
@@ -37,7 +39,7 @@ socialImage: "{: fully qualified URL to preview image}"
 
 <!-- use the subsection template in H3 heading right below to present the grammar usages -->
 ### {2: short H3 heading on usage} [[#^{backlink to a story line}|↑]]
-{3: short description}
+{3: short description, about 2-3 sentences}
 
 <!-- at least 3 examples based on below callout template -->
 > [!clear]- {4: callout title about example in japanese}
