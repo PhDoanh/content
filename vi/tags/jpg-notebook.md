@@ -76,13 +76,13 @@ Bảng dưới đây tổng hợp những kí hiệu dược dùng trong các b�
 
 Các cấp độ JLPT:
 
-|  JLPT  | Tên gọi tiếng Anh      | Mô tả                                                                                                                            |           Thẻ liên quan           |
-| :----: | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------: |
-| **N5** | **Beginner**           | Hiểu được các câu và từ vựng cơ bản, giao tiếp tình huống rất đơn giản (giới thiệu bản thân, hỏi giờ, mua sắm).                  |           #N5 #beginner           |
-| **N4** | **Elementary**         | Hiểu được hội thoại thường ngày, đọc được văn bản ngắn (email, thông báo, thực đơn).                                             |          #N4 #elementary          |
-| **N3** | **Intermediate**       | Giao tiếp trong đa số tình huống hàng ngày, hiểu nội dung chính của tin tức đơn giản, bài luận ngắn.                             |         #N3 #intermediate         |
-| **N2** | **Upper-Intermediate** | Đọc báo, tạp chí, hiểu phim/tin tức tương đối tự nhiên, tham gia thảo luận công việc.                                            |      #N2 #upper-intermediate      |
-| **N1** | **Advanced**           | Hiểu các văn bản phức tạp, từ báo chí, nghiên cứu đến văn học; theo dõi tin tức, tranh luận học thuật hoặc công việc chuyên môn. | #N1 #advanced #master #proficient |
+|  JLPT  | Tên gọi tiếng Anh      | Mô tả                                                                                                                            |                Thẻ liên quan                 |
+| :----: | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------: |
+| **N5** | **Beginner**           | Hiểu được các câu và từ vựng cơ bản, giao tiếp tình huống rất đơn giản (giới thiệu bản thân, hỏi giờ, mua sắm).                  |          #jlpt-n5  #beginner-level           |
+| **N4** | **Elementary**         | Hiểu được hội thoại thường ngày, đọc được văn bản ngắn (email, thông báo, thực đơn).                                             |          #jlpt-n4 #elementary-level          |
+| **N3** | **Intermediate**       | Giao tiếp trong đa số tình huống hàng ngày, hiểu nội dung chính của tin tức đơn giản, bài luận ngắn.                             |        #jlpt-n3  #intermediate-level         |
+| **N2** | **Upper-Intermediate** | Đọc báo, tạp chí, hiểu phim/tin tức tương đối tự nhiên, tham gia thảo luận công việc.                                            |      #jlpt-n2 #upper-intermediate-level      |
+| **N1** | **Advanced**           | Hiểu các văn bản phức tạp, từ báo chí, nghiên cứu đến văn học; theo dõi tin tức, tranh luận học thuật hoặc công việc chuyên môn. | #jlpt-n1 #advanced-level #master #proficient |
 
 
 
