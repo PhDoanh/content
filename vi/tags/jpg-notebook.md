@@ -53,7 +53,9 @@ Mẩu truyện ngắn ở đầu mỗi bài viết được coi là linh hồn c
 > - Sử dụng các công cụ hỗ trợ học tiếng Nhật theo phương pháp "đắm chìm" để càn quét tối đa kiến thức và khai phá khả năng của bản thân! 
 
 ## Giải thích kí hiệu, thuật ngữ
-Bảng dưới đây tổng hợp những kí hiệu dược dùng trong các bài viết ngữ pháp
+Để giữ sự tối giản cho sổ tay, mình quy ước các kí hiệu và thuật ngữ dưới đây theo tiêu chuẩn của các web dạy học tiếng Nhật bằng tiếng Anh. 
+
+
 
 ## 🔹 1. **Ký hiệu chỉ từ loại**
 
@@ -101,17 +103,6 @@ Bảng dưới đây tổng hợp những kí hiệu dược dùng trong các b�
 | **Vないでください** | Xin đừng V            |
 | **Aい → くて**  | Biến tính từ い sang て |
 | **Aな → で**   | Biến tính từ な sang て |
+|              |                       |
 
-Các cấp độ JLPT:
-
-|  JLPT  | Tên gọi tiếng Anh      | Mô tả                                                                                                                            |                Thẻ liên quan                 |
-| :----: | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------: |
-| **N5** | **Beginner**           | Hiểu được các câu và từ vựng cơ bản, giao tiếp tình huống rất đơn giản (giới thiệu bản thân, hỏi giờ, mua sắm).                  |          #jlpt-n5  #beginner-level           |
-| **N4** | **Elementary**         | Hiểu được hội thoại thường ngày, đọc được văn bản ngắn (email, thông báo, thực đơn).                                             |          #jlpt-n4 #elementary-level          |
-| **N3** | **Intermediate**       | Giao tiếp trong đa số tình huống hàng ngày, hiểu nội dung chính của tin tức đơn giản, bài luận ngắn.                             |        #jlpt-n3  #intermediate-level         |
-| **N2** | **Upper-Intermediate** | Đọc báo, tạp chí, hiểu phim/tin tức tương đối tự nhiên, tham gia thảo luận công việc.                                            |      #jlpt-n2 #upper-intermediate-level      |
-| **N1** | **Advanced**           | Hiểu các văn bản phức tạp, từ báo chí, nghiên cứu đến văn học; theo dõi tin tức, tranh luận học thuật hoặc công việc chuyên môn. | #jlpt-n1 #advanced-level #master #proficient |
-
-
-# Khám phá những mẩu truyện ngay bây giờ!
-Nói *"vòng vo tam quốc"* nãy giờ rồi, 
+## Những mẩu truyện gần đây
