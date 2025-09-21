@@ -1,7 +1,7 @@
 ---
 stage: Publish
-title: "1. といえば「Hương vị Việt Nam trong quán cà phê」"
-description: "Học ngữ pháp tiếng Nhật と言えば (to ieba) - cách chuyển đổi chủ đề tự nhiên trong hội thoại. Bao gồm cấu trúc, cách dùng chi tiết và ví dụ thực tế cho JLPT N3."
+title: 1. といえば「Hương vị Việt Nam trong quán cà phê」
+description: Học ngữ pháp tiếng Nhật と言えば (to ieba) - cách chuyển đổi chủ đề tự nhiên trong hội thoại. Bao gồm cấu trúc, cách dùng chi tiết và ví dụ thực tế cho JLPT N3.
 permalink: ""
 lang: vi
 draft: false
@@ -10,15 +10,16 @@ tags:
   - japanese-grammar
   - jlpt-n3
   - conversation-skills
-  - topic-transition  
+  - topic-transition
   - intermediate-level
   - discourse-markers
+  - jpg-notebook
 aliases:
   - 
 cssclasses:
   - img
-socialDescription: "Nắm vững と言えば - ngữ pháp chuyển chủ đề quan trọng giúp hội thoại tiếng Nhật tự nhiên hơn."
-socialImage: "fully qualified URL to preview image"
+socialDescription: Nắm vững と言えば - ngữ pháp chuyển chủ đề quan trọng giúp hội thoại tiếng Nhật tự nhiên hơn.
+socialImage: fully qualified URL to preview image
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

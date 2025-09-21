@@ -13,6 +13,7 @@ tags:
   - japanese-conversation
   - grammar-pattern
   - intermediate-level
+  - jpg-notebook
 aliases:
   - 
 cssclasses:

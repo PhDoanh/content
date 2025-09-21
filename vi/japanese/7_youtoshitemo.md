@@ -16,6 +16,7 @@ tags:
   - japanese-emotions
   - formal-japanese
   - intermediate-level
+  - jpg-notebook
 aliases:
   - 
 cssclasses:

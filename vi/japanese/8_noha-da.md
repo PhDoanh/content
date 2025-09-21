@@ -13,6 +13,7 @@ tags:
   - emphasis-pattern
   - reason-explanation
   - elementary-level
+  - jpg-notebook
 aliases:
   - 
 cssclasses:
