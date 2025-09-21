@@ -30,17 +30,17 @@ socialImage: fully qualified URL to preview image
 
 %% voice audio in story %%
 
-> [!clear]- ゾアイン：すみません、この道で本当に駅に[[#Hỏi ý kiến một cách lịch sự 3b512b ↑|着けるのでしょうか]]？
+> [!clear]- ゾアイン：すみません、この道で本当に駅に[[#Hỏi ý kiến một cách lịch sự|着けるのでしょうか]]？
 > Doanh: Phiền bạn chút, con đường này thực sự có thể đến được nhà ga à?
 
-^3b512b
+^b3512b
 
-> [!clear]- バオ：ええ、多分大丈夫だと思いますが...でも少し心配になってきました。時間に[[#Tự hỏi nội tâm 7d275c ↑|間に合うのでしょうか]]？
+> [!clear]- バオ：ええ、多分大丈夫だと思いますが...でも少し心配になってきました。時間に[[#Tự hỏi nội tâm|間に合うのでしょうか]]？
 > Bảo: Ừ, mình nghĩ không sao đâu... nhưng cũng hơi lo. Liệu có thể tới đó kịp giờ không?
 
 ^7d275c
 
-> [!clear]- ゾアイン：そうですね。もうここまで来ましたから、[[#Hỏi về khả năng trong tương lai 2326a2 ↑|このまま進むのがいいのでしょうか]]？
+> [!clear]- ゾアイン：そうですね。もうここまで来ましたから、[[#Hỏi về khả năng trong tương lai|このまま進むのがいいのでしょうか]]？
 > Doanh: Ừ nhỉ... Nhưng đã đi đến đây rồi, cứ tiếp tục như thế này liệu có ổn không ta?
 
 ^2326a2
@@ -59,8 +59,8 @@ socialImage: fully qualified URL to preview image
 
 ## Cách dùng cơ bản 🗝️
 
-### Hỏi ý kiến một cách lịch sự [[#^3b512b|↑]]
-Đây là cách dùng phổ biến nhất của **のでしょうか**, giúp ta hỏi ý kiến người khác một cách tế nhị khi không chắc chắn về điều gì đó.
+### Hỏi ý kiến một cách lịch sự
+Đây là cách dùng phổ biến nhất của **のでしょうか**, giúp ta hỏi ý kiến người khác một cách tế nhị khi không chắc chắn về điều gì đó. [[6_nodeshouka#^b3512b|^b3512b]]
 
 > [!clear]- この<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>本当<rt>ほんとう</rt></ruby>にうまくいくのでしょうか？
 > Liệu cách này có thực sự hiệu quả không?
@@ -72,8 +72,8 @@ socialImage: fully qualified URL to preview image
 > - Tông giọng lịch sự hơn **ですか** thông thường
 > - Thể hiện sự không chắc chắn của người nói
 
-### Tự hỏi nội tâm [[#^7d275c|↑]]
-**のでしょうか** có thể dùng để thể hiện sự băn khoăn, tự hỏi của bản thân về một vấn đề nào đó.
+### Tự hỏi nội tâm
+**のでしょうか** có thể dùng để thể hiện sự băn khoăn, tự hỏi của bản thân về một vấn đề nào đó. [[#^7d275c|hello]]
 
 > [!clear]- <ruby>彼<rt>かれ</rt></ruby>はなぜ<ruby>来<rt>こ</rt></ruby>なかったのでしょうか？
 > Tại sao anh ấy không đến nhỉ?
@@ -85,8 +85,8 @@ socialImage: fully qualified URL to preview image
 > - Có tính chất rhetorical question (câu hỏi tu từ)
 > - Người nói không nhất thiết mong đợi câu trả lời
 
-### Hỏi về khả năng trong tương lai [[#^2326a2|↑]]
-Dùng để hỏi về khả năng xảy ra của một sự việc trong tương lai với sắc thái lo lắng hoặc mong đợi.
+### Hỏi về khả năng trong tương lai
+Dùng để hỏi về khả năng xảy ra của một sự việc trong tương lai với sắc thái lo lắng hoặc mong đợi. [[#^2326a2|Về lại lời thoại ↑]]
 
 > [!clear]- <ruby>試験<rt>しけん</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>できるのでしょうか？
 > Liệu có thể đậu kỳ thi không?
