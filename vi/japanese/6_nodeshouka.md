@@ -45,10 +45,10 @@ socialImage: fully qualified URL to preview image
 
 ^2326a2
 
-> [!clear]- バオ：引き返すより、前に進んだほうがいいのでしょうか。GPSも信号が悪くて...
+> [!clear]- バオ：引き返すより、前に進んだほうがいい**のでしょうか**。GPSも信号が悪くて...
 > Bảo: Tiếp tục đi có tốt hơn quay lại không bạn?. GPS thì bị yếu sóng...
 
-> [!clear]- ゾアイン：あ、向こうに人が見えますね。道を聞いてみるのがいいのでしょうか？
+> [!clear]- ゾアイン：あ、向こうに人が見えますね。道を聞いてみるのがいい**のでしょうか**？
 > Doanh: Ah, mình thấy có người ở đằng kia. Chúng ta có nên hỏi đường không?
 
 ## Cấu trúc ngữ pháp 🔍
@@ -62,10 +62,10 @@ socialImage: fully qualified URL to preview image
 ### Hỏi ý kiến một cách lịch sự
 Đây là cách dùng phổ biến nhất của **のでしょうか**, giúp ta hỏi ý kiến người khác một cách tế nhị khi không chắc chắn về điều gì đó. [[6_nodeshouka#^b3512b|^b3512b]]
 
-> [!clear]- この<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>本当<rt>ほんとう</rt></ruby>にうまくいくのでしょうか？
+> [!clear]- この<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>本当<rt>ほんとう</rt></ruby>にうまくいく**のでしょうか**？
 > Liệu cách này có thực sự hiệu quả không?
 
-> [!clear]- <ruby>明日<rt>あした</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby>から<ruby>始<rt>はじ</rt></ruby>まるのでしょうか？ 
+> [!clear]- <ruby>明日<rt>あした</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>は<ruby>何<rt>なん</rt></ruby><ruby>時<rt>じ</rt></ruby>から<ruby>始<rt>はじ</rt></ruby>まる**のでしょうか**？ 
 > Cuộc họp ngày mai bắt đầu từ mấy giờ nhỉ?
 
 > [!info] Lưu ý
@@ -75,10 +75,10 @@ socialImage: fully qualified URL to preview image
 ### Tự hỏi nội tâm
 **のでしょうか** có thể dùng để thể hiện sự băn khoăn, tự hỏi của bản thân về một vấn đề nào đó. [[#^7d275c|hello]]
 
-> [!clear]- <ruby>彼<rt>かれ</rt></ruby>はなぜ<ruby>来<rt>こ</rt></ruby>なかったのでしょうか？
+> [!clear]- <ruby>彼<rt>かれ</rt></ruby>はなぜ<ruby>来<rt>こ</rt></ruby>なかった**のでしょうか**？
 > Tại sao anh ấy không đến nhỉ?
 
-> [!clear]- これで<ruby>正<rt>ただ</rt></ruby>しい<ruby>決断<rt>けつだん</rt></ruby>なのでしょうか？
+> [!clear]- これで<ruby>正<rt>ただ</rt></ruby>しい<ruby>決断<rt>けつだん</rt></ruby>な**のでしょうか**？
 > Đây có phải quyết định đúng đắn không?
 
 > [!info] Lưu ý  
@@ -88,10 +88,10 @@ socialImage: fully qualified URL to preview image
 ### Hỏi về khả năng trong tương lai
 Dùng để hỏi về khả năng xảy ra của một sự việc trong tương lai với sắc thái lo lắng hoặc mong đợi. [[#^2326a2|Về lại lời thoại ↑]]
 
-> [!clear]- <ruby>試験<rt>しけん</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>できるのでしょうか？
+> [!clear]- <ruby>試験<rt>しけん</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>できる**のでしょうか**？
 > Liệu có thể đậu kỳ thi không?
 
-> [!clear]- <ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るのでしょうか？
+> [!clear]- <ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>る**のでしょうか**？
 > Trời có mưa không nhỉ?
 
 > [!info] Lưu ý
