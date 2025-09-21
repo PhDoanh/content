@@ -60,7 +60,7 @@ socialImage: fully qualified URL to preview image
 ## Cách dùng cơ bản 🗝️
 
 ### Hỏi ý kiến một cách lịch sự
-Đây là cách dùng phổ biến nhất của **のでしょうか**, giúp ta hỏi ý kiến người khác một cách tế nhị khi không chắc chắn về điều gì đó. [[#^b3512b|^b3512b]]
+Đây là cách dùng phổ biến nhất của **のでしょうか**, giúp ta hỏi ý kiến người khác một cách tế nhị khi không chắc chắn về điều gì đó. [[6_nodeshouka#^b3512b|Về lại lời thoại ↑]]
 
 > [!clear]- この<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>本当<rt>ほんとう</rt></ruby>にうまくいく**のでしょうか**？
 > Liệu cách này có thực sự hiệu quả không?
@@ -73,7 +73,7 @@ socialImage: fully qualified URL to preview image
 > - Thể hiện sự không chắc chắn của người nói
 
 ### Tự hỏi nội tâm
-**のでしょうか** có thể dùng để thể hiện sự băn khoăn, tự hỏi của bản thân về một vấn đề nào đó. [[#^7d275c|^7d275c]]
+**のでしょうか** có thể dùng để thể hiện sự băn khoăn, tự hỏi của bản thân về một vấn đề nào đó. [[6_nodeshouka#^7d275c|Về lại lời thoại ↑]]
 
 > [!clear]- <ruby>彼<rt>かれ</rt></ruby>はなぜ<ruby>来<rt>こ</rt></ruby>なかった**のでしょうか**？
 > Tại sao anh ấy không đến nhỉ?
@@ -86,7 +86,7 @@ socialImage: fully qualified URL to preview image
 > - Người nói không nhất thiết mong đợi câu trả lời
 
 ### Hỏi về khả năng trong tương lai
-Dùng để hỏi về khả năng xảy ra của một sự việc trong tương lai với sắc thái lo lắng hoặc mong đợi. [[#^2326a2|Về lại lời thoại]]
+Dùng để hỏi về khả năng xảy ra của một sự việc trong tương lai với sắc thái lo lắng hoặc mong đợi. [[6_nodeshouka#^2326a2|Về lại lời thoại ↑]]
 
 > [!clear]- <ruby>試験<rt>しけん</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>できる**のでしょうか**？
 > Liệu có thể đậu kỳ thi không?
