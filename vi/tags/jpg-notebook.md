@@ -1,11 +1,11 @@
 ---
-stage: Idea
+stage: Publish
 title: Sổ tay Nhật Ngữ qua những mẩu truyện ngắn
-description: Sổ tay tổng hợp và tóm tắt ngữ pháp của PhDoanh
+description: Sổ tay tổng hợp và tóm tắt ngữ pháp tiếng Nhật của PhDoanh, dựa trên nhiều nguồn uy tín khác nhau theo trình độ JLPT N5-N1
 permalink: ""
 comments: false
 lang: vi
-draft: true
+draft: false
 aliases:
 cssclasses:
   - img
@@ -13,16 +13,32 @@ cssclasses:
 socialDescription: ""
 socialImage: ""
 ---
-# Lời nói đầu
-Bản thân mình là một người đang theo học tiếng Nhật và thích nghiên cứu bản chất của những gì được học nên sổ tay "Nhật ngữ sâu bên trong" sẽ được dùng để tổng hợp mọi ngữ pháp tiếng Nhật mà mình tiếp cận được qua nhiều nguồn uy tín khác nhau.
-
-Trước mắt, nó đang được phát triển từ nguồn
+## Lời nói đầu
+Mình là một người đang theo học tiếng Nhật và thích chia sẻ cách bản thân *"tiêu thụ"* những gì được học, nên sổ tay *"Nhật ngữ qua những mẩu truyện ngắn"* sẽ được dùng để tổng hợp mọi ngữ pháp tiếng Nhật mà mình tiếp cận được qua nhiều nguồn uy tín từ trước đến nay.
 
 
-# Cách dùng sổ tay này
-Mẩu truyện ngắn ở đầu mỗi bài học được coi là linh hồn của toàn bộ bài đó vì nó sẽ dạy bạn cách dùng chính xác của các ngữ pháp trong giao tiếp thực tế. 
 
-Các thông tin hội thoại nổi bật sẽ cho phép bạn nhấp vào để tìm hiểu sâu hơn về ngữ pháp ẩn đằng sau nó. Mỗi một ngữ pháp sẽ kèm theo ý nghĩa, cách dùng và các ví dụ bổ sung
+Trước mắt, nó đang sử dụng 3 nguồn tài nguyên sau làm nền tảng chính để xây dựng nội dung:
+- 
+
+
+
+
+> [!warning]- Sổ tay chỉ mang tính chất tham khảo
+> **Không giống các trang web dạy học**, *"sổ tay"* là thuật ngữ thường được dùng để chỉ kho lưu trữ kiến thức của một người, phản ánh quá trình họ học theo nhiều hình thức và nội dung khác nhau. Nên việc sai sót thông tin là điều hoàn toàn bình thường, **bạn nên kiểm tra lại trước khi nạp chúng vào bộ não của mình!**   
+
+
+
+## Cấu trúc sổ tay
+
+Về cơ bản không khác mấy sổ tay hay trang tài liệu truyền thống, riêng chỉ có 
+
+
+
+## Cách dùng sổ tay này
+
+
+Mẩu truyện ngắn ở đầu mỗi bài viết được coi là linh hồn của toàn bộ bài đó vì nó sẽ dạy bạn đa dạng cách dùng khác nhau của cùng một ngữ pháp trong giao tiếp thực tế. Các phần thông tin nổi bật trong lời thoại sẽ cho phép bạn nhấp vào để tìm hiểu sâu hơn về cách dùng ẩn đằng sau nó. Mỗi một cách dùng sẽ kèm theo ý nghĩa, cách dùng và các ví dụ bổ sung
 
 # Giải thích kí hiệu, thuật ngữ
 Bảng dưới đây tổng hợp những kí hiệu dược dùng trong các bài viết ngữ pháp
