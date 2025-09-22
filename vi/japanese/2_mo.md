@@ -1,123 +1,168 @@
 ---
-stage: Draft
-title: "2. も「{AI: short story name in vietnamese}」"
-description: Ngữ pháp も diễn tả ý nghĩa "cũng", "đến mức", hoặc "tận". Bài viết giải thích rõ ràng cách dùng, ví dụ thực tế và hội thoại sinh động
+stage: Publish
+title: 2. も「Cuốn sách đắt tiền」
+description: "Học ngữ pháp tiếng Nhật も (mo) - trợ từ đa năng với nhiều cách dùng: biểu thị sự bổ sung, số lượng lớn, phủ định hoàn toàn. Bao gồm cấu trúc và ví dụ chi tiết cho JLPT N5-N4."
 permalink: ""
 lang: vi
-draft: true
+draft: false
 comments: true
 tags:
-  - japanese
-  - N4
-  - as-many-as
-  - particles
-  - as-much-as
-  - JLPT
-  - grammar
-  - up-to
+  - japanese-grammar
+  - japanese-particle
+  - jlpt-n5
+  - basic-grammar
+  - addition-particle
+  - quantity-emphasis
+  - negative-expressions
+  - beginner-level
 aliases:
   - 
 cssclasses:
   - img
-socialDescription:
-socialImage:
+socialDescription: Nắm vững trợ từ も - ngữ pháp cơ bản nhất giúp bạn diễn đạt tiếng Nhật tự nhiên và đa dạng hơn.
+socialImage: fully qualified URL to preview image
 ---
 
 > [!bell]- Dành cho bạn học lần đầu
-> Xem trước bài viết [[vi-jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
+> Để khai thác hiệu quả bài viết này, mình khuyên bạn nên đọc trước các bài viết sau:
+> - [[vi-jpg-notebook|Giới thiệu sổ tay Nhật ngữ]]: Trình bày cấu trúc, cách dùng, giải thích ký hiệu của sổ tay do mình biên soạn trong quá trình học tiếng Nhật.   
+> - [[vi/japanese/index|Tổng quan về tiếng Nhật và chiến lược học tối ưu]]: Giới thiệu về tiếng Nhật và định hướng chiến lược tự học *"đắm chìm"* cho người mới bắt đầu.
 
-# Cấu trúc ngữ pháp 🔍
-```mermaid
-flowchart LR
-    A["Danh từ / Số từ"] --> B["も"]
-    A@{ shape: rounded}
-    B@{ shape: rounded}
-```
+<h2 style="text-align:center">「高い本」</h2>
 
-**Ý nghĩa**: Cũng / Thậm chí / Tận 
+%% voice audio in story %%
 
-<h1 style="text-align:center;">「{AI: short story name in japanese}」</h1>
-{voice audio in story}
+> [!clear]- 店員：いらっしゃいませ。何かお探しですか？
+> Nhân viên: Xin chào! Anh tìm gì ạ?
 
-{AI: Use the callout template below to build story content as a multi-person conversation, emphasize sentences using grammar with `[[wikilink]]` to below heading about usage}
+> [!clear]- ゾアイン：[[#Nhấn mạnh tính bất ngờ|子供でもわかる]]ような簡単な本を探しています。
+> Doanh: Tôi đang tìm cuốn sách đơn giản mà ngay cả trẻ con cũng hiểu được.
+^e7a3b8
 
-> [!clear]- {AI: callout title as `character name: character lines` in japanese}
-> {AI: vietnamese version of callout tilte}
+> [!clear]- 店員：それでしたら、こちらの本はいかがですか？とても人気で、私**も**おすすめです。
+> Nhân viên: Vậy thì cuốn này thế nào ạ? Rất nổi tiếng, mà tôi cũng khuyên dùng.
 
-# Cách dùng cơ bản 🗝️
+> [!clear]- ゾアイン：この本、[[#Biểu thị số lượng lớn|3000円もする]]んですか？高いですね...
+> Doanh: Cuốn sách này tận 3000 yên à? Đắt quá...
+^a8f2c9
 
-## Dùng để chỉ sự bổ sung [[#^{backlink to a story line}|↑]]
-**も** thường mang nghĩa "cũng", dùng để thêm thông tin vào một đối tượng hoặc hành động đã được đề cập trước đó.
+> [!clear]- 店員：そうですね、確かに高いです。[[#Biểu thị sự bổ sung|私もこの本を買いたい]]んですが、店員だから割引があっても高くて...
+> Nhân viên: Đúng vậy, thật sự đắt. Tôi cũng muốn mua cuốn này, nhưng dù là nhân viên có giảm giá thì vẫn đắt...
+^b5e8a4
 
-> [!clear]- <ruby>日本語<rt>にほんご</rt></ruby>が<ruby>話<rt>はな</rt></ruby>せます。<ruby>英語<rt>えいご</rt></ruby>**も**<ruby>話<rt>はな</rt></ruby>せます。
-> Tôi có thể nói tiếng Nhật. Và **cũng** nói được tiếng Anh.
+> [!clear]- ゾアイン：お金が足りないから、今日は[[#Phủ định hoàn toàn|何も買えません]]。
+> Doanh: Vì không có đủ tiền nên hôm nay chẳng mua được gì cả.
+^c3a7f2
 
-> [!clear]- <ruby>映画<rt>えいが</rt></ruby>**も**<ruby>見<rt>み</rt></ruby>たいです。
-> Tôi **cũng** muốn xem phim.
+> [!clear]- 店員：そうですか...実は[[#Cấu trúc lặp も...も|小説も漫画も]]値上がりしていて、お客さんに申し訳ないです。
+> Nhân viên: Vậy à... Thực ra cả tiểu thuyết lẫn manga đều tăng giá, xin lỗi khách hàng.
+^d9e4a1
 
-> [!clear]- コーヒー**も**お<ruby>願い<rt>ねがい</rt></ruby>します。
-> Cho tôi **cả** cà phê nữa.
+> [!clear]- ゾアイン：いえいえ、誰**も**悪くありません。また今度来ます。
+> Doanh: Không sao, không ai có lỗi cả. Tôi sẽ quay lại lần khác.
+
+> [!clear]- 店員：ありがとうございます！10年**も**この仕事をしていますが、本当にいいお客さんです。
+> Nhân viên: Cảm ơn anh! Làm công việc này đến 10 năm rồi, anh thật là khách hàng tốt.
+
+## Cấu trúc ngữ pháp 🔍
+- **Nも**: cũng, cũng vậy
+- **[Số] + [đơn vị đếm] + も**: tận, đến (biểu thị số lượng lớn bất ngờ)
+- **Q + も + [câu phủ định]**: không ai/không gì cả
+- **N₁も + N₂も**: cả N₁ lẫn N₂ đều/đều không ...
+- **でも (でさえ)**: thậm chí, ngay cả
+
+## Cách dùng cơ bản 🗝️
+
+### Biểu thị sự bổ sung
+Đây là cách dùng cơ bản và phổ biến nhất của **も**, tương đương với "cũng/cũng vậy/cũng thế" trong tiếng Việt. [[2_mo#^b5e8a4|Về lại lời thoại ↑]]
+
+> [!clear]- <ruby>私<rt>わたし</rt></ruby>は<ruby>学生<rt>がくせい</rt></ruby>です。<ruby>田中<rt>たなか</rt></ruby>さん**も**<ruby>学生<rt>がくせい</rt></ruby>です。
+> Tôi là sinh viên. Anh Tanaka cũng là sinh viên.
+
+> [!clear]- コーヒーを<ruby>飲<rt>の</rt></ruby>みます。<ruby>紅茶<rt>こうちゃ</rt></ruby>**も**<ruby>飲<rt>の</rt></ruby>みます。
+> Tôi uống cà phê. Cả trà cũng vậy.
 
 > [!info] Lưu ý
-> - Thay thế cho **は** khi muốn nhấn mạnh "cũng"
-> - Trong văn nói thường kết hợp với các từ liệt kê.
+> - **も** thay thế cho は, が, を khi muốn nhấn mạnh ý nghĩa bổ sung
+> - Vị trí của **も** quyết định từ nào được nhấn mạnh
 
-## Dùng để chỉ số lượng nhiều hơn dự đoán [[#^{backlink to a story line}|↑]]
-Khi đi sau số từ, **も** nhấn mạnh sự **vượt ngoài mong đợi**, nghĩa là "tận", "những…".
+### Biểu thị số lượng lớn
+**も** có thể diễn tả sự ngạc nhiên về số lượng hoặc mức độ, mang nghĩa "tận/đến/đến cả". [[2_mo#^a8f2c9|Về lại lời thoại ↑]]
 
-> [!clear]- <ruby>一<rt>いち</rt></ruby><ruby>日<rt>にち</rt></ruby>で<ruby>本<rt>ほん</rt></ruby>を<ruby>五<rt>ご</rt></ruby><ruby>冊<rt>さつ</rt></ruby>**も**<ruby>読<rt>よ</rt></ruby>みました。
-> Tôi đã đọc **tận** 5 cuốn sách trong một ngày.
+> [!clear]- この<ruby>本<rt>ほん</rt></ruby>は300ページ**も**あります。
+> Cuốn sách này có tận 300 trang.
 
-> [!clear]- <ruby>彼<rt>かれ</rt></ruby>は<ruby>一<rt>いち</rt></ruby><ruby>人<rt>にん</rt></ruby>でピザを<ruby>二<rt>に</rt></ruby><ruby>枚<rt>まい</rt></ruby>**も**<ruby>食<rt>た</rt></ruby>べた。
-> Anh ấy đã ăn một mình **tận** hai cái pizza.
+> [!clear]- 3<ruby>時間<rt>じかん</rt></ruby>**も**<ruby>待<rt>ま</rt></ruby>ちました。
+> Tôi đã đợi đến 3 tiếng đồng hồ.
 
-> [!clear]- <ruby>先週<rt>せんしゅう</rt></ruby><ruby>三<rt>さん</rt></ruby><ruby>回<rt>かい</rt></ruby>**も**<ruby>映画<rt>えいが</rt></ruby><ruby>館<rt>かん</rt></ruby>に<ruby>行<rt>い</rt></ruby>った。
-> Tuần trước tôi đi rạp phim đến **những** 3 lần.
+> [!info] Lưu ý  
+> - Thể hiện cảm xúc ngạc nhiên của người nói
+> - Thường dùng với các con số tương đối lớn theo ngữ cảnh
 
-> [!info] Lưu ý
-> Diễn tả sự ngạc nhiên về số lượng nhiều, có thể mang nghĩa tích cực hoặc tiêu cực.
+### Phủ định hoàn toàn
+Khi kết hợp với từ nghi vấn và động từ phủ định, **も** tạo nghĩa *"không ai/không gì/không nơi nào/..."*. [[2_mo#^c3a7f2|Về lại lời thoại ↑]]
 
-## Dùng để nhấn mạnh sự cực đoan hoặc phủ định [[#^{backlink to a story line}|↑]]
-**も** cũng được dùng trong câu phủ định để nhấn mạnh sự cực đoan: "đến cả … cũng không".
-
-> [!clear]- <ruby>時間<rt>じかん</rt></ruby>が<ruby>一<rt>いち</rt></ruby><ruby>分<rt>ふん</rt></ruby>**も**なかった。
-> Tôi không có nổi một phút.
-
-> [!clear]- <ruby>一円<rt>いちえん</rt></ruby>**も**<ruby>持<rt>も</rt></ruby>っていません。
-> Tôi không có nổi một yên nào.
-
-> [!clear]- <ruby>誰<rt>だれ</rt></ruby>**も**<ruby>来<rt>こ</rt></ruby>なかった。
+> [!clear]- <ruby>誰<rt>だれ</rt></ruby>**も**<ruby>来<rt>き</rt></ruby>ませんでした。
 > Không ai đến cả.
 
-> [!info] Lưu ý
-> - Trong dạng phủ định, **も** đi kèm với từ chỉ số lượng hoặc đại từ nghi vấn (<ruby>誰<rt>だれ</rt></ruby>, <ruby>何<rt>なに</rt></ruby>, どこ, いつ…)
-> - Là cách nói mạnh, thường gặp trong hội thoại.
+> [!clear]- <ruby>何<rt>なに</rt></ruby>**も**<ruby>食<rt>た</rt></ruby>べません。
+> Không ăn gì cả.
 
-# Cách dùng nâng cao 🔓
+> [!info] Lưu ý
+> - Công thức: Từ nghi vấn + も + động từ phủ định
+> - Các từ nghi vấn thường gặp: 誰 (ai), 何 (gì), どこ (đâu), いつ (khi nào)
+
+### Cấu trúc lặp も...も
+Trong câu khẳng định mang nghĩa "cả...lẫn...", trong câu phủ định nghĩa "không...cũng không...". [[2_mo#^d9e4a1|Về lại lời thoại ↑]]
+
+> [!clear]- <ruby>犬<rt>いぬ</rt></ruby>**も**<ruby>猫<rt>ねこ</rt></ruby>**も**<ruby>好<rt>す</rt></ruby>きです。
+> Tôi thích cả chó lẫn mèo.
+
+> [!clear]- <ruby>日本語<rt>にほんご</rt></ruby>**も**<ruby>英語<rt>えいご</rt></ruby>**も**<ruby>話<rt>はな</rt></ruby>せません。
+> Không nói được tiếng Nhật cũng không nói được tiếng Anh.
+
+> [!info] Lưu ý
+> - Có thể dùng với nhiều hơn 2 danh từ
+> - Nghĩa phụ thuộc vào câu khẳng định hay phủ định
+
+### Nhấn mạnh tính bất ngờ
+**も** có thể nhấn mạnh điều bất ngờ, thường kết hợp với でも hoặc でさえ để tạo nghĩa "thậm chí/ngay cả". [[2_mo#^e7a3b8|Về lại lời thoại ↑]]
+
+> [!clear]- <ruby>子供<rt>こども</rt></ruby>でも**わかります**。
+> Ngay cả trẻ con cũng hiểu được.
+
+> [!clear]- <ruby>先生<rt>せんせい</rt></ruby>でさえ**<ruby>知<rt>し</rt></ruby>りません**。
+> Thậm chí giáo viên cũng không biết.
+
+> [!info] Lưu ý
+> - でも/でさえ tạo sự nhấn mạnh mạnh mẽ hơn
+> - Thể hiện điều nằm ngoài mong đợi thông thường
+
+## Cách dùng nâng cao 🔓
 
 > [!caution]- Content in progress
 > This content creation process may take time, but you can help it along by participating in the [[vi/article-contribution-guide|Article Contribution Guide]]
 >
 > **We appreciate your understanding!**
 
-# Bạn học chú ý 👀
+## Bạn học chú ý 👀
+
 > [!important] Quan trọng
-> - **も** là trợ từ đa nghĩa, cần phân biệt theo ngữ cảnh.
-> - Khi dùng với số từ → nhấn mạnh sự bất ngờ về số lượng.
-> - Khi đi kèm câu phủ định → nghĩa "đến cả … cũng không".
+> - **も** có thể thay thế cho các trợ từ は、が、を khi muốn nhấn mạnh ý nghĩa "cũng/cũng vậy"
+> - Với số lượng, **も** thể hiện sự ngạc nhiên về mức độ nhiều/ít hoặc mức độ cao/thấp
+> - Kết hợp với từ nghi vấn + phủ định tạo nghĩa "không ai/không gì cả" 
+> - Trong cấu trúc lặp **も...も**, có thể mang nghĩa "cả...lẫn" hoặc "không...cũng không"
+> - Phân biệt với でも (nhưng/tuy nhiên) - でも đứng đầu câu, も theo sau danh từ/cụm từ
 
 > [!info] Ngữ pháp tương tự
-> - **だけ**: Chỉ, nhấn mạnh sự giới hạn (khác với **も** là mở rộng, bổ sung).
-> - **さえ**: Nhấn mạnh cực đoan, giống **も** trong phủ định nhưng thường mang nghĩa "ngay cả".
-> - **まで**: Thêm thông tin, nhưng thường mang sắc thái "thậm chí".
+> - **でも**: Nghĩa "nhưng/tuy nhiên" - khác với も, đứng đầu câu để nối ý đối lập
+> - **さえ**: Nhấn mạnh "thậm chí" - tương tự も nhưng mang sắc thái mạnh hơn, thường dùng với những điều bất ngờ
+> - **まで**: "Thậm chí/cho đến" - khác も ở chỗ chỉ giới hạn hoặc mức độ tối đa
+> - **だって**: "Thậm chí/ngay cả" - tương tự も trong văn nói, nhưng mang tính thân mật hơn
 
-# Tổng kết và giữ chuỗi 🔥
-Nếu bạn đọc được đến đây thì xin chúc mừng, **chuỗi số 2** đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
+## Tổng kết và giữ chuỗi 🔥
+Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số 2 đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
 
-- **も** có ba cách dùng chính:
-	1. Bổ sung nghĩa "cũng".
-    2. Nhấn mạnh số lượng nhiều hơn dự đoán.
-    3. Trong câu phủ định, nhấn mạnh "đến cả … cũng không".
-- Đây là một trong những trợ từ **thông dụng và quan trọng** nhất trong tiếng Nhật.
+Trợ từ **も** là một trong những ngữ pháp cơ bản nhất nhưng cũng đa năng nhất trong tiếng Nhật! Từ ý nghĩa đơn giản "cũng/cũng vậy", **も** có thể biểu thị sự ngạc nhiên về số lượng ("tận", "đến"), tạo cấu trúc phủ định toàn bộ khi kết hợp từ nghi vấn, hay nhấn mạnh sự bao trùm trong cấu trúc lặp **も...も**. Thành thạo cách dùng **も** sẽ giúp bạn diễn đạt tiếng Nhật tự nhiên và phong phú hơn rất nhiều!
 
 Dù sao thì, đừng quên để lại tín hiệu **like, share và comment** nếu thấy truyện hay nhé bạn!
