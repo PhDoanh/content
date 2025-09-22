@@ -1,0 +1,17 @@
+---
+stage: Idea
+title: concise SEO title (50‑60 chars)
+description: meta description (140‑160 chars)
+permalink: ""
+lang: vi
+draft: false
+comments: false
+aliases:
+  - 
+cssclasses:
+  - img
+socialDescription: OG description (~100 chars)
+socialImage: fully qualified URL to preview image
+---
+
+Bye World

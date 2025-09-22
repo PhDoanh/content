@@ -24,7 +24,7 @@ socialImage:
 ---
 
 > [!bell]- Dành cho bạn học lần đầu
-> Xem trước bài viết [[vi/tags/jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
+> Xem trước bài viết [[vi-jpg-notebook|này]] để biết cách sử dụng sổ tay ngữ pháp hiệu quả nhé!
 
 # Cấu trúc ngữ pháp 🔍
 ```mermaid
