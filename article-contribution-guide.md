@@ -1,13 +1,15 @@
 ---
 stage: Publish
-title: "Contribution Guide for Blog Posts"
+title: Contribution Guide for Blog Posts
 description: ""
 permalink:
 lang: en
 draft: false
 tags:
   - explorable
-aliases: 
+  - course
+  - vi-course
+aliases:
 cssclasses:
   - img
   - btn

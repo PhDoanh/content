@@ -33,26 +33,26 @@ socialImage: fully qualified URL to preview image
 
 %% voice audio in story %%
 
-> [!clear]- リュー：先生、私が日本の会社で働くために大切なことは何でしょうか？
-> Lưu: Thưa thầy, điều quan trọng để em có thể làm việc ở công ty Nhật là gì ạ?
+> [!clear]- **リュー**：先生、私が日本の会社で働くために大切なことは何でしょうか？
+> **Lưu**: Thưa thầy, điều quan trọng để em có thể làm việc ở công ty Nhật là gì ạ?
 
-> [!clear]- 田中先生：そうですね、まず[[#Nêu điều kiện bắt buộc|必要なことは日本語能力を向上させることです]]。それから、日本の文化を理解することも重要ですよ。
-> Thầy Tanaka: Ừm, trước tiên điều cần thiết là nâng cao khả năng tiếng Nhật. Sau đó, hiểu văn hóa Nhật cũng rất quan trọng đấy.
+> [!clear]- **田中先生**：そうですね、まず[[#Nêu điều kiện bắt buộc|必要なことは日本語能力を向上させることです]]。それから、日本の文化を理解することも重要ですよ。
+> **Thầy Tanaka**: Ừm, trước tiên điều cần thiết là nâng cao khả năng tiếng Nhật. Sau đó, hiểu văn hóa Nhật cũng rất quan trọng đấy.
 ^c8f4e1
 
-> [!clear]- リュー：具体的にはどのような準備をすればいいでしょうか？
-> Lưu: Cụ thể thì em nên chuẩn bị như thế nào ạ?
+> [!clear]- **リュー**：具体的にはどのような準備をすればいいでしょうか？
+> **Lưu**: Cụ thể thì em nên chuẩn bị như thế nào ạ?
 
-> [!clear]- 田中先生：技術者として成功するために[[#Đưa ra yêu cầu/khuyến nghị|重要なことは、新しい技術を常に学び続けることだ]]。
-> Thầy Tanaka: Để thành công với tư cách là kỹ sư, điều quan trọng là luôn liên tục học hỏi những công nghệ mới.
+> [!clear]- **田中先生**：技術者として成功するために[[#Đưa ra yêu cầu/khuyến nghị|重要なことは、新しい技術を常に学び続けることだ]]。
+> **Thầy Tanaka**: Để thành công với tư cách là kỹ sư, điều quan trọng là luôn liên tục học hỏi những công nghệ mới.
 ^a7b5d2
 
-> [!clear]- リュー：私が理解したことは、[[#Tổng kết/kết luận quan điểm|語学力と専門技術の両方が必要だということです]]ね？
-> Lưu: Em hiểu rằng cần cả khả năng ngôn ngữ và kỹ thuật chuyên môn có đúng không ạ?
+> [!clear]- **リュー**：私が理解したことは、[[#Tổng kết/kết luận quan điểm|語学力と専門技術の両方が必要だということです]]ね？
+> **Lưu**: Em hiểu rằng cần cả khả năng ngôn ngữ và kỹ thuật chuyên môn có đúng không ạ?
 ^f9a2b6
 
-> [!clear]- 田中先生：その通りです。**頑張ることだ**！
-> Thầy Tanaka: Đúng vậy. Hãy cố gắng nhé!
+> [!clear]- **田中先生**：その通りです。**頑張ることだ**！
+> **Thầy Tanaka**: Đúng vậy. Hãy cố gắng nhé!
 
 ## Cấu trúc ngữ pháp 🔍
 - **N は + Vる／Vない + こと**: N là việc phải làm hoặc không được làm
