@@ -2,12 +2,11 @@
 stage: Idea
 title: Khóa học
 description: ""
-permalink: ""
+permalink:
 comments: false
 lang: vi
 draft: false
 aliases:
-  - /vi/tags/
 cssclasses:
   - img
   - btn
