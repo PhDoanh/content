@@ -1,6 +1,6 @@
 ---
 stage: Idea
-title: "9. {11: shortened grammar}「{6: short story title in vietnamese}」"
+title: "12. {11: shortened grammar}「{6: short story title in vietnamese}」"
 description: "{8: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
@@ -15,6 +15,10 @@ cssclasses:
 socialDescription: "{10: OG description (~100 chars)}"
 socialImage: "fully qualified URL to preview image"
 ---
+
+%% 
+https://jlptsensei.com/learn-japanese-grammar/%e3%81%9f%e3%81%8c%e3%82%8b-tagaru-meaning/
+%%
 
 {9: related tags as bullets (skip #)}
 
@@ -70,7 +74,7 @@ socialImage: "fully qualified URL to preview image"
 > {4: similar grammars with short description and emphasize the difference as bullets}
 
 ## Tổng kết và giữ chuỗi 🔥
-Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số 9 đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
+Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số 12 đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
 
 {5: summary of content}
 
