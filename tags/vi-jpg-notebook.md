@@ -7,7 +7,6 @@ comments: false
 lang: vi
 draft: false
 aliases:
-  - vi/tags/vi-jpg-notebook
 cssclasses:
   - img
 socialDescription: ""
