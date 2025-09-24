@@ -1,49 +1,67 @@
 ---
-stage: Idea
-title: "9. {11: shortened grammar}「{6: short story title in vietnamese}」"
-description: "{8: meta description (140‑160 chars)}"
+stage: Publish
+title: 9. ようだ・ように・ような「Chiều tối trên sân thượng」
+description: Học ngữ pháp tiếng Nhật ようだ・ように・ような - cách biểu đạt suy đoán, so sánh và mục đích. Hướng dẫn chi tiết với ví dụ thực tế cho JLPT N4-N3.
 permalink: ""
 lang: vi
-draft: true
+draft: false
 comments: true
 tags:
   - japanese-grammar
+  - jlpt-n4
+  - comparison-grammar
+  - inference-expression
+  - elementary-level
+  - jlpt-n3
 aliases:
   - 
 cssclasses:
   - img
-socialDescription: "{10: OG description (~100 chars)}"
-socialImage: "fully qualified URL to preview image"
+socialDescription: Nắm vững ようだ・ように・ような - ngữ pháp quan trọng JLPT N4-N3 giúp diễn đạt suy đoán và so sánh tự nhiên.
+socialImage: fully qualified URL to preview image
 ---
-
-{9: related tags as bullets (skip #)}
 
 > [!bell]- Dành cho bạn học lần đầu
 > Để khai thác hiệu quả bài viết này, mình khuyên bạn nên đọc trước các bài viết sau:
 > - [[vi-jpg-notebook|Giới thiệu sổ tay Nhật ngữ]]: Trình bày cấu trúc, cách dùng, giải thích ký hiệu của sổ tay do mình biên soạn trong quá trình học tiếng Nhật.   
 > - [[vi/japanese/index|Tổng quan về tiếng Nhật và chiến lược học tối ưu]]: Giới thiệu về tiếng Nhật và định hướng chiến lược tự học *"đắm chìm"* cho người mới bắt đầu.
 
-<h2 style="text-align:center">「{6: short story title in japanese}」</h2>
+<h2 style="text-align:center">「屋上の夕べ」</h2>
 
 %% voice audio in story %%
 
-{7: use the template1 right below to build story content as a 2/3 person conversation, emphasize sentences using grammar with `[[#h3-heading-on-usage|sentence]]`. The story must contain all basic usage, be of medium length, convey a clear meaning, use katakana for the names of Vietnam characters, and translate into natural vietnamese (sounds like real-life dialogue, not machine translation)}
-```template1
-> [!clear]- {1: callout title as `**character name**: character lines` in japanese}
-> {1: vietnamese version of callout tilte}
-^{2: use blockID after short description under h3 heading on respective usage}
-```
+> [!clear]- マイ：あ、ソンさん！屋上にいたんですね。[[#Đưa ra suy đoán dựa trên quan sát|疲れているようですが]]、大丈夫ですか？
+> Mai: Ah, anh Sơn! Anh đang ở sân thượng à. Có vẻ như anh mệt, có sao không?
+^a8d3f2
 
+> [!clear]- ソン：ああ、マイさん。ちょっと仕事のことを考えていたんです。でも、この夕日は[[#So sánh tương tự|絵のような]]美しさですね。
+> Sơn: Ah, chị Mai. Em đang suy nghĩ về công việc một chút. Nhưng hoàng hôn này đẹp như tranh vậy.
+^b7e9a4
+
+> [!clear]- マイ：本当ですね！風が[[#So sánh cách thức hành động|羽のように]]軽やかに吹いています。ここは[[#Biểu thị mục đích hoặc ý định|リラックスできるように]]、いつも静かで好きです。
+> Mai: Đúng vậy! Gió thổi nhẹ nhàng như lông vũ. Em thích nơi này vì lúc nào cũng yên tĩnh để có thể thư giãn.
+^c5a7b9
+
+> [!clear]- ソン：そうですね。空が**海のように**深い青色になってきました。もうすぐ**夜になるようです**。
+> Sơn: Đúng vậy. Bầu trời đang chuyển sang màu xanh đậm như biển cả. Có vẻ như sắp tối rồi.
+
+> [!clear]- マイ：ええ。でも、ソンさんは[[#So sánh cách thức hành động|鳥のように]]自由に空を見上げていますね。仕事のストレスも**雲のような**ものかもしれません。
+> Mai: Ừ. Nhưng anh Sơn nhìn lên bầu trời tự do như chim vậy. Stress công việc có lẽ cũng như đám mây thôi.
+^e3b8d1
+
+> [!clear]- ソン：いい例えですね。[[#Biểu thị mục đích hoặc ý định|元気になれるように]]、時々こうして空を見るのもいいかもしれません。**明日は晴れるようです**から、また来てみましょう。
+> Sơn: Ví dụ hay quá. Thỉnh thoảng ngắm bầu trời như thế này để có thể lấy lại tinh thần cũng hay đấy. Ngày mai có vẻ như trời sẽ đẹp, chúng ta lại lên đây nhé.
+^f6c4a7
 ## Cấu trúc ngữ pháp 🔍
-- **[V／Aい／Aな／N(の)] + ようだ**: Suy đoán dựa trên quan sát
-- **[V／Aい／Aな／N(の)] + ような + N**: So sánh đặc điểm tương tự
-- **[V／Aい／Aな／N(の)] + ように**: Biểu thị mục đích hoặc cách thức
+- **[V普通／Aい／Aな／Nの] + ようだ**: Suy đoán dựa trên quan sát
+- **[V普通／Aい／Aな／Nの] + ような + N**: So sánh đặc điểm tương tự
+- **[V普通／Aい／Aな／Nの] + ように + V／Aな／Aい**: Biểu thị mục đích hoặc cách thức
 - **V可能 + ように**: Biểu thị mục đích có khả năng thực hiện
 
 ## Cách dùng cơ bản 🗝️
 
 ### Đưa ra suy đoán dựa trên quan sát
-**ようだ** được dùng để đưa ra suy đoán hoặc nhận định dựa trên những gì ta quan sát được. Khác với **そうだ**, **ようだ** thể hiện sự suy luận dựa trên kinh nghiệm và hiểu biết tổng hợp.
+**ようだ** được dùng để đưa ra suy đoán hoặc nhận định dựa trên những gì ta quan sát được. Khác với **そうだ**, **ようだ** thể hiện sự suy luận dựa trên kinh nghiệm và hiểu biết tổng hợp. [[9_youda-youni-youna#^a8d3f2|Về lại lời thoại ↑]]
 
 > [!clear]- 雨が降る**ようです**。
 > Trời có vẻ như sắp mưa.
@@ -51,27 +69,67 @@ socialImage: "fully qualified URL to preview image"
 > [!clear]- 彼は学生**のようだ**。  
 > Anh ấy có vẻ như là sinh viên.
 
+> [!clear]- 彼女は風邪を引いた**ようだ**。
+> Cô ấy có vẻ như bị cảm.
+
+> [!clear]- この料理は美味しい**ようです**。
+> Món ăn này có vẻ ngon.
 
 > [!info] Lưu ý
 > - **ようだ** thường đi với **です** thành **ようです** trong văn lịch sự
+> - Thể hiện suy đoán dựa trên bằng chứng có thể quan sát được
+> - Mức độ chắc chắn khoảng 70-80%, không hoàn toàn chắc chắn
+> - Trong văn lịch sự dùng **ようです**, văn viết có thể dùng **ようである**
 
 ### So sánh tương tự
-**ような** được sử dụng để so sánh hai sự vật có đặc điểm tương tự nhau. Nó đứng trước danh từ và tạo thành cụm từ miêu tả.
+**ような** được sử dụng để so sánh hai sự vật có đặc điểm tương tự nhau. Nó đứng trước danh từ và tạo thành cụm từ miêu tả. [[9_youda-youni-youna#^b7e9a4|Về lại lời thoại ↑]]
 
 > [!clear]- 春**のような**暖かい日ですね。
 > Hôm nay là một ngày ấm áp như mùa xuân nhỉ.
 
+> [!clear]- 天使**のような**笑顔。
+> Nụ cười như thiên thần.
+
+> [!clear]- 子供**のような**純粋さ。
+> Trong sáng như trẻ con.
+
 > [!info] Lưu ý
 > - **ような** luôn đứng trước danh từ, không thể đứng cuối câu
+> - Dùng để miêu tả đặc điểm, tính chất tương tự
+> - Có thể kết hợp với **こんな、そんな、あんな、どんな**
+
+### So sánh cách thức hành động
+**ように** trong nghĩa so sánh được dùng để miêu tả cách thức thực hiện một hành động giống như điều gì đó. Khác với **ような** (so sánh đặc điểm), **ように** so sánh cách thức động tác được thực hiện. [[9_youda-youni-youna#^e3b8d1|Về lại lời thoại ↑]]
+
+> [!clear]- 彼女はまるでプロの歌手**のように**歌います。
+> Cô ấy hát cứ như một ca sĩ chuyên nghiệp vậy.
+
+> [!clear]- 鳥**のように**自由に飛びたい。
+> Muốn bay tự do như chim.
+
+> [!clear]- 彼**のように**上手に話せません。
+> Không thể giao tiếp giỏi như anh ấy.
+
+> [!info] Lưu ý
+> - Thường đi với các động từ chỉ chuyển động, hành vi: 動く、走る、踊る、流れる、飛ぶ...
+> - Có thể thay bằng **みたいに** trong văn nói thân mật
+> - **いつものように** = "như mọi khi" - thành ngữ phổ biến chỉ thói quen
 
 ### Biểu thị mục đích hoặc ý định
-**ように** biểu thị mục đích hoặc ý định muốn đạt được điều gì đó. Thường đi kèm với động từ ở thể potential hoặc các động từ chỉ khả năng.
+**ように** biểu thị mục đích hoặc ý định muốn đạt được điều gì đó. Thường đi kèm với động từ ở thể potential hoặc các động từ chỉ khả năng. [[9_youda-youni-youna#^f6c4a7|Về lại lời thoại ↑]]
 
 > [!clear]- みんなが理解できる**ように**説明します。
 > Tôi sẽ giải thích để mọi người có thể hiểu được.
 
+> [!clear]- 忘れない**ように**メモします。
+> Tôi ghi chú để không quên.
+
+> [!clear]- 健康でいられる**ように**運動します。
+> Tôi tập thể dục để có thể khỏe mạnh.
+
 > [!info] Lưu ý
 > - **ように** + động từ potential thể hiện mục đích rõ ràng
+> - Trong câu mục đích, chủ ngữ trước và sau **ように** thường khác nhau
 
 ## Cách dùng nâng cao 🔓
 
