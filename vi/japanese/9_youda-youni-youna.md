@@ -31,15 +31,15 @@ socialImage: fully qualified URL to preview image
 %% voice audio in story %%
 
 > [!clear]- マイ：あ、ソンさん！屋上にいたんですね。[[#Đưa ra suy đoán dựa trên quan sát|疲れているようですが]]、大丈夫ですか？
-> Mai: Ah, anh Sơn! Anh đang ở sân thượng à. Có vẻ như anh mệt, có sao không?
+> Mai: Ah, anh Sơn! Quả nhiên anh ở sân thượng nhỉ. Trông anh có vẻ mệt, có sao không anh?
 ^a8d3f2
 
 > [!clear]- ソン：ああ、マイさん。ちょっと仕事のことを考えていたんです。でも、この夕日は[[#So sánh tương tự|絵のような]]美しさですね。
-> Sơn: Ah, chị Mai. Em đang suy nghĩ về công việc một chút. Nhưng hoàng hôn này đẹp như tranh vậy.
+> Sơn: Ah, chị Mai. Tôi đang suy nghĩ về công việc một chút. Nhưng hoàng hôn này đẹp như tranh vậy.
 ^b7e9a4
 
 > [!clear]- マイ：本当ですね！風が[[#So sánh cách thức hành động|羽のように]]軽やかに吹いています。ここは[[#Biểu thị mục đích hoặc ý định|リラックスできるように]]、いつも静かで好きです。
-> Mai: Đúng vậy! Gió thổi nhẹ nhàng như lông vũ. Em thích nơi này vì lúc nào cũng yên tĩnh để có thể thư giãn.
+> Mai: Quả thật! Gió thổi nhẹ nhàng như lông vũ. Em thích nơi này vì lúc nào cũng yên tĩnh để có thể thư giãn.
 ^c5a7b9
 
 > [!clear]- ソン：そうですね。空が**海のように**深い青色になってきました。もうすぐ**夜になるようです**。
