@@ -1,6 +1,6 @@
 ---
 stage: Publish
-title: "10. N + ばかり「Cuộc sống một màu」"
+title: "10. N + ばかり「Cuộc sống mất cân bằng」"
 description: 'Học ngữ pháp tiếng Nhật ばかり (bakari) - cách diễn đạt "chỉ toàn là" khi muốn thể hiện sự đơn điệu, lặp lại. Bao gồm cấu trúc, cách dùng và ví dụ chi tiết cho JLPT N4-N3.'
 permalink: ""
 lang: vi
@@ -27,27 +27,30 @@ socialImage: "fully qualified URL to preview image"
 > - [[vi-jpg-notebook|Giới thiệu sổ tay Nhật ngữ]]: Trình bày cấu trúc, cách dùng, giải thích ký hiệu của sổ tay do mình biên soạn trong quá trình học tiếng Nhật.   
 > - [[vi/japanese/index|Tổng quan về tiếng Nhật và chiến lược học tối ưu]]: Giới thiệu về tiếng Nhật và định hướng chiến lược tự học *"đắm chìm"* cho người mới bắt đầu.
 
-<h2 style="text-align:center">「{6: short story title in japanese}」</h2>
+<h2 style="text-align:center">「バランスを失った生活」</h2>
 
 %% voice audio in story %%
 
-> [!clear]- ナム：最近、仕事**ばかり**で疲れちゃった。[[#Chỉ ra sự đơn điệu, lặp lại|休みが欲しいな]]。
-> Nam: Dạo này toàn việc làm thôi, mệt quá. Muốn được nghỉ ngơi
-^2a4b7e
+> [!clear]- ミン：最近、息子が[[#Chỉ ra sự đơn điệu, lặp lại|ゲームばかり]]しています。勉強のことを全然考えません。
+> Minh: Gần đây con trai tôi chỉ toàn chơi game thôi. Không nghĩ gì đến việc học hết.
+^a7d8e3
 
-> [!clear]- リン：そうですね。でも、この会社は残業**ばかり**ですね。[[#Nhấn mạnh tính độc nhất|普通の会社じゃないみたい]]。
-> Linh: Đúng vậy nhỉ. Nhưng mà công ty này toàn tăng ca thôi. Có vẻ không phải công ty bình thường.
-^5c8d3f
+> [!clear]- ホアン：うちの娘も同じです。**お菓子ばかり**食べて、ちゃんとした食事をしません。心配です。
+> Hoàng: Con gái nhà tôi cũng vậy. Chỉ ăn bánh kẹo thôi, không chịu ăn cơm bữa. Lo lắm.
 
-> [!clear]- ナム：うちの部署は男性**ばかり**だから、[[#Biểu hiện số lượng áp đảo|女性の視点がないんです]]。
-> Nam: Phòng ban mình toàn nam giới nên thiếu góc nhìn của phụ nữ.
+> [!clear]- ミン：そういえば、私たちも若いころは[[10_n-bakari#Nhấn mạnh tính độc nhất|遊ぶことばかり]]考えていましたね。でも今は**仕事ばかり**で疲れます。
+> Minh: Nói thế thì hồi trẻ chúng ta cũng chỉ nghĩ đến chuyện chơi thôi nhỉ. Nhưng giờ thì chỉ lo làm việc, mệt lắm.
+^c91e67
+
+> [!clear]- ホアン：本当ですね。最近は[[#Biểu hiện số lượng áp đảo|悪いニュースばかり]]で、いいことがありませんね。コロナの影響もあって...
+> Hoàng: Đúng vậy nhỉ. Mà gần đây toàn là tin xấu thôi, chẳng có gì tốt cả. Cộng thêm ảnh hưởng của Covid...
 ^9e2a6b
 
-> [!clear]- リン：そうそう。会議でも同じ意見**ばかり**出るから、新しいアイデアが生まれないですよね。
-> Linh: Đúng rồi. Trong họp cũng toàn những ý kiến giống nhau nên không sinh ra ý tưởng mới.
+> [!clear]- ミン：でも、文句を言う**ばかりでは**だめですよ。まず私たちが変わって、子どもたちにいい手本を見せましょう。
+> Minh: Nhưng mà chỉ phàn nàn thế thôi thì không được đâu. Trước tiên chúng ta phải thay đổi rồi làm gương tốt cho con em.
 
-> [!clear]- ナム：来月から新しいプロジェクトが始まるけど、また忙しい日々**ばかり**になりそうです。
-> Nam: Tháng sau bắt đầu dự án mới rồi, có vẻ lại sắp toàn những ngày bận rộn.
+> [!clear]- ホアン：そうですね。家族の時間を大切にして、バランスの取れた生活を**ばかり**目指しましょう。
+> Hoàng: Đúng rồi. Hãy trân trọng thời gian gia đình và hướng tới một cuộc sống cân bằng nào!
 
 ## Cấu trúc ngữ pháp 🔍
 - **N + ばかり**: chỉ toàn N, toàn là N, không có gì khác ngoài N, ...
@@ -55,7 +58,7 @@ socialImage: "fully qualified URL to preview image"
 ## Cách dùng cơ bản 🗝️
 
 ### Chỉ ra sự đơn điệu, lặp lại
-Dùng để chỉ ra rằng một việc gì đó chỉ toàn là thứ này, thứ kia mà thôi, thường mang sắc thái phê bình hoặc bất mãn. [[7. ばかり「Cuộc sống một màu」#^2a4b7e|Về lại lời thoại ↑]]
+Dùng để chỉ ra rằng một việc gì đó chỉ toàn là thứ này, thứ kia mà thôi, thường mang sắc thái phê bình hoặc bất mãn. [[10_n-bakari#^a7d8e3|Về lại lời thoại ↑]]
 
 > [!clear]- 彼はゲーム**ばかり**している。
 > Anh ấy chỉ toàn chơi game thôi.
@@ -68,7 +71,7 @@ Dùng để chỉ ra rằng một việc gì đó chỉ toàn là thứ này, th
 > - Có thể mang nghĩa trung tính khi mô tả trạng thái
 
 ### Nhấn mạnh tính độc nhất
-Sử dụng để nhấn mạnh rằng chỉ có duy nhất một thứ, không có gì khác. [[7. ばかり「Cuộc sống một màu」#^5c8d3f|Về lại lời thoại ↑]]
+Sử dụng để nhấn mạnh rằng chỉ có duy nhất một thứ, không có gì khác. [[10_n-bakari#^c91e67|Về lại lời thoại ↑]]
 
 > [!clear]- 今日は失敗**ばかり**だった。
 > Hôm nay toàn thất bại thôi.
@@ -81,7 +84,7 @@ Sử dụng để nhấn mạnh rằng chỉ có duy nhất một thứ, không 
 > - Thể hiện sự bực bội của người nói
 
 ### Biểu hiện số lượng áp đảo
-Dùng khi muốn nói về một nhóm đối tượng chiếm đa số hoặc toàn bộ trong một tập hợp. [[7. ばかり「Cuộc sống một màu」#^9e2a6b|Về lại lời thoại ↑]]
+Dùng khi muốn nói về một nhóm đối tượng chiếm đa số hoặc toàn bộ trong một tập hợp. [[10_n-bakari#^9e2a6b|Về lại lời thoại ↑]]
 
 > [!clear]- パーティーには女性**ばかり**来た。
 > Đến bữa tiệc toàn là phụ nữ.
