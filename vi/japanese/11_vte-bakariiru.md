@@ -30,23 +30,23 @@ socialImage: fully qualified URL to preview image
 
 %% voice audio in story %%
 
-> [!clear]- ハイ：リン君、また[[#Diễn tả hành động lặp lại có tính chỉ trích|ゲームをしてばかりいる]]ね。宿題はどうするの？
-> Hải: Linh này, con lại cứ chơi game mãi thôi sao. Bài tập về nhà thì sao?
+> [!clear]- **ハイ**：リン君、また[[#Diễn tả hành động lặp lại có tính chỉ trích|ゲームをしてばかりいる]]ね。宿題はどうするの？
+> **Hải**: Linh này, con lại cứ chơi game mãi thôi sao. Bài tập về nhà thì sao?
 ^a2b1f3
 
-> [!clear]- リン：お母さんは[[#Diễn tả sự phàn nàn liên tục|文句を言ってばかりいる]]から嫌になるよ。
-> Linh: Mẹ cứ mãi than phiền nên con chán lắm.
+> [!clear]- **リン**：お母さんは[[#Diễn tả sự phàn nàn liên tục|文句を言ってばかりいる]]から嫌になるよ。
+> **Linh**: Mẹ cứ mãi than phiền nên con chán lắm.
 ^d4e5c7
 
-> [!clear]- ハイ：私が文句を言うのは、あなたが[[#Nhấn mạnh tính tiêu cực của hành động|遊んでばかりいる]]からでしょう！
-> Hải: Mẹ than phiền là vì con cứ mãi chơi bời thôi!
+> [!clear]- **ハイ**：私が文句を言うのは、あなたが[[#Nhấn mạnh tính tiêu cực của hành động|遊んでばかりいる]]からでしょう！
+> **Hải**: Mẹ than phiền là vì con cứ mãi chơi bời thôi!
 ^8f3a29
 
-> [!clear]- リン：わかったよ。でも友達は**みんなゲームをしてばかりいる**んだ。
-> Linh: Con biết rồi. Nhưng bạn bè con ai cũng cứ chơi game hoài.
+> [!clear]- **リン**：わかったよ。でも友達は**みんなゲームをしてばかりいる**んだ。
+> **Linh**: Con biết rồi. Nhưng bạn bè con ai cũng cứ chơi game hoài.
 
-> [!clear]- ハイ：人のことばかり言わないで、自分のことを考えなさい。**勉強してばかりいる**子もいるのよ。
-> Hải: Đừng có nói về người khác, hãy nghĩ về bản thân con đi. Cũng có những đứa cứ mãi học bài đấy.
+> [!clear]- **ハイ**：人のことばかり言わないで、自分のことを考えなさい。**勉強してばかりいる**子もいるのよ。
+> **Hải**: Đừng có nói về người khác, hãy nghĩ về bản thân con đi. Cũng có những đứa cứ mãi học bài đấy.
 
 ## Cấu trúc ngữ pháp 🔍
 - **Vて + ばかり(いる)**: Cứ mãi làm việc gì đó, mãi ở trạng thái nào đó (mang tính chỉ trích, khó chịu)
