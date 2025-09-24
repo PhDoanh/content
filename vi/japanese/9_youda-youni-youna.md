@@ -38,24 +38,24 @@ socialImage: fully qualified URL to preview image
 > Sơn: Ah, chị Mai. Tôi đang suy nghĩ về công việc một chút. Nhưng hoàng hôn này đẹp như tranh vậy.
 ^b7e9a4
 
-> [!clear]- マイ：本当ですね！風が[[#So sánh cách thức hành động|羽のように]]軽やかに吹いています。ここは[[#Biểu thị mục đích hoặc ý định|リラックスできるように]]、いつも静かで好きです。
+> [!clear]- マイ：本当ですね！風が**羽のように**軽やかに吹いています。ここは**リラックスできるように**、いつも静かで好きです。
 > Mai: Quả thật! Gió thổi nhẹ nhàng như lông vũ. Em thích nơi này vì lúc nào cũng yên tĩnh để có thể thư giãn.
-^c5a7b9
 
 > [!clear]- ソン：そうですね。空が**海のように**深い青色になってきました。もうすぐ**夜になるようです**。
 > Sơn: Đúng vậy. Bầu trời đang chuyển sang màu xanh đậm như biển cả. Có vẻ như sắp tối rồi.
 
 > [!clear]- マイ：ええ。でも、ソンさんは[[#So sánh cách thức hành động|鳥のように]]自由に空を見上げていますね。仕事のストレスも**雲のような**ものかもしれません。
-> Mai: Ừ. Nhưng anh Sơn nhìn lên bầu trời tự do như chim vậy. Stress công việc có lẽ cũng như đám mây thôi.
+> Mai: Ừ. Nhưng anh Sơn nhìn lên bầu trời tự do như chim vậy. Stress trong công việc có lẽ cũng chỉ như đám mây thoáng qua thôi.
 ^e3b8d1
 
-> [!clear]- ソン：いい例えですね。[[#Biểu thị mục đích hoặc ý định|元気になれるように]]、時々こうして空を見るのもいいかもしれません。**明日は晴れるようです**から、また来てみましょう。
-> Sơn: Ví dụ hay quá. Thỉnh thoảng ngắm bầu trời như thế này để có thể lấy lại tinh thần cũng hay đấy. Ngày mai có vẻ như trời sẽ đẹp, chúng ta lại lên đây nhé.
+> [!clear]- ソン：いい例えですね。[[#Biểu thị mục đích hoặc ý định|元気になれるように]]、時々こうして空を見るのもいいかもしれません。
+> Sơn: Chị ví von hay quá. Thi thoảng ngắm bầu trời như thế này để có thể lấy lại tinh thần cũng hay đấy!
 ^f6c4a7
+
 ## Cấu trúc ngữ pháp 🔍
 - **[V普通／Aい／Aな／Nの] + ようだ**: Suy đoán dựa trên quan sát
 - **[V普通／Aい／Aな／Nの] + ような + N**: So sánh đặc điểm tương tự
-- **[V普通／Aい／Aな／Nの] + ように + V／Aな／Aい**: Biểu thị mục đích hoặc cách thức
+- **[V普通／Aい／Aな／Nの] + ように + V／Aな／Aい**: So sánh cách thức hành động
 - **V可能 + ように**: Biểu thị mục đích có khả năng thực hiện
 
 ## Cách dùng cơ bản 🗝️
@@ -85,7 +85,7 @@ socialImage: fully qualified URL to preview image
 **ような** được sử dụng để so sánh hai sự vật có đặc điểm tương tự nhau. Nó đứng trước danh từ và tạo thành cụm từ miêu tả. [[9_youda-youni-youna#^b7e9a4|Về lại lời thoại ↑]]
 
 > [!clear]- 春**のような**暖かい日ですね。
-> Hôm nay là một ngày ấm áp như mùa xuân nhỉ.
+> Cái ấm của ngày hôm nay cứ như mùa xuân nhỉ.
 
 > [!clear]- 天使**のような**笑顔。
 > Nụ cười như thiên thần.
