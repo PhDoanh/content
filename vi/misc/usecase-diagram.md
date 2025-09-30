@@ -15,7 +15,7 @@ aliases:
 cssclasses:
   - img
 ---
-# Biểu đồ ca sử dụng là gì ❓
+## Biểu đồ ca sử dụng là gì ❓
 
 Biểu đồ ca sử dụng được dùng để **mô hình hóa các khía cạnh động** của hệ thống - tức là cách hệ thống vận hành trong thực tế. Nó cung cấp **khung nhìn từ bên ngoài**, cho thấy:
 
@@ -28,9 +28,9 @@ Biểu đồ ca sử dụng được dùng để **mô hình hóa các khía c�
 > [!example] Ví dụ
 > Trong hệ thống đăng ký môn học ở trường đại học, một biểu đồ ca sử dụng có thể mô tả các tác nhân như **Sinh viên**, **Giảng viên**, **Phòng đào tạo**, và các ca sử dụng như **Đăng ký môn**, **Xem thời khóa biểu**, **Nhập điểm**.
 
-# Khái niệm cơ sở cho biểu đồ ca sử dụng ✍️
+## Khái niệm cơ sở cho biểu đồ ca sử dụng ✍️
 
-## Tác nhân (Actor)
+### Tác nhân (Actor)
 
 - Là **vai trò** của một người, tiến trình, hay thiết bị tương tác với hệ thống.
 - Một tác nhân không nhất thiết là một cá nhân cụ thể, mà là một **vai trò**. Ví dụ: một người có thể vừa là **Sinh viên** vừa là **Trợ giảng** (hai tác nhân khác nhau).
@@ -39,7 +39,7 @@ Biểu đồ ca sử dụng được dùng để **mô hình hóa các khía c�
     - Hệ thống khác (ví dụ: hệ thống thanh toán online kết nối với hệ thống bán vé)
     - Thiết bị phần cứng (máy quét thẻ, cảm biến IoT,…)
 
-## Ca sử dụng (Use Case)
+### Ca sử dụng (Use Case)
 - Là **một chức năng cụ thể** mà hệ thống cung cấp cho tác nhân.
 - Ca sử dụng mô tả **chuỗi tương tác** (messages) giữa hệ thống và tác nhân để đạt được một mục tiêu có ý nghĩa.
 
@@ -47,7 +47,7 @@ Biểu đồ ca sử dụng được dùng để **mô hình hóa các khía c�
 > "Đăng nhập", "Đặt vé", "Thanh toán", "Tra cứu kết quả học tập".
 
 %% image here %%
-## Quan hệ trong biểu đồ ca sử dụng
+### Quan hệ trong biểu đồ ca sử dụng
 Biểu đồ ca sử dụng không chỉ có tác nhân và ca sử dụng, mà còn thể hiện **các quan hệ** giữa chúng:
 1. **Quan hệ giao tiếp (Association)**: đường nối giữa tác nhân và ca sử dụng.
 2. **Bao gộp (Include)**: một ca sử dụng luôn bao gồm hành vi của một ca sử dụng khác.
@@ -58,11 +58,11 @@ Biểu đồ ca sử dụng không chỉ có tác nhân và ca sử dụng, mà 
 
 %% image here %%
 
-# Mô hình hóa với biểu đồ ca sử dụng 📊
+## Mô hình hóa với biểu đồ ca sử dụng 📊
 
 Biểu đồ ca sử dụng thường được dùng với **hai mục đích chính**:
 
-## Mô hình hóa khung cảnh của hệ thống
+### Mô hình hóa khung cảnh của hệ thống
 - Xác định **biên hệ thống** (system boundary): cái gì nằm trong hệ thống, cái gì nằm ngoài.
 - Xác định các tác nhân bên ngoài, gồm:
     1. Nhóm cần được hệ thống trợ giúp để làm việc.
@@ -76,7 +76,7 @@ Biểu đồ ca sử dụng thường được dùng với **hai mục đích ch
 > [!example] Ví dụ
 > Trong hệ thống ATM, tác nhân gồm **Khách hàng**, **Ngân hàng trung tâm**, **Bộ phận bảo trì**. Ca sử dụng gồm **Rút tiền**, **Xem số dư**, **Nạp tiền**, **Bảo trì ATM**.
 
-## Mô hình hóa yêu cầu của hệ thống 
+### Mô hình hóa yêu cầu của hệ thống 
 
 - Mỗi ca sử dụng chính là **một yêu cầu chức năng**.
 - Các bước mô hình hóa yêu cầu với Use Case Diagram:
@@ -88,7 +88,7 @@ Biểu đồ ca sử dụng thường được dùng với **hai mục đích ch
 > [!example] Ví dụ
 > Trong ứng dụng thương mại điện tử, yêu cầu **“Khách hàng có thể mua sản phẩm online”** có thể triển khai thành các ca sử dụng: **Đăng nhập**, **Xem sản phẩm**, **Thêm vào giỏ hàng**, **Thanh toán**. Ca sử dụng **Thanh toán** có thể **include** ca sử dụng **Xác thực giao dịch**.
 
-# Tóm lại 🔥
+## Tóm lại 🔥
 
 - **Biểu đồ ca sử dụng** giúp ta nhìn hệ thống từ **bên ngoài vào**, mô tả cách hệ thống được **sử dụng bởi các tác nhân**.
 - Thành phần chính: **tác nhân - ca sử dụng - quan hệ**.

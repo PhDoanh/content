@@ -16,7 +16,7 @@ lang:
 aliases:
 cssclasses:
 ---
-# Biểu đồ tương tác ✍️
+## Biểu đồ tương tác ✍️
 
 Biểu đồ tương tác (Interaction Diagrams) là công cụ giúp chúng ta **mô tả cách các đối tượng trong hệ thống giao tiếp với nhau thông qua việc trao đổi thông điệp**.  
 👉 Nói cách khác, nó trả lời câu hỏi:
@@ -29,7 +29,7 @@ Trong UML, có hai loại biểu đồ tương tác chính:
 
 💡 Hãy tưởng tượng bạn gọi đồ ăn trên một app giao hàng. Các đối tượng có thể là: Người dùng (bạn), Ứng dụng đặt đồ ăn, Nhà hàng, Shipper, ... Các biểu đồ tương tác sẽ mô tả các tương tác bên trong từng giai đoạn. Từ lúc bạn gửi yêu cầu → app xử lý → nhà hàng nhận đơn → shipper đi giao → bạn nhận đồ.
 
-# Biểu đồ tuần tự 
+## Biểu đồ tuần tự 
 
 Biểu đồ tuần tự (Sequence Diagram) cho thấy **trình tự gửi và nhận thông điệp giữa các đối tượng theo dòng thời gian**.
 
@@ -53,7 +53,7 @@ Thành phần chính:
 > 3. CSDL → trả kết quả cho Ứng dụng.
 > 4. Ứng dụng → thông báo thành công/thất bại cho Người dùng.
 
-# Biểu đồ giao tiếp 
+## Biểu đồ giao tiếp 
 
 Biểu đồ giao tiếp (Communication/Collaboration Diagram) thể hiện **cấu trúc quan hệ giữa các đối tượng** và cách chúng gửi thông điệp cho nhau.
 
@@ -75,7 +75,7 @@ Thành phần chính:
 > 3. Hệ thống thanh toán gửi xác nhận đến Hãng hàng không.
 > 4. Kết quả trả về cho Người dùng.
 
-# Mô hình hóa với biểu đồ tương tác 📊
+## Mô hình hóa với biểu đồ tương tác 📊
 
 Trong thực tế, khi mô hình hóa hệ thống bằng UML:
 - Người phân tích thường **kết hợp cả hai loại biểu đồ**.
@@ -92,7 +92,7 @@ Trong thực tế, khi mô hình hóa hệ thống bằng UML:
 > - Dùng **biểu đồ tuần tự** khi bạn muốn kể lại "chuyện gì xảy ra trước - sau".
 > - Dùng **biểu đồ giao tiếp** khi bạn muốn nhìn "ai kết nối với ai".
 
-# Tổng kết 🎬
+## Tổng kết 🎬
 
 Biểu đồ tương tác là **cầu nối** giữa phân tích và thiết kế hệ thống. Nó cho chúng ta hình dung trực quan:
 - Ai tham gia (Actor, Object).

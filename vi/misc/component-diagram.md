@@ -20,7 +20,7 @@ Nếu ví phần mềm như một căn nhà thì [[class-object-diagram|biểu �
 
 Nói cách khác, UML cung cấp **biểu đồ thành phần** để mô tả **cấu trúc vật lý của hệ thống phần mềm**, tức là cách hệ thống được chia thành **các module/thành phần** và **mối quan hệ phụ thuộc giữa chúng**.
 
-# Khái niệm cơ bản ✍️
+## Khái niệm cơ bản ✍️
 
 - **Thành phần (component)** trong UML là một **khối mô-đun** độc lập, đại diện cho một phần của hệ thống. Nó có thể là:
     - Một gói thư viện (library).
@@ -35,7 +35,7 @@ Nói cách khác, UML cung cấp **biểu đồ thành phần** để mô tả *
 
 👉 Điểm thú vị: thành phần **không phải lớp**, nhưng có thể **chứa nhiều lớp, giao diện hoặc tài nguyên** bên trong.
 
-# Ký hiệu trong UML 🧩
+## Ký hiệu trong UML 🧩
 
 Trong UML, ký hiệu **component** thường được biểu diễn như **hình chữ nhật có 2 "tai" nhỏ** ở bên trái (trông giống một tài liệu có tab), thường nằm ở góc trên bên phải của một hình chữ nhật lớn hơn, hình chữ nhật này được dùng để mô tả tên và/hoặc cấu trúc bên trong của thành phần
 
@@ -47,7 +47,7 @@ Ngoài ra, UML còn cho phép:
 
 %% ![[Pasted image 20250919153233.png]] %%
 
-# Các mối quan hệ trong biểu đồ thành phần 🔗
+## Các mối quan hệ trong biểu đồ thành phần 🔗
 
 Trong Component Diagram, có một số quan hệ quan trọng:
 1. **Quan hệ sử dụng (usage dependency)**
@@ -60,7 +60,7 @@ Trong Component Diagram, có một số quan hệ quan trọng:
     - Biểu diễn bằng hình tròn (provided interface) hoặc hình ổ cắm (required interface).
     - Ví dụ: `Payment Module` cung cấp interface `IPayment`, `E-Commerce App` sử dụng interface này.
 
-# Mô hình hóa các thực thi được (executables) và các thư viện ⚙️
+## Mô hình hóa các thực thi được (executables) và các thư viện ⚙️
 
 Biểu đồ thành phần thường được dùng để mô hình hóa **các đơn vị triển khai** làm nên bản cài đặt của hệ thống, ví dụ như **các file thực thi (.exe)** hoặc **các thư viện đối tượng (.dll, .so, .jar, …)**.
 
@@ -88,7 +88,7 @@ Các bước tiến hành:
     - Đặc biệt nhấn mạnh vào **các mối quan hệ phụ thuộc** giữa chúng (dependency).
     - Ví dụ: chương trình chính (executable) phụ thuộc vào thư viện toán học để xử lý phép tính.
 
-# Mô hình hóa các bảng, tệp, tài liệu 📂
+## Mô hình hóa các bảng, tệp, tài liệu 📂
 
 Ngoài việc mô hình hóa các file thực thi và thư viện, chúng ta còn có thể dùng **biểu đồ thành phần** để mô tả **các phần tử không thực thi được** của hệ thống, gọi là **các thành phần phụ**, ví dụ:
 
@@ -106,7 +106,7 @@ Ngoài ra, biểu đồ thành phần còn có thể được dùng trong các t
 - Mô hình hóa **các API (Application Programming Interface)**.
 - Mô hình hóa **mã nguồn chương trình**.
 
-# Vai trò của biểu đồ thành phần 🎯
+## Vai trò của biểu đồ thành phần 🎯
 
 Biểu đồ thành phần đóng vai trò **rất quan trọng trong giai đoạn thiết kế và triển khai**:
 - Giúp xác định rõ **các khối kiến trúc chính**.
@@ -114,7 +114,7 @@ Biểu đồ thành phần đóng vai trò **rất quan trọng trong giai đo�
 - Cho phép kiểm soát **phụ thuộc giữa các module**, hạn chế việc hệ thống bị "rối dây".
 - Là tài liệu để giao tiếp giữa **kiến trúc sư hệ thống** và **lập trình viên**, đảm bảo mọi người hiểu đúng cách các module kết nối với nhau.
 
-# Ví dụ minh họa 🛒
+## Ví dụ minh họa 🛒
 
 Hãy tưởng tượng bạn xây dựng một hệ thống **Thương mại điện tử (E-Commerce System)**.  
 Biểu đồ thành phần có thể gồm các module chính:
@@ -131,7 +131,7 @@ Quan hệ:
 
 %% image %%
 
-# Tổng kết 🔥
+## Tổng kết 🔥
 
 - **Biểu đồ thành phần (Component Diagram)** cho ta cái nhìn **"vĩ mô"** về cấu trúc hệ thống.
 - Nó giúp quản lý **sự phức tạp** trong các dự án phần mềm lớn bằng cách **chia nhỏ hệ thống thành các module rõ ràng**.

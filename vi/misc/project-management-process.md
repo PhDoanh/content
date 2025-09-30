@@ -1,11 +1,14 @@
 ---
-stage: Idea
-draft: true
+stage: Publish
+draft: false
 title: Quy trình quản lý dự án
 description:
 tags:
   - project-management
   - project-management-process
+  - waterfall
+  - scrum-agile
+  - sofware-life-cycle
 socialDescription:
 socialImage:
 permalink:
@@ -214,8 +217,47 @@ Quy trình làm việc trong Scrum:
 
 ### Liên hệ tới quản lý dự án
 
+#### Waterfall vs các nhóm quy trình quản lý dự án 🌊
 
+Mô hình **thác nước (Waterfall)** là mô hình tuyến tính, các pha được định nghĩa rõ ràng, tuần tự và ít thay đổi. Mỗi pha có đầu ra cụ thể, dễ quản lý, phù hợp với các dự án có yêu cầu ổn định. Dưới đây là bảng ánh xạ giữa các pha của mô hình này với các nhóm quy trình quản lý dự án:
 
-## Hai loại dự án phầm mềm phổ biến
+|                                   | Khởi tạo                             | Lập kế hoạch                       | Thực hiện                                                                   | Kiểm tra - Giám sát                                                      | Đóng dự án                                                 |
+| :-------------------------------- | ------------------------------------ | ---------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| **Định nghĩa yêu cầu**            | Tài liệu mô tả thông tin sơ bộ dự án | Xác nhận, bổ sung chi tiết yêu cầu | Định nghĩa chi tiết yêu cầu, Thiết kế khuôn mẫu, Định nghĩa phạm vi         | Kiểm tra giám sát phạm vi, Quản lý thay đổi                              | Tiêu chí hoàn thành, Tài liệu định nghĩa yêu cầu           |
+| **Thiết kế hệ thống**             | –                                    | –                                  | Thiết kế tổng quan, UI/UX, thiết kế chi tiết                                | Kiểm tra giám sát các loại thiết kế                                      | Tài liệu thiết kế hệ thống                                 |
+| **Cài đặt và kiểm thử đơn vị**    | –                                    | –                                  | cài đặt và kiểm thử đơn vị                                                  | Kiểm tra giám sát việc cài đặt, kiểm thử đó                              | Hệ thống phần mềm                                          |
+| **Kiểm thử tích hợp và hệ thống** | –                                    | –                                  | Kiểm thử tích hợp và kiểm thử hệ thống                                      | Kiểm tra giám sát chất lượng sản phẩm                                    | đối chiếu tiêu chí hoàn thành, kiểm soát sản phẩm bàn giao |
+| **Vận hành và bảo trì**           | –                                    | –                                  | Đưa hệ thống lên môi trường sử dụng, đào tạo người dùng và bảo trì hệ thống | Kiểm soát lỗi trong quá trình vận hành, nâng cấp theo nhu cầu người dùng | Nghiệm thu sản phẩm                                        |
 
-%% phần 3.5 %%
+> [!important] Nhận xét
+> - Pha **định nghĩa yêu cầu** ảnh hưởng đến **tất cả nhóm quy trình quản lý dự án**, vì đội dự án cần theo sát yêu cầu và phối hợp với các bên liên quan suốt quá trình.
+> - Các pha còn lại chủ yếu thuộc **thực hiện, kiểm tra giám sát và đóng dự án**, đảm bảo sản phẩm cuối cùng đạt tiêu chuẩn đã đặt ra.
+
+#### Scrum vs các nhóm quy trình quản lý dự án
+
+**Scrum** là mô hình phát triển phần mềm **tinh gọn, hướng kết quả**, các pha/giai đoạn có thể đan xen và lặp lại nhiều lần trong vòng đời dự án thông qua các **chu kỳ/Sprint** (thường từ 1 đến 4 tuần).
+
+%% ![[Pasted image 20250930161049.png|center|500]] %%
+
+**Ví dụ triển khai dự án Scrum kết hợp quy trình quản lý dự án:**
+- **Sprint 1 - 2:** Tập trung vào các công việc của **nhóm quy trình khởi tạo và lập kế hoạch**:
+    - Thu thập và phân tích yêu cầu tổng quan
+    - Tạo lập **tài liệu mô tả thông tin sơ bộ dự án**
+    - Lập **kế hoạch quản lý các miền tri thức** và **tích hợp dự án**
+- **Các Sprint tiếp theo:** Tập trung vào **nhóm quy trình thực hiện**:
+    - Làm rõ yêu cầu chi tiết
+    - Thiết kế tổng thể, cơ sở dữ liệu, giao diện và UX
+    - **Với dự án phát triển phần mềm mới**[^1]: các pha được thực hiện theo chiều ngang, tức là chúng được diễn ra tuần tự hoặc song song trên **nhiều chức năng** của sản phẩm,  
+    - **Với dự án bảo trì phần mềm**[^2]: các pha có thể diễn ra theo chiều dọc, tức là tập trung xử lý **từng chức năng cụ thể** từ pha đầu đến pha cuối, theo thứ tự ưu tiên và kiểm thử song song các chức năng khác để đảm bảo không bị lỗi do thay đổi.  
+- **Kết thúc mỗi Sprint:** Có **cuộc họp rà soát** (Sprint Review) để:
+    - **Bàn giao** và đánh giá tiến độ, chất lượng sản phẩm
+    - Chọn công việc cải thiện cho Sprint tiếp theo (Sprint Backlog Item - SBI)
+
+> [!important] Nhận xét
+> - Toàn bộ pha trong Scrum đều liên quan đến **nhóm quy trình đóng dự án**, vì mọi Sprint đều tạo ra các sản phẩm, tài liệu và kết quả cần kiểm tra, nghiệm thu.
+> - Scrum cho phép **linh hoạt ứng phó với thay đổi**, phù hợp với môi trường dự án có yêu cầu thay đổi liên tục.
+> - Một số chức năng lớn, phức tạp có thể được tiến hành trong vài Sprint
+
+[^1]: **Dự án phát triển phần mềm mới** là dự án tạo ra phần mềm hoàn toàn mới hoặc tái xây dựng hệ thống, với yêu cầu chưa rõ ràng và rủi ro công nghệ cao. Các pha phát triển thường diễn ra theo **chiều ngang**, thực hiện trên nhiều chức năng cùng lúc để xây dựng sản phẩm hoàn chỉnh.
+
+[^2]: **Dự án bảo trì phần mềm** tập trung vào sửa lỗi hoặc phát triển thêm tính năng cho phần mềm đã tồn tại, nhằm đảm bảo vận hành ổn định và kiểm soát ảnh hưởng tới các chức năng khác. Các pha trong dự án bảo trì thường diễn ra theo **chiều dọc**, xử lý toàn bộ các pha trên từng chức năng cụ thể.

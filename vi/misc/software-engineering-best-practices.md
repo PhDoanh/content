@@ -20,11 +20,11 @@ Có bao giờ bạn tự hỏi, tại sao một số dự án phần mềm lại
 
 Có rất nhiều **"triệu chứng"** của một dự án gặp vấn đề, chẳng hạn như không thể quản lý được sự phức tạp, chất lượng sản phẩm không đáp ứng yêu cầu, hay tệ hơn là sản phẩm không thể đưa ra thị trường kịp thời. Vậy, làm thế nào để tránh những **"căn bệnh"** này? Câu trả lời nằm ở **6 Best Practices** huyền thoại của Kỹ thuật phần mềm hiện đại.
 
-# 6 Best Practices giúp dự án thành công 🎉
+## 6 Best Practices giúp dự án thành công 🎉
 
 Đây là **sáu nguyên tắc vàng** mà nhiều chuyên gia luôn tâm niệm và áp dụng trong mọi dự án:
 
-## 1. Phát triển lặp đi lặp lại
+### 1. Phát triển lặp đi lặp lại
 
 Thay vì đi theo mô hình thác nước (Waterfall) truyền thống, nơi mọi thứ phải được hoàn thành một cách tuần tự, việc phát triển lặp đi lặp lại (hay còn gọi là Iterative and Incremental Development) cho phép chúng ta chia dự án thành nhiều vòng lặp nhỏ hơn.
 
@@ -32,7 +32,7 @@ Thay vì đi theo mô hình thác nước (Waterfall) truyền thống, nơi m�
 
 - **Điểm khác biệt:** Lặp lại (Iterative) nghĩa là chúng ta liên tục cải tiến một sản phẩm đã có, còn Tăng trưởng (Incremental) nghĩa là chúng ta xây dựng sản phẩm từng phần một, thêm dần các chức năng mới. Sự kết hợp của hai phương pháp này giúp chúng ta vừa có sản phẩm sớm, vừa đảm bảo chất lượng. Giống như việc bạn nấu một món ăn vậy, thay vì chuẩn bị tất cả nguyên liệu cùng lúc rồi mới bắt đầu nấu, bạn có thể nấu từng phần nhỏ, nếm thử và điều chỉnh hương vị cho đến khi hoàn hảo.
 
-## 2. Quản lý Yêu cầu
+### 2. Quản lý Yêu cầu
 
 Yêu cầu (requirements) là nền tảng của mọi dự án. Việc quản lý chúng một cách có hệ thống là cực kỳ cần thiết.
 
@@ -40,7 +40,7 @@ Yêu cầu (requirements) là nền tảng của mọi dự án. Việc quản l
 
 - **Làm thế nào cho hiệu quả?** Quản lý yêu cầu không chỉ là việc thu thập, mà còn là tổ chức, tài liệu hóa và quản lý sự thay đổi của chúng. Một quy trình tốt sẽ giúp chúng ta duy trì sự nhất quán giữa thiết kế và triển khai, đồng thời đảm bảo mọi người trong đội đều hiểu rõ mục tiêu chung.
 
-## 3. Sử dụng Kiến trúc Dựa trên Thành phần
+### 3. Sử dụng Kiến trúc Dựa trên Thành phần
 
 Kiến trúc phần mềm là xương sống của hệ thống. Một kiến trúc tốt phải dựa trên các thành phần (components) và có khả năng chống chịu cao. **Lợi ích "khủng":**
 
@@ -50,7 +50,7 @@ Kiến trúc phần mềm là xương sống của hệ thống. Một kiến tr
 
 - **Kiểm soát 🔒:** Việc chia nhỏ dự án thành các thành phần giúp quản lý độ phức tạp, duy trì tính toàn vẹn của thiết kế và chia việc cho các đội phát triển một cách rõ ràng.
 
-## 4. Mô hình hóa trực quan với UML
+### 4. Mô hình hóa trực quan với UML
 
 UML (Unified Modeling Language) là ngôn ngữ giúp chúng ta "vẽ" ra kiến trúc và hành vi của hệ thống một cách trực quan 🎨.
 
@@ -58,7 +58,7 @@ UML (Unified Modeling Language) là ngôn ngữ giúp chúng ta "vẽ" ra kiến
 
 - **Lợi ích thực tế 💡:** UML giúp bạn có cái nhìn tổng quan về hệ thống, giảm thiểu những hiểu lầm trong quá trình làm việc nhóm, và làm tài liệu rất hiệu quả. Thật sự, thay vì cãi nhau bằng lời, chúng ta hãy "vẽ" ra và cùng nhau giải quyết vấn đề!
 
-## 5. Kiểm tra chất lượng liên tục
+### 5. Kiểm tra chất lượng liên tục
 
 Chất lượng không phải là một bước cuối cùng, mà là một quá trình xuyên suốt 🔁.
 
@@ -78,7 +78,7 @@ Chất lượng không phải là một bước cuối cùng, mà là một quá
 >   
 > - **Độ Tin Cậy (Reliability)**: Đây là khả năng của một hệ thống hoạt động không gặp lỗi trong một khoảng thời gian cụ thể hoặc trong những điều kiện nhất định. Kiểm thử độ tin cậy giúp đảm bảo rằng phần mềm ổn định và đáng tin cậy cho người dùng cuối.
 
-## 6. Quản lý các thay đổi
+### 6. Quản lý các thay đổi
 
 Trong một thế giới đầy biến động 🌊, việc quản lý sự thay đổi là không thể tránh khỏi.
 
@@ -86,11 +86,11 @@ Trong một thế giới đầy biến động 🌊, việc quản lý sự thay
 
 - **Tầm quan trọng:** Một quy trình quản lý thay đổi tốt sẽ giúp giảm thiểu rủi ro, tránh gián đoạn và đảm bảo mọi thay đổi đều được thực hiện một cách hiệu quả.
 
-# Quy trình phát triển thống nhất RUP ⚙️
+## Quy trình phát triển thống nhất RUP ⚙️
 
 **Rational Unified Process (RUP)** là một khung làm việc phát triển phần mềm được IBM/Rational đề xuất. Nó không phải là một quy trình cứng nhắc mà là một **khung quy trình có thể tùy chỉnh** để phù hợp với từng dự án. RUP tích hợp 6 thực tiễn tốt nhất ở trên để giải quyết các vấn đề phát triển phần mềm
 
-## Cấu trúc của RUP
+### Cấu trúc của RUP
 RUP chia vòng đời của một dự án thành các giai đoạn chính. Mỗi giai đoạn đều có mục tiêu cụ thể và tạo ra các thành phần đầu ra (artifacts) nhất định:
 
 1. **Khởi tạo (Inception) 🚀**: Giai đoạn này tập trung vào việc xác định phạm vi dự án, xác định các trường hợp sử dụng (use cases) quan trọng và đánh giá tính khả thi.
@@ -101,7 +101,7 @@ RUP chia vòng đời của một dự án thành các giai đoạn chính. Mỗ
 
 4. **Chuyển giao (Transition) 📦**: Đây là giai đoạn cuối cùng, tập trung vào việc chuyển giao hệ thống đã hoàn thiện đến người dùng cuối. Nó bao gồm các hoạt động như kiểm thử beta, đào tạo người dùng và triển khai.
 
-## Hướng tiếp cận vòng đời lặp lại
+### Hướng tiếp cận vòng đời lặp lại
 Vòng đời của RUP không diễn ra tuyến tính. Thay vào đó, nó là một **tiến trình lặp lại** (iterative process). . Trong mỗi vòng lặp, bạn sẽ thực hiện các hoạt động từ yêu cầu, phân tích, thiết kế, triển khai cho đến kiểm thử. Kết quả của mỗi vòng lặp là một phiên bản phần mềm có thể chạy được. Cách tiếp cận này mang lại nhiều lợi ích:
 
 - **Giảm thiểu rủi ro 🛡️**: Bạn có thể giải quyết các vấn đề phức tạp và rủi ro ngay từ sớm.
@@ -110,7 +110,7 @@ Vòng đời của RUP không diễn ra tuyến tính. Thay vào đó, nó là m
 
 - **Đảm bảo chất lượng ✅**: Việc kiểm thử liên tục giúp phát hiện lỗi sớm và giảm chi phí sửa lỗi.
 
-# RUP vs Agile: Cuộc chiến của 2 tư tưởng lớn 🤝
+## RUP vs Agile: Cuộc chiến của 2 tư tưởng lớn 🤝
 
 RUP và Agile thường được đặt lên bàn cân ⚖️, nhưng thực tế chúng có thể bổ sung cho nhau. Dưới đây là bảng so sánh chi tiết giữa hai phương pháp này, giúp bạn có cái nhìn tổng quan và lựa chọn phù hợp cho dự án của mình.
 
@@ -125,7 +125,7 @@ RUP và Agile thường được đặt lên bàn cân ⚖️, nhưng thực t�
 
 Cả RUP và Agile đều có những ưu điểm riêng. Việc lựa chọn phương pháp nào phụ thuộc vào bản chất, quy mô và yêu cầu cụ thể của từng dự án. Quan trọng là đội ngũ của bạn cần hiểu rõ và áp dụng linh hoạt để đạt được thành công!
 
-# Kết luận 🔥
+## Kết luận 🔥
 Qua toàn bộ bài viết, chúng ta đã cùng nhau khám phá những khía cạnh quan trọng của **phân tích và thiết kế hướng đối tượng**. Từ việc **xác định các triệu chứng** của vấn đề phát triển phần mềm, **áp dụng các thực tiễn tốt nhất** để giải quyết chúng, cho đến việc **tìm hiểu sâu về RUP** và cách nó tích hợp các thực tiễn đó vào một quy trình phát triển có cấu trúc. Chúng ta cũng đã **so sánh RUP với Agile** để thấy được sự khác biệt trong triết lý và cách tiếp cận. 
 
 👉 Dù lựa chọn phương pháp nào, điều quan trọng nhất vẫn là sự hiểu biết, linh hoạt và phối hợp chặt chẽ của toàn bộ đội ngũ để tạo ra những sản phẩm phần mềm chất lượng, đáp ứng tốt nhất nhu cầu của người dùng.

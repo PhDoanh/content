@@ -19,7 +19,7 @@ cssclasses:
 ---
 **Biểu đồ hoạt động (Activity Diagram)** là một trong những loại biểu đồ dễ hình dung nhất vì nó giống sơ đồ quy trình công việc mà ta hay thấy trong đời sống hàng ngày. Tuy đơn giản, nhưng lại có vai trò rất mạnh mẽ trong phân tích và thiết kế hệ thống 🚀
 
-# Các khái niệm về biểu đồ hoạt động ✍️
+## Các khái niệm về biểu đồ hoạt động ✍️
 Trước hết, biểu đồ hoạt động là một loại **biểu đồ động** của UML, mô tả **luồng hoạt động (workflow)** hay **dòng chảy xử lý** trong hệ thống. Nó có thể:
 
 - Diễn tả **trình tự các bước** mà hệ thống thực hiện.
@@ -53,7 +53,7 @@ Các thành phần cơ bản:
 
 %% image %%
 
-# Mô hình hóa biểu đồ hoạt động
+## Mô hình hóa biểu đồ hoạt động
 
 Biểu đồ hoạt động không đi sâu chi tiết cách tính toán, mà chỉ tập trung mô tả **luồng hoạt động**. Nó thường được dùng ở giai đoạn đầu để:
 - Đặc tả **ca sử dụng (Use Case)**.
@@ -61,7 +61,7 @@ Biểu đồ hoạt động không đi sâu chi tiết cách tính toán, mà ch
 - Chuẩn bị cho bước thiết kế hệ thống.
 
 Có hai cách ứng dụng chính:
-## Mô hình hóa luồng công việc 
+### Mô hình hóa luồng công việc 
 
 Dùng khi ta muốn biểu diễn **quy trình nghiệp vụ** hoặc **tương tác với tác nhân bên ngoài**. Các bước cơ bản:
 1. **Xác định phạm vi (scope):**
@@ -84,7 +84,7 @@ Dùng khi ta muốn biểu diễn **quy trình nghiệp vụ** hoặc **tương 
 
 👉 Ứng dụng: thường dùng trong **Business Process Modeling** (mô hình hóa quy trình nghiệp vụ).
 
-## Mô hình hóa thao tác
+### Mô hình hóa thao tác
 
 Dùng khi ta muốn đặc tả chi tiết **cách một hàm/phương thức chạy**. Các bước:
 1. **Liệt kê các trừu tượng liên quan:**
@@ -104,7 +104,7 @@ Dùng khi ta muốn đặc tả chi tiết **cách một hàm/phương thức ch
 
 👉 Ứng dụng: thường dùng trong **thiết kế chi tiết** để đội dev hiểu chính xác logic bên trong một hàm hay module nào đó.
 
-# Chốt lại 📌
+## Chốt lại 📌
 
 - Biểu đồ hoạt động = **sơ đồ quy trình nâng cao** của UML.
 - Có thể dùng để mô tả **workflow nghiệp vụ** hoặc **chi tiết thao tác/hàm**.

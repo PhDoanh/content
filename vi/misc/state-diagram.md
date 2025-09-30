@@ -28,11 +28,11 @@ Biểu đồ trạng thái là một trong những biểu đồ quan trọng c�
 > - Một đơn hàng online 📦 có thể trải qua các trạng thái: _Được tạo_ → _Đang xử lý_ → _Đang giao_ → _Hoàn thành_ hoặc _Hủy bỏ_.
 > - Những sự kiện như _Khách hàng xác nhận_, _Hệ thống duyệt thanh toán_, _Shipper giao thành công_ chính là các **event** dẫn đến thay đổi trạng thái.
 
-# Khái niệm cơ sở cho biểu đồ trạng thái 🌀
+## Khái niệm cơ sở cho biểu đồ trạng thái 🌀
 
 Biểu đồ trạng thái được xây dựng dựa trên khái niệm **máy trạng thái hữu hạn (Finite State Machine - FSM)[^1]**. Trong đó:
 
-## Sự kiện (Event)
+### Sự kiện (Event)
 
 Sự kiện là **tác nhân kích hoạt** làm cho một đối tượng thay đổi trạng thái. Một sự kiện có thể được kích hoạt bởi: người dùng, hệ thống, hoặc một điều kiện nội bộ. Các loại sự kiện thường gặp:
 
@@ -41,13 +41,13 @@ Sự kiện là **tác nhân kích hoạt** làm cho một đối tượng thay 
 - **Time Event:** Sự kiện dựa trên thời gian, ví dụ: _sau 30 giây không thao tác thì ATM tự thoát_.
 - **Change Event:** Khi một điều kiện logic trở thành đúng, ví dụ: _nhiệt độ > 100°C thì nồi cơm chuyển sang trạng thái tắt_.
 
-## Tín hiệu (Signal)
+### Tín hiệu (Signal)
 
 Tín hiệu là một **dạng thông điệp không đồng bộ**[^2] được gửi từ một đối tượng này đến đối tượng khác.
 - Nó mang thông tin sự kiện.
 - Ví dụ: _Cảm biến cửa gửi tín hiệu "DoorOpened" đến hệ thống báo động_.
 
-## Trạng thái (State)
+### Trạng thái (State)
 
 Trạng thái là một **tình huống ổn định** trong vòng đời của một đối tượng, tại đó đối tượng thỏa mãn một số điều kiện, thực hiện một hoạt động hoặc chờ đợi một sự kiện. Có thể mô tả theo 3 cách:
 
@@ -59,13 +59,13 @@ Trạng thái là một **tình huống ổn định** trong vòng đời của 
 > Tất cả các đối tượng cùng một trạng thái sẽ phản ứng theo cùng một cách đối với một sự kiện
 > 
 
-## Trạng thái phức hợp (Composite State)
+### Trạng thái phức hợp (Composite State)
 
 Là trạng thái được **phân rã thành các trạng thái con** bên trong.
 - Cho phép mô hình hóa hành vi phức tạp, giúp sơ đồ gọn hơn.
 - Ví dụ: Trạng thái _Đang xử lý đơn hàng_ có thể chia nhỏ thành: _Xác minh thanh toán_ → _Chuẩn bị hàng_ → _Đóng gói_.
 
-## Chuyển (Transition)
+### Chuyển (Transition)
 👉 Chuyển là **sự di chuyển từ một trạng thái sang trạng thái khác** khi sự kiện xảy ra.
 - Được biểu diễn bằng một mũi tên.
 - Có thể kèm theo điều kiện (guard) và hành động (action).
@@ -82,7 +82,7 @@ Là trạng thái được **phân rã thành các trạng thái con** bên tron
 > - Giúp phát hiện những tình huống chưa lường trước (ví dụ trạng thái bị bỏ sót)
 > - Hữu ích cho cả **phân tích yêu cầu** và **thiết kế chi tiết**.
 
-# Mô hình hóa biểu đồ trạng thái 🔄
+## Mô hình hóa biểu đồ trạng thái 🔄
 
 Khi mô hình hóa bằng UML, ta sử dụng các ký hiệu chuẩn:
 - **Nút đen đặc**: Trạng thái bắt đầu.
@@ -119,7 +119,7 @@ stateDiagram-v2
 
 👉 Nhìn vào biểu đồ, ta thấy ngay toàn bộ vòng đời của đơn hàng từ lúc được tạo đến khi hoàn tất/hủy.
 
-# Tóm lại 🤌
+## Tóm lại 🤌
 
 - **Biểu đồ trạng thái** = "bản đồ vòng đời đối tượng".
 - Nó giúp ta quản lý các trạng thái và sự kiện trong hệ thống, đảm bảo không bỏ sót kịch bản.

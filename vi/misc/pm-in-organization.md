@@ -18,7 +18,7 @@ Hãy tưởng tượng bạn là giám đốc một trung tâm CNTT tại một 
 
 👉 Bài học: **Mọi dự án đều phải gắn chặt với bối cảnh tổ chức**, nếu không sẽ thất bại.
 
-# Cách tiếp cận có tính hệ thống 🛠️
+## Cách tiếp cận có tính hệ thống 🛠️
 
 Xuất hiện từ thập niên 1950, thuật ngữ *"tiếp cận hệ thống"* gồm ba thành phần chính:
 
@@ -48,10 +48,10 @@ Thay vì chỉ tập trung vào công nghệ, ta phải xem dự án dưới **3
 - Nhìn dự án như một **chuỗi giai đoạn liên kết** chứ không phải các bước rời rạc.
 - Tăng khả năng **thành công bền vững**, thay vì chỉ đạt mục tiêu ngắn hạn.
 
-# Các góc nhìn về tổ chức 🔍
+## Các góc nhìn về tổ chức 🔍
 
 Theo Lee G. Bolman và Terrence E. Deal, khi nghiên cứu tổ chức, ta có thể nhìn từ **4 góc độ khác nhau** (frames). Mỗi góc nhìn giống như đeo một chiếc kính khác nhau: cùng một tổ chức, nhưng thấy những khía cạnh khác nhau. Một dự án thành công không chỉ cần quy trình, mà còn phải "đọc vị" được tổ chức từ 4 góc độ này.
-## 1. Cơ cấu tổ chức
+### 1. Cơ cấu tổ chức
 - **Trọng tâm**: Cấu trúc, vai trò, trách nhiệm, quy tắc và chính sách.
 - **Ý nghĩa**: Xem tổ chức như một "bộ máy" được thiết kế để vận hành hiệu quả.
 - **Đặc trưng**:
@@ -62,7 +62,7 @@ Theo Lee G. Bolman và Terrence E. Deal, khi nghiên cứu tổ chức, ta có t
 
 👉 Góc nhìn này giúp đảm bảo **sự rõ ràng và hiệu quả trong tổ chức**.
 
-## 2. Nguồn nhân lực
+### 2. Nguồn nhân lực
 
 - **Trọng tâm**: Con người là tài sản quý nhất.
 - **Ý nghĩa**: Tổ chức tồn tại để phục vụ nhu cầu con người, và ngược lại, con người đóng góp để tổ chức đạt mục tiêu.
@@ -73,7 +73,7 @@ Theo Lee G. Bolman và Terrence E. Deal, khi nghiên cứu tổ chức, ta có t
 
 👉 Góc nhìn này nhấn mạnh đến **động lực và sự phát triển của con người** trong tổ chức.
 
-## 3. Chính trị
+### 3. Chính trị
 - **Trọng tâm**: Quyền lực, lợi ích, mâu thuẫn và thương lượng.
 - **Ý nghĩa**: Tổ chức là "đấu trường", nơi các nhóm với lợi ích khác nhau cạnh tranh để đạt mục tiêu riêng.
 - **Đặc trưng**:
@@ -83,7 +83,7 @@ Theo Lee G. Bolman và Terrence E. Deal, khi nghiên cứu tổ chức, ta có t
 
 👉 Góc nhìn này phản ánh **quyền lực và chính trị hiện diện trong mọi tổ chức**.
 
-## 4. Biểu tượng
+### 4. Biểu tượng
 - **Trọng tâm**: Văn hóa, niềm tin, giá trị, nghi lễ, câu chuyện và biểu tượng.
 - **Ý nghĩa**: Tổ chức là một "sân khấu" nơi mọi người tìm thấy ý nghĩa qua các giá trị chung.
 - **Đặc trưng**:
@@ -93,14 +93,14 @@ Theo Lee G. Bolman và Terrence E. Deal, khi nghiên cứu tổ chức, ta có t
 
 👉 Góc nhìn này nhấn mạnh rằng **niềm tin và văn hóa tạo ra sức mạnh tinh thần cho tổ chức**.
 
-# Cơ cấu tổ chức 🏗️
+## Cơ cấu tổ chức 🏗️
 
 Trong quản lý dự án, **cơ cấu tổ chức** là cách mà một tổ chức phân chia quyền lực, trách nhiệm và kênh giao tiếp giữa các cá nhân/nhóm. Nó ảnh hưởng trực tiếp đến:
 - Cách **ra quyết định**. VD: chỉ được đề xuất hay được tự quyết định
 - Mức độ **tự chủ** của quản lý dự án. VD: quyền hạn, vai trò của PM.
 - Hiệu quả phối hợp giữa các phòng ban. VD: phối hợp trực tiếp hay gián tiếp
 
-## Cơ cấu theo chức năng
+### Cơ cấu theo chức năng
 - Đây là dạng **truyền thống** nhất.
 - Công việc được chia theo **chức năng chuyên môn** (ví dụ: phòng Kế toán, phòng Nhân sự, phòng CNTT...).
 - Quản lý chức năng (Functional Manager) có quyền lực cao nhất, còn quản lý dự án chỉ đóng vai trò hỗ trợ hoặc điều phối.
@@ -113,7 +113,7 @@ Trong quản lý dự án, **cơ cấu tổ chức** là cách mà một tổ ch
 > [!example]- Ví dụ
 > Trong một công ty phần mềm, nhóm phát triển thuộc phòng CNTT. Khi có dự án làm ứng dụng mới, nhân viên vẫn do trưởng phòng CNTT quản lý, còn PM (Project Manager) chỉ nhờ họ hỗ trợ thêm.
 
-## Cơ cấu theo dự án
+### Cơ cấu theo dự án
 - Đây là dạng **tập trung vào dự án**.
 - Mỗi dự án gần như là một **thực thể độc lập**, có đầy đủ nguồn lực và quản lý riêng.
 - Quản lý dự án là "ông vua" trong phạm vi dự án 💪 - có quyền quyết định cao về ngân sách, nhân sự, tiến độ.
@@ -125,7 +125,7 @@ Trong quản lý dự án, **cơ cấu tổ chức** là cách mà một tổ ch
 > [!example]- Ví dụ
 > Một công ty xây dựng khi nhận gói thầu làm cầu, sẽ lập hẳn một “ban dự án” chuyên trách, do PM đứng đầu.
 
-## Cơ cấu theo ma trận
+### Cơ cấu theo ma trận
 - Đây là dạng **kết hợp** giữa chức năng và dự án.
 - Nhân viên vừa thuộc **phòng chức năng** vừa tham gia **dự án**.
 - Có **hai dòng báo cáo**:
@@ -140,7 +140,7 @@ Trong quản lý dự án, **cơ cấu tổ chức** là cách mà một tổ ch
 > [!example]- Ví dụ
 > Trong một công ty công nghệ, kỹ sư vừa thuộc phòng R&D (chịu quản lý chuyên môn), vừa tham gia dự án phát triển sản phẩm mới (chịu quản lý bởi PM).
 
-# Văn hoá tổ chức ⛩️
+## Văn hoá tổ chức ⛩️
 
 Văn hóa tổ chức là **tập hợp các giá trị, niềm tin, thói quen, quy chuẩn ứng xử** được hình thành và chia sẻ trong nội bộ tổ chức. Nó giống như “tính cách” của một công ty: có nơi nghiêm ngặt, quy củ như quân đội 🚔, có nơi thì thoải mái, sáng tạo như một startup 🎨.
 
@@ -150,7 +150,7 @@ Trong quản lý dự án, văn hóa tổ chức quyết định:
 - Xung đột được giải quyết theo cách gì 🔥
 - Mức độ hợp tác và cam kết của thành viên 🤝
 
-## Đặc trưng của văn hóa tổ chức
+### Đặc trưng của văn hóa tổ chức
 
 - **Định danh thành viên (Member Identity)**: nhân viên tự xem mình là một phần của tổ chức hay chỉ gắn với chuyên môn cá nhân.
 
@@ -172,7 +172,7 @@ Trong quản lý dự án, văn hóa tổ chức quyết định:
 
 - **Ổn định (Stability)**: tổ chức coi trọng duy trì trật tự, ổn định, ít thay đổi, hay khuyến khích linh hoạt và cải tiến.
 
-## Ảnh hưởng đến quản lý dự án
+### Ảnh hưởng đến quản lý dự án
 
 - Một tổ chức **cởi mở, minh bạch** sẽ giúp dự án trơn tru: mọi người dễ chia sẻ thông tin, hợp tác tích cực.
 - Ngược lại, tổ chức **quan liêu, khép kín** dễ khiến dự án bị chậm trễ: báo cáo rườm rà, quyết định chậm, nhân viên sợ trách nhiệm.
@@ -188,7 +188,7 @@ Trong quản lý dự án, văn hóa tổ chức quyết định:
 > - **Tận dụng ưu điểm của văn hóa**: ví dụ tổ chức coi trọng hợp tác → khai thác tối đa tinh thần teamwork; tổ chức coi trọng cá nhân → giao việc rõ ràng, gắn trách nhiệm.
 > - **Làm cầu nối văn hóa**: nếu dự án có nhiều bên khác nhau (VD: doanh nghiệp + cơ quan nhà nước), nhà quản lý phải điều chỉnh để dung hòa khác biệt.
 
-# Quản lý các bên liên quan 👥
+## Quản lý các bên liên quan 👥
 
 Trong một dự án, **các bên liên quan (stakeholders)** là tất cả những cá nhân hoặc tổ chức có **ảnh hưởng** đến dự án, và/hoặc bị dự án ảnh hưởng ngược lại. Chẳng hạn như: khách hàng, nhà tài trợ, đội ngũ dự án, cơ quan quản lý, thậm chí cả người dùng cuối.
 
@@ -200,7 +200,7 @@ Ngoài việc nhận diện và phân tích stakeholder, có ba yếu tố nền
 2. **Cam kết của tổ chức với quá trình chuyển đổi số**
 3. **Các tiêu chuẩn của tổ chức về quản lý dự án**
 
-## Cam kết của lãnh đạo cấp cao
+### Cam kết của lãnh đạo cấp cao
 
 ✨ Lãnh đạo cấp cao không chỉ là người "ký duyệt" dự án, mà còn là **bệ đỡ chính trị và tinh thần** cho toàn bộ dự án.  
 Cam kết của họ được thể hiện qua:
@@ -211,7 +211,7 @@ Cam kết của họ được thể hiện qua:
 
 👉 Nếu thiếu sự cam kết này, đội dự án thường khó xoay sở khi phát sinh mâu thuẫn hoặc thiếu hụt nguồn lực.
 
-## Cam kết của tổ chức với quá trình chuyển đổi số
+### Cam kết của tổ chức với quá trình chuyển đổi số
 
 Ngày nay, hầu hết các dự án CNTT đều gắn liền với **chuyển đổi số**. Điều này đòi hỏi **sự ủng hộ ở cấp độ tổ chức** chứ không chỉ riêng lãnh đạo.
 
@@ -223,7 +223,7 @@ Cam kết của tổ chức được thể hiện qua:
 
 💡 Ví dụ: nếu tổ chức không thực sự cam kết, phần mềm mới có thể bị "đắp chiếu" vì nhân viên không được đào tạo hoặc không có quy trình tích hợp.
 
-## Các tiêu chuẩn của tổ chức về quản lý dự án
+### Các tiêu chuẩn của tổ chức về quản lý dự án
 
 Đây là phần giúp cho dự án **có kỷ luật và tính hệ thống**, thay vì mỗi nhóm tự làm theo kiểu riêng.
 Các tiêu chuẩn thường bao gồm:
@@ -234,38 +234,38 @@ Các tiêu chuẩn thường bao gồm:
 
 👉 Lợi ích: giúp dự án **giảm sai sót, dễ kiểm soát, và có thể so sánh - đánh giá với các dự án khác** trong tổ chức.
 
-# Đặc thù của dự án CNTT 💡
+## Đặc thù của dự án CNTT 💡
 
 - Tính **đa dạng và phức tạp**: liên quan đến nhiều lĩnh vực.
 - Nhóm dự án thường **đa ngành**.
 - Thay đổi công nghệ nhanh chóng, dễ làm kế hoạch lạc hậu.
 - Yêu cầu về tiêu chuẩn quản lý (templates, best practices) để tránh lộn xộn.
 
-# Xu hướng ảnh hưởng đến quản lý dự án 📈
+## Xu hướng ảnh hưởng đến quản lý dự án 📈
 
 Bạn có để ý không, chỉ trong vài năm gần đây thôi, cách chúng ta quản lý dự án CNTT đã thay đổi chóng mặt 🚀. Những gì trước kia "xài mãi" thì giờ buộc phải đổi mới, vì công nghệ và môi trường kinh doanh phát triển không ngừng. Dưới đây là một số xu hướng nổi bật:
-## Toàn cầu hóa
+### Toàn cầu hóa
 - Dự án CNTT không chỉ phục vụ nội bộ doanh nghiệp mà còn hướng ra **thị trường quốc tế**.
 - Điều này làm nảy sinh:
     - Nhiều bên liên quan đến từ nhiều quốc gia.
     - Khác biệt về ngôn ngữ, văn hóa, pháp luật.
 - Nhà quản lý dự án cần biết cách **làm việc từ xa, cộng tác đa văn hóa** và đảm bảo chất lượng dịch vụ ngang tầm quốc tế.
 
-## Thuê ngoài - Outsourcing
+### Thuê ngoài - Outsourcing
 - Doanh nghiệp không còn tự làm tất cả, mà thường:
     - Thuê ngoài một phần hay toàn bộ hệ thống CNTT.
     - Hợp tác với các công ty khác để tận dụng chuyên môn.
 - Thách thức: Quản lý hợp đồng, chất lượng dịch vụ, bảo mật thông tin.
 - Nếu bạn là PM, bạn sẽ phải biết **vừa quản lý nhóm nội bộ, vừa điều phối nhóm bên ngoài**.
 
-## Triển khai nhanh, linh hoạt
+### Triển khai nhanh, linh hoạt
 - Khách hàng ngày nay **không chờ đợi lâu**.
 - Mô hình quản lý dự án truyền thống (waterfall) bộc lộ hạn chế → Agile, Scrum, Kanban lên ngôi.
 - Quản lý dự án CNTT giờ phải:
     - Chia nhỏ sản phẩm thành các phiên bản (iteration).
     - Liên tục thử nghiệm và điều chỉnh theo phản hồi thực tế.
 
-## Nhóm làm việc ảo
+### Nhóm làm việc ảo
 **Nhóm ảo** là một tập hợp các cá nhân cùng làm việc cho một dự án nhưng **không ở cùng một địa điểm vật lý**. Họ có thể ở những tỉnh thành khác nhau, thậm chí ở các quốc gia khác nhau. 
 
 Việc giao tiếp, phối hợp và thực hiện công việc **chủ yếu thông qua công nghệ thông tin và truyền thông** (email, chat, hội nghị trực tuyến, hệ thống quản lý dự án trực tuyến…).
@@ -282,7 +282,7 @@ Việc giao tiếp, phối hợp và thực hiện công việc **chủ yếu th
 > - **Giảm sự gắn kết**: Không có nhiều hoạt động tương tác trực tiếp nên tinh thần đồng đội có thể yếu hơn.
 > - **Phụ thuộc công nghệ**: Nếu hệ thống mạng, phần mềm hay thiết bị gặp trục trặc thì công việc bị ảnh hưởng ngay.
 
-# Kết luận 🔥
+## Kết luận 🔥
 
 👉 Chìa khoá cho sự thành công của mọi dự án là:
 - Phải gắn liền với **bối cảnh tổ chức**.

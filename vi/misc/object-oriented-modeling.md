@@ -23,7 +23,7 @@ Có bao giờ bạn tự hỏi: _Tại sao phần mềm ngày càng phức tạp
 
 Nói cách khác, thay vì xoay quanh _hàm_, ta xoay quanh _đối tượng_ – chính là những thực thể trong thế giới thực, với đặc điểm (thuộc tính) và hành vi (phương thức).
 
-# Nguyên tắc cơ bản của hướng đối tượng 🌟
+## Nguyên tắc cơ bản của hướng đối tượng 🌟
 
 %% mermaid code for image %%
 
@@ -42,7 +42,7 @@ Nói cách khác, thay vì xoay quanh _hàm_, ta xoay quanh _đối tượng_ �
 4. **Phân cấp (Hierarchy)** 🌳  
     Đây là “gia phả” trong lập trình. Một lớp `Dog` có thể **kế thừa** từ `Animal`, và mọi con chó đều có “hành vi chung” của động vật, nhưng cũng có đặc điểm riêng (sủa, trung thành).
 
-# Khái niệm cơ bản trong mô hình hướng đối tượng 🧱
+## Khái niệm cơ bản trong mô hình hướng đối tượng 🧱
 
 Sau khi nắm nguyên tắc, ta đi vào "từ vựng" của thế giới OOP:
 - **Đối tượng (Object)** 🟢: Thực thể cụ thể. Ví dụ: _Chiếc xe Toyota Camry màu đen của bạn_.
@@ -59,7 +59,7 @@ Sau khi nắm nguyên tắc, ta đi vào "từ vựng" của thế giới OOP:
 > - Dễ bảo trì, dễ mở rộng.
 > - Giúp phần mềm sống khỏe trong nhiều năm, thay đổi mà không sụp đổ.
 
-# Lời kết ✍️
+## Lời kết ✍️
 
 Bài viết này giống như "bản khai sinh" của một phong cách tư duy mới trong lập trình. Nếu coi việc phát triển phần mềm là xây một thành phố, thì **mô hình hóa đối tượng chính là bản đồ quy hoạch** 🏙. Không có nó, mọi công trình sẽ sớm hỗn loạn.
 

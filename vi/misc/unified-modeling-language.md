@@ -18,7 +18,7 @@ cssclasses:
 ---
 Hãy tưởng tượng bạn đang xây một ngôi nhà: từ việc phân chia phòng ốc, hệ thống điện nước, đến các thiết bị tự động phải hoạt động hài hòa với nhau. Trước khi đặt viên gạch đầu tiên, bạn cần một **bản thiết kế tổng thể** để mọi thứ được kết nối và vận hành trơn tru. Tương tự, trong phát triển phần mềm, **UML (Unified Modeling Language)** là "bản vẽ kỹ thuật" giúp các nhà phát triển mô hình hóa, trực quan hóa và phối hợp xây dựng hệ thống phần mềm một cách chính xác. Nhờ UML, những ý tưởng phức tạp trở nên rõ ràng, dễ hiểu và dễ triển khai, giống như ngôi nhà trong bản thiết kế của kiến trúc sư vậy
 
-# Lịch sử ra đời và các mục tiêu thiết kế 📜
+## Lịch sử ra đời và các mục tiêu thiết kế 📜
 
 UML không phải "tự nhiên sinh ra" mà là kết quả của **quá trình hợp nhất nhiều phương pháp khác nhau** trong thập niên 90.
 
@@ -42,7 +42,7 @@ UML không phải "tự nhiên sinh ra" mà là kết quả của **quá trình 
 
 - Hỗ trợ mô tả hệ thống xuyên suốt vòng đời (yêu cầu → thiết kế → triển khai).
 
-# Đặc điểm sử dụng 🔍
+## Đặc điểm sử dụng 🔍
 
 UML có nhiều "tính cách" nổi bật:
 
@@ -62,11 +62,11 @@ UML có nhiều "tính cách" nổi bật:
 
 👉 Nói nôm na, UML giống như ngôn ngữ **tiếng Anh** trong ngành phần mềm: không phải ngôn ngữ lập trình, nhưng ai cũng có thể hiểu và giao tiếp được với nhau.
 
-# Phần tử mô hình trong UML 🧩
+## Phần tử mô hình trong UML 🧩
 
 Trong UML, để vẽ được một mô hình thì bạn phải biết **có những viên gạch nào**. UML chia chúng thành 4 loại:
 
-## Phần tử cấu trúc - "Danh từ"
+### Phần tử cấu trúc - "Danh từ"
 
 - Đây là **những thứ tồn tại trong hệ thống**. Ví dụ: lớp, đối tượng, server, file phần mềm…
 
@@ -83,7 +83,7 @@ Trong UML, để vẽ được một mô hình thì bạn phải biết **có nh
 
 👉 Nói nôm na: phần tử cấu trúc chính là **"các thực thể có thật"** trong quá trình thiết kế từ đời thực.
 
-## Phần tử hành vi - "Động từ"
+### Phần tử hành vi - "Động từ"
 
 - Đây là **hành động, quá trình xảy ra** trong hệ thống.
 - Gồm:
@@ -92,16 +92,16 @@ Trong UML, để vẽ được một mô hình thì bạn phải biết **có nh
 
 👉 Hãy hình dung: nếu lớp **Sinh viên** là "người", thì hành vi có thể là "nói chuyện, đăng ký môn, nộp học phí".
 
-## Phần tử nhóm gộp (Grouping Elements)
+### Phần tử nhóm gộp (Grouping Elements)
 - Đơn giản là **cái hộp đựng** các phần tử khác.
 - UML gọi nó là **Package (gói)**.
 - Giúp sắp xếp hệ thống gọn gàng (giống như folder trong máy tính).
 
-## Phần tử chú thích (Annotation Elements)
+### Phần tử chú thích (Annotation Elements)
 - Dùng để **ghi chú, giải thích** trong mô hình.
 - Ví dụ: "Module này đã lỗi thời từ phiên bản 2.0".
 
-# Các quan hệ trong UML 🔗
+## Các quan hệ trong UML 🔗
 
 Các phần tử ở trên giống như các viên gạch, nhưng rời rạc. Vậy làm sao chúng kết nối với nhau? Đó chính là chất kết dính (xi măng), còn được gọi là **quan hệ** trong UML. Có 4 kiểu quan hệ cơ bản:
 
@@ -125,11 +125,11 @@ Các phần tử ở trên giống như các viên gạch, nhưng rời rạc. V
 	- Quan hệ "hợp đồng - thực thi".
 	- VD: Lớp **Thanh toán bằng thẻ** triển khai các chức năng mà giao diện **Thanh toán** yêu cầu.
 
-# Các biểu đồ trong UML 📊
+## Các biểu đồ trong UML 📊
 
 Khi bạn có phần tử + quan hệ, thì để dễ nhìn, UML cho phép "chụp ảnh" chúng thành **biểu đồ**. UML chia thành 3 nhóm lớn:
 
-## Biểu đồ cấu trúc
+### Biểu đồ cấu trúc
 Các biểu đồ thuộc nhóm này cho biết hệ thống bao gồm những gì
 
 - **Biểu đồ lớp:** vẽ lớp, thuộc tính, quan hệ.
@@ -144,7 +144,7 @@ Các biểu đồ thuộc nhóm này cho biết hệ thống bao gồm những g
 
 - **Biểu đồ gói:** tổ chức hệ thống thành các gói.
 
-## Biểu đồ hành vi 
+### Biểu đồ hành vi 
 Các biểu đồ thuộc nhóm này cho biết hệ thống làm những gì? 
 
 - **Biểu đồ ca sử dụng:** hệ thống phục vụ người dùng như thế nào.
@@ -153,7 +153,7 @@ Các biểu đồ thuộc nhóm này cho biết hệ thống làm những gì?
 
 - **Biểu đồ trạng thái:** vẽ các trạng thái mà đối tượng đi qua.
 
-## Biểu đồ tương tác - một nhánh của hành vi 
+### Biểu đồ tương tác - một nhánh của hành vi 
 Các biểu đồ thuộc nhóm này cho biết ai nói chuyện với ai trong từng hành vi của hệ thống
 
 - **Biểu đồ tuần tự:** nhấn mạnh thứ tự thông điệp theo thời gian.
@@ -166,7 +166,7 @@ Các biểu đồ thuộc nhóm này cho biết ai nói chuyện với ai trong 
 
 👉 Tổng cộng UML hiện có **14 loại biểu đồ** - mỗi loại là một góc nhìn khác nhau của cùng một hệ thống.
 
-# Các luật và ràng buộc trong UML ⚖️
+## Các luật và ràng buộc trong UML ⚖️
 
 UML không phải muốn vẽ sao thì vẽ. Nó có cả rừng **luật** để đảm bảo biểu đồ **hợp lệ (well-formed model)**.
 
@@ -183,7 +183,7 @@ Các ràng buộc chính:
 
 💡 Nói dễ hiểu: UML giống như ngôn ngữ có ngữ pháp. Nếu vi phạm luật sẽ dẫn tới biểu đồ sai ngữ nghĩa, người khác nhìn vào sẽ không hiểu hoặc hiểu nhầm.
 
-# Kết luận 🔥
+## Kết luận 🔥
 Bài viết này đã giúp bạn nắm:
 - UML ra đời để **chuẩn hóa** nhiều phương pháp cũ.
 - UML có **đặc điểm linh hoạt, đa năng**, dùng cho mọi giai đoạn phát triển.

@@ -16,7 +16,7 @@ aliases:
 cssclasses:
   - img
 ---
-# Khái niệm cơ sở ✍️
+## Khái niệm cơ sở ✍️
 
 Biểu đồ triển khai (Deployment Diagram) trong UML là loại **biểu đồ cấu trúc** dùng để mô tả:
 - **Cấu hình phần cứng** (hardware configuration): tức là các **nút (nodes)** như máy chủ, máy trạm, thiết bị di động, cảm biến, router…
@@ -24,7 +24,7 @@ Biểu đồ triển khai (Deployment Diagram) trong UML là loại **biểu đ�
 
 👉 Nói ngắn gọn: biểu đồ triển khai trả lời câu hỏi **"Hệ thống phần mềm sẽ chạy trên đâu và các thành phần kết nối như thế nào?"**
 
-# Các thành phần chính 🧩
+## Các thành phần chính 🧩
 
 Trong UML, biểu đồ triển khai có những phần tử cơ bản:
 - **Nút (Node):** Đại diện cho tài nguyên vật lý hoặc môi trường thực thi. Ví dụ: Server, Máy tính cá nhân, Điện thoại di động, Thiết bị IoT (cảm biến nhiệt độ, camera IP…)
@@ -34,23 +34,23 @@ Trong UML, biểu đồ triển khai có những phần tử cơ bản:
 
 %% ![[Pasted image 20250919154740.png]] %%
 
-# Mô hình hóa các bộ xử lý và các thiết bị 🖨️
+## Mô hình hóa các bộ xử lý và các thiết bị 🖨️
 
 UML cung cấp cơ chế **mở rộng (stereotype)** để mô tả rõ hơn từng loại **nút (node)** trong biểu đồ triển khai. Có hai loại nút chính:
 - **Nút xử lý (processor):** có khả năng tính toán, thực thi các thành phần phần mềm (ví dụ CPU, server).
 
 - **Nút thiết bị (device):** không trực tiếp xử lý, thường đại diện cho các phần cứng có chức năng giao tiếp với thế giới thực qua giao diện (ví dụ máy in, cảm biến, thiết bị ngoại vi).
 
-![[Pasted image 20250919160042.png]]
+%% ![[Pasted image 20250919160042.png]] %%
 
 Các bước mô hình hóa:
 1. **Xác định** các phần tử tính toán trong hệ thống, rồi biểu diễn chúng dưới dạng các **nút**.
 2. **Gán stereotype** để phân biệt đó là **bộ xử lý** hay **thiết bị**.
 3. **Xem xét** các thuộc tính và thao tác đã được cài đặt trên các nút khi mô hình hóa lớp (đảm bảo tính nhất quán giữa thiết kế logic và triển khai vật lý).
 
-# Mô hình hóa sự phân tán của các thành phần 🖧
+## Mô hình hóa sự phân tán của các thành phần 🖧
 
-![[Pasted image 20250919160106.png]]
+%% ![[Pasted image 20250919160106.png]] %%
 
 Sau khi đã xác định các nút, ta cần mô tả cách các **thành phần phần mềm** được phân bố trên các nút đó. Các bước mô hình hóa:
 
@@ -63,7 +63,7 @@ Sau khi đã xác định các nút, ta cần mô tả cách các **thành phầ
     - Cách 2: Sử dụng **quan hệ phụ thuộc (dependency)** để nối mỗi nút với thành phần được triển khai trên nó.
     - Cách 3: Liệt kê các thành phần triển khai trong một **ngăn mở rộng** bên trong ký pháp nút (cách này trực quan, dễ đọc).
 
-# Ý nghĩa và mục đích 🔥
+## Ý nghĩa và mục đích 🔥
 Biểu đồ triển khai giúp:
 1. **Mô tả kiến trúc triển khai thực tế** của hệ thống, gắn liền giữa phần mềm và hạ tầng.
 2. **Hiểu rõ sự phụ thuộc phần cứng – phần mềm**, từ đó đưa ra quyết định về hiệu năng, bảo mật, khả năng mở rộng.
@@ -71,7 +71,7 @@ Biểu đồ triển khai giúp:
 
 👉 Đặc biệt quan trọng trong các dự án lớn (ERP, e-commerce, AIoT y tế…) khi cần triển khai trên nhiều server, cloud khác nhau.
 
-# Ví dụ minh họa 📦
+## Ví dụ minh họa 📦
 Giả sử ta triển khai một **ứng dụng bán hàng trực tuyến**:
 - **Client:** người dùng truy cập bằng trình duyệt hoặc ứng dụng mobile.
 - **Web Server:** chạy ứng dụng web (Apache + ứng dụng Java).
@@ -86,7 +86,7 @@ Trong biểu đồ triển khai UML, ta có thể vẽ:
 
 %% image %%
 
-# Kết luận ✨
+## Kết luận ✨
 
 - Biểu đồ triển khai là "cầu nối" giữa **thiết kế phần mềm** và **hạ tầng phần cứng**.
 - Nó giúp đội ngũ phát triển và vận hành (DevOps, SysAdmin) phối hợp tốt hơn.
