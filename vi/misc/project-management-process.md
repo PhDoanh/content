@@ -121,4 +121,29 @@ Công việc quản lý dự án xoay quanh [[project-management#^7eeb7c|10 mi�
 > - **Quy trình** là một dãy các hành động hướng đến một kết quả cụ thể nào đó
 > - Mỗi dự án có thể có nhiều pha/giai đoạn nhưng **tất cả các pha/giai đoạn đều có 5 nhóm quy trình quản lý dự án**.
 
+## Ánh xạ 5 nhóm quy trình tới 10 miền tri thức
+
+Các nhóm quy trình và miền tri thức **không tồn tại độc lập** mà bổ trợ cho nhau.
+- **Nhóm quy trình** trả lời: *"Làm khi nào?"*
+- **Miền tri thức** trả lời: *"Làm cái gì và như thế nào?"*
+
+Khi kết hợp, chúng tạo nên một *"bản đồ toàn diện"* cho dự án - từ khởi tạo đến đóng dự án, mọi công việc đều có chỗ đứng rõ ràng, giúp PM biết rõ ở từng giai đoạn phải gắn với miền tri thức nào.
+
+> [!example]- Ví dụ
+> khi khởi tạo dự án, việc quan trọng là **nhận diện các bên liên quan** và **tài liệu thông tin sơ bộ**. Còn khi đi vào thực hiện, trọng tâm lại chuyển sang **quản lý công việc, chất lượng, nhân lực, giao tiếp…**
+
+|                       | Khởi tạo                                                    | Lập kế hoạch                                                                             | Thực hiện                                           | Kiểm tra - Giám sát                                      | Đóng dự án                                    |
+|:--------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------- |
+| **Tích hợp**          | Soạn _Project Charter_ (Tài liệu khởi tạo dự án)            | Xây dựng kế hoạch quản lý dự án (Project Management Plan)                                | Điều phối công việc, quản lý tri thức dự án         | Theo dõi tiến độ tổng thể, xử lý thay đổi tích hợp       | Kết thúc toàn bộ dự án/pha, bàn giao sản phẩm |
+| **Phạm vi**           | –                                                           | Thu thập yêu cầu, xác định phạm vi, lập WBS                                              | –                                                   | Thẩm định phạm vi, kiểm soát phạm vi                     | –                                             |
+| **Thời gian**         | –                                                           | Xác định hoạt động, ước lượng thời gian, sắp xếp thứ tự, phân bổ tài nguyên, lập tiến độ | –                                                   | Theo dõi tiến độ, cập nhật lịch trình, xử lý chậm trễ    | –                                             |
+| **Chi phí**           | –                                                           | Ước lượng chi phí từng hạng mục, xác định ngân sách, phân bổ vốn                         | –                                                   | So sánh chi phí thực tế với kế hoạch, kiểm soát vượt chi | –                                             |
+| **Chất lượng**        | –                                                           | Xác định tiêu chuẩn chất lượng, chỉ số kiểm thử                                          | Thực hiện bảo đảm chất lượng, tuân thủ quy trình    | Kiểm tra sản phẩm, chạy test, kiểm soát sai lỗi          | –                                             |
+| **Nhân lực**          | –                                                           | Lập kế hoạch nhân sự, mô tả vai trò – trách nhiệm                                        | Tuyển chọn/điều phối nhân sự, đào tạo, gắn kết nhóm | Đánh giá hiệu suất, điều chỉnh nhân sự                   | –                                             |
+| **Giao tiếp**         | –                                                           | Xác định thông tin cần trao đổi, chọn kênh (họp, email, chat), tần suất báo cáo          | Tổ chức họp, truyền thông tin, cập nhật tình hình   | Theo dõi hiệu quả truyền thông, xử lý hiểu lầm           | –                                             |
+| **Rủi ro**            | –                                                           | Nhận diện rủi ro, phân tích định tính & định lượng, lập kế hoạch ứng phó                 | Triển khai hành động ứng phó (dự phòng, giảm thiểu) | Theo dõi rủi ro, phát hiện mới, cập nhật kế hoạch        | –                                             |
+| **Mua sắm**           | –                                                           | Xác định nhu cầu thuê ngoài/mua sắm, lập HĐ & tiêu chí lựa chọn NCC                      | Tiến hành đấu thầu, ký hợp đồng, quản lý NCC        | Theo dõi tiến độ & chất lượng NCC cung cấp               | Nghiệm thu, thanh lý hợp đồng                 |
+| **Các bên liên quan** | Nhận diện stakeholder chính, phân tích quyền lực – quan tâm | Lập chiến lược tham gia của stakeholder, kế hoạch tương tác                              | Tổ chức họp stakeholder, duy trì quan hệ            | Giám sát sự tham gia, xử lý xung đột lợi ích             | –                                             |
+
+## Tổng quan về Waterfall và Scrum
 
