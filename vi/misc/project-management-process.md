@@ -145,5 +145,77 @@ Khi kết hợp, chúng tạo nên một *"bản đồ toàn diện"* cho dự �
 | **Mua sắm**           | –                                                           | Xác định nhu cầu thuê ngoài/mua sắm, lập HĐ & tiêu chí lựa chọn NCC                      | Tiến hành đấu thầu, ký hợp đồng, quản lý NCC        | Theo dõi tiến độ & chất lượng NCC cung cấp               | Nghiệm thu, thanh lý hợp đồng                 |
 | **Các bên liên quan** | Nhận diện stakeholder chính, phân tích quyền lực – quan tâm | Lập chiến lược tham gia của stakeholder, kế hoạch tương tác                              | Tổ chức họp stakeholder, duy trì quan hệ            | Giám sát sự tham gia, xử lý xung đột lợi ích             | –                                             |
 
-## Tổng quan về Waterfall và Scrum
+## Tổng quan về Waterfall 🌊 và Scrum ⚡
+Bạn cứ thử hình dung: phát triển phần mềm cũng giống như xây nhà 🏠. Không thể cứ gom gạch, xi măng rồi xây tùy hứng. Ta cần một *"mô hình"* - tức phương pháp, quy trình chuẩn để định hướng, xây dựng một cách hiệu quả.
 
+Trong ngành, nhiều mô hình phát triển phần mềm đã ra đời. Nhưng **hai mô hình** phổ biến nhất tính đến nay là: **Waterfall và Scrum**.
+
+### Mô hình Thác nước - Waterfall
+Được giới thiệu bởi **Winston W. Royce (1970)** và sau đó phổ biến trong bài báo của **Bell & Thayer (1976)**. Mô hình thác nước mô tả các công việc phát triển phần mềm được triển khai theo **chuỗi các giai đoạn tuyến tính**. Chỉ khi một giai đoạn hoàn thành, thì mới chuyển sang giai đoạn tiếp theo, giống như nước chảy từ bậc thang cao xuống bậc thang thấp hơn vậy.
+
+%% ![[Pasted image 20250930100512.png|center|500]] %%
+
+Các pha/giai đoạn trong Waterfall:
+
+1. **Định nghĩa yêu cầu**: thu thập và ghi lại yêu cầu đầy đủ của nhà tài trợ và các bên liên quan về sản phẩm, dịch vụ phần mềm. Chúng sẽ được tài liệu hóa để đặc tả các yêu cầu chức năng, phi chức năng, ...
+2. **Thiết kế hệ thống**: thiết kế kiến trúc tổng thể & chi tiết, dựa trên phân tích các yêu cầu phần mềm (tài liệu đặc tả).
+3. **Cài đặt và kiểm thử đơn vị**: cài đặt toàn bộ đơn vị chương trình và kiểm thử chúng để đảm bảo hoạt động như mong muốn. Lỗi trong quá trình kiểm thử cũng sẽ được sửa trong pha này
+4. **Kiểm thử tích hợp và hệ thống**: Kiểm thử các chức năng lớn hơn (được tạo ra nhờ quá trình tích hợp các đơn vị) và kiểm thử toàn bộ hệ thống để đảm bảo chất lượng phần mềm 
+5. **Vận hành và bảo trì**: đưa vào sử dụng (bàn giao thành phẩm) và hỗ trợ, sửa lỗi mới được phát hiện bởi người dùng hoặc nâng cấp chức năng nhằm thỏa mãn, hỗ trợ tốt nhất cho công việc của họ
+
+> [!check] Ưu điểm
+> - Rõ ràng, dễ hiểu, dễ quản lý tiến độ từng giai đoạn.
+> - Có tài liệu đầy đủ, giúp dễ dàng theo dõi, kiểm soát chất lượng và bàn giao.
+> - Phù hợp với dự án có yêu cầu ổn định, ít thay đổi.
+> - Thích hợp cho dự án lớn, phức tạp, cần tuân thủ nghiêm ngặt về quy trình.
+> - Dễ đánh giá hiệu quả, ước lượng chi phí và thời gian từ đầu dự án.
+
+> [!missing] Nhược điểm
+> - Khó thích nghi với thay đổi yêu cầu khi dự án đã tiến triển.
+> - Giai đoạn sau không thể bắt đầu trước khi giai đoạn trước hoàn thành → kém linh hoạt.
+> - Khó phát hiện lỗi sớm, thường chỉ phát hiện khi kiểm thử tích hợp hoặc nghiệm thu.
+> - Không phù hợp với dự án cần lặp nhanh, thử nghiệm liên tục hoặc sản phẩm mới chưa rõ yêu cầu.
+> - Thường tốn thời gian cho việc chuẩn hóa và tạo tài liệu, có thể làm chậm tiến độ.
+
+> [!info] Lưu ý
+> Trong thực tế, Waterfall không tuyến tính *"tuyệt đối"*, mà có sự đan xen, bổ sung và hỗ trợ lẫn nhau giữa các pha/giai đoạn. Vi dụ: chỉ khi tiến hành **thiết kế hệ thống** thì ta mới phát hiện ra một số yêu cầu chưa đủ chi tiết hoặc còn thiếu sót.
+
+### Mô hình Scrum - Agile
+
+%% mô hình Scrum - Agile %%
+
+Nếu Waterfall giống xây nhà từ A-Z theo bản thiết kế cố định, thì **Scrum** lại giống việc làm sản phẩm theo kiểu *"ra bản nháp trước, rồi liên tục cải tiến"* ✨.
+- **Đặc trưng chính**: Làm việc theo **Sprint** (chu kỳ ngắn 1-4 tuần).
+- **Vai trò trong Scrum**:
+    - **Product Owner**: đại diện khách hàng, quyết định tính năng ưu tiên.
+    - **Scrum Master**: hỗ trợ nhóm, gỡ vướng mắc.
+    - **Development Team**: đội phát triển đa kỹ năng.
+
+Quy trình làm việc trong Scrum:
+1. **Product Backlog**: danh sách tất cả tính năng, yêu cầu.
+2. **Sprint Planning**: chọn việc sẽ làm trong Sprint.
+3. **Sprint Execution**: đội phát triển làm việc & họp ngắn hằng ngày (Daily Scrum).
+4. **Sprint Review**: trình bày sản phẩm cho khách hàng.
+5. **Sprint Retrospective**: rút kinh nghiệm để cải thiện cho các Sprint kế tiếp.
+
+> [!check] Ưu điểm
+> - Linh hoạt, thích ứng nhanh với thay đổi yêu cầu
+> - Phát triển sản phẩm theo từng Sprint → có giá trị gia tăng sớm, có thể bàn giao từng phần
+> - Tăng tính minh bạch và tương tác giữa đội dự án và khách hàng.
+> - Phát hiện lỗi sớm, giảm rủi ro nhờ kiểm thử liên tục và phản hồi nhanh.
+> - Thúc đẩy sự chủ động, trách nhiệm của từng thành viên trong nhóm.
+
+> [!missing] Nhược điểm
+> - Cần đội ngũ có kỷ luật cao và kỹ năng tự quản lý tốt.
+> - Thiếu tài liệu chi tiết có thể gây khó khăn trong việc bàn giao hoặc bảo trì.
+> - Quản lý dự án phức tạp hơn khi dự án lớn hoặc đội nhóm phân tán.
+> - Cần cam kết liên tục từ khách hàng để duy trì Product Backlog và tham gia Sprint Review.
+> - Không dễ dự đoán chi phí, tiến độ chính xác từ đầu.
+
+### Liên hệ tới quản lý dự án
+
+%% Phần 3.4 %%
+
+## Hai loại dự án phầm mềm phổ biến
+
+%% phần 3.5 %%
