@@ -67,7 +67,7 @@ Quản lý dự án (Project Management) = **ứng dụng kiến thức, kỹ n�
 
 %% mermaid code for image %%
 
-PMI chia quản lý dự án thành **10 miền tri thức (knowledge areas)**:
+PMI chia quản lý dự án thành **10 miền tri thức (knowledge areas)**: ^7eeb7c
 1. **Phạm vi (Scope)**: Xác định và kiểm soát **những gì cần làm** và **không cần làm** trong dự án.
 
 2. **Thời gian (Time)**: Lập kế hoạch tiến độ, theo dõi deadline, đảm bảo dự án **xong đúng hạn**.
