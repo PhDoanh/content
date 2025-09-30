@@ -214,7 +214,7 @@ Quy trình làm việc trong Scrum:
 
 ### Liên hệ tới quản lý dự án
 
-%% Phần 3.4 %%
+
 
 ## Hai loại dự án phầm mềm phổ biến
 
