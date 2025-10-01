@@ -21,8 +21,6 @@ socialDescription: Nắm vững はじめる - ngữ pháp quan trọng JLPT N4 
 socialImage: fully qualified URL to preview image
 ---
 
-{9: related tags as bullets (skip #)}
-
 > [!bell]- Dành cho bạn học lần đầu
 > Để khai thác hiệu quả bài viết này, mình khuyên bạn nên đọc trước các bài viết sau:
 > - [[vi-jpg-notebook|Giới thiệu sổ tay Nhật ngữ]]: Trình bày cấu trúc, cách dùng, giải thích ký hiệu của sổ tay do mình biên soạn trong quá trình học tiếng Nhật.   
