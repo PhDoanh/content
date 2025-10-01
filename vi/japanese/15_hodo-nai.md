@@ -16,8 +16,6 @@ socialDescription: "{10: OG description (~100 chars)}"
 socialImage: "fully qualified URL to preview image"
 ---
 
-[JLPT N3 Grammar: ほど～ない (hodo~nai) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%81%bb%e3%81%a9%ef%bd%9e%e3%81%aa%e3%81%84-hodo-nai-meaning/)
-
 {9: related tags as bullets (skip #)}
 
 > [!bell]- Dành cho bạn học lần đầu
