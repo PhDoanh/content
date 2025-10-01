@@ -12,7 +12,7 @@ tags:
   - jlpt-n3
   - verb-conjugation
   - time-expression
-  - intermediate-japanese
+  - intermediate-level
 aliases:
   - 
 cssclasses:
@@ -30,27 +30,27 @@ socialImage: fully qualified URL to preview image
 
 %% voice audio in story %%
 
-> [!clear]- ハイ：ねえ、見て！あそこから猫が[[#Diễn tả chuyển động tiến lại gần hoặc ra xa|走ってきた]]よ！
-> Hải: Này, nhìn kìa! Có con mèo đang chạy lại đây từ đằng kia kìa!
+> [!clear]- **ハイ**：ねえ、見て！あそこから猫が[[#Diễn tả chuyển động tiến lại gần hoặc ra xa|走ってきた]]よ！
+> **Hải**: Này, nhìn kìa! Có con mèo đang chạy lại đây từ đằng kia kìa!
 ^f8a2d1
 
-> [!clear]- タオ：本当だ！可愛いね。最近この公園に野良猫が[[#Diễn tả sự thay đổi cho đến nay|増えてきた]]みたいだね。
-> Tào: Thật này! Dễ thương ghê. Hình như dạo gần đây mèo hoang ở công viên này đã tăng lên rồi nhỉ.
+> [!clear]- **タオ**：本当だ！可愛いね。最近この公園に野良猫が[[#Diễn tả sự thay đổi cho đến nay|増えてきた]]みたいだね。
+> **Tèo**: Thật này! Dễ thương ghê. Hình như dạo gần đây mèo hoang ở công viên này đã tăng lên rồi nhỉ.
 ^c3b529
 
-> [!clear]- ハイ：うん。でも心配だな。これからもっと[[#Diễn tả sự thay đổi trong thời gian tới|寒くなっていく]]から、猫たちは大丈夫かな？
-> Hải: Ừ. Nhưng mà lo thật. Từ giờ trời sẽ trở lạnh hơn, không biết bọn mèo có ổn không nhỉ?
+> [!clear]- **ハイ**：うん。でも心配だな。これからもっと[[#Diễn tả sự thay đổi trong thời gian tới|寒くなっていく]]から、猫たちは大丈夫かな？
+> **Hải**: Ừ. Nhưng mà lo thật. Từ giờ trời sẽ trở lạnh hơn, không biết bọn mèo có ổn không nhỉ?
 ^9e4f71
 
-> [!clear]- タオ：そうだね...あ、ちょっとコンビニに餌を[[#Diễn tả hành động và quay trở lại|買ってくる]]ね。待ってて！
-> Tào: Ừ nhỉ... À, để mình đi cửa hàng tiện lợi mua đồ ăn cho chúng rồi quay lại ngay. Đợi tí nhé!
+> [!clear]- **タオ**：そうだね...あ、ちょっとコンビニに餌を[[#Diễn tả hành động và quay trở lại|買ってくる]]ね。待ってて！
+> **Tèo**: Ừ nhỉ... À, để mình đi cửa hàng tiện lợi mua đồ ăn cho chúng rồi quay lại ngay. Đợi tí nhé!
 ^6d8a3e
 
-> [!clear]- ハイ：あらら！優しいね。あっ、猫がまた向こうに**走っていった**...
-> Hải: Ái chà! Cậu tốt bụng nhỉ. A, con mèo lại chạy ra đằng kia mất rồi...
+> [!clear]- **ハイ**：あらら！優しいね。あっ、猫がまた向こうに**走っていった**...
+> **Hải**: Ái chà! Cậu tốt bụng nhỉ. A, con mèo lại chạy ra đằng kia mất rồi...
 
-> [!clear]- タオ：大丈夫、すぐ**戻ってくる**よ。お腹が空いているはずだから。
-> Tào: Không sao, nó sẽ quay lại thôi. Chắc nó đang đói bụng lắm.
+> [!clear]- **タオ**：大丈夫、すぐ**戻ってくる**よ。お腹が空いているはずだから。
+> **Tèo**: Không sao, nó sẽ quay lại thôi. Chắc nó đang đói bụng lắm.
 
 ## Cấu trúc ngữ pháp 🔍
 - **Vて + いく**: Thể hiện sự chuyển động ra xa, sự thay đổi/tiếp diễn trong tương lai tới
