@@ -35,7 +35,8 @@ socialImage: "fully qualified URL to preview image"
 ```
 
 ## Cấu trúc ngữ pháp 🔍
-{1: full grammar pattern as bullets for each combination (with verb, adjective, noun, ...) using form `- combination: meaning`}
+- **N + ほど～ない**: không... bằng N
+- **Vる + ほど～ない**: không... đến mức như V
 
 ## Cách dùng cơ bản 🗝️
 
