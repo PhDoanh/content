@@ -41,7 +41,7 @@ Công việc quản lý dự án xoay quanh [[project-management#^7eeb7c|10 mi�
 
 ### Nhóm quy trình Lập kế hoạch
 
-**Mục tiêu chính:** Tạo **bản kế hoạch quản lý dự án** toàn diện — kế hoạch tổng thể và kế hoạch cho từng miền tri thức (phạm vi, thời gian, chi phí, chất lượng, rủi ro, giao tiếp, nhân lực, mua sắm, bên liên quan, tích hợp).
+**Mục tiêu chính:** Tạo **bản kế hoạch quản lý dự án** toàn diện - kế hoạch tổng thể và kế hoạch cho từng miền tri thức (phạm vi, thời gian, chi phí, chất lượng, rủi ro, giao tiếp, nhân lực, mua sắm, bên liên quan, tích hợp).
 
 **Hoạt động tiêu biểu**
 - Xác định và phân tích yêu cầu, tạo **WBS** (Work Breakdown Structure).
@@ -103,13 +103,15 @@ Công việc quản lý dự án xoay quanh [[project-management#^7eeb7c|10 mi�
 - Tập hợp, lưu trữ tài liệu dự án (lessons learned, tài liệu bàn giao, người chịu trách nhiệm vận hành).
 - Giải thể đội dự án hoặc chuyển nhân lực sang các nhiệm vụ khác.
 
-
 > [!example]- Ví dụ
 > CRM: khách hàng ký biên bản nghiệm thu, PM nộp báo cáo đóng dự án, chuyển giao tài liệu hướng dẫn vận hành cho bộ phận vận hành, họp rút kinh nghiệm.
 
 **Kết quả/đặc trưng hoàn thành**
 - **Biên bản chấp nhận toàn bộ sản phẩm bàn giao**; tài liệu đóng dự án; cập nhật kho tri thức tổ chức (lessons learned).
 - Dự án chính thức kết thúc; tài nguyên tái phân bổ cho tổ chức.
+
+> [!info] Lưu ý
+> Trong trường hợp các bên liên quan không phản hồi xác nhận cho toàn bộ dự án, nhà quản lý dự án cần thực hiện thủ tục đưa vấn đề lên cấp cao hơn, tức là liên hệ - báo cáo với các cấp cao để họ giải quyết vấn đề
 
 ## Mối quan hệ giữa các nhóm quy trình 🤝
 
