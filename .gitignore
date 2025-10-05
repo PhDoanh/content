@@ -4,8 +4,8 @@
 private/*
 
 # Ignore Infio folder
-.infio_json_db
-_infio_prompts
+.infio_json_db/*
+_infio_prompts/*
 
 # Ignore Smart Environment folder
-.smart-env
+.smart-env/*
