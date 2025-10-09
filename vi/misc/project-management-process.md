@@ -115,7 +115,7 @@ Công việc quản lý dự án xoay quanh [[project-management#^7eeb7c|10 mi�
 
 ## Mối quan hệ giữa các nhóm quy trình 🤝
 
-![[Pasted image 20250930090014.png|center|500]]
+%% ![[Pasted image 20250930090014.png|center|500]] %%
 
 1. Dự án bắt đầu với các công việc trong nhóm quy trình **Khởi tạo**.
 2. Sau đó tiến hành các nhóm quy trình **Lập kế hoạch - Thực hiện - Giám sát** một cách liên tục và lặp lại. Khi thực hiện, luôn có những yêu cầu phát sinh hoặc sai khác so với kế hoạch, nên ta cần kiểm tra giám sát thay đổi để giữ dự án không chệch quy đạo ban đầu. Điều này có thể dẫn đến một số điều chỉnh trong phương pháp thực hiện hoặc cập nhật kế hoạch cho phù hợp với tình huống
