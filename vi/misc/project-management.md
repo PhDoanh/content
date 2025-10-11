@@ -42,7 +42,7 @@ Theo **PMI (Project Management Institute)**, dự án là một **nỗ lực t�
 # Tiêu chí đánh giá sự thành công ✅
 
 Khi nào thì một dự án được coi là thành công? 🤔  
-Câu trả lời nằm ở **bộ ba ràng buộc (triple constraint)**:
+Câu trả lời nằm ở **bộ ba ràng buộc (triple constraint)**: ^929dd7
 
 1. **Phạm vi (Scope)**: có đúng yêu cầu, đủ tính năng không?
 
