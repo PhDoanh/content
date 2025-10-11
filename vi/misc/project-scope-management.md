@@ -184,6 +184,205 @@ Thu thập yêu cầu là **giai đoạn đầu tiên và nền tảng** trong q
 > - Sử dụng **ngôn ngữ dễ hiểu, không quá kỹ thuật** khi giao tiếp với người dùng.
 > - Tích hợp các công cụ như Jira, Trello, Miro,… để **quản lý và theo dõi tiến trình thu thập yêu cầu** hiệu quả hơn.
 
+## Tạo cấu trúc phân rã công việc
 
+### Xác định phạm vi dự án
+Sau khi đã thu thập đầy đủ và chính xác các yêu cầu của phần mềm cần phát triển, **bước tiếp theo** trong quản lý phạm vi là **xác định phạm vi dự án**. Việc này là nền tảng để xây dựng **cấu trúc phân rã công việc (Work Breakdown Structure - WBS)** của dự án.
 
+Nếu như **yêu cầu phần mềm** là những đòi hỏi về **chức năng** và **đặc trưng** mà sản phẩm phải có, thì **phạm vi dự án** lại xác định rõ **những việc cần làm và không cần làm** trong dự án để có thể tạo ra sản phẩm bàn giao cuối cùng.
+
+#### Vai trò và ý nghĩa
+Việc xác định phạm vi dự án có **ý nghĩa đặc biệt quan trọng** vì nó:
+- Giúp **cải thiện độ chính xác** khi **ước lượng thời gian, chi phí và tài nguyên** cho dự án.
+- Đặt ra **các mốc đo lường tiến độ** và **hiệu quả** của dự án.
+- Làm **rõ vai trò và trách nhiệm** của từng bên tham gia, tránh trùng lặp hoặc bỏ sót công việc.
+
+#### Đầu vào của xác định phạm vi
+Để thực hiện được bước này, nhóm dự án cần dựa vào các tài liệu:
+- **Tài liệu mô tả thông tin sơ bộ của dự án** (Project Charter hoặc các bản ghi nhớ ban đầu).
+- **Tài liệu yêu cầu sản phẩm** (Product Requirements).
+- **Phân tích của chuyên gia về sản phẩm**, bao gồm đánh giá kỹ thuật, chức năng, và giá trị kinh doanh.
+
+#### Đầu ra của xác định phạm vi
+Kết quả của quy trình này là **Tuyên ngôn phạm vi dự án (Project Scope Statement)** và các **cập nhật cần thiết cho các quy trình của dự án**. Thông thường, **bản tuyên ngôn phạm vi** bao gồm:
+
+1. **Mô tả phạm vi sản phẩm** – trình bày chi tiết các chức năng, tính năng và giới hạn của sản phẩm.
+2. **Tiêu chí chấp nhận sản phẩm của người dùng** – nêu rõ các điều kiện để sản phẩm được công nhận là hoàn thành, ví dụ như độ chính xác, hiệu năng, giao diện, tính ổn định...
+3. **Thông tin chi tiết về các sản phẩm bàn giao (deliverables)** của dự án, bao gồm sản phẩm chính, sản phẩm phụ, tài liệu kèm theo.
+4. **Tiêu chí chấp nhận cho từng sản phẩm bàn giao**, ví dụ tiêu chuẩn kiểm thử, kết quả mong đợi, hình thức nghiệm thu.
+5. **Các biên, ràng buộc và giả định của dự án**, như giới hạn về nguồn lực, thời gian, công nghệ, hoặc yếu tố pháp lý.
+
+### Tạo bảng phân rã công việc
+Bảng phân rã công việc (Work Breakdown Structure - WBS) là **một công cụ nền tảng trong quản lý dự án**, giúp chia nhỏ toàn bộ phạm vi công việc của dự án thành **những phần tử nhỏ hơn, dễ quản lý và dễ kiểm soát**.  
+
+👉 Nói cách khác, WBS giúp biến *"toàn bộ dự án"* thành các phần việc có thể đo lường, theo dõi và giao trách nhiệm cụ thể cho từng người hay nhóm.
+
+Mục tiêu chính:
+- Giúp **hiểu rõ phạm vi dự án**.
+- Hỗ trợ **ước lượng chi phí, thời gian, và nguồn lực chính xác hơn**.
+- Là cơ sở cho việc **lập lịch, phân công nhiệm vụ và kiểm soát tiến độ**.
+
+#### Phương pháp tạo lập WBS
+
+##### Phương pháp sử dụng hướng dẫn
+
+Nếu tổ chức đã có sẵn **hướng dẫn hoặc biểu mẫu** để tạo WBS, ta cần tuân thủ chúng.  
+Những hướng dẫn này thường được đúc kết thành *"từ điển WBS"*, mô tả chi tiết các công việc phổ biến trong các dự án trước đó
+
+Ngoài hướng dẫn nội bộ, ta có thể tham khảo **các tổ chức uy tín quốc tế** như:
+- PMI (Project Management Institute) - cung cấp mẫu WBS trong sách PMI19.
+- Chuẩn **ISO 21511:2018** - hướng dẫn về WBS cho các loại dự án (web, viễn thông, gia công dịch vụ, cài đặt phần mềm, ...)  
+
+> [!check] Ưu điểm
+> - Tiết kiệm thời gian: dựa trên các mẫu WBS sẵn có của tổ chức.
+> - Đảm bảo **tính nhất quán và chuẩn hóa** giữa các dự án trong cùng doanh nghiệp.
+> - Giảm nguy cơ bỏ sót công việc, đặc biệt với **dự án lặp lại hoặc tương tự**.
+> - Thường đi kèm **“từ điển WBS”** (WBS Dictionary) giúp mô tả rõ từng hạng mục.
+
+> [!missing] Nhược điểm
+> - Có thể **không linh hoạt**, chưa phù hợp hoàn toàn với đặc thù dự án mới.
+> - Dễ dẫn đến **tư duy rập khuôn**, bỏ qua cơ hội tối ưu hóa hoặc đổi mới.
+> - Nếu mẫu gốc chưa được cập nhật, có thể mang theo lỗi hoặc phần việc không còn cần thiết.
+
+##### Phương pháp tương tự
+
+Phương pháp này dựa trên **kinh nghiệm từ các dự án tương tự trước đó**. Nhà quản lý dự án và đội ngũ xem lại WBS của các dự án có đặc điểm tương đồng (quy mô, lĩnh vực, công nghệ, đối tượng khách hàng) rồi điều chỉnh lại cho phù hợp với dự án mới.  
+
+> [!check] Ưu điểm
+> - Dựa trên **kinh nghiệm thực tế** từ các dự án tương tự → đáng tin cậy.
+> - Tiết kiệm công sức phân rã vì đã có **mẫu logic về cấu trúc công việc**.
+> - Hữu ích khi tổ chức có **cơ sở dữ liệu dự án (project repository)**.
+
+> [!missing] Nhược điểm
+> - Chỉ phù hợp khi **dự án mới thực sự giống** với dự án cũ (về phạm vi, công nghệ, quy mô).
+> - Dễ **sao chép thiếu kiểm chứng**, dẫn đến sai lệch khi điều kiện dự án thay đổi.
+> - Có thể **bỏ qua các rủi ro hoặc yêu cầu đặc thù** của dự án mới.
+
+##### Phương pháp từ trên xuống
+
+Bắt đầu từ **mục tiêu lớn nhất của dự án**, sau đó **phân rã dần thành các phần nhỏ hơn**: Từ toàn bộ dự án → các giai đoạn → các chức năng → các công việc chi tiết.  
+
+> [!check] Ưu điểm
+> - Giúp **duy trì tầm nhìn tổng thể**, đảm bảo mọi công việc đều hướng đến mục tiêu chung.
+> - Dễ quản lý và **thống nhất cách tiếp cận trong giai đoạn lập kế hoạch**.
+> - Hữu ích khi phạm vi dự án đã rõ, có tài liệu mô tả tổng thể chi tiết.
+> - Giúp **nhà quản lý cấp cao dễ tham gia và kiểm soát định hướng**.
+
+> [!missing] Nhược điểm
+> - **Nguy cơ bỏ sót công việc nhỏ** nếu chỉ nhìn từ góc độ tổng thể.
+> - Có thể thiếu sự tham gia của **nhân viên kỹ thuật**, dẫn đến thiếu chi tiết thực tế.
+> - Không phù hợp với **dự án có nhiều phần việc chưa rõ ràng hoặc mới mẻ**.
+
+##### Phương pháp từ dưới lên
+
+Ngược lại với phương pháp trên, phương pháp này **bắt đầu từ việc liệt kê các đầu việc nhỏ nhất**, sau đó **gom nhóm dần thành các hạng mục lớn hơn**.  
+
+> [!check] Ưu điểm
+> - Phù hợp khi **thành viên đội dự án hiểu rõ các chi tiết kỹ thuật**.
+> - Giúp **bao quát đầy đủ mọi công việc nhỏ**, giảm nguy cơ bỏ sót.
+> - Thúc đẩy **sự tham gia và cam kết của các thành viên** vì họ trực tiếp đóng góp.
+
+> [!missing] Nhược điểm
+> - **Thiếu cái nhìn tổng thể**, dễ dẫn đến trùng lặp hoặc phân bổ không logic.
+> - Mất thời gian tổng hợp và chuẩn hóa cấu trúc.
+> - Dễ “sa đà” vào chi tiết kỹ thuật mà quên mất mục tiêu cấp cao.
+
+##### Phương pháp bản đồ tư duy
+
+Đây là phương pháp **trực quan hóa nội dung dự án bằng sơ đồ cây**. Từ **trung tâm là tên dự án**, ta **vẽ nhánh chính cho từng nhóm công việc lớn**, rồi **phân nhánh nhỏ dần** cho các hạng mục chi tiết hơn.  
+
+> [!check] Ưu điểm
+> - Cực kỳ **trực quan và dễ hiểu**, phù hợp cho các buổi brainstorming nhóm.
+> - Kích thích **tư duy sáng tạo và mở rộng ý tưởng**.
+> - Dễ dàng điều chỉnh, thêm hoặc bớt nhánh công việc.
+> - Giúp **thấy rõ mối quan hệ giữa các hạng mục** ngay từ đầu.
+
+> [!missing] Nhược điểm
+> - Thiếu **tính chuẩn hóa** khi chuyển đổi sang định dạng WBS chính thức.
+> - Có thể **khó ước lượng hoặc định nghĩa chi tiết đầu ra** cho từng nhánh nếu không có quy ước rõ ràng.
+> - Dễ bị cảm tính nếu nhóm chưa quen phương pháp này.
+
+#### Tiêu chí của một WBS tốt
+
+Một WBS được đánh giá là **“tốt”** khi:
+- Bao quát **toàn bộ công việc** cần làm để tạo ra sản phẩm bàn giao.
+- Được **tổ chức có hệ thống, dễ hiểu và dễ theo dõi**.
+- Là **cơ sở cho lập lịch, ước lượng chi phí, quản lý nguồn lực, kiểm soát thay đổi và rủi ro.**
+
+> [!info] Lưu ý
+> - Các **mục công việc trong WBS phải mô tả rõ ràng, có thể đo lường và bàn giao được.**
+> - Nên **đảm bảo WBS bao quát toàn bộ phạm vi dự án**, không thừa, không thiếu.
+> - WBS cần được **rà soát, thống nhất với các bên liên quan** để đảm bảo tính chính xác.
+> - Mỗi phần việc nên có **một người hoặc nhóm chịu trách nhiệm rõ ràng**.
+
+### Trình bày bảng phân rã công việc
+
+Tại sao phải làm vậy? Bởi vì trong một dự án, **mỗi vai trò** (như nhà tài trợ, nhà quản lý, lập trình viên, tester,…) có **mối quan tâm và trách nhiệm khác nhau**. Do đó, cùng một bảng phân rã công việc (Work Breakdown Structure - WBS) nhưng sẽ có **nhiều cách trình bày khác nhau** tùy theo góc nhìn. Có **ba cách phổ biến để trình bày WBS**, cụ thể như sau 👇
+
+#### Trình bày theo sản phẩm
+
+%% ![[Pasted image 20251011165311.png]] %%
+
+Đây là **cách trình bày được quan tâm nhiều nhất** bởi cả **nhà tài trợ dự án**, **các bên liên quan**, và **nhà quản lý dự án**.  
+Nhà tài trợ - người bỏ vốn cho dự án, thường chỉ quan tâm: *"Khi nào tôi sẽ nhận được sản phẩm hoặc từng phần chức năng của sản phẩm?"*
+
+Do đó, **WBS theo hướng sản phẩm** giúp họ dễ dàng nhìn thấy **thời điểm hoàn thành của từng thành phần** trong sản phẩm tổng thể.  
+
+Nhà quản lý dự án (PM) cũng thường xuyên làm việc với các bên này, nên cách trình bày này **giúp PM nắm bắt rõ mong đợi của khách hàng** và có thể **trao đổi, thương lượng phạm vi hoặc tiến độ phù hợp** để đảm bảo sự hài lòng.
+
+#### Trình bày theo trình tự công việc
+
+%% ![[Pasted image 20251011165348.png]] %%
+
+Khác với góc nhìn của nhà tài trợ, nhà quản lý dự án phải đặc biệt quan tâm đến **lịch trình và thứ tự công việc**. Trong các dự án phần mềm, trình tự này thường được **tổ chức theo các pha của quy trình phát triển phần mềm** (ví dụ: Thu thập yêu cầu → Phân tích → Thiết kế → Lập trình → Kiểm thử → Triển khai).
+
+Với WBS được tổ chức theo **trình tự công việc**, người quản lý sẽ dễ dàng nhận biết:
+- Nếu **chưa hoàn thành thu thập yêu cầu**, thì **chưa thể thiết kế**.
+- Nếu **chưa thiết kế xong**, thì **chưa thể lập trình được**.
+
+Nhờ đó, PM có thể **can thiệp hoặc điều chỉnh kế hoạch kịp thời** để đưa dự án quay lại đúng tiến độ. Nói chung, cách trình bày này cực kỳ hữu ích cho việc **kiểm soát tiến độ dự án**.
+
+#### Trình bày theo vai trò trong dự án
+
+%% ![[Pasted image 20251011165413.png]] %%
+
+Cách này nhìn dự án **theo góc độ nhân sự và trách nhiệm cá nhân**.  
+Trong một dự án phần mềm, mỗi thành viên đảm nhận một vai trò riêng: Nhân viên phân tích nghiệp vụ (BA), Kiến trúc sư phần mềm (Architect), Nhà thiết kế giao diện UI/UX, ...
+
+Mỗi người có **nhiệm vụ cụ thể**, và họ quan tâm nhất đến **phần việc mình chịu trách nhiệm**.  👉 Do đó, **WBS theo vai trò** giúp từng thành viên **thấy rõ phần công việc của mình**, dễ **theo dõi và kiểm soát tiến độ cá nhân**.
+
+## Thẩm định phạm vi dự án
+
+Thẩm định phạm vi dự án (Project Scope Validation) là **quá trình xem xét và xác nhận kết quả công việc của dự án** (tức là các sản phẩm, dịch vụ, hoặc kết quả trung gian) để đảm bảo rằng chúng **được hoàn thành đúng theo yêu cầu và tiêu chuẩn đã được phê duyệt** trong tài liệu phạm vi. 
+
+1. Mục đích của quá trình thẩm định
+	- **Đảm bảo tính đầy đủ và chính xác** của phạm vi dự án đã được thực hiện.
+	- **Xác nhận sự chấp nhận của khách hàng hoặc người bảo trợ** đối với sản phẩm bàn giao.
+	- **Phát hiện sớm các sai sót hoặc khác biệt** giữa sản phẩm thực tế và yêu cầu đã định.
+	- **Tăng tính minh bạch và trách nhiệm** giữa nhóm dự án và bên liên quan.
+
+2. Đầu vào cho quá trình thẩm định
+	- **Kế hoạch quản lý phạm vi dự án**: (mô tả cách thức xác định, xác minh và kiểm soát phạm vi).
+	- **Tuyên bố phạm vi dự án (Project Scope Statement)** - mô tả chi tiết phạm vi và tiêu chí chấp nhận sản phẩm.
+	- **Các yêu cầu của khách hàng hoặc hợp đồng dự án.**
+	- **Kết quả công việc đã hoàn thành.**
+	- **Sổ đăng ký yêu cầu thay đổi** (nếu có thay đổi đã được phê duyệt).
+
+3. Phương pháp thẩm định phạm vi
+	- **Xem xét tài liệu (Document Review):** so sánh sản phẩm đầu ra với yêu cầu đã ghi nhận.
+	- **Kiểm tra trực quan (Inspection):** kiểm tra thực tế sản phẩm, tính năng hoặc bản demo.
+	- **Thử nghiệm, trình diễn (Testing/Demo):** cho khách hàng dùng thử hoặc chứng minh kết quả.
+	- **Hội thảo, họp đánh giá (Review Meeting):** thảo luận trực tiếp giữa các bên liên quan để xác nhận kết quả.
+
+4. Kết quả (đầu ra) của thẩm định phạm vi
+	- **Danh sách hạng mục được chấp nhận** - những phần đã được khách hàng hoặc các bên liên quan ký duyệt.
+	- **Danh sách hạng mục bị từ chối hoặc cần sửa đổi**, kèm lý do và kế hoạch xử lý.
+	- **Tài liệu xác nhận bàn giao sản phẩm (Acceptance Documentation).**
+
+> [!info] Lưu ý
+> - Quá trình thẩm định **không phải là kiểm thử kỹ thuật (testing)** mà là **kiểm thử về phạm vi** - tức là xác định xem *đã làm đúng cái cần làm chưa*, chứ không phải *làm đúng cách chưa*.
+> - Nếu dự án phần mềm, thẩm định thường diễn ra sau mỗi **phiên bản bàn giao (iteration hoặc sprint)**, thông qua **các buổi review hoặc demo** cho khách hàng.    
+> - Việc ghi nhận rõ ràng biên bản chấp thuận giúp **tránh tranh chấp về sau**, đặc biệt trong hợp đồng dự án phần mềm theo mô hình Waterfall.
+
+## Giám sát phạm vi dự án
 
