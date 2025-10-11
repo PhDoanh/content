@@ -1,5 +1,5 @@
 ---
-stage: Draft
+stage: Publish
 draft: false
 title: Quản lý phạm vi dự án
 description:
