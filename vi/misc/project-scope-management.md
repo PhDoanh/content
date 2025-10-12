@@ -14,7 +14,7 @@ aliases:
 cssclasses:
   - img
 ---
-## Định nghĩa về phạm vi dự án 
+## Định nghĩa về phạm vi dự án 📘
 
 Trước khi quản lý phạm vi, ta cần hiểu *"phạm vi"* nghĩa là gì - nghe có vẻ đơn giản, nhưng trong dự án phần mềm thì nó chính là *"ranh giới vàng"* giữa việc **làm đúng** và **làm lan man** 😅. Theo PMI:
 
@@ -80,7 +80,7 @@ Một số lý do chính:
 
 => Tất cả những yếu tố trên khiến **phạm vi dự án phần mềm** luôn cần được **xác định, giám sát và cập nhật liên tục.**
 
-## Tầm quan trọng của phạm vi dự án
+## Tầm quan trọng của phạm vi dự án 🎯
 
 Phạm vi dự án (**Project Scope**) là phần nền tảng giúp xác định **giới hạn công việc** mà nhóm dự án cần thực hiện. Nó mô tả **những gì sẽ được làm** và **những gì sẽ không được làm**, để đảm bảo tất cả các bên liên quan hiểu và thống nhất về mục tiêu, kết quả đầu ra và các yêu cầu cụ thể của dự án.
 
@@ -101,7 +101,7 @@ Trong các dự án phần mềm, việc xác định rõ phạm vi dự án là
 5. **Là cơ sở đánh giá kết quả và thành công của dự án**  
     Cuối cùng, khi dự án hoàn thành, phạm vi chính là **tiêu chí đánh giá** xem dự án có đạt được những gì đã đề ra hay không. Nếu sản phẩm cuối cùng đáp ứng đủ yêu cầu trong phạm vi, dự án được xem là thành công.
 
-## Lập kế hoạch quản lý phạm vi dự án
+## Lập kế hoạch quản lý phạm vi dự án 🧭
 Lập kế hoạch **quản lý phạm vi dự án (Scope Management Plan)** là bước định hướng toàn bộ cách thức **xác định, kiểm soát và xác minh phạm vi công việc** trong suốt vòng đời dự án. Nói cách khác, đây là *"kim chỉ nam"* giúp mọi người hiểu rõ cách các phạm vi dự án được quản lý như thế nào.
 
 ### Mục tiêu, đầu ra và kỹ thuật lập kế hoạch
@@ -145,7 +145,7 @@ Kế hoạch quản lý phạm vi bao gồm các nội dung cốt lõi sau:
     - Liệt kê rõ ai chịu trách nhiệm xác định, cập nhật, phê duyệt phạm vi.
     - Ví dụ: _Project Manager_ chịu trách nhiệm tổng thể, _Business Analyst_ thu thập yêu cầu, _Customer_ xác nhận phạm vi.
 
-## Thu thập yêu cầu
+## Thu thập yêu cầu 🗣️
 Thu thập yêu cầu là **giai đoạn đầu tiên và nền tảng** trong quy trình phân tích yêu cầu của dự án phần mềm. Mục tiêu là **xác định, làm rõ, và ghi nhận đầy đủ nhu cầu của các bên liên quan**. Nếu làm không tốt, toàn bộ dự án có thể đi sai hướng, vì phần mềm được phát triển ra **không đúng hoặc không đủ chức năng** mà người dùng thực sự cần.
 
 1. Mục tiêu của việc thu thập yêu cầu
@@ -184,7 +184,7 @@ Thu thập yêu cầu là **giai đoạn đầu tiên và nền tảng** trong q
 > - Sử dụng **ngôn ngữ dễ hiểu, không quá kỹ thuật** khi giao tiếp với người dùng.
 > - Tích hợp các công cụ như Jira, Trello, Miro,… để **quản lý và theo dõi tiến trình thu thập yêu cầu** hiệu quả hơn.
 
-## Tạo cấu trúc phân rã công việc
+## Tạo cấu trúc phân rã công việc 🧮
 
 ### Xác định phạm vi dự án
 Sau khi đã thu thập đầy đủ và chính xác các yêu cầu của phần mềm cần phát triển, **bước tiếp theo** trong quản lý phạm vi là **xác định phạm vi dự án**. Việc này là nền tảng để xây dựng **cấu trúc phân rã công việc (Work Breakdown Structure - WBS)** của dự án.
@@ -351,7 +351,7 @@ Trong một dự án phần mềm, mỗi thành viên đảm nhận một vai tr
 
 Mỗi người có **nhiệm vụ cụ thể**, và họ quan tâm nhất đến **phần việc mình chịu trách nhiệm**.  👉 Do đó, **WBS theo vai trò** giúp từng thành viên **thấy rõ phần công việc của mình**, dễ **theo dõi và kiểm soát tiến độ cá nhân**.
 
-## Thẩm định phạm vi dự án
+## Thẩm định phạm vi dự án ✅
 
 Thẩm định phạm vi dự án (Project Scope Validation) là **quá trình xem xét và xác nhận kết quả công việc của dự án** (tức là các sản phẩm, dịch vụ, hoặc kết quả trung gian) để đảm bảo rằng chúng **được hoàn thành đúng theo yêu cầu và tiêu chuẩn đã được phê duyệt** trong tài liệu phạm vi. 
 
@@ -384,5 +384,21 @@ Thẩm định phạm vi dự án (Project Scope Validation) là **quá trình x
 > - Nếu dự án phần mềm, thẩm định thường diễn ra sau mỗi **phiên bản bàn giao (iteration hoặc sprint)**, thông qua **các buổi review hoặc demo** cho khách hàng.    
 > - Việc ghi nhận rõ ràng biên bản chấp thuận giúp **tránh tranh chấp về sau**, đặc biệt trong hợp đồng dự án phần mềm theo mô hình Waterfall.
 
-## Giám sát phạm vi dự án
+## Giám sát phạm vi dự án 🔍
+Trong quá trình triển khai, việc **phạm vi dự án bị thay đổi** là điều hầu như không thể tránh khỏi - đặc biệt là với **dự án phần mềm**. Người dùng thường **chưa xác định rõ** họ muốn gì trên từng giao diện chức năng, hoặc **hệ thống cần bao nhiêu chức năng** để hoàn thành một nghiệp vụ cụ thể. Ngược lại, **đội dự án** cũng **chưa chắc chắn** rằng thiết kế hiện tại của họ (luồng nghiệp vụ, giao diện, chức năng, ...) đã **đáp ứng đúng nhu cầu của người dùng** hay chưa.
 
+Chính vì vậy, **giám sát phạm vi dự án** đóng vai trò **kiểm soát toàn bộ các thay đổi xảy ra trong phạm vi**, nhưng **vẫn phải đảm bảo mục tiêu ban đầu của dự án và chiến lược kinh doanh của tổ chức** được giữ nguyên. Đây là **nhiệm vụ trung tâm** của giai đoạn giám sát.
+
+1. Mục tiêu của quản lý thay đổi phạm vi:
+	- Mục tiêu chính là **tác động đến những yếu tố có thể làm thay đổi phạm vi**, nhằm đảm bảo rằng **mọi thay đổi đều được quản lý theo quy trình đã xác định trước** trong **kế hoạch quản lý phạm vi dự án**.  
+	- Nói cách khác, khi có một thay đổi được đề xuất (ví dụ: bổ sung chức năng, điều chỉnh yêu cầu, thêm màn hình, thay đổi quy trình nghiệp vụ, v.v.), thì thay đổi đó **chỉ được phê duyệt và thực hiện** nếu nó đi **đúng quy trình** đã quy định.
+
+2. Cơ chế kiểm soát thay đổi
+	Trong những **dự án lớn**, việc kiểm soát thay đổi không chỉ do một người phụ trách, mà thường được **thực hiện bởi một "Ban kiểm soát thay đổi"** (_Change Control Board – CCB_). Ban này chịu trách nhiệm:
+	- Tiếp nhận và xem xét các đề xuất thay đổi.
+	- Đánh giá tác động của thay đổi đến thời gian, chi phí, chất lượng, và phạm vi.
+	- Quyết định phê duyệt hoặc từ chối thay đổi.
+	- Ghi nhận và cập nhật thay đổi được duyệt vào tài liệu dự án.
+
+3. Điều kiện tiên quyết để quản lý thay đổi hiệu quả
+	Công tác **quản lý thay đổi** chỉ có thể thực hiện **hiệu quả khi các bước thu thập yêu cầu và xác định phạm vi dự án ban đầu được làm tốt**.  Nếu phạm vi dự án chưa được xác định rõ hoặc khách hàng chưa đồng ý với các tiêu chí chấp nhận sản phẩm trong danh sách sản phẩm bàn giao, thì **không thể nói rằng phạm vi dự án đã thay đổi**, vì về bản chất, phạm vi đó **vẫn chưa được xác lập rõ ràng ngay từ đầu**.
