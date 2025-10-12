@@ -18,6 +18,7 @@ cssclasses:
 ---
 ![[Pasted image 20251012094137.png]]
 
+[JLPT N4 Grammar: 受身形 (ukemi) Passive Form Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e5%8f%97%e8%ba%ab%e5%bd%a2-ukemi-japanese-passive-form/)
 
 {9: related tags as bullets (skip #)}
 

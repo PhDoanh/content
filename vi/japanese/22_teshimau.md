@@ -16,6 +16,9 @@ aliases:
 cssclasses:
   - img
 ---
+![[Pasted image 20251012101359.png]]
+
+[JLPT N4 Grammar: てしまう / ちゃう (te shimau / chau) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%97%e3%81%be%e3%81%86-te-shimau-%e3%81%a1%e3%82%83%e3%81%86-meaning/)
 
 {9: related tags as bullets (skip #)}
 
