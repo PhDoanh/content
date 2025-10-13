@@ -1,7 +1,7 @@
 ---
 stage: Publish
 title: 9. ようだ・ように・ような「Chiều tối trên sân thượng」
-description: Học ngữ pháp tiếng Nhật ようだ・ように・ような - cách biểu đạt suy đoán, so sánh và mục đích. Hướng dẫn chi tiết với ví dụ thực tế cho JLPT N4-N3.
+description: Học ngữ pháp tiếng Nhật ようだ・ように・ような - cách biểu đạt suy đoán, so sánh. Hướng dẫn chi tiết với ví dụ thực tế cho JLPT N4-N3.
 permalink: ""
 lang: vi
 draft: false
@@ -48,15 +48,13 @@ socialImage: fully qualified URL to preview image
 > **Mai**: Ừ. Nhưng anh Sơn nhìn lên bầu trời tự do như chim vậy. Stress trong công việc có lẽ cũng chỉ như đám mây thoáng qua thôi.
 ^e3b8d1
 
-> [!clear]- **ソン**：いい例えですね。[[#Biểu thị mục đích hoặc ý định|元気になれるように]]、時々こうして空を見るのもいいかもしれません。
+> [!clear]- **ソン**：いい例えですね。元気になれるように、時々こうして空を見るのもいいかもしれません。
 > **Sơn**: Chị ví von hay quá. Thi thoảng ngắm bầu trời như thế này để có thể lấy lại tinh thần cũng hay đấy!
-^f6c4a7
 
 ## Cấu trúc ngữ pháp 🔍
 - **[V普通／Aい／Aな／Nの] + ようだ**: Suy đoán dựa trên quan sát
 - **[V普通／Aい／Aな／Nの] + ような + N**: So sánh đặc điểm tương tự
 - **[V普通／Aい／Aな／Nの] + ように + V／Aな／Aい**: So sánh cách thức hành động
-- **V可能 + ように**: Biểu thị mục đích có khả năng thực hiện
 
 ## Cách dùng cơ bản 🗝️
 
@@ -115,22 +113,6 @@ socialImage: fully qualified URL to preview image
 > - Có thể thay bằng **みたいに** trong văn nói thân mật
 > - **いつものように** = "như mọi khi" - thành ngữ phổ biến chỉ thói quen
 
-### Biểu thị mục đích hoặc ý định
-**ように** biểu thị mục đích hoặc ý định muốn đạt được điều gì đó. Thường đi kèm với động từ ở thể potential hoặc các động từ chỉ khả năng. [[9_youda-youni-youna#^f6c4a7|Về lại lời thoại ↑]]
-
-> [!clear]- みんなが理解できる**ように**説明します。
-> Tôi sẽ giải thích để mọi người có thể hiểu được.
-
-> [!clear]- 忘れない**ように**メモします。
-> Tôi ghi chú để không quên.
-
-> [!clear]- 健康でいられる**ように**運動します。
-> Tôi tập thể dục để có thể khỏe mạnh.
-
-> [!info] Lưu ý
-> - **ように** + động từ potential thể hiện mục đích rõ ràng
-> - Trong câu mục đích, chủ ngữ trước và sau **ように** thường khác nhau
-
 ## Cách dùng nâng cao 🔓
 
 > [!caution]- Content in progress
@@ -142,7 +124,7 @@ socialImage: fully qualified URL to preview image
 
 > [!important] Quan trọng
 > - **ようだ** thể hiện suy đoán dựa trên bằng chứng quan sát được, không phải chỉ cảm giác chủ quan
-> - **ように** có thể biểu thị cả so sánh và mục đích - cần phân biệt ngữ cảnh để hiểu đúng nghĩa
+> - **ように** có thể biểu thị cả so sánh và [[29_youni|mục đích]] - cần phân biệt ngữ cảnh để hiểu đúng nghĩa
 > - **ような** luôn đứng trước danh từ, tạo thành cụm từ miêu tả đặc điểm tương tự
 > - Trong văn nói, có thể rút gọn thành **みたい** (casual hơn) với nghĩa tương tự
 > - Chú ý phân biệt với **らしい** (dựa trên thông tin nghe được) và **そうだ** (dựa trên vẻ ngoài)
@@ -156,6 +138,6 @@ socialImage: fully qualified URL to preview image
 ## Tổng kết và giữ chuỗi 🔥
 Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số 9 đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
 
-Ngữ pháp **ようだ・ように・ような** là một bộ ba vô cùng quan trọng trong tiếng Nhật, giúp chúng ta biểu đạt sự so sánh, suy đoán và mục đích một cách tự nhiên. **ようだ** giúp đưa ra nhận định dựa trên quan sát, **ように** vừa có thể so sánh vừa biểu thị mục đích, còn **ような** dùng để miêu tả đặc điểm tương tự. Việc nắm vững ba cách dùng này sẽ giúp tiếng Nhật của bạn trở nên sinh động và chính xác hơn rất nhiều, đặc biệt trong việc mô tả và diễn đạt ý kiến cá nhân.
+Ngữ pháp **ようだ・ように・ような** là một bộ ba vô cùng quan trọng trong tiếng Nhật, giúp chúng ta biểu đạt sự so sánh và suy đoán một cách tự nhiên. **ようだ** giúp đưa ra nhận định dựa trên quan sát, **ように** giúp so sánh cách thức hành động, còn **ような** dùng để miêu tả đặc điểm tương tự. Việc nắm vững ba cách dùng này sẽ giúp tiếng Nhật của bạn trở nên sinh động và chính xác hơn rất nhiều, đặc biệt trong việc mô tả và diễn đạt ý kiến cá nhân.
 
 Dù sao thì, đừng quên để lại tín hiệu **like, share và comment** nếu thấy truyện hay nhé bạn!
