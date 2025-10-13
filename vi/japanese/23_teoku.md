@@ -1,7 +1,7 @@
 ---
 stage: Publish
 draft: false
-title: 23. ておく「Chuẩn bị cho chuyến du lịch」
+title: 23. ておく「Việc chuẩn bị buổi họp không suôn sẻ」
 description: Học ngữ pháp ておく (te oku) - cách diễn đạt chuẩn bị trước và duy trì trạng thái trong tiếng Nhật. Hướng dẫn chi tiết cấu trúc, cách dùng, ví dụ thực tế cho JLPT N4-N3.
 tags:
   - japanese-grammar
@@ -28,46 +28,50 @@ cssclasses:
 > - [[vi-jpg-notebook|Giới thiệu sổ tay Nhật ngữ]]: Trình bày cấu trúc, cách dùng, giải thích ký hiệu của sổ tay do mình biên soạn trong quá trình học tiếng Nhật.   
 > - [[vi/japanese/index|Tổng quan về tiếng Nhật và chiến lược học tối ưu]]: Giới thiệu về tiếng Nhật và định hướng chiến lược tự học *"đắm chìm"* cho người mới bắt đầu.
 
-<h2 style="text-align:center">「旅行の準備」</h2>
+<h2 style="text-align:center">「会議の準備がうまくいかない」</h2>
 
 %% voice audio in story %%
 
-> [!clear]- リン：明日の旅行、荷物は[[#Chuẩn bị trước cho tương lai|準備しておいた]]？
-> Linh: Chuyến đi ngày mai, đồ đạc chuẩn bị chưa?
+> [!clear]- **リン**：このあとの発表、資料は[[#Chuẩn bị trước cho tương lai|準備しておいた]]？
+> **Linh**: Em chuẩn bị tài liệu cho bài thuyết trình lát nữa chưa?
 ^a1b2c3
 
-> [!clear]- マイ：うん、昨日全部[[#Chuẩn bị trước cho tương lai|詰めておいた]]よ。カメラも充電しておいたし。
-> Mai: Ừ, hôm qua mình xếp hết rồi. Máy ảnh cũng sạc đầy rồi.
+> [!clear]- **マイ**：はい。でも、プロジェクターがまだ動かないんだ...
+> **Mai**: Rồi chị ạ. Nhưng thử máy chiếu nãy giờ vẫn chưa chạy được...
 
-> [!clear]- リン：すごい！私はまだ何も...。パスポートはどこに[[#Duy trì trạng thái hiện tại|置いておいた]]か覚えてる？
-> Linh: Giỏi quá! Mình chưa làm gì cả... Bạn còn nhớ mình để hộ chiếu ở đâu không?
+> [!clear]- **リン**：え？じゃあ、会場のドアは[[#Duy trì trạng thái hiện tại|開けておいた]]？風通しよくしないと暑いよ。
+> **Linh**: Hả? Thế cửa phòng họp mở sẵn chưa em? Không có thông gió thì nóng lắm đấy.
 ^d4e5f6
 
-> [!clear]- マイ：引き出しの中に入れて、[[#Duy trì trạng thái hiện tại|閉めておいた]]から大丈夫だよ。
-> Mai: Mình để trong ngăn kéo rồi đóng lại nên yên tâm đi.
+> [!clear]- **マイ**：ああ、それは**開けておいた**から大丈夫。
+> **Mai**: À, cái đó em mở sẵn rồi nên chị yên tâm ạ.
 
-> [!clear]- リン：ホテルの予約は[[#Hoàn thành và để yên|確認しておいた]]？
-> Linh: Đặt phòng khách sạn xác nhận chưa nhỉ?
-^g7h8i9
+> [!clear]- **リン**：そうですかね。プロジェクター、どうしよう...修理する時間ないよね。
+> **Linh**: Vậy à. Còn máy chiếu thì tính sao giờ... Không có thời gian ngồi sửa đâu nhỉ.
 
-> [!clear]- マイ：メールで返事が来たから、そのまま[[#Hoàn thành và để yên|保存しておいた]]。印刷は**しておかなかった**けど、スマホで見せればいいでしょ？
-> Mai: Có mail trả lời rồi nên mình lưu luôn. Không in ra đâu, nhưng chỉ điện thoại cũng được mà nhỉ?
+> [!clear]- **マイ**：とりあえず、パソコンの画面を大きくして[[#Đưa ra giải pháp tạm thời|見せておけば]]？完璧じゃないけど、何とかなるでしょ。
+> **Mai**: Tạm thời phóng to màn hình laptop cho mọi người xem đã nhỉ? Không hoàn hảo lắm nhưng cũng xoay sở được.
+^m3n4o5
 
-> [!clear]- リン：そうだね。あ、でも現地の地図は[[#Dạng phủ định: Không làm (có chủ đích)|ダウンロードしておかないと]]、オフラインで困るかも。
-> Linh: Đúng rồi. À nhưng bản đồ địa phương phải tải trước không thì offline là khốn đấy.
+> [!clear]- **リン**：しょうがないね。でも上司にはこの問題を[[#Diễn tả việc không làm có chủ đích|報告しておかない]]ほうがいい。怒らせたくないし。
+> **Linh**: Không còn cách nào ha. Nhưng đừng nên kể vấn đề này với sếp. Không muốn làm ổng bực đâu.
 ^j0k1l2
 
-> [!clear]- マイ：そうだった！今すぐダウンロード**しておく**わ。ありがとう！
-> Mai: Đúng rồi! Để bây giờ mình tải ngay. Cảm ơn nhé!
+> [!clear]- **マイ**：でも、この会議には部長が参加するんですよ！
+> **Mai**: Nhưng sếp tham gia buổi họp này mà chị!
+
+> [!clear]- **リン**：えっ！？それじゃ、本当にまずいじゃない！
+> **Linh**: Cái gì!? Thế thì nguy to rồi còn gì!
+
 
 ## Cấu trúc ngữ pháp 🔍
-- **Vて + おく**: Làm gì đó trước để chuẩn bị cho tương lai
+- **Vて + おく**: Làm trước hành động V, thực hiện V xong rồi giữ nguyên kết quả hành động, thực hiện V một cách tạm thời 
 - **Vて + おかない**: Không làm gì đó (để giữ nguyên trạng thái hoặc tránh hậu quả)
 
 ## Cách dùng cơ bản 🗝️
 
 ### Chuẩn bị trước cho tương lai
-Dùng khi muốn làm gì đó trước để sẵn sàng cho một sự kiện hoặc tình huống sắp xảy ra. [[7_teoku#^a1b2c3|Về lại lời thoại ↑]]
+Dùng khi muốn làm gì đó trước để sẵn sàng cho một sự kiện hoặc tình huống sắp xảy ra. [[23_teoku#^a1b2c3|Về lại lời thoại ↑]]
 
 > [!clear]- 会議の前に資料を**コピーしておきます**。
 > Trước cuộc họp tôi sẽ in sẵn tài liệu.
@@ -76,12 +80,18 @@ Dùng khi muốn làm gì đó trước để sẵn sàng cho một sự kiện 
 > Tôi đã mua trước đồ uống cho bữa tiệc.
 
 > [!clear]- 明日早いから、今夜服を**選んでおこう**。
-> Mai dậy sớm nên tối nay chọn quần áo trước vậy.
+> **Mai** dậy sớm nên tối nay chọn quần áo trước vậy.
+
+> [!info] Lưu ý
+> - Thường đi kèm với ために (để cho), ように (để mà), 前に (trước khi) để chỉ rõ mục đích
+> - Nhấn mạnh sự **chủ động** và **có kế hoạch** của người nói
+> - Động từ thường là hành động cụ thể, có thể kiểm soát được
+
 ### Duy trì trạng thái hiện tại
-Dùng khi muốn giữ nguyên một trạng thái nào đó, thường sau các động từ chỉ hành động đặt/để như 置く、開く、閉じる. [[7_teoku#^d4e5f6|Về lại lời thoại ↑]]
+Dùng khi muốn giữ nguyên một trạng thái nào đó, thường sau các động từ chỉ hành động đặt/để như 置く、開く、閉じる. [[23_teoku#^d4e5f6|Về lại lời thoại ↑]]
 
 > [!clear]- 暑いから、窓を**開けておいて**ください。
-> Trời nóng nên cứ mở cửa sổ giúp mình nhé.
+> Trời nóng nên để cửa mở giúp mình nhé.
 
 > [!clear]- 鍵はいつもここに**置いておく**ことにしている。
 > Tôi thường để chìa khóa ở đây.
@@ -89,20 +99,30 @@ Dùng khi muốn giữ nguyên một trạng thái nào đó, thường sau các
 > [!clear]- 電気を**つけておいた**ほうがいいですよ。
 > Để đèn bật sẵn thì tốt hơn đấy.
 
-### Hoàn thành và để yên
-Dùng khi làm xong việc gì đó rồi để đấy, không can thiệp thêm nữa. Có sắc thái "làm xong rồi thôi, cứ để vậy". [[7_teoku#^g7h8i9|Về lại lời thoại ↑]]
+> [!info] Lưu ý
+> - Động từ thường là: 開ける (mở), 閉める (đóng), 置く (đặt), つける (bật), 消す (tắt), 入れる (cho vào)
+> - Kết quả của hành động **tiếp tục tồn tại** cho đến khi có hành động mới
+> - Khác với てある (trạng thái kết quả - góc nhìn khách quan), ておく nhấn mạnh **ý định giữ trạng thái** của chủ thể
 
-> [!clear]- この本は**読んでおいて**ください。
-> Cuốn sách này bạn đọc trước nhé (rồi để đấy).
+### Đưa ra giải pháp tạm thời
+Dùng khi làm gì đó tạm bợ, chưa hoàn hảo nhưng đủ để giải quyết tình huống hiện tại. Thường có sắc thái "làm đại đã, sau tính". [[23_teoku#^m3n4o5|Về lại lời thoại ↑]]
 
-> [!clear]- 報告書はもう**書いておきました**。
-> Báo cáo tôi viết xong rồi đấy.
+> [!clear]- とりあえず**謝っておいた**ほうがいいよ。
+> Tạm thời xin lỗi đã rồi tính.
 
-> [!clear]- とりあえず**送っておく**から、後で確認して。
-> Tạm thời gửi đi đã, sau kiểm tra lại nhé.
+> [!clear]- 時間がないから、ここだけ**直しておこう**。
+> Hết giờ rồi nên sửa tạm mỗi chỗ này thôi.
 
-### Dạng phủ định: Không làm (có chủ đích)
-Dùng **ておかない** khi cố tình không làm gì đó, thường để tránh hậu quả hoặc giữ nguyên tình trạng. [[7_teoku#^j0k1l2|Về lại lời thoại ↑]]
+> [!clear]- ひとまず**メモしておいて**、後で整理すればいい。
+> Ghi chú đại đi, sau sắp xếp lại cũng được.
+
+> [!info] Lưu ý
+> - Thường đi kèm với とりあえず (tạm thời), ひとまず (trước mắt), 一応 (phòng hờ)
+> - Có sắc thái "chưa hoàn hảo nhưng đủ dùng"
+> - Khác với nghĩa chuẩn bị kỹ càng, đây là giải pháp tình thế
+
+### Diễn tả việc không làm có chủ đích
+Dùng **ておかない** khi cố tình không làm gì đó, thường để tránh hậu quả hoặc giữ nguyên tình trạng. [[23_teoku#^j0k1l2|Về lại lời thoại ↑]]
 
 > [!clear]- この書類は**捨てておかないで**ください。
 > Đừng vứt tài liệu này nhé.
@@ -112,6 +132,12 @@ Dùng **ておかない** khi cố tình không làm gì đó, thường để t
 
 > [!clear]- まだ決めて**おかなくても**いいですよ。
 > Chưa quyết định trước cũng được mà.
+
+> [!info] Lưu ý
+> - Thường dùng với ~ないと (nếu không làm thì...), ~ないほうがいい (không làm thì tốt hơn)
+> - Nhấn mạnh **lý do** tại sao không nên làm (tránh rắc rối, giữ an toàn, chưa cần thiết)
+> - Khác với đơn giản không làm (ない), ておかない có **chủ ý rõ ràng**
+> - Có thể mang sắc thái khuyên nhủ hoặc cảnh báo
 
 ## Cách dùng nâng cao 🔓
 
@@ -123,10 +149,8 @@ Dùng **ておかない** khi cố tình không làm gì đó, thường để t
 ## Bạn học chú ý 👀
 
 > [!important] Quan trọng
-> - Ngữ pháp này nhấn mạnh **mục đích chuẩn bị** hoặc **ý định duy trì trạng thái**, khác với chỉ mô tả hành động đơn thuần
-> - Thường đi kèm với các biểu thức chỉ mục đích như ために、ように
-> - Trong văn viết trang trọng dùng **ておく**, còn hội thoại thường rút gọn thành **とく** (hoặc **どく** sau âm hữu thanh như んで→んどく)
-> - Dạng phủ định **ておかない** cũng có thể rút gọn thành **とかない** (hoặc **どかない**)
+> - Ngữ pháp này nhấn mạnh **mục đích chuẩn bị, ý định duy trì trạng thái hoặc đưa ra giải pháp tạm thời**, khác với việc chỉ mô tả hành động đơn thuần
+> - Trong hội thoại, phiên bản rút gọn phổ biến hơn: ~ておく → ~とく、~でおく → ~どく、~ておかない → ~とかない、~でおかない → ~どかない
 > - Đừng nhầm lẫn với **ておける** (có thể đặt/để) - đây là khả năng, không phải ngữ pháp ておく
 
 > [!info] Ngữ pháp tương tự
@@ -138,6 +162,6 @@ Dùng **ておかない** khi cố tình không làm gì đó, thường để t
 ## Tổng kết và giữ chuỗi 🔥
 Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số 23 đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
 
-Ngữ pháp **ておく** là một công cụ cực kỳ hữu ích khi bạn muốn nói về việc chuẩn bị trước hoặc duy trì trạng thái nào đó. Điểm mạnh của nó là thể hiện rõ **ý định** đằng sau hành động: làm việc này bây giờ để sau này thuận tiện hơn. Hãy nhớ phân biệt ba cách dùng chính: chuẩn bị cho tương lai (買っておく), duy trì trạng thái (開けておく), và hoàn thành rồi để yên (読んでおく). Ngoài ra, dạng phủ định **ておかない** cũng rất quan trọng khi muốn nhấn mạnh việc cố tình không làm gì đó. Trong hội thoại đời thường, đừng ngạc nhiên khi nghe **とく/どく** thay vì **ておく** nhé - đó là cách nói tự nhiên của người Nhật!
+**ておく** là ngữ pháp cực kỳ hữu ích khi bạn muốn nói về việc chuẩn bị trước, duy trì trạng thái nào đó hoặc đưa giải pháp tạm bợ. Điểm mạnh của nó là thể hiện rõ **ý định** đằng sau hành động: *"làm việc này bây giờ để sau này thuận tiện hơn"* Hãy nhớ phân biệt ba cách dùng chính: chuẩn bị trước, duy trì trạng thái, và giải pháp tạm thời. Ngoài ra, dạng phủ định **ておかない** cũng rất quan trọng khi muốn nhấn mạnh việc cố tình không làm gì đó. Trong hội thoại đời thường, đừng ngạc nhiên khi nghe **とく／どく** thay vì **ておく** nhé, vì đó là cách nói rút gọn và tự nhiên mà người Nhật hay dùng!
 
 Dù sao thì, đừng quên để lại tín hiệu **like, share và comment** nếu thấy truyện hay nhé bạn!
