@@ -124,5 +124,7 @@ Mẩu truyện ngắn ở đầu mỗi bài viết được coi là *"linh hồn
 |  **→**  | hướng biến đổi               | V[う] → V(あ)せる |
 | ~~XYZ~~ | Loại XYZ                     |    V~~ます~~    |
 |  **+**  | Nối các phần trong công thức | V~~ます~~ + に行く |
+|   -X    | Hậu tố X                     |     -られる      |
+|   X-    | Tiền tố X                    |      あさ-      |
 
 ## Những mẩu truyện gần đây ✨
