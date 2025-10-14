@@ -95,20 +95,21 @@ Mẩu truyện ngắn ở đầu mỗi bài viết được coi là *"linh hồn
 ### Dạng chia của động từ
 **Dạng chia của động từ** gồm các thể như nguyên dạng, quá khứ, phủ định, khả năng, bị động, sai khiến, ý chí… nhằm diễn đạt thời/thì, ý định hoặc sắc thái khác nhau.
 
-|        Ký hiệu        |           Thuật ngữ Tiếng Nhật           |     Thuật ngữ Tiếng Anh     | Mô tả                                                                            |
-| :-------------------: | :--------------------------------------: | :-------------------------: | -------------------------------------------------------------------------------- |
-|      **Vる, V辞書**      |           辞書形<br>(_jisho-kei_)           |       Dictionary Form       | Thể nguyên thể / từ điển, dùng để tra từ, làm gốc chia các thể khác.             |
-|     **Vます, V丁寧**      |          丁寧形<br>(_teinei-kei_)           |         Polite Form         | Dùng trong nói / tương tác lịch sự (ます, です, …).                                  |
-|     **Vない, V否定**      |           否定形<br>(_hitei-kei_)           |        Negative Form        | Thể phủ định (ない, ません, …)                                                        |
-|      **Vた, V過去**      |           過去形<br>(_kako-kei_)            |          Past Form          | Thể quá khứ (た, でした, ...)                                                        |
-|        **Vて**         |            て形<br>(_-te kei_)             |           te-Form           | Thể て, dạng liên kết, nối câu, mệnh lệnh, yêu cầu, dùng với nhiều cấu trúc khác. |
-|        **V可能**        |           可能形<br>(_kanō-kei_)            |       Potential Form        | Thể khả năng, có thể làm gì đó.                                                  |
-|        **V受身**        |           受身形<br>(_ukemi-kei_)           |        Passive Form         | Thể bị động, bị/được làm gì đó.                                                  |
-|    **V使役, V(さ)せる**    |          使役形<br>(_shieki-kei_)           |       Causative Form        | Thể sai khiến / cho phép.                                                        |
-|     **V意志, Vよう**      | 意志形 / 勧誘形<br>(_ishi-kei_ / _kan’yū-kei_) | Volitional / Intention Form | Thể ý chí / đề nghị                                                              |
-|      **V命令<br>**      |          命令形<br>(_meirei-kei_)           |  Imperative / Command Form  | Thể mệnh lệnh, dùng để ra lệnh / yêu cầu chỉ đạo.                                |
-| **V条件, Vたら, Vば, ...** |           条件形<br>(_jōken-kei_)           |      Conditional Forms      | Thể điều kiện, giả định (～たら, ～ば, ～と, ...)                                       |
-|  **V使役受身, V(さ)せられる**  |         使役受身<br>(_shieki-ukemi_)         |   Causative-Passive Form    | Kết hợp sai khiến và bị động, bị/được bắt làm gì đó                              |
+|        Ký hiệu        |           Thuật ngữ Tiếng Nhật           |     Thuật ngữ Tiếng Anh     | Mô tả                                                                              |
+| :-------------------: | :--------------------------------------: | :-------------------------: | ---------------------------------------------------------------------------------- |
+|      **Vる, V辞書**      |           辞書形<br>(_jisho-kei_)           |       Dictionary Form       | Thể nguyên thể / từ điển, dùng để tra từ, làm gốc chia các thể khác.               |
+|     **Vます, V丁寧**      |          丁寧形<br>(_teinei-kei_)           |         Polite Form         | Dùng trong nói / tương tác lịch sự (ます, です, …).                                    |
+|     **Vない, V否定**      |           否定形<br>(_hitei-kei_)           |        Negative Form        | Thể phủ định (ない, ません, …)                                                          |
+|      **c, V過去**       |           過去形<br>(_kako-kei_)            |          Past Form          | Thể quá khứ (た, でした, ...)                                                          |
+|        **Vて**         |            て形<br>(_-te kei_)             |           te-Form           | Thể て, dạng liên kết, nối câu, mệnh lệnh, yêu cầu, dùng với nhiều cấu trúc khác.   |
+|        **V可能**        |           可能形<br>(_kanō-kei_)            |       Potential Form        | Thể khả năng, có thể làm gì đó.                                                    |
+|        **V受身**        |           受身形<br>(_ukemi-kei_)           |        Passive Form         | Thể bị động, bị/được làm gì đó.                                                    |
+|    **V使役, V(さ)せる**    |          使役形<br>(_shieki-kei_)           |       Causative Form        | Thể sai khiến / cho phép.                                                          |
+|     **V意志, Vよう**      | 意志形 / 勧誘形<br>(_ishi-kei_ / _kan’yū-kei_) | Volitional / Intention Form | Thể ý chí / đề nghị                                                                |
+|      **V命令<br>**      |          命令形<br>(_meirei-kei_)           |  Imperative / Command Form  | Thể mệnh lệnh, dùng để ra lệnh / yêu cầu chỉ đạo.                                  |
+| **V条件, Vたら, Vば, ...** |           条件形<br>(_jōken-kei_)           |      Conditional Forms      | Thể điều kiện, giả định (～たら, ～ば, ～と, ...)                                         |
+|  **V使役受身, V(さ)せられる**  |         使役受身<br>(_shieki-ukemi_)         |   Causative-Passive Form    | Kết hợp sai khiến và bị động, bị/được bắt làm gì đó                                |
+|        **V普通**        |            普通形 (_futsū-kei_)             |         Casual Form         | Thể thông thường, dạng chưa được chia sang thể lịch sự, bao gồm: Vる, Vない, Vない, ... |
 
 ### Biến đổi trong công thức
 **Biến đổi trong công thức** là các ký hiệu dùng để chỉ vị trí thay thế, phần tùy chọn, lựa chọn hoặc bước chuyển khi trình bày cấu trúc ngữ pháp. Đặc biệt hiệu quả với cấu trúc phức tạp!

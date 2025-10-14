@@ -130,7 +130,7 @@ socialImage: fully qualified URL to preview image
 > - Chú ý phân biệt với **らしい** (dựa trên thông tin nghe được) và **そうだ** (dựa trên vẻ ngoài)
 
 > [!info] Ngữ pháp tương tự
-> - **みたい・みたいに・みたいな**: Tương tự **よう** nhưng casual hơn, thường dùng trong hội thoại thân mật
+> - [[25_mitaida-mitaini-mitaina|みたい・みたいに・みたいな]]: Tương tự **よう** nhưng casual hơn, thường dùng trong hội thoại thân mật
 > - **らしい**: Suy đoán dựa trên thông tin được nghe/biết, không phải quan sát trực tiếp như **ようだ**
 > - **そうだ**: Dự đoán dựa trên vẻ bề ngoài có thể quan sát ngay lúc đó, khác với **ようだ** có thể dựa trên kinh nghiệm
 > - **かのように**: Formal hơn **ように**, thường dùng trong văn viết, mang nghĩa "như thể là"
