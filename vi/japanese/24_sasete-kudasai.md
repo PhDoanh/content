@@ -79,14 +79,14 @@ cssclasses:
 ### Xin phép làm việc mình muốn
 Dùng ngữ pháp này khi muốn được phép làm điều gì đó, thể hiện sự khiêm tốn và tôn trọng người nghe. [[8_sasetekudasai#^a1b2c3|Về lại lời thoại ↑]]
 
-> [!clear]- 私に**やらせてください**。
-> Xin hãy để tôi làm.
+> [!clear]- **手伝わせてください**。
+> Hãy để tôi giúp bạn
 
-> [!clear]- 早退させて**もらえますか**。
-> Tôi có được về sớm không?
+> [!clear]- 早**かえらせてください**。
+> Tôi xin phép được về sớm ạ.
 
-> [!clear]- もう少し時間をいただいて、考えさせて**もらえませんか**。
-> Cho tôi thêm một chút thời gian để suy nghĩ được không ạ?
+> [!clear]- もう少し時間をいただいて、**考えさせてください**。
+> Cho tôi xin thêm chút thời gian để suy nghĩ ạ.
 
 > [!info] Lưu ý
 > - Là dạng causative (使役形) + てください
