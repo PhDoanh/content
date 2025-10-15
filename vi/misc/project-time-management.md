@@ -371,18 +371,18 @@ Biểu đồ mạng lưới có **hai loại chính**:
     - Đường 4: C-G-I-J = 14 ngày
 3. **Xác định đường dài nhất**: Đường dài nhất chính là đường găng của dự án. Đây cũng là **thời gian ngắn nhất mà dự án có thể hoàn tất**.
 
-Đường găng giúp nhà quản lý dự án lập kế hoạch dự phòng, tưởng thưởng hoặc phân bổ nhân lực hợp lý nếu một đầu việc trên đường găng hoàn thành sớm hoặc chậm.
+Đường găng giúp nhà quản lý dự án lập kế hoạch dự phòng, khen thưởng hoặc phân bổ nhân lực hợp lý nếu một đầu việc trên đường găng hoàn thành sớm hoặc chậm.
 
 > [!info] Lưu ý
 > - Đường găng chỉ chứa thông tin về thời gian, **không phản ánh độ phức tạp hay rủi ro** của các đầu việc bên trong.
 > - Nếu một đầu việc ngoài đường găng gặp rủi ro hoặc vấn đề kỹ thuật, nó có thể trở thành trễ, từ đó **thay đổi đường găng thực tế**. VD: một đầu việc chỉnh sửa giao diện di động dự kiến 1 ngày, nhưng khi triển khai phát hiện không thể hoàn thành với công cụ hiện có, cần mua thư viện hoặc lập trình thêm, có thể mất 1 tuần. Khi đó, đường găng thực tế sẽ **bao gồm đầu việc vừa thay đổi**
 > - Trong trường hợp có **nhiều đường đi dài nhất bằng nhau**, tất cả các đường đó đều là đường găng. Nhà quản lý dự án cần **theo dõi tất cả các đường găng** để bảo đảm các mốc thời gian quan trọng.
 
-#### Theo dõi và quản lý
 Bằng việc sử dụng **ngày bắt đầu sớm nhất (ES), ngày kết thúc sớm nhất (EF), ngày bắt đầu muộn nhất (LS), ngày kết thúc muộn nhất (LF)** cho từng đầu việc để phân tích xê dịch và hỗ trợ quản lý nhân lực. Nhà quản lý có thể:
-- Trì hoãn những đầu việc **không cần thiết bắt đầu ngay** để hỗ trợ các đầu việc quan trọng trên đường găng.
-- Theo dõi chặt chẽ các đầu việc trên đường găng để điều chỉnh kịp thời khi xảy ra chậm trễ, nhằm giữ được các mốc thời gian đã xác định.
+- Trì hoãn những đầu việc **không cần thiết bắt đầu ngay** để hỗ trợ các đầu việc quan trọng trên đường găng. VD: trì hoãn thời gian bắt đầu của đầu việc A (bắt đầu từ t=6 thay vì t=1) hoặc trì hoãn thời gian kết thúc (đến t=10) để có nhân lực hỗ trợ việc khác của dự án  
+- Bố trí nhân lực giỏi nhất để hỗ trợ kỹ thuật kịp thời cho những đầu việc quan trọng. VD: Trên đường găng B-C của dự án, nếu có thể đưa nhân lực giỏi vào để giảm thời gian thực hiện việc B xuống 6 ngày thì tổng thời gian đường găng giảm xuống còn 6+9=15 ngày  
 
+![[Pasted image 20251015172658.png|center|500]]
 
 ## Kiểm soát lịch trình dự án
 
