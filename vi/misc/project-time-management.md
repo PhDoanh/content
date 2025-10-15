@@ -314,7 +314,7 @@ Biểu đồ mạng lưới có **hai loại chính**:
 
 #### Biểu đồ mũi tên
 
-Đây là phương pháp **biểu diễn mỗi công việc bằng một mũi tên một chiều**, nối **hai đỉnh (nodes)** – đại diện cho **điểm bắt đầu và kết thúc của công việc**.
+Đây là phương pháp **biểu diễn mỗi công việc bằng một mũi tên một chiều**, nối **hai đỉnh (nodes)** – đại diện cho **điểm bắt đầu và kết thúc của công việc**. ^a1feb8
 
  ![[Pasted image 20251015155509.png|center|500]]
 
@@ -356,6 +356,32 @@ Biểu đồ mạng lưới có **hai loại chính**:
 > - Với các **dự án lớn**, có thể chia biểu đồ thành **nhiều biểu đồ con** hoặc **chỉ biểu diễn các đầu việc chính**.
 > - Biểu đồ này là **cơ sở để xác định đường găng**, từ đó giúp nhà quản lý biết công việc nào **không thể bị trễ** và cần **ưu tiên nguồn lực**.
 ### Phân tích đường găng
+**Đường găng** là tập hợp các đầu việc trong dự án mà việc hoàn thành đúng hạn của chúng quyết định tiến độ kết thúc toàn dự án. Đây là **đường đi dài nhất trong đồ thị mạng lưới công việc** và cũng là khoảng thời gian sớm nhất mà dự án có thể hoàn thành. Các đầu việc trên đường găng **không có khả năng trễ hoặc xê dịch mà không ảnh hưởng đến thời hạn dự án**. Nếu một đầu việc trên đường găng bị chậm, toàn bộ dự án sẽ trễ hạn trừ khi nhà quản lý dự án thực hiện các biện pháp điều chỉnh.
+
+> [!example] Ví dụ
+> Trong dự án quản lý bán hàng, việc tích hợp với hệ thống quản lý tài khoản nhân viên của khách hàng là một đầu việc trên đường găng. Nếu việc này chưa hoàn thành, dù các chức năng khác đã xong, dự án vẫn chưa thể kết thúc.
+
+Để xác định đường găng, cần thực hiện các bước sau:
+1. **Xây dựng biểu đồ mạng lưới công việc**: Liệt kê các đầu việc và mối quan hệ phụ thuộc giữa chúng.
+2. **Xác định độ dài của từng đường đi**: Mỗi đường đi bắt đầu từ điểm đầu và kết thúc ở điểm cuối của dự án.  
+    Ví dụ với đồ thị mạng lưới ([[project-time-management#^a1feb8|Hình 6.2]]):
+    - Đường 1: A-D-H-J = 14 ngày
+    - Đường 2: B-E-H-J = 16 ngày → **đường găng**
+    - Đường 3: B-F-J = 9 ngày
+    - Đường 4: C-G-I-J = 14 ngày
+3. **Xác định đường dài nhất**: Đường dài nhất chính là đường găng của dự án. Đây cũng là **thời gian ngắn nhất mà dự án có thể hoàn tất**.
+
+Đường găng giúp nhà quản lý dự án lập kế hoạch dự phòng, tưởng thưởng hoặc phân bổ nhân lực hợp lý nếu một đầu việc trên đường găng hoàn thành sớm hoặc chậm.
+
+> [!info] Lưu ý
+> - Đường găng chỉ chứa thông tin về thời gian, **không phản ánh độ phức tạp hay rủi ro** của các đầu việc bên trong.
+> - Nếu một đầu việc ngoài đường găng gặp rủi ro hoặc vấn đề kỹ thuật, nó có thể trở thành trễ, từ đó **thay đổi đường găng thực tế**. VD: một đầu việc chỉnh sửa giao diện di động dự kiến 1 ngày, nhưng khi triển khai phát hiện không thể hoàn thành với công cụ hiện có, cần mua thư viện hoặc lập trình thêm, có thể mất 1 tuần. Khi đó, đường găng thực tế sẽ **bao gồm đầu việc vừa thay đổi**
+> - Trong trường hợp có **nhiều đường đi dài nhất bằng nhau**, tất cả các đường đó đều là đường găng. Nhà quản lý dự án cần **theo dõi tất cả các đường găng** để bảo đảm các mốc thời gian quan trọng.
+
+#### Theo dõi và quản lý
+Bằng việc sử dụng **ngày bắt đầu sớm nhất (ES), ngày kết thúc sớm nhất (EF), ngày bắt đầu muộn nhất (LS), ngày kết thúc muộn nhất (LF)** cho từng đầu việc để phân tích xê dịch và hỗ trợ quản lý nhân lực. Nhà quản lý có thể:
+- Trì hoãn những đầu việc **không cần thiết bắt đầu ngay** để hỗ trợ các đầu việc quan trọng trên đường găng.
+- Theo dõi chặt chẽ các đầu việc trên đường găng để điều chỉnh kịp thời khi xảy ra chậm trễ, nhằm giữ được các mốc thời gian đã xác định.
 
 
 ## Kiểm soát lịch trình dự án
