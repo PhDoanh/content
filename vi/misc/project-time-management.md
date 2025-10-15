@@ -385,4 +385,31 @@ Bằng việc sử dụng **ngày bắt đầu sớm nhất (ES), ngày kết th
 ![[Pasted image 20251015172658.png|center|500]]
 
 ## Kiểm soát lịch trình dự án
+Sau khi lịch trình dự án đã được xây dựng, bước tiếp theo là kiểm soát tiến độ dự án. Mục tiêu chính của việc kiểm soát lịch trình là:
+1. **Theo dõi trạng thái của dự án:** Xác định tiến độ thực tế so với lịch trình dự kiến, nhận diện những đầu việc bị trễ so với kế hoạch.
+2. **Quản lý sự thay đổi:** Khi phát hiện các đầu việc không theo đúng lịch trình, nhà quản lý dự án cần kiểm soát và điều chỉnh các thay đổi cần thiết để duy trì tiến độ dự án.
+3. **Nhận diện nhân tố ảnh hưởng:** Xác định các yếu tố bên ngoài hoặc bên trong có thể ảnh hưởng đến tiến độ, như vấn đề về nhân lực, tài nguyên, hay kỹ thuật.
+4. **Đo lường hiệu quả và thông tin cho tổ chức:** Cập nhật trạng thái tiến độ vào hệ thống dữ liệu của tổ chức, phục vụ báo cáo và quyết định của cấp quản lý.
+
+Đầu vào của quy trình kiểm soát:
+- **Kế hoạch quản lý dự án**
+- **Lịch trình dự kiến của dự án**
+- **Thông số trạng thái của dự án**
+- **Thông tin từ tổ chức**
+
+Công cụ và kỹ thuật hỗ trợ:
+- **Báo cáo trạng thái dự án:** Cung cấp thông tin chi tiết về tiến độ từng đầu việc và tổng thể dự án.
+- **Công cụ kiểm soát thay đổi:** Hỗ trợ quản lý các thay đổi phát sinh trong lịch trình.
+- **Phân tích đường găng:** Giúp xác định các đầu việc quan trọng, kiểm soát mức độ xê dịch có thể có.
+- **Kỹ năng lãnh đạo, thương lượng:** Điều phối nhân sự và nguồn lực với các bên liên quan khi cần điều chỉnh tiến độ.
+
+Đầu ra của quy trình kiểm soát:
+- **Thông tin đo lường trạng thái dự án**
+- **Cập nhật cho dữ liệu tổ chức**
+- **Yêu cầu thay đổi và cập nhật cho kế hoạch quản lý dự án**
+- **Cập nhật tài liệu dự án**
+
+Yếu tố để kiểm soát thành công:
+- **Lịch trình khả thi:** Ước lượng thời gian và công sức phải sát thực tế, tính đến độ khó và khối lượng công việc.
+- **Kỹ năng lãnh đạo và quản lý:** Nhà quản lý dự án cần định hướng nhóm, quản lý nhân lực, thương lượng, kiểm soát thay đổi và điều chỉnh lịch trình khi cần.
 
