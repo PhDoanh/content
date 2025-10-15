@@ -1,6 +1,6 @@
 ---
-stage: Draft
-draft: true
+stage: Publish
+draft: false
 title: Quản lý thời gian dự án
 description:
 tags:
@@ -157,11 +157,206 @@ Bản kế hoạch này **thông thường bao gồm các nội dung sau**:
 > Phần này nên được mô tả bằng **sơ đồ quy trình (Process Flow)** hoặc **bảng các bước**, để người đọc dễ theo dõi và áp dụng thực tế.
 
 ## Xác định chi tiết công việc
+Ta đã tìm hiểu về quy trình và các phương pháp [[project-scope-management|quản lý phạm vi công việc của dự án]]. Tuy nhiên, phần *"xác định phạm vi"* chỉ mới dừng lại ở việc mô tả **những gì cần làm và không cần làm**, chứ **chưa đủ chi tiết** để hình thành nên **các sản phẩm bàn giao (deliverables)** cụ thể của dự án.
 
+Ví dụ, khi ta nói *"dự án có cung cấp chức năng quản lý người dùng hay không"* - đó mới là **phạm vi tổng thể**. Nhưng để **lập được lịch trình chi tiết**, ta phải *"bẻ nhỏ"* nó ra thành **các công việc cụ thể** như:
+- Lập trình chức năng _thêm người dùng_
+- Lập trình chức năng _sửa, xóa, tìm kiếm người dùng_
+- Hiển thị danh sách người dùng
+- Viết test case và kiểm thử cho từng chức năng
 
+👉 Như vậy, việc **xác định chi tiết công việc (Define Activities)** chính là quá trình **chuyển từ phạm vi tổng thể sang các hoạt động cụ thể có thể quản lý được**, nhằm giúp đội dự án dễ dàng **lập kế hoạch, phân công và theo dõi tiến độ**.
+
+### Đầu ra của quy trình
+Sau khi hoàn thành việc xác định chi tiết công việc, ta thu được:
+1. **Danh sách các công việc cần làm trong dự án (Activity List)**
+2. **Thuộc tính của từng công việc (Activity Attributes)** – bao gồm mô tả, người phụ trách, tài nguyên cần dùng, ngày bắt đầu, ngày kết thúc, ràng buộc, giả định, v.v.
+3. **Các mốc thời gian quan trọng (Milestones)** – ví dụ: hoàn thành thiết kế tổng thể, hoàn thành module đăng nhập, hoàn thành kiểm thử hệ thống, …
+4. **Cập nhật cho bản kế hoạch quản lý dự án (Project Management Plan Updates)** – để đảm bảo toàn bộ thông tin mới đều được đồng bộ.
+
+### Danh sách công việc
+Danh sách công việc là **bảng chứa toàn bộ các hoạt động** cần được thực hiện trong dự án. Mỗi dòng của bảng thường bao gồm: Tên công việc, Mã định danh (ID), Mô tả ngắn gọn. Ngoài ra, để phục vụ cho việc **lập lịch**, mỗi công việc còn được gắn thêm các thông tin như:
+- Công việc **trước** và **sau** nó là gì
+- **Mối quan hệ phụ thuộc** giữa các công việc
+- **Tài nguyên** cần thiết
+- **Ngày bắt đầu**, **ngày kết thúc**, **giả định** và **ràng buộc** liên quan
+
+Các thông tin này cần phải **thống nhất và nhất quán với WBS (Work Breakdown Structure)** - tức là bảng phân rã công việc đã được xây dựng từ giai đoạn quản lý phạm vi.
+
+Hiện nay, phần lớn đội dự án đều quản lý danh sách này bằng **các phần mềm quản lý dự án** như _MS Project_, _Jira_, _ClickUp_, _Asana_, _Wrike_, ... - giúp cập nhật tự động và theo dõi tiến độ dễ dàng hơn.
+
+### Các mốc thời gian quan trọng
+
+Bên cạnh việc liệt kê công việc, ta cũng cần **xác định các mốc quan trọng của dự án** – những thời điểm đánh dấu **bước tiến đáng kể** trong quá trình thực hiện.  
+Ví dụ:
+- Hoàn thành thu thập yêu cầu
+- Hoàn thành thiết kế tổng thể
+- Hoàn thành thiết kế chi tiết
+- Hoàn thành lập trình và kiểm thử chức năng chính
+
+> [!info] Lưu ý
+> **Không phải mọi công việc nhỏ đều là một mốc quan trọng.** Ta chỉ nên chọn **những sự kiện lớn, quan trọng và có thể quan sát được** làm mốc. Ví dụ: “hoàn thành module quản lý người dùng” là mốc hợp lý, nhưng “hoàn thành chức năng thêm người dùng” thì quá nhỏ để được xem là milestone.
+
+### Mục đích của việc xác định chi tiết công việc
+
+Mục tiêu chính là giúp **mọi thành viên và bên liên quan hiểu rõ công việc cần tiến hành**, để hoàn thành sản phẩm mong muốn. Mỗi công việc được định nghĩa đầy đủ phải bao gồm:
+- **Sản phẩm đầu ra** (deliverable)
+- **Giả định khi tiến hành**
+- **Ràng buộc** (constraints)
+
+Sau đó, đội dự án sẽ **rà soát và thống nhất** với các bên liên quan để có **danh sách công việc cuối cùng**, làm cơ sở cho bước kế tiếp là **lập lịch trình dự án (Scheduling)**.
 
 ## Tạo lập lịch trình dự án
+Sau khi đã xác định được **các hoạt động cần thiết** và **ước lượng thời gian cho từng hoạt động**, bước tiếp theo trong quản lý thời gian là **lập lịch trình dự án (Project Scheduling)**.
 
+Mục tiêu của bước này là **sắp xếp trình tự các công việc**, xác định **mối quan hệ phụ thuộc** giữa chúng và **phân bổ thời gian hợp lý** để hình thành **một lịch trình khả thi, tối ưu** cho toàn dự án. Lịch trình dự án là **xương sống của kế hoạch thực hiện**, giúp nhà quản lý dự án theo dõi tiến độ, phân bổ nguồn lực, và nhận diện **đường găng (Critical Path)** - chuỗi công việc quyết định trực tiếp đến **thời gian hoàn thành dự án**.
+
+Tóm lại, lập lịch trình là bước **biến các ước lượng thành kế hoạch hành động cụ thể**, đảm bảo mọi hoạt động diễn ra **đúng thứ tự, đúng thời điểm và trong phạm vi thời gian cho phép**.
+
+### Quan hệ phụ thuộc
+Khi lập lịch trình dự án, việc **xác định mối quan hệ phụ thuộc giữa các đầu việc (tasks)** là cực kỳ quan trọng. Nhà quản lý dự án cần làm việc chặt chẽ với các thành viên để xác định:
+- Công việc nào **phải được làm trước**
+- Công việc nào **phải làm sau**
+- Có công việc nào **có thể thực hiện song song** được hay không
+
+Chính mối quan hệ này sẽ giúp **xác lập thứ tự công việc hợp lý**, từ đó **vẽ được biểu đồ mạng lưới công việc** và phân tích được **đường găng (critical path)** của dự án sau này.
+
+Về cơ bản, trong quản lý dự án có **ba loại quan hệ phụ thuộc chính** như sau 👇
+
+#### Sự phụ thuộc cứng
+
+Đây là **những mối quan hệ mang tính bắt buộc về mặt bản chất của công việc**, tức là công việc sau **không thể** thực hiện nếu công việc trước **chưa hoàn thành**.
+
+> [!example] Ví dụ
+> Không thể tiến hành kiểm thử phần mềm **trước khi** hoàn tất công việc lập trình.
+
+👉 Sự phụ thuộc này mang tính **logic nội tại** của dự án, không thể thay đổi hay điều chỉnh theo ý muốn.
+
+#### Sự phụ thuộc mềm
+
+Đây là những phụ thuộc **được xác lập bởi nhóm dự án**, không bắt buộc về mặt kỹ thuật, mà chủ yếu dựa vào **kinh nghiệm** hoặc **thực hành tốt (best practice)** trong các dự án trước đó.
+
+> [!example] Ví dụ
+> Nhóm dự án **không nên** bắt đầu thiết kế và lập trình khi **bản đặc tả yêu cầu chưa được nhà tài trợ phê duyệt**.
+
+💡 Mối phụ thuộc mềm có thể **hạn chế sự linh hoạt** trong kế hoạch, nhưng nếu được sử dụng hợp lý, nó giúp **sắp xếp công việc khoa học** và **tận dụng hiệu quả quỹ thời gian** của từng thành viên. Tuy nhiên, nhà quản lý cần **thận trọng** vì việc áp dụng cứng nhắc có thể làm giảm khả năng thích ứng khi dự án thay đổi.
+
+#### Sự phụ thuộc bên ngoài
+
+Đây là những mối quan hệ mà **công việc của dự án phụ thuộc vào các yếu tố hoặc hoạt động bên ngoài dự án**.
+
+> [!example] Ví dụ
+> Dự án cần kiểm thử hệ thống trên **thiết bị phần cứng mới**, nhưng việc nhận được thiết bị đó lại **phụ thuộc vào nhà cung cấp** bên ngoài. Nếu họ giao trễ, tiến độ kiểm thử sẽ bị ảnh hưởng nghiêm trọng.
+
+⚙️ Đây là loại phụ thuộc **khó kiểm soát nhất** vì nằm **ngoài phạm vi ảnh hưởng trực tiếp** của nhóm dự án. Do đó, cần **theo dõi sát sao**, lập **kế hoạch dự phòng (contingency plan)** để giảm thiểu rủi ro.
+
+### Biểu đồ Gantt
+Biểu đồ **Gantt (Gantt Chart)** là một công cụ **kinh điển và phổ biến nhất** để biểu diễn **lịch trình dự án (project schedule)** dưới dạng **đồ họa trực quan**, giúp nhà quản lý dự án dễ dàng **nhìn thấy tiến độ, mốc thời gian và mối liên hệ giữa các công việc**.
+
+#### Định nghĩa và vai trò
+
+Biểu đồ Gantt thể hiện **danh sách các đầu việc (tasks)** của dự án kèm theo **ngày bắt đầu và kết thúc** tương ứng. Vì mỗi đầu việc được biểu diễn bằng **một thanh ngang (bar)** trên trục thời gian, nên biểu đồ Gantt còn được gọi là **biểu đồ thanh (Bar Chart)**.
+
+Biểu đồ Gantt giúp:
+- Thấy rõ **toàn bộ kế hoạch dự án** chỉ trong một khung nhìn.
+- Nhận biết **các mốc quan trọng (milestones)** và **thứ tự phụ thuộc giữa các công việc**.
+- Hỗ trợ **theo dõi và kiểm soát tiến độ** - dễ dàng phát hiện việc nào đang trễ hạn hay sắp tới hạn.
+
+#### Các thành phần chính trong Gantt
+
+ ![[Pasted image 20251015152806.png|center|500]] 
+
+Ví dụ: Biểu đồ Gantt của dự án "Hệ thống quản lý các mối quan hệ cá nhân" minh họa đầy đủ các yếu tố sau:
+
+1. **Các mốc dự án (Milestones)** 🏁
+    - Là **những thời điểm quan trọng** cần đạt được, thường thể hiện **sự hoàn thành một giai đoạn lớn**.
+    - Trong biểu đồ Gantt, mốc được thể hiện bằng **hình thoi**.
+    - Ví dụ: các đầu việc số **7 và 14** đánh dấu hai mốc quan trọng diễn ra vào **ngày 20 và 27 tháng 8** - những mốc mà **nhà tài trợ và lãnh đạo cấp cao** đặc biệt quan tâm.
+
+2. **Các đầu việc tổng (Summary Tasks)** 📦
+    - Đại diện cho **nhóm công việc lớn**, bao gồm nhiều đầu việc con bên trong.
+    - Thể hiện bằng **một thanh đen có mũi tên ở hai đầu**, chỉ điểm bắt đầu và kết thúc của nhóm việc đó.
+    - Ví dụ: các việc số **1, 2, 4, 8 và 10** là đầu việc tổng trong hình.
+
+3. **Các đầu việc đơn lẻ (Individual Tasks)** ⚙️
+    - Là **những công việc cụ thể**, có **thời gian bắt đầu và kết thúc rõ ràng**, biểu diễn bằng **thanh ngang** trên trục thời gian.
+    - Trong ví dụ: các việc số **3, 5, 6, 7, 9, 11, 12, 13 và 14** là các đầu việc đơn lẻ.
+
+4. **Quan hệ phụ thuộc giữa các đầu việc (Dependencies)** 🔗
+    - Được thể hiện bằng **mũi tên nối các thanh công việc** hoặc **mốc dự án**, cho thấy **thứ tự thực hiện**.
+    - Ví dụ: công việc "Kiểm thử hệ thống" chỉ bắt đầu được khi "Lập trình" hoàn thành.
+
+> [!check] Lợi ích thực tiễn
+> - **Dễ hiểu - Dễ theo dõi:** chỉ cần nhìn vào chiều dài và vị trí của thanh là biết ngay tiến độ công việc.
+> - **Thích hợp cho báo cáo:** Biểu đồ Gantt là **ngôn ngữ chung** giữa nhà quản lý dự án, khách hàng và các bên liên quan.    
+> - **Tích hợp linh hoạt:** Hầu hết các phần mềm quản lý dự án hiện đại như **Microsoft Project**, **Asana**, **Trello**, **Notion** đều hỗ trợ Gantt Chart.
+
+#### Tiêu chí S.M.A.R.T
+
+Để biểu đồ Gantt phát huy hiệu quả, **mọi đầu việc được liệt kê trong đó phải được xác định theo tiêu chí SMART**. [SMART](https://en.wikipedia.org/wiki/SMART_criteria) là viết tắt của 5 yếu tố giúp **mục tiêu và công việc** rõ ràng, khả thi và có thể đo lường:
+
+| Tiếng Anh    | Ý nghĩa            | Giải thích                                                                    | Ví dụ                                                        |
+| ------------ | ------------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| (S)pecific   | Cụ thể, rõ ràng    | Mục tiêu / công việc phải được mô tả rõ ràng - ai làm, làm gì, như thế nào    | "Thiết kế giao diện đăng nhập" thay vì "thiết kế giao diện". |
+| (M)easurable | Đo lường được      | Có cách để đánh giá được đã đạt hay chưa / tiến độ đến đâu                    | "Hoàn thành 100% các API", "pass test unit 90%"              |
+| (A)chievable | Có thể đạt được    | Phù hợp với nguồn lực (nhân lực, thời gian, công nghệ) và không quá tham vọng | Ước lượng thời gian thực tế, không giao quá tải cho nhóm.    |
+| (R)elevant   | Thực tế, liên quan | Mục tiêu / công việc phải gắn với mục tiêu lớn của dự án / tổ chức            | Mỗi đầu việc phải đóng góp trực tiếp vào sản phẩm cuối.      |
+| (T)ime-bound | Có thời hạn        | Có mốc thời gian rõ ràng để biết khi nào công việc / mục tiêu kết thúc        | Ghi rõ ngày bắt đầu - ngày kết thúc trong Gantt Chart.       |
+
+### Biểu đồ mạng lưới công việc
+Biểu đồ mạng lưới công việc (Network diagram) là **một kỹ thuật trực quan để biểu diễn lịch trình các công việc trong dự án**, cho ta thấy **mối quan hệ logic giữa các hoạt động** cũng như **thứ tự thực hiện** của chúng.
+
+Công cụ này còn được gọi là **biểu đồ PERT** (Program Evaluation and Review Technique - kỹ thuật đánh giá và xem xét chương trình), đóng vai trò **cực kỳ quan trọng trong lập lịch trình dự án**, đặc biệt trong quản lý dự án phần mềm, nơi có nhiều công việc phụ thuộc lẫn nhau.
+
+Biểu đồ mạng lưới có **hai loại chính**:
+1. 🏹 **Biểu đồ mũi tên (Activity on Arrow - AOA)**
+2. 📦 **Biểu đồ ưu tiên (Precedence Diagramming Method - PDM)**
+
+#### Biểu đồ mũi tên
+
+Đây là phương pháp **biểu diễn mỗi công việc bằng một mũi tên một chiều**, nối **hai đỉnh (nodes)** – đại diện cho **điểm bắt đầu và kết thúc của công việc**.
+
+ ![[Pasted image 20251015155509.png|center|500]]
+
+💡 Ví dụ minh họa (Hình 6.2):
+- Mỗi đầu việc (A, B, C, D, …) được gắn nhãn kèm theo thời lượng (ví dụ: A=1 ngày, B=2 ngày, …).
+- Các mũi tên thể hiện **thứ tự và sự phụ thuộc** giữa các công việc trong dự án.
+
+⚙️ Một số điểm cần chú ý:
+- **Đỉnh đầu** (Start Node) thể hiện điểm bắt đầu dự án.
+- **Đỉnh cuối** (End Node) thể hiện điểm kết thúc dự án.
+- **Mũi tên** chỉ hướng thực hiện công việc.
+- **Công việc giả (Dummy Activity)** đôi khi được thêm vào để thể hiện mối quan hệ phụ thuộc logic mà không có công việc thực tế (nhằm giữ cấu trúc logic chính xác).
+
+📘 **Ứng dụng**: Biểu đồ AOA giúp dễ dàng xác định **đường găng (Critical Path)** - tức chuỗi công việc dài nhất quyết định thời gian ngắn nhất để hoàn thành dự án.
+
+#### Biểu đồ ưu tiên
+
+Đây là phương pháp phổ biến hơn trong các phần mềm quản lý dự án hiện nay (như MS Project, Primavera,...). Trong biểu đồ này, **mỗi công việc được biểu diễn bằng một hộp (node)** thay vì mũi tên, và **mối quan hệ giữa các công việc được thể hiện bằng các đường nối (mũi tên)**.
+
+![[Pasted image 20251015155705.png|center|500]]
+
+💡 Hình 6.3 là ví dụ về biểu đồ ưu tiên, tương ứng với biểu đồ mũi tên ở trên. Mỗi **hộp (node)** chứa thông tin quan trọng của đầu việc như:
+- Mã công việc (ID)
+- Ngày bắt đầu & kết thúc
+- Thời lượng
+- Người chịu trách nhiệm
+
+🔗 **Có 4 loại quan hệ phụ thuộc chính** giữa các công việc trong biểu đồ ưu tiên:
+
+| Loại quan hệ              | Ký hiệu             | Mô tả                                                                                                       | Ví dụ                                                                                               |
+| ------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **Finish-to-Start (FS)**  | Kết thúc - Bắt đầu  | Công việc sau chỉ được bắt đầu khi công việc trước kết thúc.                                                | Không thể kiểm thử hệ thống trước khi lập trình xong.                                               |
+| **Start-to-Start (SS)**   | Bắt đầu - Bắt đầu   | Hai công việc có thể bắt đầu gần nhau, nhưng công việc sau phải bắt đầu sau khi công việc trước đã bắt đầu. | Các hoạt động đào tạo người dùng có thể diễn ra khi hệ thống được cài đặt.                          |
+| **Finish-to-Finish (FF)** | Kết thúc - Kết thúc | Công việc sau chỉ có thể kết thúc khi công việc trước kết thúc.                                             | Việc kiểm thử phần mềm không thể kết thúc khi lập trình chưa hoàn tất.                              |
+| **Start-to-Finish (SF)**  | Bắt đầu - Kết thúc  | Công việc trước cần được bắt đầu trước khi công việc sau có thể kết thúc. (hiếm dùng)                       | Nhà tài trợ phải ký bản đặc tả cuối cùng trước khi chuyên gia nghiệp vụ hoàn tất việc chốt yêu cầu. |
+
+> [!info] Lưu ý
+> - Không nhất thiết phải đưa **toàn bộ các công việc trong WBS** vào biểu đồ — chỉ nên chọn **những công việc có quan hệ phụ thuộc với nhau** để tránh rối.
+> - Với các **dự án lớn**, có thể chia biểu đồ thành **nhiều biểu đồ con** hoặc **chỉ biểu diễn các đầu việc chính**.
+> - Biểu đồ này là **cơ sở để xác định đường găng**, từ đó giúp nhà quản lý biết công việc nào **không thể bị trễ** và cần **ưu tiên nguồn lực**.
 ### Phân tích đường găng
 
+
 ## Kiểm soát lịch trình dự án
+
