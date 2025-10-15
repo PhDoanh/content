@@ -352,7 +352,7 @@ Biểu đồ mạng lưới có **hai loại chính**:
 | **Start-to-Finish (SF)**  | Bắt đầu - Kết thúc  | Công việc trước cần được bắt đầu trước khi công việc sau có thể kết thúc. (hiếm dùng)                       | Nhà tài trợ phải ký bản đặc tả cuối cùng trước khi chuyên gia nghiệp vụ hoàn tất việc chốt yêu cầu. |
 
 > [!info] Lưu ý
-> - Không nhất thiết phải đưa **toàn bộ các công việc trong WBS** vào biểu đồ — chỉ nên chọn **những công việc có quan hệ phụ thuộc với nhau** để tránh rối.
+> - Không nhất thiết phải đưa **toàn bộ các công việc trong WBS** vào biểu đồ - chỉ nên chọn **những công việc có quan hệ phụ thuộc với nhau** để tránh rối.
 > - Với các **dự án lớn**, có thể chia biểu đồ thành **nhiều biểu đồ con** hoặc **chỉ biểu diễn các đầu việc chính**.
 > - Biểu đồ này là **cơ sở để xác định đường găng**, từ đó giúp nhà quản lý biết công việc nào **không thể bị trễ** và cần **ưu tiên nguồn lực**.
 ### Phân tích đường găng
