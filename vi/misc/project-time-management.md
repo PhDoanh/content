@@ -15,7 +15,7 @@ aliases:
 cssclasses:
   - img
 ---
-## Lịch trình dự án và tầm quan trọng
+## Lịch trình dự án và tầm quan trọng 📅
 
 ### Hiểu về lịch trình dự án
 
@@ -73,7 +73,7 @@ Quản lý thời gian dự án là một trong những quy trình quan trọng 
 
 7. **Kiểm soát lịch trình dự án:** Là quá trình **theo dõi tình trạng tiến độ dự án, so sánh với kế hoạch ban đầu, phát hiện sai lệch và đưa ra biện pháp điều chỉnh**, đảm bảo dự án hoàn thành đúng thời hạn đã đặt ra.
 
-## Lập kế hoạch quản lý lịch trình dự án
+## Lập kế hoạch quản lý lịch trình dự án 📜
 Quy trình đầu tiên trong **quản lý thời gian của dự án** là **lập kế hoạch quản lý lịch trình (Schedule Management Plan)**. Thông thường, khi dự án mới khởi động, **bản thông tin sơ bộ** đã nêu ra thời điểm **bắt đầu** và **kết thúc dự kiến** của dự án. Nhưng chỉ có vậy thôi chưa đủ, nhà quản lý dự án cần **xây dựng kế hoạch chi tiết hơn** để đảm bảo rằng toàn bộ tiến độ thực tế sẽ **bám sát và đạt được** các mốc thời gian đó ⏰.
 
 Bản **kế hoạch quản lý lịch trình** này không chỉ dựa trên thông tin ban đầu, mà còn cần phân tích thêm từ **nguồn lực tổ chức**, **chính sách nội bộ**, và **đặc thù của dự án** để đảm bảo tính khả thi.
@@ -156,7 +156,7 @@ Bản kế hoạch này **thông thường bao gồm các nội dung sau**:
 > [!tip] Mẹo
 > Phần này nên được mô tả bằng **sơ đồ quy trình (Process Flow)** hoặc **bảng các bước**, để người đọc dễ theo dõi và áp dụng thực tế.
 
-## Xác định chi tiết công việc
+## Xác định chi tiết công việc 🧩
 Ta đã tìm hiểu về quy trình và các phương pháp [[project-scope-management|quản lý phạm vi công việc của dự án]]. Tuy nhiên, phần *"xác định phạm vi"* chỉ mới dừng lại ở việc mô tả **những gì cần làm và không cần làm**, chứ **chưa đủ chi tiết** để hình thành nên **các sản phẩm bàn giao (deliverables)** cụ thể của dự án.
 
 Ví dụ, khi ta nói *"dự án có cung cấp chức năng quản lý người dùng hay không"* - đó mới là **phạm vi tổng thể**. Nhưng để **lập được lịch trình chi tiết**, ta phải *"bẻ nhỏ"* nó ra thành **các công việc cụ thể** như:
@@ -206,7 +206,7 @@ Mục tiêu chính là giúp **mọi thành viên và bên liên quan hiểu rõ
 
 Sau đó, đội dự án sẽ **rà soát và thống nhất** với các bên liên quan để có **danh sách công việc cuối cùng**, làm cơ sở cho bước kế tiếp là **lập lịch trình dự án (Scheduling)**.
 
-## Tạo lập lịch trình dự án
+## Tạo lập lịch trình dự án ✍️
 Sau khi đã xác định được **các hoạt động cần thiết** và **ước lượng thời gian cho từng hoạt động**, bước tiếp theo trong quản lý thời gian là **lập lịch trình dự án (Project Scheduling)**.
 
 Mục tiêu của bước này là **sắp xếp trình tự các công việc**, xác định **mối quan hệ phụ thuộc** giữa chúng và **phân bổ thời gian hợp lý** để hình thành **một lịch trình khả thi, tối ưu** cho toàn dự án. Lịch trình dự án là **xương sống của kế hoạch thực hiện**, giúp nhà quản lý dự án theo dõi tiến độ, phân bổ nguồn lực, và nhận diện **đường găng (Critical Path)** - chuỗi công việc quyết định trực tiếp đến **thời gian hoàn thành dự án**.
@@ -384,7 +384,7 @@ Bằng việc sử dụng **ngày bắt đầu sớm nhất (ES), ngày kết th
 
 ![[Pasted image 20251015172658.png|center|500]]
 
-## Kiểm soát lịch trình dự án
+## Kiểm soát lịch trình dự án 📈
 Sau khi lịch trình dự án đã được xây dựng, bước tiếp theo là kiểm soát tiến độ dự án. Mục tiêu chính của việc kiểm soát lịch trình là:
 1. **Theo dõi trạng thái của dự án:** Xác định tiến độ thực tế so với lịch trình dự kiến, nhận diện những đầu việc bị trễ so với kế hoạch.
 2. **Quản lý sự thay đổi:** Khi phát hiện các đầu việc không theo đúng lịch trình, nhà quản lý dự án cần kiểm soát và điều chỉnh các thay đổi cần thiết để duy trì tiến độ dự án.
