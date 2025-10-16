@@ -106,7 +106,7 @@ Hậu tố **さ** được dùng để biến tính từ thành danh từ chỉ
 > - Một số danh từ **さ** rất phổ biến, được dùng như các từ chính thức: 大きさ (kích thước), 高さ (chiều cao), 長さ (chiều dài), 重さ (trọng lượng), 深さ (độ sâu), 速さ (tốc độ), ...
 
 > [!info] Ngữ pháp tương tự
-> - **み**: Cũng danh từ hóa tính từ nhưng mang tính chủ quan, cảm xúc (ví dụ: 甘み - vị ngọt cảm nhận được, 痛み - cơn đau cảm thấy). Chỉ dùng được với một số **Aい** nhất định
+> - **A + み**: cách chia giống さ, cũng danh từ hóa tính từ nhưng mang tính chủ quan, cảm xúc (ví dụ: 甘み - vị ngọt cảm nhận được, 痛み - cơn đau cảm thấy). Chỉ dùng được với một số **Aい** nhất định.
 > - **こと/の**: Danh từ hóa động từ và tính từ ở dạng câu (ví dụ: 高いこと - việc cao/đắt), nhưng không chỉ mức độ cụ thể như **さ**
 > - **〜性**: Tạo danh từ trừu tượng từ **Aな** (ví dụ: 可能性 - khả năng), mang tính học thuật, formal hơn **さ**
 > - **〜度**: Chỉ mức độ, tần suất (ví dụ: 満足度 - mức độ hài lòng), thường dùng trong báo cáo, thống kê
