@@ -1,18 +1,18 @@
 ---
-stage: "Idea"
-title: "Tự động hóa quy trình blog với n8n"
-description: "meta description (140‑160 chars)"
+stage: Idea
+title: Tự động hóa quy trình blog toàn diện với n8n
+description: meta description (140‑160 chars)
 permalink: ""
 lang: vi
 draft: true
-tags: 
+tags:
   - array-of-up-to-5-keywords
 aliases:
   - 
 cssclasses:
   - img
   - btn
-socialDescription: "OG description (~100 chars)"
-socialImage: "fully qualified URL to preview image"
+socialDescription: OG description (~100 chars)
+socialImage: fully qualified URL to preview image
 ---
 
