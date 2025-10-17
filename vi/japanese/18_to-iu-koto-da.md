@@ -63,7 +63,7 @@ cssclasses:
 ## Cách dùng cơ bản 🗝️
 
 ### Truyền đạt thông tin nghe được
-Đây là cách dùng phổ biến nhất của **ということだ**, dùng để truyền đạt lại thông tin mà bạn nghe được từ người khác hoặc từ một nguồn nào đó. Nó giống như "nghe nói rằng..." trong tiếng Việt. [[18_toiukotoda#^a4f8e2|Về lại lời thoại ↑]]
+Đây là cách dùng phổ biến nhất của **ということだ**, dùng để truyền đạt lại thông tin mà bạn nghe được từ người khác hoặc từ một nguồn nào đó. Nó giống như "nghe nói rằng..." trong tiếng Việt. [[18_to-iu-koto-da#^a4f8e2|Về lại lời thoại ↑]]
 
 > [!clear]- 明日は雨が降る**ということだ**。
 > Nghe nói ngày mai trời sẽ mưa.
@@ -80,7 +80,7 @@ cssclasses:
 > - Thường đi kèm với các từ như **らしい、そうだ** để tăng độ tin cậy
 
 ### Giải thích lý do hoặc tình huống
-**ということだ** có thể dùng để giải thích ý nghĩa, lý do đằng sau một tình huống hay phát biểu nào đó, tương tự như "có nghĩa là..." hoặc "điều đó nghĩa là...". [[18_toiukotoda#^b2c947|Về lại lời thoại ↑]]
+**ということだ** có thể dùng để giải thích ý nghĩa, lý do đằng sau một tình huống hay phát biểu nào đó, tương tự như "có nghĩa là..." hoặc "điều đó nghĩa là...". [[18_to-iu-koto-da#^b2c947|Về lại lời thoại ↑]]
 
 > [!clear]- 入場料が無料だ**ということだ**から、誰でも参加できる。
 > Vì phí tham dự miễn phí nên ai cũng có thể tham gia.
@@ -97,7 +97,7 @@ cssclasses:
 > - Khác với **わけだ** ở chỗ không nhấn mạnh tính tất yếu/logic cứng nhắc
 
 ### Tóm tắt hoặc kết luận
-Dùng để tóm tắt một đoạn hội thoại, tình huống dài hoặc rút ra kết luận từ những gì đã được nói/biết trước đó. [[18_toiukotoda#^e7d139|Về lại lời thoại ↑]]
+Dùng để tóm tắt một đoạn hội thoại, tình huống dài hoặc rút ra kết luận từ những gì đã được nói/biết trước đó. [[18_to-iu-koto-da#^e7d139|Về lại lời thoại ↑]]
 
 > [!clear]- 結局、行かない**ということだ**ね。
 > Rốt cuộc là không đi phải không?
