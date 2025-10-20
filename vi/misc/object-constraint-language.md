@@ -85,10 +85,17 @@ OCL hỗ trợ nhiều loại ràng buộc chính trong mô hình hướng đố
 
 - OCL cho phép dẫn xuất giá trị qua các liên kết trong mô hình UML. Ví dụ: `self.orders`, `self.department.manager`… 
 
-- Khi liên kết có multiplicity > 1, OCL sẽ trả về một tập hợp (collection) thay vì một giá trị đơn lẻ. Các thao tác tập hợp (collection operations) rất quan trọng: `->size()`, `->forAll(...)`, `->exists(...)`, `->select(...)`, `->collect(...)`, `->sum()`… Ví dụ: `context Company inv:   self.employees->size() >= 1  context Person inv:   self.parents->forAll(p | p.age > self.age)`
+- Khi liên kết có multiplicity > 1, OCL sẽ trả về một tập hợp (collection) thay vì một giá trị đơn lẻ. Các thao tác tập hợp (collection operations) rất quan trọng. Ví dụ: 
 
+```
+context Company 
+inv: self.employees->size() >= 1  
 
-Vai trò: hỗ trợ diễn đạt các điều kiện liên quan đến nhiều đối tượng hoặc tập hợp đối tượng trong mô hình — rất hữu ích khi biểu đồ UML đơn giản không đủ diễn đạt các ràng buộc phức tạp.
+context Person 
+inv: self.parents->forAll(p | p.age > self.age)
+```
+
+Vai trò: hỗ trợ diễn đạt các điều kiện liên quan đến nhiều đối tượng hoặc tập hợp đối tượng trong mô hình - rất hữu ích khi biểu đồ UML đơn giản không đủ diễn đạt các ràng buộc phức tạp.
 
 ### Biểu thức & toán tử
 
@@ -105,14 +112,6 @@ inv: self.duration <= 4 and self.maxNrPassengers <= 1000
 ```
 
 Vai trò: cấu thành *"nội dung"* của ràng buộc và kiểm tra logic nghiệp vụ, biểu thức phải dễ hiểu, đúng kiểu, và không gây thay đổi hệ thống.
-
-### Ngữ nghĩa và các công cụ hỗ trợ
-
-OCL được thiết kế với ngữ nghĩa rõ ràng: mỗi biểu thức có kiểu (typed), không có tác dụng phụ, và dùng để **mô tả** - chứ không để **thực thi** theo nghĩa thay đổi trạng thái. 
-
-Có nhiều **công cụ hỗ trợ** OCL như Eclipse OCL, USE, các plugin UML/EMF cho phép kiểm tra các ràng buộc OCL trong mô hình. [help.eclipse.org+1](https://help.eclipse.org/latest/topic/org.eclipse.ocl.doc/help/CompleteOCLTutorial.html?utm_source=chatgpt.com)
-
-Vai trò: đảm bảo mô hình được kiểm tra và đảm bảo đúng ràng buộc nghiệp vụ, giúp nâng cao chất lượng mô hình trong phân tích-thiết kế hướng đối tượng.
 
 ## Vai trò của OCL trong phân tích & thiết kế hướng đối tượng
 
