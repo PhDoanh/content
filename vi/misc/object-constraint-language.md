@@ -15,7 +15,7 @@ lang:
 aliases:
 cssclasses:
 ---
-## Giới thiệu về OCL
+## Giới thiệu về OCL 🔍
 
 Khi phân tích & thiết kế hệ thống hướng đối tượng, chúng ta dùng rất nhiều biểu đồ UML như lớp, ca sử dụng, hoạt động… Nhưng có vài vấn đề:
 - Biểu đồ UML thường **chỉ mô tả cấu trúc hoặc hành vi** ở mức khái quát, nhưng **không đủ chi tiết** để diễn tả tất cả các quy tắc nghiệp vụ (business rules).
@@ -33,7 +33,7 @@ Theo Wikipedia, [OCL](https://en.wikipedia.org/wiki/Object_Constraint_Language) 
 > [!info] Lưu ý
 > OCL được chuẩn hóa bởi [Object Management Group](https://www.omg.org) (OMG), phiên bản cập nhật gần nhất là [OCL 2.4](https://www.omg.org/spec/OCL/2.4/PDF). 
 
-## Các thành phần cơ bản của OCL
+## Các thành phần cơ bản của OCL 🧩
 
 ### Kiểu dữ liệu
 
@@ -113,7 +113,7 @@ inv: self.duration <= 4 and self.maxNrPassengers <= 1000
 
 Vai trò: cấu thành *"nội dung"* của ràng buộc và kiểm tra logic nghiệp vụ, biểu thức phải dễ hiểu, đúng kiểu, và không gây thay đổi hệ thống.
 
-## Vai trò của OCL trong phân tích & thiết kế hướng đối tượng
+## Vai trò của OCL trong phân tích, thiết kế hướng đối tượng 🏗️
 
 Khi bạn đang thực hiện các bước như phân tích ca sử dụng, thiết kế lớp, phân tích kiến trúc… OCL có thể hỗ trợ như sau:
 
