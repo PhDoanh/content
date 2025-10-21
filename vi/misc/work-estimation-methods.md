@@ -201,5 +201,46 @@ Cách làm:
 > [!info] Lưu ý
 > Thông thường, việc tiến hành ước lượng chỉ nên tối đa 3 lượt/task trong danh sách các đầu việc của từng Sprint (SBI), nếu vẫn chưa đạt được sự đồng thuận thì đội dự án cần có cơ chế để ra quyết định cuối cùng (biểu quyết hoặc quyết định từ một người có kinh nghiệm) 
 
-## Vấn đề trong ước lượng của dự án phần mềm
+## Một số vấn đề trong ước lượng của dự án phần mềm
+Khi tiến hành ước lượng, ta không thể áp dụng công thức cứng nhắc cho mọi loại dự án. Dự án phần mềm mang trong nó nhiều **đặc thù riêng biệt**, nên để có ước lượng chính xác, người quản lý cần **cân nhắc kỹ** một số điểm sau 👇
 
+1. **Công việc sáng tạo**
+Phát triển phần mềm là **một công việc sáng tạo**, không giống như dây chuyền sản xuất trong nhà máy. Mỗi đầu việc, dù tên gọi giống nhau, vẫn có thể phải **làm lại từ đầu** do sự khác biệt về:
+- môi trường kỹ thuật,
+- yêu cầu phi chức năng,
+- hoặc sự thay đổi về công nghệ, hạ tầng, quy mô hệ thống.
+
+👉 Vì thế, **nỗ lực thực tế có thể khác xa ước lượng ban đầu**.  
+
+> [!example] Ví dụ
+> Một chức năng *"kết nối cơ sở dữ liệu"* trong dự án A có thể hoàn thành nhanh vì môi trường quen thuộc, nhưng trong dự án B lại phức tạp hơn do yêu cầu bảo mật, cấu trúc cơ sở dữ liệu hoặc công nghệ hoàn toàn khác.
+
+Điều đó có nghĩa: nếu một nhân viên hoàn thành một việc "ước lượng 2 ngày" chỉ trong 2 giờ, **không thể kết luận ngay** rằng ước lượng sai hoặc người đó quá xuất sắc - vì bản chất công việc có thể khác.
+
+2. **Loại dự án**
+Mỗi loại dự án khác nhau sẽ dẫn đến ước lượng khác nhau.  
+
+> [!example] Ví dụ
+> - Trong **dự án phát triển phần mềm mới**, việc *"tạo chức năng đơn hàng"* phải xây dựng toàn bộ mã nguồn từ đầu.
+> - Còn trong **dự án bảo trì hoặc nâng cấp**, phần lớn thành phần (hàm dùng chung, kết nối CSDL, template code) **đã sẵn có**, nên effort nhỏ hơn nhiều.
+
+👉 Vì vậy, **không thể dùng lại ước lượng** từ một dự án này cho dự án khác nếu bản chất của chúng khác nhau.
+
+3. **Mức độ yêu cầu chất lượng**
+Khi **yêu cầu chất lượng cao**, công sức để kiểm thử, rà soát, viết tài liệu cũng tăng tương ứng.  
+
+> [!example] Ví dụ
+> - **Dự án cho khách hàng** (hợp đồng chi phí cố định): thường khách hàng muốn giảm chi phí nên cắt bớt kiểm thử, review, chỉ đảm bảo *"chạy được"*.
+> - **Dự án nội bộ** (phát triển cho chính tổ chức): yêu cầu độ tin cậy cao, vận hành lâu dài, nên cần đầu tư kiểm thử, code review, quản lý cấu hình kỹ hơn.
+
+👉 Do đó, **chi phí và thời gian ước lượng** cũng phải phản ánh đúng yêu cầu chất lượng tương ứng.
+
+Ngoài những đặc thù nêu trên, việc ước lượng dự án phần mềm thường gặp một số vấn đề say đâu làm cho ước lượng thiếu đi sự chính xác:
+
+- **Ước lượng quá nhanh**: Khi đội dự án **chưa phân tích kỹ yêu cầu** hoặc chịu áp lực cần con số sớm, các ước lượng đưa ra thường **vội vã và thiếu cơ sở**. Dẫn tới sai số lớn, tiến độ không thực tế. ➡️ Luôn rà soát và dành đủ thời gian cho bước phân tích trước khi chốt estimate.
+
+- **Người ước lượng thiếu kinh nghiệm**: Nếu người thực hiện ước lượng **chưa có kinh nghiệm hoặc hiểu biết về lĩnh vực dự án**, họ dễ bỏ sót các công việc phụ, hoặc đánh giá thấp độ phức tạp. ➡️ Do đó, **nên để thành viên giàu kinh nghiệm rà soát lại ước lượng** để tránh sai sót.
+
+- **Con người có xu hướng ước lượng thấp**: Tâm lý phổ biến trong nhiều tổ chức là "đưa con số thấp để được chọn, được duyệt" hoặc đơn giản là **quá lạc quan**. Điều này dẫn đến ước lượng thiếu thực tế, deadline chật hẹp, áp lực cao, ảnh hưởng chất lượng sản phẩm. ➡️ Nên thực hiện ước lượng khách quan, có cơ chế kiểm chứng, và luôn thêm phần dự phòng (contingency).
+
+- **Các cấp lãnh đạo đòi hỏi sự chính xác cao**: Các lãnh đạo hoặc chủ đầu tư thường **muốn có con số thật chính xác** để: lên kế hoạch ngân sách, hoặc tham gia đấu thầu. Điều này khiến nhóm dự án **bị ép phải "rút ngắn" ước lượng**, khiến bản estimate trở nên thiếu thực tế. ➡️ Nhiệm vụ của nhà quản lý dự án là phải **bảo vệ ước lượng hợp lý** bằng năng lực **lãnh đạo và thương lượng**, đồng thời cập nhật khi yêu cầu hoặc phạm vi thay đổi.
