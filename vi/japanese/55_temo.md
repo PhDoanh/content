@@ -1,7 +1,7 @@
 ---
 stage: Idea
 draft: true
-title: ". {11: shortened grammar}「{6: short story title in vietnamese}」"
+title: "<% tp.file.cursor(0) %>. {11: shortened grammar}「{6: short story title in vietnamese}」"
 description: "{8: meta description (140‑160 chars)}"
 tags:
   - 
@@ -16,9 +16,15 @@ aliases:
 cssclasses:
   - img
 ---
-![[Pasted image 20251013153736.png]]
+![[Pasted image 20251021094127.png]]
 
-![[Pasted image 20251021093601.png]]
+![[Pasted image 20251021094151.png]]
+
+[JLPT N4 Grammar: ても (temo) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%82%82-temo-meaning/)
+
+[JLPT N3 Grammar: いくら～ても (ikura~temo) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%81%84%e3%81%8f%e3%82%89%ef%bd%9e%e3%81%a6%e3%82%82-ikura-temo-meaning/)
+
+[JLPT N3 Grammar: どんなに～ても (donna ni~temo) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%81%a9%e3%82%93%e3%81%aa%e3%81%ab%ef%bd%9e%e3%81%a6%e3%82%82-donna-ni-temo-meaning/)
 
 {9: related tags as bullets (skip #)}
 
@@ -74,7 +80,7 @@ cssclasses:
 > {4: similar grammars with short description and emphasize the difference as bullets}
 
 ## Tổng kết và giữ chuỗi 🔥
-Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số  đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
+Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số <% tp.file.cursor(0) %> đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
 
 {5: summary of content}
 
