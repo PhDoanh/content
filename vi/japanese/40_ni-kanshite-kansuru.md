@@ -20,6 +20,13 @@ cssclasses:
 
 [JLPT N3 Grammar: に関する / に関して (ni kan suru / ni kan shite) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b-%e3%81%ab%e9%96%a2%e3%81%97%e3%81%a6-ni-kan-suru-ni-kan-shite-meaning/)
 
+|Cấu trúc|Nghĩa chính|Dùng cho|Ví dụ ngắn|
+|---|---|---|---|
+|に関して|liên quan đến (formal)|Chủ đề rộng, nghiêm túc|政治に関して話す|
+|について|về (phổ thông)|Chủ đề cụ thể|日本について学ぶ|
+|によると|theo (nguồn tin)|Trích dẫn thông tin|ニュースによると|
+|によって|bởi / do / bằng / tùy|Bị động, nguyên nhân, cách, phân biệt|努力によって成功した|
+
 {9: related tags as bullets (skip #)}
 
 > [!bell]- Dành cho bạn học lần đầu
