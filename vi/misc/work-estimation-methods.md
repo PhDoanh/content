@@ -1,11 +1,12 @@
 ---
-stage: Idea
-draft: true
+stage: Publish
+draft: false
 title: Các phương pháp ước lượng công việc
 description:
 tags:
   - project-management
   - estimation-methods
+  - work-estimation
 socialDescription:
 socialImage:
 permalink:
@@ -18,7 +19,7 @@ Trước khi vẽ ra bất kỳ lịch trình, ngân sách, hay biểu đồ Gan
 
 Đây là một câu hỏi **rất khó** theo cả nghĩa đen lẫn nghĩa bóng, vì nó ảnh hưởng đến phần lớn hoạt động của dự án sau này (mọi khủng hoảng deadline, overload, mất niềm tin, ... đều do trả lời câu hỏi trên kém hiệu quả), nên nhà quản lý dự án cần phải có kỹ năng **ước lượng công việc** để tìm ra đáp án tối ưu nhất có thể.
 
-## Ước lượng công việc và tầm quan trọng
+## Ước lượng công việc và tầm quan trọng ⚖️
 Theo PMI (Project Management Institute), **Ước lượng (Estimation)** là quy trình phát triển một giá trị tương đối chính xác về chi phí của các nguồn lực cần thiết để hoàn thành dự án. 
 
 Nói cách khác, ước lượng là *"cầu nối"* giữa **ý tưởng** và **kế hoạch hành động cụ thể** 🧭. Bạn không thể lập tiến độ, phân bổ người hay lên ngân sách nếu chưa có những con số ước lượng ban đầu.
@@ -37,7 +38,7 @@ Tầm quan trọng của việc ước lượng:
 - **Thuyết phục các bên liên quan**: Khi ước lượng có căn cứ, bạn có thể chứng minh với khách hàng hoặc sếp rằng kế hoạch là khả thi.
 - **Tăng độ tin cậy của đội dự án**: Các thành viên hiểu rõ giới hạn công việc của mình, từ đó cam kết tốt hơn với tiến độ.
 
-## Các loại ước lượng
+## Các loại ước lượng 📚
 Trong quá trình quản lý dự án phần mềm, việc ước lượng thường **được thực hiện nhiều lần** ở các giai đoạn khác nhau. Mỗi giai đoạn lại yêu cầu **mức độ chi tiết và độ chính xác khác nhau**, vì thông tin về dự án lúc đầu thường còn rất ít và dần được bổ sung qua từng bước. Do đó, các tài liệu quản lý dự án thường phân chia **ước lượng thành 3 loại chính**:
 
 ### Ước lượng thô - Rough Order of Magnitude (ROM)
@@ -73,8 +74,8 @@ Loại này được thực hiện **sau khi dự án đã được phê duyệt
 > Khi hợp đồng đã ký và bản thiết kế hệ thống ERP hoàn thiện, nhóm dự án ước lượng chi phí thực tế cần là 980 triệu ±10%, tức trong khoảng 882 đến 1.078 triệu đồng.
 
 
-## Một số phương pháp và công cụ ước lượng
-
+## Một số phương pháp và công cụ ước lượng 🧮
+ 
 Trong quản lý dự án phần mềm, **ước lượng** là công việc rất khó nhưng vô cùng quan trọng. Bởi dự án phần mềm mang tính **sáng tạo, ít lặp lại** - tức là hầu như mỗi dự án đều có đặc thù riêng, nên không thể áp dụng rập khuôn một công thức duy nhất. Do đó, người quản lý dự án thường phải **kết hợp nhiều phương pháp và công cụ** để có kết quả tin cậy nhất.
 
 Phần này giới thiệu **chín phương pháp và công cụ phổ biến** mà các nhà quản lý dự án thường dùng khi ước lượng quy mô, công sức và chi phí phần mềm.
@@ -166,25 +167,59 @@ Phương pháp này đo quy mô phần mềm **không theo dòng code (LOC)** m�
 > - Nếu 1 FP ≈ 8 giờ công → tổng nỗ lực ≈ 200 giờ.
 
 ### 8. Mô hình COCOMO - Constructive Cost Model
+Đây là **một mô hình tham số (parametric model)** rất nổi tiếng do **Barry Boehm** phát triển cuối thập niên 1970, dùng để **ước lượng công sức, thời gian và chi phí** cho việc phát triển phần mềm dựa trên **kích thước của phần mềm** (tính theo nghìn dòng lệnh - KLOC).
 
-Đây là **mô hình toán học nổi tiếng của Boehm**, dùng để ước lượng công sức và chi phí phát triển phần mềm (là một công cụ thuộc loại [[#3. Ước lượng có tham số|ước lượng có tham số]]). Công thức COCOMO cơ bản:
+COCOMO được xây dựng dựa trên dữ liệu thực tế từ **63 dự án phần mềm** do TRW Systems thu thập, với mục tiêu giúp nhà quản lý có thể:
+- Ước lượng được **công sức (Effort)** tính theo người-tháng,
+- Ước lượng **thời gian phát triển (Time)**,
+- Và xác định **nhân lực cần thiết (Staffing)**,  
+    chỉ dựa trên quy mô phần mềm.
 
-- Công sức: $E=a×L^b$ (tháng công)
-- Thời gian: $T=c\times E^d$ (tháng)
-- Số người: $N=E/T$ (người)
+Mô hình [COCOMO 81](https://www.geeksforgeeks.org/software-engineering/software-engineering-cocomo-model/) (1981) bao gồm **ba cấp độ** có độ chi tiết tăng dần:
 
-Trong đó:
-- L là **số nghìn dòng lệnh** (KLOC)
-- a, b là **hệ số thực nghiệm** tùy loại dự án được cho trong bảng dưới đây.
+#### COCOMO 81 cơ bản
+Là mức đơn giản nhất, dùng cho **ước lượng sớm** khi chưa có nhiều thông tin chi tiết. Công thức tổng quát:
+- Công sức: $E = a \times L^b$
+- Thời gian: $T = c \times E^d$
+- Số người: $N=E/T$
 
+Trong đó: L là số nghìn dòng mã nguồn (KLOC) và a, b, c, d là các hằng số thực nghiệm phụ thuộc loại dự án được cho trong bảng dưới đây.
 
-> [!example] Ví dụ
-> Một phần mềm 20 KLOC, với a = 2.5, b = 1.05 →  E = 2.5 × (20)^1.05 ≈ 54 người-tháng.
+| Kiểu dự án    | a   | b    | c   | d    |
+| ------------- | --- | ---- | --- | ---- |
+| Organic       | 3.2 | 1.05 | 2.5 | 0.38 |
+| Semi-detached | 3.0 | 1.12 | 2.5 | 0.35 |
+| Embeded       | 2.8 | 1.20 | 2.5 | 0.32 |
 
+#### COCOMO 81 trung gian
+Đây là mức **chính xác hơn**, vì bổ sung thêm **hệ số điều chỉnh công sức (EAF - Effort Adjustment Factor)** để phản ánh các yếu tố thực tế của dự án. Công thức tổng quát:
 
-> [!info] Lưu ý
-> - Phiên bản **COCOMO II** mở rộng hơn, bao gồm cả **yếu tố phức tạp, rủi ro, ngôn ngữ lập trình, năng suất nhóm**...
-> - Tham số L (số nghìn dòng lệnh), 
+$$
+E = a \times (KLOC)^b \times EAF
+$$
+
+Trong đó: EAF là tích của **15 yếu tố điều chỉnh (Cost Drivers)**, thuộc 4 nhóm chính:
+1. **Sản phẩm** (Product attributes): độ tin cậy, độ phức tạp, kích cỡ cơ sở dữ liệu.
+2. **Phần cứng** (Hardware attributes): thời gian chạy, ràng buộc bộ nhớ, độ ổn định nền tảng.
+3. **Nhân sự** (Personnel attributes): năng lực phân tích, lập trình, kinh nghiệm ứng dụng.
+4. **Dự án** (Project attributes): công cụ hỗ trợ, lịch trình, phương pháp quản lý.
+
+💡 Mỗi yếu tố có trọng số từ rất thấp đến rất cao, tương ứng giá trị hệ số (thường trong khoảng 0.7 – 1.46). Mô hình này cho phép **tùy chỉnh linh hoạt** theo đặc điểm từng dự án cụ thể.
+
+#### COCOMO 81 chi tiết
+Là cấp cao nhất, kết hợp cả công thức của **mô hình cơ bản và trung gian**, nhưng thêm khả năng **phân rã nỗ lực theo từng giai đoạn** phát triển phần mềm. Ví dụ: yêu cầu, thiết kế, lập trình, kiểm thử, bảo trì…
+
+Ở mỗi giai đoạn, người quản lý có thể ước lượng phần trăm công sức tương ứng. Ví dụ (theo mô hình gốc của Boehm): Thiết kế (15%), Phát triển (50%), Kiểm thử (20%), Tài liệu, bảo trì, quản lý (15%)
+
+Nhờ đó, mô hình chi tiết giúp **theo dõi tiến độ và chi phí thực tế** trong từng giai đoạn cụ thể.
+
+> [!info]- COCOMO II
+> [COCOMO II](https://www.softstarsystems.com/cocomo2.htm) là phiên bản mở rộng hơn, bao gồm cả **yếu tố phức tạp, rủi ro, ngôn ngữ lập trình, năng suất nhóm**... Nó ra đời nhằm thích ứng với sự phổ biến của môi trương hướng đối tượng, tái sử dụng mã nguồn và các mô hình phát triển phần mềm mới như Agile, Incremental, Component-based, ... Gồm 3 mô hình con:
+> - **Application Composition Model:** cho ước lượng sớm trong giai đoạn thiết kế giao diện, prototype.
+> - **Early Design Model:** khi đã có thông tin cơ bản về kiến trúc, nhưng chưa chi tiết.
+> - **Post-Architecture Model:** dùng khi đã hoàn tất thiết kế kiến trúc và biết rõ các thành phần.
+> 
+> Mô hình này được coi là **chuẩn mực công nghiệp hiện đại**, thường được cài trong các công cụ ước lượng tự động.
 
 ### 9. Phương pháp sử dụng các lá bài
 
@@ -201,7 +236,7 @@ Cách làm:
 > [!info] Lưu ý
 > Thông thường, việc tiến hành ước lượng chỉ nên tối đa 3 lượt/task trong danh sách các đầu việc của từng Sprint (SBI), nếu vẫn chưa đạt được sự đồng thuận thì đội dự án cần có cơ chế để ra quyết định cuối cùng (biểu quyết hoặc quyết định từ một người có kinh nghiệm) 
 
-## Một số vấn đề trong ước lượng của dự án phần mềm
+## Một số vấn đề trong ước lượng của dự án phần mềm 🚧
 Khi tiến hành ước lượng, ta không thể áp dụng công thức cứng nhắc cho mọi loại dự án. Dự án phần mềm mang trong nó nhiều **đặc thù riêng biệt**, nên để có ước lượng chính xác, người quản lý cần **cân nhắc kỹ** một số điểm sau 👇
 
 1. **Công việc sáng tạo**
