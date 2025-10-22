@@ -164,7 +164,39 @@ Các thông tin thường có trong bản kế hoạch quản lý chi phí:
 > - [[work-estimation-methods#Một số phương pháp và công cụ ước lượng 🧮|Các phương pháp ước lượng]]: từ trên xuống, tham số, bottom-up, 3 điểm, ...
 
 ## Lập dự toán kinh phí dự án
+Lập dự toán kinh phí là **việc phân bổ chi phí đã ước lượng cho từng nguồn lực, đầu việc trong bảng phân rã công việc (WBS)**. Các đầu mục công việc này được dựa trên **các hoạt động trong bảng WBS**.  
 
+Mục tiêu chính của quy trình lập dự toán là:
+- **Tạo được các mốc về kinh phí (cost baseline)**: Các mốc này sẽ giúp xác định **dòng tiền cần thiết cho từng giai đoạn** của dự án, làm **cơ sở yêu cầu khách hàng/chủ đầu tư** thanh toán để dự án có đủ kinh phí hoạt động. 
+
+- **Xác định chi phí dự phòng cho dự án**: Chi phí này thường dự phòng cho rủi ro lường trước được (yêu cầu chưa rõ ràng, công nghệ không đáp ứng, ...) và rủi ro không lường trước được (thiên tai, dịch bệnh, ...). Tổ chức cũng thường có **phương pháp tính chi phí dự phòng riêng**, ví dụ: Chi phí dự phòng bằng khoảng **5% hoặc 10%** chi phí ước lượng của dự án. 
+
+Để lập được dự toán kinh phí mà phản ánh chính xác thực tế và rủi ro tài chính của dự án, ta cần nhiều tài liệu đầu vào:
+- **Bảng kế hoạch quản lý chi phí.**
+- **Các mốc thời gian quan trọng** của phạm vi dự án.
+- **Ước lượng hoạt động và cơ sở của ước lượng.**
+- **Kế hoạch dự án tổng thể.**
+- **Kế hoạch cho mỗi nguồn lực.**
+- **Bảng quản lý rủi ro.**
+- **Hợp đồng và tài liệu quy trình của tổ chức.**
+
+Sau khi có dự toán, ta có thể **đo lường hiệu năng** và **xác định yêu cầu tài chính** của dự án. Quy trình này cũng có thể dẫn tới việc **cập nhật lại tài liệu dự án**, như: Thêm/sửa/xóa một phần phạm vi yêu cầu, hoặc thay đổi kế hoạch dự án, ...
+
+Mỗi tổ chức có **quy trình và tiêu chuẩn riêng** cho việc phân bổ kinh phí cho nguồn lực và tài nguyên. Do đó, **cách lập dự toán cũng phải phù hợp với quy trình nội bộ**. Ví dụ:
+- Trong **Agile/Scrum**, mỗi đầu việc cho cá nhân được khuyến nghị **≤ 2 ngày công**.
+- Một số tổ chức cần dự toán cho **công tác phí, thuê mua, chi phí thường niên**, hoặc chi phí nhân công trả cho dự án.
+
+Thông tin này còn giúp tổ chức:
+- Theo dõi, quản lý công việc **thuộc và không thuộc dự án**.
+- **Tối ưu chi phí** bằng cách so sánh, điều chỉnh hoạt động.
+- **Phục vụ khai báo thuế** hoặc **báo cáo chi phí hoạt động**.
+
+> [!info]- Dự toán kinh phí cho dự án CNTT sử dụng ngân sách Nhà Nước
+> - Đối với **các dự án CNTT sử dụng nguồn vốn ngân sách nhà nước**, việc lập dự toán kinh phí phải **tuân thủ quy định của cơ quan quản lý nhà nước**. Cụ thể, quy trình và phương pháp tính chi phí được hướng dẫn theo **Công văn 2589/BTTTT-ƯDCNTT (24/8/2011)** - còn gọi là **phương pháp ca sử dụng (Use Case)**.  
+> 
+> - Phương pháp này quy định cách xác định chi phí phát triển phần mềm dựa trên **mức độ phức tạp (B, M, T)**, **hệ số kỹ thuật và môi trường**, cùng với đó là **giờ công (H)**.  
+>   
+> - Do còn nhiều điểm chưa thống nhất, **Thông tư 04/2020/TT-BTTTT** (ban hành theo **Quyết định 1649/QĐ-BTTTT**) đã được ban hành để **chuẩn hóa và cập nhật quy định** về lập, quản lý chi phí cho dự án đầu tư ứng dụng CNTT bằng vốn ngân sách.
 
 ## Giám sát chi phí
 
