@@ -138,8 +138,30 @@ Sau khi có ước lượng chi phí về mặt lý thuyết, nhà quản lý d�
 > Nếu chi phí phát sinh do tăng thêm tính năng mới, nhà quản lý cần gửi **“yêu cầu thay đổi” (Change Request)** để xin phê duyệt ngân sách bổ sung trước khi triển khai.
 
 ## Lập kế hoạch quản lý chi phí dự án
+Đây là **quy trình đầu tiên** trong quản lý chi phí dự án. Nó nhằm xác định **cách thức chi phí sẽ được hoạch định, theo dõi, và kiểm soát** trong suốt vòng đời dự án.
 
+Nhà quản lý dự án cùng với các bên liên quan, như chuyên gia tài chính, nhà tài trợ, hoặc đại diện khách hàng, sẽ **thảo luận và thống nhất** để tạo ra một **bản kế hoạch quản lý chi phí dự án (Cost Management Plan)**. Bản kế hoạch này có thể ở **mức tổng quan hoặc chi tiết**, tùy thuộc vào quy mô và mức độ phức tạp của từng dự án.
 
+Các thông tin thường có trong bản kế hoạch quản lý chi phí:
+1. **Mức độ chính xác**: Mỗi ước lượng chi phí phải được xác định với **độ chính xác** phù hợp theo quy định của tổ chức. Điều này giúp xác định rõ **biên độ dao động chấp nhận được** của chi phí. **Ví dụ**: Một công việc có thể hoàn thành trong vòng 2 ngày ±20%, tức là công việc đó có thể xong chỉ trong 1.6 ngày hoặc mất đến 2.4 ngày
+
+2. **Đơn vị đo**: Mọi ước lượng cần ghi rõ và nhất quán về **đơn vị** sử dụng, chẳng hạn như: giờ công (man-hours), ngày công (man-days), hay tháng công (man-months)
+
+3. **Thủ tục của tổ chức**: Một số tổ chức yêu cầu **mỗi đầu việc trong WBS (Work Breakdown Structure)** phải được **liên kết với một tài khoản kế toán** có mã định danh riêng. Điều này giúp việc **theo dõi chi phí kế toán và kiểm soát ngân sách** thuận tiện, chính xác.
+
+4. **Kiểm soát các ngưỡng**: Dự án thường được **cho phép dao động chi phí ±10%** so với kế hoạch, tùy quy định từng tổ chức. Khi vượt quá ngưỡng này, dự án cần **xem xét và điều chỉnh chính thức**.
+
+5. **Quy định về đo lường**: Nếu dự án áp dụng **phương pháp quản lý giá trị thu được (EVM - Earned Value Management)**, bản kế hoạch phải nêu rõ: Chu kỳ đo lường chi phí thực tế (bao lâu đo một lần), Mức độ chi tiết cần đo (từng hạng mục hay giai đoạn).
+
+6. **Định dạng báo cáo**: Các quy định về **biểu mẫu báo cáo chi phí**, **tần suất báo cáo**, và **người chịu trách nhiệm lập báo cáo**.
+
+7. **Mô tả quy trình**: Trình bày cụ thể **các bước tiến hành** để quản lý chi phí: cách thức thu thập dữ liệu, tổng hợp, báo cáo và phê duyệt.
+
+> [!info] Ước lượng chi phí dự án
+> **Hoạt động ước lượng chi phí**, thường được thực hiện **song song với việc ước lượng thời gian của các công việc** trong dự án.
+> - **Mục tiêu**: xác định **chi phí về thời gian, nhân lực, và tài nguyên** cần thiết cho từng đầu việc.
+> - **Kết quả đầu ra**: tạo nên **các mốc chi phí (cost milestones)** và **tổng chi phí dự án**, phục vụ cho các bước tiếp theo như **lập dự toán kinh phí** và **giám sát chi phí**.
+> - [[work-estimation-methods#Một số phương pháp và công cụ ước lượng 🧮|Các phương pháp ước lượng]]: từ trên xuống, tham số, bottom-up, 3 điểm, ...
 
 ## Lập dự toán kinh phí dự án
 
