@@ -16,6 +16,9 @@ aliases:
 cssclasses:
   - img
 ---
+![[Pasted image 20251022082137.png]]
+
+[JLPT N3 Grammar: とおりに (toori ni) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8%e3%81%8a%e3%82%8a%e3%81%ab-toori-ni-meaning/)
 
 {9: related tags as bullets (skip #)}
 
