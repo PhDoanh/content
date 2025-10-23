@@ -16,6 +16,9 @@ aliases:
 cssclasses:
   - img
 ---
+![[Pasted image 20251023164340.png]]
+
+[JLPT N2 Grammar: ことか (koto ka) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%81%93%e3%81%a8%e3%81%8b-koto-ka-meaning/)
 
 {9: related tags as bullets (skip #)}
 

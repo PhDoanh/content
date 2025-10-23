@@ -55,9 +55,9 @@ socialImage: fully qualified URL to preview image
 > **Thầy Tanaka**: Đúng vậy. Hãy cố gắng nhé!
 
 ## Cấu trúc ngữ pháp 🔍
-- **N は + Vる／Vない + こと**: N là việc phải làm hoặc không được làm
-- **N は + Aい／Aな + こと**: N là việc phải có tính chất gì đó  
-- **N₁ は + N₂ である + こと**: N là việc phải là/trở thành gì đó
+- **N は + Vる／Vない + こと**: N là việc phải/nên làm hoặc không nên/được làm
+- **N は + Aい／Aな + こと**: N là việc phải/nên có tính chất gì đó  
+- **N₁ は + N₂ である + こと**: N là việc phải/nên là/trở thành gì đó
 - **～こと + だ/である**: Nhấn mạnh tính bắt buộc/cần thiết
 
 ## Cách dùng cơ bản 🗝️
