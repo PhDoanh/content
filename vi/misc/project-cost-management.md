@@ -1,6 +1,6 @@
 ---
-stage: Draft
-draft: true
+stage: Publish
+draft: false
 title: Quản lý chi phí dự án
 description:
 tags:
@@ -10,9 +10,10 @@ tags:
 socialDescription:
 socialImage:
 permalink:
-lang:
+lang: vi
 aliases:
 cssclasses:
+  - img
 ---
 ## Các khái niệm cơ sở
 Đây là những khái niệm căn bản về kinh tế - tài chính nói chung và đặc thù trong quản lý dự án nói riêng mà giúp cho nhà quản lý dự án có thể phân tích, trao đổi, và thuyết phục các bên liên quan đến dự án về tính khả thi, hiệu quả, ... Từ đó, có được sự đồng thuận và ủng hộ trong suốt quá trình/vòng đời của dự án.
@@ -151,7 +152,7 @@ Các thông tin thường có trong bản kế hoạch quản lý chi phí:
 
 4. **Kiểm soát các ngưỡng**: Dự án thường được **cho phép dao động chi phí ±10%** so với kế hoạch, tùy quy định từng tổ chức. Khi vượt quá ngưỡng này, dự án cần **xem xét và điều chỉnh chính thức**.
 
-5. **Quy định về đo lường**: Nếu dự án áp dụng **phương pháp quản lý giá trị thu được (EVM - Earned Value Management)**, bản kế hoạch phải nêu rõ: Chu kỳ đo lường chi phí thực tế (bao lâu đo một lần), Mức độ chi tiết cần đo (từng hạng mục hay giai đoạn).
+5. **Quy định về đo lường**: Nếu dự án áp dụng [[project-cost-management#Phương pháp quản lý giá trị thu được - EVM|phương pháp quản lý giá trị thu được]] (EVM - Earned Value Management)**, bản kế hoạch phải nêu rõ: Chu kỳ đo lường chi phí thực tế (bao lâu đo một lần), Mức độ chi tiết cần đo (từng hạng mục hay giai đoạn).
 
 6. **Định dạng báo cáo**: Các quy định về **biểu mẫu báo cáo chi phí**, **tần suất báo cáo**, và **người chịu trách nhiệm lập báo cáo**.
 
@@ -199,4 +200,70 @@ Thông tin này còn giúp tổ chức:
 > - Do còn nhiều điểm chưa thống nhất, **Thông tư 04/2020/TT-BTTTT** (ban hành theo **Quyết định 1649/QĐ-BTTTT**) đã được ban hành để **chuẩn hóa và cập nhật quy định** về lập, quản lý chi phí cho dự án đầu tư ứng dụng CNTT bằng vốn ngân sách.
 
 ## Giám sát chi phí
+**Giám sát chi phí** là quá trình theo dõi tình hình chi tiêu thực tế, so sánh với kế hoạch đã được duyệt và kịp thời điều chỉnh nếu có sai lệch. Mục tiêu là:
+- Đảm bảo **dự án luôn nằm trong phạm vi ngân sách**.
+- **Phát hiện sớm sai lệch** để không vượt chi phí.
+- Cập nhật các thay đổi chi phí đã được phê duyệt.
+- Báo cáo tình hình tài chính minh bạch tới các bên liên quan.
 
+👉 Nói ngắn gọn: đây chính là lúc **ta biến con số trên kế hoạch thành hành động thực tế** và đo xem có đi đúng hướng không.
+
+Những tài liệu dùng làm **đầu vào** để giám sát chi phí gồm:
+- Kế hoạch quản lý dự án
+- Yêu cầu về tài chính của dự án
+- Dữ liệu về hiệu quả công việc
+- Tài liệu quy trình dự án
+
+Đầu ra chính gồm:
+- Thông tin về hiệu quả công việc
+- Dự báo chi phí dự án
+- Yêu cầu thay đổi (nếu cần)
+- Cập nhật kế hoạch quản lý dự án và tài liệu dự án cùng tài liệu quy trình của tổ chức (nếu có điều chỉnh)
+
+Công cụ & kỹ thuật giám sát
+- **Phần mềm quản lý chi phí/dự án**: MS Project, Jira, DevOps, hay bảng Excel chuẩn hóa, ...
+- **Hệ thống kiểm soát thay đổi (Change Control System)**: để ghi nhận, phê duyệt hoặc từ chối điều chỉnh chi phí, nhất là xác định các bước thay đổi mốc chi phí.
+- **Phương pháp quản lý giá trị thu được (Earned Value Management - EVM)**: công cụ đo lường hiệu quả công việc nói riêng và đánh giá hiệu năng của dự án nói chung
+
+### Phương pháp quản lý giá trị thu được - EVM
+
+EVM là công cụ giúp **đo lường tiến độ và chi phí** dựa trên dữ liệu định lượng thực tế. Nó bao gồm việc tính toán 3 giá trị PV, AC và EV cho mỗi công việc hoặc nhóm công việc có trong bảng phân rã công việc WBS. Để từ đó luận ra các giá trị còn lại góp phần thu thập đầy đủ thông tin hiệu quả công việc (một trong những đầu ra của quy trình giám sát). 
+
+| Ký hiệu | Thuật ngữ                  | Giải thích                                                                                                  | Công thức                   |
+| ------- | -------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------- |
+| **PV**  | Planned Value              | Giá trị kế hoạch, chi phí theo kế hoạch cho khối lượng công việc dự kiến hoàn thành tại thời điểm đánh giá. |                             |
+| **EV**  | Earned Value               | Giá trị đạt được, chi phí ước tính cho khối lượng công việc _đã hoàn thành thực tế_.                        |                             |
+| **AC**  | Actual Cost                | Chi phí thực tế, số tiền _thực sự_ đã chi ra cho phần công việc đã hoàn thành.                              |                             |
+| **BAC** | Budget at Completion       | Ngân sách (tổng chi phí) dự kiến khi hoàn thành toàn bộ dự án.                                              |                             |
+| **EAC** | Estimate at Completion     | Tổng chi phí dự kiến tính đến thời điểm hoàn thành, **dựa vào dữ liệu tại thời điểm hiện tại**              | EAC = AC + (BAC - EV) / CPI |
+| **ETC** | Estimate to Complete       | Ước tính phần chi phí còn lại cần để hoàn tất dự án tính từ thời điểm hiện tại                              | ETC = EAC - AC              |
+| **CPI** | Cost Performance Index     | Chỉ số hiệu suất chi phí, <1: vượt chi phí; =1: đúng chi phí; >1: tiết kiệm chi phí                         | CPI = EV / AC               |
+| **SPI** | Schedule Performance Index | Chỉ số hiệu suất tiến độ, <1: chậm tiến độ; =1: đúng tiến độ; >1: nhanh tiến độ                             | SPI = EV / PV               |
+| **CV**  | Cost Variance              | Sai lệch chi phí (dương: tiết kiệm, âm: vượt)                                                               | CV = EV - AC                |
+| **SV**  | Schedule Variance          | Sai lệch tiến độ (dương: nhanh, âm: chậm)                                                                   | SV = EV - PV                |
+| **VAC** | Variance at Completion     | Mức vượt hoặc tiết kiệm so với ngân sách ban đầu                                                            | VAC = BAC - EAC             |
+
+### Ví dụ minh họa EVM
+
+Giả sử bạn đang quản lý **một dự án phần mềm** có tổng chi phí dự kiến (BAC) là **20 triệu đồng**. Dự án gồm **10 đầu việc**, mỗi đầu việc 2 triệu đồng. Sau **3 ngày**, tình hình thực tế là:
+- Hoàn thành **2 đầu việc và 50% đầu việc thứ 3**.
+- Chi phí thực tế đã chi: **8 triệu đồng**.
+
+Từ đó ta có:
+- PV = 3 × 2 = 6 triệu đồng (giá trị kế hoạch)
+- EV = 2,5 × 2 = 5 triệu đồng (giá trị đạt được)
+- AC = 8 triệu đồng (chi phí thực tế)
+
+Tính tiếp:
+- CPI = 5 / 8 = 0.625 < 1 (Chi phí cao hơn kế hoạch → hiệu suất thấp)
+- SPI = 5 / 6 = 0.833 < 1 (Tiến độ chậm hơn kế hoạch)
+- EAC = 8 + (20 - 5) / 0.625 = 32 triệu đồng > BAC (Dự kiến vượt ngân sách)
+- ETC = 32 - 8 = 24 triệu đồng (Còn cần thêm 24 triệu để hoàn thành)
+- VAC = 20 - 32 = -12 triệu đồng (Dự án vượt chi phí 12 triệu nếu không cải thiện)
+
+
+> [!info] Lưu ý
+> - Cần **đo EVM định kỳ** (tuần/tháng).
+> - Thiết lập **ngưỡng cảnh báo** (nếu CPI hoặc SPI < 0.9 → cần điều chỉnh).
+> - Mọi thay đổi về chi phí phải đi qua **quy trình kiểm soát thay đổi**.
+> - Báo cáo chi phí cần có **đồ thị xu hướng**, **so sánh dự báo - thực tế**, và **giải pháp khắc phục**.
