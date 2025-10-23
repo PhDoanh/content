@@ -16,11 +16,9 @@ aliases:
 cssclasses:
   - img
 ---
-![[Pasted image 20251023152201.png]]
+![[Pasted image 20251023154427.png]]
 
-[JLPT N3 Grammar: にかわって (ni kawatte) - Learn Japanese | JLPT Sensei](https://jlptsensei.com/learn-japanese-grammar/%e3%81%ab%e3%81%8b%e3%82%8f%e3%81%a3%e3%81%a6-ni-kawatte-%e3%81%ab%e3%81%8b%e3%82%8f%e3%82%8a-ni-kawari-meaning/)
-
-N ở đây không nhất thiết phải là người
+[JLPT N3 Grammar: ば～ほど (ba~hodo) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%81%b0%ef%bd%9e%e3%81%bb%e3%81%a9-ba-hodo-meaning/)
 
 {9: related tags as bullets (skip #)}
 

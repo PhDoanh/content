@@ -16,6 +16,11 @@ aliases:
 cssclasses:
   - img
 ---
+![[Pasted image 20251023153842.png]]
+
+[N3 Grammar: くらい・ぐらい (kurai・gurai) - Learn Japanese | JLPT Sensei](https://jlptsensei.com/learn-japanese-grammar/%e3%81%8f%e3%82%89%e3%81%84-kurai-%e3%81%90%e3%82%89%e3%81%84-gurai-meaning/)
+[JLPT N3 Grammar: 程・ほど (hodo) - Learn Japanese | JLPT Sensei](https://jlptsensei.com/learn-japanese-grammar/%e7%a8%8b-%e3%81%bb%e3%81%a9-hodo-meaning/)
+
 
 {9: related tags as bullets (skip #)}
 
