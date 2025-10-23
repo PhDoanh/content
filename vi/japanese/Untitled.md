@@ -16,11 +16,6 @@ aliases:
 cssclasses:
   - img
 ---
-![[Pasted image 20251023155521.png]]
-
-![[Pasted image 20251023154427.png]]
-
-[JLPT N3 Grammar: ば～ほど (ba~hodo) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%81%b0%ef%bd%9e%e3%81%bb%e3%81%a9-ba-hodo-meaning/)
 
 {9: related tags as bullets (skip #)}
 

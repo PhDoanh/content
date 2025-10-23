@@ -1,10 +1,10 @@
 ---
-stage: Publish
+stage: Update
 title: 15. ほど～ない「Không còn khỏe như xưa」
 description: Học ngữ pháp tiếng Nhật ほど～ない (hodo ~ nai) - cách so sánh phủ định lịch sự trong JLPT N3. Hướng dẫn chi tiết cấu trúc, cách dùng và ví dụ thực tế dễ hiểu.
 permalink: ""
 lang: vi
-draft: false
+draft: true
 comments: true
 tags:
   - japanese-grammar
@@ -20,6 +20,8 @@ cssclasses:
 socialDescription: Nắm vững ほど～ない - mẫu so sánh phủ định quan trọng JLPT N3 giúp bạn diễn đạt lịch sự và tự nhiên hơn.
 socialImage: fully qualified URL to preview image
 ---
+![[Pasted image 20251023155746.png]]
+
 
 > [!bell]- Dành cho bạn học lần đầu
 > Để khai thác hiệu quả bài viết này, mình khuyên bạn nên đọc trước các bài viết sau:
