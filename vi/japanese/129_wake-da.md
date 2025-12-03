@@ -16,6 +16,9 @@ aliases:
 cssclasses:
   - img
 ---
+![[Pasted image 20251203154138.png]]
+
+[JLPT N3 Grammar: わけだ (wake da) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%82%8f%e3%81%91%e3%81%a0-wake-da-meaning/)
 
 {9: related tags as bullets (skip #)}
 
