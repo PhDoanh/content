@@ -17,9 +17,6 @@ cssclasses:
   - img
 ---
 
-
-
-
 {9: related tags as bullets (skip #)}
 
 > [!bell]- Dành cho bạn học lần đầu
