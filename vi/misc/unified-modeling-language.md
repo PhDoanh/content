@@ -119,12 +119,9 @@ Các biểu đồ thuộc nhóm này cho biết hệ thống làm những gì.
 ### Biểu đồ tương tác - một nhánh của hành vi 
 Các biểu đồ thuộc nhóm này cho biết ai nói chuyện với ai trong từng hành vi của hệ thống
 
-- **Biểu đồ tuần tự:** nhấn mạnh thứ tự thông điệp được trao đổi giữa các đối tượng theo thời gian.
-
-- **Biểu đồ giao tiếp:** nhấn mạnh các mối liên kết khi các đối tượng nói chuyện với nhau.
-
+- [[sequence-communication-diagram#Biểu đồ tuần tự|Biểu đồ tuần tự]]: nhấn mạnh thứ tự thông điệp được trao đổi giữa các đối tượng theo thời gian.
+- [[sequence-communication-diagram#Biểu đồ giao tiếp|Biểu đồ giao tiếp]]: nhấn mạnh các mối liên kết khi các đối tượng nói chuyện với nhau.
 - **Biểu đồ tổng quát:** giống sơ đồ hoạt động nhưng dùng các tương tác.
-
 - **Biểu đồ thời gian:** cho thấy thay đổi trạng thái theo dòng thời gian.
 
 👉 Tổng cộng UML hiện có **14 loại biểu đồ** - mỗi loại là một góc nhìn khác nhau của cùng một hệ thống.
@@ -134,17 +131,17 @@ Các biểu đồ thuộc nhóm này cho biết ai nói chuyện với ai trong 
 UML không phải muốn vẽ sao thì vẽ. Nó có cả rừng **luật** để đảm bảo biểu đồ **hợp lệ**. Các ràng buộc chính:
 1. **Quy ước đặt tên:** phần tử phải có tên rõ ràng, nhất quán ở mọi góc nhìn.
 
-2. **Quy tắc phạm vi:** cùng một tên có thể mang nghĩa khác nhau tùy bối cảnh. Ví dụ: id trong lớp Sinh viên khác với id trong lớp Môn học.
+2. **Quy tắc phạm vi:** cùng một tên có thể mang nghĩa khác nhau tùy bối cảnh. Ví dụ: `id` trong lớp `Sinh viên` khác với `id` trong lớp `Môn học`.
 
-3. **Quy tắc truy cập:** mức độ hiển thị các thành phần phải rõ ràng (công khai, riêng tư, có giới hạn, …)
+3. **Quy tắc truy cập:** mức độ hiển thị các thành phần phải rõ ràng (công khai, riêng tư, có giới hạn, …). Ví dụ: thuộc tính `password` của lớp `Tài khoản` phải được ẩn đi đối với các lớp bên ngoài và chỉ hiển thị bên trong nó.
 
-4. **Quy tắc toàn vẹn:** mô hình phải nhất quán (không có quan hệ mâu thuẫn).
+4. **Quy tắc toàn vẹn:** mô hình phải nhất quán (không có quan hệ mâu thuẫn). Ví dụ: Một lớp ở biểu đồ A có thuộc tính X, khi đưa vào biểu đồ B thì cũng phải là X chứ không phải x, 1X, ...   
 
-5. **Quy tắc thực thi:** mô hình động phải dễ hiểu và mô phỏng được hành vi thực tế của hệ thống
+5. **Quy tắc thực thi:** mô hình động phải dễ hiểu và mô phỏng được hành vi thực tế của hệ thống.
 
 💡 Nói dễ hiểu: UML giống như ngôn ngữ có ngữ pháp. Nếu vi phạm luật sẽ dẫn tới biểu đồ sai ngữ nghĩa, người khác nhìn vào sẽ không hiểu hoặc hiểu nhầm.
 
-## Tóm  🔥
+## Kết luận 🔥
 Bài viết này đã giúp bạn nắm:
 - UML ra đời để **chuẩn hóa** nhiều phương pháp cũ.
 - UML có **đặc điểm linh hoạt, đa năng**, dùng cho mọi giai đoạn phát triển.
