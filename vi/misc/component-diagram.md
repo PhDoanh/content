@@ -4,8 +4,8 @@ draft: false
 title: Biểu đồ thành phần
 description:
 tags:
-  - OOAD
-  - UML
+  - analysis-and-design
+  - modeling-language
   - component-diagram
   - physical-view
 socialDescription:

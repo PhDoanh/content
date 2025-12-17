@@ -4,9 +4,9 @@ draft: false
 title: Biểu đồ ca sử dụng
 description:
 tags:
-  - OOAD
+  - analysis-and-design
   - usecase-diagram
-  - UML
+  - modeling-language
 socialDescription:
 socialImage:
 permalink:

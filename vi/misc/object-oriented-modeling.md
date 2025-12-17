@@ -4,8 +4,7 @@ draft: false
 title: Mô hình hóa hướng đối tượng
 description:
 tags:
-  - OOAD
-  - OOM
+  - analysis-and-design
   - object-oriented
   - models
 socialDescription:

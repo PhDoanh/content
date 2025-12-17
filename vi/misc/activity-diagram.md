@@ -4,8 +4,8 @@ draft: false
 title: Biểu đồ hoạt động
 description:
 tags:
-  - OOAD
-  - UML
+  - analysis-and-design
+  - modeling-language
   - activity-diagram
   - workflow-modeling
   - operation-modeling

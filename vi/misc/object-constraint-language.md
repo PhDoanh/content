@@ -4,8 +4,8 @@ draft: false
 title: OCL - Ngôn ngữ ràng buộc cho mô hình hướng đối tượng
 description:
 tags:
-  - OOAD
-  - UML
+  - analysis-and-design
+  - modeling-language
   - constraint-language
   - overview
 socialDescription:

@@ -4,9 +4,9 @@ draft: false
 title: Biểu đồ triển khai
 description:
 tags:
-  - OOAD
+  - analysis-and-design
   - deployment-diagram
-  - UML
+  - modeling-language
   - physical-view
 socialDescription:
 socialImage:

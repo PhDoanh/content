@@ -4,8 +4,8 @@ draft: false
 title: Biểu đồ lớp và đối tượng
 description:
 tags:
-  - OOAD
-  - UML
+  - analysis-and-design
+  - modeling-language
   - class-diagram
   - object-diagram
   - static-view

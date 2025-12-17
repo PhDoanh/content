@@ -4,10 +4,10 @@ draft: false
 title: Những thực tiễn tốt nhất trong phát triển phần mềm
 description:
 tags:
-  - OOAD
+  - analysis-and-design
   - best-practices
   - sofware-engineering
-  - RUP
+  - rational-unified-process
 socialDescription:
 socialImage:
 permalink:

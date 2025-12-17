@@ -4,10 +4,9 @@ draft: false
 title: UML - Ngôn ngữ mô hình hóa chuẩn quốc tế cho dân IT
 description:
 tags:
-  - OOAD
-  - UML
-  - introduction
+  - analysis-and-design
   - modeling-language
+  - introduction
   - object-oriented
 socialDescription:
 socialImage:
@@ -17,30 +16,23 @@ aliases:
 cssclasses:
   - img
 ---
-Hãy tưởng tượng bạn đang xây một ngôi nhà: từ việc phân chia phòng ốc, hệ thống điện nước, đến các thiết bị tự động phải hoạt động hài hòa với nhau. Trước khi đặt viên gạch đầu tiên, bạn cần một **bản thiết kế tổng thể** để mọi thứ được kết nối và vận hành trơn tru. Tương tự, trong phát triển phần mềm, **UML (Unified Modeling Language)** là "bản vẽ kỹ thuật" giúp các nhà phát triển mô hình hóa, trực quan hóa và phối hợp xây dựng hệ thống phần mềm một cách chính xác. Nhờ UML, những ý tưởng phức tạp trở nên rõ ràng, dễ hiểu và dễ triển khai, giống như ngôi nhà trong bản thiết kế của kiến trúc sư vậy
+Hãy tưởng tượng bạn đang xây một ngôi nhà: từ việc phân chia phòng ốc, hệ thống điện nước, đến các thiết bị tự động phải hoạt động hài hòa với nhau. Trước khi đặt viên gạch đầu tiên, bạn cần một **bản thiết kế tổng thể** để mọi thứ được kết nối và vận hành trơn tru. Tương tự, trong phát triển phần mềm, **UML (Unified Modeling Language)** là "bản vẽ kỹ thuật" giúp các nhà phát triển mô hình hóa, trực quan hóa và phối hợp xây dựng hệ thống phần mềm một cách chính xác. Nhờ UML, những ý tưởng phức tạp trở nên rõ ràng, dễ hiểu và dễ triển khai, giống như ngôi nhà trong bản thiết kế của kiến trúc sư vậy!
 
 ## Lịch sử ra đời và các mục tiêu thiết kế 📜
 
-UML không phải "tự nhiên sinh ra" mà là kết quả của **quá trình hợp nhất nhiều phương pháp khác nhau** trong thập niên 90.
+UML không phải "tự nhiên sinh ra" mà là kết quả của **quá trình hợp nhất nhiều phương pháp khác nhau** trong thập niên 90. Trước đó, có rất nhiều phương pháp mô hình hóa hướng đối tượng, ví dụ:
+- **OMT** (Object Modeling Technique) của Rumbaugh.
+- **OOAD** (Object-Oriented Analysis and Design) của Booch.
+- **Use Case-driven** của Jacobson.
 
-- Trước đó, có rất nhiều phương pháp mô hình hóa hướng đối tượng, ví dụ:
-    - **OMT** (Object Modeling Technique) của Rumbaugh.
-    - **OOAD** (Object-Oriented Analysis and Design) của Booch.
-    - **Use Case-driven** của Jacobson.
-
-- Mỗi phương pháp có điểm mạnh riêng, nhưng cũng gây phân tán, khó chuẩn hóa.
-
+Mỗi phương pháp đều có điểm mạnh riêng, nhưng cũng gây phân tán, khó chuẩn hóa. Chính vì thế:
 - Năm 1996, tổ chức **OMG (Object Management Group)** đưa ra yêu cầu chuẩn hóa 👉 UML ra đời.
-
 - Năm 1997, UML chính thức được công nhận là **chuẩn công nghiệp** về mô hình hóa phần mềm.
-
 - Sau đó, UML liên tục phát triển, bổ sung tính năng mới. Bản **UML 2.0 (2004)** đã mở rộng thêm nhiều biểu đồ và cho đến nay vẫn được duy trì, cập nhật.
 
 🎯 **Mục tiêu thiết kế UML:**
 - Thống nhất các phương pháp mô hình hóa.
-
 - Cung cấp **ngôn ngữ chung** cho các bên liên quan (nhóm lập trình viên, lãnh đạo cấp cao, nhà quản lý dự án, ...) 
-
 - Hỗ trợ mô tả hệ thống xuyên suốt vòng đời (yêu cầu → thiết kế → triển khai).
 
 ## Đặc điểm sử dụng 🔍

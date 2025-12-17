@@ -4,10 +4,10 @@ draft: false
 title: Biểu đồ trạng thái
 description:
 tags:
-  - OOAD
+  - analysis-and-design
   - state-diagram
   - finite-state-machine
-  - UML
+  - modeling-language
 socialDescription:
 socialImage:
 permalink:

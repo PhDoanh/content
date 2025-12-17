@@ -4,11 +4,11 @@ draft: false
 title: Biểu đồ tuần tự và giao tiếp
 description:
 tags:
-  - OOAD
+  - analysis-and-design
   - sequence-diagram
   - communication-diagram
   - interaction-diagram
-  - UML
+  - modeling-language
 socialDescription:
 socialImage:
 permalink:
