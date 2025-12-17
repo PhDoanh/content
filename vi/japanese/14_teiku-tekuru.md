@@ -1,7 +1,7 @@
 ---
 stage: Publish
 title: 14. Vていく・Vてくる「Những chú mèo hoang tại công viên」
-description: Học ngữ pháp tiếng Nhật Vていく và Vてくる - cách diễn tả chuyển động, sự thay đổi theo thời gian. Bao gồm cấu trúc, cách dùng chi tiết và ví dụ thực tế cho JLPT N4-N3.
+description: Học ngữ pháp tiếng Nhật Vていく và Vてくる - cách diễn tả chuyển động, sự thay đổi theo thời gian. Bao gồm cấu trúc, cách dùng chi tiết và ví dụ thực tế cho JLPT N4.
 permalink: ""
 lang: vi
 draft: false
@@ -9,10 +9,9 @@ comments: true
 tags:
   - japanese-grammar
   - jlpt-n4
-  - jlpt-n3
   - verb-conjugation
   - time-expression
-  - intermediate-level
+  - elementary-level
 aliases:
   - 
 cssclasses:
@@ -27,8 +26,6 @@ socialImage: fully qualified URL to preview image
 > - [[vi/japanese/index|Tổng quan về tiếng Nhật và chiến lược học tối ưu]]: Giới thiệu về tiếng Nhật và định hướng chiến lược tự học *"đắm chìm"* cho người mới bắt đầu.
 
 <h2 style="text-align:center">「公園の野良猫たち」</h2>
-
-%% voice audio in story %%
 
 > [!clear]- **ハイ**：ねえ、見て！あそこから猫が[[#Diễn tả chuyển động tiến lại gần hoặc ra xa|走ってきた]]よ！
 > **Hải**: Này, nhìn kìa! Có con mèo đang chạy lại đây từ đằng kia kìa!
@@ -61,73 +58,72 @@ socialImage: fully qualified URL to preview image
 ## Cách dùng cơ bản 🗝️
 
 ### Diễn tả sự thay đổi trong thời gian tới
-**Vていく** được dùng để mô tả sự thay đổi, phát triển hoặc xu hướng bắt đầu từ hiện tại và tiếp tục hướng về tương lai. Quan điểm của người nói là nhìn từ hiện tại ra tương lai, mang tính khách quan. [[14_teiku-tekita#^9e4f71|Về lại lời thoại ↑]]
+**Vていく** được dùng để mô tả sự thay đổi, phát triển hoặc xu hướng bắt đầu từ hiện tại và tiếp tục hướng về tương lai. Quan điểm của người nói là nhìn từ hiện tại ra tương lai, mang tính khách quan. [[14_teiku-tekuru#^9e4f71|Về lại lời thoại ↑]]
 
-> [!clear]- これから気温が下が**っていく**でしょう。
-> Nhiệt độ sẽ giảm dần từ giờ thôi.
+> [!clear]- これから気温が**下がっていく**でしょう。
+> **Từ giờ trở đi** nhiệt độ sẽ **giảm dần**.
 
-> [!clear]- 経済はこれからもっと良くな**っていく**と思います。
-> Tôi nghĩ nền kinh tế sẽ ngày càng tốt hơn.
+> [!clear]- 経済はこれからもっと**良くなっていく**と思います。
+> Tôi nghĩ nền kinh tế sẽ **ngày càng tốt hơn**.
 
-> [!clear]- 日本語がだんだん一般的にな**っていく**。
-> Tiếng Nhật ngày càng trở nên phổ biến.
+> [!clear]- 日本語がだんだん一般的に**なっていく**。
+> Tiếng Nhật **ngày càng trở nên** phổ biến.
 
 > [!info] Lưu ý
 > - Nhấn mạnh quá trình thay đổi từ **bây giờ → tương lai**
 > - Mang tính khách quan, quan sát từ xa
-> - Thường đi với: これから、だんだん、どんどん、もっと
+> - Thường đi với: これから、だんだん、どんどん、もっと、…
 
 ### Diễn tả sự thay đổi cho đến nay
-**Vてくる** diễn tả sự thay đổi bắt đầu từ một thời điểm trong quá khứ và tiếp tục cho đến hiện tại, ảnh hưởng đến thời điểm người nói đang trải nghiệm. Quan điểm là nhìn từ quá khứ đến hiện tại, mang tính chủ quan. [[14_teiku-tekita#^c3b529|Về lại lời thoại ↑]]
+**Vてくる** diễn tả sự thay đổi bắt đầu từ một thời điểm trong quá khứ và tiếp tục cho đến hiện tại, ảnh hưởng đến thời điểm người nói đang trải nghiệm. Quan điểm là nhìn từ quá khứ đến hiện tại, mang tính chủ quan. [[14_teiku-tekuru#^c3b529|Về lại lời thoại ↑]]
 
-> [!clear]- だんだん寒くな**ってきました**。
-> Trời đã dần dần trở lạnh rồi.
+> [!clear]- だんだん**寒くなってきました**。
+> Trời **đã dần trở lạnh** rồi.
 
-> [!clear]- 最近、日本語がわか**ってきた**。
-> Dạo gần đây tôi đã hiểu tiếng Nhật hơn rồi.
+> [!clear]- 最近、日本語が**わかってきた**。
+> Dạo gần đây tôi **đã hiểu** tiếng Nhật hơn rồi.
 
-> [!clear]- 彼のことが好きにな**ってきた**。
-> Tôi đã bắt đầu thích anh ấy.
+> [!clear]- 彼のことが好きに**なってきた**。
+> Tôi **đã bắt đầu** thích anh ấy.
 
 > [!info] Lưu ý
 > - Nhấn mạnh quá trình thay đổi từ **quá khứ → hiện tại**
 > - Mang tính chủ quan, người nói cảm nhận được sự thay đổi
-> - Thường đi với: だんだん、最近、少しずつ
+> - Thường đi với: だんだん、最近、少しずつ、…
 > - Dạng **てきた** (quá khứ) nhấn mạnh sự thay đổi đã hoàn tất đến thời điểm nói
 
 ### Diễn tả hành động và quay trở lại
-**Vてくる** được dùng khi người nói thực hiện một hành động ở nơi khác rồi quay trở lại vị trí ban đầu, hoặc mang thứ gì đó về. Ngược lại, **Vていく** dùng khi mang theo thứ gì đó ra đi. [[14_teiku-tekita#^6d8a3e|Về lại lời thoại ↑]]
+**Vてくる** được dùng khi người nói thực hiện một hành động ở nơi khác rồi quay trở lại vị trí ban đầu, hoặc mang thứ gì đó về. Ngược lại, **Vていく** dùng khi mang theo thứ gì đó đi ra xa. [[14_teiku-tekuru#^6d8a3e|Về lại lời thoại ↑]]
 
-> [!clear]- お弁当を作**ってきて**ください。
-> Hãy làm cơm hộp và mang đến (cho tôi).
+> [!clear]- お弁当を**作ってきて**ください。
+> Hãy **làm** cơm hộp và **mang đến** (cho tôi).
 
-> [!clear]- 荷物を持**っていって**あげる。
-> Tôi sẽ mang hành lý đi giúp bạn.
+> [!clear]- 荷物を**持っていって**あげる。
+> Tôi sẽ **mang hành lý đi** giúp bạn.
 
-> [!clear]- コンビニでお弁当を買**ってくる**。
-> Tôi sẽ mua cơm hộp ở cửa hàng tiện lợi rồi về.
+> [!clear]- コンビニでお弁当を**買ってくる**。
+> Tôi sẽ **mua** cơm hộp ở cửa hàng tiện lợi **rồi về**.
 
 > [!info] Lưu ý
 > - **Vてくる**: Đi → làm gì đó → quay về
 > - **Vていく**: Mang theo cái gì đó khi đi
-> - Thường dùng với 買う、食べる、取る、持つ、連れる
+> - Thường dùng với 買う、食べる、取る、持つ、連れる、…
 
 ### Diễn tả chuyển động tiến lại gần hoặc ra xa
-**Vていく** diễn tả chuyển động rời xa người nói (đi ra khỏi tầm nhìn), còn **Vてくる** diễn tả chuyển động tiến lại gần người nói (đến trong tầm nhìn). [[14_teiku-tekita#^f8a2d1|Về lại lời thoại ↑]]
+**Vていく** diễn tả chuyển động rời xa người nói (đi ra khỏi tầm nhìn), còn **Vてくる** diễn tả chuyển động tiến lại gần người nói (đến trong tầm nhìn). [[14_teiku-tekuru#^f8a2d1|Về lại lời thoại ↑]]
 
-> [!clear]- 鳥が飛ん**でいく**のが見える。
-> Tôi thấy con chim đang bay ra xa.
+> [!clear]- 鳥が**飛んでいく**のが見える。
+> Tôi thấy con chim đang **bay ra xa**.
 
-> [!clear]- 猫が走**ってきた**。
-> Con mèo chạy lại đây rồi.
+> [!clear]- 猫が**走ってきた**。
+> Con mèo **chạy lại** đây rồi.
 
-> [!clear]- 彼女は教室から出**ていった**。
-> Cô ấy đã đi ra khỏi phòng học.
+> [!clear]- 彼女は教室から**出ていった**。
+> Cô ấy đã **đi ra** từ phòng học.
 
 > [!info] Lưu ý
 > - **Vていく**: Chuyển động đi xa người nói
 > - **Vてくる**: Chuyển động đến gần người nói
-> - Dùng với động từ di chuyển: 行く、来る、歩く、走る、飛ぶ、出る、入る
 
 ## Cách dùng nâng cao 🔓
 

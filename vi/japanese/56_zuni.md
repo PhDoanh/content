@@ -8,6 +8,7 @@ tags:
   - negative-form
   - verb-conjugation
   - intermediate-level
+  - japanese-grammar
 socialDescription: Nắm vững ずに - ngữ pháp JLPT N3 giúp bạn diễn đạt trang trọng việc làm gì mà không làm gì trong tiếng Nhật.
 socialImage: fully qualified URL to preview image
 permalink: ""
@@ -25,8 +26,6 @@ cssclasses:
 > - [[vi/japanese/index|Tổng quan về tiếng Nhật và chiến lược học tối ưu]]: Giới thiệu về tiếng Nhật và định hướng chiến lược tự học *"đắm chìm"* cho người mới bắt đầu.
 
 <h2 style="text-align:center">「会社での大小の出来事」</h2>
-
-%% voice audio in story %%
 
 > [!clear]- **リン**：ミンさん、お疲れ様です！今日のプレゼン、すごく良かったですよ。
 > **Linh**: Chị Minh ơi, chị vất vả rồi! Bài thuyết trình hôm nay của chị hay lắm đó.
@@ -132,7 +131,7 @@ Khi kết hợp với động từ trạng thái, **ずに** diễn tả việc 
 > - **ず(に)**: Có thể lược bỏ **に** trong một số cấu trúc cố định như **~ずにはいられない** (không thể không ~)
 
 ## Tổng kết và giữ chuỗi 🔥
-Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số <% tp.file.cursor(0) %> đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
+Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số 56 đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
 
 Ngữ pháp **ずに** giúp ta diễn đạt việc làm một hành động mà không thực hiện hành động khác, với sắc thái trang trọng và lịch sự. Điểm đặc biệt là động từ **する** chuyển thành **せずに**, còn các động từ khác thì bỏ **ない** và thêm **ずに**. So với **ないで**, **ずに** được ưa chuộng hơn trong văn viết, thư từ công việc và những tình huống trang trọng. Thành thạo cách dùng này không chỉ giúp bạn nâng cao khả năng đọc hiểu mà còn làm phong cách viết tiếng Nhật của bạn chuyên nghiệp hơn rất nhiều!
 

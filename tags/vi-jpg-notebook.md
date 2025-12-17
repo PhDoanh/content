@@ -100,7 +100,7 @@ Mẩu truyện ngắn ở đầu mỗi bài viết được coi là *"linh hồn
 |      **Vる, V辞書**      |           辞書形<br>(_jisho-kei_)           |       Dictionary Form       | Thể nguyên thể / từ điển, dùng để tra từ, làm gốc chia các thể khác.               |
 |     **Vます, V丁寧**      |          丁寧形<br>(_teinei-kei_)           |         Polite Form         | Dùng trong nói / tương tác lịch sự (ます, です, …).                                    |
 |     **Vない, V否定**      |           否定形<br>(_hitei-kei_)           |        Negative Form        | Thể phủ định (ない, ません, …)                                                          |
-|      **c, V過去**       |           過去形<br>(_kako-kei_)            |          Past Form          | Thể quá khứ (た, でした, ...)                                                          |
+|      **Vた, V過去**      |           過去形<br>(_kako-kei_)            |          Past Form          | Thể quá khứ (た, でした, ...)                                                          |
 |        **Vて**         |            て形<br>(_-te kei_)             |           te-Form           | Thể て, dạng liên kết, nối câu, mệnh lệnh, yêu cầu, dùng với nhiều cấu trúc khác.   |
 |        **V可能**        |           可能形<br>(_kanō-kei_)            |       Potential Form        | Thể khả năng, có thể làm gì đó.                                                    |
 |        **V受身**        |           受身形<br>(_ukemi-kei_)           |        Passive Form         | Thể bị động, bị/được làm gì đó.                                                    |
