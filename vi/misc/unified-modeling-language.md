@@ -69,15 +69,21 @@ Trong UML, để vẽ được một mô hình thì bạn phải biết **có nh
 ### Phần tử hành vi - Động từ
 Đây là loại phần tử **động** của mô hình, tức biểu diễn các **hoạt động** diễn ra trong hệ thống theo thời gian và không gian. Gồm 2 kiểu phần tử hành vi chính:
 
-- **Tương tác (Interaction):** cách các đối tượng gửi thông điệp qua lại để đạt được mục đích nào đó, thường liên quan đến một số phần tử khác gồm thông điệp, chuỗi các hành động và liên kết giữa các thông điệp
-- **Máy trạng thái (State Machine):** mô tả **sự thay đổi trạng thái** của một **đối tượng/tương tác** diễn ra trong vòng đời của chúng. 
+- **Tương tác (Interaction):** cách các đối tượng gửi thông điệp qua lại để đạt được mục đích nào đó, thường liên quan đến một số phần tử khác gồm thông điệp, chuỗi các hành động và liên kết giữa các thông điệp.
+- **Máy trạng thái (State Machine):** mô tả **sự thay đổi trạng thái** của một **đối tượng/tương tác** diễn ra trong vòng đời của chúng để đáp ứng các sự kiện. Nó thường chứa một vài phần tử như các trạng thái, các chuyển (luồng từ trạng thái này sang trạng thái khác), các sự kiện (các tác nhân kích hoạt các chuyển) và các hoạt động (phản hồi khi chuyển trạng thái)
 
-### Phần tử nhóm gộp (Grouping Elements)
-- Đơn giản là **cái hộp đựng** các phần tử khác.
+> [!info] Lưu ý
+> - Hành vi của một lớp hay sự cộng tác giữa các lớp có thể được biểu diễn bởi một máy trạng thái.
+> - Hành vi của nhóm đối tượng hoặc của một thao tác đối tượng có thể được biểu diễn bởi một tương tác.
+
+### Phần tử nhóm gộp
+Đúng như tên gọi, phần tử này đóng vai trò tổ chức
+
+- Đơn giản là **cái hộp đựng** các phần tử khác (ngay cả gói).
 - UML gọi nó là **Package (gói)**.
 - Giúp sắp xếp hệ thống gọn gàng (giống như folder trong máy tính).
 
-### Phần tử chú thích (Annotation Elements)
+### Phần tử chú thích
 - Dùng để **ghi chú, giải thích** trong mô hình.
 - Ví dụ: "Module này đã lỗi thời từ phiên bản 2.0".
 
