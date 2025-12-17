@@ -53,22 +53,16 @@ UML có nhiều "tính cách" nổi bật:
 
 Trong UML, để vẽ được một mô hình thì bạn phải biết **có những viên gạch nào**. UML chia chúng thành 4 loại:
 
-### Phần tử cấu trúc - "Danh từ"
+### Phần tử cấu trúc - Danh từ
+Đây là loại phần tử **tĩnh** của mô hình, tức là những thứ tồn tại trong hệ thống mà được mô tả bởi **danh từ**. Trong UML, có 7 kiểu phần tử tĩnh quan trọng sau:
+- **Lớp (Class):** Giống như "khuôn mẫu" để tạo ra đối tượng, gồm tên lớp, các thuộc tính (đặc điểm) và phương thức (hành vi). VD: lớp **Sinh viên** chứa các thuộc tính như mã sinh viên, họ và tên, trường, lớp, ... Hành vi có thể là học, thi, nộp học phí, ...
+- **Giao diện (Interface):** Danh sách các chức năng mà một lớp phải triển khai (giao diện không triển khai chúng). VD: thanh toán, hiển thị thông tin, sắp xếp tăng dần, ...
 
+- **Ca sử dụng (Use Case):** người dùng biết được mình cos thể làm được những gì với hệ thống. VD: Đăng ký môn học, Nộp học phí, ...
 
+- **Thành phần (Component):** Một mảnh phần mềm/chức năng có thể được thay thế bở thành phần khác, VD: Đăng nhập, Đăng xuất, ...
 
-- Đây là **những thứ tồn tại trong hệ thống**. Ví dụ: lớp, đối tượng, server, file phần mềm…
-
-- Một số cái quan trọng:
-    - **Lớp (Class):** Giống như "khuôn mẫu" để tạo ra đối tượng, chứa tên lớp, các thuộc tính (tính chất) và phương thức (hành vi). VD: lớp **Sinh viên** chứa các thuộc tính như mã sinh viên, họ và tên, trường, lớp, ... Hành vi có thể là học, thi, nộp học phí, ...
-
-	- **Giao diện (Interface):** Danh sách các chức năng mà một lớp phải triển khai (giao diện không triển khai chúng). VD: thanh toán, hiển thị thông tin, sắp xếp tăng dần, ...
-
-	- **Ca sử dụng (Use Case):** người dùng biết được mình cos thể làm được những gì với hệ thống. VD: Đăng ký môn học, Nộp học phí, ...
-
-	- **Thành phần (Component):** Một mảnh phần mềm/chức năng có thể được thay thế bở thành phần khác, VD: Đăng nhập, Đăng xuất, ...
-
-	- **Nút (Node):** Thực thể vật lý (máy chủ, thiết bị điện tử, ...) được dùng để triển khai hệ thống.
+- **Nút (Node):** Thực thể vật lý (máy chủ, thiết bị điện tử, ...) được dùng để triển khai hệ thống.
 
 👉 Nói nôm na: phần tử cấu trúc chính là **"các thực thể có thật"** trong quá trình thiết kế từ đời thực.
 
