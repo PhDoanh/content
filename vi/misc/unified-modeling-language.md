@@ -88,20 +88,13 @@ Các phần tử ở trên giống như các viên gạch, nhưng rời rạc. V
 
 1. **Phụ thuộc (Dependency):** Một phần tử **phải dựa vào** phần tử khác để sống. Ví dụ: lớp **Hóa đơn** phụ thuộc vào lớp **Đơn hàng**, vì nếu đơn hàng bị hủy → hóa đơn cũng sẽ biến mất.
 
-2. **Kết hợp (Association):**
-	- Liên kết cố định giữa 2 lớp/đối tượng.
-	- VD: Sinh viên **đăng ký** Môn học.
-	- Có hai dạng đặc biệt:
-		- **Aggregation (tập hợp):** A có B nhưng B vẫn sống riêng được. (Ví dụ: Lớp học có Sinh viên).
-		- **Composition (thành phần):** A có B, nhưng B sống chết cùng A. (Ví dụ: Ngôi nhà có căn phòng).
+2. **Kết hợp (Association):** Là kiểu quan hệ liên kết cố định giữa 2 lớp/đối tượng. Ví dụ: Sinh viên **đăng ký** Môn học. Có hai dạng đặc biệt:
+	- **Aggregation (tập hợp):** A có B nhưng B vẫn sống riêng được. (Ví dụ: Lớp học có Sinh viên).
+	- **Composition (thành phần):** A có B, nhưng B sống chết cùng A. (Ví dụ: Ngôi nhà có căn phòng).
 
-3. **Tổng quát hóa (Generalization):**
-    - Quan hệ **cha - con**, tức là kế thừa.
-    - VD: _Sinh viên cao học_ là một loại _Sinh viên_.
+3. **Tổng quát hóa (Generalization):** Là kiểu quan hệ kế thừa **cha - con**. Ví dụ: Con chó là một loài Động vật, kế thừa những đặc tính chung như ăn, ngủ, phát ra tiếng, ... Nhưng cũng có đặc tính riêng như lòng trung thành.
 
-4. **Hiện thực hóa (Realization):**
-	- Quan hệ "hợp đồng - thực thi".
-	- VD: Lớp **Thanh toán bằng thẻ** triển khai các chức năng mà giao diện **Thanh toán** yêu cầu.
+4. **Hiện thực hóa (Realization):** Là kiểu quan hệ **triển khai hợp đồng**. Ví dụ: Lớp **Thanh toán bằng thẻ** hiện thực hóa (triển khai) các chức năng mà giao diện (hợp đồng) **Thanh toán** yêu cầu.
 
 ## Các biểu đồ trong UML 📊
 
