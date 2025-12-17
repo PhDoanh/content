@@ -26,7 +26,7 @@ UML không phải "tự nhiên sinh ra" mà là kết quả của **quá trình 
 - **Use Case-driven** của Jacobson.
 
 Mỗi phương pháp đều có điểm mạnh riêng, nhưng cũng gây phân tán, khó chuẩn hóa. Chính vì thế:
-- Năm 1996, tổ chức **OMG (Object Management Group)** đưa ra yêu cầu chuẩn hóa 👉 UML ra đời.
+- Năm 1996, tổ chức [OMG](https://www.omg.org/about/) (Object Management Group) đưa ra yêu cầu chuẩn hóa 👉 UML ra đời.
 - Năm 1997, UML chính thức được công nhận là **chuẩn công nghiệp** về mô hình hóa phần mềm.
 - Sau đó, UML liên tục phát triển, bổ sung tính năng mới. Bản **UML 2.0 (2004)** đã mở rộng thêm nhiều biểu đồ và cho đến nay vẫn được duy trì, cập nhật.
 
@@ -38,17 +38,11 @@ Mỗi phương pháp đều có điểm mạnh riêng, nhưng cũng gây phân t
 ## Đặc điểm sử dụng 🔍
 
 UML có nhiều "tính cách" nổi bật:
-
-- **Đa năng (general-purpose):** dùng cho nhiều loại hệ thống, không chỉ riêng phần mềm.
-
+- **Đa năng:** dùng cho nhiều loại hệ thống, không chỉ riêng phần mềm.
 - **Hỗ trợ toàn bộ vòng đời phát triển:** xuất hiện trong mọi giai đoạn (phân tích, thiết kế, triển khai đến vận hành và bảo trì)
-
 - **Không phụ thuộc công nghệ:** UML chỉ mô tả, không gắn với công nghệ cụ thể nào . Ví dụ: không phụ thuộc vào ngôn ngữ lập trình như Java, C++ hay SQL cụ thể nào.
-
 - **Kết hợp được với mọi quy trình phát triển:** RUP, Agile, Waterfall… đều dùng được UML.
-
 - **Hỗ trợ tạo tài liệu:** UML giúp lưu giữ kiến thức hệ thống dưới dạng biểu đồ dễ đọc, dễ chia sẻ.
-
 - **Hướng đến cả người kỹ thuật và phi kỹ thuật:**
     - Nhà quản lý: hiểu yêu cầu qua [[usecase-diagram|biểu đồ ca sử dụng]].
     - Developer: hiểu chi tiết qua [[class-object-diagram|biểu đồ lớp]].
@@ -60,6 +54,8 @@ UML có nhiều "tính cách" nổi bật:
 Trong UML, để vẽ được một mô hình thì bạn phải biết **có những viên gạch nào**. UML chia chúng thành 4 loại:
 
 ### Phần tử cấu trúc - "Danh từ"
+
+
 
 - Đây là **những thứ tồn tại trong hệ thống**. Ví dụ: lớp, đối tượng, server, file phần mềm…
 
