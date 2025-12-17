@@ -86,11 +86,11 @@ Trong UML, để vẽ được một mô hình thì bạn phải biết **có nh
 
 Các phần tử ở trên giống như các viên gạch, nhưng rời rạc. Vậy làm sao để chúng kết nối với nhau? Đó chính là chất kết dính (xi măng), còn được gọi là **quan hệ** trong UML. Có 4 kiểu quan hệ cơ bản:
 
-1. **Phụ thuộc (Dependency):** Một phần tử **phải dựa vào** phần tử khác để sống. Ví dụ: lớp **Hóa đơn** phụ thuộc vào lớp **Đơn hàng**, vì nếu đơn hàng bị hủy → hóa đơn cũng sẽ biến mất.
+1. **Phụ thuộc (Dependency):** Một phần tử **phải dựa vào** phần tử khác để sống. Ví dụ: lớp **Con người** phụ thuộc vào lớp **Nội tạng**, vì người không thể sống thiếu nội tạng.
 
 2. **Kết hợp (Association):** Là kiểu quan hệ liên kết cố định giữa 2 lớp/đối tượng. Ví dụ: Sinh viên **đăng ký** Môn học. Có hai dạng đặc biệt:
-	- **Aggregation (tập hợp):** A có B nhưng B vẫn sống riêng được. (Ví dụ: Lớp học có Sinh viên).
-	- **Composition (thành phần):** A có B, nhưng B sống chết cùng A. (Ví dụ: Ngôi nhà có căn phòng).
+	- **Aggregation (tập hợp):** A có B nhưng B vẫn sống riêng được. Ví dụ: Lớp học có Sinh viên.
+	- **Composition (hợp thành):** A có B, nhưng B sống chết cùng A. Ví dụ: Ngôi nhà có căn phòng.
 
 3. **Tổng quát hóa (Generalization):** Là kiểu quan hệ kế thừa **cha - con**. Ví dụ: Con chó là một loài Động vật, kế thừa những đặc tính chung như ăn, ngủ, phát ra tiếng, ... Nhưng cũng có đặc tính riêng như lòng trung thành.
 
@@ -98,38 +98,30 @@ Các phần tử ở trên giống như các viên gạch, nhưng rời rạc. V
 
 ## Các biểu đồ trong UML 📊
 
-Khi bạn có phần tử + quan hệ, thì để dễ nhìn, UML cho phép "chụp ảnh" chúng thành **biểu đồ**. UML chia thành 3 nhóm lớn:
+Khi bạn có phần tử + quan hệ, thì để dễ nhìn, UML cho phép "lắp ghép" chúng thành **biểu đồ**. UML chia thành 3 nhóm lớn:
 
 ### Biểu đồ cấu trúc
-Các biểu đồ thuộc nhóm này cho biết hệ thống bao gồm những gì
+Các biểu đồ thuộc nhóm này cho biết hệ thống bao gồm những gì.
 
 - **Biểu đồ lớp:** vẽ lớp, thuộc tính, quan hệ.
-
 - **Biểu đồ đối tượng:** ảnh chụp các đối tượng cụ thể tại một thời điểm.
-
 - **Biểu đồ thành phần:** mô tả module phần mềm.
-
 - **Biểu đồ triển khai:** mô tả server, máy tính, thiết bị chạy phần mềm.
-
 - **Biểu đồ cấu trúc tổng quát:** cho thấy cấu trúc bên trong của một thành phần.
-
 - **Biểu đồ gói:** tổ chức hệ thống thành các gói.
 
 ### Biểu đồ hành vi 
-Các biểu đồ thuộc nhóm này cho biết hệ thống làm những gì? 
-
+Các biểu đồ thuộc nhóm này cho biết hệ thống làm những gì.
 - **Biểu đồ ca sử dụng:** hệ thống phục vụ người dùng như thế nào.
-
 - **Biểu đồ hoạt động:** giống flowchart, mô tả luồng xử lý.
-
 - **Biểu đồ trạng thái:** vẽ các trạng thái mà đối tượng đi qua.
 
 ### Biểu đồ tương tác - một nhánh của hành vi 
 Các biểu đồ thuộc nhóm này cho biết ai nói chuyện với ai trong từng hành vi của hệ thống
 
-- **Biểu đồ tuần tự:** nhấn mạnh thứ tự thông điệp theo thời gian.
+- **Biểu đồ tuần tự:** nhấn mạnh thứ tự thông điệp được trao đổi giữa các đối tượng theo thời gian.
 
-- **Biểu đồ giao tiếp:** nhấn mạnh các mối liên kết khi đối tượng nói chuyện.
+- **Biểu đồ giao tiếp:** nhấn mạnh các mối liên kết khi các đối tượng nói chuyện với nhau.
 
 - **Biểu đồ tổng quát:** giống sơ đồ hoạt động nhưng dùng các tương tác.
 
@@ -139,22 +131,20 @@ Các biểu đồ thuộc nhóm này cho biết ai nói chuyện với ai trong 
 
 ## Các luật và ràng buộc trong UML ⚖️
 
-UML không phải muốn vẽ sao thì vẽ. Nó có cả rừng **luật** để đảm bảo biểu đồ **hợp lệ (well-formed model)**.
+UML không phải muốn vẽ sao thì vẽ. Nó có cả rừng **luật** để đảm bảo biểu đồ **hợp lệ**. Các ràng buộc chính:
+1. **Quy ước đặt tên:** phần tử phải có tên rõ ràng, nhất quán ở mọi góc nhìn.
 
-Các ràng buộc chính:
-1. **Quy tắc đặt tên:** phần tử phải có tên rõ ràng, nhất quán ở mọi góc nhìn.
+2. **Quy tắc phạm vi:** cùng một tên có thể mang nghĩa khác nhau tùy bối cảnh. Ví dụ: id trong lớp Sinh viên khác với id trong lớp Môn học.
 
-2. **Quy tắc phạm vi (scope):** cùng một tên có thể mang nghĩa khác nhau tùy bối cảnh. Ví dụ: "id" trong lớp SinhVien khác với "id" trong lớp MonHoc.
+3. **Quy tắc truy cập:** mức độ hiển thị các thành phần phải rõ ràng (công khai, riêng tư, có giới hạn, …)
 
-3. **Quy tắc truy cập (visibility):** mức độ hiển thị các thành phần phải rõ ràng (public, private, protected…)
+4. **Quy tắc toàn vẹn:** mô hình phải nhất quán (không có quan hệ mâu thuẫn).
 
-4. **Quy tắc toàn vẹn (integrity):** mô hình phải nhất quán (không có quan hệ mâu thuẫn).
-
-5. **Quy tắc thực thi (execution semantics):** mô hình động phải dễ hiểu và mô phỏng được hành vi thực tế.
+5. **Quy tắc thực thi:** mô hình động phải dễ hiểu và mô phỏng được hành vi thực tế của hệ thống
 
 💡 Nói dễ hiểu: UML giống như ngôn ngữ có ngữ pháp. Nếu vi phạm luật sẽ dẫn tới biểu đồ sai ngữ nghĩa, người khác nhìn vào sẽ không hiểu hoặc hiểu nhầm.
 
-## Kết luận 🔥
+## Tóm  🔥
 Bài viết này đã giúp bạn nắm:
 - UML ra đời để **chuẩn hóa** nhiều phương pháp cũ.
 - UML có **đặc điểm linh hoạt, đa năng**, dùng cho mọi giai đoạn phát triển.
