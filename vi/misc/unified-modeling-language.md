@@ -77,24 +77,16 @@ Trong UML, để vẽ được một mô hình thì bạn phải biết **có nh
 > - Hành vi của nhóm đối tượng hoặc của một thao tác đối tượng có thể được biểu diễn bởi một tương tác.
 
 ### Phần tử nhóm gộp
-Đúng như tên gọi, phần tử này đóng vai trò tổ chức
-
-- Đơn giản là **cái hộp đựng** các phần tử khác (ngay cả gói).
-- UML gọi nó là **Package (gói)**.
-- Giúp sắp xếp hệ thống gọn gàng (giống như folder trong máy tính).
+Đúng như tên gọi, phần tử này đóng vai trò tổ chức - sắp xếp các phần tử khác (bao gồm chính nó) trong mô hình UML thành các nhóm. Nên còn được gọi là "Gói" (giống như thư mục các tệp trên máy tính), giúp người quan sát hệ thống có cái nhìn khái quát, người làm hệ thống dễ quản lý các sản phẩn công việc (chế tác) trong quá trình phát triển. 
 
 ### Phần tử chú thích
-- Dùng để **ghi chú, giải thích** trong mô hình.
-- Ví dụ: "Module này đã lỗi thời từ phiên bản 2.0".
+Đây là phần tử chú giải trong mô hình UML, chứa văn bản giải thích hoặc bổ sung ngữ cảnh thông tin cho hệ thống. Ví dụ: "Module này đã lỗi thời từ phiên bản 2.0".
 
 ## Các quan hệ trong UML 🔗
 
-Các phần tử ở trên giống như các viên gạch, nhưng rời rạc. Vậy làm sao chúng kết nối với nhau? Đó chính là chất kết dính (xi măng), còn được gọi là **quan hệ** trong UML. Có 4 kiểu quan hệ cơ bản:
+Các phần tử ở trên giống như các viên gạch, nhưng rời rạc. Vậy làm sao để chúng kết nối với nhau? Đó chính là chất kết dính (xi măng), còn được gọi là **quan hệ** trong UML. Có 4 kiểu quan hệ cơ bản:
 
-1. **Phụ thuộc (Dependency):**
-    - Một phần tử **phải dựa vào** phần tử khác.
-	- VD: lớp **Hóa đơn** phụ thuộc vào lớp **Đơn hàng**.
-	- Dễ hiểu: nếu đơn hàng thay đổi → hóa đơn cũng bị ảnh hưởng.
+1. **Phụ thuộc (Dependency):** Một phần tử **phải dựa vào** phần tử khác để sống. Ví dụ: lớp **Hóa đơn** phụ thuộc vào lớp **Đơn hàng**, vì nếu đơn hàng bị hủy → hóa đơn cũng sẽ biến mất.
 
 2. **Kết hợp (Association):**
 	- Liên kết cố định giữa 2 lớp/đối tượng.
@@ -103,7 +95,7 @@ Các phần tử ở trên giống như các viên gạch, nhưng rời rạc. V
 		- **Aggregation (tập hợp):** A có B nhưng B vẫn sống riêng được. (Ví dụ: Lớp học có Sinh viên).
 		- **Composition (thành phần):** A có B, nhưng B sống chết cùng A. (Ví dụ: Ngôi nhà có căn phòng).
 
-3. **Khái quát hóa (Generalization):**
+3. **Tổng quát hóa (Generalization):**
     - Quan hệ **cha - con**, tức là kế thừa.
     - VD: _Sinh viên cao học_ là một loại _Sinh viên_.
 
