@@ -1,5 +1,5 @@
 ---
-stage: Draft
+stage: Publish
 draft: false
 title: UML - Ngôn ngữ mô hình hóa chuẩn quốc tế cho dân IT
 description:
@@ -8,6 +8,7 @@ tags:
   - UML
   - introduction
   - modeling-language
+  - object-oriented
 socialDescription:
 socialImage:
 permalink:
@@ -46,19 +47,19 @@ UML không phải "tự nhiên sinh ra" mà là kết quả của **quá trình 
 
 UML có nhiều "tính cách" nổi bật:
 
-1. **Đa năng (general-purpose):** dùng cho nhiều loại hệ thống, không chỉ riêng phần mềm.
+- **Đa năng (general-purpose):** dùng cho nhiều loại hệ thống, không chỉ riêng phần mềm.
 
-2. **Hỗ trợ toàn bộ vòng đời phát triển:** xuất hiện trong mọi giai đoạn (phân tích, thiết kế, triển khai đến vận hành và bảo trì)
+- **Hỗ trợ toàn bộ vòng đời phát triển:** xuất hiện trong mọi giai đoạn (phân tích, thiết kế, triển khai đến vận hành và bảo trì)
 
-3. **Không phụ thuộc công nghệ:** UML chỉ mô tả, không gắn với công nghệ cụ thể nào . Ví dụ: không phụ thuộc vào ngôn ngữ lập trình như Java, C++ hay SQL cụ thể nào.
+- **Không phụ thuộc công nghệ:** UML chỉ mô tả, không gắn với công nghệ cụ thể nào . Ví dụ: không phụ thuộc vào ngôn ngữ lập trình như Java, C++ hay SQL cụ thể nào.
 
-4. **Kết hợp được với mọi quy trình phát triển:** RUP, Agile, Waterfall… đều dùng được UML.
+- **Kết hợp được với mọi quy trình phát triển:** RUP, Agile, Waterfall… đều dùng được UML.
 
-5. **Hỗ trợ tạo tài liệu:** UML giúp lưu giữ kiến thức hệ thống dưới dạng biểu đồ dễ đọc, dễ chia sẻ.
+- **Hỗ trợ tạo tài liệu:** UML giúp lưu giữ kiến thức hệ thống dưới dạng biểu đồ dễ đọc, dễ chia sẻ.
 
-6. **Hướng đến cả người kỹ thuật và phi kỹ thuật:**
-    - Nhà quản lý: hiểu yêu cầu qua Use Case.
-    - Developer: hiểu chi tiết qua Class Diagram.
+- **Hướng đến cả người kỹ thuật và phi kỹ thuật:**
+    - Nhà quản lý: hiểu yêu cầu qua [[usecase-diagram|biểu đồ ca sử dụng]].
+    - Developer: hiểu chi tiết qua [[class-object-diagram|biểu đồ lớp]].
 
 👉 Nói nôm na, UML giống như ngôn ngữ **tiếng Anh** trong ngành phần mềm: không phải ngôn ngữ lập trình, nhưng ai cũng có thể hiểu và giao tiếp được với nhau.
 
