@@ -103,28 +103,28 @@ Khi bạn có phần tử + quan hệ, thì để dễ nhìn, UML cho phép "l�
 ### Biểu đồ cấu trúc
 Các biểu đồ thuộc nhóm này cho biết hệ thống bao gồm những gì.
 
-- **Biểu đồ lớp:** vẽ lớp, thuộc tính, quan hệ.
-- **Biểu đồ đối tượng:** ảnh chụp các đối tượng cụ thể tại một thời điểm.
-- **Biểu đồ thành phần:** mô tả module phần mềm.
-- **Biểu đồ triển khai:** mô tả server, máy tính, thiết bị chạy phần mềm.
-- **Biểu đồ cấu trúc tổng quát:** cho thấy cấu trúc bên trong của một thành phần.
-- **Biểu đồ gói:** tổ chức hệ thống thành các gói.
+- [[class-object-diagram|Biểu đồ lớp]]: chứa các lớp (gồm thuộc tính, phương thức) và quan hệ giữa chúng.
+- [[class-object-diagram#Biểu đồ đối tượng|Biểu đồ đối tượng]]: ảnh chụp các đối tượng cụ thể tại một thời điểm.
+- [[component-diagram|Biểu đồ thành phần]]: mô tả các mô-đun phần mềm có thể linh hoạt thay đổi.
+- [[deployment-diagram|Biểu đồ triển khai]]: mô tả các phần cứng để chạy phần mềm.
+- **Biểu đồ cấu trúc tổng quát**: cho thấy cấu trúc bên trong của một thành phần.
+- **Biểu đồ gói**: tổ chức hệ thống thành các gói.
 
 ### Biểu đồ hành vi 
 Các biểu đồ thuộc nhóm này cho biết hệ thống làm những gì.
-- **Biểu đồ ca sử dụng:** hệ thống phục vụ người dùng như thế nào.
-- **Biểu đồ hoạt động:** giống flowchart, mô tả luồng xử lý.
-- **Biểu đồ trạng thái:** vẽ các trạng thái mà đối tượng đi qua.
+- [[usecase-diagram|Biểu đồ ca sử dụng]]: hệ thống phục vụ người dùng như thế nào.
+- [[activity-diagram|Biểu đồ hoạt động]]: giống [Flowchart](https://en.wikipedia.org/wiki/Flowchart), mô tả luồng xử lý.
+- [[state-diagram|Biểu đồ trạng thái]]: vẽ các trạng thái mà đối tượng đi qua.
 
 ### Biểu đồ tương tác - một nhánh của hành vi 
 Các biểu đồ thuộc nhóm này cho biết ai nói chuyện với ai trong từng hành vi của hệ thống
 
 - [[sequence-communication-diagram#Biểu đồ tuần tự|Biểu đồ tuần tự]]: nhấn mạnh thứ tự thông điệp được trao đổi giữa các đối tượng theo thời gian.
 - [[sequence-communication-diagram#Biểu đồ giao tiếp|Biểu đồ giao tiếp]]: nhấn mạnh các mối liên kết khi các đối tượng nói chuyện với nhau.
-- **Biểu đồ tổng quát:** giống sơ đồ hoạt động nhưng dùng các tương tác.
-- **Biểu đồ thời gian:** cho thấy thay đổi trạng thái theo dòng thời gian.
+- **Biểu đồ tổng quát**: giống sơ đồ hoạt động nhưng dùng các tương tác.
+- **Biểu đồ thời gian**: cho thấy thay đổi trạng thái theo dòng thời gian.
 
-👉 Tổng cộng UML hiện có **14 loại biểu đồ** - mỗi loại là một góc nhìn khác nhau của cùng một hệ thống.
+👉 Tổng cộng UML chứa **14 loại biểu đồ** (còn nữa) - mỗi loại là một góc nhìn khác nhau của cùng một hệ thống.
 
 ## Các luật và ràng buộc trong UML ⚖️
 
