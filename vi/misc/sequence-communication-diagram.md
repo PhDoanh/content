@@ -16,64 +16,77 @@ lang:
 aliases:
 cssclasses:
 ---
-## Biểu đồ tương tác ✍️
+## Biểu đồ tương tác 🤝
 
-Biểu đồ tương tác (Interaction Diagrams) là công cụ giúp chúng ta **mô tả cách các đối tượng trong hệ thống giao tiếp với nhau thông qua việc trao đổi thông điệp**.  
-👉 Nói cách khác, nó trả lời câu hỏi:
-- Khi thực hiện một chức năng nào đó, đối tượng nào nói chuyện với đối tượng nào?
-- Thứ tự diễn ra như thế nào?
+Biểu đồ tương tác là công cụ giúp mô tả cách các đối tượng trong hệ thống **giao tiếp** với nhau thông qua việc trao đổi thông điệp. Trong UML, có hai loại biểu đồ tương tác chính:
+- **Biểu đồ tuần tự** (Sequence Diagram): tập trung vào **trình tự thời gian** của các thông điệp.
+- **Biểu đồ giao tiếp** (Communication/Collaboration Diagram): tập trung vào **cấu trúc quan hệ** giữa các đối tượng.
 
-Trong UML, có hai loại biểu đồ tương tác chính:
-1. **Biểu đồ tuần tự (Sequence Diagram)**: tập trung vào **thứ tự thời gian** của các thông điệp.
-2. **Biểu đồ giao tiếp (Communication Diagram)**: tập trung vào **cấu trúc quan hệ** giữa các đối tượng.
+👉 "Tập trung" ở đây chỉ nhấn mạnh khả năng làm rõ một khía cạnh nào đó của từng biểu đồ (không chỉ riêng 2 biểu đồ này), tức là biểu đồ tuần tự cũng có khả năng thể hiện cấu trúc quan hệ nhưng không rõ ràng và ngược lại. Do đó, chúng có thể được thay thế cho nhau trong một số tình huống (mặc dù biểu đồ tuần tự được ưa chuộng hơn)  
 
-💡 Hãy tưởng tượng bạn gọi đồ ăn trên một app giao hàng. Các đối tượng có thể là: Người dùng (bạn), Ứng dụng đặt đồ ăn, Nhà hàng, Shipper, ... Các biểu đồ tương tác sẽ mô tả các tương tác bên trong từng giai đoạn. Từ lúc bạn gửi yêu cầu → app xử lý → nhà hàng nhận đơn → shipper đi giao → bạn nhận đồ.
+## Biểu đồ tuần tự ⏱️
 
-## Biểu đồ tuần tự 
+[Biểu đồ tuần tự](https://www.uml-diagrams.org/sequence-diagrams-examples.html) cho thấy **trình tự gửi và nhận** thông điệp giữa các đối tượng **theo dòng thời gian** nhằm mô hình hóa [[unified-modeling-language#^c77eec|cộng tác]] (cái mà hiện thực hóa ca sử dụng). Nó biểu diễn tương tác ở dạng biểu đồ 2 chiều:
+- **Chiều dọc**: trục thời gian (tính từ trên xuống).
+- **Chiều ngang**: các đối tượng tham gia tương tác, gồm **tên** (thường được đặt trong hình hộp với stereotype để phân biệt vai trò) và [đường chu kỳ sống](https://www.uml-diagrams.org/sequence-diagrams.html#lifeline) (đường nét đứt dọc) đại diện cho vòng đời tồn tại của đối tượng.
 
-Biểu đồ tuần tự (Sequence Diagram) cho thấy **trình tự gửi và nhận thông điệp giữa các đối tượng theo dòng thời gian**.
+Trong vòng đời tồn tại của một đối tượng, khoảng thời gian từ lúc tham gia tương tác bằng cách thực hiện một thủ tục đến lúc hoàn tất thủ tục đó được gọi là [đặc tả thực thi](https://www.uml-diagrams.org/sequence-diagrams.html#execution) (activation). Nó được biểu diễn bằng một **thanh chữ nhật dọc** theo đường chu kỳ sống. Bản thân thanh này cũng có thể chứa thanh của các đối tượng khác sau nó như một **tiến trình con bên trong**. *Ví dụ: đối tượng A tương tác với B thì B là tiến trình con vì phải chờ B chạy xong thì A mới thực thi được tiếp.*  
 
-Thành phần chính:
-- **Đối tượng (Object / Actor):** được vẽ ở đầu với tên mô tả rõ ràng.
-- **Thanh sống (Lifeline):** đường thẳng đứng biểu diễn sự tồn tại của đối tượng theo thời gian.
-- **Thông điệp (Message):** mũi tên thể hiện việc gọi phương thức/hành động.
-- **Thanh hoạt động (Activation Bar):** khối chữ nhật nhỏ trên lifeline, biểu thị khoảng thời gian mà đối tượng đang thực hiện hành động.
+[Thông điệp](https://www.uml-diagrams.org/interaction-message.html) là cầu nối giữa các thanh đặc tả thực thi nói riêng và đối tượng nói chung, thanh sau chỉ hoạt động (đối tượng chứa thanh đấy bắt đầu tham gia tương tác) khi thanh trước **gửi thông điệp** và ngừng hoạt động để **trả về phản hồi** khi kết thúc tương tác. Trong khi thông điệp trả về được biểu diễn bởi **mũi tên nét đứt** (có thể không thể hiện trong biểu đồ nếu dễ hiểu) thì thông điệp gửi đi có 3 cách biểu diễn tương ứng 3 loại thông điệp: 
+^e913c5
 
-%% ảnh ví dụ về 1 biểu đồ tuần tự đầy đủ  %%
+- **Thông điệp đồng bộ**: Bên gửi chờ cho đến khi bên nhận xử lý xong rồi mới tiếp tục, được vẽ bằng mũi tên nét liền có đầu tam giác đặc hướng về bên nhận. Ví dụ: Gọi một phương thức trong Java/C++ thì chương trình dừng lại cho đến khi phương thức trả về.
 
-Ưu điểm:
-- Giúp hiểu rõ **thứ tự thực hiện**.
-- Thích hợp khi cần diễn giải các ca sử dụng phức tạp.
+- **Thông điệp không đồng bộ**: Bên gửi không chờ kết quả mà tiếp tục thực hiện công việc khác ngay sau khi gửi, được vẽ bằng mũi tên nét liền có đầu tam giác rỗng hướng về bên nhận. Vi dụ: Trong lúc chờ phản hồi tin nhắn từ sếp, bạn có thể pha một cốc cà phê và ngồi xem một bộ phim yêu thích của mình.
 
+- **Thông điệp cho chính đối tượng gửi** (đệ quy): Tương tự như cách bạn độc thoại nội tâm với chính mình, tự gửi thông điệp rồi tự phản hồi nó. Điều này khiến bên gửi tạo thêm một thanh đặc tả thực thi mới chồng lên thanh ban đầu và một mũi tên nét liền quay ngược trở lại chính thanh mới đó.
 
-> [!example] Ví dụ
+Đối với các tương tác phức tạp, biểu đồ tuần tự hỗ trợ các [phân đoạn](https://www.uml-diagrams.org/sequence-diagrams-combined-fragment.html) (combined fragments) để đơn giản hóa khung nhìn và tăng tính dễ đọc. Phân đoạn là một cái khung chứa 2 thành phần:
+- **Tên khung** (toán tử - operator): xác định loại thao tác (cấu trúc điều khiển) áp dụng cho nội dung trong khung như lặp (loop), rẽ nhánh (alt), song song (par), tùy chọn (opt), ... 
+- **Nội dung trong khung** (toán hạng của tương tác - interaction operands): Một hoặc nhiều nội dung cụ thể tham gia vào thao tác. Ví dụ: phân đoạn có nhãn loop (thao tác lặp) thì toàn bộ nội dung trong phân đoạn dưới dạng tương tác (kiểm tra sức khỏe chẳng hạn) chính là toán hạng của tương tác đó, và chỉ dừng lại khi thỏa một điều kiện nào đó (con bệnh khỏe lại chẳng hạn)
+
+> [!challenge]- Thử thách
 > Trong ca sử dụng "Đăng nhập hệ thống":
 > 1. Người dùng → gửi yêu cầu đăng nhập đến Ứng dụng.
-> 2. Ứng dụng → gửi thông tin đến CSDL để kiểm tra.
+> 2. Ứng dụng → gửi thông tin đến CSDL để kiểm tra người dùng tồn tại hay không.
 > 3. CSDL → trả kết quả cho Ứng dụng.
-> 4. Ứng dụng → thông báo thành công/thất bại cho Người dùng.
+> 4. Ứng dụng → thông báo đăng nhập thành công/thất bại cho Người dùng.
+>    
+> Từ mô tả biểu đồ tuần tự trên, hãy thử tự giải quyết các vấn đề sau và gửi lời giải vào <a href="#comment-box">hộp nhận xét</a> bài viết:
+> - Xác định các đối tượng tham gia vào tương tác/cộng tác
+> - Có bao nhiêu tiến trình con của đối tượng Ứng dụng?
+> - Có đối tượng nào gửi thông điệp cho chính nó không?
+> - Loại thông điệp được dùng trong biểu đồ này là gì?
+> - Những thiếu sót của biểu đồ này (nếu có) được trình bày ra sao nếu dùng phân đoạn?
+> - Vẽ biểu đồ này mà bạn cho là đúng (not easy)
 
-## Biểu đồ giao tiếp 
+## Biểu đồ giao tiếp 🧩
 
-Biểu đồ giao tiếp (Communication/Collaboration Diagram) thể hiện **cấu trúc quan hệ giữa các đối tượng** và cách chúng gửi thông điệp cho nhau.
+[Biểu đồ giao tiếp](https://www.uml-diagrams.org/communication-diagrams-examples.html) chỉ rõ **cấu trúc quan hệ** giữa các đối tượng tham gia tương tác (điều mà biểu đồ tuần tự biểu diễn không rõ ràng), nhằm mô hình hóa một **luồng xử lý/thủ tục** nào đó khi thiết kế chi tiết. Nó được minh họa dưới dạng đồ thị các nút được liên kết với nhau. Cụ thể:
+- Nút: là các đối tượng tham gia tương tác, được vẽ bằng một hình hộp với stereotype để phân biệt vai trò
+- Liên kết: là quan hệ tương tác giữa hai đối tượng, được vẽ bằng một đường nét liền giữa chúng (tùy vào chiều giao tiếp sẽ có thêm mũi tên)
 
-Thành phần chính:
-- **Đối tượng (Object / Actor):** vẽ dưới dạng hình chữ nhật.
-- **Liên kết (Link):** đường nối giữa các đối tượng (có thể là ).
-- **Thông điệp:** mũi tên kèm số thứ tự (1, 1.1, 2...) để thể hiện trình tự.
+Quan hệ (liên kết) giữa hai đối tượng không chỉ đơn thuần là đường nối mà còn chứa đựng các thông tin làm rõ quan hệ, thể hiện nên **cấu trúc** của nó. Những thông tin trong cấu trúc quan hệ bao gồm:
+- Thông điệp cụ thể: thường được biểu diễn bằng ngôn ngữ tự nhiên hoặc dưới dạng phương thức `method(parameters)`.
+- Số thứ tự giao tiếp: thể hiện trình tự các thông điệp được gửi đi, được đánh theo định dạng phân cấp (1, 2, 2.1, ...).
+- Hướng giao tiếp: thể hiện chiều gửi thông điệp, được vẽ bằng một mũi tên nhỏ nằm sát đường kết nối. Tùy vào [[sequence-communication-diagram#^e913c5|loại thông điệp]] sẽ có cách biểu diễn khác nhau. 
+- Các thông tin tùy chọn khác: Tiền/Hậu điều kiện, giá trị trả về, ... 
 
-%% ảnh ví dụ về 1 biểu đồ giao tiếp đầy đủ  %%
+> [!info] Lưu ý
+> - Trong một số trường hợp, số thứ tự có thể gắn với tên của **luồng xử lý/thủ tục** (chính là cả cái biểu đồ giao tiếp). Nếu không tất cả thông diệp trong biểu đồ phải được đánh số thứ tự giao tiếp
+> - Thông điệp trong các luồng xử lý/thủ tục khác nhìn chung diễn ra **đồng thời**, trừ khi có sự phụ thuộc tường minh nào đó được mô tả. 
 
-Ưu điểm:
-- Nhấn mạnh vào **quan hệ tĩnh giữa các đối tượng**.
-- Dễ nhìn ra các **liên kết** cần thiết trong hệ thống.
-
-> [!example] Ví dụ
+> [!challenge]- Thử thách
 > Trong ca sử dụng "Đặt vé máy bay", Người dùng ↔ Ứng dụng đặt vé ↔ Hệ thống thanh toán ↔ Hãng hàng không. Thông điệp có thể là:
 > 1. Người dùng gửi yêu cầu đặt vé.
 > 2. Ứng dụng liên hệ hệ thống thanh toán.
 > 3. Hệ thống thanh toán gửi xác nhận đến Hãng hàng không.
 > 4. Kết quả trả về cho Người dùng.
+>    
+> Từ mô tả biểu đồ giao tiếp trên, hãy thử tự giải quyết các vấn đề sau và gửi lời giải vào <a href="#comment-box">hộp nhận xét</a> bài viết:
+> - Xác định các đối tượng (nút) tham gia vào tương tác
+> - Các loại thông điệp được dùng trong biểu đồ này là gì?
+> - Vẽ biểu đồ này mà bạn cho là đúng (not easy)
 
 ## Mô hình hóa với biểu đồ tương tác 📊
 
@@ -88,16 +101,16 @@ Trong thực tế, khi mô hình hóa hệ thống bằng UML:
 3. Vẽ biểu đồ tuần tự để mô tả luồng sự kiện.
 4. Vẽ biểu đồ giao tiếp để kiểm tra mối liên hệ giữa các đối tượng.
 
-> [!tip]- Mẹo
-> - Dùng **biểu đồ tuần tự** khi bạn muốn kể lại "chuyện gì xảy ra trước - sau".
-> - Dùng **biểu đồ giao tiếp** khi bạn muốn nhìn "ai kết nối với ai".
+> [!tip]- Thực tiễn tốt nhất
+> - Biểu đồ tuần tự thường được dùng để biểu diễn các **kịch bản ca sử dụng**
+> - Biểu đồ giao tiếp thường được dùng khi thiết kế chi tiết cho các **thủ tục**
 
 ## Tổng kết 🎬
 
 Biểu đồ tương tác là **cầu nối** giữa phân tích và thiết kế hệ thống. Nó cho chúng ta hình dung trực quan:
-- Ai tham gia (Actor, Object).
-- Họ nói chuyện với nhau ra sao (Message).
-- Thứ tự và mối quan hệ như thế nào (Sequence & Communication).
+- Ai tham gia (đối tương).
+- Họ nói chuyện với nhau ra sao (thông diệp).
+- Thứ tự và mối quan hệ như thế nào (biểu đồ tuần tự và giao tiếp).
 
 Nếu ví hệ thống phần mềm là một bộ phim 📽️ thì:
 - **Biểu đồ tuần tự** giống như kịch bản chi tiết từng cảnh quay.

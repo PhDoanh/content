@@ -66,6 +66,8 @@ Trong UML, để vẽ được một mô hình thì bạn phải biết **có nh
 |   Thành phần<br>(Component)    | Một mảnh ghép phần mềm/chức năng có thể được thay thế bởi thành phần khác mà không ảnh hưởng đến hệ thống                                                                                                | Thư viện lập trình là một thành phần vì cùng một chức năng, nhiều thư viện có thể có nhiều giải pháp khác nhau                                                                                         |
 |         Nút<br>(Node)          | Thực thể vật lý được dùng để triển khai hệ thống trong môi trường thực                                                                                                                                   | Máy chủ, thiết bị điện tử, ...                                                                                                                                                                         |
 
+^c77eec
+
 ### Phần tử hành vi - Động từ
 Đây là loại phần tử **động** của mô hình, tức biểu diễn các **hoạt động** diễn ra trong hệ thống theo thời gian và không gian. Gồm 2 kiểu phần tử hành vi chính:
 
