@@ -17,7 +17,22 @@ aliases:
 cssclasses:
   - img
 ---
-## Khái niệm cơ sở cho khung nhìn tĩnh ✍️
+## Tổng quan về khung nhìn tĩnh 🔭
+
+
+## Bên trong khung nhìn tĩnh 🔬
+
+### Phân lớp
+
+### Lớp
+
+### Giao diện
+
+### Kiểu dữ liệu
+
+### Cấp độ ngữ nghĩa
+
+### Quan hệ giữa các phân lớp
 
 Biểu đồ lớp (Class Diagram) là **biểu đồ dạng tĩnh** trong UML, dùng để mô tả **cấu trúc tĩnh** của hệ thống. Nó thể hiện:
 - Các **lớp (class)** trong hệ thống.
@@ -153,6 +168,6 @@ Biểu đồ đối tượng (Object Diagram) là **một ảnh chụp tức th�
 > - `Sach` có thuộc tính: `tenSach`, `tacGia`, `namXuatBan`.
 > - `MuonTra` có phương thức: `muon()`, `tra()`.
 
-## Tóm lại 🤌
+## Tóm lại 🔥
 
 Biểu đồ lớp là **trái tim của UML**, giúp mô hình hóa phần "xương sống" của hệ thống. Nó cho ta thấy rõ **những ai tham gia, quan hệ thế nào, tồn tại ra sao** trong hệ thống.

@@ -63,17 +63,18 @@ Trong vòng đời tồn tại của một đối tượng, khoảng thời gian
 ## Biểu đồ giao tiếp 🧩
 
 [Biểu đồ giao tiếp](https://www.uml-diagrams.org/communication-diagrams-examples.html) chỉ rõ **cấu trúc quan hệ** giữa các đối tượng tham gia tương tác (điều mà biểu đồ tuần tự biểu diễn không rõ ràng), nhằm mô hình hóa một **luồng xử lý/thủ tục** nào đó khi thiết kế chi tiết. Nó được minh họa dưới dạng đồ thị các nút được liên kết với nhau. Cụ thể:
-- Nút: là các đối tượng tham gia tương tác, được vẽ bằng một hình hộp với stereotype để phân biệt vai trò
-- Liên kết: là quan hệ tương tác giữa hai đối tượng, được vẽ bằng một đường nét liền giữa chúng (tùy vào chiều giao tiếp sẽ có thêm mũi tên)
+- [Nút](https://www.uml-diagrams.org/communication-diagrams.html#lifeline): là các đối tượng tham gia tương tác, được vẽ bằng một hình hộp với stereotype để phân biệt vai trò
+- **Liên kết**: là quan hệ tương tác giữa hai đối tượng, được vẽ bằng một đường nét liền giữa chúng (tùy vào chiều giao tiếp sẽ có thêm mũi tên)
 
 Quan hệ (liên kết) giữa hai đối tượng không chỉ đơn thuần là đường nối mà còn chứa đựng các thông tin làm rõ quan hệ, thể hiện nên **cấu trúc** của nó. Những thông tin trong cấu trúc quan hệ bao gồm:
-- Thông điệp cụ thể: thường được biểu diễn bằng ngôn ngữ tự nhiên hoặc dưới dạng phương thức `method(parameters)`.
-- Số thứ tự giao tiếp: thể hiện trình tự các thông điệp được gửi đi, được đánh theo định dạng phân cấp (1, 2, 2.1, ...).
-- Hướng giao tiếp: thể hiện chiều gửi thông điệp, được vẽ bằng một mũi tên nhỏ nằm sát đường kết nối. Tùy vào [[sequence-communication-diagram#^e913c5|loại thông điệp]] sẽ có cách biểu diễn khác nhau. 
-- Các thông tin tùy chọn khác: Tiền/Hậu điều kiện, giá trị trả về, ... 
+- **Thông điệp cụ thể**: thường được biểu diễn bằng ngôn ngữ tự nhiên hoặc dưới dạng phương thức `method(parameters)`.
+- **Số thứ tự giao tiếp**: thể hiện trình tự các thông điệp được gửi đi, được đánh theo định dạng phân cấp (1, 2, 2.1, ...). Phân cấp ở đây thể hiện sự gom nhóm các thông điệp (thông điệp cha-con)
+- **Hướng giao tiếp**: thể hiện chiều gửi thông điệp, được vẽ bằng một mũi tên nhỏ nằm sát đường kết nối. Tùy vào [[sequence-communication-diagram#^e913c5|loại thông điệp]] sẽ có cách biểu diễn khác nhau. 
+- **Các thông tin tùy chọn khác**: Tiền/Hậu điều kiện, giá trị trả về, ... 
 
 > [!info] Lưu ý
-> - Trong một số trường hợp, số thứ tự có thể gắn với tên của **luồng xử lý/thủ tục** (chính là cả cái biểu đồ giao tiếp). Nếu không tất cả thông diệp trong biểu đồ phải được đánh số thứ tự giao tiếp
+> - Tất cả các thông tin trong cấu trúc quan hệ trên khi kết hợp với nhau sẽ được gọi là [Thông điệp](https://www.uml-diagrams.org/communication-diagrams.html#message) (khác với Thông diệp cụ thể)
+> - Trong một số trường hợp, số thứ tự có thể gắn với tên của **luồng xử lý/thủ tục** (chính là cả cái biểu đồ giao tiếp). Nếu không, tất cả thông diệp trong biểu đồ phải được đánh số thứ tự giao tiếp
 > - Thông điệp trong các luồng xử lý/thủ tục khác nhìn chung diễn ra **đồng thời**, trừ khi có sự phụ thuộc tường minh nào đó được mô tả. 
 
 > [!challenge]- Thử thách
@@ -88,22 +89,30 @@ Quan hệ (liên kết) giữa hai đối tượng không chỉ đơn thuần l�
 > - Các loại thông điệp được dùng trong biểu đồ này là gì?
 > - Vẽ biểu đồ này mà bạn cho là đúng (not easy)
 
-## Mô hình hóa với biểu đồ tương tác 📊
+## Mục đích của biểu đồ tương tác 🎯
 
-Trong thực tế, khi mô hình hóa hệ thống bằng UML:
-- Người phân tích thường **kết hợp cả hai loại biểu đồ**.
-- Biểu đồ tuần tự giúp thấy rõ **thứ tự thực hiện**.
-- Biểu đồ giao tiếp giúp thấy rõ **quan hệ giữa các đối tượng**.
+### Mô hình hóa tương tác theo thời gian
+Giúp làm rõ **trình tự các thông điệp** được gửi giữa các đối tượng tham gia tương tác. Cách làm:
+1. Xác định tương tác đó ứng với khía cạnh động nào của hệ thống (bản thân hệ thống, hệ thống con, thao tác, lớp, kịch bản ca sử dụng, cộng tác, ...) 
+2. Xác định và đặt các đối tượng tham gia tương tác vào biểu đồ theo thứ tự quan trọng giảm dần từ trái sang phải
+3. Vẽ đường chu kỳ sống của từng đối tượng
+	- Trong hầu hết trường hợp, các đối tượng sẽ tồn tại xuyên suốt quá trình tương tác (tức là không có đối tượng nào được tạo/hủy)
+	- Với các đối tượng được tạo/hủy, đường này nên được sắp xếp phù hợp và chỉ rõ thời điểm tạo/hủy bởi các thông điệp được gán stereotype là `<<create>>` hay `<<delete>>`
+4. Bắt đầu với thông điệp khởi tạo tương tác, tiếp đó là các thông điệp theo sau từ trên xuống dưới giữa các đường chu kỳ sống, chỉ rõ các thuộc tính thông diệp (danh sách tham số, điều kiện/ràng buộc, ...) và thêm [[unified-modeling-language#Phần tử chú thích|chú thích]] nếu cần làm rõ thêm tương tác
+5. Xác định thời điểm ngừng tương tác giữa 2 đối tượng để vẽ thông điệp trả về và đặt thanh đặc tả thực thi lên đường chu kỳ sống giữa 2 thông điệp: gửi (bắt đầu tương tác) và nhận (kết thúc tương tác)
 
-👉 Quy trình thường là:
-1. Lấy một ca sử dụng (Use Case).
-2. Xác định các đối tượng tham gia.
-3. Vẽ biểu đồ tuần tự để mô tả luồng sự kiện.
-4. Vẽ biểu đồ giao tiếp để kiểm tra mối liên hệ giữa các đối tượng.
+### Mô hình hóa tương tác theo tổ chức đối tượng
+Giúp làm rõ **quan hệ cấu trúc** giữa các đối tượng tham gia tương tác Cách làm:
+1. Xác định tương tác đó ứng với khía cạnh động nào của hệ thống (bản thân hệ thống, hệ thống con, thao tác, lớp, kịch bản ca sử dụng, cộng tác, ...) 
+2. Xác định và đặt các đối tượng tham gia tương tác vào biểu đồ như các nút của đồ thị (đối tượng quan trọng hơn sẽ nằm gần trung tâm)
+3. Thiết lập thuộc tính khởi tạo cho từng đối tượng. Nếu giá trị thuộc tính, trạng thái và vai trò của nó thay đổi đáng kể trong quá trình tương tác thì ta giữ lại trên biểu đồ (còn lại lược bỏ để đơn giản hóa đồ thị).
+4. Nối giữa các đối tượng có tương tác với nhau bằng một liên kết thể hiện kiểu quan hệ tương ứng (kết hợp, phụ thuộc, ...). Có thể thêm thêm stereotype để làm rõ quan hệ như `<<become>>`, `<<copy>>`, ...
+5. Bắt đầu với thông điệp khởi tạo tương tác, tiếp đó là các thông điệp được gắn trên các liên kết phù hợp (bao gồm số thứ tự, hướng giao tiếp, các tùy chọn, ...).
 
 > [!tip]- Thực tiễn tốt nhất
-> - Biểu đồ tuần tự thường được dùng để biểu diễn các **kịch bản ca sử dụng**
-> - Biểu đồ giao tiếp thường được dùng khi thiết kế chi tiết cho các **thủ tục**
+> - **Kết hợp linh hoạt** hai loại biểu đồ để mô hình hóa toàn diện
+> - **Biểu đồ tuần tự** thường được dùng để biểu diễn các **kịch bản ca sử dụng**, phù hợp hơn với các tương tác đơn giản, chứa các luồng điều khiển rẽ nhánh.
+> - **Biểu đồ giao tiếp** thường được dùng khi thiết kế chi tiết cho các **thủ tục**, phù hợp hơn với các tương tác phức tạp, chứa các luồng điều khiển đa luồng và tương tranh.
 
 ## Tổng kết 🎬
 
