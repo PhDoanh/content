@@ -111,7 +111,7 @@ Dùng với danh từ để thể hiện việc khởi đầu một công việc
 > [!info] Ngữ pháp tương tự
 > - **〜だす**: Cũng thể hiện sự bắt đầu nhưng mang tính đột ngột, tự phát. VD: 雨が降りだした
 > - **〜はじまる**: Dạng intransitive (tự động từ) của はじめる, thể hiện sự việc tự bắt đầu
-> - **〜かける**: Thể hiện hành động bắt đầu nhưng chưa hoàn thành
+> - [[103_kakeru|〜かける]]: Thể hiện hành động dở dang, đã bắt đầu nhưng chưa hoàn thành
 
 ## Tổng kết và giữ chuỗi 🔥
 Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số 4 đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!

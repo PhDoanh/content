@@ -144,7 +144,7 @@ socialImage: fully qualified URL to preview image
 > [!info] Ngữ pháp tương tự
 > - [[4_hajimeru|V始める]]: Chỉ đơn thuần diễn tả sự bắt đầu của hành động, không nhấn mạnh xu hướng thay đổi theo thời gian như **Vてくる**
 > - **V続ける**: Nhấn mạnh sự tiếp tục liên tục của hành động, khác với **Vていく** vốn nhấn mạnh sự phát triển, thay đổi dần
-> - **〜ようになる**: Diễn tả sự thay đổi trạng thái/khả năng, không mang ý nghĩa di chuyển như **Vていく/てくる**
+> - [[30_youninaru|〜ようになる]]: Diễn tả sự thay đổi trạng thái/khả năng, không mang ý nghĩa di chuyển như **Vていく/てくる**
 > - **〜つつある**: Văn viết, mang tính trang trọng cao, diễn tả xu hướng đang diễn ra, tương tự **Vてきている** nhưng formal hơn
 
 ## Tổng kết và giữ chuỗi 🔥

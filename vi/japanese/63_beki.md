@@ -138,7 +138,7 @@ cssclasses:
 
 > [!info] Ngữ pháp tương tự
 > - **〜たほうがいい**: Nên làm ~ (lời khuyên nhẹ nhàng hơn, dựa trên kinh nghiệm cá nhân). **Khác biệt**: **べきだ** mang tính nghĩa vụ và đạo đức cao hơn
-> - **〜なければならない**: Phải làm ~ (nghĩa vụ bắt buộc từ quy định, luật lệ). **Khác biệt**: **べきだ** nhấn mạnh đạo đức hơn là quy định cứng nhắc
+> - [[20_naito|〜ないと]]: Phải làm ~ (nghĩa vụ bắt buộc từ quy định, luật lệ). **Khác biệt**: **べきだ** nhấn mạnh đạo đức hơn là quy định cứng nhắc
 > - **〜てはいけない**: Không được làm ~ (cấm đoán mạnh mẽ). **Khác biệt**: **べきではない** nhẹ nhàng hơn, mang tính khuyên nhủ chứ không phải cấm đoán
 
 ## Tổng kết và giữ chuỗi 🔥
