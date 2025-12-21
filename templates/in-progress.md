@@ -1,4 +1,4 @@
 > [!caution]- Content in progress
-> This content creation process may take time, but you can help it along by participating in the [[vi/article-contribution-guide|Article Contribution Guide]]
+> This content creation process may take time, but you can help it along by participating in the [[index|Article Contribution Guide]]
 >
-> **We appreciate your understanding!**
+> *I appreciate your understanding!*

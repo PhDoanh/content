@@ -1,18 +1,18 @@
 ---
 stage: Idea
-title: concise SEO title (50‑60 chars)
-description: meta description (140‑160 chars)
+title: "{1: concise SEO title (50‑60 chars)}"
+description: "{2: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
 draft: true
-comments: true
 tags:
-  - array-of-up-to-5-keywords
 aliases:
   - 
 cssclasses:
   - img
-socialDescription: OG description (~100 chars)
-socialImage: fully qualified URL to preview image
+socialDescription: "{3: OG description (~100 chars)}"
+socialImage:
 ---
+{4: related tags as bullets (skip #)}
 
+{5: main content}
