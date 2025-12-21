@@ -1,7 +1,8 @@
 ---
-title: Welcome to my brain
+title: Chào mừng đến với bộ não thứ 2 của PhDoanh
 description: ""
 lang: vi
+comments: false
 aliases:
 cssclasses:
   - img

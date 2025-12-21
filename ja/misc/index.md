@@ -1,18 +1,17 @@
 ---
-stage: "Idea"
-title: "Miscellaneous"
+stage: Publish
+title: その他
 description: ""
 permalink: ""
+lang: ja
+draft: false
 comments: false
-lang: vi
-draft: true
 tags:
   - explorable
 aliases:
   - 
 cssclasses:
   - img
-  - btn
 socialDescription: ""
 socialImage: ""
 ---

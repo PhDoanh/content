@@ -1,7 +1,7 @@
 ---
 stage: Publish
-title: Những thứ khác
-description: ""
+title: Kỹ thuật phần mềm
+description:
 permalink: ""
 lang: vi
 draft: false
@@ -12,7 +12,7 @@ aliases:
   - 
 cssclasses:
   - img
-socialDescription: ""
+socialDescription:
 socialImage: ""
 ---
 

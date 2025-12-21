@@ -1,18 +1,17 @@
 ---
-stage: "Idea"
-title: "Internet Vạn Vật"
+stage: Publish
+title: Internet Of Things
 description: ""
 permalink: ""
-comments: false
 lang: vi
-draft: true
+draft: false
+comments: false
 tags:
   - explorable
 aliases:
   - 
 cssclasses:
   - img
-  - btn
 socialDescription: ""
 socialImage: ""
 ---
