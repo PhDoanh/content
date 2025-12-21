@@ -3,9 +3,10 @@ stage: Publish
 title: Sổ tay Nhật Ngữ qua những mẩu chuyện ngắn
 description: Sổ tay tổng hợp và tóm tắt ngữ pháp tiếng Nhật của PhDoanh, dựa trên nhiều nguồn uy tín khác nhau theo trình độ JLPT N5-N1
 permalink: ""
-comments: false
 lang: vi
 draft: false
+tags:
+  - japanese
 aliases:
 cssclasses:
   - img
@@ -127,6 +128,4 @@ Mẩu truyện ngắn ở đầu mỗi bài viết được coi là *"linh hồn
 |  **+**  | Nối các phần trong công thức | V~~ます~~ + に行く |
 |   -X    | Hậu tố X                     |     -られる      |
 |   X-    | Tiền tố X                    |      あさ-      |
-
-## Những mẩu truyện gần đây ✨
 

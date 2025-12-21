@@ -1,11 +1,10 @@
 ---
-stage: Idea
+stage: "Idea"
 title: "<% tp.file.cursor(0) %>. {11: shortened grammar}「{6: short story title in vietnamese}」"
 description: "{8: meta description (140‑160 chars)}"
 permalink: ""
-lang: vi
+lang: "<% tp.user.article.detectLanguage(tp) %>"
 draft: true
-comments: true
 tags:
   - japanese-grammar
 aliases:
@@ -13,14 +12,14 @@ aliases:
 cssclasses:
   - img
 socialDescription: "{10: OG description (~100 chars)}"
-socialImage: "fully qualified URL to preview image"
+socialImage: ""
 ---
 
 {9: related tags as bullets (skip #)}
 
 > [!bell]- Dành cho bạn học lần đầu
 > Để khai thác hiệu quả bài viết này, mình khuyên bạn nên đọc trước các bài viết sau:
-> - [[vi-jpg-notebook|Giới thiệu sổ tay Nhật ngữ]]: Trình bày cấu trúc, cách dùng, giải thích ký hiệu của sổ tay do mình biên soạn trong quá trình học tiếng Nhật.   
+> - [[jpg-notebook|Giới thiệu sổ tay Nhật ngữ]]: Trình bày cấu trúc, cách dùng, giải thích ký hiệu của sổ tay do mình biên soạn trong quá trình học tiếng Nhật.   
 > - [[vi/japanese/index|Tổng quan về tiếng Nhật và chiến lược học tối ưu]]: Giới thiệu về tiếng Nhật và định hướng chiến lược tự học *"đắm chìm"* cho người mới bắt đầu.
 
 <h2 style="text-align:center">「{6: short story title in japanese}」</h2>

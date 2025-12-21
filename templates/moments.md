@@ -1,17 +1,17 @@
 ---
-stage: Idea
-title: concise SEO title (50‑60 chars)
+stage: "Idea"
+title: ""
 permalink: ""
-lang: vi
+lang: "<% tp.user.article.detectLanguage(tp) %>"
 draft: true
 comments: false
+enableToc: false
 tags:
-  - moments
+  - personal
 aliases:
   - 
 cssclasses:
   - img
   - handwriting
-enableToc: false
 ---
 

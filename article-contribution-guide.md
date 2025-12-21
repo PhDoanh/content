@@ -8,7 +8,6 @@ draft: false
 tags:
   - explorable
   - course
-  - vi-course
 aliases:
 cssclasses:
   - img
