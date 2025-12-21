@@ -216,7 +216,7 @@ Phần này sẽ hướng dẫn cách **loại trừ, bao gồm hay lọc** mộ
 4. Nhấp vào nút **Add**
 5. Gõ tên miền trang web giữa 2 dấu "\*" trong trường **Host**, ví dụ: utest hoặc \*utest.com\*
 	- Nếu bạn dùng tên miền như **utest** thì nó sẽ loại trừ tất cả lưu lượng mà chứa **utest** trong đó như: **utest.com, utest.net, utest.io, ...**
-	- Nếu bạn dùng \*utest.com\* thì nó sẽ chỉ loại trừ lưu lượng của mình tên miền đó mà không ảnh hướng tới các tên miền khác
+	- Nếu bạn dùng \*utest.com* thì nó sẽ chỉ loại trừ lưu lượng của mình tên miền đó mà không ảnh hướng tới các tên miền khác
 	- Nhấp đúp vào đối tượng được thêm để chỉnh sửa nếu cần.
 6. Nhấp vào **OK** và **OK** lần nữa để lưu các thay đổi.
 
