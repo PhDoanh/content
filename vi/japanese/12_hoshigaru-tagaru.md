@@ -53,7 +53,7 @@ socialImage: fully qualified URL to preview image
 > **Rin**: Tôi nghĩ chắc là vì cha mẹ không muốn con cái trở nên hư hỏng.
 
 ## Cấu trúc ngữ pháp 🔍
-- Vた~~い~~ + [がる／がっている／がった／がらない]: mong muốn làm gì đó
+- Vた~~い~~ + がる／がっている／がった／がらない: mong muốn làm gì đó
 - N + をほしがる: mong muốn có/sở hữu gì đó
 
 ## Cách dùng cơ bản 🗝️
