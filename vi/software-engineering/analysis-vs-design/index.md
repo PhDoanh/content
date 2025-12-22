@@ -1,7 +1,7 @@
 ---
 stage: Publish
-title: Nền tảng IoT
-description: ""
+title: Phân tích và thiết kế hướng đối tượng
+description:
 permalink: ""
 lang: vi
 draft: false
@@ -12,7 +12,7 @@ aliases:
   - 
 cssclasses:
   - img
-socialDescription: ""
+socialDescription:
 socialImage: ""
 ---
 

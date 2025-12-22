@@ -20,7 +20,7 @@ cssclasses:
 Khi nói đến **quản lý dự án**, ta không chỉ nhìn vào từng công việc riêng lẻ, mà phải đặt chúng trong một **quy trình tổng thể**. PMI (Project Management Institute) đã hệ thống hóa thành **các nhóm quy trình quản lý dự án**, giúp dự án đi đúng hướng từ khởi đầu cho đến khi kết thúc.
 
 ## Nhóm quy trình quản lý dự án 🔄
-Công việc quản lý dự án xoay quanh [[project-management#^7eeb7c|10 miền tri thức]], nhưng để "triển khai" các miền tri thức này trong thực tế, ta phải đi qua **các nhóm quy trình**. PMI định nghĩa: _nhóm quy trình quản lý dự án là tập hợp logic các quy trình nhằm đạt mục tiêu cụ thể của dự án_. Các quy trình quản lý dự án được chia thành **5 nhóm**:
+Công việc quản lý dự án xoay quanh [[project-management-overview#^7eeb7c|10 miền tri thức]], nhưng để "triển khai" các miền tri thức này trong thực tế, ta phải đi qua **các nhóm quy trình**. PMI định nghĩa: _nhóm quy trình quản lý dự án là tập hợp logic các quy trình nhằm đạt mục tiêu cụ thể của dự án_. Các quy trình quản lý dự án được chia thành **5 nhóm**:
 
 ### Nhóm quy trình Khởi tạo
 

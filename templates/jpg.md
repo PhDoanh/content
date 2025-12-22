@@ -24,8 +24,6 @@ socialImage: ""
 
 <h2 style="text-align:center">「{6: short story title in japanese}」</h2>
 
-%% voice audio in story %%
-
 {7: use the template1 right below to build story content as a 2/3 person conversation, emphasize sentences using grammar with `[[#h3-heading-on-usage|sentence]]`. The story must contain all basic usage, be of medium length, convey a clear meaning, use katakana for the names of Vietnam characters, and translate into natural vietnamese (sounds like real-life dialogue, not machine translation)}
 ```template1
 > [!clear]- {1: callout title as `**character name**: character lines` in japanese}

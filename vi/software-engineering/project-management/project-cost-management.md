@@ -77,7 +77,7 @@ Các dữ liệu nghiên cứu lịch sử cho thấy việc **vượt chi phí 
 - Nghiên cứu của **Đại học Oxford (2011)** trên **1.471 dự án CNTT** cho thấy trung bình **vượt chi phí 27%**.
 - Đặc biệt, **1/6 số dự án** có chi phí **vượt quá 200% kế hoạch**, và **thời gian thực hiện kéo dài 70%**.
 
-👉 Những con số này chứng minh rằng **việc quản lý chi phí** (cùng với phạm vi và thời gian trong [[project-management#^929dd7|bộ 3 ràng buộc]]) **một cách khoa học và hệ thống là vô cùng cần thiết** để tránh thất bại dự án.
+👉 Những con số này chứng minh rằng **việc quản lý chi phí** (cùng với phạm vi và thời gian trong [[project-management-overview#^929dd7|bộ 3 ràng buộc]]) **một cách khoa học và hệ thống là vô cùng cần thiết** để tránh thất bại dự án.
 
 > [!check] Mục tiêu của quản lý chi phí
 > - **Giữ dự án trong ngân sách cho phép**, tránh lãng phí nguồn lực.
