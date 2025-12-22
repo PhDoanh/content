@@ -1,8 +1,8 @@
 ---
-stage: "Idea"
+stage: Idea
 title: ""
 permalink: ""
-lang: "<% tp.user.article.detectLanguage(tp) %>"
+lang: vi
 draft: true
 comments: false
 enableToc: false
