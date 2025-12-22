@@ -18,15 +18,37 @@ cssclasses:
   - img
 ---
 ## Tổng quan về khung nhìn tĩnh 🔭
+**Khung nhìn tĩnh** là nền tảng cơ bản của UML, nó chứa đựng các phần tử định nghĩa nên những đối tượng **tồn tại** trong hệ thống thông qua các đặc điểm nhận dạng gồm **dữ liệu và hành vi**, nhưng **không phản ánh chi tiết về hành vi động** như cách mà [[sequence-communication-diagram|biểu đồ tương tác]] (biểu diễn của khung nhìn động) thực hiện.
 
+> [!example]- Ví dụ
+> Hệ thống quản lý đăng ký học tồn tại một đối tượng là **sinh viên** được nhận diện qua các đặc điểm về:
+> - **Dữ liệu**: họ tên, lớp khóa học, mã định danh, ...
+> - **Hành vi**: đăng ký khóa học, hủy đăng ký, thanh toán phí học, ...
+> 
+> 👆 Những thông tin trên sẽ được khung nhìn tĩnh sử dụng và biểu diễn thông qua các biểu đồ tương ứng mà không quan tâm cách các hành vi thực sự được triển khai ra sao.  
+
+Để biểu diễn khung nhìn tĩnh, UML cung cấp hai loại biểu đồ:
+- **Biểu đồ lớp**: được sử dụng phổ biến nhất do tính đa dụng và khả năng phản ảnh sát khung nhìn nhất, nó đại diện cho một tập các đối tượng có chung đặc điểm nhận dạng. *Ví dụ*: lớp số nguyên đại diện cho các số nguyên cụ thể (..., -1, 0, 1, ...), gồm dữ liệu như giá trị và hành vi như cộng, trừ, nhân, chia, ...
+- **Biểu đồ đối tượng**: biểu diễn ảnh chụp (snapshot) của hệ thống tại một thời điểm nhất định, chứa các đối tượng mang trong mình **giá trị nhận dạng cụ thể** như một ví dụ về hệ thống trong thực tế. *Ví dụ*: thay vì nói x có giá là một số nguyên như biểu đồ lớp thì ta nói x có giá trị bằng 5 tại thời điểm hiện tại. 
 
 ## Bên trong khung nhìn tĩnh 🔬
 
 ### Phân lớp
+Là một khái niệm dùng để mô tả các đối tượng có định danh, trạng thái, hành vi và quan hệ. Các loại phân lớp bao gồm: lớp, giao diện và kiểu dữ liệu. Nó cũng 
 
 ### Lớp
+Đại diện cho một tập các đối tượng có chung đặc điểm, hành vi và các quan hệ với những đối tượng khác. Trong thế giới đời thực, đặc điểm (màu tóc chẳng hạn) được tái hiện bằng các giá trị cụ thể (màu nâu/đen chẳng hạn) gọi là **giá trị thuộc tính**. Còn hành vi (nhuộm tóc) được tái hiện bằng các thao tác cụ thể (chọn màu, thoa thuốc, xả tóc, ...) gọi là **thao tác đối tượng**. Vai trò của lớp là cung cấp các **khai báo thuộc tính và khai báo thao tác** cho các đối tượng đó.
+
+Ngoài ra, trạng thái của một đối tượng được mô tả bởi **các thuộc tính và các liên kết** với đối tượng khác. Trong khi hành vi của đối tượng đó được mô tả bởi **các thao tác** mà hiện thực hóa của chúng là các **phương thức** của một lớp.  
+
+> [!example] Ví dụ
+> Lớp 
 
 ### Giao diện
+Là sự mô tả **vẻ ngoài** của các đối tượng bằng cách liệt kê các **mô tả thao tác** mà **không đề cập đến phần triển khai** bên trong chúng. Giao diện có thể được hiện thực hóa bởi một hay nhiều lớp. Những lớp này sẽ triển khai các thao tác dựa trên mô tả mà giao diện đã cung cấp.
+
+> [!example] Ví dụ
+> Contents
 
 ### Kiểu dữ liệu
 
