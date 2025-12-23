@@ -17,7 +17,7 @@ cssclasses:
 ---
 ## Tổng quan 🔭
 
-Biểu đồ ca sử dụng được dùng để mô hình hóa các **khía cạnh động** của hệ thống, tức là cách hệ thống vận hành trong thực tế. Nó cung cấp **khung nhìn từ bên ngoài**, cho thấy:
+**Biểu đồ ca sử dụng** được dùng để mô hình hóa các **khía cạnh động** của hệ thống, tức là cách hệ thống vận hành trong thực tế. Nó cung cấp **khung nhìn từ bên ngoài**, cho thấy:
 
 - Hệ thống sẽ được sử dụng như thế nào trong bối cảnh thực tế.
 - Ai (tác nhân) sẽ tương tác với hệ thống.
@@ -32,7 +32,7 @@ Biểu đồ ca sử dụng được dùng để mô hình hóa các **khía c�
 
 Trong biểu đồ, [tác nhân](https://www.uml-diagrams.org/use-case-actor.html) được biểu diễn bởi hình người que (stick man) kèm tên vai trò bên dưới.
 
-> [!example] Ví dụ
+> [!example]- Ví dụ
 > **Sinh viên** là vai trò của nhiều người theo học đại học, nên nó được coi là tác nhân đại diện cho họ để tương tác với các hệ thống nhà trường.
 
 Một số đặc điểm của tác nhân:
@@ -49,7 +49,7 @@ Một số đặc điểm của tác nhân:
 
 Trong biểu đồ, [ca sử dụng](https://www.uml-diagrams.org/use-case.html) được biểu diễn bằng một hình elip kèm tên của nó bên trong 
 
-> [!example] Ví dụ
+> [!example]- Ví dụ
 > **Một hệ thống chấm thi** có thể cung cấp các chức năng như: Đăng nhập, Quản lý bảng điểm, Chấm điểm, Tra cứu điểm, ... Đối với chức năng **Đăng nhập**, ta có thể mô tả nó như sau:
 > - **Kịch bản chính**: nhập tên đăng nhập và mật khẩu → hệ thống kiểm tra thông tin → đúng thì cho phép truy cập.
 > - **Luồng thay thế**: người dùng chọn đăng nhập bằng phương thức khác (Google, Microsoft, ...)
@@ -62,7 +62,7 @@ Biểu đồ ca sử dụng không chỉ có tác nhân và ca sử dụng, mà 
 - [Mở rộng](https://www.uml-diagrams.org/use-case-extend.html) (Extend): một ca sử dụng có thể được mở rộng thêm hành vi bởi ca sử dụng khác, được biểu diễn bằng đường nét đứt với nhãn `<<extend>>` và mũi tên hướng với ca được mở rộng
 - [Kế thừa](https://www.uml-diagrams.org/use-case.html#generalization) (Generalization): Khi các tác nhân/ca sử dụng có chung đặc điểm, chúng sẽ kế thừa từ một tác nhân/ca sử dụng nào đó mang đặc điểm chung đó, được biểu diễn bởi đương nét liền với mũi tên rỗng hướng về cái mang đặc điểm chung. 
 
-> [!example] Ví dụ
+> [!example]- Ví dụ
 > Trong một hệ thống nhà hàng:
 > - **Quan hệ giao tiếp**: khách hàng **gọi món**, bếp trưởng **nấu ăn**, nhân viên **giao món**.
 > - **Quan hệ bao gộp**: **Gọi món** luôn bao gồm **chọn món từ menu**.
@@ -83,7 +83,7 @@ Giúp xác định cái gì nằm trong và ngoài hệ thống (biên hệ th�
 3. Dùng kiểu mở rộng (stereotype) để chú thích thêm cho tác nhân. Ví dụ: `<<external system>>`.
 4. Lắp ghép các tác nhân với các ca sử dụng mà chúng tham gia.
 
-> [!example] Ví dụ
+> [!example]- Ví dụ
 > Một hệ thống ATM có thể gồm các tác nhân (nằm ngoài hệ thống): **Khách hàng**, **Ngân hàng trung tâm**, **Bộ phận bảo trì**. Ca sử dụng (nằm trong hệ thống) có thể là: **Rút tiền**, **Xem số dư**, **Nạp tiền**, **Bảo trì ATM**.
 
 ### Mô hình hóa yêu cầu của hệ thống 
@@ -96,7 +96,7 @@ Giúp làm rõ **những gì** hệ thống sẽ làm mà không quan tâm chún
 5. Lặp ghép thành biểu đồ ca sử dụng
 6. Thêm các chú thích cho ca sử dụng (nếu cần)
 
-> [!example] Ví dụ
+> [!example]- Ví dụ
 > Trong ứng dụng thương mại điện tử, yêu cầu "Khách hàng có thể mua sản phẩm online" có thể triển khai thành các ca sử dụng: **Đăng nhập**, **Xem sản phẩm**, **Thêm vào giỏ hàng**, **Thanh toán**. Trong đó, ca sử dụng **Thanh toán** có thể **include** ca sử dụng **Xác thực giao dịch**.
 
 > [!info] Lưu ý
