@@ -18,7 +18,7 @@ cssclasses:
 ---
 ## Tổng quan 🔭
 
-**Biểu đồ trạng thái** là một trong những biểu đồ quan trọng của UML, được dùng để mô tả hành vi động của các đối tượng theo thời gian bằng cách mô hình hóa **vòng đời** của chúng trong hệ thống. Nó cho ta thấy:
+[Biểu đồ trạng thái](https://www.uml-diagrams.org/state-machine-diagrams-examples.html) là một trong những biểu đồ quan trọng của UML, được dùng để mô tả hành vi động của các đối tượng theo thời gian bằng cách mô hình hóa **vòng đời** của chúng trong hệ thống. Nó cho ta thấy:
 
 - Một đối tượng có thể **ở những trạng thái nào** trong suốt vòng đời.
 - Những **sự kiện** nào sẽ làm đối tượng chuyển từ trạng thái này sang trạng thái khác.
@@ -30,7 +30,7 @@ cssclasses:
 
 ### Sự kiện
 
-Sự kiện là **tác nhân kích hoạt** việc thay đổi trạng thái của một đối tượng. Bản thân nó cũng được kích hoạt bởi đa dạng yếu tố như người dùng, hệ thống, hay một điều kiện nội bộ nào đó, ... Nên cũng đa dạng thể loại sự kiện được sinh ra từ đó, cụ thể: 
+[Sự kiện](https://www.uml-diagrams.org/event.html) là **tác nhân kích hoạt** việc thay đổi trạng thái của một đối tượng. Bản thân nó cũng được kích hoạt bởi đa dạng yếu tố như người dùng, hệ thống, hay một điều kiện nội bộ nào đó, ... Nên cũng đa dạng thể loại sự kiện được sinh ra từ đó, cụ thể: 
 
 - **Sự kiện tín hiệu**: dựa trên tín hiệu được gửi từ đối tượng này sang đối tượng khác, *ví dụ*: máy chủ gửi tín hiệu `timeout` cho máy khách, máy khách chuyển sang trạng thái "lỗi/thử lại"
 - **Sự kiện gọi**: dựa trên lời gọi hàm/phương thức của đối tượng, *ví dụ*: gọi hàm `withdraw()` trên đối tượng ATM sẽ khiến đối tượng này chuyển sang trạng thái "đang rút tiền"
@@ -39,94 +39,58 @@ Sự kiện là **tác nhân kích hoạt** việc thay đổi trạng thái c�
 
 ### Tín hiệu
 
-Tín hiệu là phương tiện giao tiếp giữa đối tượng gửi và đối tượng nhận, nó mang thông tin sự kiện được tạo ra bởi đối tượng gửi để đối tượng tiếp nhận thông tin đó thực hiện các hành động tương ứng (chuyển trạng thái, tính toán, phản hồi, ...)
+Tín hiệu là **phương tiện giao tiếp** giữa đối tượng gửi và đối tượng nhận, nó mang **thông tin sự kiện** được tạo ra bởi đối tượng gửi để đối tượng tiếp nhận thông tin đó thực hiện các hành động tương ứng (chuyển trạng thái, tính toán, phản hồi, ...)
 
 > [!example]- Ví dụ
 > Cảm biến nhiệt độ gửi tín hiệu "hot" (thông tin từ sự kiện cháy) đến thiết bị báo cháy để kích hoạt hệ thống dập lửa.
 
 ### Trạng thái
 
-Trạng thái là một **tình huống ổn định** trong vòng đời của một đối tượng, tại đó đối tượng thỏa mãn một số điều kiện, thực hiện một hoạt động hoặc chờ đợi một sự kiện. Có thể mô tả theo 3 cách:
+[Trạng thái](https://www.uml-diagrams.org/state-machine-diagrams.html#simple-state) là sự **ổn định** trong vòng đời của một đối tượng, tại đó đối tượng thỏa mãn một số điều kiện, thực hiện một hoạt động hoặc chờ đợi một sự kiện. Do đó, có thể mô tả trạng thái theo 3 cách sau:
 
-1. **Trạng thái như một điều kiện (condition):** Ví dụ _Đèn = Bật_.
-2. **Trạng thái như một hoạt động đang diễn ra (activity):** Ví dụ _Đèn = Đang chiếu sáng_.
-3. **Trạng thái như một tình huống chờ (waiting situation):** Ví dụ _ATM = Chờ người dùng nhập PIN_.
+1. Trạng thái như việc **đáp ứng một số điều kiện**. *Ví dụ*: Đèn ở trạng thái "Bật" do đáp ứng điều kiện về điện, môi trường, ...  
+2. Trạng thái như một **hoạt động đang diễn ra**. *Ví dụ*: Đèn ở trạng thái "Đang chiếu sáng".
+3. Trạng thái như một **tình huống chờ**. *Ví dụ*: Đèn ở trạng thái "Chờ người dùng tắt".
 
 > [!info] Lưu ý
-> Tất cả các đối tượng cùng một trạng thái sẽ phản ứng theo cùng một cách đối với một sự kiện
-> 
+> Tất cả các đối tượng cùng một trạng thái sẽ phản ứng theo cùng một cách đối với một sự kiện.
 
-### Trạng thái phức hợp (Composite State)
+### Trạng thái phức hợp
 
-Là trạng thái được **phân rã thành các trạng thái con** bên trong.
-- Cho phép mô hình hóa hành vi phức tạp, giúp sơ đồ gọn hơn.
-- Ví dụ: Trạng thái _Đang xử lý đơn hàng_ có thể chia nhỏ thành: _Xác minh thanh toán_ → _Chuẩn bị hàng_ → _Đóng gói_.
+[Trang thái phức hợp](https://www.uml-diagrams.org/state-machine-diagrams.html#composite-state) là trạng thái được **phân rã** thành các vùng trong đó chứa một/nhiều **trạng thái con**, một số hoặc tất cả các vùng có thể diễn ra đồng thời trong trạng thái phức hợp. Điều này cho phép mô hình hóa hành vi phức tạp và giúp biểu đồ trạng thái trông gọn hơn.
+
+> [!example]- Ví dụ
+> Trạng thái "Đang xử lý đơn hàng" có thể chia thành 3 vùng (1 trạng thái/vùng): Vùng 1 chứa "Xác minh thanh toán" → Vùng 2 chứa "Chuẩn bị hàng" → Vùng 3 chứa "Đóng gói". Ba vùng này không xảy ra đồng thời do ràng buộc bởi quy luật tự nhiên trong quy trình xử lý đơn hàng.
 
 ### Chuyển
-👉 Chuyển là **sự di chuyển từ một trạng thái sang trạng thái khác** khi sự kiện xảy ra.
-- Được biểu diễn bằng một mũi tên.
-- Có thể kèm theo điều kiện (guard) và hành động (action).
+[Chuyển](https://www.uml-diagrams.org/state-machine-diagrams.html#behavioral-transition) là sự di chuyển từ trạng thái này sang trạng thái khác khi sự kiện xảy ra. Được biểu diễn bằng một mũi tên hướng đến trạng thái đích, có thể bao gồm các điều kiện và hành động khi chuyển
 
-**Chuyển bên trong (Internal Transition):**
-- Là loại chuyển được **xử lý ngay trong trạng thái hiện tại**, không làm thay đổi sang trạng thái khác.
-- Ví dụ: Trong trạng thái _Đang gọi điện_, sự kiện _tăng âm lượng_ chỉ thay đổi thông số nhưng vẫn giữ trạng thái _Đang gọi điện_.
+**Chuyển bên trong** là loại chuyển được xử lý ngay trong **trạng thái hiện tại**, không làm thay đổi sang trạng thái khác. Do đó nó không có trạng thái đích.
 
-%% ![[Pasted image 20250919143544.png]] %%
-
-
-> [!check] Điểm mạnh của biểu đồ trạng thái
-> - Mô tả trực quan vòng đời đối tượng
-> - Giúp phát hiện những tình huống chưa lường trước (ví dụ trạng thái bị bỏ sót)
-> - Hữu ích cho cả **phân tích yêu cầu** và **thiết kế chi tiết**.
+> [!example]- Ví dụ
+> - **Chuyển**: sự kiện cúp máy sẽ chuyển trạng thái từ "Đang gọi điện" sang "Kết thúc cuộc gọi".
+> - **Chuyển bên trong**: sự kiện tăng âm lượng chỉ thay đổi độ to/nhỏ của âm thanh nhưng vẫn giữ ở trạng thái "Đang gọi điện".
 
 ### Máy trạng thái
-Máy trạng thái là một đồ thị gồm các **trạng thái** và các **chuyển** nối chúng lại với nhau, nó có thể phản ánh **một phần hoặc toàn bộ** biểu đồ trạng thái vì chức năng của máy trạng thái chính là **mô hình hóa lịch sử vòng đời** có thể có của các đối tượng trong hệ thống. Những đối tượng này có thể thuộc về một lớp, hành vi, ca sử dụng hay cộng tác ... 
+**Máy trạng thái** là một đồ thị gồm các **trạng thái** và các **chuyển** nối chúng lại với nhau, nó có thể phản ánh **một phần hoặc toàn bộ** biểu đồ trạng thái vì chức năng của máy trạng thái chính là **mô hình hóa lịch sử vòng đời** có thể có của các đối tượng trong hệ thống. Những đối tượng này có thể thuộc về một lớp, hành vi, ca sử dụng hay cộng tác ... 
 
 Khi đối tượng phát hiện một sự kiện từ bên ngoài, tùy theo trạng thái hiện thời mà nó phản hồi theo các cách khác nhau. Phản hồi ở đây bao gồm cả việc thực thi gây ra các thay đổi trong ngoài đối tượng trước khi chuyển sang trạng thái mới.
 
 ## Mục đích của biểu đồ trạng thái 🔄
-
-Khi mô hình hóa bằng UML, ta sử dụng các ký hiệu chuẩn:
-- **Nút đen đặc**: Trạng thái bắt đầu.
-- **Hình tròn kép**: Trạng thái kết thúc.
-- **Hình chữ nhật bo tròn**: Biểu diễn trạng thái.
+Biểu đồ trạng thái sử dụng một/nhiều máy trạng thái trong nó để mô hình hóa vòng đời các đối tượng dưới dạng các thể hiện của lớp, ca sử dụng, hệ thống, ... Khi mô hình hóa bằng UML, ta sử dụng các ký hiệu tiêu chuẩn sau:
+- **Hình tròn màu đen**: Trạng thái bắt đầu.
+- **Đường tròn chứa hình tròn đen bên trong**: Trạng thái kết thúc.
+- **Hình chữ nhật bo tròn**: Biểu diễn trạng thái với tên được đặt trong hình.
 - **Mũi tên**: Biểu diễn chuyển trạng thái.
-- **Sự kiện/điều kiện** ghi trên đường chuyển: `event [guard] / action`.
+- **Sự kiện/điều kiện** ghi trên đường chuyển dưới dạng `event [guard] / action`.
 
 Quy trình xây dựng biểu đồ trạng thái:
 1. **Xác định đối tượng** cần mô hình hóa vòng đời.
 2. **Liệt kê các trạng thái chính** mà đối tượng có thể có.
 3. **Xác định các sự kiện** có thể xảy ra.
-4. **Vẽ các chuyển trạng thái** tương ứng, gắn sự kiện và điều kiện.
-5. **Đặt hoạt động (action)** nếu cần trên các cạnh hoặc trong trạng thái.
-
-Ví dụ: UML cho đối tượng _Đơn hàng_
-```mermaid
-stateDiagram-v2
-    [*] --> TaoDon : Bắt đầu
-    TaoDon --> DangXuLy : Thanh toán thành công
-    DangXuLy --> DangGiao : Giao cho shipper
-    DangGiao --> HoanThanh : Giao thành công
-    DangGiao --> Huy : Khách hủy / Giao thất bại
-    HoanThanh --> [*]
-    Huy --> [*]
-
-    state DangXuLy {
-        [*] --> XacMinh
-        XacMinh --> ChuanBi
-        ChuanBi --> DongGoi
-        DongGoi --> [*]
-    }
-```
-
-👉 Nhìn vào biểu đồ, ta thấy ngay toàn bộ vòng đời của đơn hàng từ lúc được tạo đến khi hoàn tất/hủy.
+4. **Vẽ các chuyển trạng thái** tương ứng, gắn sự kiện và điều kiện lên chúng.
+5. **Đặt các hoạt động** (nếu cần) trên các chuyển hoặc trong trạng thái.
 
 ## Tóm lại🎬
 
-- **Biểu đồ trạng thái** = "bản đồ vòng đời đối tượng".
-- Nó giúp ta quản lý các trạng thái và sự kiện trong hệ thống, đảm bảo không bỏ sót kịch bản.
-- UML cung cấp ký pháp rõ ràng, dễ dùng, phục vụ tốt cho cả phân tích và thiết kế.
-
-[^1]: Một máy trạng thái mô tả **các trạng thái khác nhau của một đối tượng** và **cách nó phản ứng khi có sự kiện xảy ra**. Mỗi sự kiện có thể tạo ra hiệu ứng (hành động) và dẫn đến việc **chuyển sang trạng thái mới**, qua đó biểu diễn hành vi động của **lớp, ca sử dụng hay phương thức** trong hệ thống.
-
-[^2]: Thông điệp **không đồng bộ** là loại thông điệp mà **người gửi không chờ phản hồi ngay lập tức từ người nhận**. Người gửi chỉ cần phát đi tín hiệu, rồi tiếp tục công việc khác; người nhận sẽ xử lý khi nhận được.
+Biểu đồ trạng thái là bản đồ vòng đời đối tượng. Nó giúp ta quản lý các trạng thái và sự kiện bên trong hệ thống, đảm bảo không bỏ sót kịch bản hành vi nào.
