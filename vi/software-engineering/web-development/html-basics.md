@@ -26,7 +26,7 @@ Những thông tin này được gọi là các phần tử HTML hay các khối
 > [!info] Lưu ý
 > Hai dạng sau của phần tử rỗng đều được HTML chấp nhận: `<voidElement>` hoặc `<voidElement/>`  
 
-Cách hiển thị của hầu hết nội dung trên web sẽ dựa vào tên của phần tử chứa chúng theo mặc định. Ví dụ nội dung là in đậm thì nội dung đó được đặt trong phần tử `<b>` (bold)   
+   
 
 
 
