@@ -34,25 +34,27 @@ cssclasses:
 Nút hoạt động thường chỉ bắt đầu khi có **tín hiệu điều khiển** trên mỗi luồng đầu vào của nó. Khi nút được thực hiện xong, sự thực thi sẽ tiếp tục với các nút kế tiếp từ luồng đầu ra của nút này. Các luồng hoạt động giống như các [[state-diagram#Chuyển|chuyển]] trong máy trạng thái, chúng xảy ra chỉ khi thực thi hoàn tất nhưng khác ở chỗ là có thể rơi vào **trạng thái chờ** cho một số sự kiện nào đó ngay cả khi đã đáp ứng đầy đủ đầu vào.
 
 > [!example]- Ví dụ
-> Contents
+> Một luồng phức tạp như **"Đặt hàng trực tuyến"** bao gồm chuỗi các hoạt động: chọn sản phẩm → thanh toán → xác nhận đơn hàng thành công/thất bại. Trong đó, hoạt động  chọn sản phẩm và thanh toán có thể rơi vào trạng thái chờ người dùng tương tác (chờ chọn, chờ điền thông tin, ...)
 
 ### Hành động
 [Hành động](https://www.uml-diagrams.org/activity-diagrams-actions.html) là **đơn vị thực thi nhỏ nhất**, mô tả những **diễn biến cụ thể** xảy ra bên trong hoạt động. Nói cách khác, hoạt động có thể được chia thành nhiều hành động cụ thể nhưng những hành động cụ thể không thể được chia nhỏ hơn do là đơn vị thực thi nhỏ nhất.
 
 > [!example]- Ví dụ
-> Contents
+> Trong quy trình đặt hàng, các hành động cụ thể (không thể chia nhỏ hơn nữa) bao gồm: "Nhập mã giảm giá", "Nhấn nút Xác nhận", hoặc "Hiển thị thông báo lỗi", ...
 
 ### Nút điều khiển
-[Nút điều khiển](https://www.uml-diagrams.org/activity-diagrams-controls.html) là nút điều phối và kiểm soát các luồng điều khiển di chuyển theo những hướng khác nhau dựa trên khả năng của các hoạt động như tuần tự, song song, đồng bộ, ... Một số nút điều khiển điển hình bao gồm: **rẽ nhánh/quyết định** (khi hoạt động có nhiều đầu ra), **đồng bộ** (khi hoạt động chạy song song được), **hợp nhất** (tập hợp nhiều luồng nhưng chỉ cho 1 luồng đi qua), ...
+[Nút điều khiển](https://www.uml-diagrams.org/activity-diagrams-controls.html) là nút điều phối và kiểm soát các luồng điều khiển di chuyển theo những hướng khác nhau dựa trên khả năng của các hoạt động như tuần tự, song song, đồng bộ, ... Một số nút điều khiển điển hình bao gồm: **rẽ nhánh/quyết định** (khi hoạt động có nhiều đầu ra), **phân tách/đồng bộ** (khi hoạt động chạy song song được), **hợp nhất** (tập hợp nhiều luồng nhưng chỉ cho 1 luồng đi qua), ...
 
 > [!example]- Ví dụ
-> Contents
+> - **Nút quyết định (Decision):** Sau hành động "Kiểm tra tồn kho", nếu hàng "Còn" thì đi tiếp đến "Xác nhận đơn", nếu "Hết" thì chuyển đến "Thông báo hết hàng".
+> - **Nút phân tách (Fork):** Sau khi thanh toán thành công, hệ thống thực hiện đồng thời hai luồng: "Gửi email xác nhận cho khách" và "Thông báo cho bộ phận kho".
+> - **Nút đồng bộ (Join):** Chỉ khi cả hai luồng gửi email và thông báo kho hoàn tất, hệ thống mới chuyển trạng thái đơn hàng sang "Chờ giao".
 
 ### Luồng đối tượng
 [Luồng đối tượng](https://www.uml-diagrams.org/activity-diagrams.html#object-flow-edge) là luồng **chứa một đối tượng** dưới dạng **đầu vào/đầu ra** của một hoạt động. Được biểu diễn bằng một hình chữ nhật góc cạnh với tên và các giá trị của đối tượng bên trong, một mũi tên hướng từ hoạt động trước tới đối tượng và một mũi tên hướng từ đối tượng tới hoạt động sau.
 
 > [!example]- Ví dụ
-> Contents
+> Một đối tượng "Hóa đơn" với trạng thái chưa thanh toán được tạo ra từ hành động "Xuất hóa đơn" và truyền cho hành động "Xử lý thanh toán". Lúc này, "Hóa đơn" chính là đối tượng di chuyển trên luồng.
 
 ### Phân vùng
 [Phân vùng](https://www.uml-diagrams.org/activity-diagrams.html#partition) là các đường kẻ **phân tách** biểu đồ thành các vùng để **gom nhóm** các hoạt động theo **vai trò/trách nhiệm**, giúp tổ chức các phần tử gọn gàng và rõ ràng hơn về cả hình thức lẫn nội dung.
