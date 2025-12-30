@@ -1,10 +1,10 @@
 ---
-stage: Draft
+stage: Publish
 title: "HTML Basics: The Core Foundations of Web Development"
 description: Unlock HTML's power! Learn core HTML basics, elements, attributes, structure, SEO, and multimedia. A comprehensive guide for fundamental web development skills.
 permalink:
 lang: en
-draft: true
+draft: false
 tags:
   - html-basics
   - web-development
@@ -19,7 +19,7 @@ socialImage:
 ---
 Welcome to the foundational layer of the internet! HTML, or HyperText Markup Language, is the indispensable language that structures content on the web. It dictates how text, images, videos, and interactive elements are organized and displayed in your browser. Without a solid grasp of HTML, crafting engaging and functional web pages would be impossible. This comprehensive guide will take you from the core building blocks of HTML to advanced concepts like SEO optimization and multimedia integration, ensuring you have the knowledge to create robust and accessible web experiences.
 
-## Understanding the Core: HTML Elements and Structure
+## Understanding the Core
 
 At its heart, HTML is composed of **elements**, which are the fundamental components of any web document. These elements define the various parts of a webpage, such as headings, paragraphs, links, and images. Each element typically consists of an opening tag, content, and a closing tag.
 
@@ -255,31 +255,31 @@ HTML entities are special character codes used to display reserved characters (l
 
 ### Linking External Files: CSS and JavaScript
 
-*   **`<link>` element**: Used primarily to link external CSS stylesheets, favicons, or other external resources to your HTML document. It's placed in the `<head>` section.
+- `<link>`: Used primarily to link external CSS stylesheets, favicons, or other external resources to your HTML document. It's placed in the `<head>` section.
 
-    ```html
-    <head>
-      <link rel=\\"stylesheet\\" href=\\"/css/styles.css\\">
-      <link rel=\\"icon\\" href=\\"/favicon.ico\\" type=\\"image/x-icon\\">
-    </head>
-    ```
+```html
+<head>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+```
 
-    The `rel` attribute specifies the relationship between the linked document and the current document (e.g., `stylesheet`, `icon`), while `href` points to the resource's location.
+The `rel` attribute specifies the relationship between the linked document and the current document (e.g., `stylesheet`, `icon`), while `href` points to the resource's location.
 
-*   **`<script>` element**: Used to embed or reference executable code, typically JavaScript. While you can write inline JavaScript, linking to external `.js` files is generally preferred for better organization, caching, and performance.
+- `<script>`: Used to embed or reference executable code, typically JavaScript. While you can write inline JavaScript, linking to external `.js` files is generally preferred for better organization, caching, and performance.
 
-    ```html
-    <body>
-      <script src=\\"/js/main.js\\"></script>
-      <script>
-        // Inline script for a simple alert
-        alert(\\"Welcome to our site!\\");
-      </script>
-    </body>
-    ```
+```html
+<body>
+  <script src="/js/main.js"></script>
+  <script>
+    // Inline script for a simple alert
+    alert("Welcome to our site!");
+  </script>
+</body>
+```
 
-    > [!tip]
-    > **Performance with `<script>`:** Placing `<script>` tags just before the closing `</body>` tag is a common best practice. This ensures that the HTML content loads and renders before scripts execute, preventing visual blocking. Attributes like `defer` and `async` can also optimize script loading.
+> [!tip]
+> **Performance with `<script>`:** Placing `<script>` tags just before the closing `</body>` tag is a common best practice. This ensures that the HTML content loads and renders before scripts execute, preventing visual blocking. Attributes like `defer` and `async` can also optimize script loading.
 
 ### The HTML Boilerplate: Your Document's Foundation
 
@@ -287,13 +287,13 @@ Every HTML document begins with a basic boilerplate structure, which includes es
 
 ```html
 <!DOCTYPE html>
-<html lang=\\"en\\">
+<html lang="en">
   <head>
-    <meta charset=\\"utf-8\\" />
-    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Awesome Webpage Title</title>
-    <link rel=\\"stylesheet\\" href=\\"./css/main.css\\" />
-    <script src=\\"./js/app.js\\" defer></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/app.js" defer></script>
   </head>
   <body>
     <!-- All your visible content goes here -->
@@ -302,13 +302,12 @@ Every HTML document begins with a basic boilerplate structure, which includes es
 ```
 
 Let's break down each component:
-
-*   **`<!DOCTYPE html>`**: This declaration tells the browser which version of HTML the document is using (HTML5 in this case).
-*   **`<html lang=\\"en\\">`**: The root element of every HTML page. The `lang` attribute specifies the primary language of the document, which is important for accessibility and search engines.
-*   **`<head>`**: Contains metadata about the HTML document. This information is not directly displayed on the page but is vital for browser rendering, SEO, and linking external resources.
-    *   **`<meta charset=\\"utf-8\\">`**: Defines the character encoding for the document, `UTF-8` being the universal standard. This ensures that text displays correctly across different browsers and operating systems, handling a wide range of characters from various languages.
-    *   **`<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">`**: Critical for responsive web design, this meta tag ensures that your webpage scales correctly on different device sizes.
-    *   **`<title>`**: Sets the text that appears in the browser tab or window title bar. It's a key factor for SEO and user experience.
+- `<!DOCTYPE html>`: This declaration tells the browser which version of HTML the document is using (HTML5 in this case).
+- `<html lang="en">`: The root element of every HTML page. The `lang` attribute specifies the primary language of the document, which is important for accessibility and search engines.
+- `<head>`: Contains metadata about the HTML document. This information is not directly displayed on the page but is vital for browser rendering, SEO, and linking external resources.
+- `<meta charset="utf-8">`: Defines the character encoding for the document, `UTF-8` being the universal standard. This ensures that text displays correctly across different browsers and operating systems, handling a wide range of characters from various languages.
+- `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Critical for responsive web design, this meta tag ensures that your webpage scales correctly on different device sizes.
+- `<title>`: Sets the text that appears in the browser tab or window title bar. It's a key factor for SEO and user experience.
 
 ## Enhancing Visibility: SEO and Social Sharing in HTML
 
@@ -318,40 +317,39 @@ HTML elements play a direct role in how search engines discover and rank your co
 
 **SEO** refers to the practice of optimizing your webpages to rank higher in search engine results. Proper HTML structure and metadata are foundational to good SEO.
 
-*   **`<meta name=\\"description\\" content=\\"...\\">`**: This meta tag provides a concise summary of your webpage's content. While not a direct ranking factor, a compelling meta description significantly influences click-through rates from search results.
+- `<meta name="description" content="...">`: This meta tag provides a concise summary of your webpage's content. While not a direct ranking factor, a compelling meta description significantly influences click-through rates from search results.
 
-    ```html
-    <meta name=\\"description\\" content=\\"Learn the fundamentals of web development with our comprehensive HTML basics tutorial, covering elements, structure, and best practices.\\">
-    ```
+```html
+<meta name="description" content="Learn the fundamentals of web development with our comprehensive HTML basics tutorial, covering elements, structure, and best practices.">
+```
 
 ### Open Graph Protocol: Social Media Previews
 
-**Open Graph (OG) tags** are a set of `meta` tags that control how your webpage content is displayed when shared on social media platforms like Facebook, LinkedIn, Twitter, etc. They ensure a rich and engaging preview, encouraging clicks and interaction.
+**Open Graph (OG) tags** are a set of `meta` tags that control how your webpage content is displayed when shared on social media platforms like Facebook, LinkedIn, Twitter, ... They ensure a rich and engaging preview, encouraging clicks and interaction.
 
-*   **`og:title`**: Sets the title that appears in the social media post.
+- `og:title`: Sets the title that appears in the social media post.
 
-    ```html
-    <meta property=\\"og:title\\" content=\\"Mastering HTML: A Complete Guide\\">
-    ```
+```html
+<meta property="og:title" content="Mastering HTML: A Complete Guide">
+```
 
-*   **`og:type`**: Describes the type of content being shared (e.g., `website`, `article`, `video.movie`).
+- `og:type`: Describes the type of content being shared (e.g., `website`, `article`, `video.movie`).
 
-    ```html
-    <meta property=\\"og:type\\" content=\\"article\\">
-    ```
+```html
+<meta property="og:type" content="article">
+```
 
-*   **`og:image`**: Specifies the URL of an image that will be displayed as the preview thumbnail.
+- `og:image`: Specifies the URL of an image that will be displayed as the preview thumbnail.
 
-    ```html
-    <meta property=\\"og:image\\" content=\\"https://example.com/images/html-og-preview.jpg\\">
-    %% open graph image placeholder %%
-    ```
+```html
+<meta property="og:image" content="https://example.com/images/html-og-preview.jpg">
+```
 
-*   **`og:url`**: Defines the canonical URL of the page being shared.
+- `og:url`: Defines the canonical URL of the page being shared.
 
-    ```html
-    <meta property=\\"og:url\\" content=\\"https://example.com/blog/html-guide\\">
-    ```
+```html
+<meta property="og:url" content="https://example.com/blog/html-guide">
+```
 
 > [!tip]
 > **Twitter Cards:** For specific control over Twitter previews, consider using Twitter Card meta tags in addition to Open Graph, as Twitter has its own set (e.g., `twitter:card`, `twitter:site`, `twitter:creator`). Many platforms will fall back to Open Graph if Twitter Cards are not present.
@@ -362,23 +360,22 @@ Modern web pages are rich with multimedia. HTML provides robust elements and con
 
 ### Replaced Elements: External Content Within HTML
 
-**Replaced elements** are those whose content and often size are determined by an external resource rather than the HTML or CSS itself. Common examples include `<img>`, `<input type=\\"image\\">`, and `<iframe>`.
+**Replaced elements** are those whose content and often size are determined by an external resource rather than the HTML or CSS itself. Common examples include `<img>`, `<input type="image">`, and `<iframe>`.
 
-*   **`<iframe>` (Inline Frame)**: Used to embed another HTML document within the current one. This is common for embedding external content like YouTube videos, Google Maps, or third-party widgets.
+- `<iframe>` (Inline Frame): Used to embed another HTML document within the current one. This is common for embedding external content like YouTube videos, Google Maps, or third-party widgets.
 
-    ```html
-    <iframe src=\\"https://www.youtube.com/embed/VIDEO_ID\\" 
-            title=\\"An embedded YouTube video\\" 
-            width=\\"560\\" height=\\"315\\" 
-            allowfullscreen>
-    </iframe>
-    %% youtube video placeholder %%
-    ```
+```html
+<iframe src="https://www.youtube.com/embed/VIDEO_ID" 
+  title="An embedded YouTube video" 
+  width="560" height="315" 
+  allowfullscreen>
+</iframe>
+```
 
-    The `allowfullscreen` attribute permits the embedded content to be viewed in full-screen mode.
+The `allowfullscreen` attribute permits the embedded content to be viewed in full-screen mode.
 
-    > [!warning]
-    > **`iframe` Security:** Be cautious when embedding content from unknown sources. Use the `sandbox` attribute to restrict what the content inside the `iframe` can do, enhancing security.
+> [!warning]
+> **`iframe` Security:** Be cautious when embedding content from unknown sources. Use the `sandbox` attribute to restrict what the content inside the `iframe` can do, enhancing security.
 
 ### Media Optimization: Size, Format, and Compression
 
@@ -404,46 +401,42 @@ When using images, always be mindful of licensing and copyright. Options include
 **SVG** is an XML-based vector image format for two-dimensional graphics. Unlike raster images (JPG, PNG) that are pixel-based, SVGs are described by mathematical paths and can be scaled to any size without losing quality or becoming pixelated. They are ideal for logos, icons, and illustrations.
 
 ```html
-<img src=\\"/images/logo.svg\\" alt=\\"Company Logo\\">
-%% svg logo placeholder %%
+<img src="/images/logo.svg" alt="Company Logo">
 ```
 
 ### Audio and Video Elements
 
 The `<audio>` and `<video>` elements allow you to embed audio and video content directly into your HTML document, offering native controls and playback capabilities.
 
-*   **`<audio>` element**: Supports formats like MP3, WAV, OGG.
+- `<audio>`: Supports formats like MP3, WAV, OGG.
+	- `src`: Path to the audio file.
+	- `controls`: Displays default browser playback controls (play/pause, volume, seek bar).
+	- `loop`: Boolean attribute; makes the audio play continuously.
+	- `muted`: Boolean attribute; starts the audio in a muted state.
 
-    ```html
-    <audio src=\\"/audio/background-music.mp3\\" controls loop muted></audio>
-    %% background audio placeholder %%
-    ```
+```html
+<audio src="/audio/background-music.mp3" controls loop muted></audio>
+```
 
-    *   `src`: Path to the audio file.
-    *   `controls`: Displays default browser playback controls (play/pause, volume, seek bar).
-    *   `loop`: Boolean attribute; makes the audio play continuously.
-    *   `muted`: Boolean attribute; starts the audio in a muted state.
+- `<video>`: Supports formats like MP4, OGG, WebM.
+	- `src`: Path to the video file.
+	- `poster`: Specifies an image to be displayed before the video starts playing.
 
-*   **`<video>` element**: Supports formats like MP4, OGG, WebM.
+```html
+<video src="/video/intro-clip.mp4" controls poster="/images/video-poster.jpg" width="640" height="360"></video>
+```
 
-    ```html
-    <video src=\\"/video/intro-clip.mp4\\" controls poster=\\"/images/video-poster.jpg\\" width=\\"640\\" height=\\"360\\"></video>
-    %% intro video placeholder %%
-    ```
+All other attributes (`controls`, `loop`, `muted`) behave similarly to the `<audio>` element.
 
-    *   `src`: Path to the video file.
-    *   `poster`: Specifies an image to be displayed before the video starts playing.
-    *   All other attributes (`controls`, `loop`, `muted`) behave similarly to the `<audio>` element.
+- `<source>`: Used within `<audio>` or `<video>` to offer multiple media sources in different formats. The browser will select the first source it supports.
 
-*   **`<source>` element**: Used within `<audio>` or `<video>` to offer multiple media sources in different formats. The browser will select the first source it supports.
-
-    ```html
-    <video controls>
-      <source src=\\"intro.webm\\" type=\\"video/webm\\">
-      <source src=\\"intro.mp4\\" type=\\"video/mp4\\">
-      <p>Your browser does not support the video tag.</p>
-    </video>
-    ```
+```html
+<video controls>
+  <source src="intro.webm" type="video/webm">
+  <source src="intro.mp4" type="video/mp4">
+  <p>Your browser does not support the video tag.</p>
+</video>
+```
 
 ## Navigating the Web: Link Behavior and File Paths
 
@@ -453,78 +446,69 @@ Understanding how links behave and how to reference files is crucial for effecti
 
 The `target` attribute on an `<a>` element dictates where the linked URL will open. There are four primary values:
 
-*   **`_self` (Default)**: Opens the linked document in the same browsing context (the same tab or window).
+- `_self` (Default): Opens the linked document in the same browsing context (the same tab or window).
 
-    ```html
-    <a href=\\"/products\\" target=\\"_self\\">View Products</a>
-    ```
-
-*   **`_blank`**: Opens the linked document in a new browsing context (typically a new tab or window).
-
-    ```html
-    <a href=\\"https://external-site.com\\" target=\\"_blank\\">Visit External Site</a>
-    ```
-
-    > [!warning]
-    > **Security for `_blank`:** When using `target=\\"_blank\\"`, always add `rel=\\"noopener noreferrer\\"` to prevent potential security vulnerabilities (tabnapping) and to block the new tab from accessing the original window's `window.opener` property.
-
-*   **`_parent`**: Opens the linked document in the parent browsing context. Useful in cases of nested iframes, it will open in the immediate parent frame.
-
-*   **`_top`**: Opens the linked document in the topmost browsing context. This breaks out of all nested frames and opens the link in the full browser window/tab.
-
-### Understanding File Paths: Absolute vs. Relative
-
-A **path** specifies the location of a file or directory within a file system. In web development, paths are used to link to resources like images, CSS files, JavaScript files, and other HTML pages.
-
-**Path Syntax Fundamentals:**
-
-*   **`/` (Slash)**: The path separator, indicating a break between directory or file names.
-*   **`.` (Single Dot)**: Represents the current directory.
-*   **`..` (Double Dot)**: Represents the parent directory (one level up).
-
-```md
-/images/header.png       // Absolute path from the root
-./styles/main.css        // Relative path, from current directory into 'styles' folder
-../scripts/app.js        // Relative path, one level up, then into 'scripts' folder
+```html
+<a href="/products" target="_self">View Products</a>
 ```
+
+- `_blank`: Opens the linked document in a new browsing context (typically a new tab or window).
+
+```html
+<a href="https://external-site.com" target="_blank">Visit External Site</a>
+```
+
+> [!warning]
+> **Security for `_blank`:** When using `target="_blank"`, always add `rel="noopener noreferrer"` to prevent potential security vulnerabilities (tabnapping) and to block the new tab from accessing the original window's `window.opener` property.
+
+- `_parent`: Opens the linked document in the parent browsing context. Useful in cases of nested iframes, it will open in the immediate parent frame.
+
+- `_top`: Opens the linked document in the topmost browsing context. This breaks out of all nested frames and opens the link in the full browser window/tab.
+
+### Understanding File Paths: Absolute vs Relative
+
+A **path** specifies the location of a file or directory within a file system. In web development, paths are used to link to resources like images, CSS files, JavaScript files, and other HTML pages. Path Syntax Fundamentals:
+*   `/` (Slash): The path separator, indicating a break between directory or file names.
+*   `.` (Single Dot): Represents the current directory.
+*   `..` (Double Dot): Represents the parent directory (one level up).
 
 #### Absolute Paths: Complete Locations
 
 An **absolute path** is a full and complete address to a resource, starting from the root of the file system or including the full URL for web resources. They are unambiguous and always point to the same location, regardless of the current document's location.
 
-*   **For local files:** Start from the root directory (e.g., `/users/username/documents/project/index.html`).
-*   **For web resources:** Include the protocol and domain name (e.g., `https://www.example.com/assets/image.jpg`).
+- **For local files:** Start from the root directory (e.g., `/users/username/documents/project/index.html`).
+- **For web resources:** Include the protocol and domain name (e.g., `https://www.example.com/assets/image.jpg`).
 
-    ```html
-    <img src=\\"https://www.freecodecamp.org/news/images/fcc-logo.svg\\" alt=\\"freeCodeCamp logo\\">
-    ```
+```html
+<img src="https://www.freecodecamp.org/news/images/fcc-logo.svg" alt="freeCodeCamp logo">
+```
 
 #### Relative Paths: Location Relative to Current Document
 
 A **relative path** specifies the location of a file in relation to the current HTML document. They are shorter, more flexible for internal linking within the same website, and easier to manage when moving an entire site.
 
-*   **Same directory**: Just the filename (e.g., `about.html`).
-*   **Subdirectory**: `folderName/fileName.ext` (e.g., `images/picture.jpg`).
-*   **Parent directory**: `../fileName.ext` (e.g., `../index.css`).
-*   **Sibling directory**: `../siblingFolder/fileName.ext` (e.g., `../data/config.json`).
+*   **Same directory**: Just the filename
+*   **Subdirectory**: `folderName/fileName.ext`
+*   **Parent directory**: `../fileName.ext`
+*   **Sibling directory**: `../siblingFolder/fileName.ext`
 
-    ```html
-    <!-- Linking to 'contact.html' in the same directory -->
-    <a href=\\"contact.html\\">Contact Us</a>
-    
-    <!-- Linking to 'styles.css' in a 'css' folder one level up -->
-    <link rel=\\"stylesheet\\" href=\\"../css/styles.css\\">
-    ```
+```html
+<!-- Linking to 'contact.html' in the same directory -->
+<a href="contact.html">Contact Us</a>
+
+<!-- Linking to 'styles.css' in a 'css' folder one level up -->
+<link rel="stylesheet" href="../css/styles.css\\">
+```
 
 ## Styling Links: Understanding Link States
 
 Links are interactive elements, and their appearance can change based on user interaction. CSS pseudo-classes are used to style these different states:
 
-*   **`:link`**: Represents a link that has not been visited by the user. This is the default, unstyled state.
-*   **`:visited`**: Applies to links that the user has already clicked and visited. Browsers often style these in a different color (e.g., purple) by default.
-*   **`:hover`**: Applies when the user's mouse pointer is over the link. This provides visual feedback, indicating the link is interactive.
-*   **`:focus`**: Applies when the link has received keyboard focus (e.g., by tabbing to it). Crucial for keyboard navigation and accessibility.
-*   **`:active`**: Applies while the link is being activated by the user (e.g., holding down the mouse button on it).
+- `:link`: Represents a link that has not been visited by the user. This is the default, unstyled state.
+- `:visited`: Applies to links that the user has already clicked and visited. Browsers often style these in a different color (e.g., purple) by default.
+- `:hover`: Applies when the user's mouse pointer is over the link. This provides visual feedback, indicating the link is interactive.
+- `:focus`: Applies when the link has received keyboard focus (e.g., by tabbing to it). Crucial for keyboard navigation and accessibility.
+- `:active`: Applies while the link is being activated by the user (e.g., holding down the mouse button on it).
 
 ```css
 a:link { color: blue; }
@@ -534,8 +518,6 @@ a:focus { outline: 2px solid orange; }
 a:active { color: red; }
 ```
 
-## Conclusion: Your Journey into Web Creation
+## Conclusion
 
 HTML is the bedrock of the web, and mastering its fundamentals is the first essential step in becoming a proficient web developer. From structuring content with semantic elements to enhancing discoverability with SEO and seamlessly integrating multimedia, a thorough understanding of HTML empowers you to build rich, accessible, and performant web experiences. Keep experimenting, keep building, and continue to explore the vast possibilities that HTML, combined with CSS and JavaScript, offers for bringing your digital visions to life.
-
-%% final illustration placeholder %%
