@@ -19,6 +19,8 @@ socialImage:
 ---
 Welcome to the foundational layer of the internet! HTML, or HyperText Markup Language, is the indispensable language that structures content on the web. It dictates how text, images, videos, and interactive elements are organized and displayed in your browser. Without a solid grasp of HTML, crafting engaging and functional web pages would be impossible. This comprehensive guide will take you from the core building blocks of HTML to advanced concepts like SEO optimization and multimedia integration, ensuring you have the knowledge to create robust and accessible web experiences.
 
+%% hero image %%
+
 ## Understanding the Core 🧠
 
 At its heart, HTML is composed of **elements**, which are the fundamental components of any web document. These elements define the various parts of a webpage, such as headings, paragraphs, links, and images. Each element typically consists of an opening tag, content, and a closing tag.
@@ -118,7 +120,6 @@ The `<img>` element embeds images into your webpage. It's a void element requiri
 
 ```html
 <img src="https://example.com/images/cat-sleeping.jpg" alt="A fluffy orange cat sleeping soundly on a pillow">
-%% image placeholder for cat-sleeping.jpg %%
 ```
 
 ### Structural Elements: Organizing Your Content
