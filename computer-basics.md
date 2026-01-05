@@ -11,6 +11,7 @@ tags:
   - developer-tools
   - file-management
   - internet-security
+  - explorable
 aliases:
 cssclasses:
   - img

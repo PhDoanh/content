@@ -11,6 +11,7 @@ tags:
   - web-development
   - form-validation
   - table-structure
+  - explorable
 aliases:
 cssclasses:
   - img

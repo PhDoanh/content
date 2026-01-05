@@ -12,6 +12,7 @@ tags:
   - wai-aria-roles
   - inclusive-web-design
   - web-development
+  - explorable
 aliases:
 cssclasses:
   - img

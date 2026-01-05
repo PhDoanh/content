@@ -11,6 +11,7 @@ tags:
   - html-elements
   - seo-html
   - multimedia-web
+  - explorable
 aliases:
 cssclasses:
   - img

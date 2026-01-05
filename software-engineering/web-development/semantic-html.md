@@ -11,6 +11,7 @@ tags:
   - html-semantics
   - seo-best-practices
   - web-development
+  - explorable
 aliases:
 cssclasses:
   - img
