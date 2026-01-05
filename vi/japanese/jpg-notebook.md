@@ -18,7 +18,7 @@ Mình là một người đang theo học tiếng Nhật và thích chia sẻ c�
 
 Trước mắt, nó đang sử dụng 3 nguồn tài nguyên chính sau để xây dựng nội dung:
 1. [IMABI 今日](https://imabi.org/): trang web miễn phí cung cấp hàng trăm bài học ngữ pháp từ sơ cấp đến cao cấp, giải thích **rất chi tiết và giàu ví dụ**, phù hợp để **hiểu sâu sắc** cấu trúc tiếng Nhật.
-2. [JLPT Sensei](https://jlptsensei.com/): website tổng hợp ngữ pháp theo cấp độ N5–N1, trình bày gọn gàng, **dễ tra cứu và tiện cho việc ôn thi JLPT nhanh**.
+2. [JLPT Sensei](https://jlptsensei.com/): website tổng hợp ngữ pháp theo cấp độ N5-N1, trình bày gọn gàng, **dễ tra cứu và tiện cho việc ôn thi JLPT nhanh**.
 3. [Nihongo Sou Matome](https://ask-books.com/somatome/): bộ giáo trình chia bài học theo từng ngày/tuần, giúp luyện từ vựng, ngữ pháp, kanji và kỹ năng đọc nghe một cách **có lộ trình**, nhưng giải thích khá ngắn gọn, chủ yếu **phục vụ mục tiêu vượt kỳ thi**.
 
 > [!warning]- Sổ tay chỉ mang tính chất tham khảo
@@ -32,7 +32,7 @@ Mỗi một bài viết sẽ tương ứng với một điểm ngữ pháp cụ 
 
 - **Cách dùng cơ bản**: Trình bày các cách dùng đơn giản, phổ biến (được lấy từ câu chuyện). Mỗi cách dùng bao gồm mô tả ngắn, các ví dụ bổ sung và lưu ý riêng cho cách dùng đó.
 
-- **Cách dùng nâng cao**: Trình bày các cách dùng ít hoặc hiếm gặp, thậm chí là cổ xưa. Hình thức trình bày thì tương tự như cách dùng cơ bản, nhưng thường không được hoàn thiện do nhu cầu bản thân và số đông người học.
+- **Cách dùng nâng cao**: Trình bày các cách dùng ít hoặc hiếm gặp, thậm chí là cổ xưa. Hình thức trình bày thì tương tự như cách dùng cơ bản, nhưng thường không được hoàn thiện do mình chưa có nhu cầu và số đông người học.
 
 - **Bạn học chú ý**: Danh sách các lưu ý chung khi sử dụng ngữ pháp và các điểm ngữ pháp tương tự mà bạn có thể nhầm lẫn (một số điểm ngữ pháp cho phép nhấp vào để xem thêm).
 
