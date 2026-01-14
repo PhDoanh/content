@@ -14,6 +14,7 @@ aliases:
 cssclasses:
   - img
 ---
+
 Có lần, một startup trẻ ở Hà Nội nhận được hợp đồng xây dựng **ứng dụng quản lý sinh viên** cho một trường đại học. Team rất phấn khích 🎉, nghĩ rằng chỉ cần vài lập trình viên là xong. Nhưng chỉ sau vài tuần, mọi thứ bắt đầu rối tung: deadline dí, tính năng bị thay đổi liên tục, khách hàng phàn nàn, chi phí vượt dự toán.
 
 Ngồi lại sau "cơn bão", họ mới nhận ra: vấn đề không nằm ở code, mà là ở **cách quản lý dự án**. Và đó cũng chính là nội dung mà chúng ta sẽ khám phá ngày hôm nay.
