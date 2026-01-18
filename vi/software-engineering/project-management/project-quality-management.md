@@ -16,14 +16,10 @@ cssclasses:
   - img
 ---
 ## Hiểu về chất lượng dự án
-Theo ISO (tổ chức tiêu chuẩn quốc tế), chất lượng là tổng thể các đặc điểm của một thực thể chứa đựng
 
 ## Quy trình quản lý chất lượng dự án
 
-
-
 ## Lập kế hoạch quả lý chất lượng dự án
-
 
 ## Đảm bảo chất lượng dự án
 
