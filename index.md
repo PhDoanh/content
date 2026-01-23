@@ -14,7 +14,7 @@ socialImage:
 ---
 %% translated by machine %%
 
-```poetry
+```handtext
 Howdy bro!
 ```
 
@@ -26,6 +26,6 @@ In the learning journey, I realized that there are many things that ***"seem unr
 
 私はPhạm gia Doanhと申します。
 
-```poetry
+```handtext
 Anyway, welcome to my brain!
 ```
