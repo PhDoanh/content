@@ -14,9 +14,9 @@ socialImage:
 ---
 %% translated by machine %%
 
-```handtext
-Howdy bro!
-```
+>Techies are people who are passionate about technology, from programmers and software engineers to those who are enthusiastic about researching and using new technologies
+>
+>*-- Oxford English Dictionary*
 
 Doanh is my name, this is the place to record what happened in my real brain. What happened was my **knowledge, experience and experience** about my journey to build a career in the field of **information technology oriented to the Japanese market**. Especially **IoT (Internet of Things),** has been becoming a thriving trend of this country of the rising sun.
 
@@ -25,5 +25,5 @@ This is a field that I used to think was unrealistic to pursue because it involv
 In the learning journey, I realized that there are many things that ***"seem unrelated but unthinkably related"*** to my career. They indirectly support, motivate and strengthen their belief in the path they have chosen, which is also a lifeline choice when their career encounters difficulties. Therefore, I will also share them with all readers to see that our brains, which are a wonder of the world, can contain and use what we have learned to a terrible extent!
 
 ```handtext
-Doanh
+This garden was planted by Doanh 🤫
 ```
