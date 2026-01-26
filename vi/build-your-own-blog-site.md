@@ -52,7 +52,7 @@ Nếu bây giờ bạn mở máy khác ra, truy cập vào địa chỉ `http://
 1. Trên Github, nhấn nút **"New"** để tạo một kho chứa mới (kho lưu trữ trang web của bạn trên Internet). 
 2. Điền tên (Repository name) rồi nhấn vào nút **"Create repository"** ở cuối trang để hoàn tất quá trình tạo. Bạn sẽ được chuyển hướng vào bên trong kho chứa, hãy sao chép địa chỉ của kho chứa này 
 
-![[Pasted image 20250712213827.png|center]]
+![[Pasted image 20250712213827.avif|center]]
 
 3. Quay trở lại terminal trước đó, gõ lệnh `git remote set-url origin REMOTE-URL` với **REMOTE-URL** là địa chỉ của kho chứa vừa tạo (có thể cần **Ctrl+C** trước để trở về dấu nhắc lệnh bình thường) 
 4. Đẩy trang web của bạn lên kho chứa Github bằng lệnh `npx quartz sync --no-pull` (Bạn có thể cần tải lại trình duyệt để thấy dữ liệu trang web xuất hiện trong kho chứa Github của mình)
