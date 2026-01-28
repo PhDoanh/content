@@ -11,7 +11,6 @@ tags:
 aliases:
 cssclasses:
   - img
-  - btn
 socialDescription: ""
 socialImage: ""
 ---
