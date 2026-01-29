@@ -1,9 +1,9 @@
 ---
-stage: "Idea"
+stage: Idea
 title: "{1: concise SEO title (50‑60 chars)}"
 description: "{2: meta description (140‑160 chars)}"
 permalink: ""
-lang: "<% tp.user.article.detectLanguage(tp) %>"
+lang: vi
 draft: true
 comments: false
 tags:

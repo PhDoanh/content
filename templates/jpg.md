@@ -1,9 +1,9 @@
 ---
-stage: "Idea"
+stage: Idea
 title: "<% tp.file.cursor(0) %>. {11: shortened grammar}「{6: short story title in vietnamese}」"
 description: "{8: meta description (140‑160 chars)}"
 permalink: ""
-lang: "<% tp.user.article.detectLanguage(tp) %>"
+lang: vi
 draft: true
 tags:
   - japanese-grammar
