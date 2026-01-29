@@ -1,9 +1,9 @@
 ---
 stage: Publish
-title: "Fix Your PC: The game makes you serious about typing"
-description: "A game that trains your reflexes and typing speed by making your computer malfunction. There's only one way to save your PC: typing!"
-permalink: 
-lang: en
+title: "Fix Your PC: Tựa game khiến bạn phải nghiêm túc về khả năng đánh máy"
+description: Một tựa game luyện phản xạ và tốc độ gõ phím bằng cách khiến máy tính của người chơi gặp trục trặc. Chỉ có một cách để cứu lấy chiếc PC, đó là đánh máy! (không phải đánh đập)
+permalink: ""
+lang: vi
 draft: false
 tags:
   - project
@@ -12,86 +12,73 @@ tags:
   - typing-skill
   - my-product
   - game
-aliases: 
+aliases:
+  - 
 cssclasses:
   - img
   - btn
-socialDescription: 
-socialImage:
+socialDescription: ""
+socialImage: ""
 ---
-%% translated by machine %%
 
-# Introduction
+# Giới thiệu
+**Fix Your PC** là tựa game **một mạng** hay Roguelike Game lấy cảm hứng từ [ZType](https://zty.pe/), bạn sẽ phải tiêu diệt địch bằng cách gõ **nhanh và chính xác** nhất những từ, câu thậm chí là đoạn văn xuất hiện trên màn chơi. Cố gắng sống sót đến cuối và phá đảo game hoặc chết và không bao giờ tiếp tục lại được nữa! Xem video demo tại [đây](https://youtu.be/q5CiqMmyghU?si=B3q46iarJAa-8bw1)
 
-**Fix Your PC** is a Roguelike Game inspired by [ZType](https://zty.pe/), you will have to destroy enemies by typing **the fastest and most accurate** words, sentences, and even paragraphs that appear on the screen. Try to survive to the end and break the game or die and never go on again! Watch the demo video [here](https://youtu.be/q5CiqMmyghU?si=B3q46iarJAa-8bw1)
+# Các bước tải game
+Tại trang tải xuống [này](https://github.com/PhDoanh/fix-your-pc/releases/tag/v0.1.0), bạn có hai lựa chọn:
+## 1. Chạy trực tiếp game
+*Dành cho những ai chỉ muốn trải nghiệm game*
+- **Bước 1**: Tải xuống rồi giải nén file `Fix-Your-PC.zip` (~134MB)
+- **Bước 2**: Trong thư mục giải nén, chạy `main.exe` để bắt đầu chơi!
 
-# Steps to download the game
-
-At [this download page](https://github.com/PhDoanh/fix-your-pc/releases/tag/v0.1.0), you have two options:
-
-## 1. Run the game directly
-
-*For those who just want to experience the game*
-
-- **Step 1**: Download and extract the `Fix-Your-PC.zip` file (~134MB)
-- **Step 2**: In the unzipped folder, run `main.exe` to start playing!
-
-## 2. Compile code to run the game
-
-*For those who want to explore and learn about how games work through source code*
-
-- **Step 1**: Download and extract one of the files named `Source code`
-- **Step 2**: Make sure you have enough of the below before proceeding:
-	- [C++ compiler](https://gcc.gnu.org/)
+## 2. Biên dịch code để chạy game
+*Dành cho những ai muốn khám phá, tìm hiểu về cách game hoạt động thông qua mã nguồn*
+- **Bước 1**: Tải xuống và giải nén một trong các file có tên `Source code`
+- **Bước 2**: Đảm bảo bạn có đủ những thứ dưới đây trước khi tiếp tục:
+	- [Trình biên dịch C++](https://gcc.gnu.org/) 
 	- [GNU Make](https://www.gnu.org/software/make/)
-- **Step 3**: Open a command prompt (e.g. cmd) in the folder containing the Makefile and type the `make` command
+- **Bước 3**: Mở một trình nhắc lệnh (vd: cmd) trong thư mục chứa Makefile và gõ lệnh `make`
 
-> [!info] Note
-> After calling `make`, the program will compile itself and run the **game** (exe file) created by it, so you don't need to enable it manually
+> [!info] Lưu ý
+> Sau khi gọi `make`, chương trình sẽ tự biên dịch và chạy **game** (file exe) do nó tạo ra nên bạn không cần phải bật nó một cách thủ công 
 
-# How to play
+# Hướng dẫn chơi
+## Khởi động
 
-## Game start
+Khi mới vào game, bạn sẽ cần cung cấp tên của mình để lưu các số liệu thống kê thành tích dưới dạng chuỗi mật khẩu được ẩn đi. Ở phần này bạn cũng có thể tùy chỉnh trước các thiết lập bằng cách nhấn phím **"Esc"**
 
-When you first enter the game, you will need to provide your name to save your achievement stats as a hidden password string. In this section, you can also customize the settings in advance by pressing the **"Esc"** key
+|       ![[game-menu.png]]        |      ![[game-settings.png]]       |
+| :-----------------------------: | :-------------------------------: |
+| Nhập tên người chơi (Game menu) | Tùy chỉnh cài đặt (Game settings) |
 
-|         ![[game-menu.png]]          |       ![[game-settings.png]]       |
-|:-----------------------------------:|:----------------------------------:|
-| Enter the player's name (Game menu) | Customize settings (Game settings) | 
+Phần thiết lập game cụ thể như sau:          
+- **Music**: Tinh chỉnh âm lượng nhạc nền game
+- **Custom music**: Tùy chỉnh nhạc nền
+- **Sound**: Tinh chỉnh âm lượng hiệu ứng âm thanh
+- **Numbers**: Cho phép số xuất hiện trong văn bản gõ
+- **Case Sensitive**: Cho phép phân biệt chữ in hoa, in thường
+- **Punctuations and Symbols**: Cho phép các kí tự không phải số hay chữ
+- **Custom text**: Tùy chỉnh văn bản được gõ trong màn chơi
 
-The specific game setup is as follows:
+## Bắt đầu
 
-- **Music**: Fine-tune the volume of the game background music
-- **Custom music**: Customize the background music
-- **Sound**: Fine-tune the volume of sound effects
-- **Numbers**: Allows numbers to appear in typed text
-- **Case Sensitive**: Allows to distinguish between uppercase and lowercase letters
-- **Punctuations and Symbols**: Allows characters that are not numbers or letters
-- **Custom text**: Customize the text typed in the screen
+Nhấn giữ phím **"Alt"** kết hợp **W, A, S, D** để di chuyển, nhả **"Alt"** rồi gõ bất cứ từ hay câu nào mà bạn nhìn thấy để hạ địch. Theo thời gian mức độ khó sẽ tăng lên về **số lượng, sức mạnh và thời gian sinh** địch, nhưng nếu gõ đúng một lượng kí tự nhất định, người chơi được phép giải phóng **bí chiêu** bằng cách nhấn **"Enter"** để dễ dàng tiêu diệt địch. Cố gắng không để bị địch **va chạm** vì người chơi chỉ có hữu hạn mạng lên nếu hết, game sẽ kết thúc với màn hình xanh và **tự động tắt game**!
 
-## Game play
+|    ![[Fix-Your-PC.gif]]    |
+|:--------------------------:|
+| Tiêu diệt địch (Game play) |
 
-Hold down the **"Alt"** key with **W, A, S, D** to move, release **"Alt"** and type any word or sentence you see to defeat the enemy. Over time, the difficulty level will increase in the **number, strength, and spawn time** of enemies, but if you type a certain number of characters correctly, players are allowed to unleash the **secret** by pressing **"Enter"** to easily destroy the enemy. Try not to be **hit** by enemies because the player only has a limited number of lives if they run out, the game will end with a blue screen and **automatically shut down the game**!
+## Kết thúc
+- **Chiến thắng** nếu bạn phá đảo toàn bộ màn chơi, màn hình PC ở trạng thái bình thường với các dòng văn bản chúc mừng. Tại đây bạn có thể thoát game hoặc chơi lại từ đầu nếu muốn lập kỉ lục!
+- **Thất bại** nếu bạn bị mất sạch máu do va chạm quá nhiều với kẻ địch, màn hình xanh chết chóc sẽ hiện lên tổng hợp các số liệu thống kê thành tích bạn đã đạt được rồi tự tắt trong 15s
 
-|    ![[Fix-Your-PC.gif]]     |
-|:---------------------------:|
-| Destroy enemies (Game play) | 
+|     ![[game-over-victory.png]]     |     ![[game-over-defeated.png]]      |
+| :--------------------------------: | :----------------------------------: |
+| Phá đảo game (Game over - Victory) | Mất sạch mạng (Game over - Defeated) |
 
-## Game over
-
-- **Victory** if you break the entire level, the PC screen is in a normal state with congratulatory text lines. Here you can quit the game or start over if you want to set a record!
-- **Defeated** if you lose all your health due to too many collisions with enemies, the blue screen of death will appear summarizing the stats you have achieved and then turn itself off for 15 seconds
-
-| ![[game-over-victory.png]] | ![[game-over-defeated.png]] |
-|:--------------------------:|:---------------------------:|
-|    Game over - Victory     |    Game over - Defeated     | 
-
-# Game Resources
-
-## Image
-
-**Background image**
-
+# Tài nguyên game
+## Hình ảnh
+**Ảnh nền**
 - [Seamless Space Backgrounds by Screaming Brain Studios (itch.io)](https://screamingbrainstudios.itch.io/seamless-space-backgrounds)
 - [Windows 11 All Wallpapers by wrrwenna on DeviantArt](https://www.deviantart.com/wrrwenna/art/Windows-11-All-Wallpapers-885172912)
 
@@ -99,62 +86,60 @@ Hold down the **"Alt"** key with **W, A, S, D** to move, release **"Alt"** and t
 |:---------------:|:-------------:|:------------------:|:--------------:|:--------------:|
 |     flower      |     full      |    full + blur     |     space      |     stars      |
 
-**Player** *(Cursor states in PC)*
+**Người chơi** *(Các trạng thái con trỏ trong PC)*
 
-| ![[arrow.png]] | ![[beam.png]] | ![[link.png]] | ![[move.png]] | 
-|:--------------:|:-------------:|:-------------:|:-------------:|
+| ![[arrow.png]] | ![[beam.png]] | ![[link.png]] | ![[move.png]] |
+| :------------: | :-----------: | :-----------: | :-----------: |
 |     arrow      |     beam      |     link      |     move      |
 
-**Enemies** *(images only carry representative t/c)*
-
+**Kẻ địch** *(hình ảnh chỉ mang t/c đại diện)*
 - [Tile OS - Part 3: Popular Apps by oviotti on DeviantArt](https://www.deviantart.com/oviotti/art/Tile-OS-Part-3-Popular-Apps-792018928)
 
-| ![[enemy1.png\|25]] | ![[enemy2.png\|50]] | ![[enemy3.png\|75]] | ![[enemy4.png\|100]] | ![[enemy5.png\|125]] | 
-|:-------------------:|:-------------------:|:-------------------:|:--------------------:|:--------------------:|
+| ![[enemy1.png\|25]] | ![[enemy2.png\|50]] | ![[enemy3.png\|75]] | ![[enemy4.png\|100]] | ![[enemy5.png\|125]] |
+| :-----------------: | :-----------------: | :-----------------: | :------------------: | :------------------: |
 |     trash mobs      |       grunts        |      mini boss      |         boss         |      final boss      |
 
-**Sub-objects**
+**Các object phụ**
 
 | ![[avatar.png\|100]] | ![[bullet.png]] |   ![[emp.png]]   | ![[reticle.png]]  |      ![[smile.png]]      |
-|:--------------------:|:---------------:|:----------------:|:-----------------:|:------------------------:|
-|    player avatar     |     bullets     | player dead zone | enemy target zone | smile (dead blue screen) |
+|:------------------------:|:---------------:|:----------------:|:-----------------:|:------------------------:|
+|      player avatar       |     bullets     | player dead zone | enemy target zone | smile (dead blue screen) |
 
-## Audio
-
+## Âm thanh 
 - [Search Art | OpenGameArt.org](https://opengameart.org/art-search-advanced?keys=&field_art_type_tid%5B%5D=9&sort_by=count&sort_order=DESC)
 - [Free Breaking Sound Effects Download - Pixabay](https://pixabay.com/sound-effects/search/breaking/)
 - [Free Click Sound Effects Download - Pixabay](https://pixabay.com/sound-effects/search/click/)
 
-## Fonts
+## Phông chữ
+[Segoe UI Variable Font : Download Free for Desktop & Webfont (cufonfonts.com)](https://www.cufonfonts.com/font/segoe-ui-variable)
 
-[Segoe UI Variable Font: Download Free for Desktop & Webfont (cufonfonts.com)](https://www.cufonfonts.com/font/segoe-ui-variable)
+> [!info] Lưu ý
+> - Những tài nguyên không có trong nguồn tham khảo đều là **tự thiết kế** và lấy sẵn trên hệ điều hành **windows**
+> - Các tài nguyên tự thiết kế dựa trên các công cụ: [Aseprite](https://www.aseprite.org/), [Audacity](https://www.audacityteam.org/), [Canva](https://www.canva.com/)
 
-> [!info] Note
-> - The resources not included in the reference source are **self-designed** and available on **the windows** operating system
-> - Self-designed resources based on tools: [Aseprite](https://www.aseprite.org/), [Audacity](https://www.audacityteam.org/), [Canva](https://www.canva.com/)
+# Cấu trúc dự án
+- **inc, lib**: Thư mục chứa toàn bộ file tiêu đề, mã nguồn và thư viện liên kết của SDL2
+- **res**: Thư mục chứa toàn bộ tài nguyên đa phương tiện của game
+	- **background**: Thư mục chứa các ảnh nền
+	- **enemy**: Thư mục chứa toàn bộ hình ảnh của địch (50 ảnh khác nhau)
+	- **game_data**: Thư mục lưu trữ dữ liệu game
+		- **high_scores.txt**: tệp lưu lại điểm số của 5 người chơi gần đây nhất (xếp hạng giảm dần)
+		- **levels.txt**: tệp lưu toàn bộ màn chơi mặc định của game
+		- **settings.txt**: tệp lưu các tùy chỉnh mặc định trong game
+	- **music**: Thư mục chứa nhạc nền mặc định của game
+	- **object**: Thư mục chứa các đối tượng phụ trong game
+	- **player**: Thư mục lưu hình ảnh các trạng thái người chơi
+	- **sound**: Thư mục chứa toàn bộ hiệu ứng âm thanh game
+	- **SegUIVar.ttf**: tệp phông chữ của game
+- **src**: Toàn bộ mã nguồn, logic chính của game tại thư mục này
+	- **Entity.hpp, Entity.cpp**: Xử lí các logic thực thể: người chơi, kẻ địch, đạn, ...
+	- **Event.hpp, Event.cpp**: Quản lí sự kiện tương tác game: bàn phím, chuột, các hàm tương tác cụ thể cho người chơi, địch, ...
+	- **Game.hpp, Game.cpp**: Tệp chứa logic cơ bản, động cơ game; khởi tạo SDL, window, renderer, tài nguyên game, xóa và giải phóng bộ nhớ game, ... 
+	- **Level.hpp, Level.cpp**: Quản lí các màn chơi; tạo màn chơi mới, sinh địch, xử lí kí tự trong từ mà địch lưu giữ.
+	- **main.cpp**: tệp chứa hàm main của game
+	- **Screen.hpp, Screen.cpp**: tệp chứa các hàm tải, vẽ, xóa các sprite ảnh và văn bản
+	- **Sound.hpp, Sound.cpp**: tệp chứa các hàm tải, phát, dừng, xóa nhạc nền, hiệu ứng âm thanh.
+	- **UI.hpp, UI.cpp**: Quản lí toàn bộ giao diện người chơi trong game, Bố cục setting, game menu, game play, game over, ...
+	- **util.hpp, util.cpp**: tệp chứa các tiện ích hàm, cấu trúc dữ liệu, thuật toán đem lại trải nghiệm trong game. 
 
-# Project Structure
 
-- **inc, lib**: The directory that contains the entire SDL2 header file, source code, and associated libraries
-- **res**: The folder containing the game's entire multimedia resources
-	- **background**: The folder containing the background images
-	- **enemy**: The folder containing all the enemy's images (50 different photos)
-	- **game_data**: Game Data Storage Folder
-		- **high_scores.txt**: file that saves the scores of the last 5 players (descending ranking)
-		- **levels.txt**: The file saves the game's default entire level
-		- **settings.txt**: The file saves the default in-game customizations
-	- **music**: The folder that contains the game's default background music
-	- **object**: The folder that contains the sub-objects in the game
-	- **player**: Folder where images of player states are stored
-	- **sound**: The folder that contains all the game sound effects
-	- **SegUIVar.ttf**: the font file of the game
-- **src**: The entire source code, the main logic of the game in this directory
-	- **Entity.hpp, Entity.cpp**: Handling entity logic: players, enemies, bullets, etc.
-	- **Event.hpp, Event.cpp**: Game interactive event management: keyboard, mouse, specific interactive functions for players, enemies, etc.
-	- **Game.hpp, Game.cpp**: File containing basic logic, game engine; initialize SDL, window, renderer, game resources, delete and free up game memory, etc.
-	- **Level.hpp, Level.cpp**: Manage levels; Create new levels, spawn enemies, and process characters in words that enemies keep.
-	- **main.cpp**: The file contains the game's main function
-	- **Screen.hpp, Screen.cpp**: file containing functions to load, draw, delete photo sprites and text
-	- **Sound.hpp, Sound.cpp**: file containing functions to load, play, stop, delete background music, sound effects.
-	- **UI.hpp, UI.cpp**: Manage the entire player interface in the game, Layout settings, game menu, game play, game over,...
-	- **util.hpp, util.cpp**: a file that contains functions, data structures, and algorithms that provide an in-game experience.

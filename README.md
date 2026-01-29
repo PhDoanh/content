@@ -1,6 +1,6 @@
 # My Blog Content
 
-This is where I store my articles, mainly focused on _"IoT in Japan"_ and other related topics.  
+This is where I store my articles, mainly focused on *"AI-Driven Fullstack Development"* and other related topics.  
 You’re welcome to contribute by following the instructions [here](article-contribution-guide.md).
 
 [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)

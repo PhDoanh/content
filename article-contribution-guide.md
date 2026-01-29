@@ -1,13 +1,12 @@
 ---
 stage: Publish
-title: Contribution Guide for Blog Posts
+title: Hướng dẫn cộng tác bài viết
 description: ""
-permalink:
-lang: en
+permalink: ""
+lang: vi
 draft: false
 tags:
   - explorable
-  - course
 aliases:
 cssclasses:
   - img
@@ -15,29 +14,28 @@ socialDescription: ""
 socialImage: ""
 ---
 
-Although this is a personal blog, I welcome contributions to improve both the quality of the content and the overall experience of the site. You’ll receive appropriate recognition based on the level of your contribution.
+Mặc dù đây là trang blog cá nhân, nhưng mình hoan nghênh sự đóng góp của các bạn để cải thiện chất lượng bài viết lẫn trải nghiệm trang blog. Bạn sẽ nhận được quyền lợi tương xứng với mức độ đóng góp của mình.  
 
-> [!info]- Code of Conduct  
-> This project follows a [Code of Conduct](https://github.com/PhDoanh/blog/blob/v4/CODE_OF_CONDUCT.md). Please maintain a positive, respectful, and collaborative attitude in all interactions.
+> [!info]- Quy tắc ứng xử 
+> Dự án này tuân theo [Code of Conduct](https://github.com/PhDoanh/blog/blob/v4/CODE_OF_CONDUCT.md), mong bạn giữ thái độ tích cực, tôn trọng và hợp tác trong mọi tương tác.
 
-**Prerequisites**:
-- A [GitHub account](https://github.com/)
-- Basic knowledge of [Markdown](https://www.markdownguide.org/) and GitHub
+**Điều kiện tiên quyết**:
+- Có tài khoản [Github](https://github.com/)
+- Có kiến thức cơ bản về [Markdown](https://www.markdownguide.org/), Github
 
-**Step-by-step contribution guide**:
+**Hướng dẫn cụ thể**:
+1. Tìm kiếm bài viết bạn muốn cộng tác trên trang blog này 
+2. Nhấn vào biểu tượng <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen-line-icon lucide-pen-line"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></svg> (Edit this page) ở đầu bài viết đó (Lần đầu cộng tác sẽ yêu cầu nhấn nút **"Fork this repository"** để hiển thị trình chỉnh sửa)
+3. Thực hiện các thay đổi của bạn
+4. Nhấn nút **"Commit changes..."** và điền tiêu đề, mô tả chi tiết cho các thay đổi đó
+5. Xác nhận đề xuất thay đổi bằng cách nhấn **"Propose changes"**
+6. Nhấn nút **"Create pull request"** để mở yêu cầu hợp nhất thay đổi vào trang blog
+7. Xem lại thông tin các thay đổi lần cuối và nhấn **"Create pull request"** lần nữa 
+8. Chờ phản hồi từ mình. Nếu được phê duyệt, thay đổi của bạn sẽ xuất hiện trên trang blog sau 24h. Nếu không, thực hiện lại các bước trên theo phản hồi.
 
-1. Find the post you'd like to contribute to on this blog.
-2. Click the <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen-line-icon lucide-pen-line"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></svg> (Edit this page) icon at the top of the post.  (For first-time contributors, you'll need to click **"Fork this repository"** to access the editor.)
-3. Make your changes to the content.
-4. Click **"Commit changes..."**, and fill in a descriptive title and message.
-5. Click **"Propose changes"** to submit your suggestion.
-6. Click **"Create pull request"** to initiate the merge process.
-7. Review your proposed changes one final time, then click **"Create pull request"** again.
-8. Wait for my response. If approved, your changes will be published to the blog. If not, you may revise and repeat based on the feedback.
+> [!tip]- Mẹo
+> - Nếu bạn không chắc đề xuất thay đổi của mình có cần thiết hay không, hãy tạo [Issues](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) để thảo luận trước khi bấm vào biểu tượng chỉnh sửa
+> - Để dễ thao tác hơn, Bạn có thể copy nội dung bài viết sang một Markdown Editor yêu thích của bạn. Mình đề xuất [StackEdit](https://stackedit.io/)
 
-> [!note]- Tip
-> - If you're unsure whether your changes are necessary, feel free to [open an issue](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) to discuss before editing.
-> - For easier editing, consider copying the post content into your favorite Markdown editor. I recommend [StackEdit](https://stackedit.io/).
-
-> [!warning]- Disclaimer  
-> Clicking **"Fork this repository"** will create a copy of the original repository under your GitHub account. I am not responsible for managing this forked version.
+> [!warning]- Miễn trừ trách nhiệm
+> Thao tác **"Fork this repository"** sẽ tạo một repo là bản sao của repo gốc trên tài khoản Github của bạn và mình không chịu trách nhiệm quản lý repo này!

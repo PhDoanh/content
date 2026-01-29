@@ -20,7 +20,7 @@ socialImage: ""
 > [!bell]- Dành cho bạn học lần đầu
 > Để khai thác hiệu quả bài viết này, mình khuyên bạn nên đọc trước các bài viết sau:
 > - [[jpg-notebook|Giới thiệu sổ tay Nhật ngữ]]: Trình bày cấu trúc, cách dùng, giải thích ký hiệu của sổ tay do mình biên soạn trong quá trình học tiếng Nhật.   
-> - [[vi/japanese/index|Tổng quan về tiếng Nhật và chiến lược học tối ưu]]: Giới thiệu về tiếng Nhật và định hướng chiến lược tự học *"đắm chìm"* cho người mới bắt đầu.
+> - [[japanese/index|Tổng quan về tiếng Nhật và chiến lược học tối ưu]]: Giới thiệu về tiếng Nhật và định hướng chiến lược tự học *"đắm chìm"* cho người mới bắt đầu.
 
 <h2 style="text-align:center">「{6: short story title in japanese}」</h2>
 
@@ -54,7 +54,7 @@ socialImage: ""
 ## Cách dùng nâng cao 🔓
 
 > [!caution]- Content in progress
-> This content creation process may take time, but you can help it along by participating in the [[vi/article-contribution-guide|Article Contribution Guide]]
+> This content creation process may take time, but you can help it along by participating in the [[article-contribution-guide|Article Contribution Guide]]
 >
 > **We appreciate your understanding!**
 

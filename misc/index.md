@@ -1,18 +1,17 @@
 ---
-stage: "Idea"
-title: "Miscellaneous"
+stage: Publish
+title: Những thứ khác
 description: ""
 permalink: ""
-comments: false
 lang: vi
-draft: true
+draft: false
+comments: false
 tags:
   - explorable
 aliases:
   - 
 cssclasses:
   - img
-  - btn
 socialDescription: ""
 socialImage: ""
 ---
