@@ -1,6 +1,6 @@
 ---
 stage: Publish
-title: Hướng dẫn cộng tác bài viết
+title: Hướng dẫn đóng góp bài viết
 description: ""
 permalink: ""
 lang: vi
@@ -14,12 +14,17 @@ socialDescription: ""
 socialImage: ""
 ---
 
-Mặc dù đây là trang blog cá nhân, nhưng mình hoan nghênh sự đóng góp của các bạn để cải thiện chất lượng bài viết lẫn trải nghiệm trang blog. Bạn sẽ nhận được quyền lợi tương xứng với mức độ đóng góp của mình.  
+Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự đóng góp từ những *Techie* khác với mục đích cải thiện chất lượng bài viết lẫn trải nghiệm trang web ==theo định hướng phát triển của blog==. 
+
+Nói cách khác, hướng dẫn cộng tác này không phù hợp nếu bạn muốn [[build-your-own-blog-site|xây dựng khu vườn của riêng mình]] (chứa những bài viết không liên quan đến định hướng của blog). 
+
+
 
 > [!info]- Quy tắc ứng xử 
 > Dự án này tuân theo [Code of Conduct](https://github.com/PhDoanh/blog/blob/v4/CODE_OF_CONDUCT.md), mong bạn giữ thái độ tích cực, tôn trọng và hợp tác trong mọi tương tác.
 
-**Điều kiện tiên quyết**:
+**Điều kiện đóng góp**:
+- Tuân thủ nguyên tắc 
 - Có tài khoản [Github](https://github.com/)
 - Có kiến thức cơ bản về [Markdown](https://www.markdownguide.org/), Github
 
