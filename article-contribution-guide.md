@@ -24,7 +24,7 @@ Nói cách khác, hướng dẫn cộng tác này không phù hợp nếu bạn 
 > Dự án này tuân theo [Code of Conduct](https://github.com/PhDoanh/blog/blob/v4/CODE_OF_CONDUCT.md), mong bạn giữ thái độ tích cực, tôn trọng và hợp tác trong mọi tương tác.
 
 **Điều kiện đóng góp**:
-- Tuân thủ nguyên tắc 
+- Tuân thủ nguyên tắc người làm vườn
 - Có tài khoản [Github](https://github.com/)
 - Có kiến thức cơ bản về [Markdown](https://www.markdownguide.org/), Github
 
