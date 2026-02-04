@@ -1,10 +1,10 @@
 ---
-stage: Publish
-title: "Behind this Site: Cách tôi tạo ra nó"
+stage: Update
+title: Cách xây dựng web blog cho riêng bạn
 description: Hướng dẫn cách xây dựng trang blog cá nhân cho mọi đối tượng
 permalink: ""
 lang: vi
-draft: false
+draft: true
 tags:
   - explorable
 aliases:
@@ -14,11 +14,11 @@ socialDescription: ""
 socialImage: ""
 ---
 
-Trang blog này là một sản phẩm được tạo ra với sự hỗ trợ của trình tạo trang web tĩnh tên là [Quartz](https://quartz.jzhao.xyz/), nó giúp chuyển đổi nội dung các file Markdown thành các tệp mã nguồn mà trình duyệt hiểu (HTML, CSS, JS, ...). Để từ đó có thể hiển thị trên Internet! 
+Trang blog này là một sản phẩm được tạo ra với sự hỗ trợ của trình tạo web tĩnh[^1] tên là [Quartz](https://quartz.jzhao.xyz/), nó giúp chuyển đổi nội dung các file [Markdown](https://www.markdownguide.org/getting-started/) thành các tệp mã nguồn mà trình duyệt hiểu để hiển thị trên Internet! 
 
-Bài viết này sẽ chỉ bạn cách tùy chỉnh thêm các tính năng mà trang web mặc định do Quartz tạo ra không có, để có thể giúp tối ưu những yếu tố mà một trang blog thực thụ phải có (SEO, CTA, UX, ...). Đừng lo lắng nếu bạn không chuyên về công nghệ, vì hướng dẫn này được viết cho cả bạn, còn nếu vướng mắc thì có thể liên hệ với mình để giải quyết!
+Bài viết này sẽ chỉ bạn cách tùy chỉnh thêm các tính năng mà trang web mặc định do Quartz tạo ra không có, để có thể giúp tối ưu những yếu tố mà một trang blog thực thụ phải có (SEO, CTA, UX, ...). Đừng lo lắng nếu bạn không chuyên về công nghệ, vì hướng dẫn này được viết cho cả những người như bạn, và luôn có một [cộng đồng](https://www.facebook.com/techiesGarden) hỗ trợ khi bạn cần!
 
-# Bước đi đầu tiên
+# Bước đầu tiên 👣
 Nếu bạn chưa có bài viết nào của riêng mình, hãy đọc "[[blogger-from-zero|Hành trình ghi lại dấu ấn cá nhân bằng Blog]]" để biết cách đặt bút cho những bài viết đầu tiên của bản thân. Việc chuẩn bị các bài viết là một tùy chọn, bạn có thể bắt đầu luôn với việc xây dựng website trước rồi sản xuất nội dung sau cũng được!
 
 Tài liệu Quartz đã nói rất kỹ các bước tạo rồi, nên mình chỉ nhắc lại và rút gọn một số bước chưa cần thiết đi thôi
@@ -27,7 +27,7 @@ Tài liệu Quartz đã nói rất kỹ các bước tạo rồi, nên mình ch�
 Quartz yêu cầu một số tài nguyên mà nó phụ thuộc vào để hoạt động, bạn cần cài:
 - [Node.js](https://nodejs.org/en/download) phiên bản 22+ (tải xuống trình cài đặt là cách thân thiện nhất) 
 - **npm** phiên bản 10.9.2 (sẽ được đi kèm khi cài Node.js)
-- [Git](https://git-scm.com/downloads) và [Github](https://github.com/) (chỉ cần tạo tài khoản là đủ)
+- [Git](https://git-scm.com/downloads) và [Github](https://github.com/) (Github chỉ cần tạo tài khoản là đủ)
 
 Mở terminal của bạn ra và nhập từng dòng lệnh sau để hoàn tất quá trình cài đặt:
 ```bash
@@ -43,21 +43,21 @@ npx quartz create
 ## Xây dựng website trên máy cục bộ 
 Đã đến lúc bạn vận hành nhà máy Quartz để sản xuất ra trang web của mình! Tiếp tục ở terminal của bạn, gõ lệnh `npx quartz build --serve` để kích hoạt quá trình xây dựng.
 
-Sẽ mất một lúc để bạn nhìn thấy dòng `http://localhost:8080/`. Đó chính là địa chỉ trang web của bạn nhưng đang hoạt động trên **mạng cục bộ chứ không phải mạng Internet**. Dán nó vào trình duyệt yêu thích của bạn và xem kết quả
+Sẽ mất một lúc để bạn nhìn thấy dòng `http://localhost:8080/`. Đó chính là địa chỉ trang web của bạn nhưng đang hoạt động trên **mạng cục bộ chứ không phải mạng Internet**. Dán nó vào trình duyệt yêu thích của bạn và xem kết quả.
 
 ## Lưu trữ website lên Internet
-Nếu bây giờ bạn mở máy khác ra, truy cập vào địa chỉ `http://localhost:8080/` thì sẽ không thấy trang web của bạn đâu. Đó là lúc bạn cần công khai website lên Internet để ai ai cũng có thể truy cập! Hãy làm theo các bước sau:
+Nếu bây giờ bạn mở máy khác ra, truy cập vào địa chỉ `http://localhost:8080/` thì sẽ không thấy trang web của bạn đâu. Đó là lúc bạn cần công khai website lên Internet để ai cũng có thể truy cập! Hãy làm theo các bước sau:
 
-1. Trên Github, nhấn nút **"New"** để tạo một kho chứa mới (kho lưu trữ trang web của bạn trên Internet). 
-2. Điền tên (Repository name) rồi nhấn vào nút **"Create repository"** ở cuối trang để hoàn tất quá trình tạo. Bạn sẽ được chuyển hướng vào bên trong kho chứa, hãy sao chép địa chỉ của kho chứa này 
+1. Trên Github, nhấn nút "New" để tạo một kho chứa mới (kho lưu trữ trang web của bạn trên Internet). 
+2. Điền tên (Repository name) rồi nhấn vào nút "Create repository" ở cuối trang để hoàn tất quá trình tạo. Bạn sẽ được chuyển hướng vào bên trong kho chứa, hãy sao chép địa chỉ của kho chứa này 
 
 ![[Pasted image 20250712213827.avif|center]]
 
-3. Quay trở lại terminal trước đó, gõ lệnh `git remote set-url origin REMOTE-URL` với **REMOTE-URL** là địa chỉ của kho chứa vừa tạo (có thể cần **Ctrl+C** trước để trở về dấu nhắc lệnh bình thường) 
+3. Quay trở lại terminal trước đó, gõ lệnh `git remote set-url origin REMOTE-URL` với `REMOTE-URL` là địa chỉ của kho chứa vừa tạo (có thể cần Cmd/Ctrl+C trước để trở về dấu nhắc lệnh bình thường) 
 4. Đẩy trang web của bạn lên kho chứa Github bằng lệnh `npx quartz sync --no-pull` (Bạn có thể cần tải lại trình duyệt để thấy dữ liệu trang web xuất hiện trong kho chứa Github của mình)
-5. Chuyển sang tab **"Settings"** và nhấp vào **"Pages"** trong mục **Code and automation** của thanh menu bên
-6. Ngay dưới mục **Source**, chọn **"Github Actions"**
-7. Chuyển về tab "Code" và nhấn vào **"Add file > Create new file"** để tạo file mới tên `.github/workflows/deploy.yml` với nội dung sau: 
+5. Chuyển sang tab "Settings" và nhấp vào "Pages" trong mục "Code and automation" của thanh menu bên
+6. Ngay dưới mục "Source", chọn "Github Actions"
+7. Chuyển về tab "Code" và nhấn vào "Add file > Create new file" để tạo file mới tên `.github/workflows/deploy.yml` với nội dung sau: 
 
 ```yml
 name: Deploy Quartz site to GitHub Pages
@@ -107,7 +107,7 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
-8. Nhấn nút **"Commit changes"** để lưu các thay đổi
+8. Nhấn nút "Commit changes" để lưu các thay đổi
 9. Thực hiện lại **bước 5** để lấy địa chỉ trang web (Có thể cần chờ một lúc để nhìn thấy địa chỉ)
 
 Lúc này trang web của bạn đã trực tuyến trên Internet tại địa chỉ dạng `https://<user-name>.github.io/<repo-name>/`, bạn có thể truy cập nó bằng trình duyệt trên bất kỳ thiết bị nào!
@@ -115,13 +115,13 @@ Lúc này trang web của bạn đã trực tuyến trên Internet tại địa 
 > [!info] Lưu ý
 > Xem tài liệu [Quartz](https://quartz.jzhao.xyz/) để biết cách tùy chỉnh đầy đủ trang web của bạn (bố cục, hành vi, tính năng, ...)
 
-# Mở rộng tính năng
-Mặc định, trang web do Quartz tạo ra thường được dùng với mục đích **"sổ tay cá nhân kỹ thuật số"**. Nó cũng có những tính năng SEO cơ bản, nhưng chưa đủ mạnh nếu bạn hướng tới một thương hiệu **cá nhân**. Để đạt được điều đó thì cần rất nhiều yếu tố, phần này sẽ hỗ trợ tối ưu trang blog qua yếu tố trải nghiệm người dùng (UX).
+# Mở rộng tính năng 🔓
+Mặc định, trang web do Quartz tạo ra thường được dùng với mục đích *"sổ tay cá nhân kỹ thuật số"*. Nó cũng có những tính năng SEO cơ bản, nhưng chưa đủ mạnh nếu bạn hướng tới một thương hiệu cá nhân. Để đạt được điều đó thì cần rất nhiều yếu tố, phần này sẽ hỗ trợ tối ưu trang blog qua yếu tố trải nghiệm người dùng (UX).
 
-Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã và đang được áp dụng cho trang blog của mình!
+Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã và đang được áp dụng cho trang blog hiện tại!
 
 > [!info]- Tính năng ẩn của Quartz
-> Quartz hỗ trợ một số tính năng sau nhưng không được áp dụng mặc định để hiện thị nên trang web, nên bạn phải tự bật nó theo hướng dẫn của họ:
+> Quartz cũng hỗ trợ một số tính năng mở rộng nhưng không được áp dụng mặc định để hiện thị nên trang web, nên bạn phải tự bật nó theo hướng dẫn của họ:
 > - [Nhận xét bài viết](https://quartz.jzhao.xyz/features/comments)
 > - [Các bài viết gần đây](https://quartz.jzhao.xyz/features/recent-notes)
 
@@ -220,7 +220,7 @@ Tham khảo "[[my-own-headless-cms|Cách mình quản lý lượng bài viết k
 > [!info] Tiện ích Obsidian Git
 > Đây là tiện ích giúp bạn dễ dàng hơn trong việc **đồng bộ dữ liệu bài viết từ máy tính cục bộ lên kho chứa Github trên Internet** mà không phải thao tác bằng dòng lệnh! Tìm hiểu thêm tại [đây](https://github.com/Vinzent03/obsidian-git/blob/master/README.md)
 
-# Lời kết
-Toàn bộ bài viết đã gói gọn quá trình mình hiện thực hóa ý tưởng xây dựng trang blog chỉ từ **0 đồng!** Trên thực tế, website cần rất nhiều yếu tố để vận hành. Do đó cũng phát sinh rất nhiều chi phí đi kèm. Mà cái gì miễn phí thì cũng có nhược điểm của riêng nó, nhưng ít nhất nó đủ để đáp ứng yêu cầu của một trang blog cá nhân dùng đến suốt đời! 
+# Lời kết 🎉
+Toàn bộ bài viết đã gói gọn quá trình hiện thực hóa ý tưởng xây dựng trang blog chỉ từ **0 đồng!** Trên thực tế, website cần rất nhiều yếu tố để vận hành. Do đó cũng phát sinh rất nhiều chi phí đi kèm. Mà cái gì miễn phí thì cũng có nhược điểm của riêng nó, nhưng ít nhất nó đủ để đáp ứng yêu cầu của một trang blog cá nhân dùng đến suốt đời!
 
-Nếu bạn hứng thú với các nội dung như này, đừng quên để lại tín hiệu **like, share, comment** cho mình và người khác cùng biết nhé!
+[^1]: web tĩnh: ...

@@ -1,7 +1,7 @@
 ---
 stage: Publish
 title: Hướng dẫn đóng góp bài viết
-description: Nếu định hướng của blog là cũng thứ bạn đang theo đuổi, hãy trở thành người đóng góp
+description: Trở thành người đóng góp để chia sẻ chuyên môn của bạn về Fullstack, Automation và AI-Driven Development
 permalink: ""
 lang: vi
 draft: true
@@ -18,14 +18,17 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 
 Nói cách khác, hướng dẫn cộng tác này không phù hợp nếu bạn muốn [[build-your-own-blog-site|xây dựng khu vườn của riêng mình]] (chứa những bài viết không liên quan đến định hướng của blog). 
 
-**Điều kiện đóng góp**:
-- Tuân thủ [nguyên tắc viết bài](CONTRIBUTION)
+## Điều kiện đóng góp
+- Tuân thủ [[article-contribution-guide#Nguyên tắc viết bài|nguyên tắc viết bài]]
 - Có tài khoản [Github](https://github.com/)
 - Có kiến thức cơ bản về [Markdown](https://www.markdownguide.org/)
 
-**Hướng dẫn cụ thể**:
+## Hướng dẫn cụ thể
 1. step 1
 2. step 2
 
 > [!tip] Mẹo
-> Nếu bạn không chắc đề xuất thay đổi của mình có cần thiết hay không, hãy tạo [Issues](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) để thảo luận trước khi bấm vào biểu tượng chỉnh sửa
+> Nếu bạn không chắc đóng góp của mình có cần thiết hay không, hãy tạo [Issues](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) để thảo luận trước khi bấm vào nút chỉnh sửa
+
+## Nguyên tắc viết bài
+
