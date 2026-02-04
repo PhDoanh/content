@@ -1,0 +1,119 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to main)
+
+# Editorial workflow for draft/review/publish process
+publish_mode: editorial_workflow
+
+# Media configuration compatible with Quartz static assets
+media_folder: "content/media"
+public_folder: "/media"
+
+# Site configuration
+site_url: https://phdoanh.github.io/blog
+display_url: https://phdoanh.github.io/blog
+
+# Collections configuration for blog content structure
+collections:
+  # Main articles
+  - name: "main"
+    label: "Main Articles"
+    folder: "content"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "Stage", name: "stage", widget: "select", options: ["Idea", "Update", "Publish"], default: "Idea" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Permalink", name: "permalink", widget: "string", required: false }
+      - { label: "Language", name: "lang", widget: "select", options: ["vi", "en", "ja"], default: "vi" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }
+      - { label: "Aliases", name: "aliases", widget: "list", allow_add: true, required: false }
+      - { label: "CSS Classes", name: "cssclasses", widget: "list", allow_add: true, required: false }
+      - { label: "Social Description", name: "socialDescription", widget: "text", required: false }
+      - { label: "Social Image", name: "socialImage", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Japanese language learning content
+  - name: "japanese"
+    label: "Japanese Grammar"
+    folder: "content/japanese"
+    create: true
+    slug: "{{fields.number}}_{{slug}}"
+    fields:
+      - { label: "Number", name: "number", widget: "number", value_type: "int", min: 1 }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Status", name: "status", widget: "select", options: ["Not started", "Doing", "Done"], default: "Not started" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Author", name: "author", widget: "string", default: "PhDoanh" }
+      - { label: "Author Link", name: "authorlink", widget: "string", default: "https://github.com/PhDoanh" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["japanese", "grammar", "language"] }
+      - { label: "Aliases", name: "aliases", widget: "list", allow_add: true, required: false }
+      - { label: "CSS Classes", name: "cssclasses", widget: "select", options: ["img"], default: "img" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Software engineering content
+  - name: "software-engineering"
+    label: "Software Engineering"
+    folder: "content/software-engineering"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Stage", name: "stage", widget: "select", options: ["Idea", "Update", "Publish"], default: "Idea" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Permalink", name: "permalink", widget: "string", required: false }
+      - { label: "Language", name: "lang", widget: "select", options: ["vi", "en"], default: "vi" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }
+      - { label: "Aliases", name: "aliases", widget: "list", allow_add: true, required: false }
+      - { label: "CSS Classes", name: "cssclasses", widget: "list", allow_add: true, required: false }
+      - { label: "Social Description", name: "socialDescription", widget: "text", required: false }
+      - { label: "Social Image", name: "socialImage", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Miscellaneous content
+  - name: "misc"
+    label: "Miscellaneous"
+    folder: "content/misc"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Stage", name: "stage", widget: "select", options: ["Idea", "Update", "Publish"], default: "Idea" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Permalink", name: "permalink", widget: "string", required: false }
+      - { label: "Language", name: "lang", widget: "select", options: ["vi", "en"], default: "vi" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }
+      - { label: "Aliases", name: "aliases", widget: "list", allow_add: true, required: false }
+      - { label: "CSS Classes", name: "cssclasses", widget: "list", allow_add: true, required: false }
+      - { label: "Social Description", name: "socialDescription", widget: "text", required: false }
+      - { label: "Social Image", name: "socialImage", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Templates for content creation
+  - name: "templates"
+    label: "Templates"
+    folder: "content/templates"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Stage", name: "stage", widget: "select", options: ["Idea", "Update", "Publish"], default: "Idea" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Permalink", name: "permalink", widget: "string", required: false }
+      - { label: "Language", name: "lang", widget: "select", options: ["vi", "en"], default: "vi" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }
+      - { label: "Aliases", name: "aliases", widget: "list", allow_add: true, required: false }
+      - { label: "CSS Classes", name: "cssclasses", widget: "list", allow_add: true, required: false }
+      - { label: "Social Description", name: "socialDescription", widget: "text", required: false }
+      - { label: "Social Image", name: "socialImage", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+# UI Configuration
+logo_url: https://phdoanh.github.io/blog/static/icon.png
