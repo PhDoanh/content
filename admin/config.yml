@@ -22,8 +22,7 @@ collections:
     create: false
     slug: "{{slug}}"
     fields:
-      - { label: "Stage", name: "stage", widget: "select", options: ["Idea", "Update", "Publish"], default: "Idea" }
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title", name: "title", widget: "string", hint: "The title of the article" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Permalink", name: "permalink", widget: "string", required: false }
       - { label: "Language", name: "lang", widget: "select", options: ["vi", "en", "ja"], default: "vi" }
