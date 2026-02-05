@@ -1,7 +1,6 @@
 ---
-stage: Publish
-title: Beyond Code
-description: ""
+title: Product Engineering
+description:
 permalink: ""
 lang: vi
 draft: false
@@ -12,7 +11,7 @@ aliases:
   - 
 cssclasses:
   - img
-socialDescription: ""
+socialDescription:
 socialImage: ""
 ---
 

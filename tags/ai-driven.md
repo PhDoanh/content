@@ -1,18 +1,15 @@
 ---
-stage: Publish
-title: Beyond Code
-description: ""
+title: AI-Driven Development
+description:
 permalink: ""
 lang: vi
 draft: false
 comments: false
-tags:
-  - explorable
 aliases:
   - 
 cssclasses:
   - img
-socialDescription: ""
+socialDescription:
 socialImage: ""
 ---
 

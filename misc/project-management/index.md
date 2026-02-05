@@ -1,7 +1,7 @@
 ---
 stage: Publish
-title: Beyond Code
-description: ""
+title: Project Management
+description:
 permalink: ""
 lang: vi
 draft: false
@@ -12,7 +12,7 @@ aliases:
   - 
 cssclasses:
   - img
-socialDescription: ""
+socialDescription:
 socialImage: ""
 ---
 

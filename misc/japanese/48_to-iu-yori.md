@@ -1,18 +1,24 @@
 ---
-title: "<% tp.file.cursor(0) %>. {11: shortened grammar}「{6: short story title in vietnamese}」"
+stage: Idea
+draft: true
+title: ". {11: shortened grammar}「{6: short story title in vietnamese}」"
 description: "{8: meta description (140‑160 chars)}"
+tags:
+  - 
+  - japanese-grammar
+socialDescription: "{10: OG description (~100 chars)}"
+socialImage: fully qualified URL to preview image
 permalink: ""
 lang: vi
-draft: true
-tags:
-  - japanese-grammar
+comments: true
 aliases:
   - 
 cssclasses:
   - img
-socialDescription: "{10: OG description (~100 chars)}"
-socialImage: ""
 ---
+![[Pasted image 20251017080021.png]]
+
+[JLPT N3 Grammar: というより (to iu yori) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8%e3%81%84%e3%81%86%e3%82%88%e3%82%8a-to-iu-yori-meaning/)
 
 {9: related tags as bullets (skip #)}
 
@@ -22,6 +28,8 @@ socialImage: ""
 > - [[misc/japanese/index|Tổng quan về tiếng Nhật và chiến lược học tối ưu]]: Giới thiệu về tiếng Nhật và định hướng chiến lược tự học *"đắm chìm"* cho người mới bắt đầu.
 
 <h2 style="text-align:center">「{6: short story title in japanese}」</h2>
+
+%% voice audio in story %%
 
 {7: use the template1 right below to build story content as a 2/3 person conversation, emphasize sentences using grammar with `[[#h3-heading-on-usage|sentence]]`. The story must contain all basic usage, be of medium length, convey a clear meaning, use katakana for the names of Vietnam characters, and translate into natural vietnamese (sounds like real-life dialogue, not machine translation)}
 ```template1
@@ -38,7 +46,7 @@ socialImage: ""
 {2: use the template1 right below to present multiple usages of the grammar, each subsection (H3 heading) should cover only one specific usage}
 ````template1
 ### {1: short H3 heading on usage}
-{2: short description, about 2-3 sentences}. [[<% tp.file.title %>#^{5: generate a blockID as random 6-character lowercase hexadecimal hash (0–9,a–f)}|Về lại lời thoại ↑]]
+{2: short description, about 2-3 sentences}. [[Untitled#^{5: generate a blockID as random 6-character lowercase hexadecimal hash (0–9,a–f)}|Về lại lời thoại ↑]]
 
 {3: at least 1 examples for each combination of grammar (with verb, adjective, noun, ...), based on right below template2}
 ```template2
@@ -66,7 +74,7 @@ socialImage: ""
 > {4: similar grammars with short description and emphasize the difference as bullets}
 
 ## Tổng kết và giữ chuỗi 🔥
-Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số <% tp.file.cursor(0) %> đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
+Nếu bạn đọc được đến đây thì xin chúc mừng, chuỗi số  đã thuộc về tay bạn! Bây giờ, hãy cùng mình tóm tắt lại những gì chúng ta đã học được nhé!
 
 {5: summary of content}
 

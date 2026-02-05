@@ -1,5 +1,5 @@
 ---
-title: "{1: concise SEO title (50‑60 chars)}"
+title: Agentic Workflows
 description: "{2: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
