@@ -1,17 +1,17 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to main)
+  name: github
+  repo: PhDoanh/content
+  branch: main
+  open_authoring: true
 
-# Editorial workflow for draft/review/publish process
 publish_mode: editorial_workflow
 
-# Media configuration compatible with Quartz static assets
 media_folder: "content/media"
 public_folder: "/media"
 
-# Site configuration
 site_url: https://phdoanh.github.io/blog
 display_url: https://phdoanh.github.io/blog
+logo_url: https://phdoanh.github.io/blog/static/icon.png
 
 # Collections configuration for blog content structure
 collections:
@@ -113,6 +113,3 @@ collections:
       - { label: "Social Description", name: "socialDescription", widget: "text", required: false }
       - { label: "Social Image", name: "socialImage", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
-
-# UI Configuration
-logo_url: https://phdoanh.github.io/blog/static/icon.png
