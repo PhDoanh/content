@@ -1,5 +1,5 @@
 ---
-stage: Publish
+
 title: System Analysis & Design
 description:
 permalink: ""

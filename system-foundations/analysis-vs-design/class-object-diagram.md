@@ -1,5 +1,5 @@
 ---
-stage: Publish
+
 draft: false
 title: Biểu đồ lớp và đối tượng
 description:

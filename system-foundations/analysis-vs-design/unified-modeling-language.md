@@ -1,5 +1,5 @@
 ---
-stage: Publish
+
 draft: false
 title: UML - Ngôn ngữ mô hình hóa chuẩn quốc tế cho dân IT
 description:

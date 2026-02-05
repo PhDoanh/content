@@ -1,5 +1,5 @@
 ---
-stage: Publish
+
 draft: false
 title: Mô hình hóa hướng đối tượng
 description:

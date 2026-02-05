@@ -1,5 +1,5 @@
 ---
-stage: Update
+
 draft: false
 title: Biểu đồ hoạt động
 description:

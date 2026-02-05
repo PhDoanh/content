@@ -1,5 +1,5 @@
 ---
-stage: Publish
+
 draft: false
 title: Biểu đồ tuần tự và giao tiếp
 description:
