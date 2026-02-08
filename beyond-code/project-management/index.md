@@ -1,5 +1,4 @@
 ---
-
 title: Project Management
 description:
 permalink: ""
@@ -7,7 +6,6 @@ lang: vi
 draft: false
 comments: false
 tags:
-  - explorable
 aliases:
   - 
 cssclasses:
@@ -15,4 +13,4 @@ cssclasses:
 socialDescription:
 socialImage: ""
 ---
-
+Project Management

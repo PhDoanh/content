@@ -1,20 +1,16 @@
 ---
 title: Agentic Workflows
-description: "{2: meta description (140‑160 chars)}"
+description:
 permalink: ""
 lang: vi
-draft: true
+draft: false
 comments: false
 tags:
-  - explorable
 aliases:
   - 
 cssclasses:
   - img
-socialDescription: "{3: OG description (~100 chars)}"
+socialDescription:
 socialImage: ""
 ---
-
-{4: related tags as bullets (skip #)}
-
-{5: main content}
+Agentic Workflows

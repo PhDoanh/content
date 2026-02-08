@@ -6,7 +6,6 @@ lang: vi
 draft: false
 comments: false
 tags:
-  - explorable
 aliases:
   - 
 cssclasses:
@@ -14,4 +13,4 @@ cssclasses:
 socialDescription:
 socialImage: ""
 ---
-
+System Foundations

@@ -11,8 +11,8 @@ tags:
   - wai-aria-roles
   - inclusive-web-design
   - web-development
-  - explorable
   - fullstack
+  - explorable
 aliases:
 cssclasses:
   - img
