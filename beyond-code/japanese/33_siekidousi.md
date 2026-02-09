@@ -1,6 +1,6 @@
 ---
 date: 2025-02-27
-draft: true
+publish: false
 status: Doing
 title: 33. Động từ thể sai khiến trong tiếng Nhật
 description: Khám phá cách sử dụng Động từ sai khiến trong tiếng Nhật qua những ví dụ cụ thể và dễ hiểu. Bài viết này giải thích cách dùng từ cơ bản đến nâng cao, kèm theo mẹo học và lưu ý thiết thực cho kỳ thi.

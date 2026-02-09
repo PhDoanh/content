@@ -1,6 +1,6 @@
 ---
 date: 2025-02-11
-draft: true
+publish: false
 status: Done
 title: "7. これ・それ・あれ: Đại từ chỉ thị trong tiếng Nhật"
 description: 

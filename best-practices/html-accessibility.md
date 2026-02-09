@@ -3,7 +3,7 @@ title: "HTML Accessibility: Guide to Inclusive Web Design"
 description: Master HTML accessibility. This guide covers WCAG principles, assistive tech, and ARIA roles to build inclusive web experiences for all users effectively.
 permalink:
 lang: en
-draft: false
+publish: true
 tags:
   - html-accessibility
   - web-accessibility-guidelines

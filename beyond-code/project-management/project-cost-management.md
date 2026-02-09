@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: Quản lý chi phí dự án
 description:
 tags:

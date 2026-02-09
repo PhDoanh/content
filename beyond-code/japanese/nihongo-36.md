@@ -1,5 +1,5 @@
 ---
-draft: true
+publish: false
 status: Done
 title: "Nhật ngữ 36: Lời khuyên của bác sĩ"
 description:

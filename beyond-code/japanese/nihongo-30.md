@@ -1,5 +1,5 @@
 ---
-draft: true
+publish: false
 status: Done
 title: "Nhật ngữ 30: Bài tập vẫn chưa xong"
 description:

@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 63. べきだ／べきではない「Sai lầm của đàn anh」
 description: Học ngữ pháp tiếng Nhật べきだ (beki da) và べきではない (beki dewa nai) - cách diễn đạt lời khuyên, nghĩa vụ đạo đức. Bao gồm cấu trúc, cách dùng và ví dụ chi tiết cho JLPT N3.
 tags:

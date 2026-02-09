@@ -1,5 +1,5 @@
 ---
-draft: true
+publish: false
 status: Done
 title: "Nhật ngữ 31: Kế hoạch cho những chuyến đi"
 description:

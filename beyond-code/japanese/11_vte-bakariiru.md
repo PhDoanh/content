@@ -4,7 +4,7 @@ title: 11. てばかりいる「Một ngày của game thủ nhí」
 description: Học ngữ pháp JLPT N3 てばかりいる (te bakari iru) - diễn tả hành động lặp lại mang tính chỉ trích. Cấu trúc, cách dùng, ví dụ chi tiết và phân biệt với các ngữ pháp tương tự.
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

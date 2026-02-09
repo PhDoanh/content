@@ -1,12 +1,12 @@
 ---
 
-draft: false
-title: Biểu đồ thành phần
+publish: truee
+title: Biểu đồ triển khai
 description:
 tags:
   - analysis-and-design
+  - deployment-diagram
   - modeling-language
-  - component-diagram
   - physical-view
 socialDescription:
 socialImage:
@@ -16,123 +16,78 @@ aliases:
 cssclasses:
   - img
 ---
-Nếu ví phần mềm như một căn nhà thì [[class-object-diagram|biểu đồ lớp (class diagram)]] giống như bản vẽ chi tiết từng phòng (lớp, thuộc tính, quan hệ), còn **biểu đồ thành phần (component diagram)** thì giống như bản sơ đồ **các khối module lớn**: phòng khách, nhà bếp, nhà vệ sinh, và cách chúng kết nối với nhau bằng cửa hoặc hành lang.
+## Khái niệm cơ sở ✍️
 
-Nói cách khác, UML cung cấp **biểu đồ thành phần** để mô tả **cấu trúc vật lý của hệ thống phần mềm**, tức là cách hệ thống được chia thành **các module/thành phần** và **mối quan hệ phụ thuộc giữa chúng**.
+Biểu đồ triển khai (Deployment Diagram) trong UML là loại **biểu đồ cấu trúc** dùng để mô tả:
+- **Cấu hình phần cứng** (hardware configuration): tức là các **nút (nodes)** như máy chủ, máy trạm, thiết bị di động, cảm biến, router…
+- **Cách phần mềm được triển khai** lên các phần tử phần cứng đó: ví dụ ứng dụng web được cài trên server A, cơ sở dữ liệu trên server B, còn app mobile chạy trên smartphone của người dùng.
 
-## Khái niệm cơ bản ✍️
+👉 Nói ngắn gọn: biểu đồ triển khai trả lời câu hỏi **"Hệ thống phần mềm sẽ chạy trên đâu và các thành phần kết nối như thế nào?"**
 
-- **Thành phần (component)** trong UML là một **khối mô-đun** độc lập, đại diện cho một phần của hệ thống. Nó có thể là:
-    - Một gói thư viện (library).
-    - Một file mã nguồn/nhị phân.
-    - Một dịch vụ web.
-    - Một module phần mềm lớn.
+## Các thành phần chính 🧩
 
-- **Biểu đồ thành phần (component diagram)** dùng để:
-    - Mô hình hóa **cấu trúc thực thi của hệ thống**.
-    - Thể hiện cách các thành phần **phụ thuộc, liên kết, hoặc giao tiếp** với nhau.
-    - Giúp nhóm phát triển hiểu rõ **kiến trúc triển khai phần mềm**.
+Trong UML, biểu đồ triển khai có những phần tử cơ bản:
+- **Nút (Node):** Đại diện cho tài nguyên vật lý hoặc môi trường thực thi. Ví dụ: Server, Máy tính cá nhân, Điện thoại di động, Thiết bị IoT (cảm biến nhiệt độ, camera IP…)
+- **Thành phần (Component):** Là các phần mềm, chương trình, module chạy trong nút đó. Ví dụ: Trên server có Web Server (Apache, Nginx), Trên smartphone có ứng dụng Android/iOS
+- **Đường kết nối (Association/Communication Path):** Mô tả kênh truyền thông giữa các nút. Ví dụ: HTTP/HTTPS kết nối giữa client và server, JDBC kết nối từ ứng dụng đến cơ sở dữ liệu
+- **Artifact (chế tác):** Là sản phẩm phần mềm cụ thể (file .exe, .war, .jar, script…) được triển khai vào node. Được thể hiện bằng kí hiệu «artifact»
 
-👉 Điểm thú vị: thành phần **không phải lớp**, nhưng có thể **chứa nhiều lớp, giao diện hoặc tài nguyên** bên trong.
+%% ![[Pasted image 20250919154740.png]] %%
 
-## Ký hiệu trong UML 🧩
+## Mô hình hóa các bộ xử lý và các thiết bị 🖨️
 
-Trong UML, ký hiệu **component** thường được biểu diễn như **hình chữ nhật có 2 "tai" nhỏ** ở bên trái (trông giống một tài liệu có tab), thường nằm ở góc trên bên phải của một hình chữ nhật lớn hơn, hình chữ nhật này được dùng để mô tả tên và/hoặc cấu trúc bên trong của thành phần
+UML cung cấp cơ chế **mở rộng (stereotype)** để mô tả rõ hơn từng loại **nút (node)** trong biểu đồ triển khai. Có hai loại nút chính:
+- **Nút xử lý (processor):** có khả năng tính toán, thực thi các thành phần phần mềm (ví dụ CPU, server).
 
-%% ![[Pasted image 20250919151655.png]] %%
+- **Nút thiết bị (device):** không trực tiếp xử lý, thường đại diện cho các phần cứng có chức năng giao tiếp với thế giới thực qua giao diện (ví dụ máy in, cảm biến, thiết bị ngoại vi).
 
-Ngoài ra, UML còn cho phép:
-- **Interface (giao diện)** được vẽ bằng vòng tròn (lollipop) hoặc đường kẻ gắn vào component.
-- **Dependency (phụ thuộc)** được vẽ bằng mũi tên nét đứt từ component này đến component khác.
+%% ![[Pasted image 20250919160042.png]] %%
 
-%% ![[Pasted image 20250919153233.png]] %%
+Các bước mô hình hóa:
+1. **Xác định** các phần tử tính toán trong hệ thống, rồi biểu diễn chúng dưới dạng các **nút**.
+2. **Gán stereotype** để phân biệt đó là **bộ xử lý** hay **thiết bị**.
+3. **Xem xét** các thuộc tính và thao tác đã được cài đặt trên các nút khi mô hình hóa lớp (đảm bảo tính nhất quán giữa thiết kế logic và triển khai vật lý).
 
-## Các mối quan hệ trong biểu đồ thành phần 🔗
+## Mô hình hóa sự phân tán của các thành phần 🖧
 
-Trong Component Diagram, có một số quan hệ quan trọng:
-1. **Quan hệ sử dụng (usage dependency)**
-    - Một component **cần dịch vụ** từ component khác.
-    - Vẽ bằng mũi tên nét đứt.
-    - Ví dụ: `Payment Module` phụ thuộc vào `User Auth Module`.
+%% ![[Pasted image 20250919160106.png]] %%
 
-2. **Quan hệ giao diện (interface relationship)**
-    - Một component **cung cấp** hoặc **yêu cầu** giao diện.
-    - Biểu diễn bằng hình tròn (provided interface) hoặc hình ổ cắm (required interface).
-    - Ví dụ: `Payment Module` cung cấp interface `IPayment`, `E-Commerce App` sử dụng interface này.
+Sau khi đã xác định các nút, ta cần mô tả cách các **thành phần phần mềm** được phân bố trên các nút đó. Các bước mô hình hóa:
 
-## Mô hình hóa các thực thi được (executables) và các thư viện ⚙️
+1. Với mỗi thành phần của hệ thống, **gán nó vào một nút xử lý** cụ thể.
+2. **Xem xét khả năng nhân bản** (sao chép) thành phần trên nhiều vị trí khác nhau.
+    - Thông thường chỉ các thành phần cùng loại (ví dụ thư viện phần mềm) mới được phân bố trên nhiều nút.
+    - Ít khi cùng một thành phần được tách nhỏ và lưu trú ở nhiều nút đồng thời.
+3. Có ba cách để biểu diễn sự phân bố này trong UML:
+    - Cách 1: Đưa trực tiếp vào phần đặc tả của nút (mô tả bằng văn bản, không cần hình vẽ).
+    - Cách 2: Sử dụng **quan hệ phụ thuộc (dependency)** để nối mỗi nút với thành phần được triển khai trên nó.
+    - Cách 3: Liệt kê các thành phần triển khai trong một **ngăn mở rộng** bên trong ký pháp nút (cách này trực quan, dễ đọc).
 
-Biểu đồ thành phần thường được dùng để mô hình hóa **các đơn vị triển khai** làm nên bản cài đặt của hệ thống, ví dụ như **các file thực thi (.exe)** hoặc **các thư viện đối tượng (.dll, .so, .jar, …)**.
+## Ý nghĩa và mục đích 🔥
+Biểu đồ triển khai giúp:
+1. **Mô tả kiến trúc triển khai thực tế** của hệ thống, gắn liền giữa phần mềm và hạ tầng.
+2. **Hiểu rõ sự phụ thuộc phần cứng – phần mềm**, từ đó đưa ra quyết định về hiệu năng, bảo mật, khả năng mở rộng.
+3. **Hỗ trợ quản lý triển khai và bảo trì hệ thống**, đặc biệt với các hệ thống phân tán, cloud, IoT.
 
-Việc mô hình hóa thành phần cho phép chúng ta:
-- **Trực quan hóa** cấu trúc hệ thống ở mức vật lý.
-- **Đặc tả chi tiết** các thành phần phần mềm.
-- **Xây dựng và đưa ra quyết định** về việc tổ chức, tích hợp và triển khai hệ thống.
-- **Quản lý cấu hình và bảo trì** hệ thống tốt hơn trong suốt vòng đời.
+👉 Đặc biệt quan trọng trong các dự án lớn (ERP, e-commerce, AIoT y tế…) khi cần triển khai trên nhiều server, cloud khác nhau.
 
-%% ![[Pasted image 20250919152816.png]] %%
+## Ví dụ minh họa 📦
+Giả sử ta triển khai một **ứng dụng bán hàng trực tuyến**:
+- **Client:** người dùng truy cập bằng trình duyệt hoặc ứng dụng mobile.
+- **Web Server:** chạy ứng dụng web (Apache + ứng dụng Java).
+- **Database Server:** lưu trữ dữ liệu khách hàng, đơn hàng.
+- **Payment Gateway (bên thứ ba):** xử lý giao dịch thanh toán.
 
-Các bước tiến hành:
-1. **Xác định sự phân chia của hệ thống vật lý.**
-    - Xem xét các yếu tố về quản lý cấu hình, ràng buộc kỹ thuật và vấn đề tái sử dụng.
-    - Ví dụ: phần mềm có thể chia thành các module như "xử lý dữ liệu", "giao diện người dùng", "truy cập cơ sở dữ liệu".
-
-2. **Biểu diễn các thực thi được hoặc các thư viện ở dạng thành phần.**
-    - Trong một số trường hợp, dùng **stereotype** (kiểu mở rộng) để làm rõ ý nghĩa đặc thù của từng thành phần.
-    - Ví dụ: đánh dấu một thành phần là «executable» hay «library».
-
-3. **Xác định các giao diện thiết yếu** mà thành phần sử dụng hoặc hiện thực hóa.
-    - Điều này giúp làm rõ cách các thành phần trao đổi với nhau.
-
-4. **Mô hình hóa quan hệ giữa các thực thi, thư viện và giao diện.**
-    - Đặc biệt nhấn mạnh vào **các mối quan hệ phụ thuộc** giữa chúng (dependency).
-    - Ví dụ: chương trình chính (executable) phụ thuộc vào thư viện toán học để xử lý phép tính.
-
-## Mô hình hóa các bảng, tệp, tài liệu 📂
-
-Ngoài việc mô hình hóa các file thực thi và thư viện, chúng ta còn có thể dùng **biểu đồ thành phần** để mô tả **các phần tử không thực thi được** của hệ thống, gọi là **các thành phần phụ**, ví dụ:
-
-- Các **bảng dữ liệu** trong cơ sở dữ liệu.
-- Các **tập tin** (files).
-- Các **tài liệu trợ giúp** (documentation, manuals).
-
-%% ![[Pasted image 20250919152924.png]] %%
-
-Ý nghĩa:
-- Đây là một phần quan trọng trong **quản lý cấu hình**.
-- Chúng ta cần chỉ ra **quan hệ phụ thuộc** giữa các thành phần thực thi và các thành phần phụ. Ví dụ: một chương trình quản lý sinh viên phụ thuộc vào bảng “SinhVien” trong cơ sở dữ liệu.
-
-Ngoài ra, biểu đồ thành phần còn có thể được dùng trong các tình huống khác như:
-- Mô hình hóa **các API (Application Programming Interface)**.
-- Mô hình hóa **mã nguồn chương trình**.
-
-## Vai trò của biểu đồ thành phần 🎯
-
-Biểu đồ thành phần đóng vai trò **rất quan trọng trong giai đoạn thiết kế và triển khai**:
-- Giúp xác định rõ **các khối kiến trúc chính**.
-- Hỗ trợ **tái sử dụng** thành phần: ví dụ, module `Login` có thể dùng lại trong nhiều ứng dụng khác.
-- Cho phép kiểm soát **phụ thuộc giữa các module**, hạn chế việc hệ thống bị "rối dây".
-- Là tài liệu để giao tiếp giữa **kiến trúc sư hệ thống** và **lập trình viên**, đảm bảo mọi người hiểu đúng cách các module kết nối với nhau.
-
-## Ví dụ minh họa 🛒
-
-Hãy tưởng tượng bạn xây dựng một hệ thống **Thương mại điện tử (E-Commerce System)**.  
-Biểu đồ thành phần có thể gồm các module chính:
-- `User Management Component`
-- `Product Catalog Component`
-- `Shopping Cart Component`
-- `Payment Component`
-- `Notification Component`
-
-Quan hệ:
-- `Shopping Cart` phụ thuộc vào `Product Catalog` (để lấy thông tin sản phẩm).
-- `Payment` cung cấp interface `IPayment`, được `Shopping Cart` gọi khi khách hàng thanh toán.
-- `Notification` nhận sự kiện từ `Payment` để gửi email xác nhận.
+Trong biểu đồ triển khai UML, ta có thể vẽ:
+- Một node "Web Server" chứa artifact "E-commerce.war"
+- Một node "Database Server" chứa "MySQL DB"
+- Một node "Mobile Device" chứa "ShoppingApp.apk"
+- Các đường kết nối: HTTPS giữa client ↔ web server, JDBC giữa web server ↔ DB, API giữa web server ↔ payment gateway.
 
 %% image %%
 
-## Tổng kết 🔥
+## Kết luận ✨
 
-- **Biểu đồ thành phần (Component Diagram)** cho ta cái nhìn **"vĩ mô"** về cấu trúc hệ thống.
-- Nó giúp quản lý **sự phức tạp** trong các dự án phần mềm lớn bằng cách **chia nhỏ hệ thống thành các module rõ ràng**.
-- Khi kết hợp với [[deployment-diagram|biểu đồ triển khai (Deployment Diagram)]], chúng ta có thể biết **một component sẽ chạy trên node nào**, đảm bảo hệ thống được triển khai hợp lý.
+- Biểu đồ triển khai là "cầu nối" giữa **thiết kế phần mềm** và **hạ tầng phần cứng**.
+- Nó giúp đội ngũ phát triển và vận hành (DevOps, SysAdmin) phối hợp tốt hơn.
+- Với xu hướng **Cloud Computing** và **IoT**, biểu đồ triển khai ngày càng quan trọng để mô tả hệ thống phân tán, đa nền tảng.

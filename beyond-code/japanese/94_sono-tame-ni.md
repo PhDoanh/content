@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 94. そのために「Hướng tới ước mơ」
 description: Học ngữ pháp tiếng Nhật そのために (sono tame ni) - cách nối câu trang trọng diễn tả mục đích và kết quả. Bao gồm cấu trúc, cách dùng cụ thể và ví dụ chi tiết cho JLPT N3.
 tags:

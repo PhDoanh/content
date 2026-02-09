@@ -4,7 +4,7 @@ title: Cách xây dựng web blog cho riêng bạn
 description: Hướng dẫn cách xây dựng trang blog cá nhân cho mọi đối tượng
 permalink: ""
 lang: vi
-draft: true
+publish: false
 tags:
   - explorable
 aliases:

@@ -1,6 +1,6 @@
 ---
 date: 2025-01-26
-draft: true
+publish: false
 status: Not started
 title: "Làm chủ cách gõ tiếng Nhật trong 5 phút"
 description: ""

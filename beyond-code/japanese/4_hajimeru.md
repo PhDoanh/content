@@ -4,7 +4,7 @@ title: 4. はじめる「Bắt đầu cuộc hành trình」
 description: Học ngữ pháp tiếng Nhật はじめる (hajimeru) - cách diễn tả sự bắt đầu có chủ đích. Bao gồm cấu trúc, cách dùng và ví dụ chi tiết cho JLPT N4.
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

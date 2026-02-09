@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: Biểu đồ triển khai
 description:
 tags:

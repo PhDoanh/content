@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: trueee
 title: Những thực tiễn tốt nhất trong phát triển phần mềm
 description:
 tags:

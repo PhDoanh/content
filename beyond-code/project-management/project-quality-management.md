@@ -1,6 +1,6 @@
 ---
 
-draft: true
+publish: false
 title: Quản lý chất lượng dự án
 description:
 tags:

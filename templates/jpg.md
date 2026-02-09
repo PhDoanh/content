@@ -3,7 +3,7 @@ title: "<% tp.file.cursor(0) %>. {11: shortened grammar}「{6: short story title
 description: "{8: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
-draft: true
+publish: false
 tags:
   - japanese-grammar
 aliases:

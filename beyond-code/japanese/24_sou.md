@@ -1,6 +1,6 @@
 ---
 date: 2025-02-11
-draft: true
+publish: false
 status: Not started
 title: "24. <% tp.file.cursor(1) %>"
 description: "<% tp.file.cursor(2) %>"

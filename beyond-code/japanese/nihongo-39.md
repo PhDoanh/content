@@ -1,5 +1,5 @@
 ---
-draft: true
+publish: false
 status: Done
 title: "Nhật ngữ 39: Cách giải quyết khi đau bụng giữa kì thi"
 description:

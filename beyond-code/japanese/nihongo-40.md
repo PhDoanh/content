@@ -1,5 +1,5 @@
 ---
-draft: true
+publish: false
 status: Done
 title: "Nhật ngữ 40: Cái giá của việc nói leo"
 description:

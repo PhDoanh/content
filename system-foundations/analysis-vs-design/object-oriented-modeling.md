@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: Mô hình hóa hướng đối tượng
 description:
 tags:

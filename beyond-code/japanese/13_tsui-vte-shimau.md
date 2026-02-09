@@ -4,7 +4,7 @@ title: 13. つい + Vてしまう「Lỡ ăn hết bánh」
 description: Học ngữ pháp tiếng Nhật つい + Vてしまう - diễn tả sự vô tình, lỡ làm điều gì đó kèm theo cảm giác tiếc nuối. Bao gồm cấu trúc, cách dùng và ví dụ chi tiết cho JLPT N3.
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

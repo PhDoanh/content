@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 16. A + さ「Lần đầu leo núi」
 description: Học ngữ pháp tiếng Nhật さ (sa) - hậu tố danh từ hóa tính từ. Hướng dẫn chi tiết cấu trúc, cách dùng với Aい và Aな, kèm ví dụ thực tế cho JLPT N4-N5.
 tags:

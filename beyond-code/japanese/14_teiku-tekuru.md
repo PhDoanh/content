@@ -4,7 +4,7 @@ title: 14. Vていく・Vてくる「Những chú mèo hoang tại công viên�
 description: Học ngữ pháp tiếng Nhật Vていく và Vてくる - cách diễn tả chuyển động, sự thay đổi theo thời gian. Bao gồm cấu trúc, cách dùng chi tiết và ví dụ thực tế cho JLPT N4.
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

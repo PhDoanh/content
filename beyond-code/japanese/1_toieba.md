@@ -4,7 +4,7 @@ title: 1. といえば「Hương vị Việt Nam trong quán cà phê」
 description: Học ngữ pháp tiếng Nhật と言えば (to ieba) - cách chuyển đổi chủ đề tự nhiên trong hội thoại. Bao gồm cấu trúc, cách dùng chi tiết và ví dụ thực tế cho JLPT N3.
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

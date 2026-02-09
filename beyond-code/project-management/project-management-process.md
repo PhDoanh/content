@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: Quy trình quản lý dự án
 description:
 tags:

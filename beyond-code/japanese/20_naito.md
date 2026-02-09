@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 20. ないと「Phải dùng bữa ở nhà hàng vô lý」
 description: Học ngữ pháp tiếng Nhật ないと (naito) - cách diễn tả nghĩa vụ, sự cần thiết trong hội thoại. Bao gồm cấu trúc với động từ, tính từ, danh từ, cách dùng và ví dụ thực tế cho JLPT N3.
 tags:

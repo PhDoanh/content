@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 23. ておく「Việc chuẩn bị buổi họp không suôn sẻ」
 description: Học ngữ pháp ておく (te oku) - cách diễn đạt chuẩn bị trước và duy trì trạng thái trong tiếng Nhật. Hướng dẫn chi tiết cấu trúc, cách dùng, ví dụ thực tế cho JLPT N4-N3.
 tags:

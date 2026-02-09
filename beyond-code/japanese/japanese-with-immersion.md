@@ -1,6 +1,6 @@
 ---
 date: 2024-08-31
-draft: true
+publish: false
 status: Doing
 title: Cách học tiếng Nhật với Immersion
 description:

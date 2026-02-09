@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 22. てしまう／てしまった「Một ngày trước bài kiểm tra」
 description: Học ngữ pháp tiếng Nhật てしまう／てしまった - cách diễn đạt hành động hoàn tất và sự hối tiếc. Bao gồm cấu trúc, cách dùng chi tiết, ví dụ thực tế cho JLPT N4-N3.
 tags:

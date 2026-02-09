@@ -3,7 +3,7 @@ status: Done
 title: "Nhật ngữ 6: Người bạn lâu ngày không gặp"
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
-draft: true
+publish: false
 tags:
   - japanese
   - grammar

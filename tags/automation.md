@@ -3,7 +3,7 @@ title: Automation Workflows
 description:
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: false
 aliases:
   - 

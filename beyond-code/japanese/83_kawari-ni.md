@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 83. 代わりに「Người thay thế」
 description: Học ngữ pháp 代わりに (kawari ni) của JLPT N3 về cách dùng thay thế, đền bù trong tiếng Nhật. Hướng dẫn chi tiết với ví dụ thực tế và phân biệt với các ngữ pháp tương tự.
 tags:

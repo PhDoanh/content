@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 56. ずに「Chuyện lớn nhỏ tại công ty」
 description: Học ngữ pháp tiếng Nhật ずに (zuni) - cách diễn đạt làm việc gì mà không làm việc khác. Bao gồm cấu trúc, cách dùng, sự khác biệt với ないで và ví dụ chi tiết cho JLPT N3.
 tags:

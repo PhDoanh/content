@@ -1,6 +1,6 @@
 ---
 date: 2024-08-31
-draft: true
+publish: false
 status: Doing
 title: Các thiết lập khi học tiếng Nhật
 description:

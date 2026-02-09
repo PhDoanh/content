@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: Biểu đồ ca sử dụng
 description:
 tags:

@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 19. 受身形「Chuỗi thảm họa của một nhân viên văn phòng」
 description: Học ngữ pháp tiếng Nhật 受身形 (thể bị động) - Cách chia động từ, cách dùng cơ bản và nâng cao với ví dụ chi tiết. Phù hợp cho JLPT N4-N3, giúp bạn diễn đạt tự nhiên hơn.
 tags:

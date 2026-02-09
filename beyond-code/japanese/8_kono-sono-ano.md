@@ -1,6 +1,6 @@
 ---
 date: 2025-02-11
-draft: true
+publish: false
 status: Done
 title: "8. この・その・あの: Sức mạnh của từ chỉ thị trong giao tiếp"
 description: 

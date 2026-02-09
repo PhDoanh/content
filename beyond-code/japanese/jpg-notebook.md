@@ -4,7 +4,7 @@ title: Sổ tay Nhật Ngữ qua những mẩu chuyện ngắn
 description: Sổ tay tổng hợp và tóm tắt ngữ pháp tiếng Nhật của PhDoanh, dựa trên nhiều nguồn uy tín khác nhau theo trình độ JLPT N5-N1
 permalink: ""
 lang: vi
-draft: false
+publish: true
 tags:
   - japanese
 aliases:

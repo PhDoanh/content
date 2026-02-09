@@ -3,6 +3,7 @@ title: Open-garden for Techies
 description: Tại khu vườn này, mình đã vun trồng một số thứ về Fullstack, Tự động hóa và phát triển định hướng AI. Hãy tới tham quan và đóng góp "cây trồng" bất cứ lúc nào nhé!
 permalink:
 lang: vi
+publish: true
 aliases:
   - root
   - home

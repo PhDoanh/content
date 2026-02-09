@@ -4,7 +4,7 @@ title: 6. のでしょうか「Đường đến nhà ga」
 description: Học ngữ pháp tiếng Nhật のでしょうか (no deshou ka) - cách đặt câu hỏi lịch sự khi không chắc chắn. Bao gồm cấu trúc, cách dùng và ví dụ chi tiết cho JLPT N3.
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

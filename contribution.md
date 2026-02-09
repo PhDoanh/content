@@ -3,7 +3,7 @@ title: Hướng dẫn đóng góp bài viết
 description: Trở thành người đóng góp để chia sẻ chuyên môn của bạn về Fullstack, Automation và AI-Driven Development
 permalink: ""
 lang: vi
-draft: false
+publish: true
 tags:
   - explorable
 aliases:

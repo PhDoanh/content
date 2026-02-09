@@ -3,7 +3,7 @@ status: Done
 title: "Nhật ngữ 3: Tìm bạn"
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
-draft: true
+publish: false
 tags:
   - japanese
   - grammar

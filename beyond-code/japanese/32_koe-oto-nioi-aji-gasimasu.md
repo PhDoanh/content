@@ -1,6 +1,6 @@
 ---
 date: 2025-02-22
-draft: true
+publish: false
 status: Doing
 title: "32. 声／音／匂い／味 + がします: Làm sao để diễn tả thứ bạn　nghe/ngửi/nếm?"
 description: Ngữ pháp 「こえ／におい／おと／あじ　＋　がします」 dùng để mô tả những cảm giác và cảm nhận từ âm thanh, mùi, vị và giọng nói. Tìm hiểu cách sử dụng chính xác và các mẹo học hiệu quả để áp dụng trong kỳ thi JLPT!

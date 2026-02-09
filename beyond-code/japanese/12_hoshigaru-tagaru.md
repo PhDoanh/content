@@ -4,7 +4,7 @@ title: 12. たがる・ほしがる「Ước muốn tại cửa hàng game」
 description: Học ngữ pháp たがる và ほしがる JLPT N3/N4 - cách diễn tả mong muốn của người khác. Bao gồm cấu trúc, cách dùng, dạng phủ định và ví dụ chi tiết.
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

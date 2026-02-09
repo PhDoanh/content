@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 93. つまり「Hiểu lầm tại buổi họp」
 description: Học ngữ pháp tiếng Nhật つまり (tsumari) - cách diễn giải và tóm tắt ý nói một cách tự nhiên. Bao gồm cấu trúc, cách dùng cơ bản và nâng cao với các ví dụ chi tiết.
 tags:

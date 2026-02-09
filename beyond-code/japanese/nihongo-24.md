@@ -3,7 +3,7 @@ status: Doing
 title: "Nhật ngữ 24:"
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
-draft: true
+publish: false
 tags:
   - japanese
   - grammar

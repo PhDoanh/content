@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: Quản lý phạm vi dự án
 description:
 tags:

@@ -4,7 +4,7 @@ title: "10. N + ばかり「Cuộc sống mất cân bằng」"
 description: 'Học ngữ pháp tiếng Nhật ばかり (bakari) - cách diễn đạt "chỉ toàn là" khi muốn thể hiện sự đơn điệu, lặp lại. Bao gồm cấu trúc, cách dùng và ví dụ chi tiết cho JLPT N4-N3.'
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

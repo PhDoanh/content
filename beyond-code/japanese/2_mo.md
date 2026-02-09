@@ -4,7 +4,7 @@ title: 2. も「Cuốn sách đắt tiền」
 description: "Học ngữ pháp tiếng Nhật も (mo) - trợ từ đa năng với nhiều cách dùng: biểu thị sự bổ sung, số lượng lớn, phủ định hoàn toàn. Bao gồm cấu trúc và ví dụ chi tiết cho JLPT N5-N4."
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

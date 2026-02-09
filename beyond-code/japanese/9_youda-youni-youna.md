@@ -4,7 +4,7 @@ title: 9. ようだ・ように・ような「Chiều tối trên sân thượng
 description: Học ngữ pháp tiếng Nhật ようだ・ように・ような - cách biểu đạt suy đoán, so sánh. Hướng dẫn chi tiết với ví dụ thực tế cho JLPT N4-N3.
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

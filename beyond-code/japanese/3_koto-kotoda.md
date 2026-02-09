@@ -4,7 +4,7 @@ title: 3. N は ～こと(だ)「Bí quyết thành công」
 description: Học ngữ pháp tiếng Nhật N は～こと、～ことだ - cách đưa ra khuyến nghị và nêu điều kiện bắt buộc. Bao gồm cấu trúc, cách dùng và ví dụ chi tiết cho JLPT N2-N1.
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

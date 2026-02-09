@@ -1,6 +1,6 @@
 ---
 date: 2025-02-18
-draft: true
+publish: false
 status: Doing
 title: "27. ～ところです: Biểu thị thời điểm của hành động"
 description: Tìm hiểu cách sử dụng 「～ところです」 để mô tả hành động sắp diễn ra, đang diễn ra hoặc vừa kết thúc. Học nhanh với ví dụ thực tế và mẹo thi JLPT hiệu quả!

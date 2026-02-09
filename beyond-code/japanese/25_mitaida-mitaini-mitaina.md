@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 25. みたいだ・みたいに・みたいな「Thầy giáo như diễn viên」
 description: Học ngữ pháp tiếng Nhật みたいだ, みたいに, みたいな - cách diễn tả sự so sánh, giả định và miêu tả cách thức hành động. Hướng dẫn chi tiết với ví dụ cho JLPT N4.
 tags:

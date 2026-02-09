@@ -4,7 +4,7 @@ title: 8. 〜のは〜だ「Ngày đầu tháng bận rộn」
 description: Học ngữ pháp tiếng Nhật のは〜だ (nowa da) - cấu trúc nhấn mạnh và giải thích lý do. Bao gồm cách dùng, ví dụ chi tiết và bài tập thực hành cho JLPT N4.
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

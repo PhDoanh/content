@@ -37,24 +37,36 @@ collections:
     view_filters:
       default: drafts
       filters:
-        - name: alice-and-bob
-          label: "Alice's and Bob's Posts"
-          field: author
-          pattern: 'Alice|Bob'
-        - name: posts-2020
-          label: 'Posts published in 2020'
-          field: date
-          pattern: '2020'
         - name: drafts
           label: Drafts
           field: draft
           pattern: true
+        - name: in-review
+          label: "In Review"
+          field: pending_review
+          pattern: true
+    view_groups:
+      default: by-language
+      groups:
+        - name: by-language
+          label: Language
+          field: lang
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
       - { name: "permalink", widget: "hidden", required: false}
-      - { name: "lang", widget: "hidden", default: "vi", required: false }
-      - { name: "draft", widget: "hidden", default: false, required: false }
+      - name: "lang"
+        label: "Language"
+        widget: "select"
+        options:
+          - label: "Vietnamese"
+            value: "vi"
+          - label: "English"
+            value: "en"
+          - label: "Japanese"
+            value: "ja"
+        required: false
+      - { name: "publish", widget: "hidden", default: false, required: false }
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
       - { name: "aliases", widget: "hidden", required: false}
       - { name: "cssclasses", widget: "hidden", required: false}
@@ -82,12 +94,35 @@ collections:
       default:
         field: commit_date
         direction: Descending
+    view_filters:
+      default: drafts
+      filters:
+        - name: drafts
+          label: Drafts
+          field: draft
+          pattern: true
+    view_groups:
+      default: by-language
+      groups:
+        - name: by-language
+          label: Language
+          field: lang
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
       - { name: "permalink", widget: "hidden", required: false}
-      - { name: "lang", widget: "hidden", default: "vi", required: false}
-      - { name: "draft", widget: "hidden", default: false, required: false}
+      - name: "lang"
+        label: "Language"
+        widget: "select"
+        options:
+          - label: "Vietnamese"
+            value: "vi"
+          - label: "English"
+            value: "en"
+          - label: "Japanese"
+            value: "ja"
+        required: false
+      - { name: "publish", widget: "hidden", default: false, required: false}
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
       - { name: "aliases", widget: "hidden", required: false}
       - { name: "cssclasses", widget: "hidden", required: false}
@@ -115,12 +150,35 @@ collections:
       default:
         field: commit_date
         direction: Descending
+    view_filters:
+      default: drafts
+      filters:
+        - name: drafts
+          label: Drafts
+          field: draft
+          pattern: true
+    view_groups:
+      default: by-language
+      groups:
+        - name: by-language
+          label: Language
+          field: lang
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
       - { name: "permalink", widget: "hidden", required: false}
-      - { name: "lang", widget: "hidden", default: "vi", required: false}
-      - { name: "draft", widget: "hidden", default: false, required: false}
+      - name: "lang"
+        label: "Language"
+        widget: "select"
+        options:
+          - label: "Vietnamese"
+            value: "vi"
+          - label: "English"
+            value: "en"
+          - label: "Japanese"
+            value: "ja"
+        required: false
+      - { name: "publish", widget: "hidden", default: false, required: false}
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
       - { name: "aliases", widget: "hidden", required: false}
       - { name: "cssclasses", widget: "hidden", required: false}
@@ -154,7 +212,7 @@ collections:
       - { label: "Description", name: "description", widget: "text", required: false }
       - { name: "permalink", widget: "hidden", required: false}
       - { name: "lang", widget: "hidden", required: false}
-      - { name: "draft", widget: "hidden", required: false}
+      - { name: "publish", widget: "hidden", required: false}
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
       - { name: "aliases", widget: "hidden", required: false}
       - { name: "cssclasses", widget: "hidden", required: false}
@@ -177,7 +235,7 @@ collections:
       - { label: "Description", name: "description", widget: "text", required: false }
       - { name: "permalink", widget: "hidden", required: false}
       - { name: "lang", widget: "hidden", required: false}
-      - { name: "draft", widget: "hidden", required: false}
+      - { name: "publish", widget: "hidden", required: false}
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
       - { name: "aliases", widget: "hidden", required: false}
       - { name: "cssclasses", widget: "hidden", required: false}
@@ -214,7 +272,7 @@ collections:
           - { label: "Description", name: "description", widget: "text", required: false }
           - { name: "permalink", widget: "hidden", required: false}
           - { name: "lang", widget: "hidden", required: false}
-          - { name: "draft", widget: "hidden", required: false}
+          - { name: "publish", widget: "hidden", required: false}
           - { name: "tags", widget: "hidden", required: false }
           - { name: "aliases", widget: "hidden", required: false}
           - { name: "cssclasses", widget: "hidden", required: false}

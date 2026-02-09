@@ -1,6 +1,6 @@
 ---
 date: 2025-02-18
-draft: true
+publish: false
 status: Doing
 title: "28. ～ばかりです: Cảm thấy thời gian ngắn dù thực tế dài thì nói sao?"
 description: Tìm hiểu ngữ pháp「～ばかりです」trong tiếng Nhật! Ngữ pháp này giúp bạn diễn đạt những hành động vừa mới xảy ra, sự tiếp diễn của một trạng thái hoặc sự lặp lại liên tục của một sự việc. Hãy khám phá cách dùng và ví dụ chi tiết ngay!

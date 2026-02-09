@@ -1,5 +1,5 @@
 ---
-draft: true
+publish: false
 status: Done
 title: "Nhật ngữ 34: Cơm trộn trứng sống - TKG"
 description:

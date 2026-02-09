@@ -4,7 +4,7 @@ title: 5. 終わる「Buổi thực tập cuối cùng」
 description: Học ngữ pháp 終わる (owaru) - động từ kết thúc trong tiếng Nhật. Hướng dẫn cách dùng, phân biệt với 終える, ví dụ thực tế và bài tập chi tiết.
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

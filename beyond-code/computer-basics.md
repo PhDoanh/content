@@ -4,7 +4,7 @@ title: "Tech Foundations: Computer & Web Basics Guide"
 description: Explore computer hardware, software, internet essentials, and developer tools. Learn file management, web browsing, and foundational tech concepts.
 permalink:
 lang: vi
-draft: false
+publish: true
 tags:
   - Beginner
   - computer-basics

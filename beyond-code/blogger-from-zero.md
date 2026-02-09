@@ -4,7 +4,7 @@ title: "Hành trình ghi lại dấu ấn cá nhân bằng Blog"
 description: "meta description (140‑160 chars)"
 permalink: ""
 lang: vi
-draft: true
+publish: false
 tags: 
   - array-of-up-to-5-keywords
 aliases:

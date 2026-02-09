@@ -1,6 +1,6 @@
 ---
 date: 2025-02-27
-draft: true
+publish: false
 status: Doing
 title: "34. ～て　いただけませんか: Khéo léo khi nhờ vả hoặc xin phép"
 description: Bài viết này trình bày ngữ pháp 「〜ていただけませんか」 với chức năng yêu cầu cho phép tự mình thực hiện một hành động, hoặc nhờ vả người khác làm cho. Nội dung gồm các ứng dụng phổ biến, mở rộng, mẹo học và lưu ý quan trọng để giúp người học tiếng Nhật sử dụng mẫu này một cách tự tin và chính xác.

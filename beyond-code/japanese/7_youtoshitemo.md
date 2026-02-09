@@ -4,7 +4,7 @@ title: 7. ようとしても「Cố gắng cũng vô ích」
 description: Học ngữ pháp tiếng Nhật ようとしても (you to shite mo) - cách diễn đạt "dù cố gắng... cũng không thể". Hướng dẫn chi tiết cấu trúc, cách dùng với ví dụ JLPT N3.
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: true
 tags:
   - japanese-grammar

@@ -1,6 +1,6 @@
 ---
 date: 2025-02-11
-draft: true
+publish: false
 status: Done
 title: "10. ～か、～か: Câu hỏi yêu cầu sự lựa chọn"
 description: 

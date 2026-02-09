@@ -4,7 +4,7 @@ title: 15. ほど～ない「Không còn khỏe như xưa」
 description: Học ngữ pháp tiếng Nhật ほど～ない (hodo ~ nai) - cách so sánh phủ định lịch sự trong JLPT N3. Hướng dẫn chi tiết cấu trúc, cách dùng và ví dụ thực tế dễ hiểu.
 permalink: ""
 lang: vi
-draft: true
+publish: false
 comments: true
 tags:
   - japanese-grammar

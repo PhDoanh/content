@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 24. させて「Cơ hội mới trong công việc」
 description: Học ngữ pháp させて (sasete) và các biến thể lịch sự - cách xin phép, đề nghị được làm gì đó trong tiếng Nhật. Bao gồm cấu trúc, 9 mức độ lịch sự phổ biến và ví dụ chi tiết cho JLPT N4-N3.
 tags:

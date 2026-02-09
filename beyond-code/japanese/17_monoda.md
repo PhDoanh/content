@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 17. ものだ「Ký ức tuổi thơ」
 description: Học ngữ pháp tiếng Nhật ものだ (mono da) - cấu trúc đa năng biểu đạt chân lý chung, lời khuyên và hoài niệm. Bao gồm cách dùng chi tiết, ví dụ thực tế cho JLPT N3.
 tags:

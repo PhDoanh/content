@@ -1,6 +1,6 @@
 ---
 date: 2025-02-11
-draft: true
+publish: false
 status: Done
 title: '2. ～じゃ ありません: Cách nói "KHÔNG" trong tiếng Nhật'
 description: 

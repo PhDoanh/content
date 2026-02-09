@@ -3,7 +3,7 @@ title: Japanese Studies
 description: Hành trình học tiếng Nhật từ cơ bản đến nâng cao với các phương pháp hiệu quả và tài liệu hữu ích
 permalink: ""
 lang: vi
-draft: false
+publish: true
 comments: false
 tags:
   - japanese

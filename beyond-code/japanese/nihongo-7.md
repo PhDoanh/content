@@ -3,7 +3,7 @@ status: Done
 title: "Nhật ngữ 7: Cuốn từ điển bị lỗi"
 author: PhDoanh
 authorlink: https://github.com/PhDoanh
-draft: true
+publish: false
 tags:
   - japanese
   - grammar

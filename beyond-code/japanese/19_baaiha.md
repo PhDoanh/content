@@ -1,6 +1,6 @@
 ---
 date: 2025-02-11
-draft: true
+publish: false
 status: Doing
 title: "19. ばあいは: Diễn tả điều kiện và kết quả trong tiếng Nhật"
 description: Bài viết này giải thích ngữ pháp ばあいは với các dạng V từ điển / Vない / Vた / Aい / Aな / Nの. Hãy cùng khám phá cách sử dụng trong giao tiếp hàng ngày, mở rộng ý nghĩa và áp dụng mẹo học thi hiệu quả để cải thiện trình độ tiếng Nhật của bạn!

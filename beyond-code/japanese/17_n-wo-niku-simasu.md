@@ -1,6 +1,6 @@
 ---
 date: 2025-02-11
-draft: true
+publish: false
 status: Done
 title: "17. Nを ～く／～に します: Biến đổi trạng thái hoặc tính chất của đối tượng"
 description: 

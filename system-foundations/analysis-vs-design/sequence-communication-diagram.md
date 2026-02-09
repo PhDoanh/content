@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: Biểu đồ tuần tự và giao tiếp
 description:
 tags:

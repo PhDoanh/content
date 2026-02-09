@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 74. てほしい「Mong muốn giản dị của nhân viên」
 description: Học ngữ pháp tiếng Nhật てほしい (te hoshii) - cách diễn đạt mong muốn người khác làm gì đó. Bao gồm các biến thể lịch sự với ví dụ chi tiết JLPT N4.
 tags:

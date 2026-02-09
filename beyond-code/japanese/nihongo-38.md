@@ -1,5 +1,5 @@
 ---
-draft: true
+publish: false
 status: Done
 title: "Nhật ngữ 38: Đừng quên tắt gas sau khi nấu!"
 description:

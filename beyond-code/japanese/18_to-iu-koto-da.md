@@ -1,6 +1,6 @@
 ---
 
-draft: false
+publish: true
 title: 18. ということだ「Tin đồn về buổi hòa nhạc」
 description: Học ngữ pháp tiếng Nhật ということだ (to iu koto da) - cách truyền đạt thông tin, giải thích và kết luận tự nhiên. Bao gồm cấu trúc, cách dùng chi tiết và ví dụ thực tế cho JLPT N3.
 tags:
