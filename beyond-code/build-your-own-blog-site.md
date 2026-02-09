@@ -185,7 +185,7 @@ Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ m�
 ## Danh sách các cộng tác viên - Contributors
 
 > [!caution]- Nội dung đang hoàn thiện
-> Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[article-contribution-guide|Hướng dẫn cộng tác bài viết]]
+> Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[contribution|Hướng dẫn cộng tác bài viết]]
 > 
 > **Rất mong sự thông cảm của các bạn!**
 

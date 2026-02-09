@@ -98,7 +98,7 @@ Dùng để hỏi về khả năng xảy ra của một sự việc trong tươn
 ## Cách dùng nâng cao 🔓
 
 > [!caution]- Content in progress
-> This content creation process may take time, but you can help it along by participating in the [[article-contribution-guide|Article Contribution Guide]]
+> This content creation process may take time, but you can help it along by participating in the [[contribution|Article Contribution Guide]]
 >
 > **We appreciate your understanding!**
 

@@ -8,8 +8,7 @@ aliases:
   - home
 cssclasses:
   - img
-socialDescription:
-socialImage:
+socialImage: og-image.png
 ---
 
 >*Techies* là những người có niềm đam mê về công nghệ, từ lập trình viên và kỹ sư phần mềm, đến những người yêu thích nghiên cứu và ứng dụng công nghệ mới.
@@ -21,6 +20,6 @@ Chào mừng đến với khu vườn kỹ thuật số của [Doanh](https://gi
 - [[automation|Tự động hóa]]: tăng tốc, giảm lỗi, tối ưu quy trình (không chỉ trong công việc).
 - [[ai-driven|Phát triển định hướng AI]]: ứng dụng trí tuệ nhân tạo để tạo sản phẩm thông minh và hỗ trợ phát triển.
 
-Dù bạn là ai, nếu mang trong mình đặc điểm của một *Techie* thì khu vườn này là nơi phù hợp để tham quan và [[article-contribution-guide|cộng tác]]. "Học hỏi những thứ bạn chưa biết, chia sẻ những gì bạn đã biết" là châm ngôn của những người làm vườn công nghệ! 
+Dù bạn là ai, nếu mang trong mình đặc điểm của một *Techie* thì khu vườn này là nơi phù hợp để tham quan và [[contribution|cộng tác]]. "Học hỏi những thứ bạn chưa biết, chia sẻ những gì bạn đã biết" là châm ngôn của những người làm vườn công nghệ! 
 
 <b class="handtext">Doanh - AI-Driven Fullstack Developer</b>

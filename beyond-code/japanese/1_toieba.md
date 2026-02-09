@@ -85,7 +85,7 @@ Sử dụng khi từ chủ đề đang nói, người ta liên tưởng đến �
 ## Cách dùng nâng cao 🔓
 
 > [!caution]- Content in progress
-> This content creation process may take time, but you can help it along by participating in the [[article-contribution-guide|Article Contribution Guide]]
+> This content creation process may take time, but you can help it along by participating in the [[contribution|Article Contribution Guide]]
 >
 > **We appreciate your understanding!**
 

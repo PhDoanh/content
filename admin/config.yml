@@ -39,7 +39,7 @@ collections:
       - { label: "Description", name: "description", widget: "text", required: false }
       - { name: "permalink", widget: "hidden", required: false}
       - { name: "lang", widget: "hidden", default: "vi", required: false }
-      - { name: "draft", widget: "hidden", default: true, required: false }
+      - { name: "draft", widget: "hidden", default: false, required: false }
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
       - { name: "aliases", widget: "hidden", required: false}
       - { name: "cssclasses", widget: "hidden", required: false}
@@ -72,7 +72,7 @@ collections:
       - { label: "Description", name: "description", widget: "text", required: false }
       - { name: "permalink", widget: "hidden", required: false}
       - { name: "lang", widget: "hidden", default: "vi", required: false}
-      - { name: "draft", widget: "hidden", default: true, required: false}
+      - { name: "draft", widget: "hidden", default: false, required: false}
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
       - { name: "aliases", widget: "hidden", required: false}
       - { name: "cssclasses", widget: "hidden", required: false}
@@ -105,7 +105,7 @@ collections:
       - { label: "Description", name: "description", widget: "text", required: false }
       - { name: "permalink", widget: "hidden", required: false}
       - { name: "lang", widget: "hidden", default: "vi", required: false}
-      - { name: "draft", widget: "hidden", default: true, required: false}
+      - { name: "draft", widget: "hidden", default: false, required: false}
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
       - { name: "aliases", widget: "hidden", required: false}
       - { name: "cssclasses", widget: "hidden", required: false}
@@ -115,7 +115,6 @@ collections:
 
   - name: "beyond-code"
     label: "Beyond Code"
-    label_singular: "Beyond Code"
     folder: "beyond-code"
     create: false
     publish: false
@@ -150,7 +149,6 @@ collections:
 
   - name: "tags"
     label: "Tags"
-    label_singular: "Tag"
     folder: "tags"
     create: false
     publish: false
@@ -172,29 +170,38 @@ collections:
       - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
       - { label: "Content", name: "body", widget: "markdown" }
 
-  - name: "root-articles"
-    label: "Root Articles"
-    label_singular: "Root Article"
-    folder: "."
+  - name: "pages"
+    label: "Pages"
     create: false
     publish: false
     delete: false
-    filter:
-      field: path
-      pattern: "^[^/]+$"
     extension: md
     format: frontmatter
-    slug: "{{slug}}"
-    summary: "{{title}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text", required: false }
-      - { name: "permalink", widget: "hidden", required: false}
-      - { name: "lang", widget: "hidden", required: false}
-      - { name: "draft", widget: "hidden", required: false}
-      - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
-      - { name: "aliases", widget: "hidden", required: false}
-      - { name: "cssclasses", widget: "hidden", required: false}
-      - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
-      - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
-      - { label: "Content", name: "body", widget: "markdown" }
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "/index.md"
+        fields: 
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text", required: false }
+          - { name: "permalink", widget: "hidden", required: false}
+          - { name: "lang", widget: "hidden", required: false}
+          - { name: "aliases", widget: "hidden", required: false}
+          - { name: "cssclasses", widget: "hidden", required: false}
+          - { name: "socialImage", widget: "hidden", required: false }
+          - { label: "Content", name: "body", widget: "markdown" }
+      
+      - name: "contribution"
+        label: "Contribution Page"
+        file: "/contribution.md"
+        fields: 
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text", required: false }
+          - { name: "permalink", widget: "hidden", required: false}
+          - { name: "lang", widget: "hidden", required: false}
+          - { name: "draft", widget: "hidden", required: false}
+          - { name: "tags", widget: "hidden", required: false }
+          - { name: "aliases", widget: "hidden", required: false}
+          - { name: "cssclasses", widget: "hidden", required: false}
+          - { name: "socialImage", widget: "hidden", required: false }
+          - { label: "Content", name: "body", widget: "markdown" }

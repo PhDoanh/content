@@ -9,8 +9,7 @@ tags:
 aliases:
 cssclasses:
   - img
-socialDescription: ""
-socialImage: ""
+socialImage: og-image.png
 ---
 
 Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự đóng góp từ những *Techie* khác với mục đích cải thiện chất lượng bài viết lẫn trải nghiệm trang web ==theo định hướng phát triển của blog==. 
@@ -18,7 +17,7 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 Nói cách khác, hướng dẫn cộng tác này không phù hợp nếu bạn muốn [[build-your-own-blog-site|xây dựng khu vườn của riêng mình]] (chứa những bài viết không liên quan đến định hướng của blog). 
 
 ## Điều kiện đóng góp
-- Tuân thủ [[article-contribution-guide#Nguyên tắc viết bài|nguyên tắc viết bài]]
+- Tuân thủ [[contribution#Nguyên tắc viết bài|nguyên tắc viết bài]]
 - Có tài khoản [Github](https://github.com/)
 - Có kiến thức cơ bản về [Markdown](https://www.markdownguide.org/)
 
