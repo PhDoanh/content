@@ -6,6 +6,7 @@ permalink:
 lang: vi
 draft: false
 tags:
+  - Beginner
   - computer-basics
   - web-fundamentals
   - developer-tools
