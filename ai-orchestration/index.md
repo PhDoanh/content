@@ -1,16 +1,9 @@
 ---
-title: AI Orchestration
-description:
-permalink: ""
+title: Demo
 lang: vi
-draft: false
-comments: false
+publish: false
 tags:
-aliases:
-  - 
-cssclasses:
-  - img
-socialDescription:
-socialImage: ""
+  - demo
+  - test
 ---
-AI Orchestration
+some demo text
