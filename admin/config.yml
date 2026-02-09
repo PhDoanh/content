@@ -27,7 +27,7 @@ collections:
     extension: md
     format: frontmatter
     slug: "{{slug}}"
-    summary: "{{title}} - {{date | date('DD/MM/YYYY')}}"
+    summary: "{{title}} - {{description}}"
     sortable_fields:
       fields: ['title', 'date', 'commit_date']
       default:
@@ -36,12 +36,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
-      - { name: "permalink", widget: "hidden"}
-      - { name: "lang", widget: "hidden", default: "vi" }
-      - { name: "draft", widget: "hidden", default: true }
+      - { name: "permalink", widget: "hidden", required: false}
+      - { name: "lang", widget: "hidden", default: "vi", required: false }
+      - { name: "draft", widget: "hidden", default: true, required: false }
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
-      - { name: "aliases", widget: "hidden"}
-      - { name: "cssclasses", widget: "hidden"}
+      - { name: "aliases", widget: "hidden", required: false}
+      - { name: "cssclasses", widget: "hidden", required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
       - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
       - { label: "Content", name: "body", widget: "markdown" }
@@ -68,12 +68,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
-      - { name: "permalink", widget: "hidden"}
-      - { name: "lang", widget: "hidden", default: "vi" }
-      - { name: "draft", widget: "hidden", default: true }
+      - { name: "permalink", widget: "hidden", required: false}
+      - { name: "lang", widget: "hidden", default: "vi", required: false}
+      - { name: "draft", widget: "hidden", default: true, required: false}
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
-      - { name: "aliases", widget: "hidden"}
-      - { name: "cssclasses", widget: "hidden"}
+      - { name: "aliases", widget: "hidden", required: false}
+      - { name: "cssclasses", widget: "hidden", required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
       - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
       - { label: "Content", name: "body", widget: "markdown" }
@@ -100,12 +100,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
-      - { name: "permalink", widget: "hidden"}
-      - { name: "lang", widget: "hidden", default: "vi"}
-      - { name: "draft", widget: "hidden", default: true}
+      - { name: "permalink", widget: "hidden", required: false}
+      - { name: "lang", widget: "hidden", default: "vi", required: false}
+      - { name: "draft", widget: "hidden", default: true, required: false}
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
-      - { name: "aliases", widget: "hidden"}
-      - { name: "cssclasses", widget: "hidden"}
+      - { name: "aliases", widget: "hidden", required: false}
+      - { name: "cssclasses", widget: "hidden", required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
       - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
       - { label: "Content", name: "body", widget: "markdown" }
@@ -134,12 +134,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
-      - { name: "permalink", widget: "hidden"}
-      - { name: "lang", widget: "hidden"}
-      - { name: "draft", widget: "hidden"}
+      - { name: "permalink", widget: "hidden", required: false}
+      - { name: "lang", widget: "hidden", required: false}
+      - { name: "draft", widget: "hidden", required: false}
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
-      - { name: "aliases", widget: "hidden"}
-      - { name: "cssclasses", widget: "hidden"}
+      - { name: "aliases", widget: "hidden", required: false}
+      - { name: "cssclasses", widget: "hidden", required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
       - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
       - { label: "Content", name: "body", widget: "markdown" }
@@ -158,12 +158,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
-      - { name: "permalink", widget: "hidden" }
-      - { name: "lang", widget: "hidden" }
-      - { name: "draft", widget: "hidden" }
+      - { name: "permalink", widget: "hidden", required: false}
+      - { name: "lang", widget: "hidden", required: false}
+      - { name: "draft", widget: "hidden", required: false}
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
-      - { name: "aliases", widget: "hidden"}
-      - { name: "cssclasses", widget: "hidden"}
+      - { name: "aliases", widget: "hidden", required: false}
+      - { name: "cssclasses", widget: "hidden", required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
       - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
       - { label: "Content", name: "body", widget: "markdown" }
@@ -185,12 +185,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
-      - { name: "permalink", widget: "hidden" }
-      - { name: "lang", widget: "hidden" }
-      - { name: "draft", widget: "hidden" }
+      - { name: "permalink", widget: "hidden", required: false}
+      - { name: "lang", widget: "hidden", required: false}
+      - { name: "draft", widget: "hidden", required: false}
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
-      - { name: "aliases", widget: "hidden"}
-      - { name: "cssclasses", widget: "hidden"}
+      - { name: "aliases", widget: "hidden", required: false}
+      - { name: "cssclasses", widget: "hidden", required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
       - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
       - { label: "Content", name: "body", widget: "markdown" }
