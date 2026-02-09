@@ -24,10 +24,11 @@ collections:
     nested:
       depth: 100
       summary: "{{title}}"
+      path: { widget: string, label: 'Path' ,index_file: 'index' }
     extension: md
     format: frontmatter
     slug: "{{slug}}"
-    summary: "{{title}} - {{description}}"
+    summary: "{{title}}"
     sortable_fields:
       fields: ['title', 'date', 'commit_date']
       default:
@@ -56,10 +57,11 @@ collections:
     nested:
       depth: 100
       summary: "{{title}}"
+      path: { widget: string, label: 'Path', index_file: 'index' }
     extension: md
     format: frontmatter
     slug: "{{slug}}"
-    summary: "{{title}} - {{date | date('DD/MM/YYYY')}}"
+    summary: "{{title}}"
     sortable_fields:
       fields: ['title', 'date', 'commit_date']
       default:
@@ -88,10 +90,11 @@ collections:
     nested:
       depth: 100
       summary: "{{title}}"
+      path: { widget: string, label: 'Path', index_file: 'index' }
     extension: md
     format: frontmatter
     slug: "{{slug}}"
-    summary: "{{title}} - {{date | date('DD/MM/YYYY')}}"
+    summary: "{{title}}"
     sortable_fields:
       fields: ['title', 'date', 'commit_date']
       default:
@@ -120,12 +123,13 @@ collections:
     nested:
       depth: 100
       summary: "{{title}}"
+      path: { widget: string, label: 'Path', index_file: 'index' }
     extension: md
     format: frontmatter
     slug: "{{slug}}"
     editor:
       preview: true
-    summary: "{{title}} - {{date | date('DD/MM/YYYY')}}"
+    summary: "{{title}}"
     sortable_fields:
       fields: ['title', 'date', 'commit_date']
       default:
