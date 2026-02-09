@@ -30,10 +30,25 @@ collections:
     slug: "{{slug}}"
     summary: "{{title}}"
     sortable_fields:
-      fields: ['title', 'date', 'commit_date']
+      fields: ['commit_date', 'title', 'commit_author']
       default:
-        field: date
+        field: commit_date
         direction: Descending
+    view_filters:
+      default: drafts
+      filters:
+        - name: alice-and-bob
+          label: "Alice's and Bob's Posts"
+          field: author
+          pattern: 'Alice|Bob'
+        - name: posts-2020
+          label: 'Posts published in 2020'
+          field: date
+          pattern: '2020'
+        - name: drafts
+          label: Drafts
+          field: draft
+          pattern: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
@@ -63,9 +78,9 @@ collections:
     slug: "{{slug}}"
     summary: "{{title}}"
     sortable_fields:
-      fields: ['title', 'date', 'commit_date']
+      fields: ['commit_date', 'title', 'commit_author']
       default:
-        field: date
+        field: commit_date
         direction: Descending
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -96,9 +111,9 @@ collections:
     slug: "{{slug}}"
     summary: "{{title}}"
     sortable_fields:
-      fields: ['title', 'date', 'commit_date']
+      fields: ['commit_date', 'title', 'commit_author']
       default:
-        field: date
+        field: commit_date
         direction: Descending
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -130,9 +145,9 @@ collections:
       preview: true
     summary: "{{title}}"
     sortable_fields:
-      fields: ['title', 'date', 'commit_date']
+      fields: ['commit_date', 'title', 'commit_author']
       default:
-        field: date
+        field: commit_date
         direction: Descending
     fields:
       - { label: "Title", name: "title", widget: "string" }
