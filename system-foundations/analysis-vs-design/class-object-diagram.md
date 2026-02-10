@@ -1,8 +1,8 @@
 ---
-
-publish: true
 title: Biểu đồ thành phần
 description:
+publish: true
+updated: 2026-02-10
 tags:
   - analysis-and-design
   - modeling-language

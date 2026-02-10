@@ -3,7 +3,7 @@ title: Mental Sandbox
 description:
 permalink: ""
 lang: vi
-publish: truee
+publish: true
 comments: false
 tags:
 aliases:

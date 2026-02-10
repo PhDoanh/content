@@ -1,8 +1,8 @@
 ---
-
-publish: truee
 title: Biểu đồ triển khai
 description:
+publish: true
+updated: 2026-02-10
 tags:
   - analysis-and-design
   - deployment-diagram

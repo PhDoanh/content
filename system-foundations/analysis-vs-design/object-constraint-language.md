@@ -1,8 +1,8 @@
 ---
-
-publish: truee
 title: OCL - Ngôn ngữ ràng buộc cho mô hình hướng đối tượng
 description:
+publish: true
+updated: 2025-11-12
 tags:
   - analysis-and-design
   - modeling-language

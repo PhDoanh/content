@@ -52,28 +52,32 @@ collections:
         - name: by-language
           label: Language
           field: lang
+        - name: by-updated-year
+          label: "Updated Year"
+          field: updated
+          pattern: "^(\\d{4})"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
-      - { name: "permalink", widget: "hidden", required: false}
+      - { name: "permalink", widget: "hidden", default: "", required: false}
       - name: "lang"
         label: "Language"
         widget: "select"
         options:
-          - label: "Vietnamese"
+          - label: "Tiếng Việt"
             value: "vi"
           - label: "English"
             value: "en"
-          - label: "Japanese"
+          - label: "日本語"
             value: "ja"
         required: false
       - { name: "publish", widget: "hidden", default: true, required: false }
+      - { label: "Updated on", name: "updated", widget: "datetime", date_format: "dd/MM/yyyy", time_format: false, format: 'yyyy-MM-dd', required: false }
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
-      - { name: "aliases", widget: "hidden", required: false}
-      - { name: "cssclasses", widget: "hidden", required: false}
+      - { name: "aliases", widget: "hidden", default: [], required: false}
+      - { name: "cssclasses", widget: "hidden", default: [], required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
-      - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
-      - { name: "updated", widget: "hidden", default: "{{commit_date || truncate(10, ' ')}}", required: false}
+      - { label: "Social Image", name: "socialImage", widget: "image", default: "", choose_url: true, required: false }
       - { label: "Content", name: "body", widget: "markdown" }
 
   - name: "best-practices"
@@ -109,27 +113,32 @@ collections:
         - name: by-language
           label: Language
           field: lang
+        - name: by-updated-year
+          label: "Updated Year"
+          field: updated
+          pattern: "^(\\d{4})"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
-      - { name: "permalink", widget: "hidden", required: false}
+      - { name: "permalink", widget: "hidden", default: "", required: false}
       - name: "lang"
         label: "Language"
         widget: "select"
         options:
-          - label: "Vietnamese"
+          - label: "Tiếng Việt"
             value: "vi"
           - label: "English"
             value: "en"
-          - label: "Japanese"
+          - label: "日本語"
             value: "ja"
         required: false
       - { name: "publish", widget: "hidden", default: true, required: false}
+      - { label: "Updated on", name: "updated", widget: "datetime", date_format: "dd/MM/yyyy", time_format: false, format: 'yyyy-MM-dd', required: false }
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
-      - { name: "aliases", widget: "hidden", required: false}
-      - { name: "cssclasses", widget: "hidden", required: false}
+      - { name: "aliases", widget: "hidden", default: [], required: false}
+      - { name: "cssclasses", widget: "hidden", default: [], required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
-      - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
+      - { label: "Social Image", name: "socialImage", widget: "image", default: "", choose_url: true, required: false }
       - { label: "Content", name: "body", widget: "markdown" }
 
   - name: "system-foundations"
@@ -165,27 +174,32 @@ collections:
         - name: by-language
           label: Language
           field: lang
+        - name: by-updated-year
+          label: "Updated Year"
+          field: updated
+          pattern: "^(\\d{4})"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text", required: false }
-      - { name: "permalink", widget: "hidden", required: false}
+      - { name: "permalink", widget: "hidden", default: "", required: false}
       - name: "lang"
         label: "Language"
         widget: "select"
         options:
-          - label: "Vietnamese"
+          - label: "Tiếng Việt"
             value: "vi"
           - label: "English"
             value: "en"
-          - label: "Japanese"
+          - label: "日本語"
             value: "ja"
         required: false
       - { name: "publish", widget: "hidden", default: true, required: false}
+      - { label: "Updated on", name: "updated", widget: "datetime", date_format: "dd/MM/yyyy", time_format: false, format: 'yyyy-MM-dd', required: false }
       - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
-      - { name: "aliases", widget: "hidden", required: false}
-      - { name: "cssclasses", widget: "hidden", required: false}
+      - { name: "aliases", widget: "hidden", default: [], required: false}
+      - { name: "cssclasses", widget: "hidden", default: [], required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
-      - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
+      - { label: "Social Image", name: "socialImage", widget: "image", default: "", choose_url: true, required: false }
       - { label: "Content", name: "body", widget: "markdown" }
 
   # - name: "beyond-code"

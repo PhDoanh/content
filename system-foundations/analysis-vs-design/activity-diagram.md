@@ -1,8 +1,8 @@
 ---
-
-publish: truee
 title: Biểu đồ lớp và đối tượng
 description:
+publish: true
+updated: 2026-02-10
 tags:
   - analysis-and-design
   - modeling-language

@@ -1,6 +1,6 @@
 ---
 
-publish: truee
+publish: true
 title: Quản lý thời gian dự án
 description:
 tags:

@@ -1,6 +1,6 @@
 ---
 
-publish: truee
+publish: true
 title: UML - Ngôn ngữ mô hình hóa chuẩn quốc tế cho dân IT
 description:
 tags:

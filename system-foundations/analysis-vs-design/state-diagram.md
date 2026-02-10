@@ -1,6 +1,6 @@
 ---
 
-publish: truee
+publish: true
 title: Biểu đồ trạng thái
 description:
 tags:

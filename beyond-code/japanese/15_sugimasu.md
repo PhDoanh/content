@@ -1,6 +1,6 @@
 ---
 date: 2025-02-11
-publish: falselse
+publish: false
 status: Done
 title: "15. ～すぎます: Làm thế nào để nói quá?"
 description: 

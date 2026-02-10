@@ -1,6 +1,6 @@
 ---
 date: 2025-02-11
-publish: falselse
+publish: false
 status: Doing
 title: "20. のに: Biểu đạt sự tương phản và bất ngờ"
 description: "のに dùng để diễn tả sự tương phản giữa hai vế đề trong cùng một câu. Cách dùng này rất quan trọng trong giao tiếp và kỳ thi JLPT. Xem ngay bài viết chi tiết để hiểu cách sử dụng và tránh những lỗi sai phổ biến!"
