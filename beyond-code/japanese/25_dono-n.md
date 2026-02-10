@@ -16,6 +16,7 @@ aliases:
 cssclasses: 
   - img
   - btn
+updated: 2026-02-10
 ---
 %% ĐỊNH DẠNG TÊN FILE: "stt_tên-furigana-của-ngữ-pháp" | VD: 1_n-no-tameni %%
 

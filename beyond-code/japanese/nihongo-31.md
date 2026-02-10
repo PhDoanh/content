@@ -15,6 +15,7 @@ aliases:
   - nihongo 31
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 # 旅の計画
 > [!tip]- Mẹo đọc truyện

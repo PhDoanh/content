@@ -14,6 +14,7 @@ permalink:
 lang: vi
 aliases:
 cssclasses:
+updated: 2026-02-10
 ---
 Có bao giờ bạn tự hỏi: _Tại sao phần mềm ngày càng phức tạp mà con người vẫn kiểm soát được nó?_ 🤔 Câu trả lời nằm ở cách chúng ta “nhìn” vào vấn đề. Ngày xưa, lập trình viên thường tư duy theo kiểu **thủ tục** (procedural programming): viết ra từng hàm, từng chức năng, xếp nối với nhau. Nhưng càng đi sâu, cách này càng "đuối sức" khi hệ thống phình to.
 

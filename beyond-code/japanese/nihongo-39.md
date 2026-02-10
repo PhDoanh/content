@@ -14,6 +14,7 @@ tags:
 aliases:
   - nihongo 39
 cssclasses:
+updated: 2026-02-10
 ---
 # 試験の途中でお腹が痛くなったときの対処法
 > [!tip]- Mẹo đọc truyện

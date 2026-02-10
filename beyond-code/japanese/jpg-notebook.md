@@ -12,6 +12,7 @@ cssclasses:
   - img
 socialDescription: ""
 socialImage: ""
+updated: 2026-02-10
 ---
 ## Lời nói đầu 👋
 Mình là một người đang theo học tiếng Nhật và thích chia sẻ cách bản thân *"tiêu thụ"* những gì được học, nên sổ tay *"Nhật ngữ qua những mẩu chuyện ngắn"* sẽ được dùng để tổng hợp mọi ngữ pháp tiếng Nhật mà mình tiếp cận được qua [[japanese-resources#Ngữ pháp|nhiều nguồn uy tín]] từ trước đến nay.

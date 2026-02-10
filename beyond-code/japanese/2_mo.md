@@ -21,6 +21,7 @@ cssclasses:
   - img
 socialDescription: Nắm vững trợ từ も - ngữ pháp cơ bản nhất giúp bạn diễn đạt tiếng Nhật tự nhiên và đa dạng hơn.
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

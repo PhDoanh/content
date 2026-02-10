@@ -18,6 +18,7 @@ aliases:
   - ～ですか
   - Câu hỏi xác nhận cơ bản
 cssclasses: img
+updated: 2026-02-10
 ---
 %% ĐỊNH DẠNG TÊN FILE: "stt_tên-furigana-của-ngữ-pháp" | VD: 1_n-no-tameni %%
 

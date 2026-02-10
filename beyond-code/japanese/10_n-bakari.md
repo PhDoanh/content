@@ -20,6 +20,7 @@ cssclasses:
   - img
 socialDescription: "Nắm vững ばかり - ngữ pháp JLPT N4-N3 giúp diễn tả sự lặp lại và thể hiện thái độ phê bình một cách tự nhiên."
 socialImage: "fully qualified URL to preview image"
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

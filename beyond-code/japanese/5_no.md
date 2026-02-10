@@ -18,6 +18,7 @@ aliases:
   - の
   - Trợ từ biểu thị quan hệ, sở hữu, ...
 cssclasses: img
+updated: 2026-02-10
 ---
 %% ĐỊNH DẠNG TÊN FILE: "stt_tên-furigana-của-ngữ-pháp" | VD: 1_n-no-tameni %%
 

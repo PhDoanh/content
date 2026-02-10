@@ -18,6 +18,7 @@ cssclasses:
   - img
 socialDescription: Chinh phục ngữ pháp Vていく và Vてくる - diễn tả chuyển động và thay đổi theo thời gian trong tiếng Nhật một cách tự nhiên.
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

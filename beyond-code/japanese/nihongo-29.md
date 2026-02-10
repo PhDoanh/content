@@ -15,6 +15,7 @@ aliases:
   - nihongo 29
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 # Vて　います
 **Ý nghĩa**: 

@@ -16,6 +16,7 @@ lang: vi
 aliases:
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 Hãy tưởng tượng bạn đang xây một ngôi nhà: từ việc phân chia phòng ốc, hệ thống điện nước, đến các thiết bị tự động phải hoạt động hài hòa với nhau. Trước khi đặt viên gạch đầu tiên, bạn cần một **bản thiết kế tổng thể** để mọi thứ được kết nối và vận hành trơn tru. Tương tự, trong phát triển phần mềm, **UML (Unified Modeling Language)** là "bản vẽ kỹ thuật" giúp các nhà phát triển mô hình hóa, trực quan hóa và phối hợp xây dựng hệ thống phần mềm một cách chính xác. Nhờ UML, những ý tưởng phức tạp trở nên rõ ràng, dễ hiểu và dễ triển khai, giống như ngôi nhà trong bản thiết kế của kiến trúc sư vậy!
 

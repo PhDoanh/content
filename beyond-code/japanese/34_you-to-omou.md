@@ -15,6 +15,7 @@ aliases:
   - 
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 [JLPT N4 Grammar: ようと思う (you to omou) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%82%88%e3%81%86%e3%81%a8%e6%80%9d%e3%81%86-you-to-omou-meaning/)
 

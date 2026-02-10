@@ -14,6 +14,7 @@ tags:
 aliases:
   - nihongo 40
 cssclasses:
+updated: 2026-02-10
 ---
 # 余計な口を挟むことの代償
 > [!tip]- Mẹo đọc truyện

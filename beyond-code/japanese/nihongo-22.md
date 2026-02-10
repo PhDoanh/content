@@ -9,6 +9,7 @@ tags:
   - language
   - grammar
   - N5-JLPT
+updated: 2026-02-10
 ---
 # Mệnh đề bổ nghĩa cho danh từ
 **Cách dùng**: đưa các động từ, tính từ trong mệnh đề bổ nghĩa cho danh từ về thể thông thường. Nếu là tính từ đuôi **な** thì chuyển thành **～な**, danh từ thì chuyển thành **～の**. Trợ từ **が** biểu thị chủ ngữ của mệnh đề bổ nghĩa cho danh từ.

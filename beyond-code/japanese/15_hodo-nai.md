@@ -19,6 +19,7 @@ cssclasses:
   - img
 socialDescription: Nắm vững ほど～ない - mẫu so sánh phủ định quan trọng JLPT N3 giúp bạn diễn đạt lịch sự và tự nhiên hơn.
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 ![[Pasted image 20251023155746.png]]
 

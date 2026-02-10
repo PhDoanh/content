@@ -22,6 +22,7 @@ cssclasses:
   - img
 socialDescription: Nắm vững Nは～ことだ - ngữ pháp nâng cao giúp đưa ra khuyến nghị và điều kiện bắt buộc trong tiếng Nhật.
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

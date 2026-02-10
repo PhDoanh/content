@@ -10,6 +10,7 @@ tags:
   - language
   - N4
   - lower-intermediate
+updated: 2026-02-10
 ---
 # Thể thông thường (～~~だ~~な) んです
 **Cách dùng**:

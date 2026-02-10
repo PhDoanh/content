@@ -19,6 +19,7 @@ aliases:
   - N₁ は N₂ です
   - Câu khẳng định với trợ từ ở/thì/là
 cssclasses: img
+updated: 2026-02-10
 ---
 %% ĐỊNH DẠNG TÊN FILE: "stt_tên-furigana-của-ngữ-pháp" | VD: 1_n-no-tameni %%
 

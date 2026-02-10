@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # 辞書のミス
 > [!tip]- Mẹo đọc truyện

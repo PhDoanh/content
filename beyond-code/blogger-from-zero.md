@@ -14,6 +14,7 @@ cssclasses:
   - btn
 socialDescription: "OG description (~100 chars)"
 socialImage: "fully qualified URL to preview image"
+updated: 2026-02-10
 ---
 
 # Nguồn cảm hứng

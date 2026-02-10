@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # 長い間あっていない友達
 > [!tip]- Mẹo đọc truyện

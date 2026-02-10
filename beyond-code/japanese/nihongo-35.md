@@ -14,6 +14,7 @@ tags:
 aliases:
   - nihongo 35
 cssclasses:
+updated: 2026-02-10
 ---
 # ２４／７　サービス
 > [!tip]- Mẹo đọc truyện

@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # Cách đếm số lượng
 **Cách 1**: **ひとつ、ふたつ、…　とお** dùng để đếm số lượng đồ vật từ 1 đến 10. Từ 11 trở đi chỉ dùng chữ số

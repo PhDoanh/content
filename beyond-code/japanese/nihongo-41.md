@@ -14,6 +14,7 @@ tags:
 aliases:
   - nihongo 41
 cssclasses:
+updated: 2026-02-10
 ---
 # 誕生日は寂しくない
 > [!tip]- Mẹo đọc truyện

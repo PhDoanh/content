@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # Thể thông thường と　おもいます
 **Cách dùng**: biểu thị sự phỏng đoán, phán đoán hoặc bày tỏ ý kiến

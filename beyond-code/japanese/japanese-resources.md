@@ -12,6 +12,7 @@ aliases:
   - japanese resources
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 # Cách học
 

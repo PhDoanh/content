@@ -18,6 +18,7 @@ aliases:
 cssclasses:
   - img
   - btn
+updated: 2026-02-10
 ---
 %% LƯU Ý 
 - Định dạng tên file: "tên-bài-viết" (jp-typing-guide, ...) 

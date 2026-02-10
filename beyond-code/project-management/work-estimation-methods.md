@@ -14,6 +14,7 @@ lang: vi
 aliases:
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 Trước khi vẽ ra bất kỳ lịch trình, ngân sách, hay biểu đồ Gantt nào, thì **việc đầu tiên** mà nhà quản lý dự án phải đối mặt chính là trả lời câu hỏi: Dự án này tốn bao nhiêu thời gian, bao nhiêu tiền, và cần bao nhiêu người để hoàn thành?
 

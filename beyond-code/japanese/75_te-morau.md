@@ -15,6 +15,7 @@ aliases:
   - 
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 [JLPT N4 Grammar: てもらう (te morau) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%82%82%e3%82%89%e3%81%86-te-morau-%e3%81%a6%e3%82%82%e3%82%89%e3%81%84%e3%81%9f%e3%81%84-te-moraitai-meaning/)
 

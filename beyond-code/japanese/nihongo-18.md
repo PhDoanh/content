@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # Thể từ điển của động từ
 - **Động từ nhóm 1**: Âm cuối thể ます thuộc hàng **い** đổi thành**う** và bỏ **ます** như: かきます → かく、よみます → よむ、すいます → すう、はなします → はなす、…

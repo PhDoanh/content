@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # Vても　いいですか
 **Cách dùng**: xin phép làm một điều gì

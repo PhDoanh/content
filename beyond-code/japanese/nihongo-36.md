@@ -14,6 +14,7 @@ tags:
 aliases:
   - nihongo 36
 cssclasses:
+updated: 2026-02-10
 ---
 # 医者のアドバイス
 > [!tip]- Mẹo đọc truyện

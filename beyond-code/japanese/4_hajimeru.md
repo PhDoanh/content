@@ -19,6 +19,7 @@ cssclasses:
   - img
 socialDescription: Nắm vững はじめる - ngữ pháp quan trọng JLPT N4 giúp diễn tả sự bắt đầu có chủ đích trong tiếng Nhật.
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

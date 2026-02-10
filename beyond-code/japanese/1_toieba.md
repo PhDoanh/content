@@ -19,6 +19,7 @@ cssclasses:
   - img
 socialDescription: Nắm vững と言えば - ngữ pháp chuyển chủ đề quan trọng giúp hội thoại tiếng Nhật tự nhiên hơn.
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

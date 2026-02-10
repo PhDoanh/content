@@ -19,6 +19,7 @@ cssclasses:
   - img
 socialDescription: Nắm vững のは〜だ - ngữ pháp JLPT N4 giúp nhấn mạnh và giải thích lý do một cách tự nhiên trong tiếng Nhật.
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

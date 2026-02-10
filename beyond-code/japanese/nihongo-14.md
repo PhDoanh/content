@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # Các nhóm động từ
 - **Động từ nhóm 1**: âm cuối của thể ます thuộc hàng **い** như: か**き**ます、の**み**ます、…

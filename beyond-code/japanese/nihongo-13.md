@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # “N が　ほしいです” / “V~~ます~~たいです”
 **Cách dùng**: thể hiện mong muốn của người nói

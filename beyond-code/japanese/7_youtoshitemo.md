@@ -22,6 +22,7 @@ cssclasses:
   - img
 socialDescription: Nắm vững ようとしても - ngữ pháp JLPT N3 diễn tả nỗ lực bất thành trong tiếng Nhật một cách tự nhiên.
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

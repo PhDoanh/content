@@ -15,6 +15,7 @@ aliases:
   - 
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 [JLPT N3 Grammar: ように (you ni) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%82%88%e3%81%86%e3%81%ab-you-ni-meaning-in-order-to/)
 

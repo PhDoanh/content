@@ -14,6 +14,7 @@ tags:
 aliases:
   - nihongo 38
 cssclasses:
+updated: 2026-02-10
 ---
 # 料理の後でガスを消すのを忘れないでください！
 > [!tip]- Mẹo đọc truyện

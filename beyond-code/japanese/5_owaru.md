@@ -20,6 +20,7 @@ cssclasses:
   - img
 socialDescription: Nắm vững 終わる - ngữ pháp cơ bản biểu đạt sự kết thúc với ví dụ thực tế và phân biệt rõ ràng
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

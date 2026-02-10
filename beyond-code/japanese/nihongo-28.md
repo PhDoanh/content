@@ -10,6 +10,7 @@ tags:
   - language
   - N4
   - lower-intermediate
+updated: 2026-02-10
 ---
 # V₁~~ます~~ながら + V₂
 **Cách dùng**: biểu thị chủ thể thực hiện động tác 2 (động tác chính) cũng đồng thời thực hiện động tác 1 ở cùng thời điểm hoặc cùng một khoảng thời gian nhất định

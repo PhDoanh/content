@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # Thể ない của động từ
 - **Động từ nhóm 1**: Âm cuối thể ます thuộc hàng **い** đổi thành **あ**, ngoại trừ **nguyên âm い** thì đổi thành **わ** như: かきます → かかない、よみます → よまない、とります → とらない、すいます → すわない、**あります → ない (đặc biệt)**、…

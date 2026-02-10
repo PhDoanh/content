@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # Thể た của động từ
 Cách chia thể た giống với [[nihongo 14#Thể て của động từ|て]]

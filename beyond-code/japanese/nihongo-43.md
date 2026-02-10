@@ -12,6 +12,7 @@ tags:
 aliases:
   - nihongo 43
 cssclasses:
+updated: 2026-02-10
 ---
 # japanese_story_name
 > [!tip]- Mẹo đọc truyện

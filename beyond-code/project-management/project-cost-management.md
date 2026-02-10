@@ -14,6 +14,7 @@ lang: vi
 aliases:
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 ## Các khái niệm cơ sở
 Đây là những khái niệm căn bản về kinh tế - tài chính nói chung và đặc thù trong quản lý dự án nói riêng mà giúp cho nhà quản lý dự án có thể phân tích, trao đổi, và thuyết phục các bên liên quan đến dự án về tính khả thi, hiệu quả, ... Từ đó, có được sự đồng thuận và ủng hộ trong suốt quá trình/vòng đời của dự án.

@@ -14,6 +14,7 @@ tags:
 aliases:
   - nihongo 34
 cssclasses:
+updated: 2026-02-10
 ---
 # 卵かけご飯
 > [!tip]- Mẹo đọc truyện

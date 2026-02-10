@@ -19,6 +19,7 @@ cssclasses:
   - img
 socialDescription: Nắm vững のでしょうか - ngữ pháp quan trọng JLPT N3 giúp bạn đặt câu hỏi lịch sự và tự nhiên trong tiếng Nhật.
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

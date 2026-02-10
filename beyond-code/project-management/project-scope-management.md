@@ -14,6 +14,7 @@ lang: vi
 aliases:
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 ## Định nghĩa về phạm vi dự án 📘
 

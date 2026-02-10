@@ -19,6 +19,7 @@ cssclasses:
   - img
 socialDescription: Nắm vững ようだ・ように・ような - ngữ pháp quan trọng JLPT N4-N3 giúp diễn đạt suy đoán và so sánh tự nhiên.
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

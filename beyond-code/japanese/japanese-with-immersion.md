@@ -12,6 +12,7 @@ aliases:
   - japanese with immersion
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 # Trước khi tiếp tục
 

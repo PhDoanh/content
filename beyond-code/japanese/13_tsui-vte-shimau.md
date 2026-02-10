@@ -18,6 +18,7 @@ cssclasses:
   - img
 socialDescription: Nắm vững つい + Vてしまう - ngữ pháp thường dùng khi lỡ làm gì đó, mang sắc thái hối tiếc và vô tình trong tiếng Nhật.
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

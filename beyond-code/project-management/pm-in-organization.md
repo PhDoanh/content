@@ -13,6 +13,7 @@ lang: vi
 aliases:
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 Hãy tưởng tượng bạn là giám đốc một trung tâm CNTT tại một trường đại học. Bạn triển khai dự án **máy tính bảng cho sinh viên** với mục tiêu số hoá tài liệu học tập. Ý tưởng thì hay, nhưng khi họp với các khoa thì nảy sinh đủ loại phản đối: khoa xã hội cho rằng giảng viên không quen công nghệ, khoa CNTT bảo sinh viên đã có laptop rồi, phòng đào tạo lo tăng học phí làm khó sinh viên... Kết quả? Dự án đứng trước nguy cơ phá sản trước cả khi bắt đầu.
 

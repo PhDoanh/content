@@ -15,6 +15,7 @@ aliases:
   - nihongo 30
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 # まだ宿題
 > [!tip]- Mẹo đọc truyện

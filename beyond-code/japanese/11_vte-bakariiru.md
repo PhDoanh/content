@@ -19,6 +19,7 @@ cssclasses:
   - img
 socialDescription: Nắm vững てばかりいる - ngữ pháp JLPT N3 diễn tả hành động lặp lại mang tính chỉ trích trong tiếng Nhật.
 socialImage: fully qualified URL to preview image
+updated: 2026-02-10
 ---
 
 > [!bell]- Dành cho bạn học lần đầu

@@ -4,6 +4,7 @@ description: "{8: meta description (140‑160 chars)}"
 permalink: ""
 lang: vi
 publish: false
+updated: 2026-02-10
 tags:
   - japanese-grammar
 aliases:

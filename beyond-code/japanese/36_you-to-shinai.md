@@ -15,6 +15,7 @@ aliases:
   - 
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 [JLPT N3 Grammar: ようとしない (you to shinai) Meaning – JLPTsensei.com](https://jlptsensei.com/learn-japanese-grammar/%e3%82%88%e3%81%86%e3%81%a8%e3%81%97%e3%81%aa%e3%81%84-you-to-shinai-meaning/)
 

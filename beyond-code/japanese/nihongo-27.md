@@ -10,6 +10,7 @@ tags:
   - language
   - N4
   - lower-intermediate
+updated: 2026-02-10
 ---
 # Động từ khả năng
 **Cách dùng**: Thay cho mẫu biểu hiện khả năng [[nihongo 18#N / “V (từ điển) こと” が できます|"V (từ điển) こと が できます"]]. Tân ngữ của động từ khả năng biểu thị bởi **が** 

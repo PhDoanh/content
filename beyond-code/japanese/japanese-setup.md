@@ -12,6 +12,7 @@ aliases:
   - japanese setup
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 **Tiến trình hiện tại**:
 - [x] [[beyond-code/japanese/index#Học bảng chữ Kana|Học Hiragana + Katakana]]

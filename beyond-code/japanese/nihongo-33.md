@@ -15,6 +15,7 @@ aliases:
   - nihongo 33
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 # サッカーの試合前のプレゼント
 > [!tip]- Mẹo đọc truyện

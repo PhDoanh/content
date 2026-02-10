@@ -17,6 +17,7 @@ lang: vi
 aliases:
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 Khi nói đến **quản lý dự án**, ta không chỉ nhìn vào từng công việc riêng lẻ, mà phải đặt chúng trong một **quy trình tổng thể**. PMI (Project Management Institute) đã hệ thống hóa thành **các nhóm quy trình quản lý dự án**, giúp dự án đi đúng hướng từ khởi đầu cho đến khi kết thúc.
 

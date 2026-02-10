@@ -12,6 +12,7 @@ cssclasses:
   - img
 socialDescription: ""
 socialImage: ""
+updated: 2026-02-10
 ---
 
 Trang blog này là một sản phẩm được tạo ra với sự hỗ trợ của trình tạo web tĩnh[^1] tên là [Quartz](https://quartz.jzhao.xyz/), nó giúp chuyển đổi nội dung các file [Markdown](https://www.markdownguide.org/getting-started/) thành các tệp mã nguồn mà trình duyệt hiểu để hiển thị trên Internet! 

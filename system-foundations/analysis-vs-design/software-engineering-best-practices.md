@@ -15,6 +15,7 @@ lang: vi
 aliases:
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 Có bao giờ bạn tự hỏi, tại sao một số dự án phần mềm lại thành công rực rỡ, trong khi số khác lại thất bại thảm hại, dù cả hai đều có những lập trình viên giỏi? Vấn đề không nằm ở việc **"code giỏi"** hay không, mà là ở cách chúng ta tổ chức và quản lý toàn bộ quá trình phát triển. **Kỹ thuật phần mềm** chính là lời giải cho bài toán đó 🤓.
 

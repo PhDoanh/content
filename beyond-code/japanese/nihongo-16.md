@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # Cách nối 2 câu trở lên
 |    Động từ     | Tính từ đuôi い | Tính từ đuôi な | Danh từ |

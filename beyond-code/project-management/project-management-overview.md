@@ -14,6 +14,7 @@ lang: vi
 aliases:
 cssclasses:
   - img
+updated: 2026-02-10
 ---
 
 Có lần, một startup trẻ ở Hà Nội nhận được hợp đồng xây dựng **ứng dụng quản lý sinh viên** cho một trường đại học. Team rất phấn khích 🎉, nghĩ rằng chỉ cần vài lập trình viên là xong. Nhưng chỉ sau vài tuần, mọi thứ bắt đầu rối tung: deadline dí, tính năng bị thay đổi liên tục, khách hàng phàn nàn, chi phí vượt dự toán.

@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # V (từ điển) / Vない / Aい / Aな / Nの + とき、～
 **Cách dùng**: **とき** biểu thị thời điểm hình thành trạng thái hay động tác, hiện tượng ở mệnh đề chính nối tiếp phía sau

@@ -14,6 +14,7 @@ tags:
 aliases:
   - nihongo 42
 cssclasses:
+updated: 2026-02-10
 ---
 # 新しいケーキのレシピ
 > [!tip]- Mẹo đọc truyện

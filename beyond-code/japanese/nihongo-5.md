@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # 友だちと買い物します
 > [!tip]- Mẹo đọc truyện

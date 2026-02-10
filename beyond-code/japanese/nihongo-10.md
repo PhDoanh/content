@@ -10,6 +10,7 @@ tags:
   - language
   - N5
   - elementary
+updated: 2026-02-10
 ---
 # N が あります／います
 **Cách dùng**: Biểu thị sự tồn tại của người (dùng います) hoặc đồ vật (dùng あります)

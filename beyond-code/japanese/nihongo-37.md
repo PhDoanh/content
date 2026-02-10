@@ -14,6 +14,7 @@ tags:
 aliases:
   - nihongo 37
 cssclasses:
+updated: 2026-02-10
 ---
 # 特別なプレゼント
 > [!tip]- Mẹo đọc truyện
