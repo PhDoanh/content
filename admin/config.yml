@@ -29,11 +29,11 @@ collections:
     extension: md
     format: frontmatter
     slug: "{{slug}}"
-    summary: "{{title}} 🌱 Updated on {{commit_date | truncate(10, ' ')}} 🌱 {{description | truncate(50, '...')}}"
+    summary: "{{title}} 🌱 Updated on {{updated}} 🌱 {{description | truncate(50, '...')}}"
     sortable_fields:
-      fields: ['commit_date', 'title', 'commit_author']
+      fields: ['updated', 'title', 'commit_author']
       default:
-        field: commit_date
+        field: updated
         direction: Descending
     # view_filters:
     #   default: drafts
@@ -52,8 +52,8 @@ collections:
         - name: by-language
           label: Language
           field: lang
-        - name: by-updated-year
-          label: "Updated Year"
+        - name: by-year
+          label: "Year"
           field: updated
           pattern: "^(\\d{4})"
     fields:
@@ -94,11 +94,11 @@ collections:
     extension: md
     format: frontmatter
     slug: "{{slug}}"
-    summary: "{{title}} 🌱 Updated on {{commit_date | truncate(10, ' ')}} 🌱 {{description | truncate(50, '...')}}"
+    summary: "{{title}} 🌱 Updated on {{updated}} 🌱 {{description | truncate(50, '...')}}"
     sortable_fields:
-      fields: ['commit_date', 'title', 'commit_author']
+      fields: ['updated', 'title', 'commit_author']
       default:
-        field: commit_date
+        field: updated
         direction: Descending
     # view_filters:
     #   default: drafts
@@ -113,8 +113,8 @@ collections:
         - name: by-language
           label: Language
           field: lang
-        - name: by-updated-year
-          label: "Updated Year"
+        - name: by-year
+          label: "Year"
           field: updated
           pattern: "^(\\d{4})"
     fields:
@@ -155,11 +155,11 @@ collections:
     extension: md
     format: frontmatter
     slug: "{{slug}}"
-    summary: "{{title}} 🌱 Updated on {{commit_date | truncate(10, ' ')}} 🌱 {{description | truncate(50, '...')}}"
+    summary: "{{title}} 🌱 Updated on {{updated}} 🌱 {{description | truncate(50, '...')}}"
     sortable_fields:
-      fields: ['commit_date', 'title', 'commit_author']
+      fields: ['updated', 'title', 'commit_author']
       default:
-        field: commit_date
+        field: updated
         direction: Descending
     # view_filters:
     #   default: drafts
@@ -174,8 +174,8 @@ collections:
         - name: by-language
           label: Language
           field: lang
-        - name: by-updated-year
-          label: "Updated Year"
+        - name: by-year
+          label: "Year"
           field: updated
           pattern: "^(\\d{4})"
     fields:
