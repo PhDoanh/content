@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: PhDoanh/content
+  base_url: https://cms-proxy.pgdoanh711.workers.dev
   branch: main
   open_authoring: true
 
