@@ -186,96 +186,94 @@ collections:
       - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
       - { label: "Content", name: "body", widget: "markdown" }
 
-  - name: "beyond-code"
-    label: "Beyond Code"
-    folder: "beyond-code"
-    create: false
-    publish: false
-    delete: false
-    nested:
-      depth: 100
-    filter:
-      pattern: '^(?!index\.md$)(.*\.md)$' 
-    extension: md
-    format: frontmatter
-    slug: "{{slug}}"
-    editor:
-      preview: true
-    summary: "{{title}} 🌱 Updated on {{commit_date | truncate(10, ' ')}} 🌱 {{description | truncate(50, '...')}}"
-    sortable_fields:
-      fields: ['commit_date', 'title', 'commit_author']
-      default:
-        field: commit_date
-        direction: Descending
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text", required: false }
-      - { name: "permalink", widget: "hidden", required: false}
-      - { name: "lang", widget: "hidden", required: false}
-      - { name: "publish", widget: "hidden", required: false}
-      - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
-      - { name: "aliases", widget: "hidden", required: false}
-      - { name: "cssclasses", widget: "hidden", required: false}
-      - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
-      - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
-      - { label: "Content", name: "body", widget: "markdown" }
+  # - name: "beyond-code"
+  #   label: "Beyond Code"
+  #   folder: "beyond-code"
+  #   create: false
+  #   publish: false
+  #   delete: false
+  #   nested:
+  #     depth: 100
+  #   filter:
+  #     pattern: '^(?!index\.md$)(.*\.md)$' 
+  #   extension: md
+  #   format: frontmatter
+  #   slug: "{{slug}}"
+  #   summary: "{{title}} 🌱 Updated on {{commit_date | truncate(10, ' ')}} 🌱 {{description | truncate(50, '...')}}"
+  #   sortable_fields:
+  #     fields: ['commit_date', 'title', 'commit_author']
+  #     default:
+  #       field: commit_date
+  #       direction: Descending
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Description", name: "description", widget: "text", required: false }
+  #     - { name: "permalink", widget: "hidden", required: false}
+  #     - { name: "lang", widget: "hidden", required: false}
+  #     - { name: "publish", widget: "hidden", required: false}
+  #     - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
+  #     - { name: "aliases", widget: "hidden", required: false}
+  #     - { name: "cssclasses", widget: "hidden", required: false}
+  #     - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
+  #     - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
+  #     - { label: "Content", name: "body", widget: "markdown" }
 
-  - name: "tags"
-    label: "Tags"
-    folder: "tags"
-    create: false
-    publish: false
-    delete: false
-    extension: md
-    format: frontmatter
-    slug: "{{slug}}"
-    summary: "{{title}} 🌱 Updated on {{commit_date | truncate(10, ' ')}} 🌱 {{description | truncate(50, '...')}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text", required: false }
-      - { name: "permalink", widget: "hidden", required: false}
-      - { name: "lang", widget: "hidden", required: false}
-      - { name: "publish", widget: "hidden", required: false}
-      - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
-      - { name: "aliases", widget: "hidden", required: false}
-      - { name: "cssclasses", widget: "hidden", required: false}
-      - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
-      - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
-      - { label: "Content", name: "body", widget: "markdown" }
+  # - name: "tags-page"
+  #   label: "Tags Page"
+  #   folder: "tags"
+  #   create: false
+  #   publish: false
+  #   delete: false
+  #   extension: md
+  #   format: frontmatter
+  #   slug: "{{slug}}"
+  #   summary: "{{title}} 🌱 Updated on {{commit_date | truncate(10, ' ')}} 🌱 {{description | truncate(50, '...')}}"
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Description", name: "description", widget: "text", required: false }
+  #     - { name: "permalink", widget: "hidden", required: false}
+  #     - { name: "lang", widget: "hidden", required: false}
+  #     - { name: "publish", widget: "hidden", required: false}
+  #     - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, e.g. the-example-tag", required: false, allow_add: true }
+  #     - { name: "aliases", widget: "hidden", required: false}
+  #     - { name: "cssclasses", widget: "hidden", required: false}
+  #     - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
+  #     - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
+  #     - { label: "Content", name: "body", widget: "markdown" }
 
-  - name: "pages"
-    label: "Pages"
-    create: false
-    publish: false
-    delete: false
-    extension: md
-    format: frontmatter
-    files:
-      - name: "home"
-        label: "Home Page"
-        file: "/index.md"
-        fields: 
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "text", required: false }
-          - { name: "permalink", widget: "hidden", required: false}
-          - { name: "lang", widget: "hidden", required: false}
-          - { name: "publish", widget: "hidden", required: false}
-          - { name: "aliases", widget: "hidden", required: false}
-          - { name: "cssclasses", widget: "hidden", required: false}
-          - { name: "socialImage", widget: "hidden", required: false }
-          - { label: "Content", name: "body", widget: "markdown" }
+  # - name: "main-pages"
+  #   label: "Main Pages"
+  #   create: false
+  #   publish: false
+  #   delete: false
+  #   extension: md
+  #   format: frontmatter
+  #   files:
+  #     - name: "home"
+  #       label: "Home Page"
+  #       file: "/index.md"
+  #       fields: 
+  #         - { label: "Title", name: "title", widget: "string" }
+  #         - { label: "Description", name: "description", widget: "text", required: false }
+  #         - { name: "permalink", widget: "hidden", required: false}
+  #         - { name: "lang", widget: "hidden", required: false}
+  #         - { name: "publish", widget: "hidden", required: false}
+  #         - { name: "aliases", widget: "hidden", required: false}
+  #         - { name: "cssclasses", widget: "hidden", required: false}
+  #         - { name: "socialImage", widget: "hidden", required: false }
+  #         - { label: "Content", name: "body", widget: "markdown" }
       
-      - name: "contribution"
-        label: "Contribution Page"
-        file: "/contribution.md"
-        fields: 
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "text", required: false }
-          - { name: "permalink", widget: "hidden", required: false}
-          - { name: "lang", widget: "hidden", required: false}
-          - { name: "publish", widget: "hidden", required: false}
-          - { name: "tags", widget: "hidden", required: false }
-          - { name: "aliases", widget: "hidden", required: false}
-          - { name: "cssclasses", widget: "hidden", required: false}
-          - { name: "socialImage", widget: "hidden", required: false }
-          - { label: "Content", name: "body", widget: "markdown" }
+  #     - name: "contribution"
+  #       label: "Contribution Page"
+  #       file: "/contribution.md"
+  #       fields: 
+  #         - { label: "Title", name: "title", widget: "string" }
+  #         - { label: "Description", name: "description", widget: "text", required: false }
+  #         - { name: "permalink", widget: "hidden", required: false}
+  #         - { name: "lang", widget: "hidden", required: false}
+  #         - { name: "publish", widget: "hidden", required: false}
+  #         - { name: "tags", widget: "hidden", required: false }
+  #         - { name: "aliases", widget: "hidden", required: false}
+  #         - { name: "cssclasses", widget: "hidden", required: false}
+  #         - { name: "socialImage", widget: "hidden", required: false }
+  #         - { label: "Content", name: "body", widget: "markdown" }
