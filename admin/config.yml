@@ -73,6 +73,7 @@ collections:
       - { name: "cssclasses", widget: "hidden", required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
       - { label: "Social Image", name: "socialImage", widget: "string", hint: "Link to preview image on social media", required: false }
+      - { name: "updated", widget: "hidden", default: "{{commit_date || truncate(10, ' ')}}", required: false}
       - { label: "Content", name: "body", widget: "markdown" }
 
   - name: "best-practices"
