@@ -52,7 +52,7 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 1. Tại đầu trang bài viết bạn muốn chỉnh sửa, nhấn nút *"Edit"*
 2. Sửa các [[contribution#^0c870b|trường thông tin]] ở bên trái giao diện chỉnh sửa bài viết
 	- Nếu không có lý do gì đặc biệt, trường *Updated on* phải được cập nhật về trạng thái hiện tại bằng cách nhấn nút *"Now"*
-3. Đảm bảo giao diện xem trước bên phải không bị lỗi về khả năng hiển thị. Tham khảo các lỗi hiển thị đã biết để hạn chế   
+3. Đảm bảo giao diện xem trước bên phải không bị lỗi về khả năng hiển thị. Tham khảo [[contribution#Các lỗi hiển thị đã biết 🐛|các lỗi hiển thị đã biết]] để hạn chế chúng.  
 4. Nhấn nút *"Save"* để lưu bài viết thành bản nháp (bản này không ảnh hưởng đến bản đã đăng tải)
 5. Quản lý trạng thái bài viết bằng nút *"Status: ..."* ngay trong giao diện chỉnh sửa này hoặc kéo thả tại trang *Dashboard*
 6. Khi bài viết sẵn sàng để đăng tải, chuyển sang trạng thái *Ready*
@@ -61,8 +61,8 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 %% hướng dẫn dưới dạng ảnh động (GIF, AVIF, ...) %%
 
 > [!info] Lưu ý
-> - Trên hệ thống quản lý bài viết của web blog, có thể mất một lúc để bạn thấy được các thay đổi cập nhật trên giao diện
-> - Trên trang *Github Pull Request* của web blog, bạn có thể dùng thanh tìm kiếm kết hợp bộ lọc để thu hẹp 
+> - Có thể mất một lúc để bạn thấy được các thay đổi cập nhật trên giao diện của hệ thống quản lý bài viết.
+> - Trên trang *Github Pull Request* của web blog, bạn có thể dùng thanh tìm kiếm kết hợp bộ lọc để nhanh chóng tìm thấy các bài viết của mình
 
 
 ## Nguyên tắc viết bài
@@ -84,8 +84,13 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 - [ ] Làm mờ thông tin nhạy cảm trước khi đưa vào bài viết (\*)
 - [ ] Sử dụng thông tin giả làm ví dụ 
 
-## Các lỗi hiển thị đã biết
-Giao diện xem trước trên hệ thống quản lý bài viết có đôi chút khác biệt 
+## Các lỗi hiển thị đã biết 🐛
+Giao diện xem trước trên hệ thống quản lý bài viết có đôi chút khác biệt với cách bài viết thực sự xuất hiện trên trang blog, nên việc phát sinh một số lỗi hiển thị là điều khó tránh khỏi. Dưới đây là tổng hợp các lỗi đã biết giúp bạn hạn chế chúng trên các bài viết của mình.
+
+> [!bug]- Callouts bị vỡ bố cục hiển thị
+> Khi ...
+
+
 
 ## Câu hỏi thường gặp
 
