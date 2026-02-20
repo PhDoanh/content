@@ -46,14 +46,15 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 7. Khi bài viết sẵn sàng để đăng tải, chuyển sang trạng thái *Ready*
 8. *Congratulations* 🎉 Bài viết của bạn đang trong hàng chờ phê duyệt, theo dõi trạng thái phê duyệt trên [Github Pull Request](https://github.com/PhDoanh/content/pulls) của web blog để nhận feedback điều chỉnh nếu có. 
 
-%% guide as GIF %%
+%% hướng dẫn dưới dạng ảnh động (GIF, AVIF, ...) %%
 
 ### Chỉnh sửa bài viết
 1. Tại đầu trang bài viết bạn muốn chỉnh sửa, nhấn nút *"Edit"*
-2. step 2
+2. Sửa các trường thông tin ở bên trái giao diện chỉnh sửa bài viết
+3. Kiểm tra lại khả năng hiển thị trong giao diện xem trước bên phải
+4. Nhấn nút *"Save"* để lưu bài viết thành bản nháp
 
-
-
+%% hướng dẫn dưới dạng ảnh động (GIF, AVIF, ...) %%
 
 
 ## Nguyên tắc viết bài
