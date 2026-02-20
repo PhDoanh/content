@@ -1,6 +1,6 @@
 ---
-title: Trang tài nguyên tuyển chọn
-description: "{2: meta description (140‑160 chars)}"
+title: Trang tài nguyên IT tuyển chọn
+description: Khám phá bộ sưu tập cá nhân của mình
 permalink: ""
 lang: vi
 publish: false
