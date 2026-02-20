@@ -7,6 +7,7 @@ publish: true
 updated: 2026-02-10
 tags:
   - explorable
+  - Beginner
 aliases:
 cssclasses:
   - img
@@ -71,12 +72,13 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 ### Bắt buộc
 - [ ] Sử dụng Heading có thứ bậc rõ ràng, không bỏ cấp và bắt đầu từ H2 trở đi
 - [ ] Sử dụng thông tin giả hoặc làm mờ thông tin nhạy cảm trước khi đưa vào bài viết 
-- [ ] Gắn thẻ trình độ đọc để giúp người đọc  
+- [ ] 
 
 ### Khuyến khích
 - [ ] Sử dụng cú pháp [Obisidian Callouts](https://help.obsidian.md/callouts) để làm nổi bật thông tin
 - [ ] Thêm emoji để tạo điểm nhấn thị giác nhưng không lạm dụng. Những vị trí lý tưởng để đặt emoji: sau tiêu đề H2, cuối đoạn văn, đầu danh sách.   
-
+- [ ] Hoàn thiện các trường thông tin tùy chọn  
+- [ ] Gắn thẻ trình độ bài viết để xác định đối tượng đọc phù hợp như bài viết hiện tại. Các thẻ được chấp nhận: #Beginner #Intermediate #Advanced #Expert   
 
 
 ## Các lỗi hiển thị đã biết 🐛
