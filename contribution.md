@@ -16,7 +16,7 @@ socialImage: og-image.png
 
 Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự đóng góp từ những *Techie* khác với mục đích cung cấp/cải thiện bài viết theo **định hướng phát triển của blog**. Hướng dẫn này không phù hợp nếu bạn muốn [[build-your-own-blog-site|xây dựng khu vườn của riêng mình]] (chứa những bài viết không liên quan đến định hướng của blog). 
 
-## Điều kiện đóng góp
+## Điều kiện đóng góp ⚖️
 - Tuân thủ [[contribution#Nguyên tắc viết bài|nguyên tắc viết bài]]
 - Có tài khoản [Github](https://github.com/)
 - Có kiến thức cơ bản về [Markdown](https://www.markdownguide.org/)
@@ -24,7 +24,7 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 > [!tip] Mẹo
 > Nếu bạn không chắc đóng góp của mình có cần thiết hay không, hãy tạo [Issues](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) để thảo luận trước khi tiếp tục
 
-## Hướng dẫn cụ thể
+## Hướng dẫn cụ thể 🔬
 
 > [!info] Lưu ý
 > Lần đầu tạo/chỉnh sửa bài viết sẽ yêu cầu bạn đăng nhập vào hệ thống quản lý bài viết của trang web thông qua tài khoản Github  
@@ -65,21 +65,20 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 > - Có thể mất một lúc để bạn thấy được các thay đổi cập nhật trên giao diện của hệ thống quản lý bài viết.
 > - Trên trang *Github Pull Request* của web blog, bạn có thể dùng thanh tìm kiếm kết hợp bộ lọc để nhanh chóng tìm thấy các bài viết của mình.
 
-## Nguyên tắc viết bài
+## Nguyên tắc viết bài 📜
 
 Để duy trì tính nhất quán và giá trị bền vững cho mọi bài viết, bạn nên đáp ứng các nguyên tắc dưới đây khi tham gia đóng góp, điều này giúp tăng khả năng bài viết được duyệt để có mặt chính thức trên blog.
 
 ### Bắt buộc
 - [ ] Sử dụng Heading có thứ bậc rõ ràng, không bỏ cấp và bắt đầu từ H2 trở đi
 - [ ] Sử dụng thông tin giả hoặc làm mờ thông tin nhạy cảm trước khi đưa vào bài viết 
-- [ ] 
+- [ ] Nội dung bài viết được thiết kế theo triết lý [Evergreen](https://itify.vn/evergreen-content-la-gi-va-tai-sao-moi-marketer-deu-phai-biet/)
 
 ### Khuyến khích
 - [ ] Sử dụng cú pháp [Obisidian Callouts](https://help.obsidian.md/callouts) để làm nổi bật thông tin
 - [ ] Thêm emoji để tạo điểm nhấn thị giác nhưng không lạm dụng. Những vị trí lý tưởng để đặt emoji: sau tiêu đề H2, cuối đoạn văn, đầu danh sách.   
-- [ ] Hoàn thiện các trường thông tin tùy chọn  
+- [ ] Hoàn thiện các trường thông tin tùy chọn trong giao diện chỉnh sửa bài viết 
 - [ ] Gắn thẻ trình độ bài viết để xác định đối tượng đọc phù hợp như bài viết hiện tại. Các thẻ được chấp nhận: #Beginner #Intermediate #Advanced #Expert   
-
 
 ## Các lỗi hiển thị đã biết 🐛
 Giao diện xem trước trên hệ thống quản lý bài viết có đôi chút khác biệt với cách bài viết thực sự xuất hiện trên trang blog, nên việc phát sinh một số lỗi hiển thị là điều khó tránh khỏi. Dưới đây là tổng hợp các lỗi đã biết giúp bạn hạn chế chúng trên các bài viết của mình.
@@ -87,7 +86,7 @@ Giao diện xem trước trên hệ thống quản lý bài viết có đôi ch�
 > [!bug]- Callouts bị vỡ bố cục hiển thị
 > Khi ...
 
-## Câu hỏi thường gặp
+## Câu hỏi thường gặp ❓
 
 > [!question]- Các trường tùy chọn trong giao diện chỉnh sửa bài viết có ý nghĩa gì?
 > Chúng góp phần làm tăng khả năng hiện diện của bài viết trên Internet, đặc biệt có ích với các công cụ tìm kiếm như Google. Cụ thể:
