@@ -1,5 +1,5 @@
 ---
-title: demo2nd
+title: This is my demo
 permalink: ""
 publish: true
 updated: 2026-02-20
