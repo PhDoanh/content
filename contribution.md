@@ -62,35 +62,25 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 
 > [!info] Lưu ý
 > - Có thể mất một lúc để bạn thấy được các thay đổi cập nhật trên giao diện của hệ thống quản lý bài viết.
-> - Trên trang *Github Pull Request* của web blog, bạn có thể dùng thanh tìm kiếm kết hợp bộ lọc để nhanh chóng tìm thấy các bài viết của mình
-
+> - Trên trang *Github Pull Request* của web blog, bạn có thể dùng thanh tìm kiếm kết hợp bộ lọc để nhanh chóng tìm thấy các bài viết của mình.
 
 ## Nguyên tắc viết bài
 
-Để duy trì tính nhất quán và giá trị bền vững cho mọi bài viết, bạn nên đáp ứng tối thiểu ?/? bộ nguyên tắc dưới đây khi tham gia đóng góp, điều này giúp tăng khả năng bài viết được duyệt để có mặt chính thức trên blog.
+Để duy trì tính nhất quán và giá trị bền vững cho mọi bài viết, bạn nên đáp ứng tối thiểu ?/? nguyên tắc dưới đây khi tham gia đóng góp, điều này giúp tăng khả năng bài viết được duyệt để có mặt chính thức trên blog.
 
 *(\*): nguyên tắc bắt buộc*
 
-### 1. Cấu trúc nội dung ngữ nghĩa
 - [ ] Sử dụng Heading có thứ bậc rõ ràng, không bỏ cấp và bắt đầu từ H2 trở đi (\*)
 - [ ] 
-
-
-### 2. Trải nghiệm người đọc
 - [ ] Sử dụng cú pháp [Obisidian Callouts](https://help.obsidian.md/callouts) để làm nổi bật thông tin
-- [ ] Giữ bài viết mang dấu ấn  
-
-### 3. Quyền riêng tư & bảo mật
-- [ ] Làm mờ thông tin nhạy cảm trước khi đưa vào bài viết (\*)
-- [ ] Sử dụng thông tin giả làm ví dụ 
+- [ ] Thêm emoji để tăng   
+- [ ] Sử dụng thông tin giả hoặc làm mờ thông tin nhạy cảm trước khi đưa vào bài viết (\*) 
 
 ## Các lỗi hiển thị đã biết 🐛
 Giao diện xem trước trên hệ thống quản lý bài viết có đôi chút khác biệt với cách bài viết thực sự xuất hiện trên trang blog, nên việc phát sinh một số lỗi hiển thị là điều khó tránh khỏi. Dưới đây là tổng hợp các lỗi đã biết giúp bạn hạn chế chúng trên các bài viết của mình.
 
 > [!bug]- Callouts bị vỡ bố cục hiển thị
 > Khi ...
-
-
 
 ## Câu hỏi thường gặp
 
