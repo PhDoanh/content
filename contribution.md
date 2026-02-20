@@ -73,12 +73,14 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 - [ ] Sử dụng Heading có thứ bậc rõ ràng, không bỏ cấp và bắt đầu từ H2 trở đi
 - [ ] Sử dụng thông tin giả hoặc làm mờ thông tin nhạy cảm trước khi đưa vào bài viết 
 - [ ] Nội dung bài viết được thiết kế theo triết lý [Evergreen](https://itify.vn/evergreen-content-la-gi-va-tai-sao-moi-marketer-deu-phai-biet/)
+- [ ] Gán thẻ # nội dung do AI tạo ra 
 
 ### Khuyến khích
 - [ ] Sử dụng cú pháp [Obisidian Callouts](https://help.obsidian.md/callouts) để làm nổi bật thông tin
 - [ ] Thêm emoji để tạo điểm nhấn thị giác nhưng không lạm dụng. Những vị trí lý tưởng để đặt emoji: sau tiêu đề H2, cuối đoạn văn, đầu danh sách.   
 - [ ] Hoàn thiện các trường thông tin tùy chọn trong giao diện chỉnh sửa bài viết 
 - [ ] Gắn thẻ trình độ bài viết để xác định đối tượng đọc phù hợp như bài viết hiện tại. Các thẻ được chấp nhận: #Beginner #Intermediate #Advanced #Expert   
+- [ ] Sử dụng AI để tạo 
 
 ## Các lỗi hiển thị đã biết 🐛
 Giao diện xem trước trên hệ thống quản lý bài viết có đôi chút khác biệt với cách bài viết thực sự xuất hiện trên trang blog, nên việc phát sinh một số lỗi hiển thị là điều khó tránh khỏi. Dưới đây là tổng hợp các lỗi đã biết giúp bạn hạn chế chúng trên các bài viết của mình.
