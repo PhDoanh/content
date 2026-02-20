@@ -3,7 +3,7 @@ title: Hướng dẫn đóng góp bài viết
 description: Trở thành người đóng góp để chia sẻ chuyên môn của bạn về Fullstack, Automation và AI-Driven Development
 permalink: ""
 lang: vi
-publish: false
+publish: true
 updated: 2026-02-10
 tags:
   - explorable
@@ -20,18 +20,40 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 - Có tài khoản [Github](https://github.com/)
 - Có kiến thức cơ bản về [Markdown](https://www.markdownguide.org/)
 
+> [!tip] Mẹo
+> Nếu bạn không chắc đóng góp của mình có cần thiết hay không, hãy tạo [Issues](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) để thảo luận trước khi tiếp tục
+
 ## Hướng dẫn cụ thể
 
+> [!info] Lưu ý
+> Lần đầu tạo/chỉnh sửa bài viết sẽ yêu cầu bạn đăng nhập vào hệ thống quản lý bài viết của trang web thông qua tài khoản Github  
+
 ### Tạo bài viết mới
-1. step 1
-2. step 2
+1. Tại trang [tổng quan trạng thái các bài viết](https://phdoanh.github.io/blog/admin/index.htm#/dashboard), nhấn vào nút *"Quick add"* để thêm mới bài viết
+2. Chọn thể loại bài viết bạn muốn đóng góp
+3. Điền các trường thông tin ở bên trái giao diện chỉnh sửa bài viết
+	- **Title** (Bắt buộc): Tiêu đề của bài viết
+	- **Description**: Mô tả ngắn gọn nội dung bài viết
+	- **Language**: Lựa chọn ngôn ngữ bài viết sử dụng
+	- **Updated on**: Chọn ngày cập nhật nội dung bài viết
+	- **Tags**: Gán các thẻ liên quan đến bài viết
+	- **Social Description**: Mô tả bài viết xuất hiện trong liên kết xem trước trên mạng xã hội (thay thế Description)
+	- **Social Image**: Ảnh bìa tùy chỉnh xuất hiện trong liên kết xem trước của bài viết
+	- **Content** (Bắt buộc): Nội dung chính của bài viết
+4. Xác nhận các trường thông tin bắt buộc được hoàn thiện
+5. Nhấn nút *"Save"* để lưu bài viết thành bản nháp
+6. Quản lý trạng thái bài viết bằng nút *"Status: ..."* ngay trong giao diện chỉnh sửa này hoặc kéo thả tại trang *Dashboard* (trạng thái khi lưu lần đầu là *Draft*)
+7. Khi bài viết ở trạng thái *Ready* (sẵn sàng để đăng tải), nhấn nút *"Publish now"* trong giao diện chỉnh sửa bài viết hoặc biểu tượng bên cạnh thùng rác khi di chuột qua bài viết trong trang *Dashboard*
+8. *Congratulations* 🎉 Bài viết của bạn đang trong hàng chờ phê duyệt, theo dõi trạng thái phê duyệt trên Github Pull Request của web blog để nhận feedback điều chỉnh nếu có. 
+
 
 ### Chỉnh sửa bài viết
 1. step 1
 2. step 2
 
-> [!tip] Mẹo
-> Nếu bạn không chắc đóng góp của mình có cần thiết hay không, hãy tạo [Issues](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) để thảo luận trước khi bấm vào nút chỉnh sửa
+
+
+
 
 ## Nguyên tắc viết bài
 

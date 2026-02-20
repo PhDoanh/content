@@ -1,6 +1,6 @@
 ---
 title: Trang tài nguyên IT tuyển chọn
-description: Khám phá bộ sưu tập cá nhân của mình
+description: Khám phá bộ sưu tập cá nhân đã giúp mình đơn giản hóa quy trình làm việc xuống chỉ còn ăn và ngủ =))
 permalink: ""
 lang: vi
 publish: false
@@ -10,10 +10,9 @@ aliases:
   - 
 cssclasses:
   - img
-socialDescription: "{3: OG description (~100 chars)}"
+socialDescription:
 socialImage: ""
 ---
+## Tổng quan
 
-{4: related tags as bullets (skip #)}
 
-{5: main content}
