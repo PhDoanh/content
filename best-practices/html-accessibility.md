@@ -6,7 +6,7 @@ description: Master HTML accessibility. This guide covers WCAG principles,
 permalink: ""
 lang: en
 publish: true
-updated: 2026-02-10
+updated: 2026-02-20
 tags:
   - html-accessibility
   - web-accessibility-guidelines
@@ -52,7 +52,8 @@ At the heart of web accessibility lies the **Web Content Accessibility Guideline
   - Employing semantic HTML elements appropriately.
   - Ensuring compatibility with current and future assistive technologies by following web standards.
 
-> [!NOTE] The WCAG standards are continuously evolving. While WCAG 2.1 is widely adopted, WCAG 2.2 was released in late 2023, building upon previous versions to address a wider range of user needs and technologies. Staying updated is key!
+> [!NOTE] The WCAG standards are continuously evolving.   
+> While WCAG 2.1 is widely adopted, WCAG 2.2 was released in late 2023, building upon previous versions to address a wider range of user needs and technologies. Staying updated is key!
 
 ## Empowering Users: A Look at Assistive Technology 🚀
 
