@@ -31,7 +31,7 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 ### Tạo bài viết mới
 1. Tại trang [tổng quan trạng thái các bài viết](https://phdoanh.github.io/blog/admin/index.htm#/dashboard), nhấn vào nút *"Quick add"* để thêm mới bài viết
 2. Chọn thể loại bài viết bạn muốn đóng góp
-3. Điền các trường thông tin ở bên trái giao diện chỉnh sửa bài viết
+3. Điền các trường thông tin ở bên trái giao diện chỉnh sửa bài viết ^0c870b
 	- **Title** (Bắt buộc): Tiêu đề của bài viết
 	- **Description**: Mô tả ngắn gọn nội dung bài viết
 	- **Language**: Lựa chọn ngôn ngữ bài viết sử dụng
@@ -42,7 +42,7 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 	- **Content** (Bắt buộc): Nội dung chính của bài viết
 4. Xác nhận các trường thông tin bắt buộc được hoàn thiện
 5. Nhấn nút *"Save"* để lưu bài viết thành bản nháp
-6. Quản lý trạng thái bài viết bằng nút *"Status: ..."* ngay trong giao diện chỉnh sửa này hoặc kéo thả tại trang *Dashboard* (trạng thái khi lưu lần đầu là *Draft*)
+6. Quản lý trạng thái bài viết bằng nút *"Status: ..."* ngay trong giao diện chỉnh sửa này hoặc kéo thả tại trang *Dashboard*
 7. Khi bài viết sẵn sàng để đăng tải, chuyển sang trạng thái *Ready*
 8. *Congratulations* 🎉 Bài viết của bạn đang trong hàng chờ phê duyệt, theo dõi trạng thái phê duyệt trên [Github Pull Request](https://github.com/PhDoanh/content/pulls) của web blog để nhận feedback điều chỉnh nếu có. 
 
@@ -50,11 +50,17 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 
 ### Chỉnh sửa bài viết
 1. Tại đầu trang bài viết bạn muốn chỉnh sửa, nhấn nút *"Edit"*
-2. Sửa các trường thông tin ở bên trái giao diện chỉnh sửa bài viết
+2. Sửa các [[contribution#^0c870b|trường thông tin]] ở bên trái giao diện chỉnh sửa bài viết
 3. Kiểm tra lại khả năng hiển thị trong giao diện xem trước bên phải
-4. Nhấn nút *"Save"* để lưu bài viết thành bản nháp
+4. Nhấn nút *"Save"* để lưu bài viết thành bản nháp (bản này không ảnh hưởng đến bản đã đăng tải)
+5. Quản lý trạng thái bài viết bằng nút *"Status: ..."* ngay trong giao diện chỉnh sửa này hoặc kéo thả tại trang *Dashboard*
+6. Khi bài viết sẵn sàng để đăng tải, chuyển sang trạng thái *Ready*
+7. *Congratulations* 🎉 Bài viết của bạn đang trong hàng chờ phê duyệt, theo dõi trạng thái phê duyệt trên [Github Pull Request](https://github.com/PhDoanh/content/pulls) của web blog để nhận feedback điều chỉnh nếu có. 
 
 %% hướng dẫn dưới dạng ảnh động (GIF, AVIF, ...) %%
+
+> [!info] Lưu ý
+> bài viết của 
 
 
 ## Nguyên tắc viết bài
