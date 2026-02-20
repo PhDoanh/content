@@ -51,10 +51,10 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 ### Chỉnh sửa bài viết
 1. Tại đầu trang bài viết bạn muốn chỉnh sửa, nhấn nút *"Edit"*
 2. Sửa các [[contribution#^0c870b|trường thông tin]] ở bên trái giao diện chỉnh sửa bài viết
-- Trường **Updated on** cần được cập nhật về trạng thái h
+	- Nếu không có lý do gì đặc biệt, trường *Updated on* phải được cập nhật về trạng thái hiện tại bằng cách nhấn nút *"Now"*
+3. Đảm bảo giao diện xem trước bên phải không bị lỗi về khả năng hiển thị  
 
 
-3. Kiểm tra lại khả năng hiển thị trong giao diện xem trước bên phải
 4. Nhấn nút *"Save"* để lưu bài viết thành bản nháp (bản này không ảnh hưởng đến bản đã đăng tải)
 5. Quản lý trạng thái bài viết bằng nút *"Status: ..."* ngay trong giao diện chỉnh sửa này hoặc kéo thả tại trang *Dashboard*
 6. Khi bài viết sẵn sàng để đăng tải, chuyển sang trạng thái *Ready*
@@ -86,3 +86,16 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 - [ ] Làm mờ thông tin nhạy cảm trước khi đưa vào bài viết (\*)
 - [ ] Sử dụng thông tin giả làm ví dụ 
 
+## Các lỗi hiển thị đã biết
+
+
+## Câu hỏi thường gặp
+
+> [!question]- Các trường tùy chọn trong giao diện chỉnh sửa bài viết có ý nghĩa gì?
+> Chúng góp phần tăng khả năng hiện diện của bài viết trên Internet (đặc biệt có ích với các công cụ tìm kiếm như Google). Cụ thể:
+> - **Description**: Giúp 
+> - **Language**: Lựa chọn ngôn ngữ bài viết sử dụng
+> - **Updated on**: Chọn ngày cập nhật nội dung bài viết
+> - **Tags**: Gán các thẻ liên quan đến bài viết
+> - **Social Description**: Mô tả bài viết xuất hiện trong liên kết xem trước trên mạng xã hội (thay thế Description)
+> - **Social Image**: Ảnh bìa tùy chỉnh xuất hiện trong liên kết xem trước của bài viết
