@@ -51,6 +51,9 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 ### Chỉnh sửa bài viết
 1. Tại đầu trang bài viết bạn muốn chỉnh sửa, nhấn nút *"Edit"*
 2. Sửa các [[contribution#^0c870b|trường thông tin]] ở bên trái giao diện chỉnh sửa bài viết
+- Trường **Updated on** cần được cập nhật về trạng thái h
+
+
 3. Kiểm tra lại khả năng hiển thị trong giao diện xem trước bên phải
 4. Nhấn nút *"Save"* để lưu bài viết thành bản nháp (bản này không ảnh hưởng đến bản đã đăng tải)
 5. Quản lý trạng thái bài viết bằng nút *"Status: ..."* ngay trong giao diện chỉnh sửa này hoặc kéo thả tại trang *Dashboard*
@@ -60,7 +63,8 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 %% hướng dẫn dưới dạng ảnh động (GIF, AVIF, ...) %%
 
 > [!info] Lưu ý
-> bài viết của 
+> - Trên hệ thống quản lý bài viết của web blog, có thể mất một lúc để bạn thấy được các thay đổi cập nhật trên giao diện
+> - Trên trang *Github Pull Request* của web blog, bạn có thể dùng thanh tìm kiếm kết hợp bộ lọc để thu hẹp 
 
 
 ## Nguyên tắc viết bài
