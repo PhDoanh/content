@@ -13,9 +13,7 @@ cssclasses:
 socialImage: og-image.png
 ---
 
-Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự đóng góp từ những *Techie* khác với mục đích cải thiện chất lượng bài viết lẫn trải nghiệm trang web ==theo định hướng phát triển của blog==. 
-
-Nói cách khác, hướng dẫn cộng tác này không phù hợp nếu bạn muốn [[build-your-own-blog-site|xây dựng khu vườn của riêng mình]] (chứa những bài viết không liên quan đến định hướng của blog). 
+Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự đóng góp từ những *Techie* khác với mục đích cải thiện chất lượng bài viết theo **định hướng phát triển của blog**. Hướng dẫn này không phù hợp nếu bạn muốn [[build-your-own-blog-site|xây dựng khu vườn của riêng mình]] (chứa những bài viết không liên quan đến định hướng của blog). 
 
 ## Điều kiện đóng góp
 - Tuân thủ [[contribution#Nguyên tắc viết bài|nguyên tắc viết bài]]
@@ -30,4 +28,4 @@ Nói cách khác, hướng dẫn cộng tác này không phù hợp nếu bạn 
 > Nếu bạn không chắc đóng góp của mình có cần thiết hay không, hãy tạo [Issues](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) để thảo luận trước khi bấm vào nút chỉnh sửa
 
 ## Nguyên tắc viết bài
-
+- 
