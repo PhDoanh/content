@@ -73,7 +73,7 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 - [ ] Sử dụng Heading có thứ bậc rõ ràng, không bỏ cấp và bắt đầu từ H2 trở đi
 - [ ] Sử dụng thông tin giả hoặc làm mờ thông tin nhạy cảm trước khi đưa vào bài viết 
 - [ ] Nội dung bài viết được thiết kế theo triết lý [Evergreen](https://itify.vn/evergreen-content-la-gi-va-tai-sao-moi-marketer-deu-phai-biet/)
-- [ ] Gán thẻ # nội dung do AI tạo ra 
+- [ ] Gán thẻ #Made-with-AI đối với bài viết do AI hợp tác cùng
 
 ### Khuyến khích
 - [ ] Sử dụng cú pháp [Obisidian Callouts](https://help.obsidian.md/callouts) để làm nổi bật thông tin
