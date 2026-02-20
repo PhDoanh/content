@@ -43,12 +43,13 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 4. Xác nhận các trường thông tin bắt buộc được hoàn thiện
 5. Nhấn nút *"Save"* để lưu bài viết thành bản nháp
 6. Quản lý trạng thái bài viết bằng nút *"Status: ..."* ngay trong giao diện chỉnh sửa này hoặc kéo thả tại trang *Dashboard* (trạng thái khi lưu lần đầu là *Draft*)
-7. Khi bài viết ở trạng thái *Ready* (sẵn sàng để đăng tải), nhấn nút *"Publish now"* trong giao diện chỉnh sửa bài viết hoặc biểu tượng bên cạnh thùng rác khi di chuột qua bài viết trong trang *Dashboard*
-8. *Congratulations* 🎉 Bài viết của bạn đang trong hàng chờ phê duyệt, theo dõi trạng thái phê duyệt trên Github Pull Request của web blog để nhận feedback điều chỉnh nếu có. 
+7. Khi bài viết sẵn sàng để đăng tải, chuyển sang trạng thái *Ready*
+8. *Congratulations* 🎉 Bài viết của bạn đang trong hàng chờ phê duyệt, theo dõi trạng thái phê duyệt trên [Github Pull Request](https://github.com/PhDoanh/content/pulls) của web blog để nhận feedback điều chỉnh nếu có. 
 
+%% guide as GIF %%
 
 ### Chỉnh sửa bài viết
-1. step 1
+1. Tại đầu trang bài viết bạn muốn chỉnh sửa, nhấn nút *"Edit"*
 2. step 2
 
 
