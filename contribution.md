@@ -52,9 +52,7 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 1. Tại đầu trang bài viết bạn muốn chỉnh sửa, nhấn nút *"Edit"*
 2. Sửa các [[contribution#^0c870b|trường thông tin]] ở bên trái giao diện chỉnh sửa bài viết
 	- Nếu không có lý do gì đặc biệt, trường *Updated on* phải được cập nhật về trạng thái hiện tại bằng cách nhấn nút *"Now"*
-3. Đảm bảo giao diện xem trước bên phải không bị lỗi về khả năng hiển thị  
-
-
+3. Đảm bảo giao diện xem trước bên phải không bị lỗi về khả năng hiển thị. Tham khảo các lỗi hiển thị đã biết để hạn chế   
 4. Nhấn nút *"Save"* để lưu bài viết thành bản nháp (bản này không ảnh hưởng đến bản đã đăng tải)
 5. Quản lý trạng thái bài viết bằng nút *"Status: ..."* ngay trong giao diện chỉnh sửa này hoặc kéo thả tại trang *Dashboard*
 6. Khi bài viết sẵn sàng để đăng tải, chuyển sang trạng thái *Ready*
@@ -87,15 +85,15 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 - [ ] Sử dụng thông tin giả làm ví dụ 
 
 ## Các lỗi hiển thị đã biết
-
+Giao diện xem trước trên hệ thống quản lý bài viết có đôi chút khác biệt 
 
 ## Câu hỏi thường gặp
 
 > [!question]- Các trường tùy chọn trong giao diện chỉnh sửa bài viết có ý nghĩa gì?
-> Chúng góp phần tăng khả năng hiện diện của bài viết trên Internet (đặc biệt có ích với các công cụ tìm kiếm như Google). Cụ thể:
-> - **Description**: Giúp 
-> - **Language**: Lựa chọn ngôn ngữ bài viết sử dụng
-> - **Updated on**: Chọn ngày cập nhật nội dung bài viết
-> - **Tags**: Gán các thẻ liên quan đến bài viết
-> - **Social Description**: Mô tả bài viết xuất hiện trong liên kết xem trước trên mạng xã hội (thay thế Description)
-> - **Social Image**: Ảnh bìa tùy chỉnh xuất hiện trong liên kết xem trước của bài viết
+> Chúng góp phần làm tăng khả năng hiện diện của bài viết trên Internet, đặc biệt có ích với các công cụ tìm kiếm như Google. Cụ thể:
+> - **Description**: Mô tả ngắn về nội dung bài viết (1-2 câu). Giúp hiển thị đoạn text ngay dưới tiêu đề khi bài xuất hiện trên Google.
+> - **Language**: Ngôn ngữ chính của bài viết. Giúp Google phân phối bài đến đúng đối tượng độc giả.
+> - **Updated on**: Ngày cập nhật nội dung gần nhất. Cho Google biết bài vẫn còn được duy trì, giúp cải thiện thứ hạng tìm kiếm.
+> - **Tags**: Các từ khóa liên quan đến chủ đề bài viết. Giúp bài dễ được tìm thấy hơn khi người dùng tìm kiếm những chủ đề đó.
+> - **Social Description**: Mô tả hiển thị khi bài được chia sẻ lên mạng xã hội. Có thể khác với Description để phù hợp hơn với từng nền tảng.
+> - **Social Image**: Ảnh thumbnail hiển thị khi bài được chia sẻ lên mạng xã hội. Ảnh bắt mắt giúp tăng tỉ lệ người nhấn vào đọc bài.
