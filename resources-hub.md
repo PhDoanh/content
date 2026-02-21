@@ -6,6 +6,8 @@ lang: vi
 publish: false
 updated: 2026-02-10
 tags:
+  - explorable
+  - Beginner
 aliases:
   - 
 cssclasses:
