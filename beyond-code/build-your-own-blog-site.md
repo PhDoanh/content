@@ -127,15 +127,15 @@ Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã
 > - [Các bài viết gần đây](https://quartz.jzhao.xyz/features/recent-notes)
 
 ### Chia sẻ bài viết
-Sẽ rất bất tiện khi người dùng phải copy link bài viết từ thanh tìm kiếm của trình duyệt. Nên tính năng này cho phép chia sẻ bài viết tới **các nền tảng cụ thể** (Facebook, Reddit, ...) và hỗ trợ nút **Copy thân thiện hơn**.
+Sẽ rất bất tiện khi người dùng phải copy link bài viết từ thanh tìm kiếm của trình duyệt. Nên tính năng này cho phép chia sẻ bài viết tới **các nền tảng cụ thể** (Facebook, Linkedin, Reddit, Twitter/X, Instagram) và hỗ trợ nút **Copy thân thiện hơn**.
 
-Để **cài đặt** tính năng này, chỉ cần **thêm** các file sau ở đúng vị trí trong kho chứa Github của bạn:
+#### Cài đặt tính năng
+1. Tạo các file sau ở đúng vị trí trong kho chứa Github của bạn:
+	- [`quartz/components/MediaShare.tsx`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/MediaShare.tsx)
+	- [`quartz/components/styles/mediaShare.scss`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/styles/mediaShare.scss)
+	- [`quartz/components/scripts/mediaShare.inline.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/scripts/mediaShare.inline.ts)
 
-- [`quartz/components/MediaShare.tsx`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/MediaShare.tsx)
-- [`quartz/components/styles/mediaShare.scss`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/styles/mediaShare.scss)
-- [`quartz/components/scripts/mediaShare.inline.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/scripts/mediaShare.inline.ts)
-
-Để **sử dụng**, thêm 2 dòng sau vào [`quartz/components/index.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/index.ts) 
+2. Thêm 2 dòng sau vào [`quartz/components/index.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/index.ts) 
 
 ```ts {2,6}
 // các import khác
@@ -147,59 +147,89 @@ export {
 }
 ```
 
-Cuối cùng, thêm  sau vào [`quartz.layout.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz.layout.ts#L49) với cấu hình tùy chọn mà bạn muốn. Ví dụ:
+3. Bật tính năng này bằng cách thêm đoạn mã sau vào [`quartz.layout.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz.layout.ts) với cấu hình tùy chọn mà bạn muốn. Ví dụ:
 
 ```ts
 Component.MediaShare({
+	// support "facebook", "linkedin", "reddit", "twitter", "ínstagram"
 	platforms: ["facebook", "instagram", "twiter"],
 	copyButton: true,
 }),
 ```
 
-Các nền tảng được hỗ trợ: Facebook, Linkedin, Reddit, Twitter, Instagram
-
-```ts
-interface MediaShareOptions {
-	platforms: string[],
-	copyButton?: boolean,
-}
-
-const defaultOptions: MediaShareOptions = {
-	platforms: ["facebook", "linkedin", "reddit"],
-	copyButton: true,
-}
-```
+#### Tùy biến tính năng
+- Component: `quartz/components/MediaShare.tsx`
+- Style: `quartz/components/styles/mediaShare.scss`
+- Script: `quartz/components/scripts/mediaShare.inline.ts`
+- Vô hiệu hóa: Xóa tất cả những nơi sử dụng `Component.MediaShare()` trong `quartz.layout.ts`
+- Tùy chỉnh ngôn ngữ hiển thị: tham khảo [`quartz/i18n/locales/definition.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/i18n/locales/definition.ts) và [`quartz/i18n/locales/en-US.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/i18n/locales/en-US.ts)
 
 ### Chỉnh sửa bài viết
 Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ mình bạn là người có quyền thao tác với mọi bài viết trong blog. Nhưng nếu muốn **blog mở có kiểm soát**, tức là chỉ cho phép cộng tác trên các bài viết của bạn, hoặc ít nhất là được sự đồng ý từ bạn để tạo bài viết mới theo đúng giá trị blog bạn truyền tải. Thì tính năng này là dành cho bạn!
 
 > [!warning] Blog dành cho cộng đồng
-> Mình không khuyến khích mở hoàn toàn trang blog của bạn cho mọi người mà không có kiểm soát, tức là bất cứ ai có thể sử dụng trang blog như một nơi chứa các bài viết mà **chính họ là tác giả**. Vì nó sẽ làm mất đi **bản chất của blog cá nhân** và hạ tầng chứa **trang web tĩnh** trên Internet sẽ không đủ sức chịu đựng do blog cộng đồng phù hợp hơn với trang [web động](https://gleads.vn/vi/blog/web-tinh-va-web-dong)!   
+> Mình không khuyến khích mở hoàn toàn trang blog của bạn cho mọi người mà không có kiểm soát, tức là bất cứ ai có thể sử dụng trang blog như một nơi chứa các bài viết mà **họ nắm toàn kiểm kiểm soát**. Vì nó sẽ làm mất đi **bản chất của blog cá nhân** và hạ tầng chứa **trang web tĩnh** trên Internet sẽ không đủ sức chịu đựng do blog cộng đồng phù hợp hơn với trang [web động](https://gleads.vn/vi/blog/web-tinh-va-web-dong)!   
 
-Để cài đặt tính năng, bạn chỉ cần đặt các file sau vào đúng vị trí của kho chứa Github:
+#### Cài đặt tính năng
+1. Tạo các file sau ở đúng vị trí trong kho chứa Github của bạn:
+	- [`quartz/components/EditThisPage.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/EditThisPage.tsx)
+	- [`content/admin/index.htm`](https://github.com/PhDoanh/content/blob/main/admin/index.htm)
+	- [`content/admin/config.yml`](https://github.com/PhDoanh/content/blob/main/admin/config.yml)
 
-- [`quartz/components/Link.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/Link.tsx)
-- [`quartz/components/EditThisPage.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/EditThisPage.tsx)
+2. Dựa vào tài liệu [CDN Hosting - Static CMS](https://staticcms.org/docs/docs/overview/cdn-hosting/), sửa lại file `config.yml` theo nhu cầu thiết lập của bạn và cấu trúc nội dung mà blog tổ chức.
 
-Để sử dụng, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component)
+3. Thêm 2 dòng sau vào [`quartz/components/index.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/index.ts) 
+
+```ts {2,6}
+// các import khác
+import EditThisPage from "./EditThisPage"
+
+export {
+	// các export khác
+	EditThisPage,
+}
+```
+
+3. Bật tính năng này bằng cách thêm `Component.EditThisPage()` vào [`quartz.layout.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz.layout.ts).
+
+> [!info] Lưu ý
+> Đối với cấu hình (`config.yml`) lấy [Github làm backend](https://staticcms.org/docs/docs/backends/github/),  bạn cần một máy chủ xác thực trung gian để người khác có thể truy cập vào hệ thống quản lý bài viết (CMS) thông qua tài khoản Github của họ.
+
+#### Tùy biến tính năng
+- Component + Style (không có Script): `quartz/components/MediaShare.tsx`
+- Vô hiệu hóa: Xóa tất cả những nơi sử dụng `Component.EditThisPage()` trong `quartz.layout.ts`
+- Tùy chỉnh ngôn ngữ hiển thị: tham khảo [`quartz/i18n/locales/definition.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/i18n/locales/definition.ts) và [`quartz/i18n/locales/en-US.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/i18n/locales/en-US.ts)
 
 ### Danh sách cộng tác viên
 
-> [!caution]- Nội dung đang hoàn thiện
-> Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[contribution|Hướng dẫn cộng tác bài viết]]
-> 
-> **Rất mong sự thông cảm của các bạn!**
 
 ### Cuộn lên đầu trang
-Đối với hầu hết thiết bị di động, bạn buộc phải cuộn trang bằng cách vuốt lên/xuống màn hình. Điều này đôi khi khiến người dùng khó chịu khi họ muốn cuộn lên đầu trang mà bài viết thì lại dài quá. Giải pháp là sử dụng một nút điều hướng sẵn sàng ngay khi họ có ý định cuộn lên đầu trang.
+Đối với hầu hết thiết bị di động, bạn buộc phải cuộn trang bằng cách vuốt lên/xuống màn hình. Điều này đôi khi khiến người dùng khó chịu khi họ muốn cuộn lên đầu trang mà bài viết thì lại quá dài. Giải pháp là sử dụng một nút điều hướng sẵn sàng ngay khi họ có ý định cuộn lên đầu trang.
 
-Để cài đặt tính năng, bạn chỉ cần đặt các file sau vào đúng vị trí của kho chứa Github:
-- [`quartz/components/BackToTop.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/BackToTop.tsx)
+#### Cài đặt tính năng
+1. Tạo các file sau ở đúng vị trí trong kho chứa Github của bạn:
+	- [`quartz/components/BackToTop.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/BackToTop.tsx)
 
-Để sử dụng, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component)
+2. Thêm 2 dòng sau vào [`quartz/components/index.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/index.ts) 
+
+```ts {2,6}
+// các import khác
+import BackToTop from "./BackToTop"
+
+export {
+	// các export khác
+	BackToTop,
+}
+```
+
+3. Bật tính năng này bằng cách thêm `Component.BackToTop()` vào `afterBody` của [`quartz.layout.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz.layout.ts).
+
+#### Tùy biến tính năng
+- Component + Style + Script: `quartz/components/MediaShare.tsx`
+- Vô hiệu hóa: Xóa tất cả những nơi sử dụng `Component.BackToTop()` trong `quartz.layout.ts`
+
 ## Kết nối tới CMS
 **CMS** là hệ thống phần mềm giúp bạn dễ dàng **quản lý nội dung số** như văn bản, hình ảnh, video thông qua giao diện web mà không cần code nhiều. Nó tích hợp cả backend (nơi lưu trữ, xử lý nội dung) và frontend (nơi hiển thị nội dung) trong cùng một hệ thống. Hướng dẫn này sẽ dựa trên giải pháp mình đã chọn là [Static CMS](https://staticcms.org/). 
-
 
 
 ## Lời kết 🎉
