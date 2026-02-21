@@ -73,7 +73,7 @@ collections:
         required: false
       - { name: "publish", widget: "hidden", default: true, required: false }
       - { label: "Updated on", name: "updated", widget: "datetime", date_format: "dd/MM/yyyy", time_format: false, format: 'yyyy-MM-dd', required: false }
-      - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, tags separated by commas, .e.g. the-1st-tag, 2nd-tag", required: false, allow_add: true }
+      - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, tags separated by commas, .e.g. the-1st-tag,2nd-tag,nth-tag", required: false, allow_add: true }
       - { name: "aliases", widget: "hidden", default: [], required: false}
       - { name: "cssclasses", widget: "hidden", default: [], required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
@@ -134,7 +134,7 @@ collections:
         required: false
       - { name: "publish", widget: "hidden", default: true, required: false}
       - { label: "Updated on", name: "updated", widget: "datetime", date_format: "dd/MM/yyyy", time_format: false, format: 'yyyy-MM-dd', required: false }
-      - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, tags separated by commas, .e.g. the-1st-tag, 2nd-tag", required: false, allow_add: true }
+      - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, tags separated by commas, .e.g. the-1st-tag,2nd-tag,nth-tag", required: false, allow_add: true }
       - { name: "aliases", widget: "hidden", default: [], required: false}
       - { name: "cssclasses", widget: "hidden", default: [], required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
@@ -195,7 +195,7 @@ collections:
         required: false
       - { name: "publish", widget: "hidden", default: true, required: false}
       - { label: "Updated on", name: "updated", widget: "datetime", date_format: "dd/MM/yyyy", time_format: false, format: 'yyyy-MM-dd', required: false }
-      - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, tags separated by commas, .e.g. the-1st-tag, 2nd-tag", required: false, allow_add: true }
+      - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, tags separated by commas, .e.g. the-1st-tag,2nd-tag,nth-tag", required: false, allow_add: true }
       - { name: "aliases", widget: "hidden", default: [], required: false}
       - { name: "cssclasses", widget: "hidden", default: [], required: false}
       - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
@@ -227,7 +227,7 @@ collections:
   #     - { name: "permalink", widget: "hidden", required: false}
   #     - { name: "lang", widget: "hidden", required: false}
   #     - { name: "publish", widget: "hidden", required: false}
-  #     - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, tags separated by commas, .e.g. the-1st-tag, 2nd-tag", required: false, allow_add: true }
+  #     - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, tags separated by commas, .e.g. the-1st-tag,2nd-tag,nth-tag", required: false, allow_add: true }
   #     - { name: "aliases", widget: "hidden", required: false}
   #     - { name: "cssclasses", widget: "hidden", required: false}
   #     - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
@@ -250,7 +250,7 @@ collections:
   #     - { name: "permalink", widget: "hidden", required: false}
   #     - { name: "lang", widget: "hidden", required: false}
   #     - { name: "publish", widget: "hidden", required: false}
-  #     - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, tags separated by commas, .e.g. the-1st-tag, 2nd-tag", required: false, allow_add: true }
+  #     - { label: "Tags", name: "tags", widget: "list", hint: "Using kebab-case for tag name, tags separated by commas, .e.g. the-1st-tag,2nd-tag,nth-tag", required: false, allow_add: true }
   #     - { name: "aliases", widget: "hidden", required: false}
   #     - { name: "cssclasses", widget: "hidden", required: false}
   #     - { label: "Social Description", name: "socialDescription", widget: "text", hint: "Description to be used for preview on social media", required: false }
