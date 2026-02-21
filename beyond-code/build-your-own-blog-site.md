@@ -126,8 +126,8 @@ Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã
 > - [Nhận xét bài viết](https://quartz.jzhao.xyz/features/comments)
 > - [Các bài viết gần đây](https://quartz.jzhao.xyz/features/recent-notes)
 
-%% ### Chia sẻ bài viết - MediaShare
-Sẽ rất bất tiện khi người dùng phải copy link bài viết từ thanh tìm kiếm của trình duyệt. Nên tính năng này cho phép chia sẻ bài viết tới **các nền tảng cụ thể** (Facebook, Reddit, ...) và hỗ trợ nút **Copy thân thiện hơn**. Đặc biệt hiệu quả với những người không chuyên về công nghệ!
+### Chia sẻ bài viết
+Sẽ rất bất tiện khi người dùng phải copy link bài viết từ thanh tìm kiếm của trình duyệt. Nên tính năng này cho phép chia sẻ bài viết tới **các nền tảng cụ thể** (Facebook, Reddit, ...) và hỗ trợ nút **Copy thân thiện hơn**.
 
 Để **cài đặt** tính năng này, chỉ cần **thêm** các file sau ở đúng vị trí trong kho chứa Github của bạn:
 
@@ -170,7 +170,7 @@ const defaultOptions: MediaShareOptions = {
 }
 ```
 
-### Chỉnh sửa bài viết - EditThisPage
+### Chỉnh sửa bài viết
 Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ mình bạn là người có quyền thao tác với mọi bài viết trong blog. Nhưng nếu muốn **blog mở có kiểm soát**, tức là chỉ cho phép cộng tác trên các bài viết của bạn, hoặc ít nhất là được sự đồng ý từ bạn để tạo bài viết mới theo đúng giá trị blog bạn truyền tải. Thì tính năng này là dành cho bạn!
 
 > [!warning] Blog dành cho cộng đồng
@@ -183,21 +183,20 @@ Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ m�
 
 Để sử dụng, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component)
 
-### Danh sách các cộng tác viên - Contributors
+### Danh sách cộng tác viên
 
 > [!caution]- Nội dung đang hoàn thiện
 > Quá trình xây dựng nội dung này có thể mất nhiều thời gian, nhưng bạn có thể thúc đẩy nó bằng cách tham gia [[contribution|Hướng dẫn cộng tác bài viết]]
 > 
 > **Rất mong sự thông cảm của các bạn!**
 
-### Cuộn lên đầu trang - BackToTop
+### Cuộn lên đầu trang
 Đối với hầu hết thiết bị di động, bạn buộc phải cuộn trang bằng cách vuốt lên/xuống màn hình. Điều này đôi khi khiến người dùng khó chịu khi họ muốn cuộn lên đầu trang mà bài viết thì lại dài quá. Giải pháp là sử dụng một nút điều hướng sẵn sàng ngay khi họ có ý định cuộn lên đầu trang.
 
 Để cài đặt tính năng, bạn chỉ cần đặt các file sau vào đúng vị trí của kho chứa Github:
 - [`quartz/components/BackToTop.tsx`](https://github.com/PhDoanh/blog/blob/dev/quartz/components/BackToTop.tsx)
 
 Để sử dụng, làm theo hướng dẫn của Quartz tại [đây](https://quartz.jzhao.xyz/advanced/creating-components#using-a-component)
- %%
 ## Kết nối tới CMS
 **CMS** là hệ thống phần mềm giúp bạn dễ dàng **quản lý nội dung số** như văn bản, hình ảnh, video thông qua giao diện web mà không cần code nhiều. Nó tích hợp cả backend (nơi lưu trữ, xử lý nội dung) và frontend (nơi hiển thị nội dung) trong cùng một hệ thống. Hướng dẫn này sẽ dựa trên giải pháp mình đã chọn là [Static CMS](https://staticcms.org/). 
 
