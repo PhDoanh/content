@@ -4,7 +4,7 @@ description: Trở thành người đóng góp để chia sẻ chuyên môn củ
 permalink: ""
 lang: vi
 publish: true
-updated: 2026-02-10
+updated: 2026-02-21
 tags:
   - explorable
   - Beginner
@@ -18,12 +18,12 @@ socialImage: og-image.png
 Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự đóng góp từ những *Techie* khác với mục đích cung cấp/cải thiện bài viết theo **định hướng phát triển của blog**. Hướng dẫn này không phù hợp nếu bạn muốn [[build-your-own-blog-site|xây dựng khu vườn của riêng mình]] (chứa những bài viết không liên quan đến định hướng của blog). 
 
 ## Điều kiện đóng góp ⚖️
-- Tuân thủ [[contribution#Nguyên tắc viết bài|nguyên tắc viết bài]]
+- Tuân thủ [[contribution#Nguyên tắc viết bài 📜|nguyên tắc viết bài]]
 - Có tài khoản [Github](https://github.com/)
 - Có kiến thức cơ bản về [Obsidian Flavored Markdown](https://help.obsidian.md/syntax)
 
 > [!tip] Mẹo
-> Nếu bạn không chắc đóng góp của mình có cần thiết hay không, hãy tạo [Issues](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) để thảo luận trước khi tiếp tục
+> Nếu bạn không chắc đóng góp của mình có cần thiết hay không, hãy tạo [Github Issues](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) để thảo luận trước khi tiếp tục
 
 ## Hướng dẫn cụ thể 🔬
 
@@ -41,7 +41,7 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 	- **Tags**: Gán các thẻ liên quan đến bài viết
 	- **Social Description**: Mô tả bài viết xuất hiện trong liên kết xem trước trên mạng xã hội (thay thế Description)
 	- **Social Image**: Ảnh bìa tùy chỉnh xuất hiện trong liên kết xem trước của bài viết
-	- **Content** (Bắt buộc): Nội dung chính của bài viết
+	- **Content** (Bắt buộc): Nội dung chính của bài viết ^0232c6
 4. Xác nhận các trường thông tin bắt buộc được hoàn thiện
 5. Nhấn nút *"Save"* để lưu bài viết thành bản nháp
 6. Quản lý trạng thái bài viết bằng nút *"Status: ..."* ngay trong giao diện chỉnh sửa này hoặc kéo thả tại trang *Dashboard*
@@ -72,7 +72,7 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 Để duy trì tính nhất quán và giá trị bền vững cho mọi bài viết, bạn nên đáp ứng các nguyên tắc dưới đây khi tham gia đóng góp, điều này giúp tăng khả năng bài viết được duyệt để có mặt chính thức trên blog.
 
 ### Bắt buộc
-- [ ] Sử dụng Heading có thứ bậc rõ ràng, không bỏ cấp và bắt đầu từ H2 trở đi
+- [ ] Sử dụng Heading có thứ cấp rõ ràng, không bỏ/nhảy cấp và bắt đầu từ H2 trở đi
 - [ ] Sử dụng thông tin giả hoặc làm mờ thông tin nhạy cảm trước khi đưa vào bài viết 
 - [ ] Nội dung bài viết được thiết kế theo triết lý [Evergreen](https://itify.vn/evergreen-content-la-gi-va-tai-sao-moi-marketer-deu-phai-biet/)
 - [ ] Gán thẻ `#GenAI` đối với bài viết do AI hợp tác cùng
@@ -87,8 +87,11 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 ## Các lỗi hiển thị đã biết 🐛
 Giao diện xem trước trên hệ thống quản lý bài viết có đôi chút khác biệt với cách bài viết thực sự xuất hiện trên trang blog, nên việc phát sinh một số lỗi hiển thị là điều khó tránh khỏi. Dưới đây là tổng hợp các lỗi đã biết giúp bạn hạn chế chúng trên các bài viết của mình.
 
+> [!hint]- Giải pháp khắc phục triệt để lỗi hiển thị (Workaround)
+> Trường [[contribution#^0232c6|Content]] trong giao diện chỉnh sửa của hệ thống quản lý bài viết có thể khiến bạn cảm thấy khó chịu do lỗi hiển thị. Thay vào đó, chỉnh sửa trên chính giao diện [Obsidian](https://obsidian.md/) (khuyến nghị) hoặc **Markdown Editor** bạn yêu thích rồi *copy-paste* vào trường `Content` cho thấy hiệu quả hơn nhiều.     
+
 > [!bug]- Callouts bị vỡ bố cục hiển thị
-> Khi ...
+> (coming soon)
 
 ## Câu hỏi thường gặp ❓
 
