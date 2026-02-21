@@ -3,7 +3,7 @@ title: Trang tài nguyên IT tuyển chọn
 description: Khám phá bộ sưu tập cá nhân đã giúp mình đơn giản hóa quy trình làm việc xuống chỉ còn ăn và ngủ =))
 permalink: ""
 lang: vi
-publish: false
+publish: true
 updated: 2026-02-10
 tags:
   - explorable
@@ -18,3 +18,11 @@ socialImage: ""
 ## Tổng quan
 
 
+<!-- tabulator -->
+
+| Col1   | Col2    | Col3  | Col4       | Col5     |
+| ------ | ------- | ----- | ---------- | -------- |
+| Cell1  | # Cell2 | Cell3 | `123`      |          |
+| "bruh" | Cell2.1 |       | ## Cell4.1 | **true** |
+
+hello
