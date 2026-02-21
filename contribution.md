@@ -8,6 +8,7 @@ updated: 2026-02-10
 tags:
   - explorable
   - Beginner
+  - GenAI
 aliases:
 cssclasses:
   - img
