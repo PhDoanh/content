@@ -20,7 +20,7 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 ## Điều kiện đóng góp ⚖️
 - Tuân thủ [[contribution#Nguyên tắc viết bài|nguyên tắc viết bài]]
 - Có tài khoản [Github](https://github.com/)
-- Có kiến thức cơ bản về [Markdown](https://www.markdownguide.org/)
+- Có kiến thức cơ bản về [Obsidian Flavored Markdown](https://help.obsidian.md/syntax)
 
 > [!tip] Mẹo
 > Nếu bạn không chắc đóng góp của mình có cần thiết hay không, hãy tạo [Issues](https://github.com/PhDoanh/content/issues/new?template=feature_request.md) để thảo luận trước khi tiếp tục
@@ -64,7 +64,8 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 
 > [!info] Lưu ý
 > - Có thể mất một lúc để bạn thấy được các thay đổi cập nhật trên giao diện của hệ thống quản lý bài viết.
-> - Trên trang *Github Pull Request* của web blog, bạn có thể dùng thanh tìm kiếm kết hợp bộ lọc để nhanh chóng tìm thấy các bài viết của mình.
+> - Trên trang *Github Pull Request* của web blog, bạn có thể dùng thanh tìm kiếm kết hợp bộ lọc để nhanh chóng theo dõi tình trạng phê duyệt của bài mình đã viết.
+> - Sẽ mất khoảng **24h** sau khi được phê duyệt để bài viết chính thức xuất hiện trên blog.
 
 ## Nguyên tắc viết bài 📜
 
@@ -74,13 +75,14 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 - [ ] Sử dụng Heading có thứ bậc rõ ràng, không bỏ cấp và bắt đầu từ H2 trở đi
 - [ ] Sử dụng thông tin giả hoặc làm mờ thông tin nhạy cảm trước khi đưa vào bài viết 
 - [ ] Nội dung bài viết được thiết kế theo triết lý [Evergreen](https://itify.vn/evergreen-content-la-gi-va-tai-sao-moi-marketer-deu-phai-biet/)
-- [ ] Gán thẻ #GenAI đối với bài viết do AI hợp tác cùng
+- [ ] Gán thẻ `#GenAI` đối với bài viết do AI hợp tác cùng
+- [ ] Sử dụng cú pháp [Obsidian Comments](https://help.obsidian.md/syntax#Comments) hoặc [HTML comments](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Comments) để ẩn phần nội dung không muốn thấy trong bài viết trên blog.
 
 ### Khuyến khích
 - [ ] Sử dụng cú pháp [Obisidian Callouts](https://help.obsidian.md/callouts) để làm nổi bật thông tin
 - [ ] Thêm emoji để tạo điểm nhấn thị giác nhưng không lạm dụng. Những vị trí lý tưởng để đặt emoji: sau tiêu đề H2, cuối đoạn văn, đầu danh sách.   
 - [ ] Hoàn thiện các trường thông tin tùy chọn trong giao diện chỉnh sửa bài viết 
-- [ ] Gắn thẻ trình độ bài viết để xác định đối tượng đọc phù hợp như bài viết hiện tại. Các thẻ được chấp nhận: #Beginner #Intermediate #Advanced #Expert   
+- [ ] Gắn thẻ trình độ bài viết để xác định đối tượng đọc phù hợp như bài viết hiện tại. Các thẻ được chấp nhận: `#Beginner` `#Intermediate` `#Advanced` `#Expert`   
 
 ## Các lỗi hiển thị đã biết 🐛
 Giao diện xem trước trên hệ thống quản lý bài viết có đôi chút khác biệt với cách bài viết thực sự xuất hiện trên trang blog, nên việc phát sinh một số lỗi hiển thị là điều khó tránh khỏi. Dưới đây là tổng hợp các lỗi đã biết giúp bạn hạn chế chúng trên các bài viết của mình.
