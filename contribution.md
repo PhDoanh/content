@@ -51,7 +51,7 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 %% hướng dẫn dưới dạng ảnh động (GIF, AVIF, ...) %%
 
 ### Chỉnh sửa bài viết
-1. Tại đầu trang bài viết bạn muốn chỉnh sửa, nhấn nút *"Edit"*
+1. Tại đầu trang bài viết bạn muốn chỉnh sửa, nhấn nút *"<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen-line-icon lucide-pen-line"><path d="M13 21h8"/><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/></svg> Edit"*
 2. Sửa các [[contribution#^0c870b|trường thông tin]] ở bên trái giao diện chỉnh sửa bài viết
 	- Nếu không có lý do gì đặc biệt, trường *Updated on* phải được cập nhật về trạng thái hiện tại bằng cách nhấn nút *"Now"*
 3. Đảm bảo giao diện xem trước bên phải không bị lỗi về khả năng hiển thị. Tham khảo [[contribution#Các lỗi hiển thị đã biết 🐛|các lỗi hiển thị đã biết]] để hạn chế chúng.  

@@ -3,7 +3,7 @@ title: Xây dựng trang blog mà bạn có toàn quyền kiểm soát
 description: Khám phá cách bạn có thể tự build một web blog 0 đồng dựa trên cách trang web này ra đời
 permalink: ""
 lang: vi
-publish: false
+publish: true
 tags:
   - explorable
   - Intermediate
@@ -15,9 +15,9 @@ socialImage: ""
 updated: 2026-02-21
 ---
 
-Trang blog này là một sản phẩm được tạo ra với sự hỗ trợ của trình tạo web tĩnh[^1] tên là [Quartz](https://quartz.jzhao.xyz/), nó giúp chuyển đổi nội dung các file [Markdown](https://www.markdownguide.org/getting-started/) thành các tệp mã nguồn mà trình duyệt hiểu để hiển thị trên Internet! 
+Trang blog này là một sản phẩm được tạo ra với sự hỗ trợ của trình tạo web tĩnh tên là [Quartz](https://quartz.jzhao.xyz/), nó giúp chuyển đổi nội dung các file [Markdown](https://www.markdownguide.org/getting-started/) thành các tệp mã nguồn mà trình duyệt hiểu để hiển thị trên Internet! 
 
-Bài viết này sẽ chỉ bạn cách tùy chỉnh thêm các tính năng mà trang web mặc định do Quartz tạo ra không có, để có thể giúp tối ưu những yếu tố mà một trang blog thực thụ phải có như SEO, CTA, UX, ....
+Bài viết này sẽ chỉ bạn cách tùy chỉnh thêm các tính năng mà trang web mặc định do Quartz tạo ra không có, để có thể giúp tối ưu những yếu tố mà một trang blog thực thụ phải có (SEO, CTA, UX, ...)
 
 ## Bước đầu tiên 👣
 Nếu bạn chưa có bài viết nào của riêng mình, hãy đọc "[[blogger-from-zero|Hành trình ghi lại dấu ấn cá nhân bằng Blog]]" để biết cách đặt bút cho những bài viết đầu tiên của bản thân. Việc chuẩn bị các bài viết là một tùy chọn, bạn có thể bắt đầu luôn với việc xây dựng website trước rồi sản xuất nội dung sau cũng được!
@@ -31,7 +31,7 @@ Quartz yêu cầu một số tài nguyên mà nó phụ thuộc vào để hoạ
 - [Git](https://git-scm.com/downloads) và [Github](https://github.com/) (Github chỉ cần tạo tài khoản là đủ)
 
 Mở terminal của bạn ra và **nhập từng dòng lệnh** sau để hoàn tất quá trình cài đặt:
-```bash
+```sh
 git clone https://github.com/jackyzha0/quartz.git
 cd quartz
 npm i
@@ -52,7 +52,7 @@ Nếu bây giờ bạn mở máy khác ra, truy cập vào địa chỉ `http://
 1. Trên Github, nhấn nút *"New"* để tạo một kho chứa mới (kho lưu trữ trang web của bạn trên Internet). 
 2. Điền tên (Repository name) rồi nhấn nút *"Create repository"* ở cuối trang để hoàn tất quá trình tạo. Bạn sẽ được chuyển hướng vào bên trong kho chứa, hãy sao chép địa chỉ của kho chứa này 
 
-![[build-your-own-blog-site-0.avif|center]]
+![[build-your-own-blog-site-0.png|center]]
 
 3. Quay trở lại terminal trước đó, gõ lệnh `git remote set-url origin REMOTE-URL` với `REMOTE-URL` là địa chỉ của kho chứa vừa tạo (có thể cần Cmd/Ctrl+C trước để trở về dấu nhắc lệnh bình thường) 
 4. Đẩy trang web của bạn lên kho chứa Github bằng lệnh `npx quartz sync --no-pull` (Bạn có thể cần tải lại trình duyệt để thấy dữ liệu trang web xuất hiện trong kho chứa Github của mình)
@@ -122,7 +122,7 @@ Mặc định, trang web do Quartz tạo ra thường được dùng với mục
 Bạn có thể tham khảo và tùy biến các tính năng dưới đây, đã và đang được áp dụng cho trang blog hiện tại!
 
 > [!info]- Tính năng ẩn của Quartz
-> Quartz cũng hỗ trợ một số tính năng mở rộng nhưng không được áp dụng mặc định để hiện thị nên trang web, nên bạn phải tự bật nó theo hướng dẫn của họ:
+> Quartz cũng hỗ trợ một số tính năng mở rộng nhưng không được áp dụng mặc định để hiện thị lên trang web, nên bạn phải tự bật nó theo hướng dẫn của họ:
 > - [Nhận xét bài viết](https://quartz.jzhao.xyz/features/comments)
 > - [Các bài viết gần đây](https://quartz.jzhao.xyz/features/recent-notes)
 
@@ -138,11 +138,11 @@ Sẽ rất bất tiện khi người dùng phải copy link bài viết từ tha
 2. Thêm 2 dòng sau vào [`quartz/components/index.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/index.ts) 
 
 ```ts {2,6}
-// các import khác
+// other imports
 import MediaShare from "./MediaShare"
 
 export {
-	// các export khác
+	// other exports
 	MediaShare,
 }
 ```
@@ -168,7 +168,7 @@ Component.MediaShare({
 Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ mình bạn là người có quyền thao tác với mọi bài viết trong blog. Nhưng nếu muốn **blog mở có kiểm soát**, tức là chỉ cho phép cộng tác trên các bài viết của bạn, hoặc ít nhất là được sự đồng ý từ bạn để tạo bài viết mới theo đúng giá trị blog bạn truyền tải. Thì tính năng này là dành cho bạn!
 
 > [!warning] Blog dành cho cộng đồng
-> Mình không khuyến khích mở hoàn toàn trang blog của bạn cho mọi người mà không có kiểm soát, tức là bất cứ ai có thể sử dụng trang blog như một nơi chứa các bài viết mà **họ nắm toàn kiểm kiểm soát**. Vì nó sẽ làm mất đi **bản chất của blog cá nhân** và hạ tầng chứa **trang web tĩnh** trên Internet sẽ không đủ sức chịu đựng do blog cộng đồng phù hợp hơn với trang [web động](https://gleads.vn/vi/blog/web-tinh-va-web-dong)!   
+> Mình không khuyến khích mở hoàn toàn trang blog của bạn cho mọi người mà không có kiểm soát, vì nó sẽ làm mất đi **bản chất của blog cá nhân** và hạ tầng chứa **trang web tĩnh** trên Internet sẽ không đủ sức chịu đựng do blog cộng đồng phù hợp hơn với trang [web động](https://gleads.vn/vi/blog/web-tinh-va-web-dong)!   
 
 #### Cài đặt tính năng
 1. Tạo các file sau ở đúng vị trí trong kho chứa Github của bạn:
@@ -181,11 +181,11 @@ Về lý thuyết thì bạn đang tạo ra trang blog cá nhân, tức chỉ m�
 3. Thêm 2 dòng sau vào [`quartz/components/index.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/index.ts) 
 
 ```ts {2,6}
-// các import khác
+// other imports
 import EditThisPage from "./EditThisPage"
 
 export {
-	// các export khác
+	// other exports
 	EditThisPage,
 }
 ```
@@ -201,7 +201,43 @@ export {
 - Tùy chỉnh ngôn ngữ hiển thị: tham khảo [`quartz/i18n/locales/definition.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/i18n/locales/definition.ts) và [`quartz/i18n/locales/en-US.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/i18n/locales/en-US.ts)
 
 ### Danh sách cộng tác viên
+Trong hệ thống blog có nhiều người tham gia cộng tác, việc ghi danh các cộng tác viên giúp bài viết tăng độ uy tín và tôn trọng quyền sáng tạo nội dung của các tác giả, người đọc có thể xem nhanh hồ sơ cá nhân và theo dõi các hoạt động của họ trên Github nếu muốn. Thậm chí là biết được lịch sử từng thay đổi của bài viết qua biểu tượng <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-clock-icon lucide-file-clock"><path d="M16 22h2a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v2.85"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M8 14v2.2l1.6 1"/><circle cx="8" cy="16" r="6"/></svg>
 
+#### Cài đặt tính năng
+1. Tạo các file sau ở đúng vị trí trong kho chứa Github của bạn:
+	- [`quartz/components/GitHubContributors.tsx`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/GitHubContributors.tsx)
+	- [`quartz/components/styles/githubContributors.scss`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/styles/githubContributors.scss)
+	- [`quartz/components/scripts/githubContributors.inline.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/scripts/githubContributors.inline.ts)
+
+2. Thêm 2 dòng sau vào [`quartz/components/index.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/components/index.ts) 
+
+```ts {2,6}
+// other imports
+import GitHubContributors from "./GitHubContributors"
+
+export {
+	// other exports
+	GitHubContributors,
+}
+```
+
+3. Bật tính năng này bằng cách thêm đoạn mã sau vào [`quartz.layout.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz.layout.ts) với cấu hình tùy chọn mà bạn muốn. Ví dụ:
+
+```ts
+Component.GitHubContributors({
+      owner: "PhDoanh", // your username of Github Account
+      repo: "demo", // your repository name of blog site
+      title: "Co-Authors", // Title for the contributors section, default: "Contributors"
+      limit: 20, // Maximum number of contributors to display, default: 10
+})
+```
+
+#### Tùy biến tính năng
+- Component: `quartz/components/GitHubContributors.tsx`
+- Style: `quartz/components/styles/githubContributors.scss`
+- Script: `quartz/components/scripts/githubContributors.inline.ts`
+- Vô hiệu hóa: Xóa tất cả những nơi sử dụng `Component.GitHubContributors()` trong `quartz.layout.ts`
+- Tùy chỉnh ngôn ngữ hiển thị: tham khảo [`quartz/i18n/locales/definition.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/i18n/locales/definition.ts) và [`quartz/i18n/locales/en-US.ts`](https://github.com/PhDoanh/blog/blob/v4/quartz/i18n/locales/en-US.ts)
 
 ### Cuộn lên đầu trang
 Đối với hầu hết thiết bị di động, bạn buộc phải cuộn trang bằng cách vuốt lên/xuống màn hình. Điều này đôi khi khiến người dùng khó chịu khi họ muốn cuộn lên đầu trang mà bài viết thì lại quá dài. Giải pháp là sử dụng một nút điều hướng sẵn sàng ngay khi họ có ý định cuộn lên đầu trang.
@@ -228,11 +264,5 @@ export {
 - Component + Style + Script: `quartz/components/MediaShare.tsx`
 - Vô hiệu hóa: Xóa tất cả những nơi sử dụng `Component.BackToTop()` trong `quartz.layout.ts`
 
-## Kết nối tới CMS
-**CMS** là hệ thống phần mềm giúp bạn dễ dàng **quản lý nội dung số** như văn bản, hình ảnh, video thông qua giao diện web mà không cần code nhiều. Nó tích hợp cả backend (nơi lưu trữ, xử lý nội dung) và frontend (nơi hiển thị nội dung) trong cùng một hệ thống. Hướng dẫn này sẽ dựa trên giải pháp mình đã chọn là [Static CMS](https://staticcms.org/). 
-
-
 ## Lời kết 🎉
 Toàn bộ bài viết đã gói gọn quá trình hiện thực hóa ý tưởng xây dựng trang blog chỉ từ **0 đồng!** Trên thực tế, website cần rất nhiều yếu tố để vận hành. Do đó cũng phát sinh rất nhiều chi phí đi kèm. Mà cái gì miễn phí thì cũng có nhược điểm của riêng nó, nhưng ít nhất nó đủ để đáp ứng yêu cầu của một trang blog cá nhân dùng đến suốt đời!
-
-[^1]: web tĩnh: ...
