@@ -16,5 +16,5 @@ Trình độ này dành cho những người mới bắt đầu làm quen với 
 
 <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px">
   <span></span>
-  <span><a href="/blog/tags/Intermediate" class="internal tag-link">Intermediate</a> ❯</span>
+  <span><a href="Intermediate" class="internal tag-link">Intermediate</a> ❯</span>
 </div>

@@ -20,9 +20,9 @@ socialImage: ""
 
 <!-- tabulator -->
 
-| Col1   | Col2    | Col3  | Col4    | Col5     |
-| ------ | ------- | ----- | ------- | -------- |
-| Cell1  | Cell2   | Cell3 | `123`   |          |
-| "bruh" | Cell2.1 |       | Cell4.1 | **true** |
+| Col1   | Col2                  | Col3                     | Col4    | Col5     |
+| ------ | --------------------- | ------------------------ | ------- | -------- |
+| Cell1  | Cell2                 | This is also a long text | `123`   |          |
+| "bruh" | ==This is long text== | *OMG*                    | Cell4.1 | **true** |
 
 hello bruh
