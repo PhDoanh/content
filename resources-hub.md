@@ -7,7 +7,6 @@ publish: true
 updated: 2026-02-10
 tags:
   - explorable
-  - Beginner
 aliases:
   - 
 cssclasses:
@@ -15,20 +14,12 @@ cssclasses:
 socialDescription:
 socialImage: ""
 ---
-Đây là nơi tổng hợp các tài nguyên hữu ích mà mình đã, đang, hoặc tò mò trải nghiệm trong quá trình học và làm việc thực tế, mục tiêu của . Trong đó:
-- **Level**: độ khó tài nguyên nhắm tới
-- **Topic**: lĩnh vực kỹ thuật liên quan
-- **Type**: dạng tài nguyên (Tool, Course, Docs, Book...)
-- **My Verdict**: nhận xét ngắn từ trải nghiệm cá nhân
-- **My Status**: `Done` / `In Progress` / `Planned`
-- **Free?**: miễn phí hoàn toàn hay có phần trả phí
-- Trên mobile, một số cột phụ bị ẩn — bấm **+** ở đầu hàng để xem đầy đủ
-- Dùng ô lọc ngay dưới tiêu đề cột để tìm nhanh theo topic, level, hoặc ngôn ngữ
+Tổng hợp những tài nguyên IT mà mình thấy đáng dùng trong quá trình học và làm (đã thử, đang dùng, hoặc đang để mắt tới). Mỗi tài nguyên đi kèm với trình độ sử dụng (Level), chủ đề kỹ thuật liên quan (Topic), kiểu tài nguyên (Type), nhận xét cá nhân (My Verdict), ... Bấm + để xem thêm thông tin và dùng ô lọc để tìm nhanh theo nhu cầu.
 
-Nếu bạn biết tài nguyên hữu ích nào khác, để lại gợi ý ở phần bình luận — tôi sẽ xem xét và trải nghiệm trước khi đưa vào danh sách.
+<em>P/s: Nếu muốn đề xuất thêm tài nguyên nào khác, hãy gửi trong phần <a href="#comment-box">bình luận</a></em> 👇
 
 <!-- tabulator-resources-hub -->
 
-| Title                             | Description | Type | Topic                                  | Level     | My Verdict                                      | Free? | Language | My Status | Source/Author |
-| --------------------------------- | ----------- | ---- | -------------------------------------- | --------- | ----------------------------------------------- | ----- | -------- | --------- | ------------- |
-| [roadmap.sh](https://roadmap.sh/) |             | Tool | #web-development #fullstack #ai-driven | #Beginner | Dùng để định hướng, không dùng để học từng bước | Yes   | English  | Done      | (link)        |
+| Title                             | Description                                                                                               | Type | Topic                                  | Level     | My Verdict                                      | Free? | Language | My Status | Source/Author                             |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------- | ---- | -------------------------------------- | --------- | ----------------------------------------------- | ----- | -------- | --------- | ----------------------------------------- |
+| [roadmap.sh](https://roadmap.sh/) | Cung cấp lộ trình kỹ năng và nghề nghiệp rõ ràng cho nhiều vai trò như Frontend, Backend, DevOps, AI, UX… | Tool | #web-development #fullstack #ai-driven | #Beginner | Dùng để định hướng, không dùng để học từng bước | Yes   | English  | Done      | [Kamran Ahmed](https://kamranahmed.info/) |

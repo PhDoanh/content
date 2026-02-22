@@ -7,7 +7,6 @@ publish: true
 updated: 2026-02-21
 tags:
   - explorable
-  - Beginner
 aliases:
 cssclasses:
   - img
