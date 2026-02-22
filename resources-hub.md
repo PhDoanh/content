@@ -21,5 +21,5 @@ Resources Hub là nơi tập hợp các tài nguyên IT được tuyển chọn 
 
 | Title                                  | Description | Type | Topic                                  | Level     | My Verdict                                      | Free? | Language           | My Status   | Source/Author |
 | -------------------------------------- | ----------- | ---- | -------------------------------------- | --------- | ----------------------------------------------- | ----- | ------------------ | ----------- | ------------- |
-| [roadmap.sh](https://roadmap.sh/)      |             | Tool | #web-development #fullstack #ai-driven | #Beginner | Dùng để định hướng, không dùng để học từng bước | Yes   | English            | Done        |               |
-| [JLPT sensei](https://jlptsensei.com/) |             | Tool | #japanese-grammar                      | #Beginner | Ôn ngữ pháp nhanh, có bảng tra N5–N2            | Yes   | Japanese / English | In Progress |               |
+| [roadmap.sh](https://roadmap.sh/)      |             | Tool | #web-development #fullstack #ai-driven | #Beginner | Dùng để định hướng, không dùng để học từng bước | Yes   | English            | Done        | (link)              |
+| [JLPT sensei](https://jlptsensei.com/) |             | Tool | #japanese-grammar                      | #Beginner | Ôn ngữ pháp nhanh, có bảng tra N5–N2            | Yes   | Japanese / English | In Progress |   (link)            |
