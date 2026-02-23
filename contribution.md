@@ -81,7 +81,7 @@ Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự 
 - [ ] Thêm emoji để tạo điểm nhấn thị giác nhưng không lạm dụng. Những vị trí lý tưởng để đặt emoji: sau tiêu đề H2, cuối đoạn văn, đầu danh sách.   
 - [ ] Hoàn thiện các trường thông tin tùy chọn trong giao diện chỉnh sửa bài viết 
 - [ ] Gắn thẻ trình độ bài viết để xác định đối tượng đọc phù hợp như bài viết hiện tại. Các thẻ được chấp nhận: `#Beginner` `#Intermediate` `#Advanced` `#Expert`   
-- [ ] Tận dụng AI với tư cách là trợ lý biên tập viên theo nguyên tắc [[GenAI|"Human-in-the-Loop"]]
+- [ ] Tận dụng AI với tư cách là trợ lý biên tập viên theo nguyên tắc [[GenAI|Human-in-the-Loop]]
 
 > [!warning] Cảnh báo
 > Tất cả các bài viết đóng góp đều sẽ được sàng lọc kỹ càng bởi người kiểm duyệt, nên hãy đảm bảo các nguyên tắc bắt buộc được đáp ứng đầy đủ trong điều kiện cho phép, đặc biệt là trung thực, minh bạch và có trách nhiệm với nội dung do AI hỗ trợ.
