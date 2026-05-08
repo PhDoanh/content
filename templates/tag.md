@@ -8,7 +8,6 @@ comments: false
 aliases:
   - 
 cssclasses:
-  - img
 socialDescription: "{3: OG description (~100 chars)}"
 socialImage: ""
 ---
