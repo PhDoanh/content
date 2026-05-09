@@ -13,7 +13,7 @@ cssclasses:
 socialImage: og-image.png
 ---
 
-Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự đóng góp từ những *Techie* khác với mục đích cung cấp/cải thiện bài viết theo **định hướng phát triển của blog**. Hướng dẫn này không phù hợp nếu bạn muốn [[build-your-own-blog-site|xây dựng khu vườn của riêng mình]] (chứa những bài viết không liên quan đến định hướng của blog). 
+Từ *Open* trong [[index|Open-garden for Techies]] nghĩa là chào đón sự đóng góp từ những *Techie* khác với mục đích cung cấp/cải thiện bài viết theo **định hướng phát triển của blog**. Hướng dẫn này không phù hợp nếu bạn muốn [[beyond-code/obsidian-to-blog|xây dựng khu vườn của riêng mình]] (chứa những bài viết không liên quan đến định hướng của blog). 
 
 ## Điều kiện đóng góp ⚖️
 - Tuân thủ [[contribution#Nguyên tắc viết bài 📜|nguyên tắc viết bài]]
