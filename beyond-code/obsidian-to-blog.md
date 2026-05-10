@@ -299,4 +299,4 @@ export {
 
 Tôi không chọn Quartz vì feature list dài nhất. Tôi chọn nó vì kiến trúc của nó được thiết kế để không lock-in tôi vào bất kỳ quyết định nào hôm nay. Và mỗi lần tôi thêm một tính năng nhỏ (như Edit This Page), tôi lại va vào câu hỏi lớn hơn về triết lý thiết kế của chính mình.
 
-Nếu bạn đang ở điểm xuất phát tương tự, câu hỏi quan trọng không phải *"tool này có tính năng X không?"* - mà là *"một năm nữa, tool này có còn phù hợp với hướng mình đang đi không?"*
+Nếu bạn đang ở điểm xuất phát tương tự, câu hỏi quan trọng không phải *"tool này có tính năng X không?"* - mà là *"vài năm nữa, tool này có còn phù hợp với hướng mình đang đi không?"*
