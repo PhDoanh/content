@@ -1,6 +1,6 @@
 ---
 title: Open-garden for Techies
-description: Tại khu vườn này, mình đã vun trồng một số thứ về Fullstack, Tự động hóa và phát triển định hướng AI. Hãy tới tham quan và đóng góp "cây trồng" bất cứ lúc nào nhé!
+description: Tại khu vườn này, tôi đã vun trồng một số thứ về Fullstack, Tự động hóa và phát triển định hướng AI. Hãy tới tham quan và đóng góp "cây trồng" bất cứ lúc nào nhé!
 permalink:
 lang: vi
 publish: true
@@ -17,7 +17,7 @@ socialImage: og-image.png
 >
 >*-- Oxford English Dictionary*
 
-Chào mừng đến với khu vườn kỹ thuật số của [Doanh](https://github.com/PhDoanh), nơi bạn có thể khám phá những nhánh phát triển trong ngành IT hiện đại mà mình đang theo đuổi:
+Chào mừng đến với khu vườn kỹ thuật số của [Doanh](https://github.com/PhDoanh), nơi bạn có thể khám phá những nhánh phát triển trong ngành IT hiện đại mà tôi đang theo đuổi:
 - [[fullstack|Fullstack]]: làm việc với nhiều mảng kiến thức để tạo ra một sản phẩm phần mềm hoàn chỉnh (chủ yếu là web)
 - [[automation|Tự động hóa]]: tăng tốc, giảm lỗi, tối ưu quy trình (không chỉ trong công việc).
 - [[ai-driven|Phát triển định hướng AI]]: ứng dụng trí tuệ nhân tạo để tạo sản phẩm thông minh và hỗ trợ phát triển.

@@ -3,7 +3,7 @@ title: Tôi chọn tool như thế nào để biến Obsidian Vault thành Web B
 description: Đây là hành trình loại trừ lựa chọn, nhật ký thất bại khi phát triển tính năng, và bài học về việc chọn tool theo chiến lược dài hạn.
 permalink: ""
 lang: vi
-publish: false
+publish: true
 updated: 2026-05-09
 tags:
   - explorable

@@ -1,6 +1,6 @@
 ---
 title: Trang tài nguyên IT tuyển chọn
-description: Khám phá bộ sưu tập cá nhân đã giúp mình đơn giản hóa quy trình làm việc xuống chỉ còn ăn và ngủ =))
+description: Khám phá bộ sưu tập cá nhân đã giúp tôi đơn giản hóa quy trình làm việc xuống chỉ còn ăn và ngủ =))
 permalink: ""
 lang: vi
 publish: true
@@ -14,7 +14,7 @@ cssclasses:
 socialDescription:
 socialImage: ""
 ---
-Tổng hợp những tài nguyên IT mà mình thấy đáng dùng trong quá trình học và làm (đã thử, đang dùng, hoặc đang để mắt tới). Mỗi tài nguyên đi kèm với trình độ sử dụng (Level), chủ đề kỹ thuật liên quan (Topic), kiểu tài nguyên (Type), nhận xét cá nhân (My Verdict), ... Bấm + để xem thêm thông tin và dùng ô lọc để tìm nhanh theo nhu cầu.
+Tổng hợp những tài nguyên IT mà tôi thấy đáng dùng trong quá trình học và làm (đã thử, đang dùng, hoặc đang để mắt tới). Mỗi tài nguyên đi kèm với trình độ sử dụng (Level), chủ đề kỹ thuật liên quan (Topic), kiểu tài nguyên (Type), nhận xét cá nhân (My Verdict), ... Bấm + để xem thêm thông tin và dùng ô lọc để tìm nhanh theo nhu cầu.
 
 <em>P/s: Nếu muốn đề xuất thêm tài nguyên nào khác, hãy gửi trong phần <a href="#comment-box">bình luận</a></em> 👇
 
