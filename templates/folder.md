@@ -14,7 +14,4 @@ cssclasses:
 socialDescription: "{3: OG description (~100 chars)}"
 socialImage: ""
 ---
-
-{4: related tags as bullets (skip #)}
-
-{5: main content}
+{4: main content}
