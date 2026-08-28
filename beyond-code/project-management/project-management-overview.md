@@ -1,6 +1,5 @@
 ---
-
-publish: true
+publish: false
 title: Tổng quan về quản lý dự án
 description:
 tags:

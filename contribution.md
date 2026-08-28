@@ -105,3 +105,4 @@ Giao diện xem trước trên hệ thống quản lý bài viết có đôi ch�
 > - **Tags**: Các từ khóa liên quan đến chủ đề bài viết. Giúp bài dễ được tìm thấy hơn khi người dùng tìm kiếm những chủ đề đó.
 > - **Social Description**: Mô tả hiển thị khi bài được chia sẻ lên mạng xã hội. Có thể khác với Description để phù hợp hơn với từng nền tảng.
 > - **Social Image**: Ảnh thumbnail hiển thị khi bài được chia sẻ lên mạng xã hội. Ảnh bắt mắt giúp tăng tỉ lệ người nhấn vào đọc bài.
+ 

@@ -1,6 +1,5 @@
 ---
-
-publish: true
+publish: false
 title: Quản lý dự án trong bối cảnh của tổ chức
 description:
 tags:
