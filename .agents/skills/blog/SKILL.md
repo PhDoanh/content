@@ -1,7 +1,6 @@
 ---
 name: blog
 description: Orchestrates the full blog pipeline research → outline → write (+humanizer) → verify, pausing before publish. Use when user says "/blog", "run full blog pipeline", "produce post end-to-end".
-allowed-tools: Read, Glob, Grep, Bash
 ---
 
 # blog — Full Pipeline Orchestrator
@@ -13,7 +12,7 @@ Runs inside `content` vault (`cwd = content`). All stages are read-only vs `pers
 - `claude-obsidian` `wiki-query/SKILL.md: Retrieve` (`wiki/hot.md` → `wiki-retrieve` BM25 contextual if `python3 "$RETRIEVE" --vault "$VAULT" --verify` verified, else `wiki/index.md` + text search) + `Assess evidence` (claim-ledger `accepted/provisional/contested/unsupported`)
 - `claude-obsidian` `autoresearch/SKILL.md:94` Topic Selection A/B/C
 - `claude-blog` `skills/blog-write/SKILL.md: Phase 0-7` and `blog-delivery-contract.md` 5 gates (here lite: gate 4 ≥90 + zero P0 only)
-- `blog-config.json` at vault root (3 cores: Fullstack/Automation/AI-Driven)
+- `blog-config.json` at vault root
 
 ## Workflow
 

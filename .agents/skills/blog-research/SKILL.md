@@ -1,12 +1,11 @@
 ---
 name: blog-research
 description: Collects ideas, keywords and references from personal-wiki (whole wiki/ primary, vault-first) via wiki-query, SERP via blog-cluster only for 3 cores. Use when user says "/blog-research", "research wiki for post", "collect ideas and references".
-allowed-tools: Read, Glob, Grep, Bash
 ---
 
 # blog-research — Vault-First Research
 
-Runs inside `content` vault. Primary source is `personal-wiki` whole `wiki/` (not just `wiki/resources/concepts/`). No web search here; `blog-write` will handle web stats/images later (Q-R-4).
+Runs inside `content` vault. Primary source is `personal-wiki` whole `wiki/`.
 
 ## References (verbatim reuse)
 
@@ -18,10 +17,10 @@ Runs inside `content` vault. Primary source is `personal-wiki` whole `wiki/` (no
 
 ## Workflow
 
-1. Resolve vault: `VAULT="${WIKI_PATH:-/mnt/d/phdoanh/personal-wiki}"` from `AGENTS.md`.
+1. Resolve vault: `VAULT="${WIKI_PATH:-/mnt/d/phdoanh/personal-wiki}"`.
 2. Reuse deterministic filters: `python3 .agents/skills/blog-research/scripts/scan_candidates.py --vault "$VAULT"` → `python3 .agents/skills/blog-research/scripts/cluster_graph.py --config blog-config.json` (undirected `related:` graph, connected components, `min_cluster_notes/words` gate).
 3. Deep evidence read: for top candidate cluster, run `wiki-query` Deep semantics (read `wiki/hot.md` → `wiki-retrieve` if verified else `wiki/index.md` → candidate pages + `claim-ledger.json` + depth-2 wikilinks).
-4. If topic is within 3 cores (Fullstack/Automation/AI-Driven per `AGENTS.md` mapping Q-R-3), optionally run `blog-cluster plan <seed>` as library to expand SERP keywords, but **do not** write cluster files; merge SERP overlap signal into report only.
+4. If topic is within 3 cores (Fullstack/Automation/AI-Driven), optionally run `blog-cluster plan <seed>` as library to expand SERP keywords, but **do not** write cluster files; merge SERP overlap signal into report only.
 5. Decide label `marketing-first (core name)` | `digital-garden` | `chưa chín`, with reason.
 6. Write `reports/research-report-{YYYYMMDD-HHmmss}.json` (keep 3 then prune, oldest deleted) with fields `topic, timestamp, label, core, cluster_notes[ {path,title,word_count,tags,status} ], keywords[primary+secondary], references[ {claim, source, url, tier, ledger_status} ], research_report json`; also print human summary in session (no separate human file).
 7. Garden branch: omit SERP keyword block.

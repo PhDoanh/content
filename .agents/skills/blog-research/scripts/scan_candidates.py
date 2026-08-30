@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 """
-scan_candidates.py — blog-research Step 1 (vault-first, deterministic).
-
-Inherited verbatim logic from personal-wiki/skills/blog/scripts/scan_candidates.py
-but adapted for content vault:
-- Reads WIKI_PATH (absolute, from AGENTS.md, default /mnt/d/phdoanh/personal-wiki)
+- Reads WIKI_PATH (absolute, default /mnt/d/phdoanh/personal-wiki)
 - Loads content/blog-config.json (vault root) for source_scope/research thresholds
-- Scans wiki/ (whole wiki/ per Q-R-1), not just wiki/resources/concepts/
+- Scans wiki/
 - No LLM calls
 
 Reuses claude-obsidian wiki-query Assess evidence (claim-ledger) later in research step.

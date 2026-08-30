@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 """
-cluster_graph.py — blog-research Step 2a (deterministic, inherited verbatim
-from personal-wiki/skills/blog/scripts/cluster_graph.py).
-
 Builds undirected graph from each note's `related` wikilinks (populated by
 wiki-ingest, no invention), computes connected components restricted to
 candidate set, filters by min_cluster_notes/min_cluster_words from

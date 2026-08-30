@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 """
-finalize_outline.py — deterministic post-skeleton helper for blog-outline.
-
-Adapted from personal-wiki/skills/blog/scripts/finalize_draft.py but
-PERMANENTLY REMOVED permalink auto-generation (Q3 manual).
-Sets `updated` to today, validates lang vs body char distribution,
+finalize_outline.py — Sets `updated` to today, validates lang vs body char distribution,
 trusts `publish: false`.
 
 Usage:

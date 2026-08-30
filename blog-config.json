@@ -34,13 +34,12 @@
   },
   "research": {
     "source_scope": ["wiki/"],
-    "mode": "wiki-only",
-    "web_supplementary": false,
-    "serp_only_for_cores": true,
     "min_wikilinks": 2,
     "min_cluster_notes": 3,
     "min_cluster_words": 800,
-    "transient_tag_blocklist": ["news", "changelog", "wip", "todo", "draft"]
+    "transient_tag_blocklist": ["news", "changelog", "wip", "todo", "draft"],
+    "report_dir": "skills/blog-research/reports",
+    "keep_reports": 3
   },
   "outline": {
     "word_count_target": [1500, 3000],
@@ -69,30 +68,17 @@
     "score_threshold": 90,
     "require_zero_p0": true,
     "report_dir": "skills/blog-verify/reports",
-    "report_prefix": "verify-report-",
     "keep_reports": 3,
     "lite": true,
     "muted_gates": ["hero", "pdf", "visual"],
     "active_gates": ["content_review", "link_integrity"],
     "skip_wiki_lint": true
   },
-  "research_report": {
-    "report_dir": "skills/blog-research/reports",
-    "report_prefix": "research-report-",
-    "keep_reports": 3
-  },
   "publish": {
     "explicit_only": true,
     "bump_updated": true,
     "commit_message_template": "feat(blog): add draft \"{title}\"",
-    "target_account_env": "GH_BLOG_ACCOUNT",
     "default_branch": "main",
     "method": "native_git"
-  },
-  "content_repo": {
-    "owner": "PhDoanh",
-    "name": "content",
-    "default_branch": "main",
-    "template_path": "templates/article.md"
   }
 }

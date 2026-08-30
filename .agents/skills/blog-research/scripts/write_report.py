@@ -13,7 +13,7 @@ def main():
     ap.add_argument("--report-dir", default=None)
     args = ap.parse_args()
     cfg = json.load(open(args.config, encoding="utf-8")) if os.path.isfile(args.config) else {}
-    r_cfg = cfg.get("research_report", {})
+    r_cfg = cfg.get("research", {})
     report_dir = args.report_dir or r_cfg.get("report_dir", "skills/blog-research/reports")
     content_root = os.getcwd()
     abs_dir = report_dir if os.path.isabs(report_dir) else os.path.join(content_root, ".agents", report_dir) if not report_dir.startswith(".agents") and not os.path.isdir(os.path.join(content_root, report_dir)) else os.path.join(content_root, report_dir)
