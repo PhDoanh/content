@@ -6,3 +6,6 @@
 _infio_prompts/*
 
 private/*
+# pipeline reports — keep 3 then prune, never publish
+.agents/skills/*/reports/
+skills/*/reports/

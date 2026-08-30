@@ -1,0 +1,98 @@
+{
+  "version": 2,
+  "description": "Centralized config for content 6-stage pipeline. Vault root = content. Edit freely; skills read at runtime.",
+  "vault": {
+    "wiki_path_env": "WIKI_PATH",
+    "wiki_path_default": "/mnt/d/phdoanh/personal-wiki",
+    "content_path": "."
+  },
+  "cores": [
+    {
+      "name": "Fullstack Development",
+      "tag": "fullstack",
+      "subs": ["system-foundations", "best-practices"]
+    },
+    {
+      "name": "Automation",
+      "tag": "automation",
+      "subs": ["automation", "best-practices/automation"]
+    },
+    {
+      "name": "AI-Driven Development",
+      "tag": "ai-driven",
+      "subs": ["ai-orchestration", "ai-orchestration/agentic-workflows"]
+    }
+  ],
+  "garden": {
+    "folder": "beyond-code",
+    "tag": "beyond-code"
+  },
+  "taxonomy": {
+    "level_tags": ["Beginner", "Intermediate", "Advanced", "Expert"],
+    "always_add": ["GenAI"],
+    "subclusters": ["ai-orchestration", "best-practices", "system-foundations", "beyond-code"]
+  },
+  "research": {
+    "source_scope": ["wiki/"],
+    "mode": "wiki-only",
+    "web_supplementary": false,
+    "serp_only_for_cores": true,
+    "min_wikilinks": 2,
+    "min_cluster_notes": 3,
+    "min_cluster_words": 800,
+    "transient_tag_blocklist": ["news", "changelog", "wip", "todo", "draft"]
+  },
+  "outline": {
+    "word_count_target": [1500, 3000],
+    "h2_count_core": [6, 8],
+    "h2_count_garden": [4, 6],
+    "per_h2_words": [300, 400],
+    "slug_max_words": 4,
+    "faq_core": [3, 5],
+    "faq_garden": 0,
+    "internal_links_core": [5, 10],
+    "internal_links_garden": [2, 3],
+    "respect_template": true,
+    "template_path": "templates/article.md"
+  },
+  "write": {
+    "default_lang": "vi",
+    "flesch": [60, 70],
+    "heading_rule": "H1->H2->H3 no skip",
+    "skip_chart": true,
+    "auto_humanizer": true,
+    "youtube_videos": [2, 3],
+    "internal_link_distribution": "spread"
+  },
+  "verify": {
+    "gating": "blocking",
+    "score_threshold": 90,
+    "require_zero_p0": true,
+    "report_dir": "skills/blog-verify/reports",
+    "report_prefix": "verify-report-",
+    "keep_reports": 3,
+    "lite": true,
+    "muted_gates": ["hero", "pdf", "visual"],
+    "active_gates": ["content_review", "link_integrity"],
+    "skip_wiki_lint": true
+  },
+  "research_report": {
+    "report_dir": "skills/blog-research/reports",
+    "report_prefix": "research-report-",
+    "keep_reports": 3
+  },
+  "publish": {
+    "explicit_only": true,
+    "bump_updated": true,
+    "commit_message_template": "feat(blog): add draft \"{title}\"",
+    "target_account_env": "GH_BLOG_ACCOUNT",
+    "default_branch": "main",
+    "method": "native_git"
+  },
+  "content_repo": {
+    "owner": "PhDoanh",
+    "name": "content",
+    "default_branch": "main",
+    "template_path": "templates/article.md"
+  }
+}
