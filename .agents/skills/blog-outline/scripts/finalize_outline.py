@@ -47,7 +47,7 @@ def main():
     declared = lang_m.group(1) if lang_m else default_lang
     ratios = lang_ratios(body)
     dominant = max(ratios, key=ratios.get)
-    thresh = cfg.get("write", {}).get("lang_char_ratio_warn_threshold", cfg.get("lang_char_ratio_warn_threshold", 0.3))
+    thresh = cfg.get("write", {}).get("lang_char_ratio_warn_threshold", 0.3)  # blog-config.json:write.lang_char_ratio_warn_threshold
     if dominant != declared and ratios[dominant] > thresh:
         print(f"WARNING: declared lang='{declared}' but content seems '{dominant}' (~{ratios[dominant]:.0%})", file=sys.stderr)
     # permalink is MANUAL per Q3 — do not touch, just ensure it exists empty if missing

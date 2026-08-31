@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Fallback: if related graph yields < min_cluster_notes, caller may try python3 "$WIKI_PATH/scripts/retrieve.py" --top 5 for semantic fallback (wiki-retrieve synthetic, 619 chunks).
+
 Builds undirected graph from each note's `related` wikilinks (populated by
 wiki-ingest, no invention), computes connected components restricted to
 candidate set, filters by min_cluster_notes/min_cluster_words from

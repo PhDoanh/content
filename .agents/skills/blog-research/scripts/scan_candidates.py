@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+Filesystem vault read via Glob directly on $WIKI_PATH/wiki/**/*.md (no obsidian-cli).
+
 - Reads WIKI_PATH (absolute, default /mnt/d/phdoanh/personal-wiki)
 - Loads content/blog-config.json (vault root) for source_scope/research thresholds
 - Scans wiki/
@@ -8,6 +10,7 @@
 Reuses claude-obsidian wiki-query Assess evidence (claim-ledger) later in research step.
 """
 import json, os, re, sys, glob
+# Optional: yaml.safe_load for stricter frontmatter; fallback to manual parse if PyYAML unavailable
 
 def load_config():
     # content vault root = cwd or vault param
@@ -23,7 +26,7 @@ def load_config():
                 return json.load(f), p
     raise FileNotFoundError("blog-config.json not found (tried BLOG_CONFIG, ./blog-config.json)")
 
-FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
+FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n(.*)$", re.DOTALL)
 
 def parse_frontmatter(text):
     m = FRONTMATTER_RE.match(text)

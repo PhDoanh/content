@@ -17,7 +17,7 @@ def main():
     report_dir = args.report_dir or r_cfg.get("report_dir", "skills/blog-research/reports")
     content_root = os.getcwd()
     abs_dir = report_dir if os.path.isabs(report_dir) else os.path.join(content_root, ".agents", report_dir) if not report_dir.startswith(".agents") and not os.path.isdir(os.path.join(content_root, report_dir)) else os.path.join(content_root, report_dir)
-    # normalize: if path is skills/blog-research/reports -> .agents/skills/...
+    # normalize: if path is skills/blog-research/reports -> .agents/skills/... (legacy compat; prefer blog-config.json: research.report_dir)
     if report_dir.startswith("skills/"):
         abs_dir = os.path.join(content_root, ".agents", report_dir)
     if not os.path.isdir(abs_dir):
@@ -30,7 +30,7 @@ def main():
     path = os.path.join(abs_dir, f"research-report-{ts}.json")
     open(path, "w", encoding="utf-8").write(json.dumps(data, ensure_ascii=False, indent=2))
     keep = r_cfg.get("keep_reports", 3)
-    reports = sorted(glob.glob(os.path.join(abs_dir, "research-report-*.json")))
+    reports = sorted(glob.glob(os.path.join(abs_dir, "research-report-*.json")), key=os.path.getmtime)
     if len(reports) > keep:
         for old in reports[:-keep]:
             try: os.remove(old)

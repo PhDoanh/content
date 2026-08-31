@@ -61,7 +61,8 @@
     "skip_chart": true,
     "auto_humanizer": true,
     "youtube_videos": [2, 3],
-    "internal_link_distribution": "spread"
+    "internal_link_distribution": "spread",
+    "lang_char_ratio_warn_threshold": 0.3
   },
   "verify": {
     "gating": "blocking",
