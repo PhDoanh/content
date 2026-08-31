@@ -29,6 +29,12 @@ Runs inside `content`. Emits directly to `<right-place>/<slug>.md` with `publish
 - Artifact: `<right-place>/<slug>.md` (post file is the artifact; lives in git, published later only via `blog-publish`).
 - Next: `blog-write` edits same file in-place.
 
+## Distilled Adapters (v2)
+
+- Template selection: load `../blog-shared/references/content-templates.md` + `../blog-shared/templates/*.md` (12 types) before `slugify` — see `../blog-outline-upstream/SKILL.md` for upstream SERP Step 1-5 and `../blog-brief/SKILL.md` for brief-level competitive analysis.
+- Syntax: all wikilinks/callouts/embeds must follow `../obsidian-markdown/SKILL.md` + `references/{CALLOUTS,EMBEDS,PROPERTIES}.md` (kepano canonical).
+- Web hygiene: fetch via `../defuddle-kepano/SKILL.md` (`defuddle parse --md`) before `WebFetch` headings-only fallback.
+
 ## Safety
 
 Never write to `personal-wiki`. Reports pruned via `research-report` dir; post file stays.

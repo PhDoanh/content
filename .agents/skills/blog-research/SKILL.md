@@ -30,6 +30,12 @@ Runs inside `content` vault. Primary source is `personal-wiki` whole `wiki/`.
 - Artifact: `skills/blog-research/reports/research-report-{ts}.json` (machine). Human summary is session-only.
 - Next: `blog-outline` consumes the `research-report-{ts}.json` path.
 
+## Distilled Transport Update (v2)
+
+- Preferred vault read: try `obsidian-cli` first (`obsidian vault="personal-wiki" search/query/read` per `../obsidian-cli/SKILL.md`), fallback to filesystem `Read/Grep` if Obsidian not running (per `personal-wiki/.vault-meta/transport.json: filesystem`).
+- Preferred retrieval: try `python3 "$WIKI_PATH/scripts/retrieve.py" "$QUERY" --top 5` (wiki-retrieve synthetic, 619 chunks provisioned Aug 30) before legacy `hot.md→index.md`. If `retrieve.py` exits 10 or chunks missing, fallback.
+- Preferred web cleaning: `defuddle parse <url> --md` via `../defuddle-kepano/SKILL.md` (or `../defuddle-obsidian/SKILL.md`) before `WebFetch` to strip ads/nav.
+
 ## Safety
 
 Vault is read-only: never `Write` to `$VAULT`. All writes stay inside `content/.agents/skills/blog-research/reports/`. Prune `ls -t reports/research-report-*.json | tail -n +4 | xargs rm -f`.

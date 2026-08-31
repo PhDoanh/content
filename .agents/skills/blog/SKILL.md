@@ -29,3 +29,14 @@ This skill emits **no separate artifact**; stage artifacts are the pipeline arti
 ## Report
 
 Print pipeline summary: topic, core/garden label, post path, verify BLOCKING, next step (`/blog-publish <path>` or fix loop).
+
+## Distilled Adapters (v2 — local verbatim)
+
+- `obsidian-cli` (kepano): `../obsidian-cli/SKILL.md` — primary transport `obsidian read/search`, fallback filesystem `Read/Grep` per `personal-wiki/.vault-meta/transport.json`
+- `obsidian-markdown` (kepano): `../obsidian-markdown/SKILL.md` + `references/{CALLOUTS,EMBEDS,PROPERTIES}.md` — canonical wikilink/callout/embed syntax for `blog-outline`/`blog-write` outputs
+- `defuddle` (kepano+obsidian): `../defuddle-kepano/SKILL.md` (kepano wrapper) + `../defuddle-obsidian/SKILL.md` (claude-obsidian) — both wrap `defuddle-cli`; use `defuddle parse <url> --md` before `WebFetch` to save 40-60% tokens
+- `wiki-retrieve` provisioned in `personal-wiki` via `bash bin/setup-retrieve.sh --no-llm` (619 chunks, tier synthetic) — `blog-research` should call `python3 $WIKI_PATH/scripts/retrieve.py "<query>" --top 5` before fallback to `hot.md→index.md`
+- `claude-blog` shared: `../blog-shared/references/{quality-scoring,synthesis-contract,blog-delivery-contract,content-templates,visual-media,eeat-signals,flow-alignment,internal-linking,research-quality}.md` + `templates/{12 types}.md`
+- `blog-analyze/seo-check/factcheck/geo` (claude-blog): replace `verify.py` heuristic with 5-category 100pt + 11-step SEO + tier T1-T5 fact-check + AI citation readiness
+- `blog-brief/strategy/cluster/schema/repurpose/rewrite/style/audit` — see respective `ADAPTER.md` for upstream source and role
+
