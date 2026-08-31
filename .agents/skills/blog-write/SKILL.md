@@ -19,8 +19,6 @@ Consumes outline post `<right-place>/<slug>.md` (`publish: false`) and edits it 
 
 ## References
 
-Deterministic non-custom skill invocations (abstract — call subagent via executor's task mechanism; fallback to direct Bash/WebSearch when subagent unavailable):
-
 - **Upstream phases** — `upstream blog-write Phases 0-7 (merged — see Workflow Phases 0-7 below)` (see Workflow for phase mapping). Key contracts: `../blog-shared/references/{synthesis-contract.md: 6 LAWs, quality-scoring.md: 100pt (Content30/SEO25/E-E-A-T15/Technical15/AI15), eeat-signals.md, visual-media.md, flow-alignment.md, internal-linking.md, content-rules.md, cta-placement.md}` + `../blog-shared/templates/*.md` (12 types: see `../blog-shared/references/content-templates.md`).
 - **Template selection** — `../blog-shared/references/content-templates.md` signal table (`how-to-guide|listicle|case-study|comparison|pillar-page|product-review|thought-leadership|roundup|tutorial|news-analysis|data-research|faq-knowledge`) — call subagent with `upstream blog-write Phase 1.5 (Template Selection, merged)`. Adapt outline to `templates/article.md` frontmatter (`title, description, permalink, lang, publish, updated, tags, aliases, cssclasses, socialDescription, socialImage`).
 - **Syntax** — `../obsidian-markdown/SKILL.md` + `references/{CALLOUTS,EMBEDS,PROPERTIES}.md` for `[[wikilink]]`, `![[embed]]`, callouts.

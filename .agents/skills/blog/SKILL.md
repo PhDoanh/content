@@ -18,10 +18,8 @@ Runs inside `content` vault (`cwd = content`). All stages are read-only vs `pers
 
 ## References
 
-Deterministic non-custom skill invocations (abstract — call subagent via executor's task mechanism):
-
-- **Vault read** — filesystem via `Read/Grep/Glob` directly on `$WIKI_PATH/wiki/**/*.md`. No obsidian-cli.
-- **Retrieval** — call subagent with `wiki-retrieve` if `python3 "$WIKI_PATH/scripts/retrieve.py" --vault "$WIKI_PATH" --verify` succeeds (619 chunks, synthetic tier provisioned Aug 30); fallback to `wiki/hot.md → wiki/index.md + text search`. Evidence assessment via `../blog-shared/references/synthesis-contract.md: 6 LAWs` + `claim-ledger` (`accepted/provisional/contested/unsupported`) if `wiki/meta/ledgers/claim-ledger.json` present.
+- **Vault read** — filesystem via `Read/Grep/Glob` directly on `$WIKI_PATH/wiki/**/*.md`.
+- **Retrieval** — call subagent with `wiki-retrieve` if `python3 "$WIKI_PATH/scripts/retrieve.py" --vault "$WIKI_PATH" --verify` succeeds; fallback to `wiki/hot.md → wiki/index.md + text search`. Evidence assessment via `../blog-shared/references/synthesis-contract.md: 6 LAWs` + `claim-ledger` (`accepted/provisional/contested/unsupported`) if `wiki/meta/ledgers/claim-ledger.json` present.
 - **Synthesis & quality** — `../blog-shared/references/{quality-scoring.md: 100pt (Content30/SEO25/E-E-A-T15/Technical15/AI15), blog-delivery-contract.md: Gate 4 (≥90 AND zero P0 → BLOCKING true/false, max 3 iterations), synthesis-contract.md, flow-alignment.md}`.
 - **Pipeline stages** — call subagent for each: `blog-research` → `blog-outline` → `blog-write` → `blog-verify`. Never call `blog-publish` (explicit-only per `blog-config.json: publish.explicit_only:true`).
 - **Syntax & egress** — `../obsidian-markdown/SKILL.md` for `[[wikilink]]`/`![[embed]]`/callouts; `../defuddle/SKILL.md` (`defuddle parse <url> --md`) before any `WebFetch` to strip ads/nav; `../blog-shared/templates/*.md` (12 types) for template selection.

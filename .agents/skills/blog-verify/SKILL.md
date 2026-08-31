@@ -18,8 +18,6 @@ Runs inside `content` on post path. Lite delivery contract (no hero/pdf/visual) 
 
 ## References
 
-Deterministic non-custom skill invocations (abstract — call subagent via executor's task mechanism, run in parallel where possible):
-
 - **Content quality** — call subagent with `../blog-analyze/SKILL.md` (5-category 100pt: Content30/SEO25/E-E-A-T15/Technical15/AI15, scoring bands 90-100 Exceptional, Priority Critical for fabricated stat/broken H1→H3/no attribution) — see `../blog-shared/references/quality-scoring.md` + `editorial-heuristics.md: P0`.
 - **SEO validation** — call subagent with `../blog-seo-check/SKILL.md: Step 1-11` (Read frontmatter/headers/links/meta/JSON-LD; Title Accuracy/Purpose/Distinctiveness/Truncation; Meta concise; H1 single + H1→H2→H3 no skip; Internal 3-10 descriptive, bidirectional, ≥3 inbound, dedup per-URL 1pt; External tier1-3 only, broken via URL safety, rel sponsored/ugc/nofollow, ≥3 authoritative; Canonical absolute; OG og:title/desc/image 1200x630; Twitter; URL stability/no html; Image alt; Step 11 Report).
 - **Fact-check** — call subagent with `../blog-factcheck/SKILL.md: Step 2-5` (extract load-bearing stats/policy/product/ranking claims, verify cited URL after URL safety via `../defuddle/SKILL.md: Usage --md` + `WebFetch`, tier T1→T5 reject T4/T5, echo cluster one-source, scoring 1.0 VERIFIED / 0.7-0.9 PARAPHRASE / 0.3-0.6 WEAK / 0.0 NOT FOUND / N/A UNVERIFIED) — see `../blog-shared/references/research-quality.md`.

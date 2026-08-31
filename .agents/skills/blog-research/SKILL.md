@@ -9,7 +9,7 @@ allowed-tools: Read, Grep, Glob, Bash, Task
 
 # blog-research — Vault-First Research
 
-Runs inside `content` vault. Primary source is `personal-wiki` whole `wiki/` (read-only). Vault read via filesystem directly; no obsidian-cli.
+Runs inside `content` vault. Primary source is `personal-wiki` whole `wiki/` (read-only). Vault read via filesystem directly.
 
 ## When to Use
 
@@ -18,11 +18,9 @@ Runs inside `content` vault. Primary source is `personal-wiki` whole `wiki/` (re
 
 ## References
 
-Deterministic non-custom skill invocations (abstract — call subagent via executor's task mechanism):
-
 - **Filesystem scan** — `Bash: python3 .agents/skills/blog-research/scripts/scan_candidates.py --vault "$WIKI_PATH"` (reads `blog-config.json:research`, scans `wiki/` via `Glob`, parses frontmatter, filters `transient_tag_blocklist` + `maturity_levels_eligible` + `min_wikilinks`, extracts `blog_refs` markers).
 - **Cluster graph** — `Bash: python3 .agents/skills/blog-research/scripts/cluster_graph.py --config blog-config.json` (undirected `related:` graph, connected components, `min_cluster_notes/words` gate, taxonomy majority vote, note with LLM decision prompt).
-- **Retrieval (preferred)** — call subagent with `wiki-retrieve` if `python3 "$WIKI_PATH/scripts/retrieve.py" --top 5` succeeds (synthetic, 619 chunks, vocab 13959, provisioned Aug 30) — uses `defuddle` cleaning + BM25 before fallback to `wiki/hot.md → wiki/index.md + text search`. If `retrieve.py` exits 10, fallback to legacy hot→index→drill.
+- **Retrieval (preferred)** — call subagent with `wiki-retrieve` if `python3 "$WIKI_PATH/scripts/retrieve.py" --top 5` succeeds — uses `defuddle` cleaning + BM25 before fallback to `wiki/hot.md → wiki/index.md + text search`. If `retrieve.py` exits 10, fallback to legacy hot→index→drill.
 - **Evidence assessment** — `Read: wiki/meta/ledgers/claim-ledger.json + source-ledger.json` if present (`accepted` needs fresh non-synthetic source, high-risk needs two independent, label `provisional/contested/unsupported`). Source: `../blog-shared/references/synthesis-contract.md: 6 LAWs` + `research-quality.md`.
 - **SERP (cores only, optional)** — call subagent with `../blog-cluster/SKILL.md: Step 1-3` (SERP overlap ≥4/10 = same intent, intent classification, hub-and-spoke) + `../blog-shared/references/flow-alignment.md` — only for 3 cores (Fullstack/Automation/AI-Driven), merge signal into report without writing cluster files. Garden skips SERP.
 - **Web cleaning** — `../defuddle/SKILL.md: Usage --md` (`defuddle parse <url> --md`) before any `WebFetch` to strip ads/nav, save 40-60% tokens.

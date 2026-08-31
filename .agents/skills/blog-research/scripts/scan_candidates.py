@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Filesystem vault read via Glob directly on $WIKI_PATH/wiki/**/*.md (no obsidian-cli).
+Filesystem vault read via Glob directly on $WIKI_PATH/wiki/**/*.md.
 
 - Reads WIKI_PATH (absolute, default /mnt/d/phdoanh/personal-wiki)
 - Loads content/blog-config.json (vault root) for source_scope/research thresholds
