@@ -1,7 +1,7 @@
 {
   "userName": "",
-  "permissionMode": "yolo",
-  "model": "haiku",
+  "permissionMode": "normal",
+  "model": "claude-code/muse-spark-1.2-contributor-free",
   "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -15,7 +15,9 @@
   "sharedEnvironmentVariables": "",
   "envSnippets": [],
   "customContextLimits": {},
-  "customModelAliases": {},
+  "customModelAliases": {
+    "muse-spark-1.2-contributor-free": "Muse Spark 1.2 Free"
+  },
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
@@ -31,14 +33,14 @@
       "cliPathsByHost": {},
       "loadUserSettings": true,
       "enableChrome": false,
-      "enableBangBash": false,
+      "enableBangBash": true,
       "customModels": "",
       "defaultModel": "opus",
       "lastModel": "haiku",
-      "modelEnvironmentType": "",
+      "modelEnvironmentType": "model",
       "titleModelEnvironmentType": "",
-      "environmentVariables": "",
-      "environmentHash": ""
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://opencode.ai/zen\nANTHROPIC_API_KEY=sk-K8L2hCFHIJ3S9a6q35cZdIZEPuO9Rl4ixmpSZwR70I9XGbJ1dVNCBHzwmNC5QZeA\nANTHROPIC_MODEL=muse-spark-1.2-contributor-free",
+      "environmentHash": "runtime-input:v1:278f721c31c8bee433edd011e17b998e573282e90d73098e24922436806a2952"
     },
     "codex": {
       "enabled": false,
@@ -98,7 +100,7 @@
   "settingsProvider": "claude",
   "lastSelectedChatModel": null,
   "savedProviderModel": {
-    "claude": "haiku"
+    "claude": "claude-code/muse-spark-1.2-contributor-free"
   },
   "savedProviderEffort": {
     "claude": "high"
@@ -106,7 +108,7 @@
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
-    "claude": "yolo"
+    "claude": "normal"
   },
   "pendingProviderSessionInvalidations": {},
   "lastCustomModel": "",

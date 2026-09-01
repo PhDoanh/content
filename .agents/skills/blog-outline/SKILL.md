@@ -119,7 +119,7 @@ socialDescription: "[~100 char OG description]"
 
 **Tags rule:** Tags must be 3-5 **specialized topic tags** derived from the article content (e.g. `bcrypt`, `rails-migrations`, `model-validations`). Do NOT use folder/core names as tags (e.g. do NOT use `fullstack`, `system-foundations`, `ai-orchestration` — those are nav categories, not tags). Always include `GenAI` and one level tag (`Beginner|Intermediate|Advanced|Expert`).
 
-Body skeleton structure:
+**Body skeleton structure**:
 ```markdown
 [Intro placeholder: 100-150w storytelling opener with "Tôi" grounded in author experience — personal observation or result, NOT a definition]
 
@@ -144,7 +144,7 @@ Body skeleton structure:
 
 ## Câu hỏi thường gặp ❓
 
-> [!question] [Question 1?]
+> [!question]- [Question 1?]
 > [Answer]
 ...
 
