@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1788268032024-6x7p8pvnw",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788268032193-970nlrp",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1788268032010-r0uur0q",
+      "timestamp": 1788268032010,
+      "rawDisplayText": "what topic of this post?",
+      "canonicalText": "what topic of this post?",
+      "context": {
+        "linkedContent": {
+          "path": "system-foundations/rails-model-foundations.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "8b38b942c7fd9fc517ccaf1caecedff17000f20b5eb6469b743bdbd9a4ff090c"
+    }
+  ]
+}

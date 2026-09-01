@@ -1,9 +1,9 @@
 ---
 title: "Rails Model Foundations: Migrations, Validations và bcrypt"
-description: "Khám phá Rails Model Foundations qua migrations, validations, has_secure_password với bcrypt và model tests - nền tảng ActiveRecord bền vững."
+description: Khám phá Rails Model Foundations qua migrations, validations, has_secure_password với bcrypt và model tests - nền tảng ActiveRecord bền vững.
 permalink: ""
 lang: vi
-publish: false
+publish: true
 updated: 2026-09-01
 tags:
   - GenAI
@@ -13,7 +13,7 @@ tags:
   - model-validations
   - bcrypt
   - model-testing
-socialDescription: "Rails migrations, validations và has_secure_password - nền tảng Model bền vững từ Chương 6"
+socialDescription: Rails migrations, validations và has_secure_password - nền tảng Model bền vững từ Chương 6
 ---
 
 <!-- OG image asset placeholder: /images/rails-model-foundations-1200x630.png - 1200x630 PNG required for og:image; create asset before publish (Quartz static/images) -->

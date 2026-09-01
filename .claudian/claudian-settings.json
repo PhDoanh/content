@@ -1,9 +1,9 @@
 {
   "userName": "",
-  "permissionMode": "normal",
+  "permissionMode": "yolo",
   "model": "claude-code/muse-spark-1.2-contributor-free",
   "thinkingBudget": "off",
-  "effortLevel": "high",
+  "effortLevel": "low",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationLocale": "",
@@ -103,12 +103,12 @@
     "claude": "claude-code/muse-spark-1.2-contributor-free"
   },
   "savedProviderEffort": {
-    "claude": "high"
+    "claude": "low"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
-    "claude": "normal"
+    "claude": "yolo"
   },
   "pendingProviderSessionInvalidations": {},
   "lastCustomModel": "",
