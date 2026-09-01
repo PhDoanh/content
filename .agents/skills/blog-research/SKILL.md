@@ -1,7 +1,7 @@
 ---
 name: blog-research
 description: Collects ideas, keywords and references from personal-wiki (whole wiki/ primary, vault-first) via filesystem scan + wiki-retrieve. Use when user says "/blog-research", "research wiki for post", "collect ideas and references".
-version: 2.1.0
+version: 2.2.0
 author: PhDoanh
 license: MIT
 allowed-tools: Read, Grep, Glob, Bash, Task
@@ -32,7 +32,13 @@ Runs inside `content` vault. Primary source is `personal-wiki` whole `wiki/` (re
 2. Deterministic filters — call subagent via Bash: `python3 .agents/skills/blog-research/scripts/scan_candidates.py --vault "$VAULT"` → pipe to `python3 .agents/skills/blog-research/scripts/cluster_graph.py --config blog-config.json` (undirected `related:` graph, connected components, `min_cluster_notes/words` gate).
 3. Deep evidence read — for top candidate cluster, prefer `wiki-retrieve` (`python3 "$WIKI_PATH/scripts/retrieve.py" "$QUERY" --top 5 --no-rerank --explain` if verified) else `Read: wiki/hot.md → wiki/index.md` → candidate pages + `claim-ledger.json` + depth-2 wikilinks via filesystem `Grep`.
 4. If topic is within 3 cores (Fullstack/Automation/AI-Driven), optionally call subagent with `blog-cluster plan <seed>` as library to expand SERP keywords (do not write cluster files; merge SERP overlap signal into report only).
-5. Decide label `marketing-first (core name)` | `digital-garden` | `chưa chín`, with reason (gate failures, ledger status, SERP overlap).
+5. Decide label with evergreen viability:
+   - `marketing-first (core name)` | `digital-garden` | `chưa chín` — existing labels
+   - **Evergreen check (new)**: before finalizing, assess: "Is this topic concept/principle-driven, or event/news/changelog-driven?"
+     - If concept-driven → proceed normally
+     - If event-driven (e.g. "New in MySQL 8.4", "Recent security patch in X") → label `nội dung thời sự`, print reason + suggest reformulation as evergreen angle (e.g. "How MySQL enforces CHECK constraints" instead of "MySQL 8.0.16 changelog")
+     - `nội dung thời sự` label → HARD-BOUND stop, same as `chưa chín`
+   - Reasons for label include: gate failures, ledger status, SERP overlap, evergreen viability
 6. Write `reports/research-report-{YYYYMMDD-HHmmss}.json` via `Bash: python3 .agents/skills/blog-research/scripts/write_report.py --config blog-config.json` (keep 3 then prune oldest) with fields `topic, timestamp, label, core, cluster_notes[{path,title,word_count,tags,status}], keywords[primary+secondary], references[{claim, source, url, tier, ledger_status}]`. Print human summary in session (no separate human file).
 7. Garden branch: omit SERP keyword block.
 

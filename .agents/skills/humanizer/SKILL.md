@@ -106,6 +106,46 @@ Avoiding AI patterns is only half the job. Sterile, voiceless writing is just as
 > I genuinely don't know how to feel about this one. 3 million lines of code, generated while the humans presumably slept. Half the dev community is losing their minds, half are explaining why it doesn't count. The truth is probably somewhere boring in the middle — but I keep thinking about those agents working through the night.
 
 
+## BLOG PERSONA CALIBRATION (for blog.md pipeline posts in Vietnamese)
+
+When humanizing posts from the PhDoanh blog pipeline, apply these additional passes after the standard 29-pattern cleanup. This section is specifically for `lang: vi` blog content written in the voice of "Doanh".
+
+### Persona identity
+The author is observant, speaks rarely but intentionally, and believes actions > words. Every sentence must earn its place.
+
+**Core voice rules:**
+1. **Storytelling-first openings** — H2 sections should open with a personal observation or Feynman analogy, not a definition. If any section starts with "X là Y" or "X được dùng để", rewrite to start with an observation or concrete situation instead.
+2. **"Tôi" presence** — Ensure "Tôi" appears naturally at least 3 times per 500 words. If missing or sparse, find places where first-person fits and add it. "Doanh" is used only for rare signature moments.
+3. **Paragraph compression** — Break any paragraph > 4 sentences into 2 shorter paragraphs. Short paragraphs with white space feel faster and more intentional.
+4. **No hand-holding transitions** — Remove or rewrite: "Như đã đề cập ở trên", "Tiếp theo chúng ta sẽ tìm hiểu", "Trong phần này chúng ta", "Nhìn chung", "Tóm lại ở phần này". Start the next section directly.
+5. **Observational not prescriptive** — Replace "Bạn nên X", "Mọi dev phải X", "Điều quan trọng là X" with "Tôi làm X" or just state the fact without directing the reader.
+6. **Strategic silence** — Don't explain every implication. If a code example speaks for itself, let it. Remove explanatory sentences that only restate what the code shows.
+
+### Emoji policy for blog posts (override pattern 18 for this context)
+Pattern 18 says emojis are an AI tell to remove. For this blog pipeline, **light emoji is intentional** per contribution.md. The rule:
+- Keep emoji placed AFTER H2 heading text (e.g., `## B-Tree và B+Tree 🔍`) — this is intentional visual punctuation
+- Keep emoji at END of paragraphs (sparingly, max 1 per section)
+- REMOVE emoji that appear in the middle of sentences or inside callouts
+- REMOVE clusters of multiple emoji
+- The net effect: reduce emoji noise, not eliminate emoji entirely
+
+### Charset normalization pass
+After humanizing, do a final pass to normalize all non-Vietnamese non-ASCII characters to basic charset:
+
+| Find | Replace with | Notes |
+|------|-------------|-------|
+| `"` `"` (U+201C, U+201D) | `"` | Straight double quotes |
+| `'` `'` (U+2018, U+2019) | `'` | Straight single quotes |
+| `…` (U+2026) | `...` | Three dots |
+| ` ` (U+00A0 non-breaking space) | ` ` | Regular space |
+| `–` (U+2013 en-dash) | `-` or `, ` | Context-dependent |
+
+**Do NOT change:**
+- Vietnamese diacritics (ă, â, ê, ô, ơ, ư, đ, ắ, ặ, ề, ổ, etc.) — essential
+- Content inside `` ` `` backtick code spans or fenced ``` code blocks
+- Em-dash `—` (U+2014) — keep if used sparingly (< 3 per article) for genuine rhetorical breaks
+
+
 ## CONTENT PATTERNS
 
 ### 1. Undue Emphasis on Significance, Legacy, and Broader Trends
