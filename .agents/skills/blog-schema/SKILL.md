@@ -180,9 +180,11 @@ Do not substitute QAPage. Google supports QAPage for a page focused on one
 question where users can submit answers. Editorial FAQs, support FAQs, and blog
 Q&A sections do not meet that model.
 
-### Step 7: Generate VideoObject (if videos present)
+### Step 7: Generate VideoObject (ONLY if live video is embedded)
 
-For each YouTube video embedded in the post, generate a VideoObject schema:
+Only generate VideoObject schema for videos that are actively embedded in the rendered HTML (e.g. upon live publishing). Do NOT generate VideoObject for commented-out video suggestions (`<!-- Video suggestion: ... -->`).
+
+For each active YouTube video embedded in the post, generate a VideoObject schema:
 
 ```json
 {

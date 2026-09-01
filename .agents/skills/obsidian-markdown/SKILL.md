@@ -17,6 +17,7 @@ Create and edit valid Obsidian Flavored Markdown. Obsidian extends CommonMark an
 6. **Verify** the note renders correctly in Obsidian's reading view.
 
 > When choosing between wikilinks and Markdown links: use `[[wikilinks]]` for notes within the vault (Obsidian tracks renames automatically) and `[text](url)` for external URLs only.
+> **Note for Quartz/Public Blogs**: An internal `[[wikilink]]` will only resolve if the target markdown file exists in the published content vault with `publish: true`. Never use `[[wikilinks]]` to reference private notes or notes outside the public blog vault, as they render as 404 dead links.
 
 ## Internal Links (Wikilinks)
 

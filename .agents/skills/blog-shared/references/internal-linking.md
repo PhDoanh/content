@@ -283,6 +283,7 @@ Run this audit quarterly or when publishing new content.
 | Bidirectional links | Linked pages reciprocate where relevant | Add reciprocal links |
 | Pillar link present | If part of a topic cluster, links to/from pillar | Add pillar connection |
 | Links functional | All internal links return 200 | Fix broken links (301 or remove) |
+| Vault target resolution | Every internal `[[wikilink]]` MUST resolve to an existing file in `content/` with `publish: true`. Non-existent notes or private wiki notes create DEAD LINKS (404 in Quartz) | Replace with plain text concept name or create and publish the linked post |
 | Link placement | At least 1 link in first 3 paragraphs | Move important link higher |
 | No over-linking | No paragraph has more than 2 internal links | Remove least relevant link |
 | Anchor describes destination | Reader can predict what they'll find | Rewrite anchor text |

@@ -1,7 +1,7 @@
 ---
 name: blog
 description: Orchestrates full pipeline research → outline → write (+humanizer) → verify, pausing before publish. Use when user says "/blog", "run full blog pipeline", "produce post end-to-end".
-version: 2.2.0
+version: 2.3.0
 author: PhDoanh
 license: MIT
 allowed-tools: Read, Bash, Task
@@ -22,15 +22,34 @@ Runs inside `content` vault (`cwd = content`). All stages are read-only vs `pers
 - **Retrieval** — call subagent with `wiki-retrieve` if `python3 "$WIKI_PATH/scripts/retrieve.py" --vault "$WIKI_PATH" --verify` succeeds; fallback to `wiki/hot.md → wiki/index.md + text search`. Evidence assessment via `../blog-shared/references/synthesis-contract.md: 6 LAWs` + `claim-ledger` if present.
 - **Synthesis & quality** — `../blog-shared/references/{quality-scoring.md: 100pt, blog-delivery-contract.md: Gate 4 (≥90 AND zero P0 → BLOCKING true/false, max 3 iterations), synthesis-contract.md, flow-alignment.md}`.
 - **Pipeline stages** — call subagent for each: `blog-research` → `blog-outline` → `blog-write` → `blog-verify`. Never call `blog-publish` (explicit-only per `blog-config.json: publish.explicit_only:true`).
+- **Deterministic verification** — `python3 .agents/skills/blog-shared/scripts/verify_post.py --post <post> --content-root .` (checks word count, frontmatter, dead links, iframes, emojis, context leaks, charsets).
 - **Syntax & egress** — `../obsidian-markdown/SKILL.md` for `[[wikilink]]`/`![[embed]]`/callouts; `../defuddle/SKILL.md` before any `WebFetch`; `../blog-shared/templates/*.md` (12 types) for template selection.
 - **Config** — `blog-config.json` at vault root (single source of truth for thresholds).
 
 ## Workflow
 
-1. **blog-research** — call subagent with `blog-research` and topic. If result label `chưa chín` or `nội dung thời sự` → HARD-BOUND stop, print reason. Else proceed.
-2. **blog-outline** — call subagent with `blog-outline` and `research-report-{ts}.json` path. **Note:** `blog-outline` will run evergreen validation and word count estimation first. If the topic requires atomization (estimated > 3000w), `blog-outline` will pause to present the split. Orchestrator waits for the confirmed single-article scope before continuing.
-3. **blog-write** — call subagent with `blog-write` and post path; drafts answer-first, evidence-backed, `vi` default, humanizer + persona calibration auto-applied. Hard limit 3000w. Editorial sections removed or commented. Callout titles Vietnamese. Charset normalized.
-4. **blog-verify** — call subagent with `blog-verify` and post path → `reports/verify-report-{ts}.md`. New P0 gates checked: word count (P0-WC), visible editorial (P0-EDT), mixed callout language (P0-CALLOUT), non-basic charset (P0-CHARSET), non-evergreen framing (P0-EVERGREEN). If `BLOCKING: true` → feed report to `blog-write` next iteration (max 3). On `BLOCKING: false` → **pause**.
+1. **blog-research** — call subagent with `blog-research` and topic.
+   - If result label `chưa chín` or `nội dung thời sự` → HARD-BOUND stop, print reason.
+   - If `experience_status: INSUFFICIENT` → **PAUSE** and present questionnaire to the author. Collect real experience input before passing enriched research report to `blog-outline`.
+   - Distillation tags applied: `PUBLIC`, `NEEDS_DISTILLATION`, `INTERNAL_ONLY`.
+2. **blog-outline** — call subagent with `blog-outline` and `research-report-{ts}.json` path.
+   - Strictly enforces outline frontmatter: only `title`, `description`, `lang: vi`, `publish: false`, `tags` (3-5 specialized tags + `GenAI` + Level), `socialDescription`.
+   - `permalink` remains empty `""`, `updated` is omitted until `blog-write`.
+   - Deterministic word budget check: if budget > 3000w → pause and present atomization split to user.
+   - Skeleton pre-formats H2 headings with emojis and video suggestions as HTML comments.
+3. **blog-write** — call subagent with `blog-write` and post path.
+   - Bumps `updated: today`. Keeps `publish: false` and `permalink: ""`.
+   - Narrative flow strictly uses author experiences from research report (never fabricates generic developer war stories).
+   - Distills internal context into universal lessons (no leaked internal codenames like F2T, LOOP, QualityEvaluator).
+   - Prevents dead links: only link to existing published posts (`publish: true` in `content/`).
+   - Video suggestions formatted as HTML comments (`<!-- Video suggestion: ... -->`).
+   - Mandatory emoji at end of every H2 heading.
+   - Hard limit 3000w (deterministic check).
+4. **blog-verify** — call subagent with `blog-verify` and post path → `reports/verify-report-{ts}.md`.
+   - Runs fast deterministic P0 check (`verify_post.py`) + subagents (`blog-analyze`, `blog-seo-check`, `blog-factcheck`, `blog-geo`).
+   - P0 gates: P0-WC, P0-FM, P0-DEADLINK, P0-IFRAME, P0-EMOJI, P0-LEAK, P0-EDT, P0-CALLOUT, P0-CHARSET, P0-EVERGREEN.
+   - If `BLOCKING: true` → feed report to `blog-write` next iteration (max 3).
+   - On `BLOCKING: false` → **pause**.
 5. **Never call `blog-publish`** — user must run `blog-publish` explicitly with post path after `BLOCKING:false`.
 
 ## Artifacts

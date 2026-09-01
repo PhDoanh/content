@@ -125,7 +125,7 @@ For each pillar, design the complete hub-and-spoke structure:
 
                     ┌──────────────────┐
                     │   Pillar Page    │
-                    │   3,000-4,000w   │
+                    │   2,000-3,000w   │  (Hard ceiling: 3,000w max per article)
                     └────────┬─────────┘
                              │
            ┌─────────────────┼──────────────────┐
@@ -138,6 +138,8 @@ For each pillar, design the complete hub-and-spoke structure:
            └────────────────┼───────────────────┘
                     (cross-links between spokes)
 ```
+
+**Atomization Rule**: No individual article may exceed 3,000 words. Deep or sprawling topics must be split into atomic, tightly interlinked articles rather than a single monolithic guide.
 
 For each cluster, specify:
 - **8-12 spoke topics** per pillar, each targeting a specific long-tail keyword

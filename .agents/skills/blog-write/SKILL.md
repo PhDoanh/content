@@ -1,7 +1,7 @@
 ---
 name: blog-write
 description: Drafts article in-place from outline post, answer-first, evidence-backed, Flesch 60-70, auto humanizer. Use when user says "/blog-write", "draft content", "write post".
-version: 2.2.0
+version: 2.3.0
 author: PhDoanh
 license: MIT
 allowed-tools: Read, Grep, Glob, Bash, Write, Edit, Task
@@ -166,11 +166,50 @@ Call subagent with template signal table; load matching `../blog-shared/template
 
 ### Phase 1.75 — Word count pre-check
 
-Estimate word count from outline H2 count x per_h2_words. If estimated total > 3000w:
+Run this deterministic command to count body words (strip frontmatter, code blocks, and comments before counting):
+
+```bash
+python3 -c "
+import re, sys
+t = open(sys.argv[1]).read()
+t = re.sub(r'---.*?---', '', t, flags=re.DOTALL)       # strip frontmatter
+t = re.sub(r'%%.*?%%', '', t, flags=re.DOTALL)          # strip Obsidian comments
+t = re.sub(r'<!--.*?-->', '', t, flags=re.DOTALL)        # strip HTML comments
+t = re.sub(r'\x60{3}.*?\x60{3}', '', t, flags=re.DOTALL) # strip code blocks
+print(len(t.split()))
+" <post-path>
+```
+
+If estimated body words > 3000:
 1. Identify which H2s form standalone atomic articles
 2. Report proposed split to user (e.g. "This topic needs 5 articles: (1) B-Tree & Index fundamentals, (2) Constraints, ...")
 3. Proceed with ONE article (most foundational subtopic)
-4. Mark remaining H2 topics as `[[wikilink]]` placeholders in conclusion
+4. Mark remaining H2 topics as plain-text concept names in conclusion (NOT wikilinks unless published)
+
+### Phase 1.8 — Experience & Distillation Gate (NEW)
+
+Before writing any body content, validate two things from the research report:
+
+**A. Experience check per H2 section:**
+For each planned H2, identify which `cluster_notes` in the research report provides the first-person experience evidence for that section.
+- If the research report has `experience_status: SUFFICIENT` and `experience_notes` → use those notes directly for storytelling openers
+- If a specific H2 has no matching experience note → write that section as observed/cited, NOT as invented first-person narrative. Example: use "Tôi đọc được rằng..." or "Theo tài liệu Rails..." instead of fabricated "Tôi từng thấy..."
+- NEVER invent first-person stories that aren't supported by wiki evidence or author-provided experience notes
+
+**B. Distillation check per cluster note:**
+For each cluster note tagged `NEEDS_DISTILLATION`:
+- Extract the universal concept/principle (the thing a reader can understand without your project context)
+- Discard the internal wrapper. Transform:
+  - ❌ "F2T LOOP QualityEvaluator dùng `pluck(:id)` để tính accuracy" 
+  - ✅ "Trong một hệ thống đánh giá chất lượng tôi xây dựng, tôi dùng `pluck(:id)` thay vì load toàn bộ object — giảm query time đáng kể"
+  - ❌ "Như F2T LOOP cho thấy, lock_version tránh last-write-wins"
+  - ✅ "Optimistic locking dùng `lock_version` để bắt ghi đồng thời — khi hai request cùng update, request thứ hai nhận `StaleObjectError`"
+- Internal project names (F2T, QualityEvaluator, sprint names, internal tool aliases, team codenames) must NEVER appear in the blog body as-written. Always describe the pattern or outcome instead.
+- Notes tagged `INTERNAL_ONLY` → do not use as evidence at all
+
+**If research report is missing experience_status or distillation tags** (older report format):
+- Perform the distillation check manually by reading the wiki notes
+- For experience: note which sections can use "Tôi" authentically vs. which must use cited/observed voice
 
 ### Phase 2 — Research (inline, now)
 
@@ -192,15 +231,38 @@ Per `blog-config.json: write.skip_chart:true` — do not generate SVG charts. Wr
 
 ### Phase 5 — Content writing (in-place edit)
 
-1. **Frontmatter:** bump `updated: today`, keep `permalink: ""`, `lang: vi`, `publish: false`.
-2. **Intro (storytelling):** open with personal observation or concrete result. Introduce "Toi" in the first 2 sentences. 100-150w total.
-3. **Summary Box:** `> [!tldr] Tom tat` immediately after intro, 3-5 bullets, self-contained.
-4. **Body:** Feynman analogy first, then answer + stat (publisher, date, URL, retrieval). Persona voice throughout. 2-4 sentences per paragraph.
-5. **Internal links:** embed `[[wikilinks]]` naturally in body text. Do NOT create a separate "Vung lien ket noi bo" section — that is editorial scaffolding.
-6. **Evidence:** `([Source](url), year, retrieved YYYY-MM-DD)` inline. External >=3 tier1-3. Internal 5-10 core / 2-3 garden.
-7. **Headings/Images:** `H1->H2->H3` no skip. Image placement markers as `<!-- Image placement: ... -->`. YouTube srcdoc lazy if score >=50.
-8. **FAQ:** 3-5 Vietnamese Q&A items (core posts only).
-9. **Editorial cleanup:** Before saving, remove or comment out ALL scaffolding sections. Check that no reader-facing section is pipeline-only content.
+1. **Frontmatter:** ONLY bump `updated: YYYY-MM-DD` (today). Do NOT fill or change `permalink`, `aliases`, `cssclasses`, `socialImage` — those are set by `blog-publish` or manually. Leave them empty/default from outline. Tags were set at outline stage; do not override unless a specific tag is wrong.
+
+2. **Intro (storytelling):** Open with personal observation or concrete result grounded in research report `experience_notes`. Introduce "Tôi" in the first 2 sentences. 100-150w total. Only use first-person experience if research report has `experience_status: SUFFICIENT` for this section (see Phase 1.8).
+
+3. **Summary Box:** `> [!tldr] Tóm tắt` immediately after intro, 3-5 bullets, self-contained.
+
+4. **Body:** For each H2:
+   - Feynman analogy first, then answer + stat (publisher, date, URL, retrieval)
+   - Persona voice throughout. 2-4 sentences per paragraph
+   - Add 1 emoji after H2 heading text where appropriate (e.g. `## Migrations 🔍` or `## Validations ⚠️`) — pick from: 🔍 💡 ⚠️ 📌 🔧 🧪 🏗️ 🔒 📝 🧩. Keep max 1 per heading. Skip if tone doesn't fit
+   - Respect Phase 1.8: use "Tôi" only where experience evidence exists; use observed/cited voice elsewhere
+
+5. **Internal links:** Before adding any `[[wikilink]]` in body, verify it resolves to a published blog post:
+   - Run: `find content/ -name "*.md" -exec grep -l "publish: true" {} \;` to get list of published posts
+   - Only link to slugs that appear in that list, OR to the current article's companion articles in the same pipeline run
+   - If no published post exists: use plain text concept name instead of `[[wikilink]]`
+   - Example: write "ActiveRecord validations" (plain text) not `[[ActiveRecord Validations]]` (dead link)
+   - Do NOT create a separate "Vùng liên kết nội bộ" section — embed links naturally
+
+6. **Evidence:** `([Source](url), year, retrieved YYYY-MM-DD)` inline. External ≥3 tier1-3. Internal 5-10 core / 2-3 garden.
+
+7. **Video:** Do NOT embed live `<iframe>` in draft (publish: false) articles. Place as HTML comment suggestion instead:
+   ```html
+   <!-- Video suggestion: [title] https://youtube.com/watch?v=XXXX (review and embed after publish approval) -->
+   ```
+   Place the comment after the most relevant H2 section.
+
+8. **Images:** `<!-- Image placement: description, alt="..." -->` as HTML comments in appropriate sections.
+
+9. **FAQ:** 3-5 Vietnamese Q&A items (core posts only).
+
+10. **Editorial cleanup:** Before saving, remove or comment out ALL scaffolding. Check that no reader-facing section is pipeline-only content.
 
 ### Phase 5h — Humanizer (auto-applied)
 
@@ -215,14 +277,22 @@ If `../blog-style/SKILL.md` voice profile exists (`VOICE.md`), calibrate to it; 
 
 ### Phase 6 — Quality check (pre-delivery)
 
-Verify all of:
-- Word count <= 3000w (body only, excluding code blocks and comments) — if over, cut
-- Evergreen compliance — concept-driven; versions as context not headline
-- No visible editorial — no "Vung lien ket", no "Khoang trong", no `[!chart]` callouts, no bottom SEO blocks
-- Callout titles all Vietnamese (except `[!tldr]`)
-- Persona voice — "Toi" present, storytelling opener, no over-explanation, short paragraphs
-- Charset clean — no curly quotes, no Unicode lookalikes (Vietnamese diacritics OK)
-- Emoji placement — only after H2 or end of paragraph if used; never in callouts or code
+Run the fast deterministic P0 pre-check script:
+```bash
+python3 .agents/skills/blog-shared/scripts/verify_post.py --post <post> --content-root .
+```
+Fix any reported failure before proceeding:
+- **Word count** — body word count must be <= 3000w (cut aggressively if over: trim FAQ, collapse examples)
+- **Evergreen** — concept-driven; versions as context not headline
+- **Frontmatter** — `updated: today` set, `publish: false`, `permalink: ""` empty, 3-5 specialized tags + `GenAI` + Level (no folder tags)
+- **No visible editorial** — no "Vùng liên kết", no "Khoảng trống", no `[!chart]` callouts, no bottom SEO blocks visible to readers
+- **Callout titles** — all Vietnamese (except `[!tldr]`)
+- **Persona voice** — "Tôi" present, storytelling opener grounded in author experience, short paragraphs, no over-explanation
+- **Charset clean** — no curly quotes, no Unicode lookalikes (Vietnamese diacritics OK)
+- **Emoji placement** — every H2 heading must end with an emoji; optional light EOL emojis; never inside callouts or code
+- **No live iframes in draft** — `grep -n "<iframe" <post>` must return empty (live videos must be HTML comments)
+- **Wikilinks resolve** — every `[[link]]` must point to an existing post in `content/` with `publish: true`
+- **No wiki context leakage** — no all-caps internal acronyms (e.g. F2T, LOOP, QualityEvaluator) or raw internal wiki note titles in visible body
 
 ### Phase 6.5 — Delivery contract (gated by `blog-verify`)
 

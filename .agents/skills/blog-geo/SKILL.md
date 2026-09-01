@@ -72,7 +72,7 @@ Check each section between headings for AI-extractable passages:
 
 | Check | Criteria |
 |-------|----------|
-| Context independence | Each passage makes sense extracted from surrounding context |
+| Context independence | Each passage makes sense extracted from surrounding context. No unexplained internal codenames (e.g. F2T, LOOP, QualityEvaluator) or private wiki references needed to understand the point |
 | Claim structure | Passages contain: specific claim + supporting evidence + source attribution |
 | Completeness | Passage answers a question without requiring reader to read adjacent sections |
 

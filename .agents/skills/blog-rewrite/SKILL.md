@@ -78,10 +78,9 @@ rewrite work, see `/blog flow optimize`.
      - Opening-word repetition: top three first-words above 25% share
      - Paragraph-shape SD below 25 (visual monotony)
      Apply editorial judgment; none of these metrics changes the score or blocks delivery.
-4. **Video embed check**:
-   - Count existing YouTube embeds in the post
-   - If 0 embeds, flag: "No video embeds. Consider adding relevant high-quality YouTube embeds when they add useful context."
-   - If present, check: lazy loading? aria-labels? noscript fallback? VideoObject schema?
+4. **Video suggestion check**:
+   - Check if the post has video suggestions. In drafts (`publish: false`), videos must be HTML comments (`<!-- Video suggestion: ... -->`).
+   - If any live `<iframe>` embeds exist in a draft post, flag for conversion to HTML comments.
 5. **Cannibalization check**:
    - Identify the post's primary keyword from title, H1, and first paragraph
    - Search the blog directory for other posts targeting the same keyword:
@@ -172,12 +171,11 @@ context each claim needs. Do not force statistics or word bands.
 - If `blog-image` is available: generate custom images for sections lacking good stock matches, prefer the current image model registry, and record the model ID
 - Adapt embed format to detected platform (MDX vs markdown vs HTML)
 
-#### 4h. Add Video Embeds
-If the post lacks YouTube video embeds:
-- Search 2-3 relevant videos using quality criteria from `skills/blog/references/video-embeds.md`
-- Embed using platform-appropriate format (srcdoc lazy loading)
-- Place: 1 after introduction, 1-2 in mid-article sections
-- Include noscript fallback for AI crawlers
+#### 4h. Add Video Suggestions (Commented Out)
+If the post lacks video context:
+- Search 1-2 relevant YouTube videos using quality criteria from `skills/blog/references/video-embeds.md`
+- Place as HTML comment suggestions: `<!-- Video suggestion: [title], url="https://youtube.com/watch?v=..." (review and embed after publish approval) -->`
+- NEVER embed live `<iframe>` in draft (`publish: false`) posts. If live `<iframe>` embeds currently exist in the post, convert them to HTML comment suggestions.
 
 #### 4i. Add/Improve FAQ
 - If the query set warrants it and no FAQ exists, add one (3-5 questions)

@@ -68,13 +68,14 @@ Verify every cited URL unless the user explicitly sets a cutoff. Batch requests
 with rate limiting and emit resumable output so long source lists can continue
 after an interruption.
 
-### Step 4: Flag Uncited Claims
+### Step 4: Flag Uncited Claims & Verify Author Experience
 
 For claims without a URL:
 
-- Mark status as UNVERIFIED
-- Suggest a search query the user can run to find a source
-- If the attribution names a specific organization, suggest their domain
+- **External factual claims**: Mark status as UNVERIFIED. Suggest a search query to find a source.
+- **Author experience claims**: Check provenance against `research-report.json` (`author_experiences` or cluster notes).
+  - If grounded in authentic author notes/input: Mark status as VERIFIED_EXPERIENCE (confidence 1.0).
+  - If a generic first-person war story appears without any basis in wiki or author input: Flag as FABRICATED_EXPERIENCE (P0 blocking).
 
 ### Step 5: Generate Verification Report
 

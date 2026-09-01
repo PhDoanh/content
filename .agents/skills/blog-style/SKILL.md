@@ -75,6 +75,8 @@ project context. Blog-write can use the style baselines as drafting targets:
   terms.
 - Use the first-person and heading-question rates to decide how personal and
   question-led the draft should feel.
+- **Default Author Persona ("Doanh")**: Observant, demonstrates through concrete results rather than lecturing, storytelling openers grounded in authentic battle scars, Feynman analogies before technical terms, "Tôi" POV, 2-4 sentences per paragraph, mandatory emoji at end of every H2 heading per `contribution.md`.
+- **Experience Fidelity**: Never synthesize generic developer war stories. If source notes lack experience, write as observed/cited or solicit author input.
 
 Feed the JSON output into blog-persona when a structured persona should be
 created or updated. Map the learned values to persona sentence length, passive

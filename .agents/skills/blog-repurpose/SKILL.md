@@ -36,6 +36,8 @@ or frontmatter, and extract only content fields:
 - **TL;DR** - A concise summary that delivers standalone value
 - **Target audience** - Who the blog was written for
 - **Topic category** - For subreddit and hashtag selection
+- **Distillation hygiene** - Verify no internal project codenames (e.g. F2T, LOOP, QualityEvaluator) or private wiki note titles are carried over into social snippets; translate any specific case study into universal, relatable terms.
+- **Link hygiene** - Do not output `[[wikilink]]` syntax to social media; use real public blog URLs or plain text.
 
 ### Step 2: Ask User
 

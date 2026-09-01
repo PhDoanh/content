@@ -6,7 +6,7 @@ trusts `publish: false`.
 Usage:
   python3 finalize_outline.py --post <path> --config blog-config.json
 """
-import json, re, sys, argparse, unicodedata, datetime
+import json, re, sys, os, argparse, unicodedata, datetime
 
 def lang_ratios(body):
     vi_diacritics = re.compile(
@@ -35,12 +35,10 @@ def main():
     if not m:
         print("ERROR: post has no frontmatter", file=sys.stderr); sys.exit(1)
     fm_raw, body = m.group(1), m.group(2)
-    # bump updated (Q-P-1 yes, but outline also sets today)
-    today = datetime.date.today().isoformat()
+    # Outline frontmatter rule: 'updated' is NOT allowed at outline stage (only set by blog-write)
     if re.search(r"^updated:", fm_raw, re.MULTILINE):
-        fm_raw = re.sub(r"^updated:.*$", f"updated: {today}", fm_raw, flags=re.MULTILINE)
-    else:
-        fm_raw += f"\nupdated: {today}"
+        fm_raw = re.sub(r"^updated:.*$\r?\n?", "", fm_raw, flags=re.MULTILINE)
+        
     # lang check (warn only)
     lang_m = re.search(r"^lang:\s*(\w+)", fm_raw, re.MULTILINE)
     default_lang = cfg.get("write", {}).get("default_lang", cfg.get("default_lang", "vi"))
@@ -50,15 +48,35 @@ def main():
     thresh = cfg.get("write", {}).get("lang_char_ratio_warn_threshold", 0.3)  # blog-config.json:write.lang_char_ratio_warn_threshold
     if dominant != declared and ratios[dominant] > thresh:
         print(f"WARNING: declared lang='{declared}' but content seems '{dominant}' (~{ratios[dominant]:.0%})", file=sys.stderr)
-    # permalink is MANUAL per Q3 — do not touch, just ensure it exists empty if missing
+        
+    # permalink is empty "" at outline stage
     if not re.search(r"^permalink:", fm_raw, re.MULTILINE):
         fm_raw += '\npermalink: ""'
+    else:
+        # ensure empty
+        fm_raw = re.sub(r"^permalink:.*$", 'permalink: ""', fm_raw, flags=re.MULTILINE)
+        
     # keep publish false
     if not re.search(r"^publish:", fm_raw, re.MULTILINE):
         fm_raw += "\npublish: false"
+    else:
+        fm_raw = re.sub(r"^publish:.*$", "publish: false", fm_raw, flags=re.MULTILINE)
+        
     final = f"---\n{fm_raw}\n---\n{body}"
     open(args.post, "w", encoding="utf-8").write(final)
-    print(json.dumps({"post": args.post, "updated": today, "permalink_manual": True}, ensure_ascii=False))
+    
+    # Run deterministic text length & frontmatter check for outline
+    sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../blog-shared/scripts")))
+    try:
+        from text_length import validate_post
+        tl_res = validate_post(args.post, stage="outline")
+        if not tl_res["passed"]:
+            errors = [c["message"] for c in tl_res["checks"] if c["critical"] and not c["passed"]]
+            print(f"WARNING: Outline validation issues: {errors}", file=sys.stderr)
+    except Exception as e:
+        print(f"DEBUG: text_length import note: {e}", file=sys.stderr)
+        
+    print(json.dumps({"post": args.post, "stage": "outline", "permalink": "", "publish": False}, ensure_ascii=False))
 
 if __name__ == "__main__":
     main()

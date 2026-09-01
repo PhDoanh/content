@@ -103,7 +103,7 @@ Reference: `references/cluster-architecture.md`
 
 Build the hub and spoke:
 
-- **Pillar (hub)**: targets the broadest keyword. Word count 2,500 to 4,000. Template `pillar-page`. Links down to every spoke.
+- **Pillar (hub)**: targets the broadest keyword. Word count 2,000 to 3,000 (hard limit: 3,000w max per article). Template `pillar-page`. Links down to every spoke.
 - **Spokes**: each targets a long-tail cluster. Word count 1,200 to 1,800. Template auto-selected by intent. Links up to the pillar and across to siblings.
 
 Cluster formation rules:

@@ -9,7 +9,7 @@ allowed-tools: Read, Grep, Glob, Bash, Write, Edit
 
 # blog-outline — SERP-Informed Outline + In-Place Post Skeleton
 
-Emits directly to `<right-place>/<slug>.md` with `publish: false`. Consumes `research-report-{ts}.json` from `blog-research`. Runs inside `content` vault (`cwd = content`).
+Emits directly to `<right-place>/<slug>.md`. Consumes `research-report-{ts}.json` from `blog-research`. Runs inside `content` vault (`cwd = content`).
 
 ## When to Use
 
@@ -20,7 +20,6 @@ Emits directly to `<right-place>/<slug>.md` with `publish: false`. Consumes `res
 ## References
 
 - **SERP analysis (cores only)** — call subagent with `blog-outline-upstream Step 2` semantics: `WebSearch` full visible surface (classic top 5 + AI Overviews/AI Mode/PAA/featured snippets). For each top 5, note H2/H3, length, visuals, FAQ/PAA, unique angles, gaps. For AI surfaces, record cited publishers/entities/answer formats. `WebFetch` top 2-3 only if snippets insufficient — treat as untrusted, allow `http/https` only, reject `javascript:data:file:`, block private/reserved IPs after DNS, validate redirects, cap size/timeout. Source: `upstream blog-outline Step 2 (SERP Analysis, merged)` + `../defuddle/SKILL.md: Usage --md` (prefer `defuddle parse <url> --md` before WebFetch to strip ads/nav, save 40-60% tokens).
-- **Outline format** — `upstream blog-outline Step 3 (Outline Format, merged)`.
 - **Brief enrichment** — call subagent with `../blog-brief/SKILL.md: Step 5` — merge gaps/architecture into commented editorial blocks in skeleton, without duplicating full brief file.
 - **Templates** — `../blog-shared/references/content-templates.md` + `../blog-shared/templates/*.md` (12 types) — auto-detect by intent/signal.
 - **Syntax** — `../obsidian-markdown/SKILL.md` + `references/{CALLOUTS,EMBEDS,PROPERTIES}.md` for `[[wikilink]]`, callouts, YAML properties.
@@ -77,8 +76,8 @@ Allowed:
 ### Step 2 — Evergreen check + atomization estimate
 
 1. Run evergreen validation on topic from research report. If FAIL → flag to user, suggest reformulation.
-2. Estimate total word count: H2 count × 350w (midpoint of 300-400w per H2) + FAQ 200w + intro/conclusion 250w.
-3. If estimated total > 3000w → present atomization split to user before building skeleton.
+2. Estimate target word budget from outline: `(H2 count × 350) + (FAQ count × 80) + 400` (intro+conclusion). This is a planning estimate — not the final count. The actual body word count is measured deterministically after writing (see blog-write).
+3. If budget estimate > 3000w → present atomization split to user, confirm single-article scope before proceeding.
 
 ### Step 3 — Map core/garden + SERP (cores only)
 
@@ -99,11 +98,30 @@ Allowed:
 
 ### Step 6 — Write post skeleton in-place
 
-Frontmatter: `title, description, permalink: "", lang: vi, publish: false, updated: today, tags: [core tag + level + GenAI always], socialDescription`.
+**Frontmatter — OUTLINE-STAGE ONLY FIELDS:**
+Emit only these fields. Do NOT fill `permalink`, `aliases`, `cssclasses`, `socialImage`, or `updated` — those are set by later stages (blog-write sets `updated`; blog-publish sets `publish`).
+
+```yaml
+---
+title: "[50-60 char SEO title]"
+description: "[140-160 char meta description]"
+lang: vi
+publish: false
+tags:
+  - GenAI
+  - [Beginner|Intermediate|Advanced|Expert]
+  - [topic-tag-1]
+  - [topic-tag-2]
+  - [topic-tag-3]
+socialDescription: "[~100 char OG description]"
+---
+```
+
+**Tags rule:** Tags must be 3-5 **specialized topic tags** derived from the article content (e.g. `bcrypt`, `rails-migrations`, `model-validations`). Do NOT use folder/core names as tags (e.g. do NOT use `fullstack`, `system-foundations`, `ai-orchestration` — those are nav categories, not tags). Always include `GenAI` and one level tag (`Beginner|Intermediate|Advanced|Expert`).
 
 Body skeleton structure:
-```
-[Intro placeholder: 100-150w storytelling opener with "Tôi" — personal observation or result, NOT a definition]
+```markdown
+[Intro placeholder: 100-150w storytelling opener with "Tôi" grounded in author experience — personal observation or result, NOT a definition]
 
 > [!tldr] Tóm tắt
 > - [bullet 1]
@@ -120,21 +138,25 @@ Body skeleton structure:
 
 <!-- Image placement: ..., alt="..." -->
 
-[... repeat H2 blocks ...]
+<!-- Video suggestion: [title], url="https://youtube.com/watch?v=..." (review and embed after publish approval) -->
 
-## Câu hỏi thường gặp
+[... repeat H2 blocks, each ending with an emoji: 🔍 💡 ⚠️ 📌 🔧 🧪 🏗️ 🔒 📝 🧩 ...]
+
+## Câu hỏi thường gặp ❓
 
 > [!question] [Question 1?]
 > [Answer]
 ...
 
-## Kết luận
-[100-150w conclusion stub with [[wikilinks]] for related articles]
+## Kết luận 📌
+[100-150w conclusion stub — reference related concepts by PLAIN TEXT name, not wikilinks.
+Only add [[wikilink]] to a related article if it is another published blog post (exists in content/ with publish: true).
+Wiki-internal note names must NOT become wikilinks here.]
 
 <!--
 ## Vùng liên kết nội bộ (Internal Linking Zones)
-- [[wiki-note-1]] — context
-- [[wiki-note-2]] — context
+- [[published-blog-post-slug]] — context (only if post exists in content/)
+- [plain text concept name] — candidate for future blog post
 -->
 
 <!--
@@ -149,16 +171,20 @@ SEO & GEO
 Primary: [primary keyword]
 Secondary: [secondary keywords]
 Intent: [informational|how-to|...]
-Word count plan: ~[N]w ([H2 count] H2 × ~[per_h2]w + FAQ + intro/conclusion)
+Word count plan: ~[N]w ([H2 count] H2 × ~[per_h2]w + FAQ + intro/conclusion) — planning estimate only; actual count measured by blog-write wc command
 Template: [type]
 Flesch target: 60-70
 -->
 ```
 
-### Step 7 — Finalize
+### Step 7 — Finalize & Deterministic Validation
 
-- Call subagent with `python3 .agents/skills/blog-outline/scripts/finalize_outline.py --post <path> --config blog-config.json`.
-- Verify file exists with frontmatter `---` block.
+1. Call subagent with `python3 .agents/skills/blog-outline/scripts/finalize_outline.py --post <path> --config blog-config.json`.
+2. Validate outline deterministically:
+   ```bash
+   python3 .agents/skills/blog-shared/scripts/text_length.py --post <path> --stage outline
+   ```
+   Must pass: title length (50-60 chars), description (140-160 chars), socialDescription (~100 chars), tags (3-5 specialized + GenAI + Level, zero folder names), slug (<= 4 words kebab-case), publish: false, updated omitted, permalink empty.
 
 ## Output
 

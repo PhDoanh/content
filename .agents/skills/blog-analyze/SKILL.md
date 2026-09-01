@@ -90,12 +90,12 @@ audience. They do not predict citation probability.
 #### SEO Optimization (25 points)
 | Check | Points | Pass Criteria |
 |-------|--------|---------------|
-| Heading hierarchy and navigation | 5 | Clear document topic, clean hierarchy, unique descriptive headings |
-| Title clarity and purpose fit | 4 | Accurate, distinctive title consistent with visible content |
+| Heading hierarchy and navigation | 5 | Clear document topic, clean hierarchy, unique descriptive headings with emoji visual markers |
+| Title clarity and purpose fit | 4 | Accurate, distinctive title (50-60 chars) consistent with visible content |
 | Semantic topic consistency | 4 | Title, headings, and body describe the same reader task without exact-match quotas |
-| Internal linking (3-10 contextual) | 4 | Descriptive anchor text, bidirectional |
-| URL structure | 3 | Stable, readable, consistently cased path |
-| Meta description accuracy | 3 | Useful page-specific summary consistent with visible content |
+| Internal linking (3-10 contextual) | 4 | Descriptive anchor text, bidirectional, targets MUST exist in `content/` with `publish: true` (zero dead links) |
+| URL structure | 3 | Stable, readable, <=4 words kebab-case path |
+| Meta description accuracy | 3 | Useful page-specific summary (140-160 chars) consistent with visible content |
 | External linking (tier 1-3) | 2 | 3-8 outbound links to authoritative sources |
 
 #### E-E-A-T Signals (15 points)

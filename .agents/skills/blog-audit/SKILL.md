@@ -92,7 +92,7 @@ of analyzer JSON, not separate scoring rubrics.
 - Build a directed link graph
 - Detect orphan pages (zero inbound internal links)
 - Detect dead-end pages (zero outbound internal links)
-- Check for broken internal link targets
+- Check for broken internal link targets: validate that every `[[wikilink]]` resolves to an existing markdown file in `content/` with `publish: true`. Flag dead wikilinks to internal wiki notes or unpublished drafts as critical broken links
 - Recommend bidirectional link opportunities
 
 #### Freshness Check Layer

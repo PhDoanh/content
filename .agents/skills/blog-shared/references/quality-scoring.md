@@ -81,6 +81,11 @@ When reporting issues, classify by priority:
 - Broken heading hierarchy (H1 → H3 skip)
 - No source attribution on claims
 - Missing author attribution
+- Dead internal links (`[[wikilinks]]` that do not resolve to published `content/` posts with `publish: true`)
+- Leaked internal wiki context (raw note titles, private project codenames like F2T, LOOP, QualityEvaluator)
+- Body word count exceeding hard limit of 3,000 words
+- Missing emoji visual markers on H2 headings (per `contribution.md`)
+- Live `<iframe>` embeds in draft posts (`publish: false`) — must be HTML comment suggestions
 - Verified primary-content inaccessibility for a declared target crawler,
   whether caused by rendering, robots policy, authentication, or fetch failure
 

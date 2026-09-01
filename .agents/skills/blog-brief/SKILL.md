@@ -131,23 +131,28 @@ Output format:
 what the searcher wants]
 
 ## Content Parameters
-- **Word count**: [2,000-2,500] words
+- **Word count**: [1,500-2,500] words (Hard limit: 3,000 words max)
+- **Title length**: 50-60 characters
+- **Meta description length**: 140-160 characters
+- **Social description length**: ~100 characters (70-130)
 - **Reading level**: Flesch 60-70 (expert-accessible)
 - **Format**: [Markdown/MDX/HTML]
-- **H2 sections**: [6-8]
+- **H2 sections**: [6-8], each ending with an emoji (e.g. 🔍, 💡, ⚠️, 📌, 🔧, 🧪, 🏗️, 🔒, 📝, 🧩)
+- **Tags**: 3-5 specialized topic tags + `GenAI` + Level (`Beginner|Intermediate|Advanced|Expert`). Zero folder/core names.
 - **Images**: 3-5 original assets, product screenshots, diagrams, charts, or licensed stock when needed
-- **Charts**: 2-4 via built-in blog-chart (diverse types)
+- **Videos**: 1-2 suggested YouTube videos, formatted as HTML comments (`<!-- Video suggestion: ... -->`), never live iframes in draft
+- **Charts**: Wrap any chart suggestion in `<!-- ... -->` since `skip_chart: true`
 - **FAQ items**: Optional 3-5 when People Also Ask or user questions warrant them; not a Google rich-result target
 
 ## Recommended Title
-[Clear title that identifies the page and matches search intent]
+[Clear title (50-60 chars) that identifies the page and matches search intent]
 
 Alternative titles:
 1. [Option 2]
 2. [Option 3]
 
 ## Meta Description
-[Accurate, page-specific summary that matches the visible content]
+[Accurate, page-specific summary (140-160 chars) that matches the visible content]
 
 ## TL;DR Draft
 > **TL;DR:** [Concise optional summary with the key finding and verified support
