@@ -7,6 +7,12 @@ _infio_prompts/*
 
 private/*
 
-# blog pipeline reports
+# blog pipeline
 .agents/skills/*/reports/
 skills/*/reports/
+blog-config.json
+
+# AI Agent related files
+AGENTS.md
+.agents/
+.claudian/

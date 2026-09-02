@@ -31,7 +31,8 @@ Tôi từng nghĩ tạo bảng users chỉ là `CREATE TABLE` rồi xong, cho t�
 
 Hãy tưởng tượng Model như bản thiết kế nhà. Migrations là móng, đổ một lần và ghi lại từng lần sửa. Validations là quy chuẩn xây dựng, chặn vật liệu sai trước khi dựng tường. `has_secure_password` là khóa cửa, không phải ổ khóa giả. Tests là kiểm định, gõ búa vào từng mối nối để chắc không sập khi có người ở. Thiếu một trụ, nhà vẫn đứng tạm, nhưng gió lớn sẽ lộ.
 
-**Trả lời nhanh:** Model là lớp duy nhất chạm cả ba tầng - Ruby, SQL và dữ liệu người dùng - nên lỗi ở Model lan ra toàn hệ thống; Chương 6 tài liệu Rails Tutorial của Michael Hartl chọn đúng thứ tự migrations -> validations -> `has_secure_password` -> tests để khóa từng tầng.
+> [!note] Trả lời nhanh
+> Model là lớp duy nhất chạm cả ba tầng - Ruby, SQL và dữ liệu người dùng - nên lỗi ở Model lan ra toàn hệ thống; Chương 6 tài liệu Rails Tutorial của Michael Hartl chọn đúng thứ tự migrations -> validations -> `has_secure_password` -> tests để khóa từng tầng.
 
 Tôi thấy nhiều team bắt đầu từ controller rồi vá model sau. Controller chết sau mỗi request, model sống cùng dữ liệu nhiều tháng. Một validation thiếu hôm nay thành dữ liệu bẩn ngày mai.
 
@@ -48,7 +49,8 @@ Trong một hệ thống tự động tôi từng xây dựng, bộ lọc đánh
 
 Nghĩ về migrations như git log cho database. Mỗi file là một commit: tạo bảng, thêm cột, thêm index. Rails chạy chúng theo timestamp, và `db/schema.rb` là bản build cuối cùng.
 
-**Trả lời nhanh:** Migrations là file Ruby có timestamp trong `db/migrate`, mô tả thay đổi schema theo thời gian; `rails db:migrate` áp tuần tự và `db/schema.rb` luôn là snapshot chuẩn để `db:schema:load`.
+> [!note] Trả lời nhanh
+> Migrations là file Ruby có timestamp trong `db/migrate`, mô tả thay đổi schema theo thời gian; `rails db:migrate` áp tuần tự và `db/schema.rb` luôn là snapshot chuẩn để `db:schema:load`.
 
 Tôi chạy lệnh quen thuộc:
 
@@ -56,7 +58,7 @@ Tôi chạy lệnh quen thuộc:
 rails generate model User name:string email:string
 ```
 
-Rails sinh ra bốn thứ cùng lúc: `db/migrate/YYYYMMDDHHMMSS_create_users.rb`, `app/models/user.rb`, `test/models/user_test.rb` và `test/fixtures/users.yml`. File migration trông như thế này ([Rails Guides - Active Record Migrations](https://guides.rubyonrails.org/active_record_migrations.html), retrieved 2026-09-01):
+Rails sinh ra bốn thứ cùng lúc: `db/migrate/YYYYMMDDHHMMSS_create_users.rb`, `app/models/user.rb`, `test/models/user_test.rb` và `test/fixtures/users.yml`. File migration trông như thế này ([Rails Guides - Active Record Migrations](https://guides.rubyonrails.org/active_record_migrations.html)):
 
 ```ruby
 class CreateUsers < ActiveRecord::Migration[7.0]
@@ -93,7 +95,8 @@ Rails suy luận `add_column` từ tên migration như ví dụ ở trên.
 
 Nếu migrations là móng, validations là người gác cửa. Mỗi bản ghi phải qua bốn khiên trước khi chạm DB: có mặt, độ dài hợp lệ, định dạng đúng, và không trùng.
 
-**Trả lời nhanh:** `validates` là chốt chặn trước `create/save/update`; nếu fail thì trả `false` và điền `errors`, giúp UI báo lỗi mà không chạm DB.
+> [!note] Trả lời nhanh
+> `validates` là chốt chặn trước `create/save/update`; nếu fail thì trả `false` và điền `errors`, giúp UI báo lỗi mà không chạm DB.
 
 Tôi định nghĩa model như Hartl gợi ý:
 
@@ -107,7 +110,7 @@ class User < ApplicationRecord
 end
 ```
 
-`presence: true` chặn `nil`, `""` và `"   "` - quan trọng vì form thường gửi chuỗi rỗng ([Rails Guides - Active Record Validations](https://guides.rubyonrails.org/active_record_validations.html), retrieved 2026-09-01).
+`presence: true` chặn `nil`, `""` và `"   "` - quan trọng vì form thường gửi chuỗi rỗng ([Rails Guides - Active Record Validations](https://guides.rubyonrails.org/active_record_validations.html)).
 
 `length` hỗ trợ `minimum`, `maximum`, `in: 6..20`, `is: 10`. `format` dùng regex với neo `\A` và `\z` để khớp toàn chuỗi:
 
@@ -139,7 +142,8 @@ Tôi tránh `update_attribute` vì nó bỏ qua mọi khiên. tài liệu Active
 
 Tôi từng tin validation ở model là đủ, cho tới khi hai request đăng ký cùng email chạy song song và cả hai đều `valid?`. Hai `INSERT` cùng qua, DB không phàn nàn, và tôi có duplicate. Vấn đề là timing.
 
-**Trả lời nhanh:** Validation ở model chạy ở tầng Ruby nên hai request song song có thể cùng vượt qua; chỉ `add_index ... unique: true` ở DB mới đảm bảo duy nhất tuyệt đối.
+> [!note] Trả lời nhanh
+> Validation ở model chạy ở tầng Ruby nên hai request song song có thể cùng vượt qua; chỉ `add_index ... unique: true` ở DB mới đảm bảo duy nhất tuyệt đối.
 
 Hai request cùng kiểm `exists?` -> false, cùng `INSERT` -> duplicate nếu thiếu index. Đây là race condition kinh điển.
 
@@ -170,7 +174,8 @@ Mọi `uniqueness: true` phải đi kèm `add_index ... unique: true`. Optimisti
 
 Mật khẩu là thứ duy nhất bạn không bao giờ được nhìn thấy lại sau khi người dùng gõ. Tôi từng thấy codebase lưu plaintext để "debug dễ". Đó là cửa mở cho rò rỉ.
 
-**Trả lời nhanh:** `has_secure_password` (cần gem `bcrypt` + cột `password_digest`) tự băm mật khẩu bằng Blowfish salted cost 2^12, lưu hash và cung cấp `authenticate(plaintext)` so sánh constant-time.
+> [!note] Trả lời nhanh
+> `has_secure_password` (cần gem `bcrypt` + cột `password_digest`) tự băm mật khẩu bằng Blowfish salted cost 2^12, lưu hash và cung cấp `authenticate(plaintext)` so sánh constant-time.
 
 Setup chỉ ba bước, nhưng thiếu một bước là lỗi ngay:
 
@@ -194,7 +199,7 @@ class User < ApplicationRecord
 end
 ```
 
-`has_secure_password` thêm `password=` (băm vào `password_digest`), `password_confirmation=` và `authenticate(plaintext)` ([Rails API - ActiveModel::SecurePassword](https://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html), retrieved 2026-09-01). Hai user cùng mật khẩu vẫn cho hash khác nhau vì salt.
+`has_secure_password` thêm `password=` (băm vào `password_digest`), `password_confirmation=` và `authenticate(plaintext)` ([Rails API - ActiveModel::SecurePassword](https://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html)). Hai user cùng mật khẩu vẫn cho hash khác nhau vì salt.
 
 ```ruby
 user = User.create!(name: "An", email: "an@example.com", password: "foobar", password_confirmation: "foobar")
@@ -202,7 +207,7 @@ user.authenticate("foobar") # => user
 user.authenticate("wrong")  # => false
 ```
 
-Cost 12 nghĩa là 4096 vòng, tốn ~250 ms, đủ chậm để chống brute-force ([OWASP Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html), retrieved 2026-09-01; [bcrypt gem](https://github.com/bcrypt-ruby/bcrypt-ruby), retrieved 2026-09-01). OWASP khuyến nghị chỉnh cost sao cho băm tốn 250-500 ms.
+Cost 12 nghĩa là 4096 vòng, tốn ~250 ms, đủ chậm để chống brute-force ([OWASP Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html); [bcrypt gem](https://github.com/bcrypt-ruby/bcrypt-ruby)). OWASP khuyến nghị chỉnh cost sao cho băm tốn 250-500 ms.
 
 | Cost | Vòng | Thời gian | Ghi chú |
 |------|------|-----------|---------|
@@ -223,7 +228,8 @@ Cost 12 nghĩa là 4096 vòng, tốn ~250 ms, đủ chậm để chống brute-f
 
 Tôi viết test model không phải để đạt coverage, mà để khóa hành vi. Mỗi validation có một test khóa, xóa validation là test đỏ ngay.
 
-**Trả lời nhanh:** Model tests sống ở `test/models/user_test.rb`, kế thừa `ActiveSupport::TestCase`, dùng `setup` tạo `@user` hợp lệ rồi đổi từng field để assert `valid?`/`invalid?`.
+> [!note] Trả lời nhanh
+> Model tests sống ở `test/models/user_test.rb`, kế thừa `ActiveSupport::TestCase`, dùng `setup` tạo `@user` hợp lệ rồi đổi từng field để assert `valid?`/`invalid?`.
 
 Khung chuẩn từ tài liệu kiểm thử Rails:
 
@@ -282,7 +288,7 @@ michael:
   password_digest: <%= User.digest("password") %>
 ```
 
-Model tests kế thừa `ActiveSupport::TestCase`, không cần `get`/`post` như controller tests ([Rails Guides - Testing](https://guides.rubyonrails.org/testing.html), retrieved 2026-09-01).
+Model tests kế thừa `ActiveSupport::TestCase`, không cần `get`/`post` như controller tests ([Rails Guides - Testing](https://guides.rubyonrails.org/testing.html)).
 
 Lệnh chạy:
 
@@ -303,7 +309,8 @@ Tôi chạy `rails test:models` trước mỗi commit liên quan đến User. N�
 
 Mỗi trụ đứng riêng đã tốt, nhưng giá trị thật nằm ở thứ tự. Migrations trước, validations sau, bcrypt sau nữa, tests khóa cuối. Đảo thứ tự, bạn sẽ vá lỗi thay vì ngăn lỗi.
 
-**Trả lời nhanh:** Quy trình khép kín là: sinh migration -> chạy migrate -> thêm validations + `has_secure_password` -> viết test khóa lại -> thêm index DB -> rà soát lại các điều kiện lọc trạng thái để đảm bảo dữ liệu luôn được bảo vệ đa tầng.
+> [!note] Trả lời nhanh
+> Quy trình khép kín là: sinh migration -> chạy migrate -> thêm validations + `has_secure_password` -> viết test khóa lại -> thêm index DB -> rà soát lại các điều kiện lọc trạng thái để đảm bảo dữ liệu luôn được bảo vệ đa tầng.
 
 Checklist trước mỗi deploy có đụng tới User:
 
